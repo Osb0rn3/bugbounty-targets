@@ -1,0 +1,46 @@
+name: Crawl bugbounty platforms
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  run_and_push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run crawler
+        env:
+          HACKERONE_USERNAME: ${{ secrets.HACKERONE_USERNAME }}
+          HACKERONE_TOKEN: ${{ secrets.HACKERONE_TOKEN }}
+        run: python main.py
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Set up GitHub token for push
+        run: |
+          git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
+
+      - name: Commit and push changes
+        run: |
+          git add .
+          git commit -m "Update programs to the latest version"
+          git push
