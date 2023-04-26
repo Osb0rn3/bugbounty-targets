@@ -179,10 +179,10 @@ async def main():
     public_programs_yeswehack = PublicPrograms(api=yeswehack_api)
 
     await asyncio.gather(
-        # public_programs_hackerone.get_hackerone_programs(),
+        public_programs_hackerone.get_hackerone_programs(),
         public_programs_intigriti.get_intigriti_programs(),
-        # public_programs_bugcrowd.get_bugcrowd_programs(),
-        # public_programs_yeswehack.get_yeswehack_programs()
+        public_programs_bugcrowd.get_bugcrowd_programs(),
+        public_programs_yeswehack.get_yeswehack_programs()
     )
 
     logging.info("Programs crawled successfully.")
