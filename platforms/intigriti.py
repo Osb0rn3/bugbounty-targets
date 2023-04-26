@@ -5,7 +5,7 @@ class IntigritiAPI(API):
         """
         Initialize a new BugcrowdAPI object.
         """
-        super().__init__(base_url='https://api.intigriti.com/core')
+        super().__init__(base_url='https://api.intigriti.com/core/public')
 
     async def program_info(self, scope: str) -> dict:
         """
@@ -17,5 +17,5 @@ class IntigritiAPI(API):
         Returns:
             list: A list of dictionaries representing the targets.
         """
-        response_json = await self.get(f"{self.base_url}/program/{scope}")
+        response_json = await self.get(f"{self.base_url}/programs/{scope}")
         yield response_json

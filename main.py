@@ -133,7 +133,7 @@ class PublicPrograms:
         Returns:
             List[dict]: A list of dictionaries representing public programs.
         """
-        endpoint = f'{self.api.base_url}/program'
+        endpoint = f'{self.api.base_url}/programs'
         response_json = await self.api.get(endpoint)
         if len(response_json) > 0:
             self.results.extend(response_json)
@@ -179,10 +179,10 @@ async def main():
     public_programs_yeswehack = PublicPrograms(api=yeswehack_api)
 
     await asyncio.gather(
-        public_programs_hackerone.get_hackerone_programs(),
+        # public_programs_hackerone.get_hackerone_programs(),
         public_programs_intigriti.get_intigriti_programs(),
-        public_programs_bugcrowd.get_bugcrowd_programs(),
-        public_programs_yeswehack.get_yeswehack_programs()
+        # public_programs_bugcrowd.get_bugcrowd_programs(),
+        # public_programs_yeswehack.get_yeswehack_programs()
     )
 
     logging.info("Programs crawled successfully.")
