@@ -47,6 +47,11 @@ curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/progra
 ```bash
 curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | select(.program_url=="/dell-product") | .target_groups[] | select(.in_scope==true) | .targets[].name' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
 ```
+
+### Get only wildcard subs using program_url only in_scope
+```bash
+curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | select(.program_url=="/tesla") | .target_groups[] | select(.in_scope==true) | .targets[].name' | grep "*." | anew
+```
 </details>
 
 <details>
