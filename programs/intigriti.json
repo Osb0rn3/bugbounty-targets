@@ -1,262 +1,5 @@
 [
     {
-        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "Uphold",
-        "companyName": "Uphold.com",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "upholdcom",
-        "name": "Uphold.com",
-        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680680521,
-        "lastSubmissionAt": 1682693791,
-        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
-        "domains": [
-            {
-                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
-                "type": 3,
-                "endpoint": "1101145849",
-                "businessImpact": 4,
-                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
-                "type": 1,
-                "endpoint": "api.uphold.com",
-                "businessImpact": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
-                "type": 2,
-                "endpoint": "com.uphold.wallet",
-                "businessImpact": 4,
-                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
-                "type": 1,
-                "endpoint": "uphold.com/dashboard",
-                "businessImpact": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
-            },
-            {
-                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
-                "type": 1,
-                "endpoint": "api-sandbox.uphold.com",
-                "businessImpact": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
-                "type": 1,
-                "endpoint": "sandbox.uphold.com/dashboard",
-                "businessImpact": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
-            },
-            {
-                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
-                "type": 1,
-                "endpoint": "*.uphold.com",
-                "businessImpact": 2,
-                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
-            }
-        ]
-    },
-    {
-        "programId": "0f95dabb-d299-4574-befc-bb96a3bafb42",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "visma",
-        "name": "Visma",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. No code is flawless and we believe that taking part in the Intigriti community can help us improve the security of our systems.",
-        "minBounty": {
-            "value": 100.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 7500.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679914310,
-        "lastSubmissionAt": 1682910390,
-        "logoId": "public_bucket_29626c8f-d7e6-49e1-8e02-86e2cf6c2a24-211f7292-a2d6-43a6-9e2d-680449475f75",
-        "domains": [
-            {
-                "id": "d8cbda39-b3e1-45f3-8b7f-032b8a3f187e",
-                "type": 3,
-                "endpoint": "564141518",
-                "businessImpact": 3,
-                "description": "**Visma Scanner**\nVisma Scanner is a mobile app used for sending receipts and invoices to your Visma accounting system.\nThe iOS version of the app can be found here:\nhttps://apps.apple.com/us/app/visma-scanner/id564141518\nPlease read and follow the steps in the Startup guide to create an account and start hacking: https://vismabugbountyprod.z16.web.core.windows.net/VismaScanner-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)\n* Private screen exposure in the app\n* Stack traces from api calls\n* Jailbroken devices is out of scope\n* All options for login are out of scope, except eAccounting (please see details in the \"Getting Started instructions document\"\n\n\n"
-            },
-            {
-                "id": "af0756f3-d62d-4f53-bfe2-d5b04cec5321",
-                "type": 1,
-                "endpoint": "accountsettings.connect.identity.stagaws.visma.com",
-                "businessImpact": 3,
-                "description": "**Connect**\nSee instructions for domain \"connect.identity.stagaws.visma.com\".\n\n**Out of scope:**\n* Session invalidation after enabling 2FA - by design intended to work like this\n"
-            },
-            {
-                "id": "be911424-59ea-4af4-8246-4af4400f47bf",
-                "type": 1,
-                "endpoint": "admin.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**Visma Online**\nThis is the old interface for the customer's administrators to administrate the company, where we still have some functionality that has not been moved to the new interface. For example invoicing information and everything regarding collaborations with AO. The collaboration part is out of scope as long as the use of student companies.\nPlease read the Getting Started Instructions in the \"myservices.stage.vismaonline.com\" asset description.\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n"
-            },
-            {
-                "id": "97716dfe-68fd-41d0-8929-0a9b95930e79",
-                "type": 1,
-                "endpoint": "ai-testing.maventa.com",
-                "businessImpact": 3,
-                "description": "**AutoInvoice**\n\nThis is the main UI for Visma AutoInvoice. AutoInvoice is Visma's automated and fully ERP integrated service for sending, receiving and handling invoices. AutoInvoice converts and exchanges electronic invoices, optionally prints invoices that can't be sent electronically, receives and interpret PDF invoices and offers services for scanning and interpretation of paper invoices. AutoInvoice handles both Business to Business (B2B) and Business to Consumer (B2C) invoices.\n\nUses partially the embeddable user interface from autointerface-embeddable-stage.maventa.com\n\nCreate a test account on https://ai-testing.maventa.com/registrations, or use one of the demo accounts in the getting started instructions below:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaAutoinvoice-getting-started.pdf\n\n**Out of scope or works as expected (accepted risk):**\n\n* adding users to your own company without consent\n* language change CSRF\n* application level DOS from /gdpr endpoint\n* duplicate BID/organization number check on registration can be circumvented by race condition (e.g. open two accounts with same BID/org number at same time)\n* IDOR to delete Invoice ID's belonging to different companies by using GDPR removal form (background job checks the right to delete invoices)\n* Hyperlink Injection via emails while adding users to your company\n* User Enumeration via Timing Discrepancy while registering new users\n* Logout CSRF\n\nNote! ai-testing.maventa.com and testing.maventa.com point to the same application but have different branding on the UI. Authentication to the user interface is handled using the Visma Connect service."
-            },
-            {
-                "id": "413d39c0-3185-468c-a20e-4e9c8913ea47",
-                "type": 1,
-                "endpoint": "api.workbox.dk",
-                "businessImpact": 3,
-                "description": "**Dinero**\nThis is Dinero's Public API.See instructions for \"app.workbox.dk\""
-            },
-            {
-                "id": "7aa075a0-55c8-4a3e-a76d-94c8792fd444",
-                "type": 1,
-                "endpoint": "app.workbox.dk",
-                "businessImpact": 3,
-                "description": "**Dinero**\nDinero is an accounting software for sole traders and micro businesses based out of Denmark. Our only target group is danish companies and therefore the interface is in danish only.The application is a SaaS application hosted in the cloud and consists of a main application and a number of supportive microservices.\n\nSee the getting started document here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDinero-getting-started.pdf\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Getting access to Pro features as Free user.\n\n\n"
-            },
-            {
-                "id": "adaff973-0976-488e-b439-d3fedd1bac3a",
-                "type": 1,
-                "endpoint": "authz.workbox.dk",
-                "businessImpact": 3,
-                "description": "**Dinero**\nUsed for Authorization (OAuth). See instructions for \"app.workbox.dk\"\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)."
-            },
-            {
-                "id": "49a72e4a-711f-4931-aaa3-4a312d4c0bbd",
-                "type": 1,
-                "endpoint": "autointerface.stag.visma.net",
-                "businessImpact": 3,
-                "description": "**AutoInvoice**\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials.\n\nThe same resource can be accessed through the URL **autointerface-embeddable-stage.maventa.com**\n\nAll data processing is done through the REST API at ax-stage.maventa.com\n\n**Out of scope or works as expected (accepted risk):**\n* Clickjacking is out of scope for this asset since it is designed to be framed (embedded) in other 3rd party services.\n* Regular users are allowed to view certain admin settings pages (but not allowed to edit the settings)\n\n"
-            },
-            {
-                "id": "13f04d4c-09b1-462d-a0a2-efc575c94984",
-                "type": 1,
-                "endpoint": "ax-stage.maventa.com",
-                "businessImpact": 3,
-                "description": "**AutoInvoice**\nhttps://ax-stage.maventa.com is a REST API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/rest-api/ and https://ax-stage.maventa.com/swagger/#/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials.\n\n**Out of scope or works as expected (accepted risk):**\n* Regular users are allowed to read certain company settings even though they are not perhaps visible in the UI (but they are not allowed to edit the settings)"
-            },
-            {
-                "id": "0cd19e39-7493-4ca9-a941-1eaad2e2592e",
-                "type": 2,
-                "endpoint": "com.visma.blue",
-                "businessImpact": 3,
-                "description": "**Visma Scanner**\nVisma Scanner is a mobile app used for sending receipts and invoices to your Visma accounting system.\nThe Andriod version of the app can be found here:\nhttps://play.google.com/store/apps/details?id=com.visma.blue&hl=en\nPlease read and follow the steps in the Startup guide to create an account and start hacking: https://vismabugbountyprod.z16.web.core.windows.net/VismaScanner-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)\n* Private screen exposure in the app\n* Stack traces from api calls\n* Jailbroken devices is out of scope\n* All options for login are out of scope, except eAccounting (please see details in the \"Getting Started instructions document\""
-            },
-            {
-                "id": "75f23238-57ba-48cc-94c2-a417a97896e0",
-                "type": 1,
-                "endpoint": "connect.identity.stagaws.visma.com",
-                "businessImpact": 3,
-                "description": "**Connect**\nVisma Connect is featurewise a small but critical component in the Visma portfolio. It is a single sign-on solution used by many Visma services. It is also the place where users manage security preferences such as passwords, MFA, 2FA, email and other account settings.\n\nUser accounts for testing can be created on https://connect.identity.stagaws.visma.com (this signup flow is not available in production).\n\nThe test accounts will not have access to any other services right now, so testing is limited to the login portal itself.\n\n**Out of scope:**\n* Session invalidation after enabling 2FA - by design intended to work like this.\n"
-            },
-            {
-                "id": "e437e5a4-63ad-4fc5-af18-30eb7c1c7172",
-                "type": 1,
-                "endpoint": "eaccounting.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**eAccounting**\nThis is \"Visma eAccounting\" (aka Visma eEkonomi / Visma ePasseli) which is an ERP system available in Sweden, Norway, Finland and The Netherlands.\n\nWe've added into scope also the eEkonomi \"Visma L\u00f6n Smart\" which is a subservice of eAccounting. This can be found after you activate your account (check out the instructions bellow).\n\nYou can read more on https://www.visma.no/eaccounting/english/\n\nYou need to register an user to test this system. The sign-up up process is described in this document:\nhttps://vismabugbountyprod.z16.web.core.windows.net/Visma-eAccounting-getting-started.pdf\n\nThis video also shows the entire setup (only Swedish audio) https://www.youtube.com/watch?v=kVr_CXgfhi0&t=4s\n\nTLDR: Goto https://admin.stage.vismaonline.com/Customer/StudentSignup.aspx and sign up with the training code \"04h2v\"\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Modification of gray-out fields when logged in with an admin account.\n* Improper access control: manipulation of the message conversation by members that have no permission (edit subject, join thread conversation, closing the conversation).\n* Email phishing\n* PDF injection\n* Permissions for L\u00f6n Smart (the permissions in eAccounting don\u00b4t apply at all for L\u00f6n Smart).\n* Possibility to create Orders and Quotes with amount 0\u20ac\n* Race Condition in article stock limits"
-            },
-            {
-                "id": "11710a8b-72ee-42de-b1b2-6df725aecb5b",
-                "type": 1,
-                "endpoint": "eaccountingprinting.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**eAccounting**\nYou reach this asset by creating and viewing a report under the Accounting/Reports menu as a logged on user in asset \"eaccounting.stage.vismaonline.com\"\n"
-            },
-            {
-                "id": "644415bb-eb2b-4996-ab40-cc0ddcad59ce",
-                "type": 1,
-                "endpoint": "identity.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**Visma Online**\nVisma Connect is used as identity provider, but an own identity server is used to provide JWT tokens that are used by MyServices (and others). \nPlease read the Getting Started instructions document in the \"myservices.stage.vismaonline.com\" asset description.\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n"
-            },
-            {
-                "id": "04386d84-8736-4339-883d-5152cc32a808",
-                "type": 1,
-                "endpoint": "myservices-api.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**Visma Online**\nThis is the API behind \"myservices.stage.vismaonline.com\".\nPlease read the Getting Started instructions document in the asset description \"myservices.stage.vismaonline.com\"."
-            },
-            {
-                "id": "0745af9c-65b7-4458-9281-f0c272bfa87d",
-                "type": 1,
-                "endpoint": "myservices.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**Visma Online**\nThis is an interface where the customer's users can access all their services, and customer's administrators can manage users on the company and manage users' access to services that the company has. \nMore information about the service and test accounts creation can be found here:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaOnline-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n\n"
-            },
-            {
-                "id": "e13b9d81-695f-4b63-b41b-95a6db4c1e88",
-                "type": 1,
-                "endpoint": "oauth.developers.stagaws.visma.com",
-                "businessImpact": 3,
-                "description": "**Visma Developer Portal**\nVisma Developer Portal is used both internally and externally by developers for registering OAuth 2.0/OpenID Connect applications for Single-Sign-On with Visma (Visma Connect) and/or API integration.\n\nExisting Visma Connect users accounts can be used for testing. We also allow registration of new users if needed.\n\nUsers need to register an organization as part of the sign-in or to be added (invite) to an existing organization by organization's manager. The user which registers the organization also gets manager role assigned.\n\nEach organization has its own set of OAuth 2.0/OpenID Connect applications.\n\nPlease read the Getting Started Instructions here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDeveloperPortal-getting-started.pdf\n\n\n\n**Out of scope:**\n* session invalidation across browsers/devices - this is how it is intended to work by design\n* issues related to other APIs except DevPortal Bug Bounty Interactive and DevPortal Bug Bounty Non-Interactive"
-            },
-            {
-                "id": "3e251e38-8683-4a01-8b33-79a6a5756b79",
-                "type": 1,
-                "endpoint": "testing.maventa.com",
-                "businessImpact": 3,
-                "description": "**AutoInvoice**\nhttps://testing.maventa.com/apis/v1.1/wsdl is a SOAP API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/soap-api/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials."
-            }
-        ]
-    },
-    {
-        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "VismaResponsibleDisclosure",
-        "name": "Visma Responsible Disclosure",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1682983819,
-        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
-        "domains": [
-            {
-                "id": "8922aa89-e471-4918-9785-ba22414a1975",
-                "type": 1,
-                "endpoint": "all",
-                "businessImpact": 1,
-                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
-            }
-        ]
-    },
-    {
         "programId": "ee2612e7-e188-492f-9bb2-ba48651523de",
         "status": 3,
         "confidentialityLevel": 4,
@@ -731,6 +474,157 @@
         ]
     },
     {
+        "programId": "0f95dabb-d299-4574-befc-bb96a3bafb42",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "visma",
+        "companyName": "Visma",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "visma",
+        "name": "Visma",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. No code is flawless and we believe that taking part in the Intigriti community can help us improve the security of our systems.",
+        "minBounty": {
+            "value": 100.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 7500.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679914310,
+        "lastSubmissionAt": 1682910390,
+        "logoId": "public_bucket_29626c8f-d7e6-49e1-8e02-86e2cf6c2a24-211f7292-a2d6-43a6-9e2d-680449475f75",
+        "domains": [
+            {
+                "id": "d8cbda39-b3e1-45f3-8b7f-032b8a3f187e",
+                "type": 3,
+                "endpoint": "564141518",
+                "businessImpact": 3,
+                "description": "**Visma Scanner**\nVisma Scanner is a mobile app used for sending receipts and invoices to your Visma accounting system.\nThe iOS version of the app can be found here:\nhttps://apps.apple.com/us/app/visma-scanner/id564141518\nPlease read and follow the steps in the Startup guide to create an account and start hacking: https://vismabugbountyprod.z16.web.core.windows.net/VismaScanner-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)\n* Private screen exposure in the app\n* Stack traces from api calls\n* Jailbroken devices is out of scope\n* All options for login are out of scope, except eAccounting (please see details in the \"Getting Started instructions document\"\n\n\n"
+            },
+            {
+                "id": "af0756f3-d62d-4f53-bfe2-d5b04cec5321",
+                "type": 1,
+                "endpoint": "accountsettings.connect.identity.stagaws.visma.com",
+                "businessImpact": 3,
+                "description": "**Connect**\nSee instructions for domain \"connect.identity.stagaws.visma.com\".\n\n**Out of scope:**\n* Session invalidation after enabling 2FA - by design intended to work like this\n"
+            },
+            {
+                "id": "be911424-59ea-4af4-8246-4af4400f47bf",
+                "type": 1,
+                "endpoint": "admin.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**Visma Online**\nThis is the old interface for the customer's administrators to administrate the company, where we still have some functionality that has not been moved to the new interface. For example invoicing information and everything regarding collaborations with AO. The collaboration part is out of scope as long as the use of student companies.\nPlease read the Getting Started Instructions in the \"myservices.stage.vismaonline.com\" asset description.\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n"
+            },
+            {
+                "id": "97716dfe-68fd-41d0-8929-0a9b95930e79",
+                "type": 1,
+                "endpoint": "ai-testing.maventa.com",
+                "businessImpact": 3,
+                "description": "**AutoInvoice**\n\nThis is the main UI for Visma AutoInvoice. AutoInvoice is Visma's automated and fully ERP integrated service for sending, receiving and handling invoices. AutoInvoice converts and exchanges electronic invoices, optionally prints invoices that can't be sent electronically, receives and interpret PDF invoices and offers services for scanning and interpretation of paper invoices. AutoInvoice handles both Business to Business (B2B) and Business to Consumer (B2C) invoices.\n\nUses partially the embeddable user interface from autointerface-embeddable-stage.maventa.com\n\nCreate a test account on https://ai-testing.maventa.com/registrations, or use one of the demo accounts in the getting started instructions below:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaAutoinvoice-getting-started.pdf\n\n**Out of scope or works as expected (accepted risk):**\n\n* adding users to your own company without consent\n* language change CSRF\n* application level DOS from /gdpr endpoint\n* duplicate BID/organization number check on registration can be circumvented by race condition (e.g. open two accounts with same BID/org number at same time)\n* IDOR to delete Invoice ID's belonging to different companies by using GDPR removal form (background job checks the right to delete invoices)\n* Hyperlink Injection via emails while adding users to your company\n* User Enumeration via Timing Discrepancy while registering new users\n* Logout CSRF\n\nNote! ai-testing.maventa.com and testing.maventa.com point to the same application but have different branding on the UI. Authentication to the user interface is handled using the Visma Connect service."
+            },
+            {
+                "id": "413d39c0-3185-468c-a20e-4e9c8913ea47",
+                "type": 1,
+                "endpoint": "api.workbox.dk",
+                "businessImpact": 3,
+                "description": "**Dinero**\nThis is Dinero's Public API.See instructions for \"app.workbox.dk\""
+            },
+            {
+                "id": "7aa075a0-55c8-4a3e-a76d-94c8792fd444",
+                "type": 1,
+                "endpoint": "app.workbox.dk",
+                "businessImpact": 3,
+                "description": "**Dinero**\nDinero is an accounting software for sole traders and micro businesses based out of Denmark. Our only target group is danish companies and therefore the interface is in danish only.The application is a SaaS application hosted in the cloud and consists of a main application and a number of supportive microservices.\n\nSee the getting started document here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDinero-getting-started.pdf\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Getting access to Pro features as Free user.\n\n\n"
+            },
+            {
+                "id": "adaff973-0976-488e-b439-d3fedd1bac3a",
+                "type": 1,
+                "endpoint": "authz.workbox.dk",
+                "businessImpact": 3,
+                "description": "**Dinero**\nUsed for Authorization (OAuth). See instructions for \"app.workbox.dk\"\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)."
+            },
+            {
+                "id": "49a72e4a-711f-4931-aaa3-4a312d4c0bbd",
+                "type": 1,
+                "endpoint": "autointerface.stag.visma.net",
+                "businessImpact": 3,
+                "description": "**AutoInvoice**\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials.\n\nThe same resource can be accessed through the URL **autointerface-embeddable-stage.maventa.com**\n\nAll data processing is done through the REST API at ax-stage.maventa.com\n\n**Out of scope or works as expected (accepted risk):**\n* Clickjacking is out of scope for this asset since it is designed to be framed (embedded) in other 3rd party services.\n* Regular users are allowed to view certain admin settings pages (but not allowed to edit the settings)\n\n"
+            },
+            {
+                "id": "13f04d4c-09b1-462d-a0a2-efc575c94984",
+                "type": 1,
+                "endpoint": "ax-stage.maventa.com",
+                "businessImpact": 3,
+                "description": "**AutoInvoice**\nhttps://ax-stage.maventa.com is a REST API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/rest-api/ and https://ax-stage.maventa.com/swagger/#/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials.\n\n**Out of scope or works as expected (accepted risk):**\n* Regular users are allowed to read certain company settings even though they are not perhaps visible in the UI (but they are not allowed to edit the settings)"
+            },
+            {
+                "id": "0cd19e39-7493-4ca9-a941-1eaad2e2592e",
+                "type": 2,
+                "endpoint": "com.visma.blue",
+                "businessImpact": 3,
+                "description": "**Visma Scanner**\nVisma Scanner is a mobile app used for sending receipts and invoices to your Visma accounting system.\nThe Andriod version of the app can be found here:\nhttps://play.google.com/store/apps/details?id=com.visma.blue&hl=en\nPlease read and follow the steps in the Startup guide to create an account and start hacking: https://vismabugbountyprod.z16.web.core.windows.net/VismaScanner-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)\n* Private screen exposure in the app\n* Stack traces from api calls\n* Jailbroken devices is out of scope\n* All options for login are out of scope, except eAccounting (please see details in the \"Getting Started instructions document\""
+            },
+            {
+                "id": "75f23238-57ba-48cc-94c2-a417a97896e0",
+                "type": 1,
+                "endpoint": "connect.identity.stagaws.visma.com",
+                "businessImpact": 3,
+                "description": "**Connect**\nVisma Connect is featurewise a small but critical component in the Visma portfolio. It is a single sign-on solution used by many Visma services. It is also the place where users manage security preferences such as passwords, MFA, 2FA, email and other account settings.\n\nUser accounts for testing can be created on https://connect.identity.stagaws.visma.com (this signup flow is not available in production).\n\nThe test accounts will not have access to any other services right now, so testing is limited to the login portal itself.\n\n**Out of scope:**\n* Session invalidation after enabling 2FA - by design intended to work like this.\n"
+            },
+            {
+                "id": "e437e5a4-63ad-4fc5-af18-30eb7c1c7172",
+                "type": 1,
+                "endpoint": "eaccounting.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**eAccounting**\nThis is \"Visma eAccounting\" (aka Visma eEkonomi / Visma ePasseli) which is an ERP system available in Sweden, Norway, Finland and The Netherlands.\n\nWe've added into scope also the eEkonomi \"Visma L\u00f6n Smart\" which is a subservice of eAccounting. This can be found after you activate your account (check out the instructions bellow).\n\nYou can read more on https://www.visma.no/eaccounting/english/\n\nYou need to register an user to test this system. The sign-up up process is described in this document:\nhttps://vismabugbountyprod.z16.web.core.windows.net/Visma-eAccounting-getting-started.pdf\n\nThis video also shows the entire setup (only Swedish audio) https://www.youtube.com/watch?v=kVr_CXgfhi0&t=4s\n\nTLDR: Goto https://admin.stage.vismaonline.com/Customer/StudentSignup.aspx and sign up with the training code \"04h2v\"\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Modification of gray-out fields when logged in with an admin account.\n* Improper access control: manipulation of the message conversation by members that have no permission (edit subject, join thread conversation, closing the conversation).\n* Email phishing\n* PDF injection\n* Permissions for L\u00f6n Smart (the permissions in eAccounting don\u00b4t apply at all for L\u00f6n Smart).\n* Possibility to create Orders and Quotes with amount 0\u20ac\n* Race Condition in article stock limits"
+            },
+            {
+                "id": "11710a8b-72ee-42de-b1b2-6df725aecb5b",
+                "type": 1,
+                "endpoint": "eaccountingprinting.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**eAccounting**\nYou reach this asset by creating and viewing a report under the Accounting/Reports menu as a logged on user in asset \"eaccounting.stage.vismaonline.com\"\n"
+            },
+            {
+                "id": "644415bb-eb2b-4996-ab40-cc0ddcad59ce",
+                "type": 1,
+                "endpoint": "identity.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**Visma Online**\nVisma Connect is used as identity provider, but an own identity server is used to provide JWT tokens that are used by MyServices (and others). \nPlease read the Getting Started instructions document in the \"myservices.stage.vismaonline.com\" asset description.\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n"
+            },
+            {
+                "id": "04386d84-8736-4339-883d-5152cc32a808",
+                "type": 1,
+                "endpoint": "myservices-api.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**Visma Online**\nThis is the API behind \"myservices.stage.vismaonline.com\".\nPlease read the Getting Started instructions document in the asset description \"myservices.stage.vismaonline.com\"."
+            },
+            {
+                "id": "0745af9c-65b7-4458-9281-f0c272bfa87d",
+                "type": 1,
+                "endpoint": "myservices.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**Visma Online**\nThis is an interface where the customer's users can access all their services, and customer's administrators can manage users on the company and manage users' access to services that the company has. \nMore information about the service and test accounts creation can be found here:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaOnline-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n\n"
+            },
+            {
+                "id": "e13b9d81-695f-4b63-b41b-95a6db4c1e88",
+                "type": 1,
+                "endpoint": "oauth.developers.stagaws.visma.com",
+                "businessImpact": 3,
+                "description": "**Visma Developer Portal**\nVisma Developer Portal is used both internally and externally by developers for registering OAuth 2.0/OpenID Connect applications for Single-Sign-On with Visma (Visma Connect) and/or API integration.\n\nExisting Visma Connect users accounts can be used for testing. We also allow registration of new users if needed.\n\nUsers need to register an organization as part of the sign-in or to be added (invite) to an existing organization by organization's manager. The user which registers the organization also gets manager role assigned.\n\nEach organization has its own set of OAuth 2.0/OpenID Connect applications.\n\nPlease read the Getting Started Instructions here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDeveloperPortal-getting-started.pdf\n\n\n\n**Out of scope:**\n* session invalidation across browsers/devices - this is how it is intended to work by design\n* issues related to other APIs except DevPortal Bug Bounty Interactive and DevPortal Bug Bounty Non-Interactive"
+            },
+            {
+                "id": "3e251e38-8683-4a01-8b33-79a6a5756b79",
+                "type": 1,
+                "endpoint": "testing.maventa.com",
+                "businessImpact": 3,
+                "description": "**AutoInvoice**\nhttps://testing.maventa.com/apis/v1.1/wsdl is a SOAP API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/soap-api/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials."
+            }
+        ]
+    },
+    {
         "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
         "status": 3,
         "confidentialityLevel": 4,
@@ -766,6 +660,112 @@
                 "endpoint": "*.intigriti.me",
                 "businessImpact": 3,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "visma",
+        "companyName": "Visma",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "VismaResponsibleDisclosure",
+        "name": "Visma Responsible Disclosure",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1677670936,
+        "lastSubmissionAt": 1682983819,
+        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
+        "domains": [
+            {
+                "id": "8922aa89-e471-4918-9785-ba22414a1975",
+                "type": 1,
+                "endpoint": "all",
+                "businessImpact": 1,
+                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
+            }
+        ]
+    },
+    {
+        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "Uphold",
+        "companyName": "Uphold.com",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "upholdcom",
+        "name": "Uphold.com",
+        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680680521,
+        "lastSubmissionAt": 1682693791,
+        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
+        "domains": [
+            {
+                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
+                "type": 3,
+                "endpoint": "1101145849",
+                "businessImpact": 4,
+                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
+                "type": 1,
+                "endpoint": "api.uphold.com",
+                "businessImpact": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
+                "type": 2,
+                "endpoint": "com.uphold.wallet",
+                "businessImpact": 4,
+                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
+                "type": 1,
+                "endpoint": "uphold.com/dashboard",
+                "businessImpact": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
+            },
+            {
+                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
+                "type": 1,
+                "endpoint": "api-sandbox.uphold.com",
+                "businessImpact": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
+                "type": 1,
+                "endpoint": "sandbox.uphold.com/dashboard",
+                "businessImpact": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
+            },
+            {
+                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
+                "type": 1,
+                "endpoint": "*.uphold.com",
+                "businessImpact": 2,
+                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
             }
         ]
     },
@@ -2111,7 +2111,7 @@
             "value": 4000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1681817165,
+        "lastUpdatedAt": 1683017954,
         "lastSubmissionAt": 1682506978,
         "logoId": "public_bucket_eb2ba681-d13f-4893-8d6a-37d64da63f4b-eb5c8730-f839-4cbd-9b6d-b87d904158e9",
         "domains": [
@@ -2127,7 +2127,14 @@
                 "type": 1,
                 "endpoint": "www.swisspass.ch",
                 "businessImpact": 4,
-                "description": "The application SwissPass powered by SBB is the key to mobility in Switzerland and also the first step in a new era of public transport.\n\nWith the SwissPass customers can manage their travelcard details easily and use the partner services offered by Mobility Carsharing, PubliBike, SchweizMobil and various ski resorts. \n\nPlease find also some more details about swisspass in our FAQ:\n[SwissPass.ch FAQ](https://www.swisspass.ch/faq?lang=en?key=&lang=en)"
+                "description": null
+            },
+            {
+                "id": "e1e77a9a-ab7a-4a40-ae1e-53149fbd47a8",
+                "type": 1,
+                "endpoint": "*.sbb.ch",
+                "businessImpact": 3,
+                "description": "**NEW - NEW - NEW**"
             },
             {
                 "id": "359ecbb5-02b8-47a0-8c5d-4a06d39a0bc2",
@@ -2148,7 +2155,7 @@
                 "type": 1,
                 "endpoint": "beta.sbb.ch",
                 "businessImpact": 3,
-                "description": "https://beta.sbb.ch is the preview version of the new homepage of the SBB website.\n\nThe focus is on the timetable with public transport connections within Switzerland and abroad.\n\nUsers jump from the timetable to the existing web shop. The teasers on the page also link to the existing website. A customer login is not yet included. New features are added incrementally."
+                "description": null
             },
             {
                 "id": "4887bf13-374b-4e91-b2e8-dbbefe4f5919",
@@ -2183,7 +2190,7 @@
                 "type": 1,
                 "endpoint": "www.sbbcargo.com",
                 "businessImpact": 3,
-                "description": "www.sbbcargo.com is the public website of SBB Cargo, a subsidiary of SBB AG. In addition to the editorial content about the company, sbbcargo.com contains a customer center with various eServices, tools for transporting goods and a password-protected customer area."
+                "description": null
             },
             {
                 "id": "ec1c83bd-59db-4a66-a117-f5955eb54d3f",
@@ -2635,7 +2642,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1681737354,
-        "lastSubmissionAt": 1682918471,
+        "lastSubmissionAt": 1683016437,
         "logoId": "public_bucket_57c73fab-b9d0-4eee-896e-cb2a7565a7ec-88c9e92b-4a78-41f0-9cf4-3a888a55261d",
         "domains": [
             {
@@ -3304,7 +3311,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1682322376,
-        "lastSubmissionAt": 1682780053,
+        "lastSubmissionAt": 1683015616,
         "logoId": "public_bucket_2e6755f0-7dae-4403-94a5-242d98099fc1-32451ce1-ccca-44fe-a5a8-06aa55934cbb",
         "domains": [
             {
@@ -3433,6 +3440,59 @@
                 "endpoint": "Any related Torfs domain",
                 "businessImpact": 1,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "b2049472-b637-49c3-b9cc-077c676f093c",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "randstad",
+        "companyName": "Randstad",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "randstad",
+        "name": "Randstad",
+        "description": "Randstad is the global leader in the HR services industry. By combining our passion for people with the power of today\u2019s intelligent machines, we support people and organizations in realizing their true potential.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1683015962,
+        "lastSubmissionAt": 1681787120,
+        "logoId": "public_bucket_c359b296-c6da-47e9-9c43-0eda5be63ce4-0b00f8fd-6d2b-4f42-95e1-f703e2cd7221",
+        "domains": [
+            {
+                "id": "f71e7341-d9cc-4205-ac45-59b3d2b5ea6d",
+                "type": 1,
+                "endpoint": "*.randstadrisesmart.*",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "6a86b31a-2ec7-4017-9ae0-f599ad059d18",
+                "type": 1,
+                "endpoint": "*.risesmart.*",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "1122d3b7-4f72-462c-a213-6caa1f630378",
+                "type": 1,
+                "endpoint": "*.randstad.*",
+                "businessImpact": 1,
+                "description": "Out of Scope: workplace.randstad.in & apps.randstad.in"
+            },
+            {
+                "id": "4f2c231b-f2a7-4893-b5b4-766491d29d02",
+                "type": 6,
+                "endpoint": "Any related Randstad domain",
+                "businessImpact": 1,
+                "description": ""
             }
         ]
     },
@@ -5240,122 +5300,6 @@
                 "type": 1,
                 "endpoint": "media.nexuzhealth.be/patient/ ",
                 "businessImpact": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "bd22f48d-633e-4b26-bf71-e4778d41b247",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "datacamp",
-        "companyName": "DataCamp",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "datacamp",
-        "name": "DataCamp",
-        "description": "DataCamp\u2019s mission is to democratize data skills for everyone. Companies and teams of every size use DataCamp to close their data skill gaps and make better data-driven decisions. Data science and analytics are rapidly shaping every aspect of our lives and our businesses. There is incredible power in data\u2014but only if you know what to do with it. DataCamp teaches 1,600+ companies and 7 million individuals from 180+ countries the skills they need to work with data in the real world. \n\n",
-        "minBounty": {
-            "value": 25.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 1500.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1683014771,
-        "lastSubmissionAt": 1682862706,
-        "logoId": "public_bucket_336e22b1-87d1-4c30-b6b1-b49d56ca5cf0-0d920a6b-d88a-4bf9-848e-ae0fd716ac22",
-        "domains": [
-            {
-                "id": "50c0f037-c602-469f-bddb-359b743ab609",
-                "type": 1,
-                "endpoint": "assessment-v2.datacamp.com ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ee9f0182-d2cb-42a8-aa6c-607eeebc4a96",
-                "type": 1,
-                "endpoint": "app.datacamp.com/certification",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "38cf8b20-40d0-4cc2-8b1c-17fc6f4f7982",
-                "type": 1,
-                "endpoint": "app.datacamp.com/groups",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "a4ccf1f5-05fb-42fc-b1b3-65da315977cc",
-                "type": 1,
-                "endpoint": "app.datacamp.com/learn",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "e6d5f94d-7282-4ac0-9310-ee35acec5d0c",
-                "type": 1,
-                "endpoint": "app.datacamp.com/workspace",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "0d112cf4-3aa9-4895-8dc5-ec622717b33e",
-                "type": 1,
-                "endpoint": "assessment.datacamp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "093601f3-7b25-4011-bd67-b191d0ceb412",
-                "type": 1,
-                "endpoint": "campus.datacamp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "605a0d4d-34f6-4305-8d0c-12722af890dd",
-                "type": 2,
-                "endpoint": "com.datacamp",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "160b498f-b3f8-40ea-91d4-49fe241852fc",
-                "type": 3,
-                "endpoint": "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "557938a2-93c2-4959-9cdb-3c34263c0c94",
-                "type": 1,
-                "endpoint": "practice.datacamp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "c0c23c8e-dd3b-4dda-9053-22b1a2dff879",
-                "type": 1,
-                "endpoint": "projects.datacamp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4f5f1b6b-74d4-4cc4-bd74-e65380b286aa",
-                "type": 1,
-                "endpoint": "www.datacamp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "1516187e-b1e5-47cd-a4c4-d922865964dc",
-                "type": 1,
-                "endpoint": "*.datacamp.com",
-                "businessImpact": 2,
                 "description": null
             }
         ]
@@ -7356,6 +7300,70 @@
         ]
     },
     {
+        "programId": "3c865bd0-88c6-4c51-962a-21aa2aac56d3",
+        "status": 4,
+        "confidentialityLevel": 4,
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "challenge0423",
+        "name": "Challenge 0423 by strangeMMonkey1",
+        "description": "Find the flag on https://challenge-0423.intigriti.io and win Intigriti swag.\n\nThis is a guest challenge created by @strangeMMonkey1",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1682979942,
+        "lastSubmissionAt": 1682960484,
+        "logoId": "public_bucket_771fec46-8961-4770-8388-af91878e15d4-9279ab31-7fc1-4d4d-b642-b263b424f4e4",
+        "domains": [
+            {
+                "id": "1223be07-4132-4dd5-ac6b-2b1b331f9137",
+                "type": 1,
+                "endpoint": "challenge-0423.intigriti.io",
+                "businessImpact": 3,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "ab37d854-252c-40e1-b649-c791d2217035",
+        "status": 4,
+        "confidentialityLevel": 4,
+        "companyHandle": "collabora",
+        "companyName": "Collabora",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "collabora",
+        "name": "Collabora Online",
+        "description": "Collabora Online is a powerful online office suite that supports all major document, spreadsheet and presentation file formats, which you can integrate into your own infrastructure. Key features are collaborative editing and excellent office file format support. Collabora online is deployed in the cloud, or on-premise, and is designed to keep full control of the sensitive corporate data.",
+        "minBounty": {
+            "value": 250.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 5000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1681323088,
+        "lastSubmissionAt": 1681323076,
+        "logoId": "public_bucket_3528b852-cdfe-4b6d-ae85-8aa577546d98-f886797f-04dd-470b-8494-14ce9b122646",
+        "domains": [
+            {
+                "id": "6350080e-ecfd-4fc4-ae9c-4607ec227d82",
+                "type": 1,
+                "endpoint": "https://www.collaboraoffice.com/code-install-and-test/",
+                "businessImpact": 3,
+                "description": "To perform the testing, you will need to download and set up Collabora Online Development Edition (CODE) locally, together with a file sync & share solution, like Nextcloud or ownCloud.\n\nThe scope of testing will be the CODE itself only, not the file sync & share solution or the integration between those. You can install CODE either as Linux packages from here:\n\nhttps://www.collaboraoffice.com/code/linux-packages/\n\nor as docker images from here:\n\nhttps://hub.docker.com/r/collabora/code/\n\nIf you are interested in the source code of CODE, you can access it here:\n\nhttps://github.com/CollaboraOnline/online\n\nOnce you have set up the CODE, install the appropriate connector:\n\nFor Nextcloud: https://apps.nextcloud.com/apps/richdocuments\n\nFor ownCloud: https://marketplace.owncloud.com/apps/richdocuments\n\nMore information about various details of the installation can be found here:\n\nhttps://sdk.collaboraonline.com/docs/installation/index.html\n\n[Please note: The CODE is branded as \"Nextcloud Office\" when running under Nextcloud.]\n"
+            }
+        ]
+    },
+    {
         "programId": "77622d82-babb-43d1-a8fd-bdccba2eb2ca",
         "status": 4,
         "confidentialityLevel": 4,
@@ -7437,119 +7445,118 @@
         ]
     },
     {
-        "programId": "3c865bd0-88c6-4c51-962a-21aa2aac56d3",
+        "programId": "bd22f48d-633e-4b26-bf71-e4778d41b247",
         "status": 4,
         "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "challenge0423",
-        "name": "Challenge 0423 by strangeMMonkey1",
-        "description": "Find the flag on https://challenge-0423.intigriti.io and win Intigriti swag.\n\nThis is a guest challenge created by @strangeMMonkey1",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1682979942,
-        "lastSubmissionAt": 1682960484,
-        "logoId": "public_bucket_771fec46-8961-4770-8388-af91878e15d4-9279ab31-7fc1-4d4d-b642-b263b424f4e4",
-        "domains": [
-            {
-                "id": "1223be07-4132-4dd5-ac6b-2b1b331f9137",
-                "type": 1,
-                "endpoint": "challenge-0423.intigriti.io",
-                "businessImpact": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "ab37d854-252c-40e1-b649-c791d2217035",
-        "status": 4,
-        "confidentialityLevel": 4,
-        "companyHandle": "collabora",
-        "companyName": "Collabora",
+        "companyHandle": "datacamp",
+        "companyName": "DataCamp",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "collabora",
-        "name": "Collabora Online",
-        "description": "Collabora Online is a powerful online office suite that supports all major document, spreadsheet and presentation file formats, which you can integrate into your own infrastructure. Key features are collaborative editing and excellent office file format support. Collabora online is deployed in the cloud, or on-premise, and is designed to keep full control of the sensitive corporate data.",
+        "handle": "datacamp",
+        "name": "DataCamp",
+        "description": "DataCamp\u2019s mission is to democratize data skills for everyone. Companies and teams of every size use DataCamp to close their data skill gaps and make better data-driven decisions. Data science and analytics are rapidly shaping every aspect of our lives and our businesses. There is incredible power in data\u2014but only if you know what to do with it. DataCamp teaches 1,600+ companies and 7 million individuals from 180+ countries the skills they need to work with data in the real world. \n\n",
         "minBounty": {
-            "value": 250.0,
+            "value": 25.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 5000.0,
+            "value": 1500.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1681323088,
-        "lastSubmissionAt": 1681323076,
-        "logoId": "public_bucket_3528b852-cdfe-4b6d-ae85-8aa577546d98-f886797f-04dd-470b-8494-14ce9b122646",
+        "lastUpdatedAt": 1683017442,
+        "lastSubmissionAt": 1683017425,
+        "logoId": "public_bucket_336e22b1-87d1-4c30-b6b1-b49d56ca5cf0-0d920a6b-d88a-4bf9-848e-ae0fd716ac22",
         "domains": [
             {
-                "id": "6350080e-ecfd-4fc4-ae9c-4607ec227d82",
+                "id": "50c0f037-c602-469f-bddb-359b743ab609",
                 "type": 1,
-                "endpoint": "https://www.collaboraoffice.com/code-install-and-test/",
+                "endpoint": "assessment-v2.datacamp.com ",
                 "businessImpact": 3,
-                "description": "To perform the testing, you will need to download and set up Collabora Online Development Edition (CODE) locally, together with a file sync & share solution, like Nextcloud or ownCloud.\n\nThe scope of testing will be the CODE itself only, not the file sync & share solution or the integration between those. You can install CODE either as Linux packages from here:\n\nhttps://www.collaboraoffice.com/code/linux-packages/\n\nor as docker images from here:\n\nhttps://hub.docker.com/r/collabora/code/\n\nIf you are interested in the source code of CODE, you can access it here:\n\nhttps://github.com/CollaboraOnline/online\n\nOnce you have set up the CODE, install the appropriate connector:\n\nFor Nextcloud: https://apps.nextcloud.com/apps/richdocuments\n\nFor ownCloud: https://marketplace.owncloud.com/apps/richdocuments\n\nMore information about various details of the installation can be found here:\n\nhttps://sdk.collaboraonline.com/docs/installation/index.html\n\n[Please note: The CODE is branded as \"Nextcloud Office\" when running under Nextcloud.]\n"
-            }
-        ]
-    },
-    {
-        "programId": "b2049472-b637-49c3-b9cc-077c676f093c",
-        "status": 4,
-        "confidentialityLevel": 4,
-        "companyHandle": "randstad",
-        "companyName": "Randstad",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "randstad",
-        "name": "Randstad",
-        "description": "Randstad is the global leader in the HR services industry. By combining our passion for people with the power of today\u2019s intelligent machines, we support people and organizations in realizing their true potential.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1682000435,
-        "lastSubmissionAt": 1681787120,
-        "logoId": "public_bucket_c359b296-c6da-47e9-9c43-0eda5be63ce4-0b00f8fd-6d2b-4f42-95e1-f703e2cd7221",
-        "domains": [
-            {
-                "id": "f71e7341-d9cc-4205-ac45-59b3d2b5ea6d",
-                "type": 1,
-                "endpoint": "*.randstadrisesmart.*",
-                "businessImpact": 1,
                 "description": null
             },
             {
-                "id": "6a86b31a-2ec7-4017-9ae0-f599ad059d18",
+                "id": "ee9f0182-d2cb-42a8-aa6c-607eeebc4a96",
                 "type": 1,
-                "endpoint": "*.risesmart.*",
-                "businessImpact": 1,
+                "endpoint": "app.datacamp.com/certification",
+                "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "1122d3b7-4f72-462c-a213-6caa1f630378",
+                "id": "38cf8b20-40d0-4cc2-8b1c-17fc6f4f7982",
                 "type": 1,
-                "endpoint": "*.randstad.*",
-                "businessImpact": 1,
-                "description": "Out of Scope: workplace.randstad.in & apps.randstad.in"
+                "endpoint": "app.datacamp.com/groups",
+                "businessImpact": 3,
+                "description": null
             },
             {
-                "id": "4f2c231b-f2a7-4893-b5b4-766491d29d02",
-                "type": 6,
-                "endpoint": "Any related Randstad domain",
-                "businessImpact": 1,
-                "description": ""
+                "id": "a4ccf1f5-05fb-42fc-b1b3-65da315977cc",
+                "type": 1,
+                "endpoint": "app.datacamp.com/learn",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "e6d5f94d-7282-4ac0-9310-ee35acec5d0c",
+                "type": 1,
+                "endpoint": "app.datacamp.com/workspace",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "0d112cf4-3aa9-4895-8dc5-ec622717b33e",
+                "type": 1,
+                "endpoint": "assessment.datacamp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "093601f3-7b25-4011-bd67-b191d0ceb412",
+                "type": 1,
+                "endpoint": "campus.datacamp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "605a0d4d-34f6-4305-8d0c-12722af890dd",
+                "type": 2,
+                "endpoint": "com.datacamp",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "160b498f-b3f8-40ea-91d4-49fe241852fc",
+                "type": 3,
+                "endpoint": "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "557938a2-93c2-4959-9cdb-3c34263c0c94",
+                "type": 1,
+                "endpoint": "practice.datacamp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "c0c23c8e-dd3b-4dda-9053-22b1a2dff879",
+                "type": 1,
+                "endpoint": "projects.datacamp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "4f5f1b6b-74d4-4cc4-bd74-e65380b286aa",
+                "type": 1,
+                "endpoint": "www.datacamp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "1516187e-b1e5-47cd-a4c4-d922865964dc",
+                "type": 1,
+                "endpoint": "*.datacamp.com",
+                "businessImpact": 2,
+                "description": null
             }
         ]
     }
