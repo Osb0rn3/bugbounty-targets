@@ -36,7 +36,7 @@ curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/progra
 curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[].target_groups[].targets[].name' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
 ```
 
-### Get subs using program_url in_scope and in_scope
+### Get subs using program_url in_scope and out_scope
 ![image](https://user-images.githubusercontent.com/72344025/234680472-6d7da018-f325-4812-aabf-9a5e414cdeef.png)
 ```bash
 curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | select(.program_url=="/dell-com") | .target_groups[].targets[].name' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
