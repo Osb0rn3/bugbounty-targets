@@ -26,6 +26,17 @@ curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/progra
 ```bash
 curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/hackerone.json" | jq -r '.[] | select(.attributes.name=="HackerOne") | .relationships.structured_scopes.data[].attributes.asset_identifier' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
 ```
+  
+### Get all wildcard in_scope subs 
+```bash
+curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/hackerone.json" | jq -r '.[].relationships.structured_scopes.data[].attributes | select(.eligible_for_bounty==true) | .asset_identifier' | tr "," "\n" | sed 's/http[s]*:\/\/\|www.//g' | sed 's/\s//g' | grep "^*" | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
+```
+  
+### Get all wildcard in_scope subs using orgname
+```bash
+curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/hackerone.json" | jq -r '.[] | select(.attributes.name=="Uber") | .relationships.structured_scopes.data[].attributes | select(.eligible_for_bounty==true) | .asset_identifier' | grep "*" | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
+```
+</details>
 </details>
 
 <details>
@@ -36,24 +47,24 @@ curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/progra
 curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[].target_groups[].targets[].name' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
 ```
 
-### Get subs using program_url in_scope and out_scope
+### Get in_scope and out_scope subs using program_url
 ![image](https://user-images.githubusercontent.com/72344025/234680472-6d7da018-f325-4812-aabf-9a5e414cdeef.png)
 ```bash
 curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | select(.program_url=="/dell-com") | .target_groups[].targets[].name' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
 ```
 
-### Get subs using program_url only in_scope
+### Get in_scope subs using program_url
 ![image](https://user-images.githubusercontent.com/72344025/234680651-5ce28fa8-71e6-414f-81d0-7f5f03a33d15.png)
 ```bash
 curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | select(.program_url=="/dell-product") | .target_groups[] | select(.in_scope==true) | .targets[].name' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
 ```
 
-### Get all wildcard subs only in_scope
+### Get all wildcard in_scope subs 
 ```bash
 curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | .target_groups[] | select(.in_scope==true) | .targets[].name' | grep "*." | anew
 ```
 
-### Get only wildcard subs using program_url only in_scope
+### Get all wildcard in_scope subs using program_url
 ```bash
 curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | select(.program_url=="/tesla") | .target_groups[] | select(.in_scope==true) | .targets[].name' | grep "*." | anew
 ```
