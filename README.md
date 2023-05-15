@@ -61,7 +61,7 @@ curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/progra
 
 ### Get all wildcard in_scope subs 
 ```bash
-curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | .target_groups[] | select(.in_scope==true) | .targets[].name' | grep "*." | anew
+curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | .target_groups[] | select(.in_scope==true) | .targets[].name' | grep "*." | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
 ```
 
 ### Get all wildcard in_scope subs using program_url
