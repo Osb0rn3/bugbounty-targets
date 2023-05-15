@@ -83,6 +83,11 @@ curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/progra
 ```bash
 curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/intigriti.json" | jq -r '.[] | select(.handle=="upholdcom") | .domains[].endpoint' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
 ```
+  
+### Get all wildcard in_scope subs 
+```bash
+curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/intigriti.json" | jq -r '.[].domains[].endpoint' | grep "^*" | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
+```
 </details>
 
 ## Support and Questions
