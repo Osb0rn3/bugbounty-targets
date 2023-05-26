@@ -1,5 +1,431 @@
 [
     {
+        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "Uphold",
+        "companyName": "Uphold.com",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "upholdcom",
+        "name": "Uphold.com",
+        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680680521,
+        "lastSubmissionAt": 1684798513,
+        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
+        "domains": [
+            {
+                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
+                "type": 3,
+                "endpoint": "1101145849",
+                "businessImpact": 4,
+                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
+                "type": 1,
+                "endpoint": "api.uphold.com",
+                "businessImpact": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
+                "type": 2,
+                "endpoint": "com.uphold.wallet",
+                "businessImpact": 4,
+                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
+                "type": 1,
+                "endpoint": "uphold.com/dashboard",
+                "businessImpact": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
+            },
+            {
+                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
+                "type": 1,
+                "endpoint": "api-sandbox.uphold.com",
+                "businessImpact": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
+                "type": 1,
+                "endpoint": "sandbox.uphold.com/dashboard",
+                "businessImpact": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
+            },
+            {
+                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
+                "type": 1,
+                "endpoint": "*.uphold.com",
+                "businessImpact": 2,
+                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
+            }
+        ]
+    },
+    {
+        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "intigriti",
+        "name": "intigriti",
+        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and will reward you accordingly.",
+        "minBounty": {
+            "value": 200.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 13337.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1682679823,
+        "lastSubmissionAt": 1684891619,
+        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "domains": [
+            {
+                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
+                "type": 1,
+                "endpoint": "*.intigriti.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "9307f4bd-bf2b-40ef-bb77-ee7575ff37f9",
+                "type": 1,
+                "endpoint": "*.intigriti.me",
+                "businessImpact": 3,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "universitatsspitalzurich",
+        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "usz-vdp",
+        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
+        "description": "                                                                                                         **VULNERABILITY DISCLOSURE PROGRAM (VDP)**\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1684225038,
+        "lastSubmissionAt": 1684255764,
+        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
+        "domains": [
+            {
+                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
+                "type": 1,
+                "endpoint": "*.unispital.ch ",
+                "businessImpact": 1,
+                "description": "forwarding to usz.ch"
+            },
+            {
+                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
+                "type": 1,
+                "endpoint": "*.usz.ch ",
+                "businessImpact": 1,
+                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
+            }
+        ]
+    },
+    {
+        "programId": "bc3017b6-f657-4519-bf8f-00009d85bc47",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "vidaxl",
+        "companyName": "VidaXL",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "vidaxlpublic",
+        "name": "vidaXL",
+        "description": "vidaXL is a rapidly growing international online retailer. Our success is based on our belief that things can always be better and cheaper: \u2018Expect more\u2019. Because nobody likes to pay too much for products. We are continually expanding our product range and offer the best products for the best price. We like to go the extra mile for our customers by improving popular products and making them even cheaper.\n\nhttps://corporate.vidaxl.com/about-us/",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1683625110,
+        "lastSubmissionAt": 1685035426,
+        "logoId": "public_bucket_8ec79146-481d-4d94-adfd-d3e3a24e3292-45d2b917-8c13-400e-a453-67a952302c6a",
+        "domains": [
+            {
+                "id": "778d0420-45c0-47ba-a141-f367bc3e82e0",
+                "type": 1,
+                "endpoint": "fps-extr-services.vidaxl.org",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "d967de66-5af0-40d2-a261-030645f021d4",
+                "type": 1,
+                "endpoint": "ar.vidaxl.sa.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "a2a423af-6c65-4197-9248-5e695b5c160d",
+                "type": 1,
+                "endpoint": "b2b.vidaxl.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "91df3c82-a0c6-49d2-b109-8cdde0f3b0de",
+                "type": 1,
+                "endpoint": "cms.woger-cdn.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "3aaad7a8-522f-4026-b69d-6c20a32aa9ad",
+                "type": 1,
+                "endpoint": "customer-services.vidaxl.org",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "9776b4de-c4f6-4dd5-a940-93a0b0293cdc",
+                "type": 1,
+                "endpoint": "en.vidaxl.ae",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "efc62788-170d-4a81-b3c6-44e4b5428dfe",
+                "type": 1,
+                "endpoint": "en.vidaxl.ca",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "d7647d14-0fcf-49f5-bdb6-620216cf70e0",
+                "type": 1,
+                "endpoint": "fr.vidaxl.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "fe7fceb2-7093-4a72-8c5e-1dd12047ffdb",
+                "type": 1,
+                "endpoint": "is.vidaxl.is",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "330c3e9a-8a18-4f1d-aff7-48e8f1982aab",
+                "type": 1,
+                "endpoint": "nexus.vidaxl.org",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "24fd7885-0e64-492a-8495-f81c3ca34c2f",
+                "type": 1,
+                "endpoint": "nl.vidaxl.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "713cc0ed-c141-4ded-817d-54c387d97a3c",
+                "type": 1,
+                "endpoint": "serviceportal.vidaxl.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "deee91ed-7972-481c-9850-1009edc3f15e",
+                "type": 1,
+                "endpoint": "shops-services.vidaxl.org",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "4c3fba90-e990-431a-8844-1e963536b17b",
+                "type": 1,
+                "endpoint": "tracking.vidaxl.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "4d01a8dc-0d07-4dd4-b882-95a2239e8e27",
+                "type": 1,
+                "endpoint": "uk.vidaxl.com.ua",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "5870afa4-36a2-496f-93df-7863846e1376",
+                "type": 1,
+                "endpoint": "vidaxl.zendesk.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "6bc87259-a42a-4f11-b203-8d46d0530c0c",
+                "type": 1,
+                "endpoint": "www.dropshippingxl.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "16b6b3b4-2b9f-4285-b220-31efc30bbe82",
+                "type": 1,
+                "endpoint": "www.vidaxl.<TLD>",
+                "businessImpact": 3,
+                "description": "Our TLDs for vidaxl are: `.at`, `.bg`, `.com.uk`, `.com`, `.com.au`, `.com.tr`, `.cz`, `.de`, `.dk`, `.ee`, `.es`, `.fi`, `.fr`, `.gr`, `.hr`, `.hu`, `.ie`, `.it`, `.jp`, `.lt`, `.lv`, `.nl`, `.no`, `.pl`, `.pt`, `.ro`, .se`, `.si`, and `.sk`."
+            },
+            {
+                "id": "2c930c06-88a5-4bc7-b3cb-476099b301de",
+                "type": 1,
+                "endpoint": "apigateway.vidaxl.io",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "d79ad46d-7424-4b57-99b8-c44c6ba6adee",
+                "type": 1,
+                "endpoint": "app.vidaxl.io",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "253d9050-4ec1-4727-831c-f6730edc0120",
+                "type": 1,
+                "endpoint": "corporate.vidaxl.com",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "b51ecb32-c578-4cc7-96b7-68f45df70718",
+                "type": 1,
+                "endpoint": "drone.vidaxl.io",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "c98c48fc-5316-4043-94eb-1ffdf81ead97",
+                "type": 1,
+                "endpoint": "qa-db.vidaxl.io",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "56de46dd-572d-4f6a-b06d-c630d812dd74",
+                "type": 1,
+                "endpoint": "qa.vidaxl.io",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "73e90318-0a5a-4938-88a4-043a337d675d",
+                "type": 1,
+                "endpoint": "qa1-apigateway.vidaxl.io",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "9f453f15-c86d-47e0-8c61-f22707ff062b",
+                "type": 1,
+                "endpoint": "staging-apigateway.vidaxl.io",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "31a9090a-4aa2-49f4-bd53-d68f898d8d0d",
+                "type": 1,
+                "endpoint": "staging-db.vidaxl.io",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "dce1ed94-d5e9-42c2-96aa-75fb20d12520",
+                "type": 1,
+                "endpoint": "staging.vidaxl.io",
+                "businessImpact": 2,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "portofantwerp",
+        "companyName": "Port of Antwerp-Bruges",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "nxtport",
+        "name": "NxtPort",
+        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679993070,
+        "lastSubmissionAt": 1679465063,
+        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
+        "domains": [
+            {
+                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
+                "type": 1,
+                "endpoint": "console.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
+                "type": 1,
+                "endpoint": "login.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
+                "type": 1,
+                "endpoint": "signup.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
+                "type": 1,
+                "endpoint": "www.nxtport.com",
+                "businessImpact": 1,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "ee2612e7-e188-492f-9bb2-ba48651523de",
         "status": 3,
         "confidentialityLevel": 4,
@@ -228,386 +654,6 @@
         ]
     },
     {
-        "programId": "bc3017b6-f657-4519-bf8f-00009d85bc47",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "vidaxl",
-        "companyName": "VidaXL",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "vidaxlpublic",
-        "name": "vidaXL",
-        "description": "vidaXL is a rapidly growing international online retailer. Our success is based on our belief that things can always be better and cheaper: \u2018Expect more\u2019. Because nobody likes to pay too much for products. We are continually expanding our product range and offer the best products for the best price. We like to go the extra mile for our customers by improving popular products and making them even cheaper.\n\nhttps://corporate.vidaxl.com/about-us/",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1683625110,
-        "lastSubmissionAt": 1685035426,
-        "logoId": "public_bucket_8ec79146-481d-4d94-adfd-d3e3a24e3292-45d2b917-8c13-400e-a453-67a952302c6a",
-        "domains": [
-            {
-                "id": "778d0420-45c0-47ba-a141-f367bc3e82e0",
-                "type": 1,
-                "endpoint": "fps-extr-services.vidaxl.org",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "d967de66-5af0-40d2-a261-030645f021d4",
-                "type": 1,
-                "endpoint": "ar.vidaxl.sa.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "a2a423af-6c65-4197-9248-5e695b5c160d",
-                "type": 1,
-                "endpoint": "b2b.vidaxl.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "91df3c82-a0c6-49d2-b109-8cdde0f3b0de",
-                "type": 1,
-                "endpoint": "cms.woger-cdn.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "3aaad7a8-522f-4026-b69d-6c20a32aa9ad",
-                "type": 1,
-                "endpoint": "customer-services.vidaxl.org",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "9776b4de-c4f6-4dd5-a940-93a0b0293cdc",
-                "type": 1,
-                "endpoint": "en.vidaxl.ae",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "efc62788-170d-4a81-b3c6-44e4b5428dfe",
-                "type": 1,
-                "endpoint": "en.vidaxl.ca",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "d7647d14-0fcf-49f5-bdb6-620216cf70e0",
-                "type": 1,
-                "endpoint": "fr.vidaxl.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "fe7fceb2-7093-4a72-8c5e-1dd12047ffdb",
-                "type": 1,
-                "endpoint": "is.vidaxl.is",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "330c3e9a-8a18-4f1d-aff7-48e8f1982aab",
-                "type": 1,
-                "endpoint": "nexus.vidaxl.org",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "24fd7885-0e64-492a-8495-f81c3ca34c2f",
-                "type": 1,
-                "endpoint": "nl.vidaxl.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "713cc0ed-c141-4ded-817d-54c387d97a3c",
-                "type": 1,
-                "endpoint": "serviceportal.vidaxl.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "deee91ed-7972-481c-9850-1009edc3f15e",
-                "type": 1,
-                "endpoint": "shops-services.vidaxl.org",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4c3fba90-e990-431a-8844-1e963536b17b",
-                "type": 1,
-                "endpoint": "tracking.vidaxl.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4d01a8dc-0d07-4dd4-b882-95a2239e8e27",
-                "type": 1,
-                "endpoint": "uk.vidaxl.com.ua",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "5870afa4-36a2-496f-93df-7863846e1376",
-                "type": 1,
-                "endpoint": "vidaxl.zendesk.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "6bc87259-a42a-4f11-b203-8d46d0530c0c",
-                "type": 1,
-                "endpoint": "www.dropshippingxl.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "16b6b3b4-2b9f-4285-b220-31efc30bbe82",
-                "type": 1,
-                "endpoint": "www.vidaxl.<TLD>",
-                "businessImpact": 3,
-                "description": "Our TLDs for vidaxl are: `.at`, `.bg`, `.com.uk`, `.com`, `.com.au`, `.com.tr`, `.cz`, `.de`, `.dk`, `.ee`, `.es`, `.fi`, `.fr`, `.gr`, `.hr`, `.hu`, `.ie`, `.it`, `.jp`, `.lt`, `.lv`, `.nl`, `.no`, `.pl`, `.pt`, `.ro`, .se`, `.si`, and `.sk`."
-            },
-            {
-                "id": "2c930c06-88a5-4bc7-b3cb-476099b301de",
-                "type": 1,
-                "endpoint": "apigateway.vidaxl.io",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "d79ad46d-7424-4b57-99b8-c44c6ba6adee",
-                "type": 1,
-                "endpoint": "app.vidaxl.io",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "253d9050-4ec1-4727-831c-f6730edc0120",
-                "type": 1,
-                "endpoint": "corporate.vidaxl.com",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "b51ecb32-c578-4cc7-96b7-68f45df70718",
-                "type": 1,
-                "endpoint": "drone.vidaxl.io",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "c98c48fc-5316-4043-94eb-1ffdf81ead97",
-                "type": 1,
-                "endpoint": "qa-db.vidaxl.io",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "56de46dd-572d-4f6a-b06d-c630d812dd74",
-                "type": 1,
-                "endpoint": "qa.vidaxl.io",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "73e90318-0a5a-4938-88a4-043a337d675d",
-                "type": 1,
-                "endpoint": "qa1-apigateway.vidaxl.io",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "9f453f15-c86d-47e0-8c61-f22707ff062b",
-                "type": 1,
-                "endpoint": "staging-apigateway.vidaxl.io",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "31a9090a-4aa2-49f4-bd53-d68f898d8d0d",
-                "type": 1,
-                "endpoint": "staging-db.vidaxl.io",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "dce1ed94-d5e9-42c2-96aa-75fb20d12520",
-                "type": 1,
-                "endpoint": "staging.vidaxl.io",
-                "businessImpact": 2,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "VismaResponsibleDisclosure",
-        "name": "Visma Responsible Disclosure",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1685063308,
-        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
-        "domains": [
-            {
-                "id": "8922aa89-e471-4918-9785-ba22414a1975",
-                "type": 1,
-                "endpoint": "all",
-                "businessImpact": 1,
-                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
-            }
-        ]
-    },
-    {
-        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "portofantwerp",
-        "companyName": "Port of Antwerp-Bruges",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "nxtport",
-        "name": "NxtPort",
-        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679993070,
-        "lastSubmissionAt": 1679465063,
-        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
-        "domains": [
-            {
-                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
-                "type": 1,
-                "endpoint": "console.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
-                "type": 1,
-                "endpoint": "login.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
-                "type": 1,
-                "endpoint": "signup.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
-                "type": 1,
-                "endpoint": "www.nxtport.com",
-                "businessImpact": 1,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "Uphold",
-        "companyName": "Uphold.com",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "upholdcom",
-        "name": "Uphold.com",
-        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680680521,
-        "lastSubmissionAt": 1684798513,
-        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
-        "domains": [
-            {
-                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
-                "type": 3,
-                "endpoint": "1101145849",
-                "businessImpact": 4,
-                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
-                "type": 1,
-                "endpoint": "api.uphold.com",
-                "businessImpact": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
-                "type": 2,
-                "endpoint": "com.uphold.wallet",
-                "businessImpact": 4,
-                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
-                "type": 1,
-                "endpoint": "uphold.com/dashboard",
-                "businessImpact": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
-            },
-            {
-                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
-                "type": 1,
-                "endpoint": "api-sandbox.uphold.com",
-                "businessImpact": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
-                "type": 1,
-                "endpoint": "sandbox.uphold.com/dashboard",
-                "businessImpact": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
-            },
-            {
-                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
-                "type": 1,
-                "endpoint": "*.uphold.com",
-                "businessImpact": 2,
-                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
-            }
-        ]
-    },
-    {
         "programId": "0f95dabb-d299-4574-befc-bb96a3bafb42",
         "status": 3,
         "confidentialityLevel": 4,
@@ -759,55 +805,16 @@
         ]
     },
     {
-        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
+        "companyHandle": "visma",
+        "companyName": "Visma",
         "tacRequired": false,
         "companySustainable": true,
-        "handle": "intigriti",
-        "name": "intigriti",
-        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and will reward you accordingly.",
-        "minBounty": {
-            "value": 200.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 13337.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1682679823,
-        "lastSubmissionAt": 1684891619,
-        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
-        "domains": [
-            {
-                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
-                "type": 1,
-                "endpoint": "*.intigriti.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "9307f4bd-bf2b-40ef-bb77-ee7575ff37f9",
-                "type": 1,
-                "endpoint": "*.intigriti.me",
-                "businessImpact": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "universitatsspitalzurich",
-        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "usz-vdp",
-        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
-        "description": "                                                                                                         **VULNERABILITY DISCLOSURE PROGRAM (VDP)**\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
+        "handle": "VismaResponsibleDisclosure",
+        "name": "Visma Responsible Disclosure",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -816,37 +823,30 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1684225038,
-        "lastSubmissionAt": 1684255764,
-        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
+        "lastUpdatedAt": 1677670936,
+        "lastSubmissionAt": 1685063308,
+        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
         "domains": [
             {
-                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
+                "id": "8922aa89-e471-4918-9785-ba22414a1975",
                 "type": 1,
-                "endpoint": "*.unispital.ch ",
+                "endpoint": "all",
                 "businessImpact": 1,
-                "description": "forwarding to usz.ch"
-            },
-            {
-                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
-                "type": 1,
-                "endpoint": "*.usz.ch ",
-                "businessImpact": 1,
-                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
+                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
             }
         ]
     },
     {
-        "programId": "406fd572-83b2-49de-9200-594c484d5bb9",
+        "programId": "0d6d1230-beb5-489c-b306-cf9c2e06730f",
         "status": 3,
         "confidentialityLevel": 4,
         "companyHandle": "dpgm",
         "companyName": "DPG Media",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "hetparool",
-        "name": "Het Parool",
-        "description": "Het Parool is a Dutch regional newspaper that started in the Second World War as a social-democratic tinted resistance newspaper.",
+        "handle": "devolkskrant",
+        "name": "De Volkskrant",
+        "description": "De Volkskrant is a Dutch daily morning newspaper. Founded in 1919, it has a nationwide circulation of about 250,000 papers per day.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -855,51 +855,125 @@
             "value": 2000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1680523173,
-        "lastSubmissionAt": 1684921454,
-        "logoId": "public_bucket_942fff0f-227b-46bc-a0dc-0ff65122b040-de21f76f-0199-4509-9655-394c6f429694",
+        "lastUpdatedAt": 1680522997,
+        "lastSubmissionAt": 1684722916,
+        "logoId": "public_bucket_3af586cd-c27b-4732-8f58-b335e49985c3-31b5959b-3df0-44cd-ba3f-00a68ad16aaa",
         "domains": [
             {
-                "id": "39e1e058-bd6f-4a8f-a09e-ab6e921481ce",
+                "id": "f63f3a86-98d8-404b-ad07-ba1c8b4f4c53",
                 "type": 1,
-                "endpoint": "myaccount.parool.nl",
+                "endpoint": "myaccount.volkskrant.nl",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "cc6f7d31-94f9-40e0-a914-d5949434e15f",
+                "id": "431a83b2-24ca-444a-bd20-561059273cdc",
                 "type": 1,
-                "endpoint": "shop.parool.nl",
+                "endpoint": "shop.volkskrant.nl",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "99a6a24a-3efa-4679-8e49-c49dba336165",
+                "id": "a152b44e-c76c-4276-8a69-f0b21cbd955d",
                 "type": 1,
-                "endpoint": "webwinkel.parool.nl",
+                "endpoint": "webwinkel.volkskrant.nl",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "05b3fe55-25d3-4f1d-a7c3-293f168c4438",
+                "id": "63e61d75-ddd1-4273-bd2a-7397fee37c80",
                 "type": 1,
-                "endpoint": "www.parool.nl",
+                "endpoint": "www.volkskrant.nl",
                 "businessImpact": 3,
-                "description": "excluding\n* parool.nl/service\n* parool.nl/inloggen\n* parool.nl/login\n* parool.nl/registreren"
+                "description": "excluding\n* volkskrant.nl/service\n* volkskrant.nl/inloggen\n* volkskrant.nl/login\n* volkskrant.nl/registreren"
             },
             {
-                "id": "8eeec0ea-ed28-4d9b-a7a8-04a574f75316",
+                "id": "05ce2f94-fbcb-4f49-9aaa-b46612c9e7cd",
                 "type": 1,
-                "endpoint": "www.parool.nl/abonnementen",
+                "endpoint": "www.volkskrant.nl/abonnementen",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "57e0aecb-23cf-4775-b240-0f54c0e6cd11",
+                "id": "bd4aae65-4e14-44e5-9ef0-77277d6c1f95",
                 "type": 1,
-                "endpoint": "*.parool.nl",
+                "endpoint": "*.volkskrant.nl",
                 "businessImpact": 2,
-                "description": "excluding abonnement.parool.nl"
+                "description": "excluding abonnement.volkskrant.nl"
+            }
+        ]
+    },
+    {
+        "programId": "0083a5bf-e54f-4f79-a972-12a795272c8b",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "innovapost",
+        "companyName": "Innovapost",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "innovapost",
+        "name": "Canada Post + Purolator - Responsible Disclosure Program",
+        "description": "Canada Post is the country\u2019s leading provider of business-to-consumer delivery. Reaching more than 16.2 million addresses, and operating the country\u2019s largest retail network of over 6,200 post offices.\n\nPurolator is Canada\u2019s leading integrated freight, parcel and logistics solutions provider. Purolator continues to expand its reach and renowned service levels and reliability to more people, more businesses and more places across the country and around the world.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679566395,
+        "lastSubmissionAt": 1685008466,
+        "logoId": "public_bucket_397ac5fb-999c-4ac3-bdd2-28f727de4748-b19a91ee-395c-466e-b469-0d220af1bdd6",
+        "domains": [
+            {
+                "id": "3f4c10b9-c56f-41fc-907e-55c70e563317",
+                "type": 1,
+                "endpoint": "*.canadapost-postescanada.ca",
+                "businessImpact": 1,
+                "description": "Any subdomain of canadapost-postescanada.ca (eg. www.canadapost-postescanada.ca, sso-osu.canadapost-postescanada.ca and store.canadapost-postescanada.ca)"
+            },
+            {
+                "id": "88894b1a-68f7-4ccf-8518-7187606ae74b",
+                "type": 1,
+                "endpoint": "*.postescanada-canadapost.ca",
+                "businessImpact": 1,
+                "description": "Any subdomain of postescanada-canadapost.ca (eg. www.postescanada-canadapost.ca)"
+            },
+            {
+                "id": "0dd0c864-edcd-46fe-a377-698997b98305",
+                "type": 1,
+                "endpoint": "*.purolator.com",
+                "businessImpact": 1,
+                "description": "Any subdomain of purolator.com (eg. www.purolator.com, eshiponline.purolator.com and billingcentre.purolator.com)"
+            },
+            {
+                "id": "a1e53e3c-f352-4f6a-81d3-acc8a23c97c9",
+                "type": 3,
+                "endpoint": "394391577",
+                "businessImpact": 1,
+                "description": "Canada Post's mobile application for iOS"
+            },
+            {
+                "id": "8717f48d-156a-4a4b-b081-d4785d1aacc4",
+                "type": 3,
+                "endpoint": "438701193",
+                "businessImpact": 1,
+                "description": "Purolator's mobile application for iOS"
+            },
+            {
+                "id": "9ef03414-3950-458b-a888-9045a008cfa0",
+                "type": 2,
+                "endpoint": "com.canadapost.android",
+                "businessImpact": 1,
+                "description": "Canada Post's mobile application for Android"
+            },
+            {
+                "id": "265923c3-1103-4649-9811-2c6003bd11d8",
+                "type": 2,
+                "endpoint": "com.purolator.mobileapp",
+                "businessImpact": 1,
+                "description": "Purolator's mobile application for Android"
             }
         ]
     },
@@ -1735,6 +1809,101 @@
         ]
     },
     {
+        "programId": "92431bf9-ab3e-4e69-9619-c59f8e5193b1",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "voi",
+        "companyName": "Voi",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "voiscooters",
+        "name": "Voi Scooters",
+        "description": "Voi is europe's biggest micro-mobility operator based in Stockholm, Sweden. We manage a system of electrically powered scooters and bikes around urban centers. We provide an affordable, sustainable, and exhilarating way to commute while helping people to reduce their carbon footprint and cities to have a more sustainable transportation network. We are excited to work with and reward the community of security researchers to continuously improve our security position. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1685083648,
+        "lastSubmissionAt": 1684784181,
+        "logoId": "public_bucket_c88ca7fd-bc9b-4787-8772-6304d73a4188-28f7ba6c-3f60-4a42-9431-86843438579f",
+        "domains": [
+            {
+                "id": "005f7d15-56be-4438-b63e-199b93d6db03",
+                "type": 3,
+                "endpoint": "1395921017",
+                "businessImpact": 4,
+                "description": "iOS Mobile Application"
+            },
+            {
+                "id": "496c0a21-2f7d-4e76-9345-ecbec91d3f44",
+                "type": 1,
+                "endpoint": "https://api.voiapp.io/",
+                "businessImpact": 4,
+                "description": "Backend REST API"
+            },
+            {
+                "id": "c5163c19-0df0-4745-9de4-de400a11bb39",
+                "type": 1,
+                "endpoint": "https://fm.voiapp.io/login",
+                "businessImpact": 4,
+                "description": "Admin site"
+            },
+            {
+                "id": "e856acdc-41d5-4e50-a124-861631c1afef",
+                "type": 2,
+                "endpoint": "io.voiapp.voi",
+                "businessImpact": 4,
+                "description": "Android Mobile Application"
+            },
+            {
+                "id": "3d214482-bcbc-4640-b83a-3885655f4520",
+                "type": 1,
+                "endpoint": "mds.voiapp.io",
+                "businessImpact": 4,
+                "description": "Partner API as documented at https://docs.voiscooters.com/"
+            },
+            {
+                "id": "058953ad-cbd1-4d2c-9cb9-d5d3f038bcc9",
+                "type": 1,
+                "endpoint": "*.voiscooters.com",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "a646b747-70bc-472f-9a4b-b2ea4eefdba9",
+                "type": 1,
+                "endpoint": "protest.voiapp.io",
+                "businessImpact": 2,
+                "description": "Internal portal for production and testing tool for Voi scooter software."
+            },
+            {
+                "id": "0d1f015a-1b5e-42db-b0fc-0594d46b1ad1",
+                "type": 1,
+                "endpoint": "report.voi.com",
+                "businessImpact": 2,
+                "description": "Website to report badly parked scooters."
+            },
+            {
+                "id": "e5da831b-066d-41d6-8a02-95d20abf68a8",
+                "type": 1,
+                "endpoint": "voi.com",
+                "businessImpact": 2,
+                "description": "Informational Website"
+            },
+            {
+                "id": "46b0cc7e-21b3-4226-955e-83ad3827e607",
+                "type": 1,
+                "endpoint": "www.voiscooters.com",
+                "businessImpact": 2,
+                "description": "Informational Website"
+            }
+        ]
+    },
+    {
         "programId": "92c18727-d22c-498f-a55e-c575bd873a43",
         "status": 3,
         "confidentialityLevel": 4,
@@ -1933,206 +2102,6 @@
                 "id": "30ee7f3c-f6b0-4fdd-bff9-ac734880efd5",
                 "type": 1,
                 "endpoint": "*.tomorrowland.com",
-                "businessImpact": 2,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "ed04d1ef-1aa3-49dd-92f1-06f50f9756b9",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "truelayer",
-        "companyName": "TrueLayer",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "truelayer",
-        "name": "TrueLayer",
-        "description": "\nWhat we do:\nWe're opening up finance and changing the way the world pays. Empowering businesses in every industry to create first-class financial experiences for their customers.\n\nWe build on top of the Open Banking and PSD2 standards to provide APIs for our customers to use to provide financial data and payment initiation services.",
-        "minBounty": {
-            "value": 25.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 5000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1681312474,
-        "lastSubmissionAt": 1684761573,
-        "logoId": "public_bucket_44fb4c02-0627-4900-954a-40699201847e-054eb970-bb41-4bdb-9d29-c343b42ff14f",
-        "domains": [
-            {
-                "id": "daeccb18-34be-4fbe-bed6-8bfa36b131c9",
-                "type": 6,
-                "endpoint": "TrueLayer for Magento (Magento plugin)",
-                "businessImpact": 3,
-                "description": "https://github.com/TrueLayer/magento2"
-            },
-            {
-                "id": "8084bdd1-0038-40ca-a2d7-f9870b4ebc2a",
-                "type": 1,
-                "endpoint": "api.truelayer[-sandbox].com",
-                "businessImpact": 4,
-                "description": "The majority of our API endpoints live here"
-            },
-            {
-                "id": "1e66fed8-785d-406f-8acf-5bb55a749f2c",
-                "type": 1,
-                "endpoint": "auth.truelayer[-sandbox].com",
-                "businessImpact": 4,
-                "description": "Our service for getting OAuth access tokens to access our APIs"
-            },
-            {
-                "id": "a70dd5d3-3784-46c2-b9e8-fb12974579ea",
-                "type": 1,
-                "endpoint": "login-api.truelayer[-sandbox].com",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "898936f0-8b3d-4ab6-9a72-a76e5e11b9ef",
-                "type": 1,
-                "endpoint": "login.truelayer[-sandbox].com",
-                "businessImpact": 4,
-                "description": "Where you can connect your bank account and use Open Banking to pull data such as transactions"
-            },
-            {
-                "id": "e6059b46-ca0d-479a-9fa7-bcff892856f8",
-                "type": 1,
-                "endpoint": "onboarding-api.truelayer.com",
-                "businessImpact": 4,
-                "description": "Used in the developer console"
-            },
-            {
-                "id": "023618d2-8342-4af1-b0b4-b0051ccef2de",
-                "type": 1,
-                "endpoint": "pay-api.truelayer[-sandbox].com",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "03968ede-b94d-426b-8a99-dc9893b8e05a",
-                "type": 1,
-                "endpoint": "pay.truelayer[-sandbox].com",
-                "businessImpact": 4,
-                "description": "Some of our older payment API endpoints live here rather than on api.truelayer.com"
-            },
-            {
-                "id": "c037271c-5fa6-473d-8563-9a2a2ddbb75e",
-                "type": 1,
-                "endpoint": "paydirect.truelayer[-sandbox].com",
-                "businessImpact": 4,
-                "description": "Some of our older payment API endpoints live here rather than on api.truelayer.com"
-            },
-            {
-                "id": "972686fd-54e9-4424-bc67-c201df074c48",
-                "type": 1,
-                "endpoint": "payment.truelayer[-sandbox].com",
-                "businessImpact": 4,
-                "description": "Our hosted payments page for merchants that want us to manage the UI screens for making payments"
-            },
-            {
-                "id": "db944042-d87b-4600-97c6-5a95a89889a9",
-                "type": 1,
-                "endpoint": "payouts.truelayer[-sandbox].com",
-                "businessImpact": 4,
-                "description": "Our Payouts API"
-            },
-            {
-                "id": "1a1628d2-73a3-4853-ab25-20db8701bbfc",
-                "type": 1,
-                "endpoint": "users-api.truelayer.com",
-                "businessImpact": 4,
-                "description": "Internal service for managing users"
-            },
-            {
-                "id": "16a1c955-37bb-4566-a52d-06c9b3931c1d",
-                "type": 6,
-                "endpoint": "C# SDK",
-                "businessImpact": 3,
-                "description": "https://github.com/TrueLayer/truelayer-dotnet"
-            },
-            {
-                "id": "8803c160-7cad-4fd1-a6e8-48d4bf3dcd92",
-                "type": 1,
-                "endpoint": "console-backend.truelayer[-sandbox].com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "e44627b5-2a8b-4c92-a43d-a5a67caf438d",
-                "type": 1,
-                "endpoint": "console.truelayer[-sandbox].com",
-                "businessImpact": 3,
-                "description": "Our developer console where you can login, create applications, manage your OAuth client ID/secret, upload public keys for request signing, view transactions"
-            },
-            {
-                "id": "dcd46293-8280-4239-9ac0-ac4d590b84dc",
-                "type": 6,
-                "endpoint": "iOS SDK",
-                "businessImpact": 3,
-                "description": "https://github.com/TrueLayer/TrueLayer-iOS-SDK"
-            },
-            {
-                "id": "29d4eb16-9f4f-464d-aa31-bcedadbdae99",
-                "type": 6,
-                "endpoint": "Java SDK",
-                "businessImpact": 3,
-                "description": "https://github.com/TrueLayer/truelayer-java"
-            },
-            {
-                "id": "7dfacbe4-920e-4a54-98c2-4882573d5ace",
-                "type": 6,
-                "endpoint": "PHP SDK",
-                "businessImpact": 3,
-                "description": "https://github.com/TrueLayer/truelayer-php"
-            },
-            {
-                "id": "977bf245-0209-4d4c-a187-7f5f4f27d807",
-                "type": 6,
-                "endpoint": "Rust SDK",
-                "businessImpact": 3,
-                "description": "https://github.com/TrueLayer/truelayer-rust"
-            },
-            {
-                "id": "60da33b2-4b67-4964-9049-0cfc41b99079",
-                "type": 6,
-                "endpoint": "TrueLayer for WooCommerce (WordPress plugin)",
-                "businessImpact": 3,
-                "description": "https://wordpress.org/plugins/truelayer-for-woocommerce/ is our WordPress plugin allowing you to use TrueLayer as a checkout option in your WooCommerce store. The source code is also [available on GitHub](https://github.com/TrueLayer/truelayer-woocommerce)."
-            },
-            {
-                "id": "fb218f67-49cb-45ee-be21-5b0d666d3688",
-                "type": 6,
-                "endpoint": "truelayer-signing",
-                "businessImpact": 3,
-                "description": "https://github.com/TrueLayer/truelayer-signing is our open source library for generating signed requests for calling TrueLayer APIs. Many languages are supported including Rust, C#, NodeJS, Go, Java and PHP."
-            },
-            {
-                "id": "ca738126-43be-4564-9f7b-864db78e60c6",
-                "type": 1,
-                "endpoint": "webhooks.truelayer[-sandbox].com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "cb4ead11-dc05-46ff-a689-6b6433a13f19",
-                "type": 1,
-                "endpoint": "*.truelayer.cloud",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "ef1ebeb4-6b06-4695-8829-80a18703e782",
-                "type": 1,
-                "endpoint": "*.truelayer.com",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "0c272f60-99b5-4ebc-8bdc-218b07eef1a2",
-                "type": 1,
-                "endpoint": "*.truelayer.io",
                 "businessImpact": 2,
                 "description": null
             }
@@ -3299,6 +3268,252 @@
         ]
     },
     {
+        "programId": "390688f6-7857-4cec-bf8f-4e11936e82a4",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "clabs",
+        "companyName": "cLabs",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "clabs",
+        "name": "cLabs",
+        "description": "cLabs supporting $CELO cryptocurrency in building financial technology to enable prosperity for all",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 3750.0,
+            "currency": "USD"
+        },
+        "lastUpdatedAt": 1684785323,
+        "lastSubmissionAt": 1684824543,
+        "logoId": "public_bucket_0afbebf4-c60d-4855-960e-0947e4521c04-6cf88f88-e14a-4614-864f-dda1457e209f",
+        "domains": [
+            {
+                "id": "40221274-acf7-4ebb-9706-3899b27b3259",
+                "type": 1,
+                "endpoint": "https://celo.org",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "54631d7a-13da-4ee8-92ef-849ee10eeeed",
+                "type": 1,
+                "endpoint": "https://*.celo.org",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "ef6a946b-7ff6-48d2-89f0-ff2f1e936619",
+                "type": 1,
+                "endpoint": "https://github.com/celo-org/*",
+                "businessImpact": 2,
+                "description": "Data privacy vulnerabilities are the core focus of this github repo"
+            }
+        ]
+    },
+    {
+        "programId": "ed04d1ef-1aa3-49dd-92f1-06f50f9756b9",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "truelayer",
+        "companyName": "TrueLayer",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "truelayer",
+        "name": "TrueLayer",
+        "description": "\nWhat we do:\nWe're opening up finance and changing the way the world pays. Empowering businesses in every industry to create first-class financial experiences for their customers.\n\nWe build on top of the Open Banking and PSD2 standards to provide APIs for our customers to use to provide financial data and payment initiation services.",
+        "minBounty": {
+            "value": 25.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 5000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1681312474,
+        "lastSubmissionAt": 1684761573,
+        "logoId": "public_bucket_44fb4c02-0627-4900-954a-40699201847e-054eb970-bb41-4bdb-9d29-c343b42ff14f",
+        "domains": [
+            {
+                "id": "daeccb18-34be-4fbe-bed6-8bfa36b131c9",
+                "type": 6,
+                "endpoint": "TrueLayer for Magento (Magento plugin)",
+                "businessImpact": 3,
+                "description": "https://github.com/TrueLayer/magento2"
+            },
+            {
+                "id": "8084bdd1-0038-40ca-a2d7-f9870b4ebc2a",
+                "type": 1,
+                "endpoint": "api.truelayer[-sandbox].com",
+                "businessImpact": 4,
+                "description": "The majority of our API endpoints live here"
+            },
+            {
+                "id": "1e66fed8-785d-406f-8acf-5bb55a749f2c",
+                "type": 1,
+                "endpoint": "auth.truelayer[-sandbox].com",
+                "businessImpact": 4,
+                "description": "Our service for getting OAuth access tokens to access our APIs"
+            },
+            {
+                "id": "a70dd5d3-3784-46c2-b9e8-fb12974579ea",
+                "type": 1,
+                "endpoint": "login-api.truelayer[-sandbox].com",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "898936f0-8b3d-4ab6-9a72-a76e5e11b9ef",
+                "type": 1,
+                "endpoint": "login.truelayer[-sandbox].com",
+                "businessImpact": 4,
+                "description": "Where you can connect your bank account and use Open Banking to pull data such as transactions"
+            },
+            {
+                "id": "e6059b46-ca0d-479a-9fa7-bcff892856f8",
+                "type": 1,
+                "endpoint": "onboarding-api.truelayer.com",
+                "businessImpact": 4,
+                "description": "Used in the developer console"
+            },
+            {
+                "id": "023618d2-8342-4af1-b0b4-b0051ccef2de",
+                "type": 1,
+                "endpoint": "pay-api.truelayer[-sandbox].com",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "03968ede-b94d-426b-8a99-dc9893b8e05a",
+                "type": 1,
+                "endpoint": "pay.truelayer[-sandbox].com",
+                "businessImpact": 4,
+                "description": "Some of our older payment API endpoints live here rather than on api.truelayer.com"
+            },
+            {
+                "id": "c037271c-5fa6-473d-8563-9a2a2ddbb75e",
+                "type": 1,
+                "endpoint": "paydirect.truelayer[-sandbox].com",
+                "businessImpact": 4,
+                "description": "Some of our older payment API endpoints live here rather than on api.truelayer.com"
+            },
+            {
+                "id": "972686fd-54e9-4424-bc67-c201df074c48",
+                "type": 1,
+                "endpoint": "payment.truelayer[-sandbox].com",
+                "businessImpact": 4,
+                "description": "Our hosted payments page for merchants that want us to manage the UI screens for making payments"
+            },
+            {
+                "id": "db944042-d87b-4600-97c6-5a95a89889a9",
+                "type": 1,
+                "endpoint": "payouts.truelayer[-sandbox].com",
+                "businessImpact": 4,
+                "description": "Our Payouts API"
+            },
+            {
+                "id": "1a1628d2-73a3-4853-ab25-20db8701bbfc",
+                "type": 1,
+                "endpoint": "users-api.truelayer.com",
+                "businessImpact": 4,
+                "description": "Internal service for managing users"
+            },
+            {
+                "id": "16a1c955-37bb-4566-a52d-06c9b3931c1d",
+                "type": 6,
+                "endpoint": "C# SDK",
+                "businessImpact": 3,
+                "description": "https://github.com/TrueLayer/truelayer-dotnet"
+            },
+            {
+                "id": "8803c160-7cad-4fd1-a6e8-48d4bf3dcd92",
+                "type": 1,
+                "endpoint": "console-backend.truelayer[-sandbox].com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "e44627b5-2a8b-4c92-a43d-a5a67caf438d",
+                "type": 1,
+                "endpoint": "console.truelayer[-sandbox].com",
+                "businessImpact": 3,
+                "description": "Our developer console where you can login, create applications, manage your OAuth client ID/secret, upload public keys for request signing, view transactions"
+            },
+            {
+                "id": "dcd46293-8280-4239-9ac0-ac4d590b84dc",
+                "type": 6,
+                "endpoint": "iOS SDK",
+                "businessImpact": 3,
+                "description": "https://github.com/TrueLayer/TrueLayer-iOS-SDK"
+            },
+            {
+                "id": "29d4eb16-9f4f-464d-aa31-bcedadbdae99",
+                "type": 6,
+                "endpoint": "Java SDK",
+                "businessImpact": 3,
+                "description": "https://github.com/TrueLayer/truelayer-java"
+            },
+            {
+                "id": "7dfacbe4-920e-4a54-98c2-4882573d5ace",
+                "type": 6,
+                "endpoint": "PHP SDK",
+                "businessImpact": 3,
+                "description": "https://github.com/TrueLayer/truelayer-php"
+            },
+            {
+                "id": "977bf245-0209-4d4c-a187-7f5f4f27d807",
+                "type": 6,
+                "endpoint": "Rust SDK",
+                "businessImpact": 3,
+                "description": "https://github.com/TrueLayer/truelayer-rust"
+            },
+            {
+                "id": "60da33b2-4b67-4964-9049-0cfc41b99079",
+                "type": 6,
+                "endpoint": "TrueLayer for WooCommerce (WordPress plugin)",
+                "businessImpact": 3,
+                "description": "https://wordpress.org/plugins/truelayer-for-woocommerce/ is our WordPress plugin allowing you to use TrueLayer as a checkout option in your WooCommerce store. The source code is also [available on GitHub](https://github.com/TrueLayer/truelayer-woocommerce)."
+            },
+            {
+                "id": "fb218f67-49cb-45ee-be21-5b0d666d3688",
+                "type": 6,
+                "endpoint": "truelayer-signing",
+                "businessImpact": 3,
+                "description": "https://github.com/TrueLayer/truelayer-signing is our open source library for generating signed requests for calling TrueLayer APIs. Many languages are supported including Rust, C#, NodeJS, Go, Java and PHP."
+            },
+            {
+                "id": "ca738126-43be-4564-9f7b-864db78e60c6",
+                "type": 1,
+                "endpoint": "webhooks.truelayer[-sandbox].com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "cb4ead11-dc05-46ff-a689-6b6433a13f19",
+                "type": 1,
+                "endpoint": "*.truelayer.cloud",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "ef1ebeb4-6b06-4695-8829-80a18703e782",
+                "type": 1,
+                "endpoint": "*.truelayer.com",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "0c272f60-99b5-4ebc-8bdc-218b07eef1a2",
+                "type": 1,
+                "endpoint": "*.truelayer.io",
+                "businessImpact": 2,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "540e04bb-ae56-49cd-8e05-311a08ba44f7",
         "status": 3,
         "confidentialityLevel": 4,
@@ -3470,66 +3685,6 @@
                 "type": 1,
                 "endpoint": "vikinglab.be",
                 "businessImpact": 1,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "981f8ca2-8ddd-48e8-b710-b6a00fba35cc",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "vtmgo",
-        "name": "VTM GO",
-        "description": "VTM GO offers a lot of strong Flemish and exclusive international series & films for free. From news and news to the most powerful fiction and reality shows.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680677122,
-        "lastSubmissionAt": 1682933938,
-        "logoId": "public_bucket_e2fa21a2-b336-40eb-b6ba-601f97fb87d7-bc5f29a2-2787-4033-a05c-027dabfc1f90",
-        "domains": [
-            {
-                "id": "83711adb-6213-4648-9c9a-443044d215bc",
-                "type": 1,
-                "endpoint": "myaccount.vtm.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "054360bb-adcb-4f51-80e4-b210c8f4b90c",
-                "type": 1,
-                "endpoint": "vtm.be/vtmgo",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "8322484c-5b31-407e-a896-11f7081508d7",
-                "type": 1,
-                "endpoint": "vtmgo.be",
-                "businessImpact": 3,
-                "description": "excluding\n* vtmgo.be/service\n* vtmgo.be/inloggen\n* vtmgo.be/login\n* vtmgo.be/registreren"
-            },
-            {
-                "id": "914e3a1d-f735-4f8f-9320-98a4252b932d",
-                "type": 1,
-                "endpoint": "*.vtm.be",
-                "businessImpact": 2,
-                "description": "Out of scope: shop.vtm.be"
-            },
-            {
-                "id": "c5b5b5a1-eafc-403f-bcad-6ad34a5745a1",
-                "type": 1,
-                "endpoint": "*.vtmgo.be",
-                "businessImpact": 2,
                 "description": null
             }
         ]
@@ -3746,6 +3901,66 @@
         ]
     },
     {
+        "programId": "981f8ca2-8ddd-48e8-b710-b6a00fba35cc",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "vtmgo",
+        "name": "VTM GO",
+        "description": "VTM GO offers a lot of strong Flemish and exclusive international series & films for free. From news and news to the most powerful fiction and reality shows.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680677122,
+        "lastSubmissionAt": 1682933938,
+        "logoId": "public_bucket_e2fa21a2-b336-40eb-b6ba-601f97fb87d7-bc5f29a2-2787-4033-a05c-027dabfc1f90",
+        "domains": [
+            {
+                "id": "83711adb-6213-4648-9c9a-443044d215bc",
+                "type": 1,
+                "endpoint": "myaccount.vtm.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "054360bb-adcb-4f51-80e4-b210c8f4b90c",
+                "type": 1,
+                "endpoint": "vtm.be/vtmgo",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "8322484c-5b31-407e-a896-11f7081508d7",
+                "type": 1,
+                "endpoint": "vtmgo.be",
+                "businessImpact": 3,
+                "description": "excluding\n* vtmgo.be/service\n* vtmgo.be/inloggen\n* vtmgo.be/login\n* vtmgo.be/registreren"
+            },
+            {
+                "id": "914e3a1d-f735-4f8f-9320-98a4252b932d",
+                "type": 1,
+                "endpoint": "*.vtm.be",
+                "businessImpact": 2,
+                "description": "Out of scope: shop.vtm.be"
+            },
+            {
+                "id": "c5b5b5a1-eafc-403f-bcad-6ad34a5745a1",
+                "type": 1,
+                "endpoint": "*.vtmgo.be",
+                "businessImpact": 2,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "e1dc7326-0466-4c06-bd52-3c6df82370be",
         "status": 3,
         "confidentialityLevel": 4,
@@ -3890,101 +4105,6 @@
                 "endpoint": "www.transsicura.ch",
                 "businessImpact": 3,
                 "description": null
-            }
-        ]
-    },
-    {
-        "programId": "e85b4b33-7785-43b5-a5aa-5bcd226688b4",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "heretechnologies",
-        "companyName": "HERE Technologies",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "heretechnologies",
-        "name": "Here Technologies",
-        "description": "HERE Technologies, is a global company that\u2019s rooted in the evolution of digital maps and location technology. We offer a location data and technology platform, that moves people, businesses and cities forward by harnessing the power of location. The HERE platform caters to a variety of tasks related to bringing your own data, map, service, logic and algorithms for location enrichment.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679580471,
-        "lastSubmissionAt": 1684897528,
-        "logoId": "public_bucket_152c8bd3-9c11-47f9-9007-75af252c40cf-78bdf048-bab3-42d8-b6ea-15ee43f34199",
-        "domains": [
-            {
-                "id": "ec9d3c2d-e2d4-4bb1-b8c8-078936fdceb0",
-                "type": 1,
-                "endpoint": "*.account.api.here.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "11fc368a-1bf4-4160-abcb-593484cdca25",
-                "type": 1,
-                "endpoint": "*.account.here.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "bd889daf-8aa5-453b-8c45-24ad9e89cd02",
-                "type": 1,
-                "endpoint": "*.mobilitygraph.hereapi.com",
-                "businessImpact": 3,
-                "description": "Including, but not limited to, following applications:\nhttps://predictor.mobilitygraph.hereapi.com/\nhttps://profile.mobilitygraph.hereapi.com/\nhttps://subscription.mobilitygraph.hereapi.com/\n"
-            },
-            {
-                "id": "6cd94746-2b34-4d78-8bc6-65489effb99f",
-                "type": 1,
-                "endpoint": "*.router.hereapi.com",
-                "businessImpact": 3,
-                "description": "Including, but not limited to, following applications:\nhttps://matrix.router.hereapi.com/\nhttps://subp-als.matrix.router.hereapi.com/v8/matrix\nhttps://transit.router.hereapi.com/\nhttps://intermodal.router.hereapi.com/"
-            },
-            {
-                "id": "62800172-371b-4f6a-a5e9-8788b6cd3149",
-                "type": 1,
-                "endpoint": "*.scbe.api.here.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "1581bf2f-c131-4b70-82c3-e010b1e6c2d1",
-                "type": 1,
-                "endpoint": "*.subp-router.hereapi.com",
-                "businessImpact": 3,
-                "description": "Including, but not limited to, following application:\nhttps://vip-als.subp-router.hereapi.com/\n"
-            },
-            {
-                "id": "e341d000-1819-47b9-b262-07c1aeb62bab",
-                "type": 3,
-                "endpoint": "955837609",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "2262afec-1b75-4a66-9a61-533e01232f3a",
-                "type": 2,
-                "endpoint": "com.here.app.maps",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "b9d793d0-4d7c-481c-83a3-9d12dde120db",
-                "type": 1,
-                "endpoint": "*.here.com",
-                "businessImpact": 2,
-                "description": "This scope (*.here.com) is for Log4J and Spring4Shell RCE vulnerabilities only."
-            },
-            {
-                "id": "dcfaa25f-b3dd-4716-820a-8a49207d44b8",
-                "type": 1,
-                "endpoint": "*.hereapi.com",
-                "businessImpact": 2,
-                "description": "This scope (*.hereapi.com) is for Log4J and Spring4Shell RCE vulnerabilities only."
             }
         ]
     },
@@ -4930,69 +5050,97 @@
         ]
     },
     {
-        "programId": "618bdc2f-9207-47cc-8c5c-71b734900359",
+        "programId": "e85b4b33-7785-43b5-a5aa-5bcd226688b4",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "delijn",
-        "companyName": "De Lijn",
+        "companyHandle": "heretechnologies",
+        "companyName": "HERE Technologies",
         "tacRequired": false,
-        "companySustainable": false,
-        "handle": "delijn",
-        "name": "De Lijn",
-        "description": "De Lijn is the Flemish public transportation company dedicated to giving their customers a comfortable and quick ride. Due the fact that we use the latest IT equipment and servers is our security ought to be at the top of our game. For this program we are putting the focus at our web clients, APIs and of course the mobile application.   ",
+        "companySustainable": true,
+        "handle": "heretechnologies",
+        "name": "Here Technologies",
+        "description": "HERE Technologies, is a global company that\u2019s rooted in the evolution of digital maps and location technology. We offer a location data and technology platform, that moves people, businesses and cities forward by harnessing the power of location. The HERE platform caters to a variety of tasks related to bringing your own data, map, service, logic and algorithms for location enrichment.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 0.0,
+            "value": 2000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1679575652,
-        "lastSubmissionAt": 1682778084,
-        "logoId": "public_bucket_36283e31-6b87-4633-86f7-adc2d8cda262-a6c5dafc-a5e0-493d-901f-1a2442e8c5a0",
+        "lastUpdatedAt": 1679580471,
+        "lastSubmissionAt": 1684897528,
+        "logoId": "public_bucket_152c8bd3-9c11-47f9-9007-75af252c40cf-78bdf048-bab3-42d8-b6ea-15ee43f34199",
         "domains": [
             {
-                "id": "c833f8c9-a5ab-4c27-962b-90f02d320a0a",
+                "id": "ec9d3c2d-e2d4-4bb1-b8c8-078936fdceb0",
+                "type": 1,
+                "endpoint": "*.account.api.here.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "11fc368a-1bf4-4160-abcb-593484cdca25",
+                "type": 1,
+                "endpoint": "*.account.here.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "bd889daf-8aa5-453b-8c45-24ad9e89cd02",
+                "type": 1,
+                "endpoint": "*.mobilitygraph.hereapi.com",
+                "businessImpact": 3,
+                "description": "Including, but not limited to, following applications:\nhttps://predictor.mobilitygraph.hereapi.com/\nhttps://profile.mobilitygraph.hereapi.com/\nhttps://subscription.mobilitygraph.hereapi.com/\n"
+            },
+            {
+                "id": "6cd94746-2b34-4d78-8bc6-65489effb99f",
+                "type": 1,
+                "endpoint": "*.router.hereapi.com",
+                "businessImpact": 3,
+                "description": "Including, but not limited to, following applications:\nhttps://matrix.router.hereapi.com/\nhttps://subp-als.matrix.router.hereapi.com/v8/matrix\nhttps://transit.router.hereapi.com/\nhttps://intermodal.router.hereapi.com/"
+            },
+            {
+                "id": "62800172-371b-4f6a-a5e9-8788b6cd3149",
+                "type": 1,
+                "endpoint": "*.scbe.api.here.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "1581bf2f-c131-4b70-82c3-e010b1e6c2d1",
+                "type": 1,
+                "endpoint": "*.subp-router.hereapi.com",
+                "businessImpact": 3,
+                "description": "Including, but not limited to, following application:\nhttps://vip-als.subp-router.hereapi.com/\n"
+            },
+            {
+                "id": "e341d000-1819-47b9-b262-07c1aeb62bab",
                 "type": 3,
-                "endpoint": "456910787",
-                "businessImpact": 1,
+                "endpoint": "955837609",
+                "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "0676077b-3afb-49d4-bcde-b006d35e5484",
-                "type": 1,
-                "endpoint": "api-a.delijn.be",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "25fd4952-d086-4e35-8842-56f613c2d669",
-                "type": 1,
-                "endpoint": "api.delijn.be",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "82da7d04-8ceb-4bfd-8944-5eebb676922f",
+                "id": "2262afec-1b75-4a66-9a61-533e01232f3a",
                 "type": 2,
-                "endpoint": "com.themobilecompany.delijn",
-                "businessImpact": 1,
+                "endpoint": "com.here.app.maps",
+                "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "af186597-b2a5-4c15-8c51-1992a68f3376",
+                "id": "b9d793d0-4d7c-481c-83a3-9d12dde120db",
                 "type": 1,
-                "endpoint": "accept.delijn.be",
-                "businessImpact": 1,
-                "description": null
+                "endpoint": "*.here.com",
+                "businessImpact": 2,
+                "description": "This scope (*.here.com) is for Log4J and Spring4Shell RCE vulnerabilities only."
             },
             {
-                "id": "3115a76e-fb13-480a-8e42-c64979e501fc",
+                "id": "dcfaa25f-b3dd-4716-820a-8a49207d44b8",
                 "type": 1,
-                "endpoint": "www.delijn.be",
-                "businessImpact": 1,
-                "description": null
+                "endpoint": "*.hereapi.com",
+                "businessImpact": 2,
+                "description": "This scope (*.hereapi.com) is for Log4J and Spring4Shell RCE vulnerabilities only."
             }
         ]
     },
@@ -5103,6 +5251,73 @@
         ]
     },
     {
+        "programId": "618bdc2f-9207-47cc-8c5c-71b734900359",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "delijn",
+        "companyName": "De Lijn",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "delijn",
+        "name": "De Lijn",
+        "description": "De Lijn is the Flemish public transportation company dedicated to giving their customers a comfortable and quick ride. Due the fact that we use the latest IT equipment and servers is our security ought to be at the top of our game. For this program we are putting the focus at our web clients, APIs and of course the mobile application.   ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679575652,
+        "lastSubmissionAt": 1682778084,
+        "logoId": "public_bucket_36283e31-6b87-4633-86f7-adc2d8cda262-a6c5dafc-a5e0-493d-901f-1a2442e8c5a0",
+        "domains": [
+            {
+                "id": "c833f8c9-a5ab-4c27-962b-90f02d320a0a",
+                "type": 3,
+                "endpoint": "456910787",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "0676077b-3afb-49d4-bcde-b006d35e5484",
+                "type": 1,
+                "endpoint": "api-a.delijn.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "25fd4952-d086-4e35-8842-56f613c2d669",
+                "type": 1,
+                "endpoint": "api.delijn.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "82da7d04-8ceb-4bfd-8944-5eebb676922f",
+                "type": 2,
+                "endpoint": "com.themobilecompany.delijn",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "af186597-b2a5-4c15-8c51-1992a68f3376",
+                "type": 1,
+                "endpoint": "accept.delijn.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "3115a76e-fb13-480a-8e42-c64979e501fc",
+                "type": 1,
+                "endpoint": "www.delijn.be",
+                "businessImpact": 1,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "f64faa66-b7e6-4ad7-bf56-b64a885d682a",
         "status": 3,
         "confidentialityLevel": 4,
@@ -5131,38 +5346,6 @@
                 "endpoint": "*.vlerick.com",
                 "businessImpact": 1,
                 "description": "When you start testing www.vlerick.com, **visit www.vlerick.com/en?internal first**. In this way, your testing is not taken into account in our web stats."
-            }
-        ]
-    },
-    {
-        "programId": "9a3f850e-4387-4434-98c7-dba2827b727b",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "revolut",
-        "companyName": "Revolut ",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "revolutvdp",
-        "name": "Revolut VDP",
-        "description": "Revolut is a financial technology company that offers banking services. It offers accounts featuring currency exchange, debit cards, virtual cards, interest-bearing \"vaults\", commission-free stock trading, crypto, commodities, and other services to over 28M customers.\n\nPlease visit our website for more information: www.revolut.com",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "GBP"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "GBP"
-        },
-        "lastUpdatedAt": 1680712076,
-        "lastSubmissionAt": 1684707123,
-        "logoId": "public_bucket_91c5b47e-453c-472e-8054-95afe4a84ca4-297e39b3-4bb0-49f1-b789-e26965e4d9e4",
-        "domains": [
-            {
-                "id": "b603caec-e768-40e5-8781-b01a51089559",
-                "type": 1,
-                "endpoint": "All domains of Revolut",
-                "businessImpact": 1,
-                "description": null
             }
         ]
     },
@@ -5620,6 +5803,38 @@
                 "endpoint": "*.trouw.nl",
                 "businessImpact": 2,
                 "description": "excluding abonnement.trouw.nl"
+            }
+        ]
+    },
+    {
+        "programId": "9a3f850e-4387-4434-98c7-dba2827b727b",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "revolut",
+        "companyName": "Revolut ",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "revolutvdp",
+        "name": "Revolut VDP",
+        "description": "Revolut is a financial technology company that offers banking services. It offers accounts featuring currency exchange, debit cards, virtual cards, interest-bearing \"vaults\", commission-free stock trading, crypto, commodities, and other services to over 28M customers.\n\nPlease visit our website for more information: www.revolut.com",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "GBP"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "GBP"
+        },
+        "lastUpdatedAt": 1680712076,
+        "lastSubmissionAt": 1684707123,
+        "logoId": "public_bucket_91c5b47e-453c-472e-8054-95afe4a84ca4-297e39b3-4bb0-49f1-b789-e26965e4d9e4",
+        "domains": [
+            {
+                "id": "b603caec-e768-40e5-8781-b01a51089559",
+                "type": 1,
+                "endpoint": "All domains of Revolut",
+                "businessImpact": 1,
+                "description": null
             }
         ]
     },
@@ -6306,52 +6521,6 @@
         ]
     },
     {
-        "programId": "390688f6-7857-4cec-bf8f-4e11936e82a4",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "clabs",
-        "companyName": "cLabs",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "clabs",
-        "name": "cLabs",
-        "description": "cLabs supporting $CELO cryptocurrency in building financial technology to enable prosperity for all",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "USD"
-        },
-        "maxBounty": {
-            "value": 3750.0,
-            "currency": "USD"
-        },
-        "lastUpdatedAt": 1684785323,
-        "lastSubmissionAt": 1684824543,
-        "logoId": "public_bucket_0afbebf4-c60d-4855-960e-0947e4521c04-6cf88f88-e14a-4614-864f-dda1457e209f",
-        "domains": [
-            {
-                "id": "40221274-acf7-4ebb-9706-3899b27b3259",
-                "type": 1,
-                "endpoint": "https://celo.org",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "54631d7a-13da-4ee8-92ef-849ee10eeeed",
-                "type": 1,
-                "endpoint": "https://*.celo.org",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ef6a946b-7ff6-48d2-89f0-ff2f1e936619",
-                "type": 1,
-                "endpoint": "https://github.com/celo-org/*",
-                "businessImpact": 2,
-                "description": "Data privacy vulnerabilities are the core focus of this github repo"
-            }
-        ]
-    },
-    {
         "programId": "bbc2d49d-6b11-40af-9746-aefa64756928",
         "status": 3,
         "confidentialityLevel": 4,
@@ -6574,66 +6743,6 @@
                 "type": 1,
                 "endpoint": "*.napoleonsports.be  ",
                 "businessImpact": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "b0de5cde-9841-464a-9d6b-642824f00dc6",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "sixt",
-        "companyName": "Sixt",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "sixt",
-        "name": "Sixt",
-        "description": "With more than 6,900 employees worldwide, SIXT combines global car rental and local share solutions, ride hailing-services as well as car subscriptions in one of the world\u2019s largest mobility platforms. With just one app \u2013 the SIXT App \u2013 we offer our customers digital access to more than 200,000 vehicles and around 1.5 million connected drivers in approximately 110 countries worldwide. Besides its own range of vehicles, SIXT also integrates services from more than 1,500 mobility partners.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680702015,
-        "lastSubmissionAt": 1684986001,
-        "logoId": "public_bucket_fc0eab06-2754-4197-9dc3-96ed81169dd0-55df5d11-2fe0-4f0a-8956-27d9f4bcee73",
-        "domains": [
-            {
-                "id": "22e505ba-f5db-42c2-a106-9e5945594c12",
-                "type": 1,
-                "endpoint": "*.sixt.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "3aa14891-1569-472d-8bf5-c5a414665596",
-                "type": 1,
-                "endpoint": "*.sixt.de",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "9b70b084-aac9-46f5-81fb-1566df35d788",
-                "type": 3,
-                "endpoint": "295079411",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "f9ae33ba-1e41-415b-9a66-4fca995df9d5",
-                "type": 1,
-                "endpoint": "Any related sixt domain",
-                "businessImpact": 1,
-                "description": "Please find a full list of in scope domains i[n this link](https://app.intigriti.com/downloads/customers/sixt/SixtDomainsList.xlsx)"
-            },
-            {
-                "id": "f07573b2-b238-4748-9501-7b3bd865ef70",
-                "type": 2,
-                "endpoint": "com.sixt.reservation",
-                "businessImpact": 1,
                 "description": null
             }
         ]
@@ -7014,6 +7123,66 @@
         ]
     },
     {
+        "programId": "b0de5cde-9841-464a-9d6b-642824f00dc6",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "sixt",
+        "companyName": "Sixt",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "sixt",
+        "name": "Sixt",
+        "description": "With more than 6,900 employees worldwide, SIXT combines global car rental and local share solutions, ride hailing-services as well as car subscriptions in one of the world\u2019s largest mobility platforms. With just one app \u2013 the SIXT App \u2013 we offer our customers digital access to more than 200,000 vehicles and around 1.5 million connected drivers in approximately 110 countries worldwide. Besides its own range of vehicles, SIXT also integrates services from more than 1,500 mobility partners.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680702015,
+        "lastSubmissionAt": 1684986001,
+        "logoId": "public_bucket_fc0eab06-2754-4197-9dc3-96ed81169dd0-55df5d11-2fe0-4f0a-8956-27d9f4bcee73",
+        "domains": [
+            {
+                "id": "22e505ba-f5db-42c2-a106-9e5945594c12",
+                "type": 1,
+                "endpoint": "*.sixt.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "3aa14891-1569-472d-8bf5-c5a414665596",
+                "type": 1,
+                "endpoint": "*.sixt.de",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "9b70b084-aac9-46f5-81fb-1566df35d788",
+                "type": 3,
+                "endpoint": "295079411",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "f9ae33ba-1e41-415b-9a66-4fca995df9d5",
+                "type": 1,
+                "endpoint": "Any related sixt domain",
+                "businessImpact": 1,
+                "description": "Please find a full list of in scope domains i[n this link](https://app.intigriti.com/downloads/customers/sixt/SixtDomainsList.xlsx)"
+            },
+            {
+                "id": "f07573b2-b238-4748-9501-7b3bd865ef70",
+                "type": 2,
+                "endpoint": "com.sixt.reservation",
+                "businessImpact": 1,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "a78e0210-4de1-4ced-8895-48ac98c3166d",
         "status": 3,
         "confidentialityLevel": 4,
@@ -7293,16 +7462,16 @@
         ]
     },
     {
-        "programId": "0d6d1230-beb5-489c-b306-cf9c2e06730f",
+        "programId": "406fd572-83b2-49de-9200-594c484d5bb9",
         "status": 3,
         "confidentialityLevel": 4,
         "companyHandle": "dpgm",
         "companyName": "DPG Media",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "devolkskrant",
-        "name": "De Volkskrant",
-        "description": "De Volkskrant is a Dutch daily morning newspaper. Founded in 1919, it has a nationwide circulation of about 250,000 papers per day.",
+        "handle": "hetparool",
+        "name": "Het Parool",
+        "description": "Het Parool is a Dutch regional newspaper that started in the Second World War as a social-democratic tinted resistance newspaper.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -7311,65 +7480,65 @@
             "value": 2000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1680522997,
-        "lastSubmissionAt": 1684722916,
-        "logoId": "public_bucket_3af586cd-c27b-4732-8f58-b335e49985c3-31b5959b-3df0-44cd-ba3f-00a68ad16aaa",
+        "lastUpdatedAt": 1680523173,
+        "lastSubmissionAt": 1684921454,
+        "logoId": "public_bucket_942fff0f-227b-46bc-a0dc-0ff65122b040-de21f76f-0199-4509-9655-394c6f429694",
         "domains": [
             {
-                "id": "f63f3a86-98d8-404b-ad07-ba1c8b4f4c53",
+                "id": "39e1e058-bd6f-4a8f-a09e-ab6e921481ce",
                 "type": 1,
-                "endpoint": "myaccount.volkskrant.nl",
+                "endpoint": "myaccount.parool.nl",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "431a83b2-24ca-444a-bd20-561059273cdc",
+                "id": "cc6f7d31-94f9-40e0-a914-d5949434e15f",
                 "type": 1,
-                "endpoint": "shop.volkskrant.nl",
+                "endpoint": "shop.parool.nl",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "a152b44e-c76c-4276-8a69-f0b21cbd955d",
+                "id": "99a6a24a-3efa-4679-8e49-c49dba336165",
                 "type": 1,
-                "endpoint": "webwinkel.volkskrant.nl",
+                "endpoint": "webwinkel.parool.nl",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "63e61d75-ddd1-4273-bd2a-7397fee37c80",
+                "id": "05b3fe55-25d3-4f1d-a7c3-293f168c4438",
                 "type": 1,
-                "endpoint": "www.volkskrant.nl",
+                "endpoint": "www.parool.nl",
                 "businessImpact": 3,
-                "description": "excluding\n* volkskrant.nl/service\n* volkskrant.nl/inloggen\n* volkskrant.nl/login\n* volkskrant.nl/registreren"
+                "description": "excluding\n* parool.nl/service\n* parool.nl/inloggen\n* parool.nl/login\n* parool.nl/registreren"
             },
             {
-                "id": "05ce2f94-fbcb-4f49-9aaa-b46612c9e7cd",
+                "id": "8eeec0ea-ed28-4d9b-a7a8-04a574f75316",
                 "type": 1,
-                "endpoint": "www.volkskrant.nl/abonnementen",
+                "endpoint": "www.parool.nl/abonnementen",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "bd4aae65-4e14-44e5-9ef0-77277d6c1f95",
+                "id": "57e0aecb-23cf-4775-b240-0f54c0e6cd11",
                 "type": 1,
-                "endpoint": "*.volkskrant.nl",
+                "endpoint": "*.parool.nl",
                 "businessImpact": 2,
-                "description": "excluding abonnement.volkskrant.nl"
+                "description": "excluding abonnement.parool.nl"
             }
         ]
     },
     {
-        "programId": "0083a5bf-e54f-4f79-a972-12a795272c8b",
+        "programId": "56339d19-36cc-49a0-8e8f-b2502e00d165",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "innovapost",
-        "companyName": "Innovapost",
+        "companyHandle": "moralis",
+        "companyName": "Moralis",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "innovapost",
-        "name": "Canada Post + Purolator - Responsible Disclosure Program",
-        "description": "Canada Post is the country\u2019s leading provider of business-to-consumer delivery. Reaching more than 16.2 million addresses, and operating the country\u2019s largest retail network of over 6,200 post offices.\n\nPurolator is Canada\u2019s leading integrated freight, parcel and logistics solutions provider. Purolator continues to expand its reach and renowned service levels and reliability to more people, more businesses and more places across the country and around the world.",
+        "handle": "moralisio",
+        "name": "Moralis VDP",
+        "description": "Moralis is a blockchain technology platform providing developers with backend infrastructure for building and scaling decentralized applications (dapps). This page is a safe way for you to communicate found bugs in a responsible way. All contributions are highly appreciated.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -7378,58 +7547,58 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1679566395,
-        "lastSubmissionAt": 1685008466,
-        "logoId": "public_bucket_397ac5fb-999c-4ac3-bdd2-28f727de4748-b19a91ee-395c-466e-b469-0d220af1bdd6",
+        "lastUpdatedAt": 1663702839,
+        "lastSubmissionAt": 1685026690,
+        "logoId": "public_bucket_67055338-1edb-46fc-b2d2-9db0d8d49ec5-3a1d4e34-dfbb-4c5d-a68f-6eba745d6bf3",
         "domains": [
             {
-                "id": "3f4c10b9-c56f-41fc-907e-55c70e563317",
+                "id": "1d226af2-96e9-4e99-b3cb-96069f35b555",
                 "type": 1,
-                "endpoint": "*.canadapost-postescanada.ca",
+                "endpoint": "*.moralis.io ",
                 "businessImpact": 1,
-                "description": "Any subdomain of canadapost-postescanada.ca (eg. www.canadapost-postescanada.ca, sso-osu.canadapost-postescanada.ca and store.canadapost-postescanada.ca)"
+                "description": null
             },
             {
-                "id": "88894b1a-68f7-4ccf-8518-7187606ae74b",
+                "id": "c0d79f0d-e67f-474b-97cc-41d84875bf3f",
                 "type": 1,
-                "endpoint": "*.postescanada-canadapost.ca",
+                "endpoint": "*.bigmoralis.com",
                 "businessImpact": 1,
-                "description": "Any subdomain of postescanada-canadapost.ca (eg. www.postescanada-canadapost.ca)"
+                "description": null
             },
             {
-                "id": "0dd0c864-edcd-46fe-a377-698997b98305",
+                "id": "fc2934df-3561-4d69-ae07-cc6b61e1e39a",
                 "type": 1,
-                "endpoint": "*.purolator.com",
+                "endpoint": "*.grandmoralis.com",
                 "businessImpact": 1,
-                "description": "Any subdomain of purolator.com (eg. www.purolator.com, eshiponline.purolator.com and billingcentre.purolator.com)"
+                "description": null
             },
             {
-                "id": "a1e53e3c-f352-4f6a-81d3-acc8a23c97c9",
-                "type": 3,
-                "endpoint": "394391577",
+                "id": "1009e08f-4475-4e77-b504-2922ef0a8a0e",
+                "type": 1,
+                "endpoint": "*.moralisapp.com",
                 "businessImpact": 1,
-                "description": "Canada Post's mobile application for iOS"
+                "description": null
             },
             {
-                "id": "8717f48d-156a-4a4b-b081-d4785d1aacc4",
-                "type": 3,
-                "endpoint": "438701193",
+                "id": "40753fdb-7c7d-4bad-9655-e03cc5560f08",
+                "type": 1,
+                "endpoint": "*.moralishost.com",
                 "businessImpact": 1,
-                "description": "Purolator's mobile application for iOS"
+                "description": null
             },
             {
-                "id": "9ef03414-3950-458b-a888-9045a008cfa0",
-                "type": 2,
-                "endpoint": "com.canadapost.android",
+                "id": "13643de2-ba2d-4f55-b9c9-05482818be85",
+                "type": 1,
+                "endpoint": "*.moralisweb3.com",
                 "businessImpact": 1,
-                "description": "Canada Post's mobile application for Android"
+                "description": null
             },
             {
-                "id": "265923c3-1103-4649-9811-2c6003bd11d8",
-                "type": 2,
-                "endpoint": "com.purolator.mobileapp",
+                "id": "80af4a2b-b2ec-4ef5-8b4f-2543b82159e5",
+                "type": 1,
+                "endpoint": "*.usemoralis.com",
                 "businessImpact": 1,
-                "description": "Purolator's mobile application for Android"
+                "description": null
             }
         ]
     },
@@ -7591,80 +7760,6 @@
                 "type": 6,
                 "endpoint": "Zero days that affect Intigriti or participating customers (listed below)",
                 "businessImpact": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "56339d19-36cc-49a0-8e8f-b2502e00d165",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "moralis",
-        "companyName": "Moralis",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "moralisio",
-        "name": "Moralis VDP",
-        "description": "Moralis is a blockchain technology platform providing developers with backend infrastructure for building and scaling decentralized applications (dapps). This page is a safe way for you to communicate found bugs in a responsible way. All contributions are highly appreciated.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1663702839,
-        "lastSubmissionAt": 1685026690,
-        "logoId": "public_bucket_67055338-1edb-46fc-b2d2-9db0d8d49ec5-3a1d4e34-dfbb-4c5d-a68f-6eba745d6bf3",
-        "domains": [
-            {
-                "id": "1d226af2-96e9-4e99-b3cb-96069f35b555",
-                "type": 1,
-                "endpoint": "*.moralis.io ",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "c0d79f0d-e67f-474b-97cc-41d84875bf3f",
-                "type": 1,
-                "endpoint": "*.bigmoralis.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "fc2934df-3561-4d69-ae07-cc6b61e1e39a",
-                "type": 1,
-                "endpoint": "*.grandmoralis.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "1009e08f-4475-4e77-b504-2922ef0a8a0e",
-                "type": 1,
-                "endpoint": "*.moralisapp.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "40753fdb-7c7d-4bad-9655-e03cc5560f08",
-                "type": 1,
-                "endpoint": "*.moralishost.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "13643de2-ba2d-4f55-b9c9-05482818be85",
-                "type": 1,
-                "endpoint": "*.moralisweb3.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "80af4a2b-b2ec-4ef5-8b4f-2543b82159e5",
-                "type": 1,
-                "endpoint": "*.usemoralis.com",
-                "businessImpact": 1,
                 "description": null
             }
         ]
