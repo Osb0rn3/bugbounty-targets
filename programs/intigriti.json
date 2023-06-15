@@ -1,5 +1,195 @@
 [
     {
+        "programId": "0f95dabb-d299-4574-befc-bb96a3bafb42",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "visma",
+        "companyName": "Visma",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "visma",
+        "name": "Visma",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. No code is flawless and we believe that taking part in the Intigriti community can help us improve the security of our systems.",
+        "minBounty": {
+            "value": 100.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 7500.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679914310,
+        "lastSubmissionAt": 1686833248,
+        "logoId": "public_bucket_29626c8f-d7e6-49e1-8e02-86e2cf6c2a24-211f7292-a2d6-43a6-9e2d-680449475f75",
+        "domains": [
+            {
+                "id": "d8cbda39-b3e1-45f3-8b7f-032b8a3f187e",
+                "type": 3,
+                "endpoint": "564141518",
+                "businessImpact": 3,
+                "description": "**Visma Scanner**\nVisma Scanner is a mobile app used for sending receipts and invoices to your Visma accounting system.\nThe iOS version of the app can be found here:\nhttps://apps.apple.com/us/app/visma-scanner/id564141518\nPlease read and follow the steps in the Startup guide to create an account and start hacking: https://vismabugbountyprod.z16.web.core.windows.net/VismaScanner-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)\n* Private screen exposure in the app\n* Stack traces from api calls\n* Jailbroken devices is out of scope\n* All options for login are out of scope, except eAccounting (please see details in the \"Getting Started instructions document\"\n\n\n"
+            },
+            {
+                "id": "af0756f3-d62d-4f53-bfe2-d5b04cec5321",
+                "type": 1,
+                "endpoint": "accountsettings.connect.identity.stagaws.visma.com",
+                "businessImpact": 3,
+                "description": "**Connect**\nSee instructions for domain \"connect.identity.stagaws.visma.com\".\n\n**Out of scope:**\n* Session invalidation after enabling 2FA - by design intended to work like this\n"
+            },
+            {
+                "id": "be911424-59ea-4af4-8246-4af4400f47bf",
+                "type": 1,
+                "endpoint": "admin.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**Visma Online**\nThis is the old interface for the customer's administrators to administrate the company, where we still have some functionality that has not been moved to the new interface. For example invoicing information and everything regarding collaborations with AO. The collaboration part is out of scope as long as the use of student companies.\nPlease read the Getting Started Instructions in the \"myservices.stage.vismaonline.com\" asset description.\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n"
+            },
+            {
+                "id": "97716dfe-68fd-41d0-8929-0a9b95930e79",
+                "type": 1,
+                "endpoint": "ai-testing.maventa.com",
+                "businessImpact": 3,
+                "description": "**AutoInvoice**\n\nThis is the main UI for Visma AutoInvoice. AutoInvoice is Visma's automated and fully ERP integrated service for sending, receiving and handling invoices. AutoInvoice converts and exchanges electronic invoices, optionally prints invoices that can't be sent electronically, receives and interpret PDF invoices and offers services for scanning and interpretation of paper invoices. AutoInvoice handles both Business to Business (B2B) and Business to Consumer (B2C) invoices.\n\nUses partially the embeddable user interface from autointerface-embeddable-stage.maventa.com\n\nCreate a test account on https://ai-testing.maventa.com/registrations, or use one of the demo accounts in the getting started instructions below:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaAutoinvoice-getting-started.pdf\n\n**Out of scope or works as expected (accepted risk):**\n\n* adding users to your own company without consent\n* language change CSRF\n* application level DOS from /gdpr endpoint\n* duplicate BID/organization number check on registration can be circumvented by race condition (e.g. open two accounts with same BID/org number at same time)\n* IDOR to delete Invoice ID's belonging to different companies by using GDPR removal form (background job checks the right to delete invoices)\n* Hyperlink Injection via emails while adding users to your company\n* User Enumeration via Timing Discrepancy while registering new users\n* Logout CSRF\n\nNote! ai-testing.maventa.com and testing.maventa.com point to the same application but have different branding on the UI. Authentication to the user interface is handled using the Visma Connect service."
+            },
+            {
+                "id": "413d39c0-3185-468c-a20e-4e9c8913ea47",
+                "type": 1,
+                "endpoint": "api.workbox.dk",
+                "businessImpact": 3,
+                "description": "**Dinero**\nThis is Dinero's Public API.See instructions for \"app.workbox.dk\""
+            },
+            {
+                "id": "7aa075a0-55c8-4a3e-a76d-94c8792fd444",
+                "type": 1,
+                "endpoint": "app.workbox.dk",
+                "businessImpact": 3,
+                "description": "**Dinero**\nDinero is an accounting software for sole traders and micro businesses based out of Denmark. Our only target group is danish companies and therefore the interface is in danish only.The application is a SaaS application hosted in the cloud and consists of a main application and a number of supportive microservices.\n\nSee the getting started document here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDinero-getting-started.pdf\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Getting access to Pro features as Free user.\n\n\n"
+            },
+            {
+                "id": "adaff973-0976-488e-b439-d3fedd1bac3a",
+                "type": 1,
+                "endpoint": "authz.workbox.dk",
+                "businessImpact": 3,
+                "description": "**Dinero**\nUsed for Authorization (OAuth). See instructions for \"app.workbox.dk\"\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)."
+            },
+            {
+                "id": "49a72e4a-711f-4931-aaa3-4a312d4c0bbd",
+                "type": 1,
+                "endpoint": "autointerface.stag.visma.net",
+                "businessImpact": 3,
+                "description": "**AutoInvoice**\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials.\n\nThe same resource can be accessed through the URL **autointerface-embeddable-stage.maventa.com**\n\nAll data processing is done through the REST API at ax-stage.maventa.com\n\n**Out of scope or works as expected (accepted risk):**\n* Clickjacking is out of scope for this asset since it is designed to be framed (embedded) in other 3rd party services.\n* Regular users are allowed to view certain admin settings pages (but not allowed to edit the settings)\n\n"
+            },
+            {
+                "id": "13f04d4c-09b1-462d-a0a2-efc575c94984",
+                "type": 1,
+                "endpoint": "ax-stage.maventa.com",
+                "businessImpact": 3,
+                "description": "**AutoInvoice**\nhttps://ax-stage.maventa.com is a REST API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/rest-api/ and https://ax-stage.maventa.com/swagger/#/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials.\n\n**Out of scope or works as expected (accepted risk):**\n* Regular users are allowed to read certain company settings even though they are not perhaps visible in the UI (but they are not allowed to edit the settings)"
+            },
+            {
+                "id": "0cd19e39-7493-4ca9-a941-1eaad2e2592e",
+                "type": 2,
+                "endpoint": "com.visma.blue",
+                "businessImpact": 3,
+                "description": "**Visma Scanner**\nVisma Scanner is a mobile app used for sending receipts and invoices to your Visma accounting system.\nThe Andriod version of the app can be found here:\nhttps://play.google.com/store/apps/details?id=com.visma.blue&hl=en\nPlease read and follow the steps in the Startup guide to create an account and start hacking: https://vismabugbountyprod.z16.web.core.windows.net/VismaScanner-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)\n* Private screen exposure in the app\n* Stack traces from api calls\n* Jailbroken devices is out of scope\n* All options for login are out of scope, except eAccounting (please see details in the \"Getting Started instructions document\""
+            },
+            {
+                "id": "75f23238-57ba-48cc-94c2-a417a97896e0",
+                "type": 1,
+                "endpoint": "connect.identity.stagaws.visma.com",
+                "businessImpact": 3,
+                "description": "**Connect**\nVisma Connect is featurewise a small but critical component in the Visma portfolio. It is a single sign-on solution used by many Visma services. It is also the place where users manage security preferences such as passwords, MFA, 2FA, email and other account settings.\n\nUser accounts for testing can be created on https://connect.identity.stagaws.visma.com (this signup flow is not available in production).\n\nThe test accounts will not have access to any other services right now, so testing is limited to the login portal itself.\n\n**Out of scope:**\n* Session invalidation after enabling 2FA - by design intended to work like this.\n"
+            },
+            {
+                "id": "e437e5a4-63ad-4fc5-af18-30eb7c1c7172",
+                "type": 1,
+                "endpoint": "eaccounting.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**eAccounting**\nThis is \"Visma eAccounting\" (aka Visma eEkonomi / Visma ePasseli) which is an ERP system available in Sweden, Norway, Finland and The Netherlands.\n\nWe've added into scope also the eEkonomi \"Visma L\u00f6n Smart\" which is a subservice of eAccounting. This can be found after you activate your account (check out the instructions bellow).\n\nYou can read more on https://www.visma.no/eaccounting/english/\n\nYou need to register an user to test this system. The sign-up up process is described in this document:\nhttps://vismabugbountyprod.z16.web.core.windows.net/Visma-eAccounting-getting-started.pdf\n\nThis video also shows the entire setup (only Swedish audio) https://www.youtube.com/watch?v=kVr_CXgfhi0&t=4s\n\nTLDR: Goto https://admin.stage.vismaonline.com/Customer/StudentSignup.aspx and sign up with the training code \"04h2v\"\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Modification of gray-out fields when logged in with an admin account.\n* Improper access control: manipulation of the message conversation by members that have no permission (edit subject, join thread conversation, closing the conversation).\n* Email phishing\n* PDF injection\n* Permissions for L\u00f6n Smart (the permissions in eAccounting don\u00b4t apply at all for L\u00f6n Smart).\n* Possibility to create Orders and Quotes with amount 0\u20ac\n* Race Condition in article stock limits"
+            },
+            {
+                "id": "11710a8b-72ee-42de-b1b2-6df725aecb5b",
+                "type": 1,
+                "endpoint": "eaccountingprinting.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**eAccounting**\nYou reach this asset by creating and viewing a report under the Accounting/Reports menu as a logged on user in asset \"eaccounting.stage.vismaonline.com\"\n"
+            },
+            {
+                "id": "644415bb-eb2b-4996-ab40-cc0ddcad59ce",
+                "type": 1,
+                "endpoint": "identity.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**Visma Online**\nVisma Connect is used as identity provider, but an own identity server is used to provide JWT tokens that are used by MyServices (and others). \nPlease read the Getting Started instructions document in the \"myservices.stage.vismaonline.com\" asset description.\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n"
+            },
+            {
+                "id": "04386d84-8736-4339-883d-5152cc32a808",
+                "type": 1,
+                "endpoint": "myservices-api.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**Visma Online**\nThis is the API behind \"myservices.stage.vismaonline.com\".\nPlease read the Getting Started instructions document in the asset description \"myservices.stage.vismaonline.com\"."
+            },
+            {
+                "id": "0745af9c-65b7-4458-9281-f0c272bfa87d",
+                "type": 1,
+                "endpoint": "myservices.stage.vismaonline.com",
+                "businessImpact": 3,
+                "description": "**Visma Online**\nThis is an interface where the customer's users can access all their services, and customer's administrators can manage users on the company and manage users' access to services that the company has. \nMore information about the service and test accounts creation can be found here:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaOnline-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n\n"
+            },
+            {
+                "id": "e13b9d81-695f-4b63-b41b-95a6db4c1e88",
+                "type": 1,
+                "endpoint": "oauth.developers.stagaws.visma.com",
+                "businessImpact": 3,
+                "description": "**Visma Developer Portal**\nVisma Developer Portal is used both internally and externally by developers for registering OAuth 2.0/OpenID Connect applications for Single-Sign-On with Visma (Visma Connect) and/or API integration.\n\nExisting Visma Connect users accounts can be used for testing. We also allow registration of new users if needed.\n\nUsers need to register an organization as part of the sign-in or to be added (invite) to an existing organization by organization's manager. The user which registers the organization also gets manager role assigned.\n\nEach organization has its own set of OAuth 2.0/OpenID Connect applications.\n\nPlease read the Getting Started Instructions here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDeveloperPortal-getting-started.pdf\n\n\n\n**Out of scope:**\n* session invalidation across browsers/devices - this is how it is intended to work by design\n* issues related to other APIs except DevPortal Bug Bounty Interactive and DevPortal Bug Bounty Non-Interactive"
+            },
+            {
+                "id": "3e251e38-8683-4a01-8b33-79a6a5756b79",
+                "type": 1,
+                "endpoint": "testing.maventa.com",
+                "businessImpact": 3,
+                "description": "**AutoInvoice**\nhttps://testing.maventa.com/apis/v1.1/wsdl is a SOAP API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/soap-api/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials."
+            }
+        ]
+    },
+    {
+        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "intigriti",
+        "name": "intigriti",
+        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and will reward you accordingly.",
+        "minBounty": {
+            "value": 200.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 13337.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1686666786,
+        "lastSubmissionAt": 1686666354,
+        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "domains": [
+            {
+                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
+                "type": 1,
+                "endpoint": "*.intigriti.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "9307f4bd-bf2b-40ef-bb77-ee7575ff37f9",
+                "type": 1,
+                "endpoint": "*.intigriti.me",
+                "businessImpact": 3,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "bc3017b6-f657-4519-bf8f-00009d85bc47",
         "status": 3,
         "confidentialityLevel": 4,
@@ -449,320 +639,6 @@
         ]
     },
     {
-        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "portofantwerp",
-        "companyName": "Port of Antwerp-Bruges",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "nxtport",
-        "name": "NxtPort",
-        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679993070,
-        "lastSubmissionAt": 1679465063,
-        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
-        "domains": [
-            {
-                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
-                "type": 1,
-                "endpoint": "console.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
-                "type": 1,
-                "endpoint": "login.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
-                "type": 1,
-                "endpoint": "signup.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
-                "type": 1,
-                "endpoint": "www.nxtport.com",
-                "businessImpact": 1,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "universitatsspitalzurich",
-        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "usz-vdp",
-        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
-        "description": "                                                                                                         **VULNERABILITY DISCLOSURE PROGRAM (VDP)**\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1684225038,
-        "lastSubmissionAt": 1686116589,
-        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
-        "domains": [
-            {
-                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
-                "type": 1,
-                "endpoint": "*.unispital.ch ",
-                "businessImpact": 1,
-                "description": "forwarding to usz.ch"
-            },
-            {
-                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
-                "type": 1,
-                "endpoint": "*.usz.ch ",
-                "businessImpact": 1,
-                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
-            }
-        ]
-    },
-    {
-        "programId": "0f95dabb-d299-4574-befc-bb96a3bafb42",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "visma",
-        "name": "Visma",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. No code is flawless and we believe that taking part in the Intigriti community can help us improve the security of our systems.",
-        "minBounty": {
-            "value": 100.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 7500.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679914310,
-        "lastSubmissionAt": 1686833248,
-        "logoId": "public_bucket_29626c8f-d7e6-49e1-8e02-86e2cf6c2a24-211f7292-a2d6-43a6-9e2d-680449475f75",
-        "domains": [
-            {
-                "id": "d8cbda39-b3e1-45f3-8b7f-032b8a3f187e",
-                "type": 3,
-                "endpoint": "564141518",
-                "businessImpact": 3,
-                "description": "**Visma Scanner**\nVisma Scanner is a mobile app used for sending receipts and invoices to your Visma accounting system.\nThe iOS version of the app can be found here:\nhttps://apps.apple.com/us/app/visma-scanner/id564141518\nPlease read and follow the steps in the Startup guide to create an account and start hacking: https://vismabugbountyprod.z16.web.core.windows.net/VismaScanner-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)\n* Private screen exposure in the app\n* Stack traces from api calls\n* Jailbroken devices is out of scope\n* All options for login are out of scope, except eAccounting (please see details in the \"Getting Started instructions document\"\n\n\n"
-            },
-            {
-                "id": "af0756f3-d62d-4f53-bfe2-d5b04cec5321",
-                "type": 1,
-                "endpoint": "accountsettings.connect.identity.stagaws.visma.com",
-                "businessImpact": 3,
-                "description": "**Connect**\nSee instructions for domain \"connect.identity.stagaws.visma.com\".\n\n**Out of scope:**\n* Session invalidation after enabling 2FA - by design intended to work like this\n"
-            },
-            {
-                "id": "be911424-59ea-4af4-8246-4af4400f47bf",
-                "type": 1,
-                "endpoint": "admin.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**Visma Online**\nThis is the old interface for the customer's administrators to administrate the company, where we still have some functionality that has not been moved to the new interface. For example invoicing information and everything regarding collaborations with AO. The collaboration part is out of scope as long as the use of student companies.\nPlease read the Getting Started Instructions in the \"myservices.stage.vismaonline.com\" asset description.\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n"
-            },
-            {
-                "id": "97716dfe-68fd-41d0-8929-0a9b95930e79",
-                "type": 1,
-                "endpoint": "ai-testing.maventa.com",
-                "businessImpact": 3,
-                "description": "**AutoInvoice**\n\nThis is the main UI for Visma AutoInvoice. AutoInvoice is Visma's automated and fully ERP integrated service for sending, receiving and handling invoices. AutoInvoice converts and exchanges electronic invoices, optionally prints invoices that can't be sent electronically, receives and interpret PDF invoices and offers services for scanning and interpretation of paper invoices. AutoInvoice handles both Business to Business (B2B) and Business to Consumer (B2C) invoices.\n\nUses partially the embeddable user interface from autointerface-embeddable-stage.maventa.com\n\nCreate a test account on https://ai-testing.maventa.com/registrations, or use one of the demo accounts in the getting started instructions below:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaAutoinvoice-getting-started.pdf\n\n**Out of scope or works as expected (accepted risk):**\n\n* adding users to your own company without consent\n* language change CSRF\n* application level DOS from /gdpr endpoint\n* duplicate BID/organization number check on registration can be circumvented by race condition (e.g. open two accounts with same BID/org number at same time)\n* IDOR to delete Invoice ID's belonging to different companies by using GDPR removal form (background job checks the right to delete invoices)\n* Hyperlink Injection via emails while adding users to your company\n* User Enumeration via Timing Discrepancy while registering new users\n* Logout CSRF\n\nNote! ai-testing.maventa.com and testing.maventa.com point to the same application but have different branding on the UI. Authentication to the user interface is handled using the Visma Connect service."
-            },
-            {
-                "id": "413d39c0-3185-468c-a20e-4e9c8913ea47",
-                "type": 1,
-                "endpoint": "api.workbox.dk",
-                "businessImpact": 3,
-                "description": "**Dinero**\nThis is Dinero's Public API.See instructions for \"app.workbox.dk\""
-            },
-            {
-                "id": "7aa075a0-55c8-4a3e-a76d-94c8792fd444",
-                "type": 1,
-                "endpoint": "app.workbox.dk",
-                "businessImpact": 3,
-                "description": "**Dinero**\nDinero is an accounting software for sole traders and micro businesses based out of Denmark. Our only target group is danish companies and therefore the interface is in danish only.The application is a SaaS application hosted in the cloud and consists of a main application and a number of supportive microservices.\n\nSee the getting started document here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDinero-getting-started.pdf\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Getting access to Pro features as Free user.\n\n\n"
-            },
-            {
-                "id": "adaff973-0976-488e-b439-d3fedd1bac3a",
-                "type": 1,
-                "endpoint": "authz.workbox.dk",
-                "businessImpact": 3,
-                "description": "**Dinero**\nUsed for Authorization (OAuth). See instructions for \"app.workbox.dk\"\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)."
-            },
-            {
-                "id": "49a72e4a-711f-4931-aaa3-4a312d4c0bbd",
-                "type": 1,
-                "endpoint": "autointerface.stag.visma.net",
-                "businessImpact": 3,
-                "description": "**AutoInvoice**\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials.\n\nThe same resource can be accessed through the URL **autointerface-embeddable-stage.maventa.com**\n\nAll data processing is done through the REST API at ax-stage.maventa.com\n\n**Out of scope or works as expected (accepted risk):**\n* Clickjacking is out of scope for this asset since it is designed to be framed (embedded) in other 3rd party services.\n* Regular users are allowed to view certain admin settings pages (but not allowed to edit the settings)\n\n"
-            },
-            {
-                "id": "13f04d4c-09b1-462d-a0a2-efc575c94984",
-                "type": 1,
-                "endpoint": "ax-stage.maventa.com",
-                "businessImpact": 3,
-                "description": "**AutoInvoice**\nhttps://ax-stage.maventa.com is a REST API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/rest-api/ and https://ax-stage.maventa.com/swagger/#/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials.\n\n**Out of scope or works as expected (accepted risk):**\n* Regular users are allowed to read certain company settings even though they are not perhaps visible in the UI (but they are not allowed to edit the settings)"
-            },
-            {
-                "id": "0cd19e39-7493-4ca9-a941-1eaad2e2592e",
-                "type": 2,
-                "endpoint": "com.visma.blue",
-                "businessImpact": 3,
-                "description": "**Visma Scanner**\nVisma Scanner is a mobile app used for sending receipts and invoices to your Visma accounting system.\nThe Andriod version of the app can be found here:\nhttps://play.google.com/store/apps/details?id=com.visma.blue&hl=en\nPlease read and follow the steps in the Startup guide to create an account and start hacking: https://vismabugbountyprod.z16.web.core.windows.net/VismaScanner-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc)\n* Private screen exposure in the app\n* Stack traces from api calls\n* Jailbroken devices is out of scope\n* All options for login are out of scope, except eAccounting (please see details in the \"Getting Started instructions document\""
-            },
-            {
-                "id": "75f23238-57ba-48cc-94c2-a417a97896e0",
-                "type": 1,
-                "endpoint": "connect.identity.stagaws.visma.com",
-                "businessImpact": 3,
-                "description": "**Connect**\nVisma Connect is featurewise a small but critical component in the Visma portfolio. It is a single sign-on solution used by many Visma services. It is also the place where users manage security preferences such as passwords, MFA, 2FA, email and other account settings.\n\nUser accounts for testing can be created on https://connect.identity.stagaws.visma.com (this signup flow is not available in production).\n\nThe test accounts will not have access to any other services right now, so testing is limited to the login portal itself.\n\n**Out of scope:**\n* Session invalidation after enabling 2FA - by design intended to work like this.\n"
-            },
-            {
-                "id": "e437e5a4-63ad-4fc5-af18-30eb7c1c7172",
-                "type": 1,
-                "endpoint": "eaccounting.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**eAccounting**\nThis is \"Visma eAccounting\" (aka Visma eEkonomi / Visma ePasseli) which is an ERP system available in Sweden, Norway, Finland and The Netherlands.\n\nWe've added into scope also the eEkonomi \"Visma L\u00f6n Smart\" which is a subservice of eAccounting. This can be found after you activate your account (check out the instructions bellow).\n\nYou can read more on https://www.visma.no/eaccounting/english/\n\nYou need to register an user to test this system. The sign-up up process is described in this document:\nhttps://vismabugbountyprod.z16.web.core.windows.net/Visma-eAccounting-getting-started.pdf\n\nThis video also shows the entire setup (only Swedish audio) https://www.youtube.com/watch?v=kVr_CXgfhi0&t=4s\n\nTLDR: Goto https://admin.stage.vismaonline.com/Customer/StudentSignup.aspx and sign up with the training code \"04h2v\"\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Modification of gray-out fields when logged in with an admin account.\n* Improper access control: manipulation of the message conversation by members that have no permission (edit subject, join thread conversation, closing the conversation).\n* Email phishing\n* PDF injection\n* Permissions for L\u00f6n Smart (the permissions in eAccounting don\u00b4t apply at all for L\u00f6n Smart).\n* Possibility to create Orders and Quotes with amount 0\u20ac\n* Race Condition in article stock limits"
-            },
-            {
-                "id": "11710a8b-72ee-42de-b1b2-6df725aecb5b",
-                "type": 1,
-                "endpoint": "eaccountingprinting.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**eAccounting**\nYou reach this asset by creating and viewing a report under the Accounting/Reports menu as a logged on user in asset \"eaccounting.stage.vismaonline.com\"\n"
-            },
-            {
-                "id": "644415bb-eb2b-4996-ab40-cc0ddcad59ce",
-                "type": 1,
-                "endpoint": "identity.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**Visma Online**\nVisma Connect is used as identity provider, but an own identity server is used to provide JWT tokens that are used by MyServices (and others). \nPlease read the Getting Started instructions document in the \"myservices.stage.vismaonline.com\" asset description.\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n"
-            },
-            {
-                "id": "04386d84-8736-4339-883d-5152cc32a808",
-                "type": 1,
-                "endpoint": "myservices-api.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**Visma Online**\nThis is the API behind \"myservices.stage.vismaonline.com\".\nPlease read the Getting Started instructions document in the asset description \"myservices.stage.vismaonline.com\"."
-            },
-            {
-                "id": "0745af9c-65b7-4458-9281-f0c272bfa87d",
-                "type": 1,
-                "endpoint": "myservices.stage.vismaonline.com",
-                "businessImpact": 3,
-                "description": "**Visma Online**\nThis is an interface where the customer's users can access all their services, and customer's administrators can manage users on the company and manage users' access to services that the company has. \nMore information about the service and test accounts creation can be found here:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaOnline-getting-started.pdf\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n\n"
-            },
-            {
-                "id": "e13b9d81-695f-4b63-b41b-95a6db4c1e88",
-                "type": 1,
-                "endpoint": "oauth.developers.stagaws.visma.com",
-                "businessImpact": 3,
-                "description": "**Visma Developer Portal**\nVisma Developer Portal is used both internally and externally by developers for registering OAuth 2.0/OpenID Connect applications for Single-Sign-On with Visma (Visma Connect) and/or API integration.\n\nExisting Visma Connect users accounts can be used for testing. We also allow registration of new users if needed.\n\nUsers need to register an organization as part of the sign-in or to be added (invite) to an existing organization by organization's manager. The user which registers the organization also gets manager role assigned.\n\nEach organization has its own set of OAuth 2.0/OpenID Connect applications.\n\nPlease read the Getting Started Instructions here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDeveloperPortal-getting-started.pdf\n\n\n\n**Out of scope:**\n* session invalidation across browsers/devices - this is how it is intended to work by design\n* issues related to other APIs except DevPortal Bug Bounty Interactive and DevPortal Bug Bounty Non-Interactive"
-            },
-            {
-                "id": "3e251e38-8683-4a01-8b33-79a6a5756b79",
-                "type": 1,
-                "endpoint": "testing.maventa.com",
-                "businessImpact": 3,
-                "description": "**AutoInvoice**\nhttps://testing.maventa.com/apis/v1.1/wsdl is a SOAP API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/soap-api/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials."
-            }
-        ]
-    },
-    {
-        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "VismaResponsibleDisclosure",
-        "name": "Visma Responsible Disclosure",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1686836136,
-        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
-        "domains": [
-            {
-                "id": "8922aa89-e471-4918-9785-ba22414a1975",
-                "type": 1,
-                "endpoint": "all",
-                "businessImpact": 1,
-                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
-            }
-        ]
-    },
-    {
-        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "intigriti",
-        "name": "intigriti",
-        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and will reward you accordingly.",
-        "minBounty": {
-            "value": 200.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 13337.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1686666786,
-        "lastSubmissionAt": 1686666354,
-        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
-        "domains": [
-            {
-                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
-                "type": 1,
-                "endpoint": "*.intigriti.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "9307f4bd-bf2b-40ef-bb77-ee7575ff37f9",
-                "type": 1,
-                "endpoint": "*.intigriti.me",
-                "businessImpact": 3,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
         "status": 3,
         "confidentialityLevel": 4,
@@ -833,6 +709,130 @@
                 "endpoint": "*.uphold.com",
                 "businessImpact": 2,
                 "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
+            }
+        ]
+    },
+    {
+        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "universitatsspitalzurich",
+        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "usz-vdp",
+        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
+        "description": "                                                                                                         **VULNERABILITY DISCLOSURE PROGRAM (VDP)**\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1684225038,
+        "lastSubmissionAt": 1686116589,
+        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
+        "domains": [
+            {
+                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
+                "type": 1,
+                "endpoint": "*.unispital.ch ",
+                "businessImpact": 1,
+                "description": "forwarding to usz.ch"
+            },
+            {
+                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
+                "type": 1,
+                "endpoint": "*.usz.ch ",
+                "businessImpact": 1,
+                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
+            }
+        ]
+    },
+    {
+        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "visma",
+        "companyName": "Visma",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "VismaResponsibleDisclosure",
+        "name": "Visma Responsible Disclosure",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1677670936,
+        "lastSubmissionAt": 1686836136,
+        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
+        "domains": [
+            {
+                "id": "8922aa89-e471-4918-9785-ba22414a1975",
+                "type": 1,
+                "endpoint": "all",
+                "businessImpact": 1,
+                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
+            }
+        ]
+    },
+    {
+        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "portofantwerp",
+        "companyName": "Port of Antwerp-Bruges",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "nxtport",
+        "name": "NxtPort",
+        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679993070,
+        "lastSubmissionAt": 1679465063,
+        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
+        "domains": [
+            {
+                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
+                "type": 1,
+                "endpoint": "console.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
+                "type": 1,
+                "endpoint": "login.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
+                "type": 1,
+                "endpoint": "signup.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
+                "type": 1,
+                "endpoint": "www.nxtport.com",
+                "businessImpact": 1,
+                "description": null
             }
         ]
     },
@@ -1133,6 +1133,38 @@
         ]
     },
     {
+        "programId": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "ubisoft",
+        "companyName": "Ubisoft",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "ubisoftvdp",
+        "name": "Ubisoft VDP",
+        "description": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew, and Watch Dogs.\n\nWe welcome the reporting of security vulnerabilities that would help us protect our assets and players.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1681826677,
+        "lastSubmissionAt": 1686740198,
+        "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
+        "domains": [
+            {
+                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
+                "type": 6,
+                "endpoint": "Ubisoft",
+                "businessImpact": 3,
+                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update."
+            }
+        ]
+    },
+    {
         "programId": "0083a5bf-e54f-4f79-a972-12a795272c8b",
         "status": 3,
         "confidentialityLevel": 4,
@@ -1203,38 +1235,6 @@
                 "endpoint": "com.purolator.mobileapp",
                 "businessImpact": 1,
                 "description": "Purolator's mobile application for Android"
-            }
-        ]
-    },
-    {
-        "programId": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "ubisoft",
-        "companyName": "Ubisoft",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "ubisoftvdp",
-        "name": "Ubisoft VDP",
-        "description": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew, and Watch Dogs.\n\nWe welcome the reporting of security vulnerabilities that would help us protect our assets and players.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1681826677,
-        "lastSubmissionAt": 1686740198,
-        "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
-        "domains": [
-            {
-                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
-                "type": 6,
-                "endpoint": "Ubisoft",
-                "businessImpact": 3,
-                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update."
             }
         ]
     },
@@ -3507,6 +3507,66 @@
         ]
     },
     {
+        "programId": "30f445f7-ca4c-4130-9434-49add5c6ac74",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "algemeendagblad",
+        "name": "Algemeen Dagblad",
+        "description": "With around 900 editors Algemeen Dagblad (AD) has become the largest journalistic organization in the Netherlands, offering both national and extensive regional news coverage.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680522811,
+        "lastSubmissionAt": 1686777689,
+        "logoId": "public_bucket_556c3dc4-35e6-48e2-a7a1-be98af9a31a5-09ab75b4-96bd-4793-ab4d-cdc544214428",
+        "domains": [
+            {
+                "id": "fbb062fe-fb38-48f9-bb03-faddc6b7ad80",
+                "type": 1,
+                "endpoint": "myaccount.ad.nl",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "4a3fa5d2-39d6-45b0-a31d-c8c1f0d2f59a",
+                "type": 1,
+                "endpoint": "webwinkel.ad.nl",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "fe388ab1-2a27-4f56-a815-df935d8abfc9",
+                "type": 1,
+                "endpoint": "www.ad.nl",
+                "businessImpact": 3,
+                "description": "excluding\n* ad.nl/service\n* ad.nl/inloggen\n* ad.nl/login\n* ad.nl/registreren"
+            },
+            {
+                "id": "1253075d-d882-4932-8f9b-41c79878e209",
+                "type": 1,
+                "endpoint": "www.ad.nl/abonnementen",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "62280250-81af-4549-97dc-1d714f9b8cb8",
+                "type": 1,
+                "endpoint": "*.ad.nl",
+                "businessImpact": 2,
+                "description": "excluding abonnement.ad.nl"
+            }
+        ]
+    },
+    {
         "programId": "981f8ca2-8ddd-48e8-b710-b6a00fba35cc",
         "status": 3,
         "confidentialityLevel": 4,
@@ -3968,66 +4028,6 @@
         ]
     },
     {
-        "programId": "30f445f7-ca4c-4130-9434-49add5c6ac74",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "algemeendagblad",
-        "name": "Algemeen Dagblad",
-        "description": "With around 900 editors Algemeen Dagblad (AD) has become the largest journalistic organization in the Netherlands, offering both national and extensive regional news coverage.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680522811,
-        "lastSubmissionAt": 1686777689,
-        "logoId": "public_bucket_556c3dc4-35e6-48e2-a7a1-be98af9a31a5-09ab75b4-96bd-4793-ab4d-cdc544214428",
-        "domains": [
-            {
-                "id": "fbb062fe-fb38-48f9-bb03-faddc6b7ad80",
-                "type": 1,
-                "endpoint": "myaccount.ad.nl",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4a3fa5d2-39d6-45b0-a31d-c8c1f0d2f59a",
-                "type": 1,
-                "endpoint": "webwinkel.ad.nl",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "fe388ab1-2a27-4f56-a815-df935d8abfc9",
-                "type": 1,
-                "endpoint": "www.ad.nl",
-                "businessImpact": 3,
-                "description": "excluding\n* ad.nl/service\n* ad.nl/inloggen\n* ad.nl/login\n* ad.nl/registreren"
-            },
-            {
-                "id": "1253075d-d882-4932-8f9b-41c79878e209",
-                "type": 1,
-                "endpoint": "www.ad.nl/abonnementen",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "62280250-81af-4549-97dc-1d714f9b8cb8",
-                "type": 1,
-                "endpoint": "*.ad.nl",
-                "businessImpact": 2,
-                "description": "excluding abonnement.ad.nl"
-            }
-        ]
-    },
-    {
         "programId": "a5033edb-65a5-4e9f-8e4d-af548e42e647",
         "status": 3,
         "confidentialityLevel": 4,
@@ -4390,6 +4390,66 @@
         ]
     },
     {
+        "programId": "3305ccb2-c0a7-4988-aa27-6aafe97c11a9",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "muuselabs",
+        "companyName": "Muuselabs",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "jooki",
+        "name": "Jooki",
+        "description": "Jooki by Muuselabs - the IoT speaker for kids \n\nJooki is a music player that kids can independently use in a safe and screen-free environment. Upload your own content for offline use or listen online to your favourite Spotify playlists or web radios. Jooki has WiFi, Bluetooth, a microphone, speakers, NFC tags, voicemail service...\n\nRight now we are not offering monetary awards, but notable exploits will be rewarded with a Jooki 2 when they become available in Q3-2020.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679982568,
+        "lastSubmissionAt": 1681134681,
+        "logoId": "public_bucket_6848f929-c6aa-4824-8b0f-09ce6a8b7d6b-68ddb742-69d0-4a14-a462-24e10f092f67",
+        "domains": [
+            {
+                "id": "d9d6744b-9df7-4fd2-ba5e-5a7813c21db4",
+                "type": 2,
+                "endpoint": "com.muuselabs.jooki",
+                "businessImpact": 1,
+                "description": "Parental control app for controlling a Jooki device"
+            },
+            {
+                "id": "e4ae0286-1125-41aa-b5dc-9248bb1670dc",
+                "type": 3,
+                "endpoint": "1287510114",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "a6c84e82-df58-4516-9646-8b288c3eb04f",
+                "type": 1,
+                "endpoint": "*.jooki.rocks",
+                "businessImpact": 1,
+                "description": "Any service hosted by Muuselabs\n\n**Excluding:**\n* www.jooki.rocks - our web store\n* ca|en|eu|fr|nl|uk|us.jooki.rocks - our international web stores"
+            },
+            {
+                "id": "e775288a-96b8-4ec7-b9bd-f9bab9b150a7",
+                "type": 1,
+                "endpoint": "*.muuselabs.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "c0024368-c48f-4828-9a18-a627e1df81c2",
+                "type": 1,
+                "endpoint": "my.jooki.rocks",
+                "businessImpact": 1,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "efd8bd86-a986-4b4a-9eda-c9a6a1a6b540",
         "status": 3,
         "confidentialityLevel": 4,
@@ -4481,66 +4541,6 @@
                 "endpoint": "demo.globalticket.com/*",
                 "businessImpact": 1,
                 "description": "GlobalTicket is one of our acquired integrations. \nBe sure to check out /cms to try and work your way into it."
-            }
-        ]
-    },
-    {
-        "programId": "3305ccb2-c0a7-4988-aa27-6aafe97c11a9",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "muuselabs",
-        "companyName": "Muuselabs",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "jooki",
-        "name": "Jooki",
-        "description": "Jooki by Muuselabs - the IoT speaker for kids \n\nJooki is a music player that kids can independently use in a safe and screen-free environment. Upload your own content for offline use or listen online to your favourite Spotify playlists or web radios. Jooki has WiFi, Bluetooth, a microphone, speakers, NFC tags, voicemail service...\n\nRight now we are not offering monetary awards, but notable exploits will be rewarded with a Jooki 2 when they become available in Q3-2020.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679982568,
-        "lastSubmissionAt": 1681134681,
-        "logoId": "public_bucket_6848f929-c6aa-4824-8b0f-09ce6a8b7d6b-68ddb742-69d0-4a14-a462-24e10f092f67",
-        "domains": [
-            {
-                "id": "d9d6744b-9df7-4fd2-ba5e-5a7813c21db4",
-                "type": 2,
-                "endpoint": "com.muuselabs.jooki",
-                "businessImpact": 1,
-                "description": "Parental control app for controlling a Jooki device"
-            },
-            {
-                "id": "e4ae0286-1125-41aa-b5dc-9248bb1670dc",
-                "type": 3,
-                "endpoint": "1287510114",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "a6c84e82-df58-4516-9646-8b288c3eb04f",
-                "type": 1,
-                "endpoint": "*.jooki.rocks",
-                "businessImpact": 1,
-                "description": "Any service hosted by Muuselabs\n\n**Excluding:**\n* www.jooki.rocks - our web store\n* ca|en|eu|fr|nl|uk|us.jooki.rocks - our international web stores"
-            },
-            {
-                "id": "e775288a-96b8-4ec7-b9bd-f9bab9b150a7",
-                "type": 1,
-                "endpoint": "*.muuselabs.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "c0024368-c48f-4828-9a18-a627e1df81c2",
-                "type": 1,
-                "endpoint": "my.jooki.rocks",
-                "businessImpact": 1,
-                "description": null
             }
         ]
     },
@@ -4746,408 +4746,6 @@
         ]
     },
     {
-        "programId": "43c4b274-ccbd-4ea2-8047-d40b0b4205ac",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "libelle",
-        "name": "Libelle",
-        "description": "Libelle.nl is the online platform for everything women want to know, from personal stories, the latest news about health & psyche to household tips and trends & videos that you should not miss.",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1686663995,
-        "lastSubmissionAt": 1686747698,
-        "logoId": "public_bucket_ba3a5990-e8e8-4f52-862d-7ed7081b325b-3a6aea3e-7ca4-4b8a-aefa-327338c820b8",
-        "domains": [
-            {
-                "id": "f35a01fa-6de3-4750-af43-b36d6fffa7a7",
-                "type": 1,
-                "endpoint": "www.libelle.nl",
-                "businessImpact": 3,
-                "description": "excluding\n* libelle.nl/service\n* libelle.nl/inloggen\n* libelle.nl/login\n* libelle.nl/registreren"
-            },
-            {
-                "id": "1133ce7b-4a3e-4380-812c-e0aeeb9f5f60",
-                "type": 1,
-                "endpoint": "*.libelle.nl",
-                "businessImpact": 2,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "196fa177-ac2d-41b0-91bb-07bc9db43b7a",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "sbb",
-        "companyName": "SBB",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "sbbglobal",
-        "name": "SBB - Swiss Federal Railways",
-        "description": "Swiss Federal Railways - the national railway company of Switzerland.\n(German: Schweizerische Bundesbahnen, SBB)\n\nWelcome to our public Bug Bounty program. \n\nWe are specifically looking for:\n\n* Leaking PII Data (customer)\n* Data manipulation\n\nWe will add additional applications/domains to the scope (step by step) to reach our goal.\n\nHigh performance researcher may be invited to our private programs!  ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1683019292,
-        "lastSubmissionAt": 1686833967,
-        "logoId": "public_bucket_eb2ba681-d13f-4893-8d6a-37d64da63f4b-eb5c8730-f839-4cbd-9b6d-b87d904158e9",
-        "domains": [
-            {
-                "id": "e4808037-bd50-4ce8-91fd-9a30d7d6bf12",
-                "type": 1,
-                "endpoint": "login.swisspass.ch",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "da40e62b-1a67-4389-9d23-ed18e1cbcaaa",
-                "type": 1,
-                "endpoint": "www.swisspass.ch",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "e1e77a9a-ab7a-4a40-ae1e-53149fbd47a8",
-                "type": 1,
-                "endpoint": "*.sbb.ch",
-                "businessImpact": 3,
-                "description": "**NEW - NEW - NEW**"
-            },
-            {
-                "id": "359ecbb5-02b8-47a0-8c5d-4a06d39a0bc2",
-                "type": 1,
-                "endpoint": "*.swisspass.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "3864a767-f0c0-4ae3-9bf6-3e2805cfb30b",
-                "type": 1,
-                "endpoint": "bahninfrastruktur.sbb.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "a741fc68-5e5c-47e1-a149-6d649fa09a18",
-                "type": 1,
-                "endpoint": "beta.sbb.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4887bf13-374b-4e91-b2e8-dbbefe4f5919",
-                "type": 1,
-                "endpoint": "bimchange.sbb.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "266595d4-4a64-4b65-9512-90167b542737",
-                "type": 1,
-                "endpoint": "business.sbb.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ba0f85d9-a2dc-4a24-8362-c7e9265cbb38",
-                "type": 1,
-                "endpoint": "www.elvetino.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ddce214e-a989-4935-b7dd-fde2614d46e2",
-                "type": 1,
-                "endpoint": "www.sbb.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "dcd626cf-6a69-4208-90f4-a5a89ea1cacb",
-                "type": 1,
-                "endpoint": "www.sbbcargo.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ec1c83bd-59db-4a66-a117-f5955eb54d3f",
-                "type": 1,
-                "endpoint": "www.transsicura.ch",
-                "businessImpact": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "5c7a8f79-a23b-4367-a2c6-63a2d48586ee",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "hetlaatstenieuws",
-        "name": "Het Laatste Nieuws",
-        "description": "HLN.be is the number one news site in Flanders. 24/7 news with a focus on current events, sports and entertainment. The editors know how to keep their finger on the pulse at all times: on average every 4 minutes a new article appears on the news site. Readers consume their news more and more fragmented through their social media, so it is important for HLN to stay top of mind with its own app.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680523103,
-        "lastSubmissionAt": 1686649835,
-        "logoId": "public_bucket_b0527ff0-8be6-4f41-b82b-e8ad4bf44465-d90dd568-154a-4345-88e4-4cd5231943d2",
-        "domains": [
-            {
-                "id": "8ce77270-e090-4a7d-88ab-be08f1b3afb1",
-                "type": 1,
-                "endpoint": "hln.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "1da5bea7-5746-4ce3-978e-73bc62c1bf65",
-                "type": 1,
-                "endpoint": "myaccount.hln.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "94a4bab9-ec67-4c3b-a8b8-c6b71808e044",
-                "type": 1,
-                "endpoint": "www.hln.be",
-                "businessImpact": 3,
-                "description": "excluding\n* hln.be/service\n* hln.be/inloggen\n* hln.be/login\n* hln.be/registreren"
-            },
-            {
-                "id": "c85cbba1-eefe-4cf3-b5b5-f52073e1eb8f",
-                "type": 1,
-                "endpoint": "*.hln.be",
-                "businessImpact": 2,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "bd22f48d-633e-4b26-bf71-e4778d41b247",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "datacamp",
-        "companyName": "DataCamp",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "datacamp",
-        "name": "DataCamp",
-        "description": "DataCamp\u2019s mission is to democratize data skills for everyone. Companies and teams of every size use DataCamp to close their data skill gaps and make better data-driven decisions. Data science and analytics are rapidly shaping every aspect of our lives and our businesses. There is incredible power in data\u2014but only if you know what to do with it. DataCamp teaches 1,600+ companies and 7 million individuals from 180+ countries the skills they need to work with data in the real world. \n\n",
-        "minBounty": {
-            "value": 25.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 1500.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1686238195,
-        "lastSubmissionAt": 1686693693,
-        "logoId": "public_bucket_336e22b1-87d1-4c30-b6b1-b49d56ca5cf0-0d920a6b-d88a-4bf9-848e-ae0fd716ac22",
-        "domains": [
-            {
-                "id": "ee9f0182-d2cb-42a8-aa6c-607eeebc4a96",
-                "type": 1,
-                "endpoint": "app.datacamp.com/certification",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "38cf8b20-40d0-4cc2-8b1c-17fc6f4f7982",
-                "type": 1,
-                "endpoint": "app.datacamp.com/groups",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "a4ccf1f5-05fb-42fc-b1b3-65da315977cc",
-                "type": 1,
-                "endpoint": "app.datacamp.com/learn",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "e6d5f94d-7282-4ac0-9310-ee35acec5d0c",
-                "type": 1,
-                "endpoint": "app.datacamp.com/workspace",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "50c0f037-c602-469f-bddb-359b743ab609",
-                "type": 1,
-                "endpoint": "assessment-v2.datacamp.com ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "0d112cf4-3aa9-4895-8dc5-ec622717b33e",
-                "type": 1,
-                "endpoint": "assessment.datacamp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "093601f3-7b25-4011-bd67-b191d0ceb412",
-                "type": 1,
-                "endpoint": "campus.datacamp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "605a0d4d-34f6-4305-8d0c-12722af890dd",
-                "type": 2,
-                "endpoint": "com.datacamp",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "160b498f-b3f8-40ea-91d4-49fe241852fc",
-                "type": 3,
-                "endpoint": "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "557938a2-93c2-4959-9cdb-3c34263c0c94",
-                "type": 1,
-                "endpoint": "practice.datacamp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "c0c23c8e-dd3b-4dda-9053-22b1a2dff879",
-                "type": 1,
-                "endpoint": "projects.datacamp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4f5f1b6b-74d4-4cc4-bd74-e65380b286aa",
-                "type": 1,
-                "endpoint": "www.datacamp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "1516187e-b1e5-47cd-a4c4-d922865964dc",
-                "type": 1,
-                "endpoint": "*.datacamp.com",
-                "businessImpact": 2,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "21d92048-d4d8-4781-8f37-3209a1b60fe1",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "azena",
-        "companyName": "Azena",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "azenaresponsibledisclosure",
-        "name": "Azena",
-        "description": "We are an award-winning German startup with locations in Munich, Eindhoven and Pittsburgh. We are 100% funded by the Bosch Group.\n\nOur goal is to be the leading open platform and marketplace for smart security and safety solutions. The platform we offer is based on a camera operating system that powers cameras from various manufacturers on the market. It connects to our Application Store where leading video analytics development companies offer cutting-edge apps.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679565549,
-        "lastSubmissionAt": 1682418082,
-        "logoId": "public_bucket_f41a9d44-ed5e-4bf8-99c8-4be1d3716647-70810713-6d3d-41b2-9a21-844724444404",
-        "domains": [
-            {
-                "id": "cd54a0fc-3e74-47cb-9504-78c3be92ec4f",
-                "type": 1,
-                "endpoint": "*.azena.com",
-                "businessImpact": 1,
-                "description": "All assets including azena.com and subdomains.\nNote that connect.azena.com and any subdomain of connect.azena.com is a remote connection service to devices owned and controlled by third parties. Therefore, these targets are out of scope and not covered by this program."
-            }
-        ]
-    },
-    {
-        "programId": "44cacd66-4ad6-4b5f-901e-d257ee0ae989",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "adahealth",
-        "companyName": "Ada Health",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "adahealth",
-        "name": "Ada Health",
-        "description": "Hi, we\u2019re Ada. We\u2019ve been working hard to improve health outcomes since 2016. Built by doctors and scientists and powered by a 10 million-strong user base, our medical AI simplifies healthcare journeys and helps people take care of themselves. We help people understand, manage, and get care for their symptoms with trusted medical expertise in minutes. Our enterprise solutions convert medical knowledge and clinical excellence into better outcomes for our partners. ",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 5000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1683105027,
-        "lastSubmissionAt": 1685876807,
-        "logoId": "public_bucket_a6fb61e3-89af-4927-8110-14a7d6b6423c-45a89414-2ad5-4776-b818-9ac013215495",
-        "domains": [
-            {
-                "id": "407b1fd6-80c2-43d0-b13e-e37ac7139eb6",
-                "type": 3,
-                "endpoint": "1099986434",
-                "businessImpact": 4,
-                "description": "IOS Mobile Applicaton of Ada Health"
-            },
-            {
-                "id": "7d15b559-f007-4ca9-aebd-db077504558b",
-                "type": 2,
-                "endpoint": "com.ada.app",
-                "businessImpact": 4,
-                "description": "Android Mobile Application of Ada Health"
-            },
-            {
-                "id": "f0d82574-31cb-4697-a25c-652a5a8939ae",
-                "type": 1,
-                "endpoint": "https://api.mobile.ada.com",
-                "businessImpact": 3,
-                "description": "Backend for frontend API endpoint for mobile application activities. This endpoint is protected by a Web Application Firewall. "
-            },
-            {
-                "id": "c52f8e91-0a11-4b70-b7b8-9e3523bfe6ba",
-                "type": 1,
-                "endpoint": "https://id.ada.com",
-                "businessImpact": 3,
-                "description": "Ada-ID is an identity management service for end user that interacts with Ada's applications. It provides authentication and authorization. Ada-ID serves as web application and API services. Frontend is valid for password reset and account verification process. This endpoint is protected by a Web Application Firewall. "
-            }
-        ]
-    },
-    {
         "programId": "e85b4b33-7785-43b5-a5aa-5bcd226688b4",
         "status": 3,
         "confidentialityLevel": 4,
@@ -5335,6 +4933,73 @@
         ]
     },
     {
+        "programId": "406fd572-83b2-49de-9200-594c484d5bb9",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "hetparool",
+        "name": "Het Parool",
+        "description": "Het Parool is a Dutch regional newspaper that started in the Second World War as a social-democratic tinted resistance newspaper.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680523173,
+        "lastSubmissionAt": 1685467461,
+        "logoId": "public_bucket_942fff0f-227b-46bc-a0dc-0ff65122b040-de21f76f-0199-4509-9655-394c6f429694",
+        "domains": [
+            {
+                "id": "39e1e058-bd6f-4a8f-a09e-ab6e921481ce",
+                "type": 1,
+                "endpoint": "myaccount.parool.nl",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "cc6f7d31-94f9-40e0-a914-d5949434e15f",
+                "type": 1,
+                "endpoint": "shop.parool.nl",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "99a6a24a-3efa-4679-8e49-c49dba336165",
+                "type": 1,
+                "endpoint": "webwinkel.parool.nl",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "05b3fe55-25d3-4f1d-a7c3-293f168c4438",
+                "type": 1,
+                "endpoint": "www.parool.nl",
+                "businessImpact": 3,
+                "description": "excluding\n* parool.nl/service\n* parool.nl/inloggen\n* parool.nl/login\n* parool.nl/registreren"
+            },
+            {
+                "id": "8eeec0ea-ed28-4d9b-a7a8-04a574f75316",
+                "type": 1,
+                "endpoint": "www.parool.nl/abonnementen",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "57e0aecb-23cf-4775-b240-0f54c0e6cd11",
+                "type": 1,
+                "endpoint": "*.parool.nl",
+                "businessImpact": 2,
+                "description": "excluding abonnement.parool.nl"
+            }
+        ]
+    },
+    {
         "programId": "b2049472-b637-49c3-b9cc-077c676f093c",
         "status": 3,
         "confidentialityLevel": 4,
@@ -5462,69 +5127,164 @@
         ]
     },
     {
-        "programId": "406fd572-83b2-49de-9200-594c484d5bb9",
+        "programId": "8f6c92dc-1300-4f11-8284-29b6ed743378",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
+        "companyHandle": "speakap",
+        "companyName": "Speakap",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "hetparool",
-        "name": "Het Parool",
-        "description": "Het Parool is a Dutch regional newspaper that started in the Second World War as a social-democratic tinted resistance newspaper.",
+        "handle": "speakapresponsibledisclosure",
+        "name": "Speakap Responsible Disclosure",
+        "description": "Since 2010, Speakap has helped more than 400 companies across 120 countries, 42 languages, and many time zones, reach their full potential with more productive employees. With an award-winning, easy-to-use employee app, Speakap empowers company leaders to share the right content with the right people at the right time. Speakap boasts very high adoption rates with users logging in almost 6x a day for 50+ seconds per time.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2000.0,
+            "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1680523173,
-        "lastSubmissionAt": 1685467461,
-        "logoId": "public_bucket_942fff0f-227b-46bc-a0dc-0ff65122b040-de21f76f-0199-4509-9655-394c6f429694",
+        "lastUpdatedAt": 1680701723,
+        "lastSubmissionAt": 1684985082,
+        "logoId": "public_bucket_378e7e9d-25fd-4916-9784-05310098d811-f1d752c6-4604-489b-916b-2ae5e7a5a4c3",
         "domains": [
             {
-                "id": "39e1e058-bd6f-4a8f-a09e-ab6e921481ce",
+                "id": "4a319594-1d73-4929-8765-ed18df3f9063",
+                "type": 2,
+                "endpoint": "nl.speakap.speakap",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "8eab7f32-4cca-4043-8522-48a894336c6f",
+                "type": 3,
+                "endpoint": "https://apps.apple.com/nl/app/speakap/id713925262",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "d0cc7c03-571b-4f62-b76f-4deaf96fe9da",
                 "type": 1,
-                "endpoint": "myaccount.parool.nl",
+                "endpoint": "*.speakap.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "944bdb62-db82-4612-9cd3-95447c138829",
+                "type": 1,
+                "endpoint": "*.speakap.io",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "6b8291a2-a8e2-4d4a-b88f-02942e9f0e8d",
+                "type": 1,
+                "endpoint": "Any related Speakap domain",
+                "businessImpact": 1,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "670f183e-aca8-4bc1-87d7-5341c552d006",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "uz leuven",
+        "companyName": "UZ Leuven",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "mobile apps",
+        "name": "Nexuzhealth",
+        "description": "Website + Android Apps + iOS Apps\n\nAndroid Apps\nKWS Companion\nThe application is only to be used by doctors and no logon information will be given.\n\nmynexuz CPV\nThe application is only to be used by personnel of UZ Leuven responsible for transport of patients and no logon information will be given.\n\nmynexuzhealth app\nThis application is intended to be used by patients in order to consult their private data, their doctors & appointments and more. Login: see below.\n\niOS Apps\nKWS Companion\nThe application is only to be used by doctors and no logon information will be given.\n\nWebsite\nmynexuzhealth website\nThis website is intended to be used by patients in order to consult their private data, their doctors & appointments and more. Login: see below.\n\nIn order to be able to logon to the mynexuzhealth website and app, an ethical hacker will need to request one or more logon credentials via the platform. You can request this information via support (support@intigriti.be). The information they will receive is\n\n   - A user ID of 8 numbers\n   - A PIN code of 4 numbers\n   - A QRCode",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679992608,
+        "lastSubmissionAt": 1686601763,
+        "logoId": "public_bucket_e3ebe1c2-6055-48ca-91c1-94f367a5ba04-6db4dcc5-0869-4d88-aac1-e0628da33a56",
+        "domains": [
+            {
+                "id": "32835dbd-7adc-4ed8-800f-ac5a61c5f944",
+                "type": 1,
+                "endpoint": "forms.nexuzhealth.be",
+                "businessImpact": 3,
+                "description": "Registration for code cards used to authenticate on the mynexuzhealth application"
+            },
+            {
+                "id": "de8a6e7c-d1e2-4023-a665-ba07b1e6e412",
+                "type": 6,
+                "endpoint": "134.58.179.82",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "cc6f7d31-94f9-40e0-a914-d5949434e15f",
-                "type": 1,
-                "endpoint": "shop.parool.nl",
+                "id": "9c557c73-6b38-4472-b51e-c611f72a5d54",
+                "type": 2,
+                "endpoint": "be.nexuzhealth.mobile.cpv",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "99a6a24a-3efa-4679-8e49-c49dba336165",
-                "type": 1,
-                "endpoint": "webwinkel.parool.nl",
+                "id": "c22c9375-08fe-4aca-b0d2-4a47a477b15e",
+                "type": 2,
+                "endpoint": "be.nexuzhealth.mobile.kws",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "05b3fe55-25d3-4f1d-a7c3-293f168c4438",
-                "type": 1,
-                "endpoint": "www.parool.nl",
-                "businessImpact": 3,
-                "description": "excluding\n* parool.nl/service\n* parool.nl/inloggen\n* parool.nl/login\n* parool.nl/registreren"
-            },
-            {
-                "id": "8eeec0ea-ed28-4d9b-a7a8-04a574f75316",
-                "type": 1,
-                "endpoint": "www.parool.nl/abonnementen",
+                "id": "9147705d-d068-4062-b7e1-2ebbed19c648",
+                "type": 2,
+                "endpoint": "be.nexuzhealth.mobile.mynexuz",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "57e0aecb-23cf-4775-b240-0f54c0e6cd11",
+                "id": "c2531b6e-9ed6-47da-adb3-0af873852a7a",
                 "type": 1,
-                "endpoint": "*.parool.nl",
-                "businessImpact": 2,
-                "description": "excluding abonnement.parool.nl"
+                "endpoint": "idp-mobile.nexuzhealth.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "1b7b2b53-9245-4502-bd2d-f436b1272af0",
+                "type": 3,
+                "endpoint": "kws-companion/id1342124012",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "eb398abf-0d8c-4cee-89e9-a3638ff5b7ec",
+                "type": 1,
+                "endpoint": "mobile.nexuzhealth.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "e3286d7d-ae4a-41d7-8c31-63d6b0073e11",
+                "type": 1,
+                "endpoint": "mynexuz.be",
+                "businessImpact": 3,
+                "description": "\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
+            },
+            {
+                "id": "19ce0200-738f-43d8-b84f-1ca56b7fb0e7",
+                "type": 1,
+                "endpoint": "mynexuz.be/myUZ/",
+                "businessImpact": 3,
+                "description": "\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
+            },
+            {
+                "id": "265bd3a6-85de-4f9e-a724-3d7b14031fd6",
+                "type": 3,
+                "endpoint": "mynexuzhealth/id1459856321",
+                "businessImpact": 3,
+                "description": null
             }
         ]
     },
@@ -5765,60 +5525,375 @@
         ]
     },
     {
-        "programId": "8f6c92dc-1300-4f11-8284-29b6ed743378",
+        "programId": "0f05f9cd-03e1-4f90-a449-2f43cdaf879a",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "speakap",
-        "companyName": "Speakap",
+        "companyHandle": "portofantwerp",
+        "companyName": "Port of Antwerp-Bruges",
         "tacRequired": false,
-        "companySustainable": false,
-        "handle": "speakapresponsibledisclosure",
-        "name": "Speakap Responsible Disclosure",
-        "description": "Since 2010, Speakap has helped more than 400 companies across 120 countries, 42 languages, and many time zones, reach their full potential with more productive employees. With an award-winning, easy-to-use employee app, Speakap empowers company leaders to share the right content with the right people at the right time. Speakap boasts very high adoption rates with users logging in almost 6x a day for 50+ seconds per time.",
+        "companySustainable": true,
+        "handle": "portofantwerp",
+        "name": "Port of Antwerp-Bruges",
+        "description": "The Antwerp-Bruges Port Authority has a key role in the port's day-to-day operation. The Port Authority manages and maintains the docks, the bridges, the locks, the quay walls and the land. The personnel is also responsible for safe shipping traffic in the docks, the bridges and locks. In addition, the Port Authority provides tugs and cranes, carries out dredging work and promotes the port at home and abroad. ",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 0.0,
+            "value": 2000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1680701723,
-        "lastSubmissionAt": 1684985082,
-        "logoId": "public_bucket_378e7e9d-25fd-4916-9784-05310098d811-f1d752c6-4604-489b-916b-2ae5e7a5a4c3",
+        "lastUpdatedAt": 1680780542,
+        "lastSubmissionAt": 1686422007,
+        "logoId": "public_bucket_0d0e9849-84bf-4753-8e17-d5ab852a9320-5a162089-9a5a-45d6-8f13-116063ec58f0",
         "domains": [
             {
-                "id": "4a319594-1d73-4929-8765-ed18df3f9063",
-                "type": 2,
-                "endpoint": "nl.speakap.speakap",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "8eab7f32-4cca-4043-8522-48a894336c6f",
-                "type": 3,
-                "endpoint": "https://apps.apple.com/nl/app/speakap/id713925262",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "d0cc7c03-571b-4f62-b76f-4deaf96fe9da",
+                "id": "f1a37ee8-321a-4084-889d-98e8273c5d4c",
                 "type": 1,
-                "endpoint": "*.speakap.com",
+                "endpoint": "webapps-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "3d8da8c1-d98d-43f4-a66c-61f73c1ecd55",
+                "type": 1,
+                "endpoint": "webapps.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "2795d5c6-8acb-4a14-9a6b-3d9bb2a37fc8",
+                "type": 1,
+                "endpoint": "webapps-accpt.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "312e2833-6708-4427-9916-51190f1b28db",
+                "type": 1,
+                "endpoint": "wiki-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "db6bb2e3-5044-4f13-8146-7c63742aae88",
+                "type": 1,
+                "endpoint": "wiki.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "3f613f73-8f1a-4e40-8523-64506ee3db1d",
+                "type": 1,
+                "endpoint": "wiki-accpt.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "dab1fd28-0977-4539-989a-8bbdc31de9fc",
+                "type": 1,
+                "endpoint": "*.c-point.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "80fee6bb-08b2-42ae-8aee-ddb37e617761",
+                "type": 4,
+                "endpoint": "188.118.8.0/25",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "4ffbe689-b1b0-491e-92f6-5a2efea06974",
+                "type": 4,
+                "endpoint": "94.107.237.192/26",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "061f0caa-dd90-4a2a-99b5-282953c7a9f0",
+                "type": 1,
+                "endpoint": "api-accpt.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "8380b6e3-1729-4597-a5d2-c7b612e68d6d",
+                "type": 1,
+                "endpoint": "api-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "573b289c-2919-4e69-a0f5-1389efbb79a3",
+                "type": 1,
+                "endpoint": "api.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "b2775002-8bcb-4557-b4d7-f1b1854d685e",
+                "type": 1,
+                "endpoint": "api.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "6aebb7b5-2bae-4202-b024-19accb1bd814",
+                "type": 1,
+                "endpoint": "apps-accpt.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "481be654-a4ca-471b-83da-1f8c641d8676",
+                "type": 1,
+                "endpoint": "apps-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "c9eca4d1-2bfc-4b4a-9711-a5d18a1fff74",
+                "type": 1,
+                "endpoint": "apps.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "c8759f2e-baed-4751-98eb-e4aa2e8a3113",
+                "type": 1,
+                "endpoint": "apps.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "b82507dd-2dce-4013-9f69-675b459b4a2e",
+                "type": 1,
+                "endpoint": "as2-accpt.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "0d7e7f72-d7bc-4069-a6ba-26187223798d",
+                "type": 1,
+                "endpoint": "as2-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "c4fe9117-c984-4a1d-aeca-5990d8720a92",
+                "type": 1,
+                "endpoint": "as2.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "b37e3666-ce95-4435-9f8d-6b2032a9348a",
+                "type": 1,
+                "endpoint": "as2.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "a2db5270-1d98-4bfc-9701-6aa36f9a63c1",
+                "type": 1,
+                "endpoint": "digitalspecs.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "e54f5be7-12c0-4209-92cd-5e003c4dbfc4",
+                "type": 1,
+                "endpoint": "login-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "73622244-3c3e-4dfb-8ff3-5cac3124273e",
+                "type": 1,
+                "endpoint": "login.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "493e462c-0e6e-411d-be87-36b2269957ab",
+                "type": 1,
+                "endpoint": "maximo-accpt.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "a70a6c88-97c2-434b-8bbe-e11a662078c7",
+                "type": 1,
+                "endpoint": "maximo-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "b7054f5c-b45b-4e61-b4d2-dc22c4428057",
+                "type": 1,
+                "endpoint": "maximo.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "3f376a4e-cac9-41ee-b6ba-dc728050cb54",
+                "type": 1,
+                "endpoint": "maximo.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "aa95f2bd-adf0-4563-81cb-aa112c2dd0b4",
+                "type": 1,
+                "endpoint": "maximo.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "7073b2b3-4389-4156-8be1-c46df4797743",
+                "type": 1,
+                "endpoint": "my-accpt.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "ffe81429-ec6e-4cc9-83fd-21b820ce6569",
+                "type": 1,
+                "endpoint": "my-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "320db7c2-bb14-49d8-a252-f7fe984b2430",
+                "type": 1,
+                "endpoint": "my.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "626ef075-78a1-4ead-b7f3-8bf27b865c81",
+                "type": 1,
+                "endpoint": "my.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "462f541a-96b7-402f-af40-870a31ed655f",
+                "type": 1,
+                "endpoint": "oprc.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "5ff7949f-8091-4351-a1f1-4793738cf093",
+                "type": 1,
+                "endpoint": "register-accpt.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "6c0387f8-82b0-4be0-8c4c-ce43e33c2a23",
+                "type": 1,
+                "endpoint": "register-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "5c12da9e-3759-4837-bc73-8be3a8c8d6ce",
+                "type": 1,
+                "endpoint": "servicedesk-accpt.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "cc9a8d4f-1360-4176-9255-485e95b81b6b",
+                "type": 1,
+                "endpoint": "servicedesk-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "79d2d0a2-6707-4f7b-84c2-a0ca807e4233",
+                "type": 1,
+                "endpoint": "servicedesk.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "391f18f1-acff-4c16-a2e8-40e1bf6e0c36",
+                "type": 1,
+                "endpoint": "servicedesk.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "b86f577a-3e2f-4515-abaa-7f4d0b67c79b",
+                "type": 1,
+                "endpoint": "share-accpt.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "50561155-ab1b-4d13-8b7e-b0a14278e8ee",
+                "type": 1,
+                "endpoint": "share-accpt.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "c8bd0242-10ab-4ca1-bb1e-926d405fa5f0",
+                "type": 1,
+                "endpoint": "share.portofantwerp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "f974a1f4-cb2b-4fe4-9d32-6bf7c24795c5",
+                "type": 1,
+                "endpoint": "share.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "aecb0f12-e3a1-451a-ac2d-0baaecd1d6e0",
+                "type": 1,
+                "endpoint": "webapps.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "3dd2002c-57ef-4a30-ab30-3178850c64e9",
+                "type": 1,
+                "endpoint": "wiki.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "bc68b9d1-1afe-4e23-abe9-ac83d76c0bd5",
+                "type": 1,
+                "endpoint": "www.oursustainableport.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "429e63e4-27e3-4106-af2b-a345020f6919",
+                "type": 1,
+                "endpoint": "www.portofantwerpbruges.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "df4a410f-95ee-408a-b368-d2e3ebac3045",
+                "type": 1,
+                "endpoint": "*.portofantwerp.com",
                 "businessImpact": 1,
                 "description": null
             },
             {
-                "id": "944bdb62-db82-4612-9cd3-95447c138829",
+                "id": "4ecc8b49-c91a-43c0-96a2-1a61406e09a3",
                 "type": 1,
-                "endpoint": "*.speakap.io",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "6b8291a2-a8e2-4d4a-b88f-02942e9f0e8d",
-                "type": 1,
-                "endpoint": "Any related Speakap domain",
+                "endpoint": "*.portofantwerpbruges.com",
                 "businessImpact": 1,
                 "description": null
             }
@@ -6234,16 +6309,16 @@
         ]
     },
     {
-        "programId": "0f05f9cd-03e1-4f90-a449-2f43cdaf879a",
+        "programId": "87a468af-75ac-4e99-b061-0c40517a784c",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "portofantwerp",
-        "companyName": "Port of Antwerp-Bruges",
+        "companyHandle": "suivo",
+        "companyName": "Suivo",
         "tacRequired": false,
         "companySustainable": true,
-        "handle": "portofantwerp",
-        "name": "Port of Antwerp-Bruges",
-        "description": "The Antwerp-Bruges Port Authority has a key role in the port's day-to-day operation. The Port Authority manages and maintains the docks, the bridges, the locks, the quay walls and the land. The personnel is also responsible for safe shipping traffic in the docks, the bridges and locks. In addition, the Port Authority provides tugs and cranes, carries out dredging work and promotes the port at home and abroad. ",
+        "handle": "suivoweb",
+        "name": "Suivo",
+        "description": "The Suivo Web Platform provides access to Tracking data from vehicles equiped with Suivo hardware. The platform is built around 4 components:\n\n- Real-time Tracking data\n- Analytics based on historical Tracking data, both in a web view en generated reports\n- Communication: tasks and messages\n- Fleet management (Maintenance planning etc.)",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -6252,459 +6327,21 @@
             "value": 2000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1680780542,
-        "lastSubmissionAt": 1686422007,
-        "logoId": "public_bucket_0d0e9849-84bf-4753-8e17-d5ab852a9320-5a162089-9a5a-45d6-8f13-116063ec58f0",
+        "lastUpdatedAt": 1680701176,
+        "lastSubmissionAt": 1686666904,
+        "logoId": "public_bucket_ec1b3b62-89f0-497c-b3dc-b28ae98c1d48-c0b6dff3-3f8a-4da8-8c5a-f5f54b8ad9ec",
         "domains": [
             {
-                "id": "f1a37ee8-321a-4084-889d-98e8273c5d4c",
+                "id": "c1998423-274b-4a48-b9a4-9cfc36c89f3f",
                 "type": 1,
-                "endpoint": "webapps-accpt.portofantwerpbruges.com",
+                "endpoint": " aweb.suivo.com",
                 "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "3d8da8c1-d98d-43f4-a66c-61f73c1ecd55",
+                "id": "1f891d47-d3c5-4f30-8ec3-49f3877b1dc6",
                 "type": 1,
-                "endpoint": "webapps.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "2795d5c6-8acb-4a14-9a6b-3d9bb2a37fc8",
-                "type": 1,
-                "endpoint": "webapps-accpt.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "312e2833-6708-4427-9916-51190f1b28db",
-                "type": 1,
-                "endpoint": "wiki-accpt.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "db6bb2e3-5044-4f13-8146-7c63742aae88",
-                "type": 1,
-                "endpoint": "wiki.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "3f613f73-8f1a-4e40-8523-64506ee3db1d",
-                "type": 1,
-                "endpoint": "wiki-accpt.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "dab1fd28-0977-4539-989a-8bbdc31de9fc",
-                "type": 1,
-                "endpoint": "*.c-point.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "80fee6bb-08b2-42ae-8aee-ddb37e617761",
-                "type": 4,
-                "endpoint": "188.118.8.0/25",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4ffbe689-b1b0-491e-92f6-5a2efea06974",
-                "type": 4,
-                "endpoint": "94.107.237.192/26",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "061f0caa-dd90-4a2a-99b5-282953c7a9f0",
-                "type": 1,
-                "endpoint": "api-accpt.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "8380b6e3-1729-4597-a5d2-c7b612e68d6d",
-                "type": 1,
-                "endpoint": "api-accpt.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "573b289c-2919-4e69-a0f5-1389efbb79a3",
-                "type": 1,
-                "endpoint": "api.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "b2775002-8bcb-4557-b4d7-f1b1854d685e",
-                "type": 1,
-                "endpoint": "api.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "6aebb7b5-2bae-4202-b024-19accb1bd814",
-                "type": 1,
-                "endpoint": "apps-accpt.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "481be654-a4ca-471b-83da-1f8c641d8676",
-                "type": 1,
-                "endpoint": "apps-accpt.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "c9eca4d1-2bfc-4b4a-9711-a5d18a1fff74",
-                "type": 1,
-                "endpoint": "apps.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "c8759f2e-baed-4751-98eb-e4aa2e8a3113",
-                "type": 1,
-                "endpoint": "apps.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "b82507dd-2dce-4013-9f69-675b459b4a2e",
-                "type": 1,
-                "endpoint": "as2-accpt.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "0d7e7f72-d7bc-4069-a6ba-26187223798d",
-                "type": 1,
-                "endpoint": "as2-accpt.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "c4fe9117-c984-4a1d-aeca-5990d8720a92",
-                "type": 1,
-                "endpoint": "as2.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "b37e3666-ce95-4435-9f8d-6b2032a9348a",
-                "type": 1,
-                "endpoint": "as2.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "a2db5270-1d98-4bfc-9701-6aa36f9a63c1",
-                "type": 1,
-                "endpoint": "digitalspecs.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "e54f5be7-12c0-4209-92cd-5e003c4dbfc4",
-                "type": 1,
-                "endpoint": "login-accpt.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "73622244-3c3e-4dfb-8ff3-5cac3124273e",
-                "type": 1,
-                "endpoint": "login.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "493e462c-0e6e-411d-be87-36b2269957ab",
-                "type": 1,
-                "endpoint": "maximo-accpt.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "a70a6c88-97c2-434b-8bbe-e11a662078c7",
-                "type": 1,
-                "endpoint": "maximo-accpt.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "b7054f5c-b45b-4e61-b4d2-dc22c4428057",
-                "type": 1,
-                "endpoint": "maximo.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "3f376a4e-cac9-41ee-b6ba-dc728050cb54",
-                "type": 1,
-                "endpoint": "maximo.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "aa95f2bd-adf0-4563-81cb-aa112c2dd0b4",
-                "type": 1,
-                "endpoint": "maximo.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "7073b2b3-4389-4156-8be1-c46df4797743",
-                "type": 1,
-                "endpoint": "my-accpt.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ffe81429-ec6e-4cc9-83fd-21b820ce6569",
-                "type": 1,
-                "endpoint": "my-accpt.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "320db7c2-bb14-49d8-a252-f7fe984b2430",
-                "type": 1,
-                "endpoint": "my.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "626ef075-78a1-4ead-b7f3-8bf27b865c81",
-                "type": 1,
-                "endpoint": "my.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "462f541a-96b7-402f-af40-870a31ed655f",
-                "type": 1,
-                "endpoint": "oprc.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "5ff7949f-8091-4351-a1f1-4793738cf093",
-                "type": 1,
-                "endpoint": "register-accpt.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "6c0387f8-82b0-4be0-8c4c-ce43e33c2a23",
-                "type": 1,
-                "endpoint": "register-accpt.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "5c12da9e-3759-4837-bc73-8be3a8c8d6ce",
-                "type": 1,
-                "endpoint": "servicedesk-accpt.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "cc9a8d4f-1360-4176-9255-485e95b81b6b",
-                "type": 1,
-                "endpoint": "servicedesk-accpt.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "79d2d0a2-6707-4f7b-84c2-a0ca807e4233",
-                "type": 1,
-                "endpoint": "servicedesk.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "391f18f1-acff-4c16-a2e8-40e1bf6e0c36",
-                "type": 1,
-                "endpoint": "servicedesk.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "b86f577a-3e2f-4515-abaa-7f4d0b67c79b",
-                "type": 1,
-                "endpoint": "share-accpt.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "50561155-ab1b-4d13-8b7e-b0a14278e8ee",
-                "type": 1,
-                "endpoint": "share-accpt.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "c8bd0242-10ab-4ca1-bb1e-926d405fa5f0",
-                "type": 1,
-                "endpoint": "share.portofantwerp.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "f974a1f4-cb2b-4fe4-9d32-6bf7c24795c5",
-                "type": 1,
-                "endpoint": "share.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "aecb0f12-e3a1-451a-ac2d-0baaecd1d6e0",
-                "type": 1,
-                "endpoint": "webapps.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "3dd2002c-57ef-4a30-ab30-3178850c64e9",
-                "type": 1,
-                "endpoint": "wiki.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "bc68b9d1-1afe-4e23-abe9-ac83d76c0bd5",
-                "type": 1,
-                "endpoint": "www.oursustainableport.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "429e63e4-27e3-4106-af2b-a345020f6919",
-                "type": 1,
-                "endpoint": "www.portofantwerpbruges.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "df4a410f-95ee-408a-b368-d2e3ebac3045",
-                "type": 1,
-                "endpoint": "*.portofantwerp.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "4ecc8b49-c91a-43c0-96a2-1a61406e09a3",
-                "type": 1,
-                "endpoint": "*.portofantwerpbruges.com",
-                "businessImpact": 1,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "670f183e-aca8-4bc1-87d7-5341c552d006",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "uz leuven",
-        "companyName": "UZ Leuven",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "mobile apps",
-        "name": "Nexuzhealth",
-        "description": "Website + Android Apps + iOS Apps\n\nAndroid Apps\nKWS Companion\nThe application is only to be used by doctors and no logon information will be given.\n\nmynexuz CPV\nThe application is only to be used by personnel of UZ Leuven responsible for transport of patients and no logon information will be given.\n\nmynexuzhealth app\nThis application is intended to be used by patients in order to consult their private data, their doctors & appointments and more. Login: see below.\n\niOS Apps\nKWS Companion\nThe application is only to be used by doctors and no logon information will be given.\n\nWebsite\nmynexuzhealth website\nThis website is intended to be used by patients in order to consult their private data, their doctors & appointments and more. Login: see below.\n\nIn order to be able to logon to the mynexuzhealth website and app, an ethical hacker will need to request one or more logon credentials via the platform. You can request this information via support (support@intigriti.be). The information they will receive is\n\n   - A user ID of 8 numbers\n   - A PIN code of 4 numbers\n   - A QRCode",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679992608,
-        "lastSubmissionAt": 1686601763,
-        "logoId": "public_bucket_e3ebe1c2-6055-48ca-91c1-94f367a5ba04-6db4dcc5-0869-4d88-aac1-e0628da33a56",
-        "domains": [
-            {
-                "id": "32835dbd-7adc-4ed8-800f-ac5a61c5f944",
-                "type": 1,
-                "endpoint": "forms.nexuzhealth.be",
-                "businessImpact": 3,
-                "description": "Registration for code cards used to authenticate on the mynexuzhealth application"
-            },
-            {
-                "id": "de8a6e7c-d1e2-4023-a665-ba07b1e6e412",
-                "type": 6,
-                "endpoint": "134.58.179.82",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "9c557c73-6b38-4472-b51e-c611f72a5d54",
-                "type": 2,
-                "endpoint": "be.nexuzhealth.mobile.cpv",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "c22c9375-08fe-4aca-b0d2-4a47a477b15e",
-                "type": 2,
-                "endpoint": "be.nexuzhealth.mobile.kws",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "9147705d-d068-4062-b7e1-2ebbed19c648",
-                "type": 2,
-                "endpoint": "be.nexuzhealth.mobile.mynexuz",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "c2531b6e-9ed6-47da-adb3-0af873852a7a",
-                "type": 1,
-                "endpoint": "idp-mobile.nexuzhealth.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "1b7b2b53-9245-4502-bd2d-f436b1272af0",
-                "type": 3,
-                "endpoint": "kws-companion/id1342124012",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "eb398abf-0d8c-4cee-89e9-a3638ff5b7ec",
-                "type": 1,
-                "endpoint": "mobile.nexuzhealth.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "e3286d7d-ae4a-41d7-8c31-63d6b0073e11",
-                "type": 1,
-                "endpoint": "mynexuz.be",
-                "businessImpact": 3,
-                "description": "\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
-            },
-            {
-                "id": "19ce0200-738f-43d8-b84f-1ca56b7fb0e7",
-                "type": 1,
-                "endpoint": "mynexuz.be/myUZ/",
-                "businessImpact": 3,
-                "description": "\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
-            },
-            {
-                "id": "265bd3a6-85de-4f9e-a724-3d7b14031fd6",
-                "type": 3,
-                "endpoint": "mynexuzhealth/id1459856321",
+                "endpoint": "asupport.suivo.com",
                 "businessImpact": 3,
                 "description": null
             }
@@ -6916,84 +6553,6 @@
         ]
     },
     {
-        "programId": "87a468af-75ac-4e99-b061-0c40517a784c",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "suivo",
-        "companyName": "Suivo",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "suivoweb",
-        "name": "Suivo",
-        "description": "The Suivo Web Platform provides access to Tracking data from vehicles equiped with Suivo hardware. The platform is built around 4 components:\n\n- Real-time Tracking data\n- Analytics based on historical Tracking data, both in a web view en generated reports\n- Communication: tasks and messages\n- Fleet management (Maintenance planning etc.)",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680701176,
-        "lastSubmissionAt": 1686666904,
-        "logoId": "public_bucket_ec1b3b62-89f0-497c-b3dc-b28ae98c1d48-c0b6dff3-3f8a-4da8-8c5a-f5f54b8ad9ec",
-        "domains": [
-            {
-                "id": "c1998423-274b-4a48-b9a4-9cfc36c89f3f",
-                "type": 1,
-                "endpoint": " aweb.suivo.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "1f891d47-d3c5-4f30-8ec3-49f3877b1dc6",
-                "type": 1,
-                "endpoint": "asupport.suivo.com",
-                "businessImpact": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "3f6b3170-afd4-411c-84fc-24113a562ecf",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "kuleuven",
-        "companyName": "KU Leuven",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "kuleuvenrdp",
-        "name": "KU Leuven Responsible Disclosure",
-        "description": "We are happy to announce our Responsible Disclosure program!  \n\nKU Leuven has a very diverse web landscape. Keeping this environment and the data it contains as secure as possible is an ongoing effort. We would like to invite you to help us with this effort.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679582566,
-        "lastSubmissionAt": 1683810972,
-        "logoId": "public_bucket_8e0c37cb-1602-44d3-bfba-384ad6ff600a-b2aa0746-877b-4ba3-accd-0c5f185fc869",
-        "domains": [
-            {
-                "id": "ab227594-4d8c-42d9-a889-48f59869c6de",
-                "type": 4,
-                "endpoint": "IPv6: 2a02:2c40::/32",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "8347687b-ddec-4e5c-8822-e439b7b4fab9",
-                "type": 4,
-                "endpoint": "IPv4: 134.58.0.0/16",
-                "businessImpact": 1,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "fdbe663a-c398-4f89-8182-9ab912470931",
         "status": 3,
         "confidentialityLevel": 4,
@@ -7096,6 +6655,45 @@
         ]
     },
     {
+        "programId": "3f6b3170-afd4-411c-84fc-24113a562ecf",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "kuleuven",
+        "companyName": "KU Leuven",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "kuleuvenrdp",
+        "name": "KU Leuven Responsible Disclosure",
+        "description": "We are happy to announce our Responsible Disclosure program!  \n\nKU Leuven has a very diverse web landscape. Keeping this environment and the data it contains as secure as possible is an ongoing effort. We would like to invite you to help us with this effort.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679582566,
+        "lastSubmissionAt": 1683810972,
+        "logoId": "public_bucket_8e0c37cb-1602-44d3-bfba-384ad6ff600a-b2aa0746-877b-4ba3-accd-0c5f185fc869",
+        "domains": [
+            {
+                "id": "ab227594-4d8c-42d9-a889-48f59869c6de",
+                "type": 4,
+                "endpoint": "IPv6: 2a02:2c40::/32",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "8347687b-ddec-4e5c-8822-e439b7b4fab9",
+                "type": 4,
+                "endpoint": "IPv4: 134.58.0.0/16",
+                "businessImpact": 1,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "9a3f850e-4387-4434-98c7-dba2827b727b",
         "status": 3,
         "confidentialityLevel": 4,
@@ -7124,6 +6722,154 @@
                 "endpoint": "All domains of Revolut",
                 "businessImpact": 1,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "bd22f48d-633e-4b26-bf71-e4778d41b247",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "datacamp",
+        "companyName": "DataCamp",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "datacamp",
+        "name": "DataCamp",
+        "description": "DataCamp\u2019s mission is to democratize data skills for everyone. Companies and teams of every size use DataCamp to close their data skill gaps and make better data-driven decisions. Data science and analytics are rapidly shaping every aspect of our lives and our businesses. There is incredible power in data\u2014but only if you know what to do with it. DataCamp teaches 1,600+ companies and 7 million individuals from 180+ countries the skills they need to work with data in the real world. \n\n",
+        "minBounty": {
+            "value": 25.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 1500.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1686238195,
+        "lastSubmissionAt": 1686693693,
+        "logoId": "public_bucket_336e22b1-87d1-4c30-b6b1-b49d56ca5cf0-0d920a6b-d88a-4bf9-848e-ae0fd716ac22",
+        "domains": [
+            {
+                "id": "ee9f0182-d2cb-42a8-aa6c-607eeebc4a96",
+                "type": 1,
+                "endpoint": "app.datacamp.com/certification",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "38cf8b20-40d0-4cc2-8b1c-17fc6f4f7982",
+                "type": 1,
+                "endpoint": "app.datacamp.com/groups",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "a4ccf1f5-05fb-42fc-b1b3-65da315977cc",
+                "type": 1,
+                "endpoint": "app.datacamp.com/learn",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "e6d5f94d-7282-4ac0-9310-ee35acec5d0c",
+                "type": 1,
+                "endpoint": "app.datacamp.com/workspace",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "50c0f037-c602-469f-bddb-359b743ab609",
+                "type": 1,
+                "endpoint": "assessment-v2.datacamp.com ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "0d112cf4-3aa9-4895-8dc5-ec622717b33e",
+                "type": 1,
+                "endpoint": "assessment.datacamp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "093601f3-7b25-4011-bd67-b191d0ceb412",
+                "type": 1,
+                "endpoint": "campus.datacamp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "605a0d4d-34f6-4305-8d0c-12722af890dd",
+                "type": 2,
+                "endpoint": "com.datacamp",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "160b498f-b3f8-40ea-91d4-49fe241852fc",
+                "type": 3,
+                "endpoint": "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "557938a2-93c2-4959-9cdb-3c34263c0c94",
+                "type": 1,
+                "endpoint": "practice.datacamp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "c0c23c8e-dd3b-4dda-9053-22b1a2dff879",
+                "type": 1,
+                "endpoint": "projects.datacamp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "4f5f1b6b-74d4-4cc4-bd74-e65380b286aa",
+                "type": 1,
+                "endpoint": "www.datacamp.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "1516187e-b1e5-47cd-a4c4-d922865964dc",
+                "type": 1,
+                "endpoint": "*.datacamp.com",
+                "businessImpact": 2,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "21d92048-d4d8-4781-8f37-3209a1b60fe1",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "azena",
+        "companyName": "Azena",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "azenaresponsibledisclosure",
+        "name": "Azena",
+        "description": "We are an award-winning German startup with locations in Munich, Eindhoven and Pittsburgh. We are 100% funded by the Bosch Group.\n\nOur goal is to be the leading open platform and marketplace for smart security and safety solutions. The platform we offer is based on a camera operating system that powers cameras from various manufacturers on the market. It connects to our Application Store where leading video analytics development companies offer cutting-edge apps.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679565549,
+        "lastSubmissionAt": 1682418082,
+        "logoId": "public_bucket_f41a9d44-ed5e-4bf8-99c8-4be1d3716647-70810713-6d3d-41b2-9a21-844724444404",
+        "domains": [
+            {
+                "id": "cd54a0fc-3e74-47cb-9504-78c3be92ec4f",
+                "type": 1,
+                "endpoint": "*.azena.com",
+                "businessImpact": 1,
+                "description": "All assets including azena.com and subdomains.\nNote that connect.azena.com and any subdomain of connect.azena.com is a remote connection service to devices owned and controlled by third parties. Therefore, these targets are out of scope and not covered by this program."
             }
         ]
     },
@@ -7455,6 +7201,260 @@
         ]
     },
     {
+        "programId": "44cacd66-4ad6-4b5f-901e-d257ee0ae989",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "adahealth",
+        "companyName": "Ada Health",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "adahealth",
+        "name": "Ada Health",
+        "description": "Hi, we\u2019re Ada. We\u2019ve been working hard to improve health outcomes since 2016. Built by doctors and scientists and powered by a 10 million-strong user base, our medical AI simplifies healthcare journeys and helps people take care of themselves. We help people understand, manage, and get care for their symptoms with trusted medical expertise in minutes. Our enterprise solutions convert medical knowledge and clinical excellence into better outcomes for our partners. ",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 5000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1683105027,
+        "lastSubmissionAt": 1685876807,
+        "logoId": "public_bucket_a6fb61e3-89af-4927-8110-14a7d6b6423c-45a89414-2ad5-4776-b818-9ac013215495",
+        "domains": [
+            {
+                "id": "407b1fd6-80c2-43d0-b13e-e37ac7139eb6",
+                "type": 3,
+                "endpoint": "1099986434",
+                "businessImpact": 4,
+                "description": "IOS Mobile Applicaton of Ada Health"
+            },
+            {
+                "id": "7d15b559-f007-4ca9-aebd-db077504558b",
+                "type": 2,
+                "endpoint": "com.ada.app",
+                "businessImpact": 4,
+                "description": "Android Mobile Application of Ada Health"
+            },
+            {
+                "id": "f0d82574-31cb-4697-a25c-652a5a8939ae",
+                "type": 1,
+                "endpoint": "https://api.mobile.ada.com",
+                "businessImpact": 3,
+                "description": "Backend for frontend API endpoint for mobile application activities. This endpoint is protected by a Web Application Firewall. "
+            },
+            {
+                "id": "c52f8e91-0a11-4b70-b7b8-9e3523bfe6ba",
+                "type": 1,
+                "endpoint": "https://id.ada.com",
+                "businessImpact": 3,
+                "description": "Ada-ID is an identity management service for end user that interacts with Ada's applications. It provides authentication and authorization. Ada-ID serves as web application and API services. Frontend is valid for password reset and account verification process. This endpoint is protected by a Web Application Firewall. "
+            }
+        ]
+    },
+    {
+        "programId": "43c4b274-ccbd-4ea2-8047-d40b0b4205ac",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "libelle",
+        "name": "Libelle",
+        "description": "Libelle.nl is the online platform for everything women want to know, from personal stories, the latest news about health & psyche to household tips and trends & videos that you should not miss.",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1686663995,
+        "lastSubmissionAt": 1686747698,
+        "logoId": "public_bucket_ba3a5990-e8e8-4f52-862d-7ed7081b325b-3a6aea3e-7ca4-4b8a-aefa-327338c820b8",
+        "domains": [
+            {
+                "id": "f35a01fa-6de3-4750-af43-b36d6fffa7a7",
+                "type": 1,
+                "endpoint": "www.libelle.nl",
+                "businessImpact": 3,
+                "description": "excluding\n* libelle.nl/service\n* libelle.nl/inloggen\n* libelle.nl/login\n* libelle.nl/registreren"
+            },
+            {
+                "id": "1133ce7b-4a3e-4380-812c-e0aeeb9f5f60",
+                "type": 1,
+                "endpoint": "*.libelle.nl",
+                "businessImpact": 2,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "196fa177-ac2d-41b0-91bb-07bc9db43b7a",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "sbb",
+        "companyName": "SBB",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "sbbglobal",
+        "name": "SBB - Swiss Federal Railways",
+        "description": "Swiss Federal Railways - the national railway company of Switzerland.\n(German: Schweizerische Bundesbahnen, SBB)\n\nWelcome to our public Bug Bounty program. \n\nWe are specifically looking for:\n\n* Leaking PII Data (customer)\n* Data manipulation\n\nWe will add additional applications/domains to the scope (step by step) to reach our goal.\n\nHigh performance researcher may be invited to our private programs!  ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1683019292,
+        "lastSubmissionAt": 1686833967,
+        "logoId": "public_bucket_eb2ba681-d13f-4893-8d6a-37d64da63f4b-eb5c8730-f839-4cbd-9b6d-b87d904158e9",
+        "domains": [
+            {
+                "id": "e4808037-bd50-4ce8-91fd-9a30d7d6bf12",
+                "type": 1,
+                "endpoint": "login.swisspass.ch",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "da40e62b-1a67-4389-9d23-ed18e1cbcaaa",
+                "type": 1,
+                "endpoint": "www.swisspass.ch",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "e1e77a9a-ab7a-4a40-ae1e-53149fbd47a8",
+                "type": 1,
+                "endpoint": "*.sbb.ch",
+                "businessImpact": 3,
+                "description": "**NEW - NEW - NEW**"
+            },
+            {
+                "id": "359ecbb5-02b8-47a0-8c5d-4a06d39a0bc2",
+                "type": 1,
+                "endpoint": "*.swisspass.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "3864a767-f0c0-4ae3-9bf6-3e2805cfb30b",
+                "type": 1,
+                "endpoint": "bahninfrastruktur.sbb.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "a741fc68-5e5c-47e1-a149-6d649fa09a18",
+                "type": 1,
+                "endpoint": "beta.sbb.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "4887bf13-374b-4e91-b2e8-dbbefe4f5919",
+                "type": 1,
+                "endpoint": "bimchange.sbb.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "266595d4-4a64-4b65-9512-90167b542737",
+                "type": 1,
+                "endpoint": "business.sbb.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "ba0f85d9-a2dc-4a24-8362-c7e9265cbb38",
+                "type": 1,
+                "endpoint": "www.elvetino.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "ddce214e-a989-4935-b7dd-fde2614d46e2",
+                "type": 1,
+                "endpoint": "www.sbb.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "dcd626cf-6a69-4208-90f4-a5a89ea1cacb",
+                "type": 1,
+                "endpoint": "www.sbbcargo.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "ec1c83bd-59db-4a66-a117-f5955eb54d3f",
+                "type": 1,
+                "endpoint": "www.transsicura.ch",
+                "businessImpact": 3,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "5c7a8f79-a23b-4367-a2c6-63a2d48586ee",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "hetlaatstenieuws",
+        "name": "Het Laatste Nieuws",
+        "description": "HLN.be is the number one news site in Flanders. 24/7 news with a focus on current events, sports and entertainment. The editors know how to keep their finger on the pulse at all times: on average every 4 minutes a new article appears on the news site. Readers consume their news more and more fragmented through their social media, so it is important for HLN to stay top of mind with its own app.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680523103,
+        "lastSubmissionAt": 1686649835,
+        "logoId": "public_bucket_b0527ff0-8be6-4f41-b82b-e8ad4bf44465-d90dd568-154a-4345-88e4-4cd5231943d2",
+        "domains": [
+            {
+                "id": "8ce77270-e090-4a7d-88ab-be08f1b3afb1",
+                "type": 1,
+                "endpoint": "hln.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "1da5bea7-5746-4ce3-978e-73bc62c1bf65",
+                "type": 1,
+                "endpoint": "myaccount.hln.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "94a4bab9-ec67-4c3b-a8b8-c6b71808e044",
+                "type": 1,
+                "endpoint": "www.hln.be",
+                "businessImpact": 3,
+                "description": "excluding\n* hln.be/service\n* hln.be/inloggen\n* hln.be/login\n* hln.be/registreren"
+            },
+            {
+                "id": "c85cbba1-eefe-4cf3-b5b5-f52073e1eb8f",
+                "type": 1,
+                "endpoint": "*.hln.be",
+                "businessImpact": 2,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "56339d19-36cc-49a0-8e8f-b2502e00d165",
         "status": 3,
         "confidentialityLevel": 4,
@@ -7524,38 +7524,6 @@
                 "type": 1,
                 "endpoint": "*.usemoralis.com",
                 "businessImpact": 1,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "190ed8f0-4412-4b6d-9415-6114da409600",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "zerodays",
-        "name": "Zero-day Bug Bounty",
-        "description": "The Zero Day Bug Bounty aims to incentivize security researchers to report newly discovered or undisclosed vulnerabilities that impact us or at least one of our customers, after reporting them to the affected vendor. By participating in this program, researchers can help us provide early warning to our customers about potential security threats and earn monetary rewards for their efforts without having to wait for the cool-down submission period to expire. ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680514743,
-        "lastSubmissionAt": 1681472671,
-        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
-        "domains": [
-            {
-                "id": "ba2be0eb-b8e9-459f-a2a9-af55d982439c",
-                "type": 6,
-                "endpoint": "Zero days that affect Intigriti or participating customers (listed below)",
-                "businessImpact": 3,
                 "description": null
             }
         ]
@@ -7686,6 +7654,38 @@
                 "type": 6,
                 "endpoint": "(Software) \tDevice driver",
                 "businessImpact": 2,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "190ed8f0-4412-4b6d-9415-6114da409600",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "zerodays",
+        "name": "Zero-day Bug Bounty",
+        "description": "The Zero Day Bug Bounty aims to incentivize security researchers to report newly discovered or undisclosed vulnerabilities that impact us or at least one of our customers, after reporting them to the affected vendor. By participating in this program, researchers can help us provide early warning to our customers about potential security threats and earn monetary rewards for their efforts without having to wait for the cool-down submission period to expire. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680514743,
+        "lastSubmissionAt": 1681472671,
+        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "domains": [
+            {
+                "id": "ba2be0eb-b8e9-459f-a2a9-af55d982439c",
+                "type": 6,
+                "endpoint": "Zero days that affect Intigriti or participating customers (listed below)",
+                "businessImpact": 3,
                 "description": null
             }
         ]
