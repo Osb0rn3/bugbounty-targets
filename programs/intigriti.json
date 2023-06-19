@@ -1,5 +1,171 @@
 [
     {
+        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "universitatsspitalzurich",
+        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "usz-vdp",
+        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
+        "description": "                                                                                                         **VULNERABILITY DISCLOSURE PROGRAM (VDP)**\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1684225038,
+        "lastSubmissionAt": 1686116589,
+        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
+        "domains": [
+            {
+                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
+                "type": 1,
+                "endpoint": "*.unispital.ch ",
+                "businessImpact": 1,
+                "description": "forwarding to usz.ch"
+            },
+            {
+                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
+                "type": 1,
+                "endpoint": "*.usz.ch ",
+                "businessImpact": 1,
+                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
+            }
+        ]
+    },
+    {
+        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "Uphold",
+        "companyName": "Uphold.com",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "upholdcom",
+        "name": "Uphold.com",
+        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680680521,
+        "lastSubmissionAt": 1685503865,
+        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
+        "domains": [
+            {
+                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
+                "type": 3,
+                "endpoint": "1101145849",
+                "businessImpact": 4,
+                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
+                "type": 1,
+                "endpoint": "api.uphold.com",
+                "businessImpact": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
+                "type": 2,
+                "endpoint": "com.uphold.wallet",
+                "businessImpact": 4,
+                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
+                "type": 1,
+                "endpoint": "uphold.com/dashboard",
+                "businessImpact": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
+            },
+            {
+                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
+                "type": 1,
+                "endpoint": "api-sandbox.uphold.com",
+                "businessImpact": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
+                "type": 1,
+                "endpoint": "sandbox.uphold.com/dashboard",
+                "businessImpact": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
+            },
+            {
+                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
+                "type": 1,
+                "endpoint": "*.uphold.com",
+                "businessImpact": 2,
+                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
+            }
+        ]
+    },
+    {
+        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "portofantwerp",
+        "companyName": "Port of Antwerp-Bruges",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "nxtport",
+        "name": "NxtPort",
+        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679993070,
+        "lastSubmissionAt": 1679465063,
+        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
+        "domains": [
+            {
+                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
+                "type": 1,
+                "endpoint": "console.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
+                "type": 1,
+                "endpoint": "login.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
+                "type": 1,
+                "endpoint": "signup.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
+                "type": 1,
+                "endpoint": "www.nxtport.com",
+                "businessImpact": 1,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "ee2612e7-e188-492f-9bb2-ba48651523de",
         "status": 3,
         "confidentialityLevel": 4,
@@ -379,38 +545,6 @@
         ]
     },
     {
-        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "VismaResponsibleDisclosure",
-        "name": "Visma Responsible Disclosure",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1687172595,
-        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
-        "domains": [
-            {
-                "id": "8922aa89-e471-4918-9785-ba22414a1975",
-                "type": 1,
-                "endpoint": "all",
-                "businessImpact": 1,
-                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
-            }
-        ]
-    },
-    {
         "programId": "bc3017b6-f657-4519-bf8f-00009d85bc47",
         "status": 3,
         "confidentialityLevel": 4,
@@ -632,16 +766,16 @@
         ]
     },
     {
-        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
+        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "universitatsspitalzurich",
-        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
+        "companyHandle": "visma",
+        "companyName": "Visma",
         "tacRequired": false,
-        "companySustainable": false,
-        "handle": "usz-vdp",
-        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
-        "description": "                                                                                                         **VULNERABILITY DISCLOSURE PROGRAM (VDP)**\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
+        "companySustainable": true,
+        "handle": "VismaResponsibleDisclosure",
+        "name": "Visma Responsible Disclosure",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -650,97 +784,16 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1684225038,
-        "lastSubmissionAt": 1686116589,
-        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
+        "lastUpdatedAt": 1677670936,
+        "lastSubmissionAt": 1687172595,
+        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
         "domains": [
             {
-                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
+                "id": "8922aa89-e471-4918-9785-ba22414a1975",
                 "type": 1,
-                "endpoint": "*.unispital.ch ",
+                "endpoint": "all",
                 "businessImpact": 1,
-                "description": "forwarding to usz.ch"
-            },
-            {
-                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
-                "type": 1,
-                "endpoint": "*.usz.ch ",
-                "businessImpact": 1,
-                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
-            }
-        ]
-    },
-    {
-        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "Uphold",
-        "companyName": "Uphold.com",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "upholdcom",
-        "name": "Uphold.com",
-        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680680521,
-        "lastSubmissionAt": 1685503865,
-        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
-        "domains": [
-            {
-                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
-                "type": 3,
-                "endpoint": "1101145849",
-                "businessImpact": 4,
-                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
-                "type": 1,
-                "endpoint": "api.uphold.com",
-                "businessImpact": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
-                "type": 2,
-                "endpoint": "com.uphold.wallet",
-                "businessImpact": 4,
-                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
-                "type": 1,
-                "endpoint": "uphold.com/dashboard",
-                "businessImpact": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
-            },
-            {
-                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
-                "type": 1,
-                "endpoint": "api-sandbox.uphold.com",
-                "businessImpact": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
-                "type": 1,
-                "endpoint": "sandbox.uphold.com/dashboard",
-                "businessImpact": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
-            },
-            {
-                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
-                "type": 1,
-                "endpoint": "*.uphold.com",
-                "businessImpact": 2,
-                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
+                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
             }
         ]
     },
@@ -779,59 +832,6 @@
                 "type": 1,
                 "endpoint": "*.intigriti.me",
                 "businessImpact": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "portofantwerp",
-        "companyName": "Port of Antwerp-Bruges",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "nxtport",
-        "name": "NxtPort",
-        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679993070,
-        "lastSubmissionAt": 1679465063,
-        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
-        "domains": [
-            {
-                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
-                "type": 1,
-                "endpoint": "console.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
-                "type": 1,
-                "endpoint": "login.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
-                "type": 1,
-                "endpoint": "signup.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
-                "type": 1,
-                "endpoint": "www.nxtport.com",
-                "businessImpact": 1,
                 "description": null
             }
         ]
@@ -2358,7 +2358,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1680522811,
-        "lastSubmissionAt": 1686929068,
+        "lastSubmissionAt": 1687178481,
         "logoId": "public_bucket_556c3dc4-35e6-48e2-a7a1-be98af9a31a5-09ab75b4-96bd-4793-ab4d-cdc544214428",
         "domains": [
             {
@@ -2910,7 +2910,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1681797731,
-        "lastSubmissionAt": 1687160915,
+        "lastSubmissionAt": 1687178857,
         "logoId": "public_bucket_3f8cf4b8-e72a-47b1-bd82-fd31a815ccac-e4c62ba7-4ee6-42ad-b136-99ded90df978",
         "domains": [
             {
@@ -7403,7 +7403,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1681826677,
-        "lastSubmissionAt": 1687176025,
+        "lastSubmissionAt": 1687179501,
         "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
         "domains": [
             {
@@ -7448,75 +7448,33 @@
         ]
     },
     {
-        "programId": "56339d19-36cc-49a0-8e8f-b2502e00d165",
+        "programId": "190ed8f0-4412-4b6d-9415-6114da409600",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "moralis",
-        "companyName": "Moralis",
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
         "tacRequired": false,
-        "companySustainable": false,
-        "handle": "moralisio",
-        "name": "Moralis VDP",
-        "description": "Moralis is a blockchain technology platform providing developers with backend infrastructure for building and scaling decentralized applications (dapps). This page is a safe way for you to communicate found bugs in a responsible way. All contributions are highly appreciated.",
+        "companySustainable": true,
+        "handle": "zerodays",
+        "name": "Zero-day Bug Bounty",
+        "description": "The Zero Day Bug Bounty aims to incentivize security researchers to report newly discovered or undisclosed vulnerabilities that impact us or at least one of our customers, after reporting them to the affected vendor. By participating in this program, researchers can help us provide early warning to our customers about potential security threats and earn monetary rewards for their efforts without having to wait for the cool-down submission period to expire. ",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 0.0,
+            "value": 3000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1663702839,
-        "lastSubmissionAt": 1686518142,
-        "logoId": "public_bucket_67055338-1edb-46fc-b2d2-9db0d8d49ec5-3a1d4e34-dfbb-4c5d-a68f-6eba745d6bf3",
+        "lastUpdatedAt": 1680514743,
+        "lastSubmissionAt": 1681472671,
+        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
         "domains": [
             {
-                "id": "1d226af2-96e9-4e99-b3cb-96069f35b555",
-                "type": 1,
-                "endpoint": "*.moralis.io ",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "c0d79f0d-e67f-474b-97cc-41d84875bf3f",
-                "type": 1,
-                "endpoint": "*.bigmoralis.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "fc2934df-3561-4d69-ae07-cc6b61e1e39a",
-                "type": 1,
-                "endpoint": "*.grandmoralis.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "1009e08f-4475-4e77-b504-2922ef0a8a0e",
-                "type": 1,
-                "endpoint": "*.moralisapp.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "40753fdb-7c7d-4bad-9655-e03cc5560f08",
-                "type": 1,
-                "endpoint": "*.moralishost.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "13643de2-ba2d-4f55-b9c9-05482818be85",
-                "type": 1,
-                "endpoint": "*.moralisweb3.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "80af4a2b-b2ec-4ef5-8b4f-2543b82159e5",
-                "type": 1,
-                "endpoint": "*.usemoralis.com",
-                "businessImpact": 1,
+                "id": "ba2be0eb-b8e9-459f-a2a9-af55d982439c",
+                "type": 6,
+                "endpoint": "Zero days that affect Intigriti or participating customers (listed below)",
+                "businessImpact": 3,
                 "description": null
             }
         ]
@@ -7652,33 +7610,75 @@
         ]
     },
     {
-        "programId": "190ed8f0-4412-4b6d-9415-6114da409600",
+        "programId": "56339d19-36cc-49a0-8e8f-b2502e00d165",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
+        "companyHandle": "moralis",
+        "companyName": "Moralis",
         "tacRequired": false,
-        "companySustainable": true,
-        "handle": "zerodays",
-        "name": "Zero-day Bug Bounty",
-        "description": "The Zero Day Bug Bounty aims to incentivize security researchers to report newly discovered or undisclosed vulnerabilities that impact us or at least one of our customers, after reporting them to the affected vendor. By participating in this program, researchers can help us provide early warning to our customers about potential security threats and earn monetary rewards for their efforts without having to wait for the cool-down submission period to expire. ",
+        "companySustainable": false,
+        "handle": "moralisio",
+        "name": "Moralis VDP",
+        "description": "Moralis is a blockchain technology platform providing developers with backend infrastructure for building and scaling decentralized applications (dapps). This page is a safe way for you to communicate found bugs in a responsible way. All contributions are highly appreciated.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 3000.0,
+            "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1680514743,
-        "lastSubmissionAt": 1681472671,
-        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "lastUpdatedAt": 1663702839,
+        "lastSubmissionAt": 1686518142,
+        "logoId": "public_bucket_67055338-1edb-46fc-b2d2-9db0d8d49ec5-3a1d4e34-dfbb-4c5d-a68f-6eba745d6bf3",
         "domains": [
             {
-                "id": "ba2be0eb-b8e9-459f-a2a9-af55d982439c",
-                "type": 6,
-                "endpoint": "Zero days that affect Intigriti or participating customers (listed below)",
-                "businessImpact": 3,
+                "id": "1d226af2-96e9-4e99-b3cb-96069f35b555",
+                "type": 1,
+                "endpoint": "*.moralis.io ",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "c0d79f0d-e67f-474b-97cc-41d84875bf3f",
+                "type": 1,
+                "endpoint": "*.bigmoralis.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "fc2934df-3561-4d69-ae07-cc6b61e1e39a",
+                "type": 1,
+                "endpoint": "*.grandmoralis.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "1009e08f-4475-4e77-b504-2922ef0a8a0e",
+                "type": 1,
+                "endpoint": "*.moralisapp.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "40753fdb-7c7d-4bad-9655-e03cc5560f08",
+                "type": 1,
+                "endpoint": "*.moralishost.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "13643de2-ba2d-4f55-b9c9-05482818be85",
+                "type": 1,
+                "endpoint": "*.moralisweb3.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "80af4a2b-b2ec-4ef5-8b4f-2543b82159e5",
+                "type": 1,
+                "endpoint": "*.usemoralis.com",
+                "businessImpact": 1,
                 "description": null
             }
         ]
