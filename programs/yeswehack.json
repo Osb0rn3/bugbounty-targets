@@ -1252,7 +1252,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 504,
+        "reports_count": 505,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -3732,7 +3732,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 863,
+        "reports_count": 864,
         "bounty_reward_min": 70,
         "bounty_reward_max": 3000,
         "scopes_count": 10,
@@ -4064,7 +4064,7 @@
         "public": true,
         "bounty": true,
         "gift": false,
-        "hall_of_fame": false,
+        "hall_of_fame": true,
         "hacktivity": false,
         "report_collaboration_active": true,
         "pid": null,
@@ -4073,8 +4073,8 @@
         "vdp": false,
         "archived": false,
         "reports_count": 61,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 6000,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 10000,
         "scopes_count": 11,
         "thumbnail": {
             "name": "a8b4b6a2-ea99-4068-9ee9-5dfa0ab9812e",
@@ -4100,25 +4100,31 @@
         },
         "scopes": [
             {
+                "scope": "https://login.echobox.dev/",
+                "scope_type": "web-application",
+                "security_requirement": "default",
+                "report_count": null
+            },
+            {
                 "scope": "http://stage.sl.echobox.dev/",
                 "scope_type": "web-application",
                 "security_requirement": "default",
                 "report_count": null
             },
             {
-                "scope": "https://coreapi-stage.service.echobox.com (aka https://properties.service.echobox.com)",
-                "scope_type": "api",
-                "security_requirement": "default",
-                "report_count": null
-            },
-            {
-                "scope": "https://socialapi-stage.service.echobox.com",
-                "scope_type": "api",
+                "scope": "http://stage.nl.echobox.dev/",
+                "scope_type": "web-application",
                 "security_requirement": "default",
                 "report_count": null
             },
             {
                 "scope": "https://socialapi-stage.service.echobox.com/v3/serviceauth",
+                "scope_type": "api",
+                "security_requirement": "high",
+                "report_count": null
+            },
+            {
+                "scope": "https://campaignapi-stage.service.echobox.com/v3/serviceauth",
                 "scope_type": "api",
                 "security_requirement": "high",
                 "report_count": null
@@ -4136,8 +4142,14 @@
                 "report_count": null
             },
             {
-                "scope": "http://stage.nl.echobox.dev/",
-                "scope_type": "web-application",
+                "scope": "https://coreapi-stage.service.echobox.com (aka https://properties.service.echobox.com)",
+                "scope_type": "api",
+                "security_requirement": "default",
+                "report_count": null
+            },
+            {
+                "scope": "https://socialapi-stage.service.echobox.com",
+                "scope_type": "api",
                 "security_requirement": "default",
                 "report_count": null
             },
@@ -4148,20 +4160,8 @@
                 "report_count": null
             },
             {
-                "scope": "https://campaignapi-stage.service.echobox.com/v3/serviceauth",
-                "scope_type": "api",
-                "security_requirement": "high",
-                "report_count": null
-            },
-            {
                 "scope": "https://stage.emailreporting.service.echobox.com/",
                 "scope_type": "api",
-                "security_requirement": "default",
-                "report_count": null
-            },
-            {
-                "scope": "https://login.echobox.dev/",
-                "scope_type": "web-application",
                 "security_requirement": "default",
                 "report_count": null
             }
