@@ -413,7 +413,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1688050608,
-        "lastSubmissionAt": 1688349922,
+        "lastSubmissionAt": 1688363624,
         "logoId": "public_bucket_29626c8f-d7e6-49e1-8e02-86e2cf6c2a24-211f7292-a2d6-43a6-9e2d-680449475f75",
         "domains": [
             {
@@ -603,7 +603,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1688330581,
+        "lastSubmissionAt": 1688363097,
         "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
         "domains": [
             {
@@ -883,6 +883,122 @@
         ]
     },
     {
+        "programId": "1e325f65-37de-4094-9079-217e27cab00b",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "wpengine",
+        "companyName": "WP Engine",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "wpengine",
+        "name": "WP Engine",
+        "description": "WP Engine invites you to test the WP Engine and Flywheel Digital Experience Platforms. WP Engine equips its customers with a suite of agility, performance, intelligence, and integration solutions, so you can build and deploy a range of online experiences from campaign sites to content hubs to e-commerce extensions. Good luck and happy hunting!",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1688068130,
+        "lastSubmissionAt": 1688288087,
+        "logoId": "public_bucket_ca191b69-f69c-48d3-b1a9-90f13d7c01e4-665898c6-a594-4163-bf57-691a42c8f215",
+        "domains": [
+            {
+                "id": "96852456-df82-4794-92a6-35f1eff20cb4",
+                "type": 6,
+                "endpoint": "WP Engine-developed WordPress Plugins and Themes",
+                "businessImpact": 1,
+                "description": "We accept any reports of vulnerabilities in plugins or themes managed or developed by WP Engine, with the exception of any application-level vulnerabilities in the Out of Scope section below.  These free versions closely mirror their paid counterparts, so any vulnerabilities discovered should be applicable to both the paid or free plugins.\n\nWe also accept reports for the following Delicious Brains plugins:\nhttps://wordpress.org/plugins/advanced-custom-fields\n"
+            },
+            {
+                "id": "eb01f4c7-fd39-42ba-b186-f3933a681473",
+                "type": 1,
+                "endpoint": "*. advancedcustomfields.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "2a33486a-de01-4d6a-a276-08e15df88b8e",
+                "type": 1,
+                "endpoint": "*. bettersearchreplace.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "836df627-6e13-4476-9ea6-fc2cb03cb8fc",
+                "type": 1,
+                "endpoint": "*.deliciousbrains.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "e542485d-1138-475e-856d-1e2c9e2e9e90",
+                "type": 1,
+                "endpoint": "*.studiopress.com",
+                "businessImpact": 1,
+                "description": "The studiopress.com, www.studiopress.com, and my.studiopress.com sites are public facing marketing and WordPress theme e-commerce sites. **No credentials will be provided.** Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
+            },
+            {
+                "id": "3a14fea5-bdfb-4c5d-91b7-b8f022c62de5",
+                "type": 1,
+                "endpoint": "*.wpengine.io",
+                "businessImpact": 1,
+                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpengine.io"
+            },
+            {
+                "id": "a45a6477-169f-4e6a-9752-df43ee4145b6",
+                "type": 1,
+                "endpoint": "*.wpesvc.net",
+                "businessImpact": 1,
+                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpesvc.net"
+            },
+            {
+                "id": "175f2846-fa9e-4f79-a839-263adf6b5120",
+                "type": 1,
+                "endpoint": "app.getflywheel.com",
+                "businessImpact": 1,
+                "description": "This is the primary site for researchers to register and test both the Flywheel App as well as the Flywheel Platform. We will not provide credentials or bypass verification controls (i.e, a researcher will need to either provide a valid phone number or credit card to have a live site), but a researcher may register a demo site that matches the platform's functionality without verification. **Please use your Intigriti credentials to register.** Please note that any issues regarding an individual WordPress installation on the Flywheel platform, outside of plugins owned by WP Engine/Flywheel, will be considered out of scope as we do not monitor or manage customer content. We are, however, very interested in issues that may compromise customer isolation on the platform or cause data to be leaked from either a host or an unrelated customer site."
+            },
+            {
+                "id": "f5568849-5260-4b8b-b84c-09c7ac974f14",
+                "type": 1,
+                "endpoint": "getflywheel.com",
+                "businessImpact": 1,
+                "description": "This site is the landing page for Flywheel-branded services. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality or https://getflywheel.com/schedule-a-demo/. No testing should be done against these targets or any 3rd party services. Please do not contact Live Chat agents."
+            },
+            {
+                "id": "891e0947-7e46-4cc3-bc0a-3819ba604ea2",
+                "type": 1,
+                "endpoint": "my.wpengine.com",
+                "businessImpact": 1,
+                "description": "The User Portal for WP Engine. Customers manage their WordPress sites, addons, and billing details through this portal. **No credentials will be provided**. Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
+            },
+            {
+                "id": "1060f173-c743-4b9a-b169-3ff4786cb122",
+                "type": 1,
+                "endpoint": "spressforumstg.wpengine.com",
+                "businessImpact": 1,
+                "description": "the staging environment for the StudioPress community forum, built on WordPress. Researchers are welcome to register an account using their @intigriti.me email address, but should refrain from interacting with the community, making public posts, or performing automated testing which may cause disruption. Do not attempt to gain access to any user accounts not under your control."
+            },
+            {
+                "id": "19c28892-2038-4327-954d-3d02632746d5",
+                "type": 1,
+                "endpoint": "studiopress.blog",
+                "businessImpact": 1,
+                "description": "This is a public-facing marketing site built on WordPress. Most of the content on this site consists of static blog posts."
+            },
+            {
+                "id": "cc0ac479-c294-44a3-bb27-2c6b18b1a5fb",
+                "type": 1,
+                "endpoint": "wpengine.com",
+                "businessImpact": 1,
+                "description": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality and wpengine.com/contact/. No testing should be done against these targets or any 3rd party services."
+            }
+        ]
+    },
+    {
         "programId": "92c18727-d22c-498f-a55e-c575bd873a43",
         "status": 3,
         "confidentialityLevel": 4,
@@ -1087,122 +1203,6 @@
         ]
     },
     {
-        "programId": "1e325f65-37de-4094-9079-217e27cab00b",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "wpengine",
-        "companyName": "WP Engine",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "wpengine",
-        "name": "WP Engine",
-        "description": "WP Engine invites you to test the WP Engine and Flywheel Digital Experience Platforms. WP Engine equips its customers with a suite of agility, performance, intelligence, and integration solutions, so you can build and deploy a range of online experiences from campaign sites to content hubs to e-commerce extensions. Good luck and happy hunting!",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1688068130,
-        "lastSubmissionAt": 1688288087,
-        "logoId": "public_bucket_ca191b69-f69c-48d3-b1a9-90f13d7c01e4-665898c6-a594-4163-bf57-691a42c8f215",
-        "domains": [
-            {
-                "id": "96852456-df82-4794-92a6-35f1eff20cb4",
-                "type": 6,
-                "endpoint": "WP Engine-developed WordPress Plugins and Themes",
-                "businessImpact": 1,
-                "description": "We accept any reports of vulnerabilities in plugins or themes managed or developed by WP Engine, with the exception of any application-level vulnerabilities in the Out of Scope section below.  These free versions closely mirror their paid counterparts, so any vulnerabilities discovered should be applicable to both the paid or free plugins.\n\nWe also accept reports for the following Delicious Brains plugins:\nhttps://wordpress.org/plugins/advanced-custom-fields\n"
-            },
-            {
-                "id": "eb01f4c7-fd39-42ba-b186-f3933a681473",
-                "type": 1,
-                "endpoint": "*. advancedcustomfields.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "2a33486a-de01-4d6a-a276-08e15df88b8e",
-                "type": 1,
-                "endpoint": "*. bettersearchreplace.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "836df627-6e13-4476-9ea6-fc2cb03cb8fc",
-                "type": 1,
-                "endpoint": "*.deliciousbrains.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "e542485d-1138-475e-856d-1e2c9e2e9e90",
-                "type": 1,
-                "endpoint": "*.studiopress.com",
-                "businessImpact": 1,
-                "description": "The studiopress.com, www.studiopress.com, and my.studiopress.com sites are public facing marketing and WordPress theme e-commerce sites. **No credentials will be provided.** Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
-            },
-            {
-                "id": "3a14fea5-bdfb-4c5d-91b7-b8f022c62de5",
-                "type": 1,
-                "endpoint": "*.wpengine.io",
-                "businessImpact": 1,
-                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpengine.io"
-            },
-            {
-                "id": "a45a6477-169f-4e6a-9752-df43ee4145b6",
-                "type": 1,
-                "endpoint": "*.wpesvc.net",
-                "businessImpact": 1,
-                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpesvc.net"
-            },
-            {
-                "id": "175f2846-fa9e-4f79-a839-263adf6b5120",
-                "type": 1,
-                "endpoint": "app.getflywheel.com",
-                "businessImpact": 1,
-                "description": "This is the primary site for researchers to register and test both the Flywheel App as well as the Flywheel Platform. We will not provide credentials or bypass verification controls (i.e, a researcher will need to either provide a valid phone number or credit card to have a live site), but a researcher may register a demo site that matches the platform's functionality without verification. **Please use your Intigriti credentials to register.** Please note that any issues regarding an individual WordPress installation on the Flywheel platform, outside of plugins owned by WP Engine/Flywheel, will be considered out of scope as we do not monitor or manage customer content. We are, however, very interested in issues that may compromise customer isolation on the platform or cause data to be leaked from either a host or an unrelated customer site."
-            },
-            {
-                "id": "f5568849-5260-4b8b-b84c-09c7ac974f14",
-                "type": 1,
-                "endpoint": "getflywheel.com",
-                "businessImpact": 1,
-                "description": "This site is the landing page for Flywheel-branded services. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality or https://getflywheel.com/schedule-a-demo/. No testing should be done against these targets or any 3rd party services. Please do not contact Live Chat agents."
-            },
-            {
-                "id": "891e0947-7e46-4cc3-bc0a-3819ba604ea2",
-                "type": 1,
-                "endpoint": "my.wpengine.com",
-                "businessImpact": 1,
-                "description": "The User Portal for WP Engine. Customers manage their WordPress sites, addons, and billing details through this portal. **No credentials will be provided**. Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
-            },
-            {
-                "id": "1060f173-c743-4b9a-b169-3ff4786cb122",
-                "type": 1,
-                "endpoint": "spressforumstg.wpengine.com",
-                "businessImpact": 1,
-                "description": "the staging environment for the StudioPress community forum, built on WordPress. Researchers are welcome to register an account using their @intigriti.me email address, but should refrain from interacting with the community, making public posts, or performing automated testing which may cause disruption. Do not attempt to gain access to any user accounts not under your control."
-            },
-            {
-                "id": "19c28892-2038-4327-954d-3d02632746d5",
-                "type": 1,
-                "endpoint": "studiopress.blog",
-                "businessImpact": 1,
-                "description": "This is a public-facing marketing site built on WordPress. Most of the content on this site consists of static blog posts."
-            },
-            {
-                "id": "cc0ac479-c294-44a3-bb27-2c6b18b1a5fb",
-                "type": 1,
-                "endpoint": "wpengine.com",
-                "businessImpact": 1,
-                "description": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality and wpengine.com/contact/. No testing should be done against these targets or any 3rd party services."
-            }
-        ]
-    },
-    {
         "programId": "390688f6-7857-4cec-bf8f-4e11936e82a4",
         "status": 3,
         "confidentialityLevel": 4,
@@ -1326,6 +1326,115 @@
                 "endpoint": "www.voiscooters.com",
                 "businessImpact": 2,
                 "description": "Informational Website"
+            }
+        ]
+    },
+    {
+        "programId": "18058413-5255-4f5c-a9db-c6ac027bb5d6",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "syb",
+        "companyName": "Soundtrack Your Brand",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "soundtrackyourbrand",
+        "name": "Soundtrack Your Brand",
+        "description": "Soundtrack Your Brand offers music streaming services for businesses. We serve small customers like the caf\u00e9 around the corner or larger brands like McDonald\u2019s. Through our service customers have total control over the music and can manage locations across the world.\n\nWe provide a wide variety of playback options, from mobile apps to custom hardware, that our customers use to play music at their venues. They manage their account, music and locations via our web app.",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1686824051,
+        "lastSubmissionAt": 1687959991,
+        "logoId": "public_bucket_55bc5b45-5ca5-458d-8d53-87af20e5caa5-92d16eab-596b-429a-b044-b976770c0cb0",
+        "domains": [
+            {
+                "id": "c427e807-e72a-4dee-bcb6-f42325ed88b9",
+                "type": 3,
+                "endpoint": "1114799709",
+                "businessImpact": 4,
+                "description": "The iOS Player app that allows you to browse and play music.\n\nIn order to use the iOS Player you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg"
+            },
+            {
+                "id": "1292d2af-7b1d-4119-8544-69e34c84e9e5",
+                "type": 3,
+                "endpoint": "1114800186",
+                "businessImpact": 4,
+                "description": "The iOS Remote that allows you to remotely control your Soundtrack Players.\n\nIn order to use the iOS Remote you will need a remote code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=cmAe1kRvOeY"
+            },
+            {
+                "id": "e0bdffac-254b-4f73-836e-8f8af536a23b",
+                "type": 1,
+                "endpoint": "api.soundtrackyourbrand.com",
+                "businessImpact": 4,
+                "description": "Our public API. Used by us as well as third parties. You can use your regular login token to authenticate.\n\nDocs: https://developer.soundtrackyourbrand.com/api\nGraphQL Explorer: https://api.soundtrackyourbrand.com/v2/explore\n\nPlease use one of the claimed test credentials. In order to use the API you can login using your claimed credentials (via loginUser) and use the token you get back to issue API calls."
+            },
+            {
+                "id": "318eaaed-4f57-4456-b246-2212b637b5fc",
+                "type": 1,
+                "endpoint": "billing.api.soundtrackyourbrand.com",
+                "businessImpact": 4,
+                "description": "Our billing service. Handles payments (one time and recurring), price and product management and subscription renewals."
+            },
+            {
+                "id": "02b85f52-4346-47de-8fed-7bdced152f97",
+                "type": 1,
+                "endpoint": "builds.soundtrackyourbrand.com",
+                "businessImpact": 4,
+                "description": "Our service which does gradual rollout of our player software to our Windows client and hardware players."
+            },
+            {
+                "id": "06d9eb1d-3ea1-41e1-af67-59eee8d7d67f",
+                "type": 1,
+                "endpoint": "business.soundtrackyourbrand.com",
+                "businessImpact": 4,
+                "description": "Our web based management console that allows users to administer their players, music and their account.\n\n**To claim bounties for this domain you need to use one of the claimed test credentials.**"
+            },
+            {
+                "id": "46071297-240a-4b2f-a2f6-b3223c4a6439",
+                "type": 2,
+                "endpoint": "com.soundtrackyourbrand.soundtrack.player",
+                "businessImpact": 4,
+                "description": "The Android Player app that allows you to browse and play music.\n\nIn order to use the Android Player you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg"
+            },
+            {
+                "id": "096acd23-9211-4f69-ac45-4fc5637fc41b",
+                "type": 1,
+                "endpoint": "https://auth.api.soundtrackyourbrand.com/",
+                "businessImpact": 4,
+                "description": "Our authentication service."
+            },
+            {
+                "id": "c4a2e4ed-677c-4714-8b6e-e0a90f8f7bdd",
+                "type": 6,
+                "endpoint": "https://builds.soundtrackyourbrand.com/download/WIN32SOUNDTRACK/latest",
+                "businessImpact": 4,
+                "description": "The Windows Player that allows you to play music. No user interface except for a tray icon.\n\nIn order to use the Windows Player you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=HjFfXcjSEmM"
+            },
+            {
+                "id": "4a6113d6-6aeb-477b-9f64-b19fbe5ec77f",
+                "type": 1,
+                "endpoint": "https://radio.api.soundtrackyourbrand.com/",
+                "businessImpact": 4,
+                "description": "Our playlisting service."
+            },
+            {
+                "id": "63a457a9-c532-4ba9-9113-d3f12d18823f",
+                "type": 1,
+                "endpoint": "https://www.soundtrackyourbrand.com",
+                "businessImpact": 4,
+                "description": "Our public website."
+            },
+            {
+                "id": "a101797e-b947-4f3a-9b89-835b2551a5e8",
+                "type": 6,
+                "endpoint": "macOS app",
+                "businessImpact": 4,
+                "description": "The macOS Player app allows you to browse and play music. You can find it in the App Store: https://apps.apple.com/se/app/soundtrack-player/id1114799709?l=en\n\nIn order to use the macOS you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg"
             }
         ]
     },
@@ -2069,6 +2178,73 @@
         ]
     },
     {
+        "programId": "618bdc2f-9207-47cc-8c5c-71b734900359",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "delijn",
+        "companyName": "De Lijn",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "delijn",
+        "name": "De Lijn",
+        "description": "De Lijn is the Flemish public transportation company dedicated to giving their customers a comfortable and quick ride. Due the fact that we use the latest IT equipment and servers is our security ought to be at the top of our game. For this program we are putting the focus at our web clients, APIs and of course the mobile application.   ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679575652,
+        "lastSubmissionAt": 1686208688,
+        "logoId": "public_bucket_36283e31-6b87-4633-86f7-adc2d8cda262-a6c5dafc-a5e0-493d-901f-1a2442e8c5a0",
+        "domains": [
+            {
+                "id": "c833f8c9-a5ab-4c27-962b-90f02d320a0a",
+                "type": 3,
+                "endpoint": "456910787",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "0676077b-3afb-49d4-bcde-b006d35e5484",
+                "type": 1,
+                "endpoint": "api-a.delijn.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "25fd4952-d086-4e35-8842-56f613c2d669",
+                "type": 1,
+                "endpoint": "api.delijn.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "82da7d04-8ceb-4bfd-8944-5eebb676922f",
+                "type": 2,
+                "endpoint": "com.themobilecompany.delijn",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "af186597-b2a5-4c15-8c51-1992a68f3376",
+                "type": 1,
+                "endpoint": "accept.delijn.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "3115a76e-fb13-480a-8e42-c64979e501fc",
+                "type": 1,
+                "endpoint": "www.delijn.be",
+                "businessImpact": 1,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "f64faa66-b7e6-4ad7-bf56-b64a885d682a",
         "status": 3,
         "confidentialityLevel": 4,
@@ -2205,256 +2381,6 @@
                 "type": 1,
                 "endpoint": "staging.venly.market",
                 "businessImpact": 2,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "18058413-5255-4f5c-a9db-c6ac027bb5d6",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "syb",
-        "companyName": "Soundtrack Your Brand",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "soundtrackyourbrand",
-        "name": "Soundtrack Your Brand",
-        "description": "Soundtrack Your Brand offers music streaming services for businesses. We serve small customers like the caf\u00e9 around the corner or larger brands like McDonald\u2019s. Through our service customers have total control over the music and can manage locations across the world.\n\nWe provide a wide variety of playback options, from mobile apps to custom hardware, that our customers use to play music at their venues. They manage their account, music and locations via our web app.",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3500.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1686824051,
-        "lastSubmissionAt": 1687959991,
-        "logoId": "public_bucket_55bc5b45-5ca5-458d-8d53-87af20e5caa5-92d16eab-596b-429a-b044-b976770c0cb0",
-        "domains": [
-            {
-                "id": "c427e807-e72a-4dee-bcb6-f42325ed88b9",
-                "type": 3,
-                "endpoint": "1114799709",
-                "businessImpact": 4,
-                "description": "The iOS Player app that allows you to browse and play music.\n\nIn order to use the iOS Player you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg"
-            },
-            {
-                "id": "1292d2af-7b1d-4119-8544-69e34c84e9e5",
-                "type": 3,
-                "endpoint": "1114800186",
-                "businessImpact": 4,
-                "description": "The iOS Remote that allows you to remotely control your Soundtrack Players.\n\nIn order to use the iOS Remote you will need a remote code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=cmAe1kRvOeY"
-            },
-            {
-                "id": "e0bdffac-254b-4f73-836e-8f8af536a23b",
-                "type": 1,
-                "endpoint": "api.soundtrackyourbrand.com",
-                "businessImpact": 4,
-                "description": "Our public API. Used by us as well as third parties. You can use your regular login token to authenticate.\n\nDocs: https://developer.soundtrackyourbrand.com/api\nGraphQL Explorer: https://api.soundtrackyourbrand.com/v2/explore\n\nPlease use one of the claimed test credentials. In order to use the API you can login using your claimed credentials (via loginUser) and use the token you get back to issue API calls."
-            },
-            {
-                "id": "318eaaed-4f57-4456-b246-2212b637b5fc",
-                "type": 1,
-                "endpoint": "billing.api.soundtrackyourbrand.com",
-                "businessImpact": 4,
-                "description": "Our billing service. Handles payments (one time and recurring), price and product management and subscription renewals."
-            },
-            {
-                "id": "02b85f52-4346-47de-8fed-7bdced152f97",
-                "type": 1,
-                "endpoint": "builds.soundtrackyourbrand.com",
-                "businessImpact": 4,
-                "description": "Our service which does gradual rollout of our player software to our Windows client and hardware players."
-            },
-            {
-                "id": "06d9eb1d-3ea1-41e1-af67-59eee8d7d67f",
-                "type": 1,
-                "endpoint": "business.soundtrackyourbrand.com",
-                "businessImpact": 4,
-                "description": "Our web based management console that allows users to administer their players, music and their account.\n\n**To claim bounties for this domain you need to use one of the claimed test credentials.**"
-            },
-            {
-                "id": "46071297-240a-4b2f-a2f6-b3223c4a6439",
-                "type": 2,
-                "endpoint": "com.soundtrackyourbrand.soundtrack.player",
-                "businessImpact": 4,
-                "description": "The Android Player app that allows you to browse and play music.\n\nIn order to use the Android Player you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg"
-            },
-            {
-                "id": "096acd23-9211-4f69-ac45-4fc5637fc41b",
-                "type": 1,
-                "endpoint": "https://auth.api.soundtrackyourbrand.com/",
-                "businessImpact": 4,
-                "description": "Our authentication service."
-            },
-            {
-                "id": "c4a2e4ed-677c-4714-8b6e-e0a90f8f7bdd",
-                "type": 6,
-                "endpoint": "https://builds.soundtrackyourbrand.com/download/WIN32SOUNDTRACK/latest",
-                "businessImpact": 4,
-                "description": "The Windows Player that allows you to play music. No user interface except for a tray icon.\n\nIn order to use the Windows Player you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=HjFfXcjSEmM"
-            },
-            {
-                "id": "4a6113d6-6aeb-477b-9f64-b19fbe5ec77f",
-                "type": 1,
-                "endpoint": "https://radio.api.soundtrackyourbrand.com/",
-                "businessImpact": 4,
-                "description": "Our playlisting service."
-            },
-            {
-                "id": "63a457a9-c532-4ba9-9113-d3f12d18823f",
-                "type": 1,
-                "endpoint": "https://www.soundtrackyourbrand.com",
-                "businessImpact": 4,
-                "description": "Our public website."
-            },
-            {
-                "id": "a101797e-b947-4f3a-9b89-835b2551a5e8",
-                "type": 6,
-                "endpoint": "macOS app",
-                "businessImpact": 4,
-                "description": "The macOS Player app allows you to browse and play music. You can find it in the App Store: https://apps.apple.com/se/app/soundtrack-player/id1114799709?l=en\n\nIn order to use the macOS you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg"
-            }
-        ]
-    },
-    {
-        "programId": "0083a5bf-e54f-4f79-a972-12a795272c8b",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "innovapost",
-        "companyName": "Innovapost",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "innovapost",
-        "name": "Canada Post + Purolator - Responsible Disclosure Program",
-        "description": "Canada Post is the country\u2019s leading provider of business-to-consumer delivery. Reaching more than 16.2 million addresses, and operating the country\u2019s largest retail network of over 6,200 post offices.\n\nPurolator is Canada\u2019s leading integrated freight, parcel and logistics solutions provider. Purolator continues to expand its reach and renowned service levels and reliability to more people, more businesses and more places across the country and around the world.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679566395,
-        "lastSubmissionAt": 1687563454,
-        "logoId": "public_bucket_397ac5fb-999c-4ac3-bdd2-28f727de4748-b19a91ee-395c-466e-b469-0d220af1bdd6",
-        "domains": [
-            {
-                "id": "3f4c10b9-c56f-41fc-907e-55c70e563317",
-                "type": 1,
-                "endpoint": "*.canadapost-postescanada.ca",
-                "businessImpact": 1,
-                "description": "Any subdomain of canadapost-postescanada.ca (eg. www.canadapost-postescanada.ca, sso-osu.canadapost-postescanada.ca and store.canadapost-postescanada.ca)"
-            },
-            {
-                "id": "88894b1a-68f7-4ccf-8518-7187606ae74b",
-                "type": 1,
-                "endpoint": "*.postescanada-canadapost.ca",
-                "businessImpact": 1,
-                "description": "Any subdomain of postescanada-canadapost.ca (eg. www.postescanada-canadapost.ca)"
-            },
-            {
-                "id": "0dd0c864-edcd-46fe-a377-698997b98305",
-                "type": 1,
-                "endpoint": "*.purolator.com",
-                "businessImpact": 1,
-                "description": "Any subdomain of purolator.com (eg. www.purolator.com, eshiponline.purolator.com and billingcentre.purolator.com)"
-            },
-            {
-                "id": "a1e53e3c-f352-4f6a-81d3-acc8a23c97c9",
-                "type": 3,
-                "endpoint": "394391577",
-                "businessImpact": 1,
-                "description": "Canada Post's mobile application for iOS"
-            },
-            {
-                "id": "8717f48d-156a-4a4b-b081-d4785d1aacc4",
-                "type": 3,
-                "endpoint": "438701193",
-                "businessImpact": 1,
-                "description": "Purolator's mobile application for iOS"
-            },
-            {
-                "id": "9ef03414-3950-458b-a888-9045a008cfa0",
-                "type": 2,
-                "endpoint": "com.canadapost.android",
-                "businessImpact": 1,
-                "description": "Canada Post's mobile application for Android"
-            },
-            {
-                "id": "265923c3-1103-4649-9811-2c6003bd11d8",
-                "type": 2,
-                "endpoint": "com.purolator.mobileapp",
-                "businessImpact": 1,
-                "description": "Purolator's mobile application for Android"
-            }
-        ]
-    },
-    {
-        "programId": "618bdc2f-9207-47cc-8c5c-71b734900359",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "delijn",
-        "companyName": "De Lijn",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "delijn",
-        "name": "De Lijn",
-        "description": "De Lijn is the Flemish public transportation company dedicated to giving their customers a comfortable and quick ride. Due the fact that we use the latest IT equipment and servers is our security ought to be at the top of our game. For this program we are putting the focus at our web clients, APIs and of course the mobile application.   ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679575652,
-        "lastSubmissionAt": 1686208688,
-        "logoId": "public_bucket_36283e31-6b87-4633-86f7-adc2d8cda262-a6c5dafc-a5e0-493d-901f-1a2442e8c5a0",
-        "domains": [
-            {
-                "id": "c833f8c9-a5ab-4c27-962b-90f02d320a0a",
-                "type": 3,
-                "endpoint": "456910787",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "0676077b-3afb-49d4-bcde-b006d35e5484",
-                "type": 1,
-                "endpoint": "api-a.delijn.be",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "25fd4952-d086-4e35-8842-56f613c2d669",
-                "type": 1,
-                "endpoint": "api.delijn.be",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "82da7d04-8ceb-4bfd-8944-5eebb676922f",
-                "type": 2,
-                "endpoint": "com.themobilecompany.delijn",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "af186597-b2a5-4c15-8c51-1992a68f3376",
-                "type": 1,
-                "endpoint": "accept.delijn.be",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "3115a76e-fb13-480a-8e42-c64979e501fc",
-                "type": 1,
-                "endpoint": "www.delijn.be",
-                "businessImpact": 1,
                 "description": null
             }
         ]
@@ -2660,16 +2586,16 @@
         ]
     },
     {
-        "programId": "43e4eb4b-f2c8-4307-80a6-7ce739469867",
+        "programId": "0083a5bf-e54f-4f79-a972-12a795272c8b",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "vod",
-        "companyName": "Digitaal Vlaanderen",
+        "companyHandle": "innovapost",
+        "companyName": "Innovapost",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "digitaalvlaanderen",
-        "name": "Digitaal Vlaanderen",
-        "description": "\"Digitaal Vlaanderen\" is the IT and digital transformation departement within the Flanders\u2019 governmental IT. Positioned as the digital gateway and data broker between all Flemish government entities, we want to be at the top of our game. Our security ought to be too. For this program we are focusing at first instance on some of our main assets. ",
+        "handle": "innovapost",
+        "name": "Canada Post + Purolator - Responsible Disclosure Program",
+        "description": "Canada Post is the country\u2019s leading provider of business-to-consumer delivery. Reaching more than 16.2 million addresses, and operating the country\u2019s largest retail network of over 6,200 post offices.\n\nPurolator is Canada\u2019s leading integrated freight, parcel and logistics solutions provider. Purolator continues to expand its reach and renowned service levels and reliability to more people, more businesses and more places across the country and around the world.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -2678,51 +2604,58 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1679992936,
-        "lastSubmissionAt": 1688094778,
-        "logoId": "public_bucket_127ed9c7-ed68-4dba-beba-5ed76cc8a07e-8f762052-7840-45fa-93f2-068cc727f042",
+        "lastUpdatedAt": 1679566395,
+        "lastSubmissionAt": 1687563454,
+        "logoId": "public_bucket_397ac5fb-999c-4ac3-bdd2-28f727de4748-b19a91ee-395c-466e-b469-0d220af1bdd6",
         "domains": [
             {
-                "id": "66621cea-4c00-44af-a663-cdbe6752bf1b",
+                "id": "3f4c10b9-c56f-41fc-907e-55c70e563317",
                 "type": 1,
-                "endpoint": "*.vlaanderen.be",
-                "businessImpact": 3,
-                "description": "All and any subsites of https://www.vlaanderen.be, \n-for which authentication is not needed\n-for which creation of account(s) is not needed\n\nFor some subsites, a government entity other than Digitaal Vlaanderen may be responsible. We can accept the disclosed vulnerability and relay the issue to the concerned entity, yet we then cannot guarantee they will (be able to) fix it.\n\n\n"
+                "endpoint": "*.canadapost-postescanada.ca",
+                "businessImpact": 1,
+                "description": "Any subdomain of canadapost-postescanada.ca (eg. www.canadapost-postescanada.ca, sso-osu.canadapost-postescanada.ca and store.canadapost-postescanada.ca)"
             },
             {
-                "id": "8218f560-b8e2-44fd-a67d-f8ac13adbeb5",
+                "id": "88894b1a-68f7-4ccf-8518-7187606ae74b",
                 "type": 1,
-                "endpoint": "https://beta.gastwebsite-acm.burgerprofiel.ext-vlaanderen.be",
+                "endpoint": "*.postescanada-canadapost.ca",
                 "businessImpact": 1,
-                "description": "**Authenticated** demo environment for the widget platform. The website itself is just an illustrative example and should not be tested."
+                "description": "Any subdomain of postescanada-canadapost.ca (eg. www.postescanada-canadapost.ca)"
             },
             {
-                "id": "dacd8e3c-28d9-4a80-a2d4-0cea2cec4fee",
+                "id": "0dd0c864-edcd-46fe-a377-698997b98305",
                 "type": 1,
-                "endpoint": "https://beta.gastwebsite.burgerprofiel.ext-vlaanderen.be",
+                "endpoint": "*.purolator.com",
                 "businessImpact": 1,
-                "description": "**Unauthenticated** demo environment for the widget platform. The website itself is just an illustrative example and should not be tested."
+                "description": "Any subdomain of purolator.com (eg. www.purolator.com, eshiponline.purolator.com and billingcentre.purolator.com)"
             },
             {
-                "id": "f473ffc6-c83b-43ad-a4f8-72422331f208",
-                "type": 1,
-                "endpoint": "https://beta.widgets.burgerprofiel.dev-vlaanderen.be/",
+                "id": "a1e53e3c-f352-4f6a-81d3-acc8a23c97c9",
+                "type": 3,
+                "endpoint": "394391577",
                 "businessImpact": 1,
-                "description": "Embeddable portion of My Citizen Profile\n"
+                "description": "Canada Post's mobile application for iOS"
             },
             {
-                "id": "990e51bc-0af7-417f-af3e-f6da535d1592",
-                "type": 1,
-                "endpoint": "https://burgerprofiel.beta-vlaanderen.be",
+                "id": "8717f48d-156a-4a4b-b081-d4785d1aacc4",
+                "type": 3,
+                "endpoint": "438701193",
                 "businessImpact": 1,
-                "description": "My Citizen Profile (Mijn Burgerprofiel in Dutch) is the go-to spot for citizens to manage their affairs digitally with the government. Citizens can access their personal data, consult status reports, download certificates, and request new government services such as a permit of subsidy. My Citizen Profile is a plug-in that can be integrated into different official government websites, be it on a Flemish or local level.\n\nAvailable in Dutch - More information can also be found on https://www.vlaanderen.be/uw-overheid/mijn-burgerprofiel (only in Dutch).\n\nThis beta environment is equiped with a mock authentication (OpenID) service, which can generate tokens for different kinds of accounts. As such, the authentication flow of this mocked service is not in scope."
+                "description": "Purolator's mobile application for iOS"
             },
             {
-                "id": "f1d37da8-6a81-4187-884c-8f3f354ec5ca",
-                "type": 1,
-                "endpoint": "https://vo-gebruikersbeheer.vlaanderen.be/",
+                "id": "9ef03414-3950-458b-a888-9045a008cfa0",
+                "type": 2,
+                "endpoint": "com.canadapost.android",
                 "businessImpact": 1,
-                "description": "User Management (IDM) is a platform with which you can manage the inflow and outflow of people and their rights to applications.\n\nIt is a central rights management for different applications within the entire Flemish administration. It controls the inflow and outflow of employees and their rights and is editable to be tailored to the tasks of each employee.\n\nMore information is available on www.vlaanderen.be/gebruikersbeheer. There is detailed product and technical information available for download (in Dutch only).\n\nTo be able to test the platform, you will need to create a (dummy) account in our test environment. You can only do this with your intigriti.me e-mail account via a self-registering system available at https://zelfregistratie-gebruikersbeheer-ti.vlaanderen.be/user/aanvraag_werkrelatie?dg=EA&oc=0415928179. You can register with \u201cKinepolis Group\u201d as a \"Hoofd Lokale Beheerder\". When you do so, please send an e-mail to webidm@hbplus.be with in the subject line \"Project Intigriti\". We will inform you when the right has been given.\n\nThe application is also available in English via this link: https://gebruikersbeheer-ti.vlaanderen.be/webidm/?lang=en."
+                "description": "Canada Post's mobile application for Android"
+            },
+            {
+                "id": "265923c3-1103-4649-9811-2c6003bd11d8",
+                "type": 2,
+                "endpoint": "com.purolator.mobileapp",
+                "businessImpact": 1,
+                "description": "Purolator's mobile application for Android"
             }
         ]
     },
@@ -2812,6 +2745,105 @@
         ]
     },
     {
+        "programId": "43e4eb4b-f2c8-4307-80a6-7ce739469867",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "vod",
+        "companyName": "Digitaal Vlaanderen",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "digitaalvlaanderen",
+        "name": "Digitaal Vlaanderen",
+        "description": "\"Digitaal Vlaanderen\" is the IT and digital transformation departement within the Flanders\u2019 governmental IT. Positioned as the digital gateway and data broker between all Flemish government entities, we want to be at the top of our game. Our security ought to be too. For this program we are focusing at first instance on some of our main assets. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679992936,
+        "lastSubmissionAt": 1688094778,
+        "logoId": "public_bucket_127ed9c7-ed68-4dba-beba-5ed76cc8a07e-8f762052-7840-45fa-93f2-068cc727f042",
+        "domains": [
+            {
+                "id": "66621cea-4c00-44af-a663-cdbe6752bf1b",
+                "type": 1,
+                "endpoint": "*.vlaanderen.be",
+                "businessImpact": 3,
+                "description": "All and any subsites of https://www.vlaanderen.be, \n-for which authentication is not needed\n-for which creation of account(s) is not needed\n\nFor some subsites, a government entity other than Digitaal Vlaanderen may be responsible. We can accept the disclosed vulnerability and relay the issue to the concerned entity, yet we then cannot guarantee they will (be able to) fix it.\n\n\n"
+            },
+            {
+                "id": "8218f560-b8e2-44fd-a67d-f8ac13adbeb5",
+                "type": 1,
+                "endpoint": "https://beta.gastwebsite-acm.burgerprofiel.ext-vlaanderen.be",
+                "businessImpact": 1,
+                "description": "**Authenticated** demo environment for the widget platform. The website itself is just an illustrative example and should not be tested."
+            },
+            {
+                "id": "dacd8e3c-28d9-4a80-a2d4-0cea2cec4fee",
+                "type": 1,
+                "endpoint": "https://beta.gastwebsite.burgerprofiel.ext-vlaanderen.be",
+                "businessImpact": 1,
+                "description": "**Unauthenticated** demo environment for the widget platform. The website itself is just an illustrative example and should not be tested."
+            },
+            {
+                "id": "f473ffc6-c83b-43ad-a4f8-72422331f208",
+                "type": 1,
+                "endpoint": "https://beta.widgets.burgerprofiel.dev-vlaanderen.be/",
+                "businessImpact": 1,
+                "description": "Embeddable portion of My Citizen Profile\n"
+            },
+            {
+                "id": "990e51bc-0af7-417f-af3e-f6da535d1592",
+                "type": 1,
+                "endpoint": "https://burgerprofiel.beta-vlaanderen.be",
+                "businessImpact": 1,
+                "description": "My Citizen Profile (Mijn Burgerprofiel in Dutch) is the go-to spot for citizens to manage their affairs digitally with the government. Citizens can access their personal data, consult status reports, download certificates, and request new government services such as a permit of subsidy. My Citizen Profile is a plug-in that can be integrated into different official government websites, be it on a Flemish or local level.\n\nAvailable in Dutch - More information can also be found on https://www.vlaanderen.be/uw-overheid/mijn-burgerprofiel (only in Dutch).\n\nThis beta environment is equiped with a mock authentication (OpenID) service, which can generate tokens for different kinds of accounts. As such, the authentication flow of this mocked service is not in scope."
+            },
+            {
+                "id": "f1d37da8-6a81-4187-884c-8f3f354ec5ca",
+                "type": 1,
+                "endpoint": "https://vo-gebruikersbeheer.vlaanderen.be/",
+                "businessImpact": 1,
+                "description": "User Management (IDM) is a platform with which you can manage the inflow and outflow of people and their rights to applications.\n\nIt is a central rights management for different applications within the entire Flemish administration. It controls the inflow and outflow of employees and their rights and is editable to be tailored to the tasks of each employee.\n\nMore information is available on www.vlaanderen.be/gebruikersbeheer. There is detailed product and technical information available for download (in Dutch only).\n\nTo be able to test the platform, you will need to create a (dummy) account in our test environment. You can only do this with your intigriti.me e-mail account via a self-registering system available at https://zelfregistratie-gebruikersbeheer-ti.vlaanderen.be/user/aanvraag_werkrelatie?dg=EA&oc=0415928179. You can register with \u201cKinepolis Group\u201d as a \"Hoofd Lokale Beheerder\". When you do so, please send an e-mail to webidm@hbplus.be with in the subject line \"Project Intigriti\". We will inform you when the right has been given.\n\nThe application is also available in English via this link: https://gebruikersbeheer-ti.vlaanderen.be/webidm/?lang=en."
+            }
+        ]
+    },
+    {
+        "programId": "a78e0210-4de1-4ced-8895-48ac98c3166d",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "kuleuven",
+        "companyName": "KU Leuven",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "huisvesting",
+        "name": "Housing Application (huisvestingsapp)",
+        "description": "New or existing students can apply for a room  in KU Leuven Central Services Residences.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2500.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679581095,
+        "lastSubmissionAt": 1686236639,
+        "logoId": "public_bucket_8e0c37cb-1602-44d3-bfba-384ad6ff600a-b2aa0746-877b-4ba3-accd-0c5f185fc869",
+        "domains": [
+            {
+                "id": "6b6224aa-5f9b-45b3-91ad-91130b8694a7",
+                "type": 1,
+                "endpoint": "https://www.kuleuven.be/sapredir/huisvesting",
+                "businessImpact": 3,
+                "description": "!! You can create an account with [your @intigriti.me address](https://go.intigriti.com/intigritime) and name 'Intigriti Test' (as explained in the FAQ), but the **registration process** itself is **not in scope** for the bug bounty programme !!\n\nThe scope includes all assets that are reasonably related to the housing application app (except for authentication like login or registration process)."
+            }
+        ]
+    },
+    {
         "programId": "5c7a8f79-a23b-4367-a2c6-63a2d48586ee",
         "status": 3,
         "confidentialityLevel": 4,
@@ -2861,38 +2893,6 @@
                 "endpoint": "*.hln.be",
                 "businessImpact": 2,
                 "description": null
-            }
-        ]
-    },
-    {
-        "programId": "a78e0210-4de1-4ced-8895-48ac98c3166d",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "kuleuven",
-        "companyName": "KU Leuven",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "huisvesting",
-        "name": "Housing Application (huisvestingsapp)",
-        "description": "New or existing students can apply for a room  in KU Leuven Central Services Residences.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2500.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679581095,
-        "lastSubmissionAt": 1686236639,
-        "logoId": "public_bucket_8e0c37cb-1602-44d3-bfba-384ad6ff600a-b2aa0746-877b-4ba3-accd-0c5f185fc869",
-        "domains": [
-            {
-                "id": "6b6224aa-5f9b-45b3-91ad-91130b8694a7",
-                "type": 1,
-                "endpoint": "https://www.kuleuven.be/sapredir/huisvesting",
-                "businessImpact": 3,
-                "description": "!! You can create an account with [your @intigriti.me address](https://go.intigriti.com/intigritime) and name 'Intigriti Test' (as explained in the FAQ), but the **registration process** itself is **not in scope** for the bug bounty programme !!\n\nThe scope includes all assets that are reasonably related to the housing application app (except for authentication like login or registration process)."
             }
         ]
     },
@@ -3050,7 +3050,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1681797731,
-        "lastSubmissionAt": 1688352630,
+        "lastSubmissionAt": 1688364556,
         "logoId": "public_bucket_3f8cf4b8-e72a-47b1-bd82-fd31a815ccac-e4c62ba7-4ee6-42ad-b136-99ded90df978",
         "domains": [
             {
@@ -3066,6 +3066,196 @@
                 "endpoint": "IOS and Android apps related to Red Bull",
                 "businessImpact": 1,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "f20cc699-5ec8-4cb8-8168-61e15c5c7bbe",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "ebsi",
+        "companyName": "European Commission - EBSI",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "ebsi",
+        "name": "EBSI",
+        "description": "The European Blockchain Services Infrastructure (EBSI) was born in 2018 when 29 countries (all EU members states, Norway and Liechtenstein) and the EU Commission have joined forces to create the European Blockchain Partnership (EBP). EBP\u2019s vision is to leverage blockchain to create cross-border services for public administrations, businesses, citizens and their ecosystems to verify information and make services trustworthy.\n\nDiscover and understand EBSI by having a look at our website.",
+        "minBounty": {
+            "value": 500.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 15000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1686200888,
+        "lastSubmissionAt": 1687512862,
+        "logoId": "public_bucket_43f3aabc-5e94-4c68-a360-5b3dc91a688a-14bd93da-df2d-4512-a44f-9cddad3550c6",
+        "domains": [
+            {
+                "id": "bbdd5a74-c306-497a-b5b7-6c9f136739ff",
+                "type": 6,
+                "endpoint": "Authorisation API",
+                "businessImpact": 3,
+                "description": "Following endpoints of the [Authorisation API](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/) are considered in-scope:\n\n1. [get v3 well known openid config](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-well-known-openid-config)\n2. [get v3 jwks](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-jwks)\n3. [get v3 presentation definitions](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-presentation-definitions)\n4. [prove ownership over the DID](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-v3-token)\n\n\nIn this case, the [older version](https://api-pilot.ebsi.eu/docs/apis/authorisation/V2#/) is also considered in scope:\n\n1. [post authorisation v2 authentication requests](https://api-pilot.ebsi.eu/docs/apis/authorisation/V2#/operations/post-authorisation-v2-authentication-requests)\n2. [post authorisation v2 siop sessions](https://api-pilot.ebsi.eu/docs/apis/authorisation/V2#/operations/post-authorisation-v2-siop-sessions)\n3. [post authorisation v2 oauth2 sessions](https://api-pilot.ebsi.eu/docs/apis/authorisation/V2#/operations/post-authorisation-v2-oauth2-sessions)"
+            },
+            {
+                "id": "2159b837-2fe9-465a-aa89-8ffe274917b3",
+                "type": 6,
+                "endpoint": "DID registry API",
+                "businessImpact": 3,
+                "description": "Following endpoints of the [DID Registry API](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/) are considered in-scope:\n\n1. [get did registry v4 identifiers](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v4-identifiers)\n2. [get did registry v4 identifier](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v4-identifier)\n3. [get did registry v4 actions](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v4-actions)\n4. [post did registry v4 jsonrpc](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/post-did-registry-v4-jsonrpc)"
+            },
+            {
+                "id": "53045222-5193-40be-938e-4feeb90c61d6",
+                "type": 6,
+                "endpoint": "Ledger API",
+                "businessImpact": 3,
+                "description": "Following endpoints of the [Ledger  API](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/) are considered in-scope:\n\n1. [post ledger v3 blockchains besu](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/operations/post-ledger-v3-blockchains-besu)"
+            },
+            {
+                "id": "9d95ed5d-7a4f-4a1a-97b0-34124246f050",
+                "type": 6,
+                "endpoint": "Timestamp API",
+                "businessImpact": 3,
+                "description": "Following endpoints of the [Timestamp API](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/) are considered in-scope:\n\n1. [get timestamp v3 hash algorithms](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-hash-algorithms)\n2. [get timestamp v3 hash algorithms hash algorithm id](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-hash-algorithms-hash-algorithm-id)\n3. [get timestamp v3 timestamps](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-timestamps)\n4. [get timestamp v3 timestamps timestampId](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-timestamps-timestampId)\n5. [get timestamp v3 records](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-records)\n6. [get timestamp v3 records record id](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-records-record-id)\n7. [get timestamp v3 records record id versions](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-records-record-id-versions)\n8. [get timestamp v3 records record id versions version id](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-records-record-id-versions-version-id)\n9. [post timestamp v3 jsonrpc](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/post-timestamp-v3-jsonrpc)"
+            },
+            {
+                "id": "bc2b36cf-8bdb-4353-b90d-e3ab59cb9264",
+                "type": 6,
+                "endpoint": "Trusted Apps Registry API",
+                "businessImpact": 3,
+                "description": "Following endpoints of the [Trusted Apps Registry](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/) are considered in-scope:\n\n1. [get trusted apps registry v2 apps](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-apps)\n2. [get trusted apps registry v2 app](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-app)\n3. [get apps applicationId public keys](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-apps-applicationId-public-keys)\n4. [get apps applicationId public keys public key](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-apps-applicationId-public-keys-public-key)\n5. [get apps resourceApplicationId authorizations](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-apps-resourceApplicationId-authorizations)\n6. [get trusted apps registry v2 authorizationId](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-authorizationId)\n7. [get trusted apps registry v2 policies](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-policies)\n8. [get trusted apps registry v2 policy](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-policy)\n9. [get trusted apps registry v2 policy revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-policy-revisions)\n10. [post ledger v2 blockchains besu](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/post-ledger-v2-blockchains-besu)"
+            },
+            {
+                "id": "9c183ca9-3c72-41af-aaac-f95bc4a77524",
+                "type": 6,
+                "endpoint": "Trusted Issuers Registry API",
+                "businessImpact": 3,
+                "description": "Following endpoints of the [Trusted Issuers Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/) are considered in-scope:\n\n1. [get trusted issuers registry v4 issuers](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers)\n2. [get trusted issuers registry v4 issuers issuer](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-issuer)\n3. [get trusted issuers registry v4 issuers did attributes](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-attributes)\n4. [get trusted issuers registry v4 issuers did attributes attributeid](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-attributes-attributeid)\n5. [get trusted issuers registry v4 issuers did attributes attributeid revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-attributes-attributeid-revisions)\n6. [get trusted issuers registry v4 issuers did proxies](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-proxies)\n7. [get trusted issuers registry v4 issuers did proxies proxyid](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-proxies-proxyid)\n8. [get trusted issuers registry v4 issuers did proxies proxyid path](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-proxies-proxyid-path)\n9. [post ledger v2 blockchains besu](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/post-ledger-v2-blockchains-besu)"
+            },
+            {
+                "id": "1c0d489e-876c-4bbb-b839-acaaeb28edb2",
+                "type": 6,
+                "endpoint": "Trusted Policies Registry API",
+                "businessImpact": 3,
+                "description": "Following endpoints of the [Trusted Policies Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/) are considered in-scope:\n\n1. [get policies](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policies)\n2. [get policy](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policy)\n3. [get users](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-users)\n4. [get user](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-user)\n5. [post jsonrpc](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/post-jsonrpc)"
+            },
+            {
+                "id": "aaa19da8-cbaa-4480-ab54-a9a28d9b1cca",
+                "type": 6,
+                "endpoint": "Trusted Schemas Registry API",
+                "businessImpact": 3,
+                "description": "Following endpoints of the [Trusted Schemas Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/) are considered in-scope:\n\n1. [get trusted schemas registry v2 schemas](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schemas)\n2. [get trusted schemas registry v2 schema](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schema)\n3. [get trusted schemas registry v2 schemas revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schemas-revisions)\n4. [get trusted schemas registry v2 schema revision](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schema-revision)\n5. [get trusted schemas registry v2 schemas revision metadata list](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schemas-revision-metadata-list)\n6. [get trusted schemas registry v2 schema revision metadata](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schema-revision-metadata)\n7. [get trusted schemas registry v2 policies](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-policies)\n8. [get trusted schemas registry v2 policy](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-policy)\n9. [get trusted schemas registry v2 policy revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-policy-revisions)\n10. [post trusted schemas registry v2 jsonrpc](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/post-trusted-schemas-registry-v2-jsonrpc)"
+            }
+        ]
+    },
+    {
+        "programId": "0fd1d85b-2d33-4966-b5a0-caabfda5108e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "ninjakiwigames",
+        "companyName": "Ninja Kiwi Games",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "ninjakiwigames",
+        "name": "Ninja Kiwi Games",
+        "description": "Creators of hit computer game franchises Bloons, Bloons TD and SAS: Zombie Assault for mobile and web. We have offices in Auckland, New Zealand and Dundee, Scotland. We are excited to engage with the security community to help us keep our users safe and our services secure. This is our second Bug Bounty program after a successful campaign in 2021. \n\n",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3750.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679985184,
+        "lastSubmissionAt": 1688305132,
+        "logoId": "public_bucket_2422c1ca-4e6e-41a4-b29c-27f33f30a28c-74d9c694-2bf5-4f92-82b4-70f9104c6d53",
+        "domains": [
+            {
+                "id": "e9eaf570-8224-4198-acac-adc07ec79656",
+                "type": 1,
+                "endpoint": "analytics.ninjakiwi.com",
+                "businessImpact": 4,
+                "description": "This domain hosts the API that consumed analytics events from our game clients\n"
+            },
+            {
+                "id": "94c628a9-da50-4fc0-a2f0-8fb2646d6222",
+                "type": 1,
+                "endpoint": "api.ninjakiwi.com",
+                "businessImpact": 4,
+                "description": "This domain hosts the API for our mobile and PC games. Monitoring traffic through one of our game clients is the easiest method to investigate our main API. Most of our applications are available for free on [Steam](https://store.steampowered.com/developer/ninjakiwigames/#browse). Please carefully read the in-scope section regarding what sorts of exploits will be considering in-scope for this domain. \n"
+            },
+            {
+                "id": "b772efa5-1b48-40e5-af4f-07c6dd0a0787",
+                "type": 1,
+                "endpoint": "builds-auckland.ninja.kiwi",
+                "businessImpact": 4,
+                "description": "This domain hosts builds of Ninja Kiwi games for iOS devices.\n\nAreas of focus:\n* The ability to download any valid build from this service will be considered a CRITICAL vulnerability.\n* We will reward any enumeration of available game builds with a Medium bounty."
+            },
+            {
+                "id": "25b4b828-f8b2-41dc-b932-674f264ed406",
+                "type": 1,
+                "endpoint": "*.nkstatic.com",
+                "businessImpact": 3,
+                "description": "This domain hosts static content for Ninja Kiwi games and website.\n"
+            },
+            {
+                "id": "3a3f4d60-250a-4784-9436-3d7290757d69",
+                "type": 1,
+                "endpoint": "battles.tv",
+                "businessImpact": 3,
+                "description": "Battles.tv is used to share replays from our Bloons TD Battles game.\n"
+            },
+            {
+                "id": "bfc80c75-a14a-40cd-b2a5-1f7372a83adc",
+                "type": 1,
+                "endpoint": "data.ninjakiwi.com",
+                "businessImpact": 3,
+                "description": "This domain hosts our **public** data API which grants open access to in-game data from our biggest games. For example player profiles, leatherboards and event information is available through this domain."
+            },
+            {
+                "id": "dadbf349-953f-4b21-bb53-748f1938fa31",
+                "type": 1,
+                "endpoint": "ninja.kiwi",
+                "businessImpact": 3,
+                "description": "This domain is used by Ninja Kiwi for our URL shortener service, ie https://ninja.kiwi/intigriti. \n"
+            },
+            {
+                "id": "99626fad-cbb9-4977-8bef-6a47114930b3",
+                "type": 1,
+                "endpoint": "ninjakiwi.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "61138ec8-1f46-4595-939a-fa5041a1808a",
+                "type": 1,
+                "endpoint": "*.ninjakiwi.com",
+                "businessImpact": 2,
+                "description": "This covers any subdomains of ninjakiwi.com other than sub-domains which are managed by authorized third-party services. For example:\n* https://store.ninjakiwi.com/ - Managed by Shopify\n* https://support.ninjakiwi.com/ - Managed by Zendesk. "
+            },
+            {
+                "id": "2654eace-28e5-444a-b782-4b3acaf3aa1c",
+                "type": 1,
+                "endpoint": "ct.ninjakiwi.com",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "230b350f-00b2-4ac5-8ccc-e266eb1d0ff4",
+                "type": 1,
+                "endpoint": "mynk.ninjakiwi.com",
+                "businessImpact": 2,
+                "description": "This is a legacy domain which powers our Flash games. Uses Flash AMF. \n"
+            },
+            {
+                "id": "6866fd7a-26d6-4110-a4e4-e376d038a941",
+                "type": 1,
+                "endpoint": "*.souparea.com",
+                "businessImpact": 1,
+                "description": "This domain will be considered out of scope unless it can be shown to allow an exploit on one of our Tier 1-3 domains.\n\n"
             }
         ]
     },
@@ -3348,196 +3538,6 @@
                 "endpoint": "wss://socketcluster.the-strip.eu",
                 "businessImpact": 3,
                 "description": null
-            }
-        ]
-    },
-    {
-        "programId": "f20cc699-5ec8-4cb8-8168-61e15c5c7bbe",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "ebsi",
-        "companyName": "European Commission - EBSI",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "ebsi",
-        "name": "EBSI",
-        "description": "The European Blockchain Services Infrastructure (EBSI) was born in 2018 when 29 countries (all EU members states, Norway and Liechtenstein) and the EU Commission have joined forces to create the European Blockchain Partnership (EBP). EBP\u2019s vision is to leverage blockchain to create cross-border services for public administrations, businesses, citizens and their ecosystems to verify information and make services trustworthy.\n\nDiscover and understand EBSI by having a look at our website.",
-        "minBounty": {
-            "value": 500.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 15000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1686200888,
-        "lastSubmissionAt": 1687512862,
-        "logoId": "public_bucket_43f3aabc-5e94-4c68-a360-5b3dc91a688a-14bd93da-df2d-4512-a44f-9cddad3550c6",
-        "domains": [
-            {
-                "id": "bbdd5a74-c306-497a-b5b7-6c9f136739ff",
-                "type": 6,
-                "endpoint": "Authorisation API",
-                "businessImpact": 3,
-                "description": "Following endpoints of the [Authorisation API](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/) are considered in-scope:\n\n1. [get v3 well known openid config](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-well-known-openid-config)\n2. [get v3 jwks](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-jwks)\n3. [get v3 presentation definitions](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-presentation-definitions)\n4. [prove ownership over the DID](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-v3-token)\n\n\nIn this case, the [older version](https://api-pilot.ebsi.eu/docs/apis/authorisation/V2#/) is also considered in scope:\n\n1. [post authorisation v2 authentication requests](https://api-pilot.ebsi.eu/docs/apis/authorisation/V2#/operations/post-authorisation-v2-authentication-requests)\n2. [post authorisation v2 siop sessions](https://api-pilot.ebsi.eu/docs/apis/authorisation/V2#/operations/post-authorisation-v2-siop-sessions)\n3. [post authorisation v2 oauth2 sessions](https://api-pilot.ebsi.eu/docs/apis/authorisation/V2#/operations/post-authorisation-v2-oauth2-sessions)"
-            },
-            {
-                "id": "2159b837-2fe9-465a-aa89-8ffe274917b3",
-                "type": 6,
-                "endpoint": "DID registry API",
-                "businessImpact": 3,
-                "description": "Following endpoints of the [DID Registry API](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/) are considered in-scope:\n\n1. [get did registry v4 identifiers](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v4-identifiers)\n2. [get did registry v4 identifier](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v4-identifier)\n3. [get did registry v4 actions](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v4-actions)\n4. [post did registry v4 jsonrpc](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/post-did-registry-v4-jsonrpc)"
-            },
-            {
-                "id": "53045222-5193-40be-938e-4feeb90c61d6",
-                "type": 6,
-                "endpoint": "Ledger API",
-                "businessImpact": 3,
-                "description": "Following endpoints of the [Ledger  API](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/) are considered in-scope:\n\n1. [post ledger v3 blockchains besu](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/operations/post-ledger-v3-blockchains-besu)"
-            },
-            {
-                "id": "9d95ed5d-7a4f-4a1a-97b0-34124246f050",
-                "type": 6,
-                "endpoint": "Timestamp API",
-                "businessImpact": 3,
-                "description": "Following endpoints of the [Timestamp API](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/) are considered in-scope:\n\n1. [get timestamp v3 hash algorithms](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-hash-algorithms)\n2. [get timestamp v3 hash algorithms hash algorithm id](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-hash-algorithms-hash-algorithm-id)\n3. [get timestamp v3 timestamps](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-timestamps)\n4. [get timestamp v3 timestamps timestampId](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-timestamps-timestampId)\n5. [get timestamp v3 records](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-records)\n6. [get timestamp v3 records record id](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-records-record-id)\n7. [get timestamp v3 records record id versions](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-records-record-id-versions)\n8. [get timestamp v3 records record id versions version id](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v3-records-record-id-versions-version-id)\n9. [post timestamp v3 jsonrpc](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/post-timestamp-v3-jsonrpc)"
-            },
-            {
-                "id": "bc2b36cf-8bdb-4353-b90d-e3ab59cb9264",
-                "type": 6,
-                "endpoint": "Trusted Apps Registry API",
-                "businessImpact": 3,
-                "description": "Following endpoints of the [Trusted Apps Registry](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/) are considered in-scope:\n\n1. [get trusted apps registry v2 apps](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-apps)\n2. [get trusted apps registry v2 app](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-app)\n3. [get apps applicationId public keys](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-apps-applicationId-public-keys)\n4. [get apps applicationId public keys public key](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-apps-applicationId-public-keys-public-key)\n5. [get apps resourceApplicationId authorizations](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-apps-resourceApplicationId-authorizations)\n6. [get trusted apps registry v2 authorizationId](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-authorizationId)\n7. [get trusted apps registry v2 policies](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-policies)\n8. [get trusted apps registry v2 policy](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-policy)\n9. [get trusted apps registry v2 policy revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/get-trusted-apps-registry-v2-policy-revisions)\n10. [post ledger v2 blockchains besu](https://api-pilot.ebsi.eu/docs/apis/trusted-apps-registry/latest#/operations/post-ledger-v2-blockchains-besu)"
-            },
-            {
-                "id": "9c183ca9-3c72-41af-aaac-f95bc4a77524",
-                "type": 6,
-                "endpoint": "Trusted Issuers Registry API",
-                "businessImpact": 3,
-                "description": "Following endpoints of the [Trusted Issuers Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/) are considered in-scope:\n\n1. [get trusted issuers registry v4 issuers](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers)\n2. [get trusted issuers registry v4 issuers issuer](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-issuer)\n3. [get trusted issuers registry v4 issuers did attributes](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-attributes)\n4. [get trusted issuers registry v4 issuers did attributes attributeid](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-attributes-attributeid)\n5. [get trusted issuers registry v4 issuers did attributes attributeid revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-attributes-attributeid-revisions)\n6. [get trusted issuers registry v4 issuers did proxies](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-proxies)\n7. [get trusted issuers registry v4 issuers did proxies proxyid](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-proxies-proxyid)\n8. [get trusted issuers registry v4 issuers did proxies proxyid path](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v4-issuers-did-proxies-proxyid-path)\n9. [post ledger v2 blockchains besu](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/post-ledger-v2-blockchains-besu)"
-            },
-            {
-                "id": "1c0d489e-876c-4bbb-b839-acaaeb28edb2",
-                "type": 6,
-                "endpoint": "Trusted Policies Registry API",
-                "businessImpact": 3,
-                "description": "Following endpoints of the [Trusted Policies Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/) are considered in-scope:\n\n1. [get policies](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policies)\n2. [get policy](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policy)\n3. [get users](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-users)\n4. [get user](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-user)\n5. [post jsonrpc](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/post-jsonrpc)"
-            },
-            {
-                "id": "aaa19da8-cbaa-4480-ab54-a9a28d9b1cca",
-                "type": 6,
-                "endpoint": "Trusted Schemas Registry API",
-                "businessImpact": 3,
-                "description": "Following endpoints of the [Trusted Schemas Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/) are considered in-scope:\n\n1. [get trusted schemas registry v2 schemas](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schemas)\n2. [get trusted schemas registry v2 schema](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schema)\n3. [get trusted schemas registry v2 schemas revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schemas-revisions)\n4. [get trusted schemas registry v2 schema revision](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schema-revision)\n5. [get trusted schemas registry v2 schemas revision metadata list](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schemas-revision-metadata-list)\n6. [get trusted schemas registry v2 schema revision metadata](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-schema-revision-metadata)\n7. [get trusted schemas registry v2 policies](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-policies)\n8. [get trusted schemas registry v2 policy](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-policy)\n9. [get trusted schemas registry v2 policy revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v2-policy-revisions)\n10. [post trusted schemas registry v2 jsonrpc](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/post-trusted-schemas-registry-v2-jsonrpc)"
-            }
-        ]
-    },
-    {
-        "programId": "0fd1d85b-2d33-4966-b5a0-caabfda5108e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "ninjakiwigames",
-        "companyName": "Ninja Kiwi Games",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "ninjakiwigames",
-        "name": "Ninja Kiwi Games",
-        "description": "Creators of hit computer game franchises Bloons, Bloons TD and SAS: Zombie Assault for mobile and web. We have offices in Auckland, New Zealand and Dundee, Scotland. We are excited to engage with the security community to help us keep our users safe and our services secure. This is our second Bug Bounty program after a successful campaign in 2021. \n\n",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3750.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679985184,
-        "lastSubmissionAt": 1688305132,
-        "logoId": "public_bucket_2422c1ca-4e6e-41a4-b29c-27f33f30a28c-74d9c694-2bf5-4f92-82b4-70f9104c6d53",
-        "domains": [
-            {
-                "id": "e9eaf570-8224-4198-acac-adc07ec79656",
-                "type": 1,
-                "endpoint": "analytics.ninjakiwi.com",
-                "businessImpact": 4,
-                "description": "This domain hosts the API that consumed analytics events from our game clients\n"
-            },
-            {
-                "id": "94c628a9-da50-4fc0-a2f0-8fb2646d6222",
-                "type": 1,
-                "endpoint": "api.ninjakiwi.com",
-                "businessImpact": 4,
-                "description": "This domain hosts the API for our mobile and PC games. Monitoring traffic through one of our game clients is the easiest method to investigate our main API. Most of our applications are available for free on [Steam](https://store.steampowered.com/developer/ninjakiwigames/#browse). Please carefully read the in-scope section regarding what sorts of exploits will be considering in-scope for this domain. \n"
-            },
-            {
-                "id": "b772efa5-1b48-40e5-af4f-07c6dd0a0787",
-                "type": 1,
-                "endpoint": "builds-auckland.ninja.kiwi",
-                "businessImpact": 4,
-                "description": "This domain hosts builds of Ninja Kiwi games for iOS devices.\n\nAreas of focus:\n* The ability to download any valid build from this service will be considered a CRITICAL vulnerability.\n* We will reward any enumeration of available game builds with a Medium bounty."
-            },
-            {
-                "id": "25b4b828-f8b2-41dc-b932-674f264ed406",
-                "type": 1,
-                "endpoint": "*.nkstatic.com",
-                "businessImpact": 3,
-                "description": "This domain hosts static content for Ninja Kiwi games and website.\n"
-            },
-            {
-                "id": "3a3f4d60-250a-4784-9436-3d7290757d69",
-                "type": 1,
-                "endpoint": "battles.tv",
-                "businessImpact": 3,
-                "description": "Battles.tv is used to share replays from our Bloons TD Battles game.\n"
-            },
-            {
-                "id": "bfc80c75-a14a-40cd-b2a5-1f7372a83adc",
-                "type": 1,
-                "endpoint": "data.ninjakiwi.com",
-                "businessImpact": 3,
-                "description": "This domain hosts our **public** data API which grants open access to in-game data from our biggest games. For example player profiles, leatherboards and event information is available through this domain."
-            },
-            {
-                "id": "dadbf349-953f-4b21-bb53-748f1938fa31",
-                "type": 1,
-                "endpoint": "ninja.kiwi",
-                "businessImpact": 3,
-                "description": "This domain is used by Ninja Kiwi for our URL shortener service, ie https://ninja.kiwi/intigriti. \n"
-            },
-            {
-                "id": "99626fad-cbb9-4977-8bef-6a47114930b3",
-                "type": 1,
-                "endpoint": "ninjakiwi.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "61138ec8-1f46-4595-939a-fa5041a1808a",
-                "type": 1,
-                "endpoint": "*.ninjakiwi.com",
-                "businessImpact": 2,
-                "description": "This covers any subdomains of ninjakiwi.com other than sub-domains which are managed by authorized third-party services. For example:\n* https://store.ninjakiwi.com/ - Managed by Shopify\n* https://support.ninjakiwi.com/ - Managed by Zendesk. "
-            },
-            {
-                "id": "2654eace-28e5-444a-b782-4b3acaf3aa1c",
-                "type": 1,
-                "endpoint": "ct.ninjakiwi.com",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "230b350f-00b2-4ac5-8ccc-e266eb1d0ff4",
-                "type": 1,
-                "endpoint": "mynk.ninjakiwi.com",
-                "businessImpact": 2,
-                "description": "This is a legacy domain which powers our Flash games. Uses Flash AMF. \n"
-            },
-            {
-                "id": "6866fd7a-26d6-4110-a4e4-e376d038a941",
-                "type": 1,
-                "endpoint": "*.souparea.com",
-                "businessImpact": 1,
-                "description": "This domain will be considered out of scope unless it can be shown to allow an exploit on one of our Tier 1-3 domains.\n\n"
             }
         ]
     },
@@ -4364,6 +4364,119 @@
         ]
     },
     {
+        "programId": "8bf1f259-cac9-4114-9b84-3b950897b1ec",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "demorgen",
+        "name": "De Morgen",
+        "description": "De Morgen has a broad view of the news with attention to political current affairs, culture and media. The editors are critical, dig deeper and often make the news of the day under the motto more insight, more salmon.\n\nDe Morgen is aiming for an open-minded audience that is looking for qualitative news coverage, background and interpretation of the news. The newspaper looks young and fresh and has won international prizes with its design.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1687003249,
+        "lastSubmissionAt": 1686985511,
+        "logoId": "public_bucket_ada71727-7b29-412c-a69d-c505f878288a-815a7f87-5e50-4d79-b194-f72e1fb4b088",
+        "domains": [
+            {
+                "id": "87f88838-c96d-49e9-b654-696963283502",
+                "type": 1,
+                "endpoint": "myaccount.demorgen.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "96009973-a6d3-4a41-9592-f042c058f4c9",
+                "type": 1,
+                "endpoint": "shop.demorgen.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "3cc1b07f-39a2-49b1-872a-e50ee98550ba",
+                "type": 1,
+                "endpoint": "www.demorgen.be",
+                "businessImpact": 3,
+                "description": "excluding\n* demorgen.be/service\n* demorgen.be/inloggen\n* demorgen.be/login\n* demorgen.be/registreren"
+            },
+            {
+                "id": "63e69ca3-9252-433f-af2b-261a77b094d5",
+                "type": 1,
+                "endpoint": "www.demorgen.be/abonnementen",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "4ac6db92-8d2f-44b6-8537-8a3d994ac60e",
+                "type": 1,
+                "endpoint": "*.demorgen.be",
+                "businessImpact": 2,
+                "description": "excluding abonnement.demorgen.be"
+            }
+        ]
+    },
+    {
+        "programId": "13cfc6fe-92b2-4a56-8577-855ff0bc2f1c",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "cybersecuritycoalition",
+        "companyName": "Cyber Security Coalition",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "cybersecuritycoalition",
+        "name": "Cyber Security Coalition",
+        "description": "The Cyber Security Coalition is a unique partnership between players from the public and private sector to join forces in the fight against cybercrime. We are bringing together the skills and expertise of members on a trust-based platform. A lot of information is publicly available on our website but there is also protected data not publicly viewable. We are a reference in security and it is obvious that our website should be secure! We are happy to have your help in finding any vulnerabilities!",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1684156375,
+        "lastSubmissionAt": 1684838791,
+        "logoId": "public_bucket_004ac588-9f3b-4414-b218-e67c51fc683d-aa1107f2-b4f3-476b-aab1-789706bc1a5b",
+        "domains": [
+            {
+                "id": "9681b8ed-97f6-4d73-af36-41cd32333348",
+                "type": 1,
+                "endpoint": "blog.cybersecuritycoalition.be",
+                "businessImpact": 1,
+                "description": "Blog site"
+            },
+            {
+                "id": "925c19b8-eae1-45fd-ab0e-23bb3c5b27ae",
+                "type": 1,
+                "endpoint": "award.cybersecuritycoalition.be",
+                "businessImpact": 1,
+                "description": "Awards website"
+            },
+            {
+                "id": "99e00bd1-35e0-4138-9624-5afcd0bbc3c1",
+                "type": 1,
+                "endpoint": "annualreport.cybersecuritycoalition.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "bc9a3068-a359-4ee3-8163-67db4849c46a",
+                "type": 1,
+                "endpoint": "www.cybersecuritycoalition.be",
+                "businessImpact": 1,
+                "description": "Public website"
+            }
+        ]
+    },
+    {
         "programId": "768ad323-335b-4710-9370-6b81925c122f",
         "status": 3,
         "confidentialityLevel": 4,
@@ -4788,66 +4901,6 @@
         ]
     },
     {
-        "programId": "8bf1f259-cac9-4114-9b84-3b950897b1ec",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "demorgen",
-        "name": "De Morgen",
-        "description": "De Morgen has a broad view of the news with attention to political current affairs, culture and media. The editors are critical, dig deeper and often make the news of the day under the motto more insight, more salmon.\n\nDe Morgen is aiming for an open-minded audience that is looking for qualitative news coverage, background and interpretation of the news. The newspaper looks young and fresh and has won international prizes with its design.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1687003249,
-        "lastSubmissionAt": 1686985511,
-        "logoId": "public_bucket_ada71727-7b29-412c-a69d-c505f878288a-815a7f87-5e50-4d79-b194-f72e1fb4b088",
-        "domains": [
-            {
-                "id": "87f88838-c96d-49e9-b654-696963283502",
-                "type": 1,
-                "endpoint": "myaccount.demorgen.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "96009973-a6d3-4a41-9592-f042c058f4c9",
-                "type": 1,
-                "endpoint": "shop.demorgen.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "3cc1b07f-39a2-49b1-872a-e50ee98550ba",
-                "type": 1,
-                "endpoint": "www.demorgen.be",
-                "businessImpact": 3,
-                "description": "excluding\n* demorgen.be/service\n* demorgen.be/inloggen\n* demorgen.be/login\n* demorgen.be/registreren"
-            },
-            {
-                "id": "63e69ca3-9252-433f-af2b-261a77b094d5",
-                "type": 1,
-                "endpoint": "www.demorgen.be/abonnementen",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4ac6db92-8d2f-44b6-8537-8a3d994ac60e",
-                "type": 1,
-                "endpoint": "*.demorgen.be",
-                "businessImpact": 2,
-                "description": "excluding abonnement.demorgen.be"
-            }
-        ]
-    },
-    {
         "programId": "806f54d7-a85d-40bd-82cc-f09c1a500f28",
         "status": 3,
         "confidentialityLevel": 4,
@@ -4894,16 +4947,16 @@
         ]
     },
     {
-        "programId": "13cfc6fe-92b2-4a56-8577-855ff0bc2f1c",
+        "programId": "8f6c92dc-1300-4f11-8284-29b6ed743378",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "cybersecuritycoalition",
-        "companyName": "Cyber Security Coalition",
+        "companyHandle": "speakap",
+        "companyName": "Speakap",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "cybersecuritycoalition",
-        "name": "Cyber Security Coalition",
-        "description": "The Cyber Security Coalition is a unique partnership between players from the public and private sector to join forces in the fight against cybercrime. We are bringing together the skills and expertise of members on a trust-based platform. A lot of information is publicly available on our website but there is also protected data not publicly viewable. We are a reference in security and it is obvious that our website should be secure! We are happy to have your help in finding any vulnerabilities!",
+        "handle": "speakapresponsibledisclosure",
+        "name": "Speakap Responsible Disclosure",
+        "description": "Since 2010, Speakap has helped more than 400 companies across 120 countries, 42 languages, and many time zones, reach their full potential with more productive employees. With an award-winning, easy-to-use employee app, Speakap empowers company leaders to share the right content with the right people at the right time. Speakap boasts very high adoption rates with users logging in almost 6x a day for 50+ seconds per time.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -4912,37 +4965,44 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1684156375,
-        "lastSubmissionAt": 1684838791,
-        "logoId": "public_bucket_004ac588-9f3b-4414-b218-e67c51fc683d-aa1107f2-b4f3-476b-aab1-789706bc1a5b",
+        "lastUpdatedAt": 1680701723,
+        "lastSubmissionAt": 1687506659,
+        "logoId": "public_bucket_378e7e9d-25fd-4916-9784-05310098d811-f1d752c6-4604-489b-916b-2ae5e7a5a4c3",
         "domains": [
             {
-                "id": "9681b8ed-97f6-4d73-af36-41cd32333348",
-                "type": 1,
-                "endpoint": "blog.cybersecuritycoalition.be",
-                "businessImpact": 1,
-                "description": "Blog site"
-            },
-            {
-                "id": "925c19b8-eae1-45fd-ab0e-23bb3c5b27ae",
-                "type": 1,
-                "endpoint": "award.cybersecuritycoalition.be",
-                "businessImpact": 1,
-                "description": "Awards website"
-            },
-            {
-                "id": "99e00bd1-35e0-4138-9624-5afcd0bbc3c1",
-                "type": 1,
-                "endpoint": "annualreport.cybersecuritycoalition.be",
+                "id": "4a319594-1d73-4929-8765-ed18df3f9063",
+                "type": 2,
+                "endpoint": "nl.speakap.speakap",
                 "businessImpact": 1,
                 "description": null
             },
             {
-                "id": "bc9a3068-a359-4ee3-8163-67db4849c46a",
-                "type": 1,
-                "endpoint": "www.cybersecuritycoalition.be",
+                "id": "8eab7f32-4cca-4043-8522-48a894336c6f",
+                "type": 3,
+                "endpoint": "https://apps.apple.com/nl/app/speakap/id713925262",
                 "businessImpact": 1,
-                "description": "Public website"
+                "description": null
+            },
+            {
+                "id": "d0cc7c03-571b-4f62-b76f-4deaf96fe9da",
+                "type": 1,
+                "endpoint": "*.speakap.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "944bdb62-db82-4612-9cd3-95447c138829",
+                "type": 1,
+                "endpoint": "*.speakap.io",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "6b8291a2-a8e2-4d4a-b88f-02942e9f0e8d",
+                "type": 1,
+                "endpoint": "Any related Speakap domain",
+                "businessImpact": 1,
+                "description": null
             }
         ]
     },
@@ -5190,60 +5250,32 @@
         ]
     },
     {
-        "programId": "8f6c92dc-1300-4f11-8284-29b6ed743378",
+        "programId": "9a3f850e-4387-4434-98c7-dba2827b727b",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "speakap",
-        "companyName": "Speakap",
+        "companyHandle": "revolut",
+        "companyName": "Revolut ",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "speakapresponsibledisclosure",
-        "name": "Speakap Responsible Disclosure",
-        "description": "Since 2010, Speakap has helped more than 400 companies across 120 countries, 42 languages, and many time zones, reach their full potential with more productive employees. With an award-winning, easy-to-use employee app, Speakap empowers company leaders to share the right content with the right people at the right time. Speakap boasts very high adoption rates with users logging in almost 6x a day for 50+ seconds per time.",
+        "handle": "revolutvdp",
+        "name": "Revolut VDP",
+        "description": "Revolut is a financial technology company that offers banking services. It offers accounts featuring currency exchange, debit cards, virtual cards, interest-bearing \"vaults\", commission-free stock trading, crypto, commodities, and other services to over 30M customers.\n\nPlease visit our website for more information: www.revolut.com",
         "minBounty": {
             "value": 0.0,
-            "currency": "EUR"
+            "currency": "GBP"
         },
         "maxBounty": {
             "value": 0.0,
-            "currency": "EUR"
+            "currency": "GBP"
         },
-        "lastUpdatedAt": 1680701723,
-        "lastSubmissionAt": 1687506659,
-        "logoId": "public_bucket_378e7e9d-25fd-4916-9784-05310098d811-f1d752c6-4604-489b-916b-2ae5e7a5a4c3",
+        "lastUpdatedAt": 1686153215,
+        "lastSubmissionAt": 1688228141,
+        "logoId": "public_bucket_91c5b47e-453c-472e-8054-95afe4a84ca4-297e39b3-4bb0-49f1-b789-e26965e4d9e4",
         "domains": [
             {
-                "id": "4a319594-1d73-4929-8765-ed18df3f9063",
-                "type": 2,
-                "endpoint": "nl.speakap.speakap",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "8eab7f32-4cca-4043-8522-48a894336c6f",
-                "type": 3,
-                "endpoint": "https://apps.apple.com/nl/app/speakap/id713925262",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "d0cc7c03-571b-4f62-b76f-4deaf96fe9da",
+                "id": "b603caec-e768-40e5-8781-b01a51089559",
                 "type": 1,
-                "endpoint": "*.speakap.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "944bdb62-db82-4612-9cd3-95447c138829",
-                "type": 1,
-                "endpoint": "*.speakap.io",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "6b8291a2-a8e2-4d4a-b88f-02942e9f0e8d",
-                "type": 1,
-                "endpoint": "Any related Speakap domain",
+                "endpoint": "All domains of Revolut",
                 "businessImpact": 1,
                 "description": null
             }
@@ -5724,38 +5756,6 @@
         ]
     },
     {
-        "programId": "9a3f850e-4387-4434-98c7-dba2827b727b",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "revolut",
-        "companyName": "Revolut ",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "revolutvdp",
-        "name": "Revolut VDP",
-        "description": "Revolut is a financial technology company that offers banking services. It offers accounts featuring currency exchange, debit cards, virtual cards, interest-bearing \"vaults\", commission-free stock trading, crypto, commodities, and other services to over 30M customers.\n\nPlease visit our website for more information: www.revolut.com",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "GBP"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "GBP"
-        },
-        "lastUpdatedAt": 1686153215,
-        "lastSubmissionAt": 1688228141,
-        "logoId": "public_bucket_91c5b47e-453c-472e-8054-95afe4a84ca4-297e39b3-4bb0-49f1-b789-e26965e4d9e4",
-        "domains": [
-            {
-                "id": "b603caec-e768-40e5-8781-b01a51089559",
-                "type": 1,
-                "endpoint": "All domains of Revolut",
-                "businessImpact": 1,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "fdbe663a-c398-4f89-8182-9ab912470931",
         "status": 3,
         "confidentialityLevel": 4,
@@ -5854,6 +5854,115 @@
                 "endpoint": "service-*.ibood.com",
                 "businessImpact": 1,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "06ea3a06-58d5-4173-af0e-c2f1f98714c6",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "lansweeper",
+        "companyName": "Lansweeper",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "lansweeper1",
+        "name": "Lansweeper",
+        "description": "Lansweeper is an IT asset management software provider helping businesses better understand, manage and protect their IT devices and network. Lansweeper helps customers minimize risks and optimize their IT assets by providing actionable insight into their IT infrastructure at all times, offering trustworthy, valuable, and accurate insights about the state of users, devices, and software.",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 5000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1683902878,
+        "lastSubmissionAt": 1688222948,
+        "logoId": "public_bucket_5a175162-a07d-47a2-8a53-afc38d44a91f-10caef64-850b-488b-8f0c-a6d1a66ace81",
+        "domains": [
+            {
+                "id": "8102f1e8-c3b1-4750-b4ab-95b47ab93722",
+                "type": 1,
+                "endpoint": "app.lansweeper.com/trial",
+                "businessImpact": 2,
+                "description": "Demo site with demo data to test the cloud platform\n\nAlways use \"intigriti.me\" address for any web form"
+            },
+            {
+                "id": "1fa3f131-ef7d-477e-9a52-46f4da7293da",
+                "type": 1,
+                "endpoint": "edge.lansweeper.com",
+                "businessImpact": 4,
+                "description": "Domain used during the two-way sync process between the local web console (on-premises software) and the cloud platform. \n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises software and the sync process (edge.lansweeper.com) between these two. You have to install our on-premises software somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process."
+            },
+            {
+                "id": "50136447-3338-4d3b-ac8c-2e247ea92756",
+                "type": 1,
+                "endpoint": "api.lansweeper.com",
+                "businessImpact": 3,
+                "description": "API used for integrations with our cloud platform (app.lansweeper.com). \nMore information about our API: https://docs.lansweeper.com/docs"
+            },
+            {
+                "id": "81e8856c-bcb2-469c-aa5d-57a7e21e8767",
+                "type": 1,
+                "endpoint": "app.lansweeper.com",
+                "businessImpact": 3,
+                "description": "The cloud Platform, this also includes lecstaticcontent.lansweeper.com\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises software and the sync process (edge.lansweeper.com) between these two. You have to install our on-premises software somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process.\n"
+            },
+            {
+                "id": "10d54ade-1576-46ea-94f2-64b6f68d9791",
+                "type": 1,
+                "endpoint": "backoffice.lansweeper.com",
+                "businessImpact": 3,
+                "description": "Internal backoffice portal for cloud platform\nNo authorisation will be given"
+            },
+            {
+                "id": "0ba8c017-9fa2-4241-b5c1-67219e86829b",
+                "type": 1,
+                "endpoint": "autoupdateapi.lansweeper.com",
+                "businessImpact": 2,
+                "description": "API for updating on-premise software"
+            },
+            {
+                "id": "17f04bfc-145b-4d82-9168-19de931b2ecf",
+                "type": 1,
+                "endpoint": "docs.lansweeper.com",
+                "businessImpact": 2,
+                "description": "Lansweeper's technical documentation"
+            },
+            {
+                "id": "a4603c94-9c00-4d58-964f-d07d5399078f",
+                "type": 1,
+                "endpoint": "login.lansweeper.com",
+                "businessImpact": 2,
+                "description": "Auth0 identitiy provider for cloud platform.\nAlways use \"intigriti.me\" address for any user account\n\n"
+            },
+            {
+                "id": "21f59e42-56f9-4177-be5a-7761e419ebc5",
+                "type": 1,
+                "endpoint": "on-premises software",
+                "businessImpact": 2,
+                "description": "The on-premises software is the latest available version on our website (www.lansweeper.com/changelog).\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises software and the sync process (edge.lansweeper.com) between these two. You have to install our on-premises software somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process."
+            },
+            {
+                "id": "bdb51a62-4de1-4ed0-90ec-5a270a1324e5",
+                "type": 1,
+                "endpoint": "OT scanner",
+                "businessImpact": 2,
+                "description": "Scanner to discover OT devices.\n\n* Scanner can be downloaded from the cloud platform, more info here: https://community.lansweeper.com/t5/lansweeper-ot/how-to-install-lansweeper-ot/ta-p/64597\n* How to scan OT devices: https://community.lansweeper.com/t5/lansweeper-ot/how-to-scan-your-ot/ta-p/64599"
+            },
+            {
+                "id": "06e8baa6-b1f0-46e9-8c95-09e7bed6f3e8",
+                "type": 1,
+                "endpoint": "www.lansweeper.com",
+                "businessImpact": 2,
+                "description": "Always use \"intigriti.me\" address for any web form\n\n**Out of scope for this domain:**\nStore.lansweeper.com\nwww.lansweeper.com/forum\nThird-party plug-ins (e.g. Pardot - CleverBridge - Botpress)\n"
+            },
+            {
+                "id": "15d23cf1-8565-48a5-a811-702917ac095e",
+                "type": 1,
+                "endpoint": "*.lansweeper.com",
+                "businessImpact": 1,
+                "description": "Any other public-facing Lansweeper related URL"
             }
         ]
     },
@@ -6006,111 +6115,34 @@
         ]
     },
     {
-        "programId": "06ea3a06-58d5-4173-af0e-c2f1f98714c6",
+        "programId": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "lansweeper",
-        "companyName": "Lansweeper",
+        "companyHandle": "ubisoft",
+        "companyName": "Ubisoft",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "lansweeper1",
-        "name": "Lansweeper",
-        "description": "Lansweeper is an IT asset management software provider helping businesses better understand, manage and protect their IT devices and network. Lansweeper helps customers minimize risks and optimize their IT assets by providing actionable insight into their IT infrastructure at all times, offering trustworthy, valuable, and accurate insights about the state of users, devices, and software.",
+        "handle": "ubisoftvdp",
+        "name": "Ubisoft VDP",
+        "description": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew, and Watch Dogs.\n\nWe welcome the reporting of security vulnerabilities that would help us protect our assets and players.",
         "minBounty": {
-            "value": 50.0,
+            "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 5000.0,
+            "value": 3000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1683902878,
-        "lastSubmissionAt": 1688222948,
-        "logoId": "public_bucket_5a175162-a07d-47a2-8a53-afc38d44a91f-10caef64-850b-488b-8f0c-a6d1a66ace81",
+        "lastUpdatedAt": 1688361324,
+        "lastSubmissionAt": 1688363799,
+        "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
         "domains": [
             {
-                "id": "8102f1e8-c3b1-4750-b4ab-95b47ab93722",
-                "type": 1,
-                "endpoint": "app.lansweeper.com/trial",
-                "businessImpact": 2,
-                "description": "Demo site with demo data to test the cloud platform\n\nAlways use \"intigriti.me\" address for any web form"
-            },
-            {
-                "id": "1fa3f131-ef7d-477e-9a52-46f4da7293da",
-                "type": 1,
-                "endpoint": "edge.lansweeper.com",
-                "businessImpact": 4,
-                "description": "Domain used during the two-way sync process between the local web console (on-premises software) and the cloud platform. \n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises software and the sync process (edge.lansweeper.com) between these two. You have to install our on-premises software somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process."
-            },
-            {
-                "id": "50136447-3338-4d3b-ac8c-2e247ea92756",
-                "type": 1,
-                "endpoint": "api.lansweeper.com",
+                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
+                "type": 6,
+                "endpoint": "Ubisoft",
                 "businessImpact": 3,
-                "description": "API used for integrations with our cloud platform (app.lansweeper.com). \nMore information about our API: https://docs.lansweeper.com/docs"
-            },
-            {
-                "id": "81e8856c-bcb2-469c-aa5d-57a7e21e8767",
-                "type": 1,
-                "endpoint": "app.lansweeper.com",
-                "businessImpact": 3,
-                "description": "The cloud Platform, this also includes lecstaticcontent.lansweeper.com\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises software and the sync process (edge.lansweeper.com) between these two. You have to install our on-premises software somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process.\n"
-            },
-            {
-                "id": "10d54ade-1576-46ea-94f2-64b6f68d9791",
-                "type": 1,
-                "endpoint": "backoffice.lansweeper.com",
-                "businessImpact": 3,
-                "description": "Internal backoffice portal for cloud platform\nNo authorisation will be given"
-            },
-            {
-                "id": "0ba8c017-9fa2-4241-b5c1-67219e86829b",
-                "type": 1,
-                "endpoint": "autoupdateapi.lansweeper.com",
-                "businessImpact": 2,
-                "description": "API for updating on-premise software"
-            },
-            {
-                "id": "17f04bfc-145b-4d82-9168-19de931b2ecf",
-                "type": 1,
-                "endpoint": "docs.lansweeper.com",
-                "businessImpact": 2,
-                "description": "Lansweeper's technical documentation"
-            },
-            {
-                "id": "a4603c94-9c00-4d58-964f-d07d5399078f",
-                "type": 1,
-                "endpoint": "login.lansweeper.com",
-                "businessImpact": 2,
-                "description": "Auth0 identitiy provider for cloud platform.\nAlways use \"intigriti.me\" address for any user account\n\n"
-            },
-            {
-                "id": "21f59e42-56f9-4177-be5a-7761e419ebc5",
-                "type": 1,
-                "endpoint": "on-premises software",
-                "businessImpact": 2,
-                "description": "The on-premises software is the latest available version on our website (www.lansweeper.com/changelog).\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises software and the sync process (edge.lansweeper.com) between these two. You have to install our on-premises software somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process."
-            },
-            {
-                "id": "bdb51a62-4de1-4ed0-90ec-5a270a1324e5",
-                "type": 1,
-                "endpoint": "OT scanner",
-                "businessImpact": 2,
-                "description": "Scanner to discover OT devices.\n\n* Scanner can be downloaded from the cloud platform, more info here: https://community.lansweeper.com/t5/lansweeper-ot/how-to-install-lansweeper-ot/ta-p/64597\n* How to scan OT devices: https://community.lansweeper.com/t5/lansweeper-ot/how-to-scan-your-ot/ta-p/64599"
-            },
-            {
-                "id": "06e8baa6-b1f0-46e9-8c95-09e7bed6f3e8",
-                "type": 1,
-                "endpoint": "www.lansweeper.com",
-                "businessImpact": 2,
-                "description": "Always use \"intigriti.me\" address for any web form\n\n**Out of scope for this domain:**\nStore.lansweeper.com\nwww.lansweeper.com/forum\nThird-party plug-ins (e.g. Pardot - CleverBridge - Botpress)\n"
-            },
-            {
-                "id": "15d23cf1-8565-48a5-a811-702917ac095e",
-                "type": 1,
-                "endpoint": "*.lansweeper.com",
-                "businessImpact": 1,
-                "description": "Any other public-facing Lansweeper related URL"
+                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update."
             }
         ]
     },
@@ -7256,7 +7288,7 @@
             "currency": "USD"
         },
         "lastUpdatedAt": 1688138654,
-        "lastSubmissionAt": 1688361014,
+        "lastSubmissionAt": 1688363963,
         "logoId": "public_bucket_dfb4b18d-a540-4385-82fc-29a69c3800a6-bcbf0c63-dace-406b-809e-689dd1d2023f",
         "domains": [
             {
@@ -7396,115 +7428,6 @@
         ]
     },
     {
-        "programId": "196fa177-ac2d-41b0-91bb-07bc9db43b7a",
-        "status": 4,
-        "confidentialityLevel": 4,
-        "companyHandle": "sbb",
-        "companyName": "SBB",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "sbbglobal",
-        "name": "SBB - Swiss Federal Railways",
-        "description": "Swiss Federal Railways - the national railway company of Switzerland.\n(German: Schweizerische Bundesbahnen, SBB)\n\nWelcome to our public Bug Bounty program. \n\nWe are specifically looking for:\n\n* Leaking PII Data (customer)\n* Data manipulation\n\nWe will add additional applications/domains to the scope (step by step) to reach our goal.\n\nHigh performance researcher may be invited to our private programs!  ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1688299599,
-        "lastSubmissionAt": 1688299586,
-        "logoId": "public_bucket_eb2ba681-d13f-4893-8d6a-37d64da63f4b-eb5c8730-f839-4cbd-9b6d-b87d904158e9",
-        "domains": [
-            {
-                "id": "e4808037-bd50-4ce8-91fd-9a30d7d6bf12",
-                "type": 1,
-                "endpoint": "login.swisspass.ch",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "da40e62b-1a67-4389-9d23-ed18e1cbcaaa",
-                "type": 1,
-                "endpoint": "www.swisspass.ch",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "e1e77a9a-ab7a-4a40-ae1e-53149fbd47a8",
-                "type": 1,
-                "endpoint": "*.sbb.ch",
-                "businessImpact": 3,
-                "description": "**NEW - NEW - NEW**"
-            },
-            {
-                "id": "359ecbb5-02b8-47a0-8c5d-4a06d39a0bc2",
-                "type": 1,
-                "endpoint": "*.swisspass.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "3864a767-f0c0-4ae3-9bf6-3e2805cfb30b",
-                "type": 1,
-                "endpoint": "bahninfrastruktur.sbb.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "a741fc68-5e5c-47e1-a149-6d649fa09a18",
-                "type": 1,
-                "endpoint": "beta.sbb.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4887bf13-374b-4e91-b2e8-dbbefe4f5919",
-                "type": 1,
-                "endpoint": "bimchange.sbb.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "266595d4-4a64-4b65-9512-90167b542737",
-                "type": 1,
-                "endpoint": "business.sbb.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ba0f85d9-a2dc-4a24-8362-c7e9265cbb38",
-                "type": 1,
-                "endpoint": "www.elvetino.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ddce214e-a989-4935-b7dd-fde2614d46e2",
-                "type": 1,
-                "endpoint": "www.sbb.ch",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "dcd626cf-6a69-4208-90f4-a5a89ea1cacb",
-                "type": 1,
-                "endpoint": "www.sbbcargo.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ec1c83bd-59db-4a66-a117-f5955eb54d3f",
-                "type": 1,
-                "endpoint": "www.transsicura.ch",
-                "businessImpact": 3,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "bd22f48d-633e-4b26-bf71-e4778d41b247",
         "status": 4,
         "confidentialityLevel": 4,
@@ -7621,34 +7544,111 @@
         ]
     },
     {
-        "programId": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
+        "programId": "196fa177-ac2d-41b0-91bb-07bc9db43b7a",
         "status": 4,
         "confidentialityLevel": 4,
-        "companyHandle": "ubisoft",
-        "companyName": "Ubisoft",
+        "companyHandle": "sbb",
+        "companyName": "SBB",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "ubisoftvdp",
-        "name": "Ubisoft VDP",
-        "description": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew, and Watch Dogs.\n\nWe welcome the reporting of security vulnerabilities that would help us protect our assets and players.",
+        "handle": "sbbglobal",
+        "name": "SBB - Swiss Federal Railways",
+        "description": "Swiss Federal Railways - the national railway company of Switzerland.\n(German: Schweizerische Bundesbahnen, SBB)\n\nWelcome to our public Bug Bounty program. \n\nWe are specifically looking for:\n\n* Leaking PII Data (customer)\n* Data manipulation\n\nWe will add additional applications/domains to the scope (step by step) to reach our goal.\n\nHigh performance researcher may be invited to our private programs!  ",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 3000.0,
+            "value": 4000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1688214309,
-        "lastSubmissionAt": 1688214294,
-        "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
+        "lastUpdatedAt": 1688299599,
+        "lastSubmissionAt": 1688299586,
+        "logoId": "public_bucket_eb2ba681-d13f-4893-8d6a-37d64da63f4b-eb5c8730-f839-4cbd-9b6d-b87d904158e9",
         "domains": [
             {
-                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
-                "type": 6,
-                "endpoint": "Ubisoft",
+                "id": "e4808037-bd50-4ce8-91fd-9a30d7d6bf12",
+                "type": 1,
+                "endpoint": "login.swisspass.ch",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "da40e62b-1a67-4389-9d23-ed18e1cbcaaa",
+                "type": 1,
+                "endpoint": "www.swisspass.ch",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "e1e77a9a-ab7a-4a40-ae1e-53149fbd47a8",
+                "type": 1,
+                "endpoint": "*.sbb.ch",
                 "businessImpact": 3,
-                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update."
+                "description": "**NEW - NEW - NEW**"
+            },
+            {
+                "id": "359ecbb5-02b8-47a0-8c5d-4a06d39a0bc2",
+                "type": 1,
+                "endpoint": "*.swisspass.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "3864a767-f0c0-4ae3-9bf6-3e2805cfb30b",
+                "type": 1,
+                "endpoint": "bahninfrastruktur.sbb.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "a741fc68-5e5c-47e1-a149-6d649fa09a18",
+                "type": 1,
+                "endpoint": "beta.sbb.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "4887bf13-374b-4e91-b2e8-dbbefe4f5919",
+                "type": 1,
+                "endpoint": "bimchange.sbb.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "266595d4-4a64-4b65-9512-90167b542737",
+                "type": 1,
+                "endpoint": "business.sbb.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "ba0f85d9-a2dc-4a24-8362-c7e9265cbb38",
+                "type": 1,
+                "endpoint": "www.elvetino.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "ddce214e-a989-4935-b7dd-fde2614d46e2",
+                "type": 1,
+                "endpoint": "www.sbb.ch",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "dcd626cf-6a69-4208-90f4-a5a89ea1cacb",
+                "type": 1,
+                "endpoint": "www.sbbcargo.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "ec1c83bd-59db-4a66-a117-f5955eb54d3f",
+                "type": 1,
+                "endpoint": "www.transsicura.ch",
+                "businessImpact": 3,
+                "description": null
             }
         ]
     }
