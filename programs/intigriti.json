@@ -1,5 +1,164 @@
 [
     {
+        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "visma",
+        "companyName": "Visma",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "VismaResponsibleDisclosure",
+        "name": "Visma Responsible Disclosure",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1677670936,
+        "lastSubmissionAt": 1690035026,
+        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
+        "domains": [
+            {
+                "id": "8922aa89-e471-4918-9785-ba22414a1975",
+                "type": 1,
+                "endpoint": "all",
+                "businessImpact": 1,
+                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
+            }
+        ]
+    },
+    {
+        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "Uphold",
+        "companyName": "Uphold.com",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "upholdcom",
+        "name": "Uphold.com",
+        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680680521,
+        "lastSubmissionAt": 1689798858,
+        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
+        "domains": [
+            {
+                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
+                "type": 3,
+                "endpoint": "1101145849",
+                "businessImpact": 4,
+                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
+                "type": 1,
+                "endpoint": "api.uphold.com",
+                "businessImpact": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
+                "type": 2,
+                "endpoint": "com.uphold.wallet",
+                "businessImpact": 4,
+                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
+                "type": 1,
+                "endpoint": "uphold.com/dashboard",
+                "businessImpact": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
+            },
+            {
+                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
+                "type": 1,
+                "endpoint": "api-sandbox.uphold.com",
+                "businessImpact": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
+                "type": 1,
+                "endpoint": "sandbox.uphold.com/dashboard",
+                "businessImpact": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
+            },
+            {
+                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
+                "type": 1,
+                "endpoint": "*.uphold.com",
+                "businessImpact": 2,
+                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
+            }
+        ]
+    },
+    {
+        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "portofantwerp",
+        "companyName": "Port of Antwerp-Bruges",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "nxtport",
+        "name": "NxtPort",
+        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679993070,
+        "lastSubmissionAt": 1688365779,
+        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
+        "domains": [
+            {
+                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
+                "type": 1,
+                "endpoint": "console.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
+                "type": 1,
+                "endpoint": "login.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
+                "type": 1,
+                "endpoint": "signup.nxtport.eu",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
+                "type": 1,
+                "endpoint": "www.nxtport.com",
+                "businessImpact": 1,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
         "status": 3,
         "confidentialityLevel": 4,
@@ -73,6 +232,234 @@
                 "type": 1,
                 "endpoint": "*.intigriti.me",
                 "businessImpact": 3,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "ee2612e7-e188-492f-9bb2-ba48651523de",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intergamma",
+        "companyName": "Intergamma",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "intergamma",
+        "name": "Intergamma",
+        "description": "Intergamma is the biggest DIY retailer of The Netherlands and Belgium with three brands: GAMMA Nederland, GAMMA Belgi\u00eb, and KARWEI. We have almost 400 DIY stores and operate three eCommerce websites.\n\nOur strategy is to be the best omnichannel retailer of the Netherlands and Belgium. This means offline and online are converging, and eCommerce is a growth market. Therefore a secure platform is paramount.\n\nFor more information on our organization please visit https://www.intergamma.nl/",
+        "minBounty": {
+            "value": 10.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679582417,
+        "lastSubmissionAt": 1689794297,
+        "logoId": "public_bucket_5316fa40-7c09-440d-a097-0063edbd14bf-0214e689-df89-483e-bace-c9a6eceaa725",
+        "domains": [
+            {
+                "id": "8c2dd3f6-51dd-4d18-81bf-922238cb21ff",
+                "type": 3,
+                "endpoint": "949829216",
+                "businessImpact": 4,
+                "description": "iOS app of GAMMA NL"
+            },
+            {
+                "id": "2578fff5-3b90-48e3-968f-49140c6fb239",
+                "type": 3,
+                "endpoint": "950680989",
+                "businessImpact": 4,
+                "description": "iOS app of Karwei"
+            },
+            {
+                "id": "a51f30d1-0256-476f-8547-9d361e34ab86",
+                "type": 3,
+                "endpoint": "950693949",
+                "businessImpact": 4,
+                "description": "iOS app of GAMMA BE"
+            },
+            {
+                "id": "c752feeb-d95b-4fac-9bb2-6eae96277ca9",
+                "type": 2,
+                "endpoint": "be.gamma.app.android",
+                "businessImpact": 4,
+                "description": "Android app of GAMMA BE"
+            },
+            {
+                "id": "2458a0c9-7639-4d45-9d08-27247bf951a9",
+                "type": 1,
+                "endpoint": "kassa.gamma.be/*",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "845153aa-bbff-403c-a7ad-6e79b6842ece",
+                "type": 1,
+                "endpoint": "kassa.gamma.nl/*",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "1816747a-c42c-4d24-858c-a6060071c3e3",
+                "type": 1,
+                "endpoint": "kassa.karwei.nl/*",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "ae25eeee-6143-47f5-8686-bbecad2dff21",
+                "type": 1,
+                "endpoint": "mijn.gamma.be/*",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "7ecffc13-5974-4206-ad0c-55cd79a13d19",
+                "type": 1,
+                "endpoint": "mijn.gamma.nl/*",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "24c571e9-ae1f-4ac7-8841-6d69d9ccd36e",
+                "type": 1,
+                "endpoint": "mijn.karwei.nl/*",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "49f019a2-a1d7-4327-9c84-b91a14e0c7b4",
+                "type": 2,
+                "endpoint": "nl.gamma.app.android",
+                "businessImpact": 4,
+                "description": "Android app of GAMMA NL"
+            },
+            {
+                "id": "c810191e-89dc-49f4-a115-4df46a4077a3",
+                "type": 2,
+                "endpoint": "nl.karwei.app.android",
+                "businessImpact": 4,
+                "description": "Android app of Karwei"
+            },
+            {
+                "id": "47db3b02-5b77-45d9-93ee-9c5c9e96022a",
+                "type": 1,
+                "endpoint": "www.gamma.be/*",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "65870cd2-6ef8-44c1-88c4-a3085df8adda",
+                "type": 1,
+                "endpoint": "www.gamma.nl/*",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "868c375c-f13a-4e15-a76d-20438b269502",
+                "type": 1,
+                "endpoint": "www.karwei.nl/*",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "84673259-4bb2-4500-aaba-33fbb91ddbba",
+                "type": 1,
+                "endpoint": "*.gamma.be/*",
+                "businessImpact": 3,
+                "description": "**Out of scope: raamdecoratieconfigurator.gamma.be**\n**Out of scope: mail.gamma.be**\n\nThis covers all subdomains of gamma.be not listed in Tier 1"
+            },
+            {
+                "id": "bed0b052-93dc-4430-8cb8-aac698317559",
+                "type": 1,
+                "endpoint": "*.gamma.nl/*",
+                "businessImpact": 3,
+                "description": "**Out of scope: mail.gamma.nl**\n**Out of scope: raamdecoratieconfigurator.gamma.nl**\n\n\nThis covers all subdomains of gamma.nl not listed in Tier 1"
+            },
+            {
+                "id": "f6694b18-83df-4080-9d20-f1db9042d60c",
+                "type": 1,
+                "endpoint": "*.intergamma.nl/*",
+                "businessImpact": 3,
+                "description": "Corporate website"
+            },
+            {
+                "id": "8730a180-f81d-4bee-9100-0fec0b3c5b6b",
+                "type": 1,
+                "endpoint": "*.karwei.nl/*",
+                "businessImpact": 3,
+                "description": "**Out of scope: mail.karwei.nl**\n\n**api.maakafspraak.karwei.nl and maakafspraak.karwei.nl are listed seperately**\n\nThis covers all subdomains of Karwei.nl not listed in Tier 1"
+            },
+            {
+                "id": "21dd6973-6ed4-4714-a829-cae866757272",
+                "type": 3,
+                "endpoint": "1558129454",
+                "businessImpact": 3,
+                "description": "Our brand new iOS app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the Android version"
+            },
+            {
+                "id": "e4635121-cfd9-460e-bc3c-2eeabd7c0a0a",
+                "type": 1,
+                "endpoint": "https://zabbix.intergamma.nl/*",
+                "businessImpact": 3,
+                "description": "Zabbix installation"
+            },
+            {
+                "id": "78adff03-3eea-4165-9867-763a22b1185d",
+                "type": 1,
+                "endpoint": "*.intergamma-test.nl",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "8f35998b-0e21-404a-b724-1b3a08d0e68d",
+                "type": 1,
+                "endpoint": "*.intergamma.cloud",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "80901414-c005-46bf-8875-bf146b9b8cbe",
+                "type": 1,
+                "endpoint": "*.restintergamma.nl",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "8517d896-60c1-4e8d-ba34-1beaa5469fae",
+                "type": 1,
+                "endpoint": "*.werkenbijgamma.be",
+                "businessImpact": 2,
+                "description": "Recruiting website"
+            },
+            {
+                "id": "9b233015-9a5b-4a18-ae8b-608ae7910fa5",
+                "type": 1,
+                "endpoint": "*.werkenbijgamma.nl",
+                "businessImpact": 2,
+                "description": "Recruiting website"
+            },
+            {
+                "id": "db6e207c-d2a1-4c65-bcaf-8a95dbf51368",
+                "type": 1,
+                "endpoint": "*.werkenbijkarwei.nl",
+                "businessImpact": 2,
+                "description": "Recruiting website"
+            },
+            {
+                "id": "3fe93fe7-a253-44c3-a2d8-07bc17d2ae95",
+                "type": 2,
+                "endpoint": "nl.gamma.verf",
+                "businessImpact": 2,
+                "description": "Our brand new Android app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the iOS version"
+            },
+            {
+                "id": "b4873469-3ab1-4e8e-b9ec-1940e4b7bd43",
+                "type": 1,
+                "endpoint": "*.karweioutletstore.nl",
+                "businessImpact": 1,
                 "description": null
             }
         ]
@@ -450,389 +837,34 @@
         ]
     },
     {
-        "programId": "ee2612e7-e188-492f-9bb2-ba48651523de",
+        "programId": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "intergamma",
-        "companyName": "Intergamma",
+        "companyHandle": "ubisoft",
+        "companyName": "Ubisoft",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "intergamma",
-        "name": "Intergamma",
-        "description": "Intergamma is the biggest DIY retailer of The Netherlands and Belgium with three brands: GAMMA Nederland, GAMMA Belgi\u00eb, and KARWEI. We have almost 400 DIY stores and operate three eCommerce websites.\n\nOur strategy is to be the best omnichannel retailer of the Netherlands and Belgium. This means offline and online are converging, and eCommerce is a growth market. Therefore a secure platform is paramount.\n\nFor more information on our organization please visit https://www.intergamma.nl/",
-        "minBounty": {
-            "value": 10.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679582417,
-        "lastSubmissionAt": 1689794297,
-        "logoId": "public_bucket_5316fa40-7c09-440d-a097-0063edbd14bf-0214e689-df89-483e-bace-c9a6eceaa725",
-        "domains": [
-            {
-                "id": "8c2dd3f6-51dd-4d18-81bf-922238cb21ff",
-                "type": 3,
-                "endpoint": "949829216",
-                "businessImpact": 4,
-                "description": "iOS app of GAMMA NL"
-            },
-            {
-                "id": "2578fff5-3b90-48e3-968f-49140c6fb239",
-                "type": 3,
-                "endpoint": "950680989",
-                "businessImpact": 4,
-                "description": "iOS app of Karwei"
-            },
-            {
-                "id": "a51f30d1-0256-476f-8547-9d361e34ab86",
-                "type": 3,
-                "endpoint": "950693949",
-                "businessImpact": 4,
-                "description": "iOS app of GAMMA BE"
-            },
-            {
-                "id": "c752feeb-d95b-4fac-9bb2-6eae96277ca9",
-                "type": 2,
-                "endpoint": "be.gamma.app.android",
-                "businessImpact": 4,
-                "description": "Android app of GAMMA BE"
-            },
-            {
-                "id": "2458a0c9-7639-4d45-9d08-27247bf951a9",
-                "type": 1,
-                "endpoint": "kassa.gamma.be/*",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "845153aa-bbff-403c-a7ad-6e79b6842ece",
-                "type": 1,
-                "endpoint": "kassa.gamma.nl/*",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "1816747a-c42c-4d24-858c-a6060071c3e3",
-                "type": 1,
-                "endpoint": "kassa.karwei.nl/*",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "ae25eeee-6143-47f5-8686-bbecad2dff21",
-                "type": 1,
-                "endpoint": "mijn.gamma.be/*",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "7ecffc13-5974-4206-ad0c-55cd79a13d19",
-                "type": 1,
-                "endpoint": "mijn.gamma.nl/*",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "24c571e9-ae1f-4ac7-8841-6d69d9ccd36e",
-                "type": 1,
-                "endpoint": "mijn.karwei.nl/*",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "49f019a2-a1d7-4327-9c84-b91a14e0c7b4",
-                "type": 2,
-                "endpoint": "nl.gamma.app.android",
-                "businessImpact": 4,
-                "description": "Android app of GAMMA NL"
-            },
-            {
-                "id": "c810191e-89dc-49f4-a115-4df46a4077a3",
-                "type": 2,
-                "endpoint": "nl.karwei.app.android",
-                "businessImpact": 4,
-                "description": "Android app of Karwei"
-            },
-            {
-                "id": "47db3b02-5b77-45d9-93ee-9c5c9e96022a",
-                "type": 1,
-                "endpoint": "www.gamma.be/*",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "65870cd2-6ef8-44c1-88c4-a3085df8adda",
-                "type": 1,
-                "endpoint": "www.gamma.nl/*",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "868c375c-f13a-4e15-a76d-20438b269502",
-                "type": 1,
-                "endpoint": "www.karwei.nl/*",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "84673259-4bb2-4500-aaba-33fbb91ddbba",
-                "type": 1,
-                "endpoint": "*.gamma.be/*",
-                "businessImpact": 3,
-                "description": "**Out of scope: raamdecoratieconfigurator.gamma.be**\n**Out of scope: mail.gamma.be**\n\nThis covers all subdomains of gamma.be not listed in Tier 1"
-            },
-            {
-                "id": "bed0b052-93dc-4430-8cb8-aac698317559",
-                "type": 1,
-                "endpoint": "*.gamma.nl/*",
-                "businessImpact": 3,
-                "description": "**Out of scope: mail.gamma.nl**\n**Out of scope: raamdecoratieconfigurator.gamma.nl**\n\n\nThis covers all subdomains of gamma.nl not listed in Tier 1"
-            },
-            {
-                "id": "f6694b18-83df-4080-9d20-f1db9042d60c",
-                "type": 1,
-                "endpoint": "*.intergamma.nl/*",
-                "businessImpact": 3,
-                "description": "Corporate website"
-            },
-            {
-                "id": "8730a180-f81d-4bee-9100-0fec0b3c5b6b",
-                "type": 1,
-                "endpoint": "*.karwei.nl/*",
-                "businessImpact": 3,
-                "description": "**Out of scope: mail.karwei.nl**\n\n**api.maakafspraak.karwei.nl and maakafspraak.karwei.nl are listed seperately**\n\nThis covers all subdomains of Karwei.nl not listed in Tier 1"
-            },
-            {
-                "id": "21dd6973-6ed4-4714-a829-cae866757272",
-                "type": 3,
-                "endpoint": "1558129454",
-                "businessImpact": 3,
-                "description": "Our brand new iOS app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the Android version"
-            },
-            {
-                "id": "e4635121-cfd9-460e-bc3c-2eeabd7c0a0a",
-                "type": 1,
-                "endpoint": "https://zabbix.intergamma.nl/*",
-                "businessImpact": 3,
-                "description": "Zabbix installation"
-            },
-            {
-                "id": "78adff03-3eea-4165-9867-763a22b1185d",
-                "type": 1,
-                "endpoint": "*.intergamma-test.nl",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "8f35998b-0e21-404a-b724-1b3a08d0e68d",
-                "type": 1,
-                "endpoint": "*.intergamma.cloud",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "80901414-c005-46bf-8875-bf146b9b8cbe",
-                "type": 1,
-                "endpoint": "*.restintergamma.nl",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "8517d896-60c1-4e8d-ba34-1beaa5469fae",
-                "type": 1,
-                "endpoint": "*.werkenbijgamma.be",
-                "businessImpact": 2,
-                "description": "Recruiting website"
-            },
-            {
-                "id": "9b233015-9a5b-4a18-ae8b-608ae7910fa5",
-                "type": 1,
-                "endpoint": "*.werkenbijgamma.nl",
-                "businessImpact": 2,
-                "description": "Recruiting website"
-            },
-            {
-                "id": "db6e207c-d2a1-4c65-bcaf-8a95dbf51368",
-                "type": 1,
-                "endpoint": "*.werkenbijkarwei.nl",
-                "businessImpact": 2,
-                "description": "Recruiting website"
-            },
-            {
-                "id": "3fe93fe7-a253-44c3-a2d8-07bc17d2ae95",
-                "type": 2,
-                "endpoint": "nl.gamma.verf",
-                "businessImpact": 2,
-                "description": "Our brand new Android app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the iOS version"
-            },
-            {
-                "id": "b4873469-3ab1-4e8e-b9ec-1940e4b7bd43",
-                "type": 1,
-                "endpoint": "*.karweioutletstore.nl",
-                "businessImpact": 1,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "VismaResponsibleDisclosure",
-        "name": "Visma Responsible Disclosure",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
+        "handle": "ubisoftvdp",
+        "name": "Ubisoft VDP",
+        "description": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew, and Watch Dogs.\n\nWe welcome the reporting of security vulnerabilities that would help us protect our assets and players.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 0.0,
+            "value": 3000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1690035026,
-        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
+        "lastUpdatedAt": 1688361324,
+        "lastSubmissionAt": 1689959403,
+        "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
         "domains": [
             {
-                "id": "8922aa89-e471-4918-9785-ba22414a1975",
-                "type": 1,
-                "endpoint": "all",
-                "businessImpact": 1,
-                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
-            }
-        ]
-    },
-    {
-        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "Uphold",
-        "companyName": "Uphold.com",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "upholdcom",
-        "name": "Uphold.com",
-        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680680521,
-        "lastSubmissionAt": 1689798858,
-        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
-        "domains": [
-            {
-                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
-                "type": 3,
-                "endpoint": "1101145849",
-                "businessImpact": 4,
-                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
-                "type": 1,
-                "endpoint": "api.uphold.com",
-                "businessImpact": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
-                "type": 2,
-                "endpoint": "com.uphold.wallet",
-                "businessImpact": 4,
-                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
-                "type": 1,
-                "endpoint": "uphold.com/dashboard",
-                "businessImpact": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
-            },
-            {
-                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
-                "type": 1,
-                "endpoint": "api-sandbox.uphold.com",
+                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
+                "type": 6,
+                "endpoint": "Ubisoft",
                 "businessImpact": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
-                "type": 1,
-                "endpoint": "sandbox.uphold.com/dashboard",
-                "businessImpact": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
-            },
-            {
-                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
-                "type": 1,
-                "endpoint": "*.uphold.com",
-                "businessImpact": 2,
-                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
-            }
-        ]
-    },
-    {
-        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "portofantwerp",
-        "companyName": "Port of Antwerp-Bruges",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "nxtport",
-        "name": "NxtPort",
-        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679993070,
-        "lastSubmissionAt": 1688365779,
-        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
-        "domains": [
-            {
-                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
-                "type": 1,
-                "endpoint": "console.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
-                "type": 1,
-                "endpoint": "login.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
-                "type": 1,
-                "endpoint": "signup.nxtport.eu",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
-                "type": 1,
-                "endpoint": "www.nxtport.com",
-                "businessImpact": 1,
-                "description": null
+                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update."
             }
         ]
     },
@@ -1099,7 +1131,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1679566395,
-        "lastSubmissionAt": 1689606027,
+        "lastSubmissionAt": 1690082573,
         "logoId": "public_bucket_397ac5fb-999c-4ac3-bdd2-28f727de4748-b19a91ee-395c-466e-b469-0d220af1bdd6",
         "domains": [
             {
@@ -1203,164 +1235,6 @@
                 "endpoint": "Any related Randstad domain",
                 "businessImpact": 3,
                 "description": null
-            }
-        ]
-    },
-    {
-        "programId": "d14eedce-607d-4233-995d-30dbc7de8f23",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "delenprivatebank",
-        "companyName": "Delen Private Bank",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "privatebankdelen",
-        "name": "Delen Private Bank",
-        "description": "Delen Private Bank is a family-based specialist in asset management, focused on wealth preservation, growth and careful planning. Our core values - entrepreneurship, personal service and long-term vision \u2013 inspire us to apply a proactive yet prudent investment philosophy. Honest, no-nonsense products and services help our clients to enjoy the good and beautiful things in life \u2013 both today and tomorrow.",
-        "minBounty": {
-            "value": 100.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 15000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679575811,
-        "lastSubmissionAt": 1688215419,
-        "logoId": "public_bucket_93c30b5e-d702-49b3-8ac2-2a4b5304c96e-bae798f2-11df-4ab2-a664-43fd6c366e6d",
-        "domains": [
-            {
-                "id": "536b7fac-9419-49c0-8f0d-dc1cfd7071b2",
-                "type": 1,
-                "endpoint": "www.delen.bank",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ac5f913a-d433-433b-90ca-b644e3c6ea86",
-                "type": 1,
-                "endpoint": "api.digital.delen.be ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "bf8d9148-12cb-4b76-9ab5-440facecc656",
-                "type": 1,
-                "endpoint": "api.digital.delen.lu ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "b6a884c0-dfd6-44cf-a1ae-fdc4b7d42ba2",
-                "type": 1,
-                "endpoint": "app.delen.be ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "2e307f88-9dca-45c5-b371-8c1b22c0a1a4",
-                "type": 1,
-                "endpoint": "app.delen.ch ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "77cb6db6-42b6-405f-8690-054f70236c47",
-                "type": 1,
-                "endpoint": "app.delen.lu ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "257747a6-5764-4d74-9330-02e242056eaa",
-                "type": 1,
-                "endpoint": "auth.digital.delen.be ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "ce29ed2b-b0d7-4eb6-a6ae-77bda9ec57e0",
-                "type": 1,
-                "endpoint": "auth.digital.delen.lu ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "613fef6c-9b64-4feb-a1f3-2a26bda3c084",
-                "type": 2,
-                "endpoint": "be.delen.digital",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "cc09f633-c5b5-4c17-81d3-e3c918550c10",
-                "type": 3,
-                "endpoint": "delen/id1064839588",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4e09e3b5-5151-4d92-b66c-56f954ca2caf",
-                "type": 1,
-                "endpoint": "login.delen.be ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "5551cedd-1b5b-4a81-a806-7e572b7d068c",
-                "type": 1,
-                "endpoint": "login.delen.ch ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "53d54596-39ba-4944-99fa-c1a3892dd7b6",
-                "type": 1,
-                "endpoint": "login.delen.lu ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "a58ef2fc-8b40-4a41-b3f0-e931d177f1dc",
-                "type": 1,
-                "endpoint": "login.oyens.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "8b8f3d94-d403-486b-ae85-aaea7cac8188",
-                "type": 1,
-                "endpoint": "status.delen.be ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "cde334da-763a-47ed-b612-abfc83cb8a7a",
-                "type": 1,
-                "endpoint": "sts.delen.be ",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "818194c4-7799-46d4-8e68-f3fbceee8b7a",
-                "type": 1,
-                "endpoint": "www.cadelam.be ",
-                "businessImpact": 3,
-                "description": "\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
-            },
-            {
-                "id": "df532085-19b2-40b3-a066-7aec857be684",
-                "type": 1,
-                "endpoint": "www.cadelux.lu/en ",
-                "businessImpact": 3,
-                "description": "\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
-            },
-            {
-                "id": "e3fcb08b-fd3c-49c8-a79e-97a7cc3be638",
-                "type": 1,
-                "endpoint": "www.delen.be/en ",
-                "businessImpact": 3,
-                "description": "\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
             }
         ]
     },
@@ -2601,101 +2475,6 @@
         ]
     },
     {
-        "programId": "efd8bd86-a986-4b4a-9eda-c9a6a1a6b540",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "cmcom",
-        "companyName": "CM.com",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "cmcom",
-        "name": "CM.com",
-        "description": "CM.com is a listed company that provides Conversational Commerce services from its privately owned cloud platform with 100% in-house developed software.\n\nWe continuously develop our private cloud platform, shaping the future of Conversational Commerce.\n\nCM.com\u2019s customer base is spread over 118 countries, generating messages to more than 220 destinations.\n\nCustomers include Tier 1 enterprises, government agencies, as well as small and medium sized enterprises.",
-        "minBounty": {
-            "value": 25.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3500.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1689138259,
-        "lastSubmissionAt": 1689792085,
-        "logoId": "public_bucket_57c73fab-b9d0-4eee-896e-cb2a7565a7ec-88c9e92b-4a78-41f0-9cf4-3a888a55261d",
-        "domains": [
-            {
-                "id": "449a4bfb-9680-4cc1-82a9-05113501d7f1",
-                "type": 1,
-                "endpoint": "*.cmtelecom.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "c2ea9e52-cb22-4f74-8df9-63e0f622d546",
-                "type": 1,
-                "endpoint": "login.cm.com",
-                "businessImpact": 4,
-                "description": null
-            },
-            {
-                "id": "acdf2570-a8ce-4db4-bf59-e66a6246f912",
-                "type": 1,
-                "endpoint": "*.ticketing.cm.com",
-                "businessImpact": 3,
-                "description": "Login to your account and go to https://www.cm.com/en-gb/app/ticketing/\nFrom here you can create tickets and much more!\nMake sure to take a look at the user-side ticket store as well (https://store.ticketing.cm.com/..)"
-            },
-            {
-                "id": "541db1de-0d19-4f92-a25a-a2e32fe52f50",
-                "type": 1,
-                "endpoint": "api.cm.com",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "64fbeac0-eb70-44b1-a405-5c1c0ab6efb3",
-                "type": 1,
-                "endpoint": "api.cmtelecom.com",
-                "businessImpact": 3,
-                "description": "Some of the applications that are in our scope use our old api. \nIf you find a bug on this api and it is from a product that is in scope, it is valid."
-            },
-            {
-                "id": "6c202c84-88ff-4714-a219-08347402eae2",
-                "type": 1,
-                "endpoint": "www.cm.com/[locale]/app/*",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "c78deacd-36c1-4064-a77f-fa78eeff4391",
-                "type": 1,
-                "endpoint": "www.cm.com/[locale]/register",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "e836e34b-a943-4cde-ae07-5ea264923c7d",
-                "type": 1,
-                "endpoint": "www.cm.com",
-                "businessImpact": 2,
-                "description": null
-            },
-            {
-                "id": "c2247828-7a12-4629-8693-d5e9d28dc02a",
-                "type": 1,
-                "endpoint": "*.cm.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "cc727da4-d41c-412c-a4f3-7fc6d9ff954f",
-                "type": 1,
-                "endpoint": "demo.globalticket.com/*",
-                "businessImpact": 1,
-                "description": "GlobalTicket is one of our acquired integrations. \nBe sure to check out /cms to try and work your way into it."
-            }
-        ]
-    },
-    {
         "programId": "694f3e58-f408-4a3f-8e2a-1b562650399a",
         "status": 3,
         "confidentialityLevel": 4,
@@ -2851,41 +2630,97 @@
         ]
     },
     {
-        "programId": "5ed6962a-7017-4d60-8805-e169b638528d",
+        "programId": "efd8bd86-a986-4b4a-9eda-c9a6a1a6b540",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "sqills",
-        "companyName": "Sqills",
+        "companyHandle": "cmcom",
+        "companyName": "CM.com",
         "tacRequired": false,
-        "companySustainable": true,
-        "handle": "sqillscorporatewebsite",
-        "name": "Sqills",
-        "description": "Sqills provides the leading inventory, reservation, and ticketing system for the bus and rail industry \u2013 S3 Passenger. At Sqills we are on a constant journey of innovation, discovery and global market leadership.\n\nOur corporate website provides general information about Sqills.\n",
+        "companySustainable": false,
+        "handle": "cmcom",
+        "name": "CM.com",
+        "description": "CM.com is a listed company that provides Conversational Commerce services from its privately owned cloud platform with 100% in-house developed software.\n\nWe continuously develop our private cloud platform, shaping the future of Conversational Commerce.\n\nCM.com\u2019s customer base is spread over 118 countries, generating messages to more than 220 destinations.\n\nCustomers include Tier 1 enterprises, government agencies, as well as small and medium sized enterprises.",
         "minBounty": {
-            "value": 0.0,
+            "value": 25.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2500.0,
+            "value": 3500.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1687243126,
-        "lastSubmissionAt": 1687777484,
-        "logoId": "public_bucket_2e6755f0-7dae-4403-94a5-242d98099fc1-32451ce1-ccca-44fe-a5a8-06aa55934cbb",
+        "lastUpdatedAt": 1689138259,
+        "lastSubmissionAt": 1689792085,
+        "logoId": "public_bucket_57c73fab-b9d0-4eee-896e-cb2a7565a7ec-88c9e92b-4a78-41f0-9cf4-3a888a55261d",
         "domains": [
             {
-                "id": "42ac6e8d-660b-487b-a520-ec8f4a13c01d",
+                "id": "449a4bfb-9680-4cc1-82a9-05113501d7f1",
                 "type": 1,
-                "endpoint": "*.sqills.team",
+                "endpoint": "*.cmtelecom.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "c2ea9e52-cb22-4f74-8df9-63e0f622d546",
+                "type": 1,
+                "endpoint": "login.cm.com",
+                "businessImpact": 4,
+                "description": null
+            },
+            {
+                "id": "acdf2570-a8ce-4db4-bf59-e66a6246f912",
+                "type": 1,
+                "endpoint": "*.ticketing.cm.com",
+                "businessImpact": 3,
+                "description": "Login to your account and go to https://www.cm.com/en-gb/app/ticketing/\nFrom here you can create tickets and much more!\nMake sure to take a look at the user-side ticket store as well (https://store.ticketing.cm.com/..)"
+            },
+            {
+                "id": "541db1de-0d19-4f92-a25a-a2e32fe52f50",
+                "type": 1,
+                "endpoint": "api.cm.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "64fbeac0-eb70-44b1-a405-5c1c0ab6efb3",
+                "type": 1,
+                "endpoint": "api.cmtelecom.com",
+                "businessImpact": 3,
+                "description": "Some of the applications that are in our scope use our old api. \nIf you find a bug on this api and it is from a product that is in scope, it is valid."
+            },
+            {
+                "id": "6c202c84-88ff-4714-a219-08347402eae2",
+                "type": 1,
+                "endpoint": "www.cm.com/[locale]/app/*",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "c78deacd-36c1-4064-a77f-fa78eeff4391",
+                "type": 1,
+                "endpoint": "www.cm.com/[locale]/register",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "e836e34b-a943-4cde-ae07-5ea264923c7d",
+                "type": 1,
+                "endpoint": "www.cm.com",
                 "businessImpact": 2,
                 "description": null
             },
             {
-                "id": "604fd93d-b5d3-414e-9e9a-8ad89d0a2f7b",
+                "id": "c2247828-7a12-4629-8693-d5e9d28dc02a",
                 "type": 1,
-                "endpoint": "*.sqills.com",
-                "businessImpact": 3,
+                "endpoint": "*.cm.com",
+                "businessImpact": 1,
                 "description": null
+            },
+            {
+                "id": "cc727da4-d41c-412c-a4f3-7fc6d9ff954f",
+                "type": 1,
+                "endpoint": "demo.globalticket.com/*",
+                "businessImpact": 1,
+                "description": "GlobalTicket is one of our acquired integrations. \nBe sure to check out /cms to try and work your way into it."
             }
         ]
     },
@@ -3083,6 +2918,45 @@
                 "endpoint": "SimScale Website",
                 "businessImpact": 2,
                 "description": "Domain https://www.simscale.com and the remaining paths not listed under SimScale Platform.\n\nExamples:\n\n* [Landing page](https://www.simscale.com/)\n* [Documentation](https://www.simscale.com/docs/)\n* [Blog](https://www.simscale.com/blog/)\n* [Forum](https://www.simscale.com/forum/)"
+            }
+        ]
+    },
+    {
+        "programId": "5ed6962a-7017-4d60-8805-e169b638528d",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "sqills",
+        "companyName": "Sqills",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "sqillscorporatewebsite",
+        "name": "Sqills",
+        "description": "Sqills provides the leading inventory, reservation, and ticketing system for the bus and rail industry \u2013 S3 Passenger. At Sqills we are on a constant journey of innovation, discovery and global market leadership.\n\nOur corporate website provides general information about Sqills.\n",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2500.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1687243126,
+        "lastSubmissionAt": 1687777484,
+        "logoId": "public_bucket_2e6755f0-7dae-4403-94a5-242d98099fc1-32451ce1-ccca-44fe-a5a8-06aa55934cbb",
+        "domains": [
+            {
+                "id": "42ac6e8d-660b-487b-a520-ec8f4a13c01d",
+                "type": 1,
+                "endpoint": "*.sqills.team",
+                "businessImpact": 2,
+                "description": null
+            },
+            {
+                "id": "604fd93d-b5d3-414e-9e9a-8ad89d0a2f7b",
+                "type": 1,
+                "endpoint": "*.sqills.com",
+                "businessImpact": 3,
+                "description": null
             }
         ]
     },
@@ -3325,66 +3199,6 @@
                 "endpoint": "www.ketnet.be",
                 "businessImpact": 3,
                 "description": null
-            }
-        ]
-    },
-    {
-        "programId": "30f445f7-ca4c-4130-9434-49add5c6ac74",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "algemeendagblad",
-        "name": "Algemeen Dagblad",
-        "description": "With around 900 editors Algemeen Dagblad (AD) has become the largest journalistic organization in the Netherlands, offering both national and extensive regional news coverage.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680522811,
-        "lastSubmissionAt": 1689850266,
-        "logoId": "public_bucket_556c3dc4-35e6-48e2-a7a1-be98af9a31a5-09ab75b4-96bd-4793-ab4d-cdc544214428",
-        "domains": [
-            {
-                "id": "fbb062fe-fb38-48f9-bb03-faddc6b7ad80",
-                "type": 1,
-                "endpoint": "myaccount.ad.nl",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4a3fa5d2-39d6-45b0-a31d-c8c1f0d2f59a",
-                "type": 1,
-                "endpoint": "webwinkel.ad.nl",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "fe388ab1-2a27-4f56-a815-df935d8abfc9",
-                "type": 1,
-                "endpoint": "www.ad.nl",
-                "businessImpact": 3,
-                "description": "excluding\n* ad.nl/service\n* ad.nl/inloggen\n* ad.nl/login\n* ad.nl/registreren"
-            },
-            {
-                "id": "1253075d-d882-4932-8f9b-41c79878e209",
-                "type": 1,
-                "endpoint": "www.ad.nl/abonnementen",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "62280250-81af-4549-97dc-1d714f9b8cb8",
-                "type": 1,
-                "endpoint": "*.ad.nl",
-                "businessImpact": 2,
-                "description": "excluding abonnement.ad.nl"
             }
         ]
     },
@@ -3688,272 +3502,62 @@
         ]
     },
     {
-        "programId": "a5033edb-65a5-4e9f-8e4d-af548e42e647",
+        "programId": "30f445f7-ca4c-4130-9434-49add5c6ac74",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "vrtnv",
-        "companyName": "VRT",
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "vrt",
-        "name": "VRT responsible disclosure",
-        "description": "Flemish Radio and Television Broadcasting Organization",
+        "handle": "algemeendagblad",
+        "name": "Algemeen Dagblad",
+        "description": "With around 900 editors Algemeen Dagblad (AD) has become the largest journalistic organization in the Netherlands, offering both national and extensive regional news coverage.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 0.0,
+            "value": 2000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1680677589,
-        "lastSubmissionAt": 1687885015,
-        "logoId": "public_bucket_e00e90b6-6b09-4643-8046-5e037d13a4c0-9ae9bcce-3ca7-4bf4-831b-98c25276c015",
+        "lastUpdatedAt": 1680522811,
+        "lastSubmissionAt": 1689850266,
+        "logoId": "public_bucket_556c3dc4-35e6-48e2-a7a1-be98af9a31a5-09ab75b4-96bd-4793-ab4d-cdc544214428",
         "domains": [
             {
-                "id": "fdcce71c-9d50-40ca-a2f5-1be44c22826f",
+                "id": "fbb062fe-fb38-48f9-bb03-faddc6b7ad80",
                 "type": 1,
-                "endpoint": "*.canvas.be",
-                "businessImpact": 1,
+                "endpoint": "myaccount.ad.nl",
+                "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "2a1e0869-d811-40cb-adad-53e7cc160b9d",
+                "id": "4a3fa5d2-39d6-45b0-a31d-c8c1f0d2f59a",
                 "type": 1,
-                "endpoint": "*.dewarmsteweek.be",
-                "businessImpact": 1,
-                "description": "Out of scope: shop.dewarmsteweek.be - no testing allowed"
-            },
-            {
-                "id": "235b02cf-9a2d-4fbb-8052-d80845f9a5b7",
-                "type": 1,
-                "endpoint": "*.ketnet.be",
-                "businessImpact": 1,
-                "description": "Out of scope: shop.ketnet.be - no testing allowed"
-            },
-            {
-                "id": "fe82914d-cd90-4264-baaf-8e77a2956be4",
-                "type": 1,
-                "endpoint": "*.klara.be",
-                "businessImpact": 1,
+                "endpoint": "webwinkel.ad.nl",
+                "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "d26b6445-572e-46ca-9fdd-7160173aad8a",
+                "id": "fe388ab1-2a27-4f56-a815-df935d8abfc9",
                 "type": 1,
-                "endpoint": "*.mnm.be",
-                "businessImpact": 1,
-                "description": "Out of scope: shop.mnm.be - no testing allowed"
+                "endpoint": "www.ad.nl",
+                "businessImpact": 3,
+                "description": "excluding\n* ad.nl/service\n* ad.nl/inloggen\n* ad.nl/login\n* ad.nl/registreren"
             },
             {
-                "id": "3bec408f-7f3c-4a1e-b0ef-a363eb5cc824",
+                "id": "1253075d-d882-4932-8f9b-41c79878e209",
                 "type": 1,
-                "endpoint": "*.radio1.be",
-                "businessImpact": 1,
+                "endpoint": "www.ad.nl/abonnementen",
+                "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "cfe3cb52-eda7-4af1-9155-9a5579474302",
+                "id": "62280250-81af-4549-97dc-1d714f9b8cb8",
                 "type": 1,
-                "endpoint": "*.radio2.be",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "e3fe1754-697a-4a82-82c9-0d4e8a354ea4",
-                "type": 1,
-                "endpoint": "*.radioplus.be",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "06290519-4971-4919-b8ad-0b19c0d57c94",
-                "type": 1,
-                "endpoint": "*.sporza.be",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "75196a6c-1c79-46a4-82ff-937eac63cab1",
-                "type": 1,
-                "endpoint": "*.stubru.be",
-                "businessImpact": 1,
-                "description": "Out of scope: shop.stubru.be - no testing allowed"
-            },
-            {
-                "id": "0abe1d08-ba7d-4820-96b0-d16e71dbc213",
-                "type": 1,
-                "endpoint": "*.vrt.be",
-                "businessImpact": 1,
-                "description": "Out of scope: shop.vrt.be - no testing allowed\nOut of scope: innovatie.vrt.be"
-            },
-            {
-                "id": "ba304833-6c67-4d5b-8ebf-1c1b1698852e",
-                "type": 3,
-                "endpoint": "1001982587",
-                "businessImpact": 1,
-                "description": "Ketnet Junior"
-            },
-            {
-                "id": "8884225e-699b-4862-aa5a-b48dbc40cd38",
-                "type": 3,
-                "endpoint": "1001983790",
-                "businessImpact": 1,
-                "description": "Ketnet"
-            },
-            {
-                "id": "ab60e5a5-01fc-4601-a2f8-607451adc2df",
-                "type": 3,
-                "endpoint": "1041369236",
-                "businessImpact": 1,
-                "description": "Wall of Moments"
-            },
-            {
-                "id": "ffd8f377-4d53-4c34-b4ab-184b8a89f49a",
-                "type": 3,
-                "endpoint": "1116046348",
-                "businessImpact": 1,
-                "description": "Radio 1"
-            },
-            {
-                "id": "0404d64a-89c8-4c82-99cb-70ba39cf1f7d",
-                "type": 3,
-                "endpoint": "1116049623",
-                "businessImpact": 1,
-                "description": "Radio 2"
-            },
-            {
-                "id": "d545eeca-5209-4576-ba0a-d626554ba142",
-                "type": 3,
-                "endpoint": "1116054448",
-                "businessImpact": 1,
-                "description": "MNM"
-            },
-            {
-                "id": "b5fa53ce-bebd-4743-abe5-4e687d840311",
-                "type": 3,
-                "endpoint": "1116054765",
-                "businessImpact": 1,
-                "description": "Klara"
-            },
-            {
-                "id": "4d279296-7f41-4026-8673-94f0e38301bf",
-                "type": 3,
-                "endpoint": "1337574835",
-                "businessImpact": 1,
-                "description": "VRT NU"
-            },
-            {
-                "id": "5353bfbc-dfce-4e6b-a460-91f44bf1cb45",
-                "type": 3,
-                "endpoint": "388159251",
-                "businessImpact": 1,
-                "description": "Studio Brussel"
-            },
-            {
-                "id": "cce104e6-0751-4072-9ab2-fcf0f2a21d3b",
-                "type": 3,
-                "endpoint": "878339906",
-                "businessImpact": 1,
-                "description": "Sporza"
-            },
-            {
-                "id": "5205d2da-eb43-4820-8a15-91a2bf1082ad",
-                "type": 3,
-                "endpoint": "927943978",
-                "businessImpact": 1,
-                "description": "Kaatje van Ketnet"
-            },
-            {
-                "id": "3c6e820c-ad7a-4e24-8ec5-b2e034f4a018",
-                "type": 3,
-                "endpoint": "952769219",
-                "businessImpact": 1,
-                "description": "VRT NWS"
-            },
-            {
-                "id": "4a8a8ac2-2211-4275-986e-c1a258126003",
-                "type": 3,
-                "endpoint": "959958329",
-                "businessImpact": 1,
-                "description": "Sporza Voetbal"
-            },
-            {
-                "id": "77aadba6-a1c2-480c-9d8b-a4952ef06ecf",
-                "type": 2,
-                "endpoint": "be.vrt.ketnet.ketnet",
-                "businessImpact": 1,
-                "description": "Ketnet"
-            },
-            {
-                "id": "c8b57c86-50cc-4a4f-9a80-e85d13bec807",
-                "type": 2,
-                "endpoint": "be.vrt.ketnet.ketnetjr",
-                "businessImpact": 1,
-                "description": "Ketnet Junior"
-            },
-            {
-                "id": "20dd875d-d55b-4164-a2e2-e3031b0366f2",
-                "type": 2,
-                "endpoint": "be.vrt.mobile.android.deredactie",
-                "businessImpact": 1,
-                "description": "VRT NWS"
-            },
-            {
-                "id": "79897b3e-d2f8-4761-8f3e-0f0becaca86d",
-                "type": 2,
-                "endpoint": "be.vrt.mobile.android.sporza.voetbal",
-                "businessImpact": 1,
-                "description": "Sporza voetbal"
-            },
-            {
-                "id": "c75bea92-c901-40d6-b554-76c2d70095d7",
-                "type": 2,
-                "endpoint": "be.vrt.radioplus.klara",
-                "businessImpact": 1,
-                "description": "Klara"
-            },
-            {
-                "id": "2a30c71b-3300-4a59-b419-05f4d04ac8f9",
-                "type": 2,
-                "endpoint": "be.vrt.radioplus.mnm",
-                "businessImpact": 1,
-                "description": "MNM"
-            },
-            {
-                "id": "91b87e2c-3c23-47c8-8612-bb4ea1fec496",
-                "type": 2,
-                "endpoint": "be.vrt.radioplus.radio1",
-                "businessImpact": 1,
-                "description": "Radio 1"
-            },
-            {
-                "id": "e8116f30-ff46-49e7-96e1-e408911eb5c1",
-                "type": 2,
-                "endpoint": "be.vrt.radioplus.radio2",
-                "businessImpact": 1,
-                "description": "Radio 2"
-            },
-            {
-                "id": "a0a3d500-c12a-466f-b0f4-81c77ee16cfc",
-                "type": 2,
-                "endpoint": "be.vrt.radioplus.stubru",
-                "businessImpact": 1,
-                "description": "Studio Brussel"
-            },
-            {
-                "id": "e7f856f7-4057-45a3-881c-1c488e93b162",
-                "type": 2,
-                "endpoint": "be.vrt.vrtnu",
-                "businessImpact": 1,
-                "description": "VRT NU"
-            },
-            {
-                "id": "590b2255-4a63-4c4a-8cde-10f03f6dbc33",
-                "type": 2,
-                "endpoint": "com.fwc2014.vrt.and",
-                "businessImpact": 1,
-                "description": "Sporza"
+                "endpoint": "*.ad.nl",
+                "businessImpact": 2,
+                "description": "excluding abonnement.ad.nl"
             }
         ]
     },
@@ -4323,6 +3927,276 @@
         ]
     },
     {
+        "programId": "a5033edb-65a5-4e9f-8e4d-af548e42e647",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "vrtnv",
+        "companyName": "VRT",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "vrt",
+        "name": "VRT responsible disclosure",
+        "description": "Flemish Radio and Television Broadcasting Organization",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680677589,
+        "lastSubmissionAt": 1687885015,
+        "logoId": "public_bucket_e00e90b6-6b09-4643-8046-5e037d13a4c0-9ae9bcce-3ca7-4bf4-831b-98c25276c015",
+        "domains": [
+            {
+                "id": "fdcce71c-9d50-40ca-a2f5-1be44c22826f",
+                "type": 1,
+                "endpoint": "*.canvas.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "2a1e0869-d811-40cb-adad-53e7cc160b9d",
+                "type": 1,
+                "endpoint": "*.dewarmsteweek.be",
+                "businessImpact": 1,
+                "description": "Out of scope: shop.dewarmsteweek.be - no testing allowed"
+            },
+            {
+                "id": "235b02cf-9a2d-4fbb-8052-d80845f9a5b7",
+                "type": 1,
+                "endpoint": "*.ketnet.be",
+                "businessImpact": 1,
+                "description": "Out of scope: shop.ketnet.be - no testing allowed"
+            },
+            {
+                "id": "fe82914d-cd90-4264-baaf-8e77a2956be4",
+                "type": 1,
+                "endpoint": "*.klara.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "d26b6445-572e-46ca-9fdd-7160173aad8a",
+                "type": 1,
+                "endpoint": "*.mnm.be",
+                "businessImpact": 1,
+                "description": "Out of scope: shop.mnm.be - no testing allowed"
+            },
+            {
+                "id": "3bec408f-7f3c-4a1e-b0ef-a363eb5cc824",
+                "type": 1,
+                "endpoint": "*.radio1.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "cfe3cb52-eda7-4af1-9155-9a5579474302",
+                "type": 1,
+                "endpoint": "*.radio2.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "e3fe1754-697a-4a82-82c9-0d4e8a354ea4",
+                "type": 1,
+                "endpoint": "*.radioplus.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "06290519-4971-4919-b8ad-0b19c0d57c94",
+                "type": 1,
+                "endpoint": "*.sporza.be",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "75196a6c-1c79-46a4-82ff-937eac63cab1",
+                "type": 1,
+                "endpoint": "*.stubru.be",
+                "businessImpact": 1,
+                "description": "Out of scope: shop.stubru.be - no testing allowed"
+            },
+            {
+                "id": "0abe1d08-ba7d-4820-96b0-d16e71dbc213",
+                "type": 1,
+                "endpoint": "*.vrt.be",
+                "businessImpact": 1,
+                "description": "Out of scope: shop.vrt.be - no testing allowed\nOut of scope: innovatie.vrt.be"
+            },
+            {
+                "id": "ba304833-6c67-4d5b-8ebf-1c1b1698852e",
+                "type": 3,
+                "endpoint": "1001982587",
+                "businessImpact": 1,
+                "description": "Ketnet Junior"
+            },
+            {
+                "id": "8884225e-699b-4862-aa5a-b48dbc40cd38",
+                "type": 3,
+                "endpoint": "1001983790",
+                "businessImpact": 1,
+                "description": "Ketnet"
+            },
+            {
+                "id": "ab60e5a5-01fc-4601-a2f8-607451adc2df",
+                "type": 3,
+                "endpoint": "1041369236",
+                "businessImpact": 1,
+                "description": "Wall of Moments"
+            },
+            {
+                "id": "ffd8f377-4d53-4c34-b4ab-184b8a89f49a",
+                "type": 3,
+                "endpoint": "1116046348",
+                "businessImpact": 1,
+                "description": "Radio 1"
+            },
+            {
+                "id": "0404d64a-89c8-4c82-99cb-70ba39cf1f7d",
+                "type": 3,
+                "endpoint": "1116049623",
+                "businessImpact": 1,
+                "description": "Radio 2"
+            },
+            {
+                "id": "d545eeca-5209-4576-ba0a-d626554ba142",
+                "type": 3,
+                "endpoint": "1116054448",
+                "businessImpact": 1,
+                "description": "MNM"
+            },
+            {
+                "id": "b5fa53ce-bebd-4743-abe5-4e687d840311",
+                "type": 3,
+                "endpoint": "1116054765",
+                "businessImpact": 1,
+                "description": "Klara"
+            },
+            {
+                "id": "4d279296-7f41-4026-8673-94f0e38301bf",
+                "type": 3,
+                "endpoint": "1337574835",
+                "businessImpact": 1,
+                "description": "VRT NU"
+            },
+            {
+                "id": "5353bfbc-dfce-4e6b-a460-91f44bf1cb45",
+                "type": 3,
+                "endpoint": "388159251",
+                "businessImpact": 1,
+                "description": "Studio Brussel"
+            },
+            {
+                "id": "cce104e6-0751-4072-9ab2-fcf0f2a21d3b",
+                "type": 3,
+                "endpoint": "878339906",
+                "businessImpact": 1,
+                "description": "Sporza"
+            },
+            {
+                "id": "5205d2da-eb43-4820-8a15-91a2bf1082ad",
+                "type": 3,
+                "endpoint": "927943978",
+                "businessImpact": 1,
+                "description": "Kaatje van Ketnet"
+            },
+            {
+                "id": "3c6e820c-ad7a-4e24-8ec5-b2e034f4a018",
+                "type": 3,
+                "endpoint": "952769219",
+                "businessImpact": 1,
+                "description": "VRT NWS"
+            },
+            {
+                "id": "4a8a8ac2-2211-4275-986e-c1a258126003",
+                "type": 3,
+                "endpoint": "959958329",
+                "businessImpact": 1,
+                "description": "Sporza Voetbal"
+            },
+            {
+                "id": "77aadba6-a1c2-480c-9d8b-a4952ef06ecf",
+                "type": 2,
+                "endpoint": "be.vrt.ketnet.ketnet",
+                "businessImpact": 1,
+                "description": "Ketnet"
+            },
+            {
+                "id": "c8b57c86-50cc-4a4f-9a80-e85d13bec807",
+                "type": 2,
+                "endpoint": "be.vrt.ketnet.ketnetjr",
+                "businessImpact": 1,
+                "description": "Ketnet Junior"
+            },
+            {
+                "id": "20dd875d-d55b-4164-a2e2-e3031b0366f2",
+                "type": 2,
+                "endpoint": "be.vrt.mobile.android.deredactie",
+                "businessImpact": 1,
+                "description": "VRT NWS"
+            },
+            {
+                "id": "79897b3e-d2f8-4761-8f3e-0f0becaca86d",
+                "type": 2,
+                "endpoint": "be.vrt.mobile.android.sporza.voetbal",
+                "businessImpact": 1,
+                "description": "Sporza voetbal"
+            },
+            {
+                "id": "c75bea92-c901-40d6-b554-76c2d70095d7",
+                "type": 2,
+                "endpoint": "be.vrt.radioplus.klara",
+                "businessImpact": 1,
+                "description": "Klara"
+            },
+            {
+                "id": "2a30c71b-3300-4a59-b419-05f4d04ac8f9",
+                "type": 2,
+                "endpoint": "be.vrt.radioplus.mnm",
+                "businessImpact": 1,
+                "description": "MNM"
+            },
+            {
+                "id": "91b87e2c-3c23-47c8-8612-bb4ea1fec496",
+                "type": 2,
+                "endpoint": "be.vrt.radioplus.radio1",
+                "businessImpact": 1,
+                "description": "Radio 1"
+            },
+            {
+                "id": "e8116f30-ff46-49e7-96e1-e408911eb5c1",
+                "type": 2,
+                "endpoint": "be.vrt.radioplus.radio2",
+                "businessImpact": 1,
+                "description": "Radio 2"
+            },
+            {
+                "id": "a0a3d500-c12a-466f-b0f4-81c77ee16cfc",
+                "type": 2,
+                "endpoint": "be.vrt.radioplus.stubru",
+                "businessImpact": 1,
+                "description": "Studio Brussel"
+            },
+            {
+                "id": "e7f856f7-4057-45a3-881c-1c488e93b162",
+                "type": 2,
+                "endpoint": "be.vrt.vrtnu",
+                "businessImpact": 1,
+                "description": "VRT NU"
+            },
+            {
+                "id": "590b2255-4a63-4c4a-8cde-10f03f6dbc33",
+                "type": 2,
+                "endpoint": "com.fwc2014.vrt.and",
+                "businessImpact": 1,
+                "description": "Sporza"
+            }
+        ]
+    },
+    {
         "programId": "43c4b274-ccbd-4ea2-8047-d40b0b4205ac",
         "status": 3,
         "confidentialityLevel": 4,
@@ -4356,6 +4230,59 @@
                 "id": "1133ce7b-4a3e-4380-812c-e0aeeb9f5f60",
                 "type": 1,
                 "endpoint": "*.libelle.nl",
+                "businessImpact": 2,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "5c7a8f79-a23b-4367-a2c6-63a2d48586ee",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "hetlaatstenieuws",
+        "name": "Het Laatste Nieuws",
+        "description": "HLN.be is the number one news site in Flanders. 24/7 news with a focus on current events, sports and entertainment. The editors know how to keep their finger on the pulse at all times: on average every 4 minutes a new article appears on the news site. Readers consume their news more and more fragmented through their social media, so it is important for HLN to stay top of mind with its own app.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680523103,
+        "lastSubmissionAt": 1689667553,
+        "logoId": "public_bucket_b0527ff0-8be6-4f41-b82b-e8ad4bf44465-d90dd568-154a-4345-88e4-4cd5231943d2",
+        "domains": [
+            {
+                "id": "8ce77270-e090-4a7d-88ab-be08f1b3afb1",
+                "type": 1,
+                "endpoint": "hln.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "1da5bea7-5746-4ce3-978e-73bc62c1bf65",
+                "type": 1,
+                "endpoint": "myaccount.hln.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "94a4bab9-ec67-4c3b-a8b8-c6b71808e044",
+                "type": 1,
+                "endpoint": "www.hln.be",
+                "businessImpact": 3,
+                "description": "excluding\n* hln.be/service\n* hln.be/inloggen\n* hln.be/login\n* hln.be/registreren"
+            },
+            {
+                "id": "c85cbba1-eefe-4cf3-b5b5-f52073e1eb8f",
+                "type": 1,
+                "endpoint": "*.hln.be",
                 "businessImpact": 2,
                 "description": null
             }
@@ -4429,34 +4356,62 @@
         ]
     },
     {
-        "programId": "540e04bb-ae56-49cd-8e05-311a08ba44f7",
+        "programId": "8bf1f259-cac9-4114-9b84-3b950897b1ec",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "ing",
-        "companyName": "ING",
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "ing-responsible-disclosure",
-        "name": "ING Responsible Disclosure",
-        "description": "Responsible Disclosure indicates ING\u2019s continued commitment to improve its security posture. As part of this process, we work closely with security researchers to identify and report vulnerabilities they find within our systems.\n\nING appreciates security researchers efforts in reporting vulnerabilities on its systems as long as the discovered vulnerability is in scope, detected without the use of intrusive testing techniques, and follows the disclosure guidelines below:",
+        "handle": "demorgen",
+        "name": "De Morgen",
+        "description": "De Morgen has a broad view of the news with attention to political current affairs, culture and media. The editors are critical, dig deeper and often make the news of the day under the motto more insight, more salmon.\n\nDe Morgen is aiming for an open-minded audience that is looking for qualitative news coverage, background and interpretation of the news. The newspaper looks young and fresh and has won international prizes with its design.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 0.0,
+            "value": 2000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1686831261,
-        "lastSubmissionAt": 1689632057,
-        "logoId": "public_bucket_bd19ddaf-1f29-48a0-aa34-363240b04688-370c546b-afb8-42e8-84ee-1400c21a4258",
+        "lastUpdatedAt": 1687003249,
+        "lastSubmissionAt": 1689663596,
+        "logoId": "public_bucket_ada71727-7b29-412c-a69d-c505f878288a-815a7f87-5e50-4d79-b194-f72e1fb4b088",
         "domains": [
             {
-                "id": "98de6573-6c8d-43ad-b6e3-22537a4572b9",
-                "type": 6,
-                "endpoint": "Any ING (sub)domain",
-                "businessImpact": 1,
+                "id": "87f88838-c96d-49e9-b654-696963283502",
+                "type": 1,
+                "endpoint": "myaccount.demorgen.be",
+                "businessImpact": 3,
                 "description": null
+            },
+            {
+                "id": "96009973-a6d3-4a41-9592-f042c058f4c9",
+                "type": 1,
+                "endpoint": "shop.demorgen.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "3cc1b07f-39a2-49b1-872a-e50ee98550ba",
+                "type": 1,
+                "endpoint": "www.demorgen.be",
+                "businessImpact": 3,
+                "description": "excluding\n* demorgen.be/service\n* demorgen.be/inloggen\n* demorgen.be/login\n* demorgen.be/registreren"
+            },
+            {
+                "id": "63e69ca3-9252-433f-af2b-261a77b094d5",
+                "type": 1,
+                "endpoint": "www.demorgen.be/abonnementen",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "4ac6db92-8d2f-44b6-8537-8a3d994ac60e",
+                "type": 1,
+                "endpoint": "*.demorgen.be",
+                "businessImpact": 2,
+                "description": "excluding abonnement.demorgen.be"
             }
         ]
     },
@@ -4800,6 +4755,38 @@
                 "id": "3115a76e-fb13-480a-8e42-c64979e501fc",
                 "type": 1,
                 "endpoint": "www.delijn.be",
+                "businessImpact": 1,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "540e04bb-ae56-49cd-8e05-311a08ba44f7",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "ing",
+        "companyName": "ING",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "ing-responsible-disclosure",
+        "name": "ING Responsible Disclosure",
+        "description": "Responsible Disclosure indicates ING\u2019s continued commitment to improve its security posture. As part of this process, we work closely with security researchers to identify and report vulnerabilities they find within our systems.\n\nING appreciates security researchers efforts in reporting vulnerabilities on its systems as long as the discovered vulnerability is in scope, detected without the use of intrusive testing techniques, and follows the disclosure guidelines below:",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1686831261,
+        "lastSubmissionAt": 1689632057,
+        "logoId": "public_bucket_bd19ddaf-1f29-48a0-aa34-363240b04688-370c546b-afb8-42e8-84ee-1400c21a4258",
+        "domains": [
+            {
+                "id": "98de6573-6c8d-43ad-b6e3-22537a4572b9",
+                "type": 6,
+                "endpoint": "Any ING (sub)domain",
                 "businessImpact": 1,
                 "description": null
             }
@@ -5521,66 +5508,6 @@
         ]
     },
     {
-        "programId": "8f6c92dc-1300-4f11-8284-29b6ed743378",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "speakap",
-        "companyName": "Speakap",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "speakapresponsibledisclosure",
-        "name": "Speakap Responsible Disclosure",
-        "description": "Since 2010, Speakap has helped more than 400 companies across 120 countries, 42 languages, and many time zones, reach their full potential with more productive employees. With an award-winning, easy-to-use employee app, Speakap empowers company leaders to share the right content with the right people at the right time. Speakap boasts very high adoption rates with users logging in almost 6x a day for 50+ seconds per time.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680701723,
-        "lastSubmissionAt": 1687506659,
-        "logoId": "public_bucket_378e7e9d-25fd-4916-9784-05310098d811-f1d752c6-4604-489b-916b-2ae5e7a5a4c3",
-        "domains": [
-            {
-                "id": "4a319594-1d73-4929-8765-ed18df3f9063",
-                "type": 2,
-                "endpoint": "nl.speakap.speakap",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "8eab7f32-4cca-4043-8522-48a894336c6f",
-                "type": 3,
-                "endpoint": "https://apps.apple.com/nl/app/speakap/id713925262",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "d0cc7c03-571b-4f62-b76f-4deaf96fe9da",
-                "type": 1,
-                "endpoint": "*.speakap.com",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "944bdb62-db82-4612-9cd3-95447c138829",
-                "type": 1,
-                "endpoint": "*.speakap.io",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "6b8291a2-a8e2-4d4a-b88f-02942e9f0e8d",
-                "type": 1,
-                "endpoint": "Any related Speakap domain",
-                "businessImpact": 1,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "1e325f65-37de-4094-9079-217e27cab00b",
         "status": 3,
         "confidentialityLevel": 4,
@@ -5697,62 +5624,62 @@
         ]
     },
     {
-        "programId": "67d5a491-4baa-4565-bdc9-962bcd5f5ddd",
+        "programId": "8f6c92dc-1300-4f11-8284-29b6ed743378",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
+        "companyHandle": "speakap",
+        "companyName": "Speakap",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "humo",
-        "name": "Humo",
-        "description": "Humo brings high-profile cover stories and revealing interviews and files. And that with a characteristic approach: reliable information, a critical attitude and a sense of humor and self-relativity. The reader is treated every week on articles about television, society, sports, culture and pop, sharp columns and quirky discussions of TV programs, books, films and music.",
+        "handle": "speakapresponsibledisclosure",
+        "name": "Speakap Responsible Disclosure",
+        "description": "Since 2010, Speakap has helped more than 400 companies across 120 countries, 42 languages, and many time zones, reach their full potential with more productive employees. With an award-winning, easy-to-use employee app, Speakap empowers company leaders to share the right content with the right people at the right time. Speakap boasts very high adoption rates with users logging in almost 6x a day for 50+ seconds per time.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2000.0,
+            "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1680523191,
-        "lastSubmissionAt": 1690001069,
-        "logoId": "public_bucket_2b8e6133-a7a1-4169-ba40-05ca157067a6-a12ef89e-81fc-49ab-a0b5-06c3545f238e",
+        "lastUpdatedAt": 1680701723,
+        "lastSubmissionAt": 1687506659,
+        "logoId": "public_bucket_378e7e9d-25fd-4916-9784-05310098d811-f1d752c6-4604-489b-916b-2ae5e7a5a4c3",
         "domains": [
             {
-                "id": "703bf7f9-b6d4-4905-a518-96bfa61c06ad",
-                "type": 1,
-                "endpoint": "myaccount.humo.be",
-                "businessImpact": 3,
+                "id": "4a319594-1d73-4929-8765-ed18df3f9063",
+                "type": 2,
+                "endpoint": "nl.speakap.speakap",
+                "businessImpact": 1,
                 "description": null
             },
             {
-                "id": "ce55180d-b508-4d56-90a7-b6da2bf319b5",
-                "type": 1,
-                "endpoint": "shop.humo.be",
-                "businessImpact": 3,
+                "id": "8eab7f32-4cca-4043-8522-48a894336c6f",
+                "type": 3,
+                "endpoint": "https://apps.apple.com/nl/app/speakap/id713925262",
+                "businessImpact": 1,
                 "description": null
             },
             {
-                "id": "e168371a-67e0-4b24-95a3-afb9df531fd9",
+                "id": "d0cc7c03-571b-4f62-b76f-4deaf96fe9da",
                 "type": 1,
-                "endpoint": "www.humo.be",
-                "businessImpact": 3,
-                "description": "excluding\n* humo.be/service\n* humo.be/inloggen\n* humo.be/login\n* humo.be/registreren"
-            },
-            {
-                "id": "8e35bbdf-de0c-4893-921b-1eab0e7fbec5",
-                "type": 1,
-                "endpoint": "www.humo.be/abonnementen",
-                "businessImpact": 3,
+                "endpoint": "*.speakap.com",
+                "businessImpact": 1,
                 "description": null
             },
             {
-                "id": "457492f0-73f0-416e-8a86-128e0f1d0ca6",
+                "id": "944bdb62-db82-4612-9cd3-95447c138829",
                 "type": 1,
-                "endpoint": "*.humo.be",
-                "businessImpact": 2,
-                "description": "excluding abonnement.humo.be"
+                "endpoint": "*.speakap.io",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "6b8291a2-a8e2-4d4a-b88f-02942e9f0e8d",
+                "type": 1,
+                "endpoint": "Any related Speakap domain",
+                "businessImpact": 1,
+                "description": null
             }
         ]
     },
@@ -6254,34 +6181,62 @@
         ]
     },
     {
-        "programId": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
+        "programId": "67d5a491-4baa-4565-bdc9-962bcd5f5ddd",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "ubisoft",
-        "companyName": "Ubisoft",
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "ubisoftvdp",
-        "name": "Ubisoft VDP",
-        "description": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew, and Watch Dogs.\n\nWe welcome the reporting of security vulnerabilities that would help us protect our assets and players.",
+        "handle": "humo",
+        "name": "Humo",
+        "description": "Humo brings high-profile cover stories and revealing interviews and files. And that with a characteristic approach: reliable information, a critical attitude and a sense of humor and self-relativity. The reader is treated every week on articles about television, society, sports, culture and pop, sharp columns and quirky discussions of TV programs, books, films and music.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 3000.0,
+            "value": 2000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1688361324,
-        "lastSubmissionAt": 1689959403,
-        "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
+        "lastUpdatedAt": 1680523191,
+        "lastSubmissionAt": 1690001069,
+        "logoId": "public_bucket_2b8e6133-a7a1-4169-ba40-05ca157067a6-a12ef89e-81fc-49ab-a0b5-06c3545f238e",
         "domains": [
             {
-                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
-                "type": 6,
-                "endpoint": "Ubisoft",
+                "id": "703bf7f9-b6d4-4905-a518-96bfa61c06ad",
+                "type": 1,
+                "endpoint": "myaccount.humo.be",
                 "businessImpact": 3,
-                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update."
+                "description": null
+            },
+            {
+                "id": "ce55180d-b508-4d56-90a7-b6da2bf319b5",
+                "type": 1,
+                "endpoint": "shop.humo.be",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "e168371a-67e0-4b24-95a3-afb9df531fd9",
+                "type": 1,
+                "endpoint": "www.humo.be",
+                "businessImpact": 3,
+                "description": "excluding\n* humo.be/service\n* humo.be/inloggen\n* humo.be/login\n* humo.be/registreren"
+            },
+            {
+                "id": "8e35bbdf-de0c-4893-921b-1eab0e7fbec5",
+                "type": 1,
+                "endpoint": "www.humo.be/abonnementen",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "457492f0-73f0-416e-8a86-128e0f1d0ca6",
+                "type": 1,
+                "endpoint": "*.humo.be",
+                "businessImpact": 2,
+                "description": "excluding abonnement.humo.be"
             }
         ]
     },
@@ -6653,59 +6608,6 @@
         ]
     },
     {
-        "programId": "5c7a8f79-a23b-4367-a2c6-63a2d48586ee",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "hetlaatstenieuws",
-        "name": "Het Laatste Nieuws",
-        "description": "HLN.be is the number one news site in Flanders. 24/7 news with a focus on current events, sports and entertainment. The editors know how to keep their finger on the pulse at all times: on average every 4 minutes a new article appears on the news site. Readers consume their news more and more fragmented through their social media, so it is important for HLN to stay top of mind with its own app.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680523103,
-        "lastSubmissionAt": 1689667553,
-        "logoId": "public_bucket_b0527ff0-8be6-4f41-b82b-e8ad4bf44465-d90dd568-154a-4345-88e4-4cd5231943d2",
-        "domains": [
-            {
-                "id": "8ce77270-e090-4a7d-88ab-be08f1b3afb1",
-                "type": 1,
-                "endpoint": "hln.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "1da5bea7-5746-4ce3-978e-73bc62c1bf65",
-                "type": 1,
-                "endpoint": "myaccount.hln.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "94a4bab9-ec67-4c3b-a8b8-c6b71808e044",
-                "type": 1,
-                "endpoint": "www.hln.be",
-                "businessImpact": 3,
-                "description": "excluding\n* hln.be/service\n* hln.be/inloggen\n* hln.be/login\n* hln.be/registreren"
-            },
-            {
-                "id": "c85cbba1-eefe-4cf3-b5b5-f52073e1eb8f",
-                "type": 1,
-                "endpoint": "*.hln.be",
-                "businessImpact": 2,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "9a3f850e-4387-4434-98c7-dba2827b727b",
         "status": 3,
         "confidentialityLevel": 4,
@@ -6734,59 +6636,6 @@
                 "endpoint": "All domains of Revolut",
                 "businessImpact": 1,
                 "description": null
-            }
-        ]
-    },
-    {
-        "programId": "13cfc6fe-92b2-4a56-8577-855ff0bc2f1c",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "cybersecuritycoalition",
-        "companyName": "Cyber Security Coalition",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "cybersecuritycoalition",
-        "name": "Cyber Security Coalition",
-        "description": "The Cyber Security Coalition is a unique partnership between players from the public and private sector to join forces in the fight against cybercrime. We are bringing together the skills and expertise of members on a trust-based platform. A lot of information is publicly available on our website but there is also protected data not publicly viewable. We are a reference in security and it is obvious that our website should be secure! We are happy to have your help in finding any vulnerabilities!",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1684156375,
-        "lastSubmissionAt": 1689072747,
-        "logoId": "public_bucket_004ac588-9f3b-4414-b218-e67c51fc683d-aa1107f2-b4f3-476b-aab1-789706bc1a5b",
-        "domains": [
-            {
-                "id": "9681b8ed-97f6-4d73-af36-41cd32333348",
-                "type": 1,
-                "endpoint": "blog.cybersecuritycoalition.be",
-                "businessImpact": 1,
-                "description": "Blog site"
-            },
-            {
-                "id": "925c19b8-eae1-45fd-ab0e-23bb3c5b27ae",
-                "type": 1,
-                "endpoint": "award.cybersecuritycoalition.be",
-                "businessImpact": 1,
-                "description": "Awards website"
-            },
-            {
-                "id": "99e00bd1-35e0-4138-9624-5afcd0bbc3c1",
-                "type": 1,
-                "endpoint": "annualreport.cybersecuritycoalition.be",
-                "businessImpact": 1,
-                "description": null
-            },
-            {
-                "id": "bc9a3068-a359-4ee3-8163-67db4849c46a",
-                "type": 1,
-                "endpoint": "www.cybersecuritycoalition.be",
-                "businessImpact": 1,
-                "description": "Public website"
             }
         ]
     },
@@ -6950,62 +6799,55 @@
         ]
     },
     {
-        "programId": "8bf1f259-cac9-4114-9b84-3b950897b1ec",
+        "programId": "13cfc6fe-92b2-4a56-8577-855ff0bc2f1c",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
+        "companyHandle": "cybersecuritycoalition",
+        "companyName": "Cyber Security Coalition",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "demorgen",
-        "name": "De Morgen",
-        "description": "De Morgen has a broad view of the news with attention to political current affairs, culture and media. The editors are critical, dig deeper and often make the news of the day under the motto more insight, more salmon.\n\nDe Morgen is aiming for an open-minded audience that is looking for qualitative news coverage, background and interpretation of the news. The newspaper looks young and fresh and has won international prizes with its design.",
+        "handle": "cybersecuritycoalition",
+        "name": "Cyber Security Coalition",
+        "description": "The Cyber Security Coalition is a unique partnership between players from the public and private sector to join forces in the fight against cybercrime. We are bringing together the skills and expertise of members on a trust-based platform. A lot of information is publicly available on our website but there is also protected data not publicly viewable. We are a reference in security and it is obvious that our website should be secure! We are happy to have your help in finding any vulnerabilities!",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2000.0,
+            "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1687003249,
-        "lastSubmissionAt": 1689663596,
-        "logoId": "public_bucket_ada71727-7b29-412c-a69d-c505f878288a-815a7f87-5e50-4d79-b194-f72e1fb4b088",
+        "lastUpdatedAt": 1684156375,
+        "lastSubmissionAt": 1689072747,
+        "logoId": "public_bucket_004ac588-9f3b-4414-b218-e67c51fc683d-aa1107f2-b4f3-476b-aab1-789706bc1a5b",
         "domains": [
             {
-                "id": "87f88838-c96d-49e9-b654-696963283502",
+                "id": "9681b8ed-97f6-4d73-af36-41cd32333348",
                 "type": 1,
-                "endpoint": "myaccount.demorgen.be",
-                "businessImpact": 3,
+                "endpoint": "blog.cybersecuritycoalition.be",
+                "businessImpact": 1,
+                "description": "Blog site"
+            },
+            {
+                "id": "925c19b8-eae1-45fd-ab0e-23bb3c5b27ae",
+                "type": 1,
+                "endpoint": "award.cybersecuritycoalition.be",
+                "businessImpact": 1,
+                "description": "Awards website"
+            },
+            {
+                "id": "99e00bd1-35e0-4138-9624-5afcd0bbc3c1",
+                "type": 1,
+                "endpoint": "annualreport.cybersecuritycoalition.be",
+                "businessImpact": 1,
                 "description": null
             },
             {
-                "id": "96009973-a6d3-4a41-9592-f042c058f4c9",
+                "id": "bc9a3068-a359-4ee3-8163-67db4849c46a",
                 "type": 1,
-                "endpoint": "shop.demorgen.be",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "3cc1b07f-39a2-49b1-872a-e50ee98550ba",
-                "type": 1,
-                "endpoint": "www.demorgen.be",
-                "businessImpact": 3,
-                "description": "excluding\n* demorgen.be/service\n* demorgen.be/inloggen\n* demorgen.be/login\n* demorgen.be/registreren"
-            },
-            {
-                "id": "63e69ca3-9252-433f-af2b-261a77b094d5",
-                "type": 1,
-                "endpoint": "www.demorgen.be/abonnementen",
-                "businessImpact": 3,
-                "description": null
-            },
-            {
-                "id": "4ac6db92-8d2f-44b6-8537-8a3d994ac60e",
-                "type": 1,
-                "endpoint": "*.demorgen.be",
-                "businessImpact": 2,
-                "description": "excluding abonnement.demorgen.be"
+                "endpoint": "www.cybersecuritycoalition.be",
+                "businessImpact": 1,
+                "description": "Public website"
             }
         ]
     },
@@ -7165,6 +7007,66 @@
                 "endpoint": "*.intel.com",
                 "businessImpact": 1,
                 "description": "**Intel's Web Infrastructure, i.e.`*.intel.com`**\nIntel\u2019s web infrastructure, i.e., website domains owned and/or operated by Intel, fall **Out of Scope**. These reports are not eligible for rewards of any kind. \nPlease send security vulnerability reports against intel.com and/or related web presence to external.security.research@intel.com"
+            }
+        ]
+    },
+    {
+        "programId": "3305ccb2-c0a7-4988-aa27-6aafe97c11a9",
+        "status": 4,
+        "confidentialityLevel": 4,
+        "companyHandle": "muuselabs",
+        "companyName": "Muuselabs",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "jooki",
+        "name": "Jooki",
+        "description": "Jooki by Muuselabs - the IoT speaker for kids \n\nJooki is a music player that kids can independently use in a safe and screen-free environment. Upload your own content for offline use or listen online to your favourite Spotify playlists or web radios. Jooki has WiFi, Bluetooth, a microphone, speakers, NFC tags, voicemail service...\n\nRight now we are not offering monetary awards, but notable exploits will be rewarded with a Jooki 2 when they become available in Q3-2020.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1689951942,
+        "lastSubmissionAt": 1689880194,
+        "logoId": "public_bucket_6848f929-c6aa-4824-8b0f-09ce6a8b7d6b-68ddb742-69d0-4a14-a462-24e10f092f67",
+        "domains": [
+            {
+                "id": "d9d6744b-9df7-4fd2-ba5e-5a7813c21db4",
+                "type": 2,
+                "endpoint": "com.muuselabs.jooki",
+                "businessImpact": 1,
+                "description": "Parental control app for controlling a Jooki device"
+            },
+            {
+                "id": "e4ae0286-1125-41aa-b5dc-9248bb1670dc",
+                "type": 3,
+                "endpoint": "1287510114",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "a6c84e82-df58-4516-9646-8b288c3eb04f",
+                "type": 1,
+                "endpoint": "*.jooki.rocks",
+                "businessImpact": 1,
+                "description": "Any service hosted by Muuselabs\n\n**Excluding:**\n* www.jooki.rocks - our web store\n* ca|en|eu|fr|nl|uk|us.jooki.rocks - our international web stores"
+            },
+            {
+                "id": "e775288a-96b8-4ec7-b9bd-f9bab9b150a7",
+                "type": 1,
+                "endpoint": "*.muuselabs.com",
+                "businessImpact": 1,
+                "description": null
+            },
+            {
+                "id": "c0024368-c48f-4828-9a18-a627e1df81c2",
+                "type": 1,
+                "endpoint": "my.jooki.rocks",
+                "businessImpact": 1,
+                "description": null
             }
         ]
     },
@@ -7625,62 +7527,160 @@
         ]
     },
     {
-        "programId": "3305ccb2-c0a7-4988-aa27-6aafe97c11a9",
+        "programId": "d14eedce-607d-4233-995d-30dbc7de8f23",
         "status": 4,
         "confidentialityLevel": 4,
-        "companyHandle": "muuselabs",
-        "companyName": "Muuselabs",
+        "companyHandle": "delenprivatebank",
+        "companyName": "Delen Private Bank",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "jooki",
-        "name": "Jooki",
-        "description": "Jooki by Muuselabs - the IoT speaker for kids \n\nJooki is a music player that kids can independently use in a safe and screen-free environment. Upload your own content for offline use or listen online to your favourite Spotify playlists or web radios. Jooki has WiFi, Bluetooth, a microphone, speakers, NFC tags, voicemail service...\n\nRight now we are not offering monetary awards, but notable exploits will be rewarded with a Jooki 2 when they become available in Q3-2020.",
+        "handle": "privatebankdelen",
+        "name": "Delen Private Bank",
+        "description": "Delen Private Bank is a family-based specialist in asset management, focused on wealth preservation, growth and careful planning. Our core values - entrepreneurship, personal service and long-term vision \u2013 inspire us to apply a proactive yet prudent investment philosophy. Honest, no-nonsense products and services help our clients to enjoy the good and beautiful things in life \u2013 both today and tomorrow.",
         "minBounty": {
-            "value": 0.0,
+            "value": 100.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 0.0,
+            "value": 15000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1689951942,
-        "lastSubmissionAt": 1689880194,
-        "logoId": "public_bucket_6848f929-c6aa-4824-8b0f-09ce6a8b7d6b-68ddb742-69d0-4a14-a462-24e10f092f67",
+        "lastUpdatedAt": 1690084678,
+        "lastSubmissionAt": 1690084661,
+        "logoId": "public_bucket_93c30b5e-d702-49b3-8ac2-2a4b5304c96e-bae798f2-11df-4ab2-a664-43fd6c366e6d",
         "domains": [
             {
-                "id": "d9d6744b-9df7-4fd2-ba5e-5a7813c21db4",
+                "id": "536b7fac-9419-49c0-8f0d-dc1cfd7071b2",
+                "type": 1,
+                "endpoint": "www.delen.bank",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "ac5f913a-d433-433b-90ca-b644e3c6ea86",
+                "type": 1,
+                "endpoint": "api.digital.delen.be ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "bf8d9148-12cb-4b76-9ab5-440facecc656",
+                "type": 1,
+                "endpoint": "api.digital.delen.lu ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "b6a884c0-dfd6-44cf-a1ae-fdc4b7d42ba2",
+                "type": 1,
+                "endpoint": "app.delen.be ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "2e307f88-9dca-45c5-b371-8c1b22c0a1a4",
+                "type": 1,
+                "endpoint": "app.delen.ch ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "77cb6db6-42b6-405f-8690-054f70236c47",
+                "type": 1,
+                "endpoint": "app.delen.lu ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "257747a6-5764-4d74-9330-02e242056eaa",
+                "type": 1,
+                "endpoint": "auth.digital.delen.be ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "ce29ed2b-b0d7-4eb6-a6ae-77bda9ec57e0",
+                "type": 1,
+                "endpoint": "auth.digital.delen.lu ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "613fef6c-9b64-4feb-a1f3-2a26bda3c084",
                 "type": 2,
-                "endpoint": "com.muuselabs.jooki",
-                "businessImpact": 1,
-                "description": "Parental control app for controlling a Jooki device"
+                "endpoint": "be.delen.digital",
+                "businessImpact": 3,
+                "description": null
             },
             {
-                "id": "e4ae0286-1125-41aa-b5dc-9248bb1670dc",
+                "id": "cc09f633-c5b5-4c17-81d3-e3c918550c10",
                 "type": 3,
-                "endpoint": "1287510114",
-                "businessImpact": 1,
+                "endpoint": "delen/id1064839588",
+                "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "a6c84e82-df58-4516-9646-8b288c3eb04f",
+                "id": "4e09e3b5-5151-4d92-b66c-56f954ca2caf",
                 "type": 1,
-                "endpoint": "*.jooki.rocks",
-                "businessImpact": 1,
-                "description": "Any service hosted by Muuselabs\n\n**Excluding:**\n* www.jooki.rocks - our web store\n* ca|en|eu|fr|nl|uk|us.jooki.rocks - our international web stores"
-            },
-            {
-                "id": "e775288a-96b8-4ec7-b9bd-f9bab9b150a7",
-                "type": 1,
-                "endpoint": "*.muuselabs.com",
-                "businessImpact": 1,
+                "endpoint": "login.delen.be ",
+                "businessImpact": 3,
                 "description": null
             },
             {
-                "id": "c0024368-c48f-4828-9a18-a627e1df81c2",
+                "id": "5551cedd-1b5b-4a81-a806-7e572b7d068c",
                 "type": 1,
-                "endpoint": "my.jooki.rocks",
-                "businessImpact": 1,
+                "endpoint": "login.delen.ch ",
+                "businessImpact": 3,
                 "description": null
+            },
+            {
+                "id": "53d54596-39ba-4944-99fa-c1a3892dd7b6",
+                "type": 1,
+                "endpoint": "login.delen.lu ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "a58ef2fc-8b40-4a41-b3f0-e931d177f1dc",
+                "type": 1,
+                "endpoint": "login.oyens.com",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "8b8f3d94-d403-486b-ae85-aaea7cac8188",
+                "type": 1,
+                "endpoint": "status.delen.be ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "cde334da-763a-47ed-b612-abfc83cb8a7a",
+                "type": 1,
+                "endpoint": "sts.delen.be ",
+                "businessImpact": 3,
+                "description": null
+            },
+            {
+                "id": "818194c4-7799-46d4-8e68-f3fbceee8b7a",
+                "type": 1,
+                "endpoint": "www.cadelam.be ",
+                "businessImpact": 3,
+                "description": "\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
+            },
+            {
+                "id": "df532085-19b2-40b3-a066-7aec857be684",
+                "type": 1,
+                "endpoint": "www.cadelux.lu/en ",
+                "businessImpact": 3,
+                "description": "\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
+            },
+            {
+                "id": "e3fcb08b-fd3c-49c8-a79e-97a7cc3be638",
+                "type": 1,
+                "endpoint": "www.delen.be/en ",
+                "businessImpact": 3,
+                "description": "\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
             }
         ]
     }
