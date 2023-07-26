@@ -39,9 +39,6 @@ class API:
         """
         try:
             response = await self.session.get(endpoint, params=params, timeout=60.0)
-            if response.status_code == 403:  # Ignore 403 responses
-                self.logger.warning(f"Ignoring 403 response for endpoint: {endpoint}")
-                return {}  # Return an empty dictionary as the response
             response.raise_for_status()
             await self._wait()
             return response.json()
@@ -52,3 +49,7 @@ class API:
             self.logger.error(
                 f"Error decoding response JSON: {e}, Endpoint: {endpoint}")
             raise
+        except Exception as e:
+            # Ignore any error raised after all retry attempts
+            self.logger.warning(f"Ignoring error after all attempts: {e}")
+            return {}
