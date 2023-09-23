@@ -74,48 +74,94 @@
         ]
     },
     {
-        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "programId": "9c9b9003-6134-4962-8fe3-8ecc5ee80c5a",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
+        "companyHandle": "voys",
+        "companyName": "Voys",
         "tacRequired": false,
-        "companySustainable": true,
-        "handle": "intigriti",
-        "name": "intigriti",
-        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and we will reward you accordingly.",
+        "companySustainable": false,
+        "handle": "voipgrid-voys",
+        "name": "Voys - VoIPGRID",
+        "description": "VoIPGRID develops advanced VoIP software for business telephony and offers this in wholesale and semi-wholesale form to resellers. Voys is one of the many resellers that provides the VoIPGRID platform under its own name. Customers of the products experience maximum freedom, flexibility, and control over their phone systems.",
         "minBounty": {
-            "value": 50.0,
+            "value": 20.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 13337.0,
+            "value": 3000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1694181405,
-        "lastSubmissionAt": 1695293707,
-        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "lastUpdatedAt": 1691660093,
+        "lastSubmissionAt": 1695007993,
+        "logoId": "public_bucket_707f8d9c-c7f2-4020-b742-46c4155cc86e-b909eb34-b3bf-4c3f-8584-547d91d8bb0a",
         "domains": [
             {
-                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
+                "id": "15b56437-4370-4f54-8fac-2da78bac6841",
                 "type": 1,
-                "endpoint": "www.intigriti.com",
-                "bountyTierId": 2,
-                "description": "This is our marketing website."
+                "endpoint": "intigriti.voipgrid.nl",
+                "bountyTierId": 4,
+                "description": "This web environment has been setup for this Bug Bounty program. \n\nThis application has the same codebase between the two brands VoIPGRID and Voys"
             },
             {
-                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
+                "id": "7684b17a-57ad-4b10-ac3a-fc2777bc7fa2",
                 "type": 1,
-                "endpoint": "*pwn.intigriti.rocks",
+                "endpoint": "*.voipgrid.nl",
                 "bountyTierId": 3,
-                "description": "This is our test (PWN) environment that replicates production."
+                "description": null
             },
             {
-                "id": "9307f4bd-bf2b-40ef-bb77-ee7575ff37f9",
+                "id": "5232cd5c-d467-4a99-8844-5eb8e1a9c01e",
                 "type": 1,
-                "endpoint": "*.intigriti.me",
+                "endpoint": "*.voys.be",
                 "bountyTierId": 3,
-                "description": "This is the domain used for all our email related configurations."
+                "description": null
+            },
+            {
+                "id": "4dc989d7-3e11-44ef-a7e3-08ded8f63694",
+                "type": 1,
+                "endpoint": "*.voys.co",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "4aa9c04a-bbe0-4750-b4d9-b830e80a0558",
+                "type": 1,
+                "endpoint": "*.voys.nl",
+                "bountyTierId": 3,
+                "description": "Excluding https://jobs.voys.nl, https://jobs.voys.co"
+            }
+        ]
+    },
+    {
+        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "visma",
+        "companyName": "Visma",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "VismaResponsibleDisclosure",
+        "name": "Visma Responsible Disclosure",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1677670936,
+        "lastSubmissionAt": 1695307074,
+        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
+        "domains": [
+            {
+                "id": "8922aa89-e471-4918-9785-ba22414a1975",
+                "type": 1,
+                "endpoint": "all",
+                "bountyTierId": 1,
+                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
             }
         ]
     },
@@ -168,6 +214,227 @@
                 "type": 1,
                 "endpoint": "www.nxtport.com",
                 "bountyTierId": 1,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "bc3017b6-f657-4519-bf8f-00009d85bc47",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "vidaxl",
+        "companyName": "VidaXL",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "vidaxlpublic",
+        "name": "vidaXL",
+        "description": "vidaXL is a rapidly growing international online retailer. Our success is based on our belief that things can always be better and cheaper: \u2018Expect more\u2019. Because nobody likes to pay too much for products. We are continually expanding our product range and offer the best products for the best price. We like to go the extra mile for our customers by improving popular products and making them even cheaper.\n\nhttps://corporate.vidaxl.com/about-us/",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1683625110,
+        "lastSubmissionAt": 1694539252,
+        "logoId": "public_bucket_8ec79146-481d-4d94-adfd-d3e3a24e3292-45d2b917-8c13-400e-a453-67a952302c6a",
+        "domains": [
+            {
+                "id": "778d0420-45c0-47ba-a141-f367bc3e82e0",
+                "type": 1,
+                "endpoint": "fps-extr-services.vidaxl.org",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "d967de66-5af0-40d2-a261-030645f021d4",
+                "type": 1,
+                "endpoint": "ar.vidaxl.sa.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "a2a423af-6c65-4197-9248-5e695b5c160d",
+                "type": 1,
+                "endpoint": "b2b.vidaxl.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "91df3c82-a0c6-49d2-b109-8cdde0f3b0de",
+                "type": 1,
+                "endpoint": "cms.woger-cdn.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "3aaad7a8-522f-4026-b69d-6c20a32aa9ad",
+                "type": 1,
+                "endpoint": "customer-services.vidaxl.org",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "9776b4de-c4f6-4dd5-a940-93a0b0293cdc",
+                "type": 1,
+                "endpoint": "en.vidaxl.ae",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "efc62788-170d-4a81-b3c6-44e4b5428dfe",
+                "type": 1,
+                "endpoint": "en.vidaxl.ca",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "d7647d14-0fcf-49f5-bdb6-620216cf70e0",
+                "type": 1,
+                "endpoint": "fr.vidaxl.ch",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "fe7fceb2-7093-4a72-8c5e-1dd12047ffdb",
+                "type": 1,
+                "endpoint": "is.vidaxl.is",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "330c3e9a-8a18-4f1d-aff7-48e8f1982aab",
+                "type": 1,
+                "endpoint": "nexus.vidaxl.org",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "24fd7885-0e64-492a-8495-f81c3ca34c2f",
+                "type": 1,
+                "endpoint": "nl.vidaxl.be",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "713cc0ed-c141-4ded-817d-54c387d97a3c",
+                "type": 1,
+                "endpoint": "serviceportal.vidaxl.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "deee91ed-7972-481c-9850-1009edc3f15e",
+                "type": 1,
+                "endpoint": "shops-services.vidaxl.org",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "4c3fba90-e990-431a-8844-1e963536b17b",
+                "type": 1,
+                "endpoint": "tracking.vidaxl.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "4d01a8dc-0d07-4dd4-b882-95a2239e8e27",
+                "type": 1,
+                "endpoint": "uk.vidaxl.com.ua",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "5870afa4-36a2-496f-93df-7863846e1376",
+                "type": 1,
+                "endpoint": "vidaxl.zendesk.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "6bc87259-a42a-4f11-b203-8d46d0530c0c",
+                "type": 1,
+                "endpoint": "www.dropshippingxl.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "16b6b3b4-2b9f-4285-b220-31efc30bbe82",
+                "type": 1,
+                "endpoint": "www.vidaxl.<TLD>",
+                "bountyTierId": 3,
+                "description": "Our TLDs for vidaxl are: `.at`, `.bg`, `.com.uk`, `.com`, `.com.au`, `.com.tr`, `.cz`, `.de`, `.dk`, `.ee`, `.es`, `.fi`, `.fr`, `.gr`, `.hr`, `.hu`, `.ie`, `.it`, `.jp`, `.lt`, `.lv`, `.nl`, `.no`, `.pl`, `.pt`, `.ro`, .se`, `.si`, and `.sk`."
+            },
+            {
+                "id": "2c930c06-88a5-4bc7-b3cb-476099b301de",
+                "type": 1,
+                "endpoint": "apigateway.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "d79ad46d-7424-4b57-99b8-c44c6ba6adee",
+                "type": 1,
+                "endpoint": "app.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "253d9050-4ec1-4727-831c-f6730edc0120",
+                "type": 1,
+                "endpoint": "corporate.vidaxl.com",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "b51ecb32-c578-4cc7-96b7-68f45df70718",
+                "type": 1,
+                "endpoint": "drone.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "c98c48fc-5316-4043-94eb-1ffdf81ead97",
+                "type": 1,
+                "endpoint": "qa-db.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "56de46dd-572d-4f6a-b06d-c630d812dd74",
+                "type": 1,
+                "endpoint": "qa.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "73e90318-0a5a-4938-88a4-043a337d675d",
+                "type": 1,
+                "endpoint": "qa1-apigateway.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "9f453f15-c86d-47e0-8c61-f22707ff062b",
+                "type": 1,
+                "endpoint": "staging-apigateway.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "31a9090a-4aa2-49f4-bd53-d68f898d8d0d",
+                "type": 1,
+                "endpoint": "staging-db.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "dce1ed94-d5e9-42c2-96aa-75fb20d12520",
+                "type": 1,
+                "endpoint": "staging.vidaxl.io",
+                "bountyTierId": 2,
                 "description": null
             }
         ]
@@ -401,66 +668,6 @@
         ]
     },
     {
-        "programId": "9c9b9003-6134-4962-8fe3-8ecc5ee80c5a",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "voys",
-        "companyName": "Voys",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "voipgrid-voys",
-        "name": "Voys - VoIPGRID",
-        "description": "VoIPGRID develops advanced VoIP software for business telephony and offers this in wholesale and semi-wholesale form to resellers. Voys is one of the many resellers that provides the VoIPGRID platform under its own name. Customers of the products experience maximum freedom, flexibility, and control over their phone systems.",
-        "minBounty": {
-            "value": 20.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1691660093,
-        "lastSubmissionAt": 1695007993,
-        "logoId": "public_bucket_707f8d9c-c7f2-4020-b742-46c4155cc86e-b909eb34-b3bf-4c3f-8584-547d91d8bb0a",
-        "domains": [
-            {
-                "id": "15b56437-4370-4f54-8fac-2da78bac6841",
-                "type": 1,
-                "endpoint": "intigriti.voipgrid.nl",
-                "bountyTierId": 4,
-                "description": "This web environment has been setup for this Bug Bounty program. \n\nThis application has the same codebase between the two brands VoIPGRID and Voys"
-            },
-            {
-                "id": "7684b17a-57ad-4b10-ac3a-fc2777bc7fa2",
-                "type": 1,
-                "endpoint": "*.voipgrid.nl",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "5232cd5c-d467-4a99-8844-5eb8e1a9c01e",
-                "type": 1,
-                "endpoint": "*.voys.be",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "4dc989d7-3e11-44ef-a7e3-08ded8f63694",
-                "type": 1,
-                "endpoint": "*.voys.co",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "4aa9c04a-bbe0-4750-b4d9-b830e80a0558",
-                "type": 1,
-                "endpoint": "*.voys.nl",
-                "bountyTierId": 3,
-                "description": "Excluding https://jobs.voys.nl, https://jobs.voys.co"
-            }
-        ]
-    },
-    {
         "programId": "0f95dabb-d299-4574-befc-bb96a3bafb42",
         "status": 3,
         "confidentialityLevel": 4,
@@ -612,16 +819,16 @@
         ]
     },
     {
-        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
+        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
+        "companyHandle": "universitatsspitalzurich",
+        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
         "tacRequired": false,
-        "companySustainable": true,
-        "handle": "VismaResponsibleDisclosure",
-        "name": "Visma Responsible Disclosure",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
+        "companySustainable": false,
+        "handle": "usz-vdp",
+        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
+        "description": "VULNERABILITY DISCLOSURE PROGRAM (VDP)\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -630,237 +837,69 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1695307074,
-        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
+        "lastUpdatedAt": 1689600663,
+        "lastSubmissionAt": 1690129844,
+        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
         "domains": [
             {
-                "id": "8922aa89-e471-4918-9785-ba22414a1975",
+                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
                 "type": 1,
-                "endpoint": "all",
+                "endpoint": "*.unispital.ch ",
                 "bountyTierId": 1,
-                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
+                "description": "forwarding to usz.ch"
+            },
+            {
+                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
+                "type": 1,
+                "endpoint": "*.usz.ch ",
+                "bountyTierId": 1,
+                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
             }
         ]
     },
     {
-        "programId": "bc3017b6-f657-4519-bf8f-00009d85bc47",
+        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "vidaxl",
-        "companyName": "VidaXL",
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
         "tacRequired": false,
-        "companySustainable": false,
-        "handle": "vidaxlpublic",
-        "name": "vidaXL",
-        "description": "vidaXL is a rapidly growing international online retailer. Our success is based on our belief that things can always be better and cheaper: \u2018Expect more\u2019. Because nobody likes to pay too much for products. We are continually expanding our product range and offer the best products for the best price. We like to go the extra mile for our customers by improving popular products and making them even cheaper.\n\nhttps://corporate.vidaxl.com/about-us/",
+        "companySustainable": true,
+        "handle": "intigriti",
+        "name": "intigriti",
+        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and we will reward you accordingly.",
         "minBounty": {
-            "value": 0.0,
+            "value": 50.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2000.0,
+            "value": 13337.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1683625110,
-        "lastSubmissionAt": 1694539252,
-        "logoId": "public_bucket_8ec79146-481d-4d94-adfd-d3e3a24e3292-45d2b917-8c13-400e-a453-67a952302c6a",
+        "lastUpdatedAt": 1694181405,
+        "lastSubmissionAt": 1695293707,
+        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
         "domains": [
             {
-                "id": "778d0420-45c0-47ba-a141-f367bc3e82e0",
+                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
                 "type": 1,
-                "endpoint": "fps-extr-services.vidaxl.org",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "d967de66-5af0-40d2-a261-030645f021d4",
-                "type": 1,
-                "endpoint": "ar.vidaxl.sa.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "a2a423af-6c65-4197-9248-5e695b5c160d",
-                "type": 1,
-                "endpoint": "b2b.vidaxl.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "91df3c82-a0c6-49d2-b109-8cdde0f3b0de",
-                "type": 1,
-                "endpoint": "cms.woger-cdn.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "3aaad7a8-522f-4026-b69d-6c20a32aa9ad",
-                "type": 1,
-                "endpoint": "customer-services.vidaxl.org",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "9776b4de-c4f6-4dd5-a940-93a0b0293cdc",
-                "type": 1,
-                "endpoint": "en.vidaxl.ae",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "efc62788-170d-4a81-b3c6-44e4b5428dfe",
-                "type": 1,
-                "endpoint": "en.vidaxl.ca",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "d7647d14-0fcf-49f5-bdb6-620216cf70e0",
-                "type": 1,
-                "endpoint": "fr.vidaxl.ch",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "fe7fceb2-7093-4a72-8c5e-1dd12047ffdb",
-                "type": 1,
-                "endpoint": "is.vidaxl.is",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "330c3e9a-8a18-4f1d-aff7-48e8f1982aab",
-                "type": 1,
-                "endpoint": "nexus.vidaxl.org",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "24fd7885-0e64-492a-8495-f81c3ca34c2f",
-                "type": 1,
-                "endpoint": "nl.vidaxl.be",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "713cc0ed-c141-4ded-817d-54c387d97a3c",
-                "type": 1,
-                "endpoint": "serviceportal.vidaxl.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "deee91ed-7972-481c-9850-1009edc3f15e",
-                "type": 1,
-                "endpoint": "shops-services.vidaxl.org",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "4c3fba90-e990-431a-8844-1e963536b17b",
-                "type": 1,
-                "endpoint": "tracking.vidaxl.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "4d01a8dc-0d07-4dd4-b882-95a2239e8e27",
-                "type": 1,
-                "endpoint": "uk.vidaxl.com.ua",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "5870afa4-36a2-496f-93df-7863846e1376",
-                "type": 1,
-                "endpoint": "vidaxl.zendesk.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "6bc87259-a42a-4f11-b203-8d46d0530c0c",
-                "type": 1,
-                "endpoint": "www.dropshippingxl.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "16b6b3b4-2b9f-4285-b220-31efc30bbe82",
-                "type": 1,
-                "endpoint": "www.vidaxl.<TLD>",
-                "bountyTierId": 3,
-                "description": "Our TLDs for vidaxl are: `.at`, `.bg`, `.com.uk`, `.com`, `.com.au`, `.com.tr`, `.cz`, `.de`, `.dk`, `.ee`, `.es`, `.fi`, `.fr`, `.gr`, `.hr`, `.hu`, `.ie`, `.it`, `.jp`, `.lt`, `.lv`, `.nl`, `.no`, `.pl`, `.pt`, `.ro`, .se`, `.si`, and `.sk`."
-            },
-            {
-                "id": "2c930c06-88a5-4bc7-b3cb-476099b301de",
-                "type": 1,
-                "endpoint": "apigateway.vidaxl.io",
+                "endpoint": "www.intigriti.com",
                 "bountyTierId": 2,
-                "description": null
+                "description": "This is our marketing website."
             },
             {
-                "id": "d79ad46d-7424-4b57-99b8-c44c6ba6adee",
+                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
                 "type": 1,
-                "endpoint": "app.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
+                "endpoint": "*pwn.intigriti.rocks",
+                "bountyTierId": 3,
+                "description": "This is our test (PWN) environment that replicates production."
             },
             {
-                "id": "253d9050-4ec1-4727-831c-f6730edc0120",
+                "id": "9307f4bd-bf2b-40ef-bb77-ee7575ff37f9",
                 "type": 1,
-                "endpoint": "corporate.vidaxl.com",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "b51ecb32-c578-4cc7-96b7-68f45df70718",
-                "type": 1,
-                "endpoint": "drone.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "c98c48fc-5316-4043-94eb-1ffdf81ead97",
-                "type": 1,
-                "endpoint": "qa-db.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "56de46dd-572d-4f6a-b06d-c630d812dd74",
-                "type": 1,
-                "endpoint": "qa.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "73e90318-0a5a-4938-88a4-043a337d675d",
-                "type": 1,
-                "endpoint": "qa1-apigateway.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "9f453f15-c86d-47e0-8c61-f22707ff062b",
-                "type": 1,
-                "endpoint": "staging-apigateway.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "31a9090a-4aa2-49f4-bd53-d68f898d8d0d",
-                "type": 1,
-                "endpoint": "staging-db.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "dce1ed94-d5e9-42c2-96aa-75fb20d12520",
-                "type": 1,
-                "endpoint": "staging.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
+                "endpoint": "*.intigriti.me",
+                "bountyTierId": 3,
+                "description": "This is the domain used for all our email related configurations."
             }
         ]
     },
@@ -914,126 +953,6 @@
                 "endpoint": "no.kolonial.tienda",
                 "bountyTierId": 3,
                 "description": null
-            }
-        ]
-    },
-    {
-        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "universitatsspitalzurich",
-        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "usz-vdp",
-        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
-        "description": "VULNERABILITY DISCLOSURE PROGRAM (VDP)\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1689600663,
-        "lastSubmissionAt": 1690129844,
-        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
-        "domains": [
-            {
-                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
-                "type": 1,
-                "endpoint": "*.unispital.ch ",
-                "bountyTierId": 1,
-                "description": "forwarding to usz.ch"
-            },
-            {
-                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
-                "type": 1,
-                "endpoint": "*.usz.ch ",
-                "bountyTierId": 1,
-                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
-            }
-        ]
-    },
-    {
-        "programId": "92431bf9-ab3e-4e69-9619-c59f8e5193b1",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "voi",
-        "companyName": "Voi",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "voiscooters",
-        "name": "Voi Scooters",
-        "description": "Voi is europe's biggest micro-mobility operator based in Stockholm, Sweden. We manage a system of electrically powered scooters and bikes around urban centers. We provide an affordable, sustainable, and exhilarating way to commute while helping people to reduce their carbon footprint and cities to have a more sustainable transportation network. We are excited to work with and reward the community of security researchers to continuously improve our security position. ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3500.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1685086647,
-        "lastSubmissionAt": 1695036116,
-        "logoId": "public_bucket_c88ca7fd-bc9b-4787-8772-6304d73a4188-28f7ba6c-3f60-4a42-9431-86843438579f",
-        "domains": [
-            {
-                "id": "005f7d15-56be-4438-b63e-199b93d6db03",
-                "type": 3,
-                "endpoint": "1395921017",
-                "bountyTierId": 4,
-                "description": "iOS Mobile Application"
-            },
-            {
-                "id": "496c0a21-2f7d-4e76-9345-ecbec91d3f44",
-                "type": 1,
-                "endpoint": "https://api.voiapp.io/",
-                "bountyTierId": 4,
-                "description": "Backend REST API"
-            },
-            {
-                "id": "e856acdc-41d5-4e50-a124-861631c1afef",
-                "type": 2,
-                "endpoint": "io.voiapp.voi",
-                "bountyTierId": 4,
-                "description": "Android Mobile Application"
-            },
-            {
-                "id": "3d214482-bcbc-4640-b83a-3885655f4520",
-                "type": 1,
-                "endpoint": "mds.voiapp.io",
-                "bountyTierId": 4,
-                "description": "Partner API as documented at https://docs.voiscooters.com/"
-            },
-            {
-                "id": "058953ad-cbd1-4d2c-9cb9-d5d3f038bcc9",
-                "type": 1,
-                "endpoint": "*.voiscooters.com",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "0d1f015a-1b5e-42db-b0fc-0594d46b1ad1",
-                "type": 1,
-                "endpoint": "report.voi.com",
-                "bountyTierId": 2,
-                "description": "Website to report badly parked scooters."
-            },
-            {
-                "id": "e5da831b-066d-41d6-8a02-95d20abf68a8",
-                "type": 1,
-                "endpoint": "voi.com",
-                "bountyTierId": 2,
-                "description": "Informational Website"
-            },
-            {
-                "id": "46b0cc7e-21b3-4226-955e-83ad3827e607",
-                "type": 1,
-                "endpoint": "www.voiscooters.com",
-                "bountyTierId": 2,
-                "description": "Informational Website"
             }
         ]
     },
@@ -1454,6 +1373,38 @@
         ]
     },
     {
+        "programId": "21d92048-d4d8-4781-8f37-3209a1b60fe1",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "azena",
+        "companyName": "Azena",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "azenaresponsibledisclosure",
+        "name": "Azena",
+        "description": "We are an award-winning German startup with locations in Munich, Eindhoven and Pittsburgh. We are 100% funded by the Bosch Group.\n\nOur goal is to be the leading open platform and marketplace for smart security and safety solutions. The platform we offer is based on a camera operating system that powers cameras from various manufacturers on the market. It connects to our Application Store where leading video analytics development companies offer cutting-edge apps.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679565549,
+        "lastSubmissionAt": 1691083739,
+        "logoId": "public_bucket_f41a9d44-ed5e-4bf8-99c8-4be1d3716647-70810713-6d3d-41b2-9a21-844724444404",
+        "domains": [
+            {
+                "id": "cd54a0fc-3e74-47cb-9504-78c3be92ec4f",
+                "type": 1,
+                "endpoint": "*.azena.com",
+                "bountyTierId": 1,
+                "description": "All assets including azena.com and subdomains.\nNote that connect.azena.com and any subdomain of connect.azena.com is a remote connection service to devices owned and controlled by third parties. Therefore, these targets are out of scope and not covered by this program."
+            }
+        ]
+    },
+    {
         "programId": "587fd275-a113-4a64-9bad-7393a0f6a3b8",
         "status": 3,
         "confidentialityLevel": 4,
@@ -1500,16 +1451,16 @@
         ]
     },
     {
-        "programId": "21d92048-d4d8-4781-8f37-3209a1b60fe1",
+        "programId": "1e325f65-37de-4094-9079-217e27cab00b",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "azena",
-        "companyName": "Azena",
+        "companyHandle": "wpengine",
+        "companyName": "WP Engine",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "azenaresponsibledisclosure",
-        "name": "Azena",
-        "description": "We are an award-winning German startup with locations in Munich, Eindhoven and Pittsburgh. We are 100% funded by the Bosch Group.\n\nOur goal is to be the leading open platform and marketplace for smart security and safety solutions. The platform we offer is based on a camera operating system that powers cameras from various manufacturers on the market. It connects to our Application Store where leading video analytics development companies offer cutting-edge apps.",
+        "handle": "wpengine",
+        "name": "WP Engine",
+        "description": "WP Engine invites you to test the WP Engine and Flywheel Digital Experience Platforms. WP Engine equips its customers with a suite of agility, performance, intelligence, and integration solutions, so you can build and deploy a range of online experiences from campaign sites to content hubs to e-commerce extensions. Good luck and happy hunting!",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -1518,16 +1469,100 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1679565549,
-        "lastSubmissionAt": 1691083739,
-        "logoId": "public_bucket_f41a9d44-ed5e-4bf8-99c8-4be1d3716647-70810713-6d3d-41b2-9a21-844724444404",
+        "lastUpdatedAt": 1688068130,
+        "lastSubmissionAt": 1695337076,
+        "logoId": "public_bucket_ca191b69-f69c-48d3-b1a9-90f13d7c01e4-665898c6-a594-4163-bf57-691a42c8f215",
         "domains": [
             {
-                "id": "cd54a0fc-3e74-47cb-9504-78c3be92ec4f",
-                "type": 1,
-                "endpoint": "*.azena.com",
+                "id": "96852456-df82-4794-92a6-35f1eff20cb4",
+                "type": 6,
+                "endpoint": "WP Engine-developed WordPress Plugins and Themes",
                 "bountyTierId": 1,
-                "description": "All assets including azena.com and subdomains.\nNote that connect.azena.com and any subdomain of connect.azena.com is a remote connection service to devices owned and controlled by third parties. Therefore, these targets are out of scope and not covered by this program."
+                "description": "We accept any reports of vulnerabilities in plugins or themes managed or developed by WP Engine, with the exception of any application-level vulnerabilities in the Out of Scope section below.  These free versions closely mirror their paid counterparts, so any vulnerabilities discovered should be applicable to both the paid or free plugins.\n\nWe also accept reports for the following Delicious Brains plugins:\nhttps://wordpress.org/plugins/advanced-custom-fields\n"
+            },
+            {
+                "id": "eb01f4c7-fd39-42ba-b186-f3933a681473",
+                "type": 1,
+                "endpoint": "*. advancedcustomfields.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "2a33486a-de01-4d6a-a276-08e15df88b8e",
+                "type": 1,
+                "endpoint": "*. bettersearchreplace.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "836df627-6e13-4476-9ea6-fc2cb03cb8fc",
+                "type": 1,
+                "endpoint": "*.deliciousbrains.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "e542485d-1138-475e-856d-1e2c9e2e9e90",
+                "type": 1,
+                "endpoint": "*.studiopress.com",
+                "bountyTierId": 1,
+                "description": "The studiopress.com, www.studiopress.com, and my.studiopress.com sites are public facing marketing and WordPress theme e-commerce sites. **No credentials will be provided.** Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
+            },
+            {
+                "id": "3a14fea5-bdfb-4c5d-91b7-b8f022c62de5",
+                "type": 1,
+                "endpoint": "*.wpengine.io",
+                "bountyTierId": 1,
+                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpengine.io"
+            },
+            {
+                "id": "a45a6477-169f-4e6a-9752-df43ee4145b6",
+                "type": 1,
+                "endpoint": "*.wpesvc.net",
+                "bountyTierId": 1,
+                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpesvc.net"
+            },
+            {
+                "id": "175f2846-fa9e-4f79-a839-263adf6b5120",
+                "type": 1,
+                "endpoint": "app.getflywheel.com",
+                "bountyTierId": 1,
+                "description": "This is the primary site for researchers to register and test both the Flywheel App as well as the Flywheel Platform. We will not provide credentials or bypass verification controls (i.e, a researcher will need to either provide a valid phone number or credit card to have a live site), but a researcher may register a demo site that matches the platform's functionality without verification. **Please use your Intigriti credentials to register.** Please note that any issues regarding an individual WordPress installation on the Flywheel platform, outside of plugins owned by WP Engine/Flywheel, will be considered out of scope as we do not monitor or manage customer content. We are, however, very interested in issues that may compromise customer isolation on the platform or cause data to be leaked from either a host or an unrelated customer site."
+            },
+            {
+                "id": "f5568849-5260-4b8b-b84c-09c7ac974f14",
+                "type": 1,
+                "endpoint": "getflywheel.com",
+                "bountyTierId": 1,
+                "description": "This site is the landing page for Flywheel-branded services. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality or https://getflywheel.com/schedule-a-demo/. No testing should be done against these targets or any 3rd party services. Please do not contact Live Chat agents."
+            },
+            {
+                "id": "891e0947-7e46-4cc3-bc0a-3819ba604ea2",
+                "type": 1,
+                "endpoint": "my.wpengine.com",
+                "bountyTierId": 1,
+                "description": "The User Portal for WP Engine. Customers manage their WordPress sites, addons, and billing details through this portal. **No credentials will be provided**. Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
+            },
+            {
+                "id": "1060f173-c743-4b9a-b169-3ff4786cb122",
+                "type": 1,
+                "endpoint": "spressforumstg.wpengine.com",
+                "bountyTierId": 1,
+                "description": "the staging environment for the StudioPress community forum, built on WordPress. Researchers are welcome to register an account using their @intigriti.me email address, but should refrain from interacting with the community, making public posts, or performing automated testing which may cause disruption. Do not attempt to gain access to any user accounts not under your control."
+            },
+            {
+                "id": "19c28892-2038-4327-954d-3d02632746d5",
+                "type": 1,
+                "endpoint": "studiopress.blog",
+                "bountyTierId": 1,
+                "description": "This is a public-facing marketing site built on WordPress. Most of the content on this site consists of static blog posts."
+            },
+            {
+                "id": "cc0ac479-c294-44a3-bb27-2c6b18b1a5fb",
+                "type": 1,
+                "endpoint": "wpengine.com",
+                "bountyTierId": 1,
+                "description": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality and wpengine.com/contact/. No testing should be done against these targets or any 3rd party services."
             }
         ]
     },
@@ -1606,32 +1641,46 @@
         ]
     },
     {
-        "programId": "bbc2d49d-6b11-40af-9746-aefa64756928",
+        "programId": "e6386eb8-ce59-43b5-98b6-f1590cafdceb",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "randstad",
-        "companyName": "Randstad",
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "yacht",
-        "name": "Yacht",
-        "description": "Yacht is number one in connecting professionals.",
+        "handle": "tweakers",
+        "name": "Tweakers",
+        "description": "Tweakers is a Dutch technology website featuring news and information about hardware, software and the Internet. We take security very serious as many of our users use our site as a trusted source. Therefore we have decided to collaborate with ethical hackers that can inform us about potential vulnerabilities in our systems. If you happen to find a vulnerability we'd be more than happy to hear about it and, if its impact is significant enough, award you a bounty as token of appreciation.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 0.0,
+            "value": 2000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1694086832,
-        "lastSubmissionAt": 1694133784,
-        "logoId": "public_bucket_5cb5b133-026d-4175-b1ac-b3ef96445e27-24333ebe-846a-478a-9044-6a0d1b5a6402",
+        "lastUpdatedAt": 1690362354,
+        "lastSubmissionAt": 1689668849,
+        "logoId": "public_bucket_e4ecd474-39ef-4cee-beb0-d1567c8f92c6-c97e4730-df9f-4bac-8ade-9f715372eacb",
         "domains": [
             {
-                "id": "8029bcbc-ded4-4be2-85d3-93254aad13d1",
+                "id": "64651c48-532b-414b-8e81-ba0a234bed43",
                 "type": 1,
-                "endpoint": "*.yacht.nl",
+                "endpoint": "*.tweakblogs.net",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "cfc0d03d-cba2-4131-a9f8-72b152254fc6",
+                "type": 1,
+                "endpoint": "*.tweakers.net",
+                "bountyTierId": 3,
+                "description": "Out of scope: elect.tweakers.net"
+            },
+            {
+                "id": "5f17da1f-84f1-40ba-845a-1fe733d766a6",
+                "type": 1,
+                "endpoint": "*.tweakimg.net",
                 "bountyTierId": 3,
                 "description": null
             }
@@ -2055,45 +2104,6 @@
                 "endpoint": "Any related DPG media domain",
                 "bountyTierId": 2,
                 "description": "\n_Only applicable to domains that are **100% owned by DPG**.  \nFor example, projects that are partly owned by DPG and partly owned by RTL (because of a joint venture between the two) are **not** in scope._\n\nWhois: \n\nDe Persgroep Publishing nv\nBrusselstesteenweg 347\n1730 Asse\nBelgi\u00eb\n\nDPG Media Services NV \nMediaplein 1 \n2018 Antwerpen \nBelgium"
-            }
-        ]
-    },
-    {
-        "programId": "ecf9c610-36eb-47df-8b25-bb496aff8015",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "uz leuven",
-        "companyName": "UZ Leuven",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "nexuzhealthwebpacs",
-        "name": "Nexuzhealth Web PACS",
-        "description": "This website is used to provide patient access to their radiology images (PACS).\n\nPatients logon with their date of birth, and a unique code provided to them by the physician.\nThis code provides access to one study.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 1000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679992789,
-        "lastSubmissionAt": 1687969939,
-        "logoId": "public_bucket_387d8426-8bae-4abf-99f7-38e0de81fbb8-b0db85bc-afde-417e-bd60-ec0091f7a0ad",
-        "domains": [
-            {
-                "id": "3fffb516-5509-49a9-a3f1-06745dec39a0",
-                "type": 1,
-                "endpoint": " idp-contact.nexuzhealth.be",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "2e3cdd39-9b4a-40d2-928f-7cd3254eaa04",
-                "type": 1,
-                "endpoint": "media.nexuzhealth.be/patient/ ",
-                "bountyTierId": 3,
-                "description": null
             }
         ]
     },
@@ -2677,38 +2687,6 @@
         ]
     },
     {
-        "programId": "9a3f850e-4387-4434-98c7-dba2827b727b",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "revolut",
-        "companyName": "Revolut ",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "revolutvdp",
-        "name": "Revolut VDP",
-        "description": "Revolut is a financial technology company that offers banking services. It offers accounts featuring currency exchange, debit cards, virtual cards, interest-bearing \"vaults\", commission-free stock trading, crypto, commodities, and other services to over 30M customers.\n\nPlease visit our website for more information: www.revolut.com",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "GBP"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "GBP"
-        },
-        "lastUpdatedAt": 1686153215,
-        "lastSubmissionAt": 1695406672,
-        "logoId": "public_bucket_91c5b47e-453c-472e-8054-95afe4a84ca4-297e39b3-4bb0-49f1-b789-e26965e4d9e4",
-        "domains": [
-            {
-                "id": "b603caec-e768-40e5-8781-b01a51089559",
-                "type": 1,
-                "endpoint": "All domains of Revolut",
-                "bountyTierId": 1,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "a5033edb-65a5-4e9f-8e4d-af548e42e647",
         "status": 3,
         "confidentialityLevel": 4,
@@ -2975,6 +2953,38 @@
                 "endpoint": "com.fwc2014.vrt.and",
                 "bountyTierId": 1,
                 "description": "Sporza"
+            }
+        ]
+    },
+    {
+        "programId": "9a3f850e-4387-4434-98c7-dba2827b727b",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "revolut",
+        "companyName": "Revolut ",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "revolutvdp",
+        "name": "Revolut VDP",
+        "description": "Revolut is a financial technology company that offers banking services. It offers accounts featuring currency exchange, debit cards, virtual cards, interest-bearing \"vaults\", commission-free stock trading, crypto, commodities, and other services to over 30M customers.\n\nPlease visit our website for more information: www.revolut.com",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "GBP"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "GBP"
+        },
+        "lastUpdatedAt": 1686153215,
+        "lastSubmissionAt": 1695406672,
+        "logoId": "public_bucket_91c5b47e-453c-472e-8054-95afe4a84ca4-297e39b3-4bb0-49f1-b789-e26965e4d9e4",
+        "domains": [
+            {
+                "id": "b603caec-e768-40e5-8781-b01a51089559",
+                "type": 1,
+                "endpoint": "All domains of Revolut",
+                "bountyTierId": 1,
+                "description": null
             }
         ]
     },
@@ -3398,45 +3408,6 @@
         ]
     },
     {
-        "programId": "e1dc7326-0466-4c06-bd52-3c6df82370be",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "redbull",
-        "companyName": "Red Bull",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "redbull",
-        "name": "Red Bull",
-        "description": "Red Bull appreciates the work of security researchers to make the internet a better - and more secure - place. Even though we aim to prevent security issues by applying state-of-the art development and operations processes, systems and technical services outside our direct control might have vulnerabilities and weaknesses and we aim to identify and address those before any negative impact occurs.\n\nAs appreciation we have a unique reward system in place, please see FAQ for more information. ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1693404927,
-        "lastSubmissionAt": 1695384990,
-        "logoId": "public_bucket_3f8cf4b8-e72a-47b1-bd82-fd31a815ccac-e4c62ba7-4ee6-42ad-b136-99ded90df978",
-        "domains": [
-            {
-                "id": "0939868f-3a63-4d2b-8b06-c1665c46a8ef",
-                "type": 6,
-                "endpoint": "https://gist.github.com/RedBullSecurity/3eb88debcb01759eccf65ec2b799b340",
-                "bountyTierId": 1,
-                "description": "## Please use only this list to search for targets.\n\nDomains that are related to Red Bull and can be found on [this list](https://gist.github.com/RedBullSecurity/3eb88debcb01759eccf65ec2b799b340). \n- Submissions affecting other domains than the ones on the list will be out of scope. \n- Please stop enumerating Red Bull related domains, and work based on the list provided.\n\nAny subdomain not mentioned in this list, will be considered as out of scope."
-            },
-            {
-                "id": "241e17c8-13f9-4061-9d7b-6d5f0db310ae",
-                "type": 6,
-                "endpoint": "IOS and Android apps related to Red Bull",
-                "bountyTierId": 1,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "efa92aaa-d683-4cf9-8834-a03cf864cc80",
         "status": 3,
         "confidentialityLevel": 4,
@@ -3500,6 +3471,45 @@
                 "endpoint": "*.trouw.nl",
                 "bountyTierId": 2,
                 "description": "excluding abonnement.trouw.nl"
+            }
+        ]
+    },
+    {
+        "programId": "e1dc7326-0466-4c06-bd52-3c6df82370be",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "redbull",
+        "companyName": "Red Bull",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "redbull",
+        "name": "Red Bull",
+        "description": "Red Bull appreciates the work of security researchers to make the internet a better - and more secure - place. Even though we aim to prevent security issues by applying state-of-the art development and operations processes, systems and technical services outside our direct control might have vulnerabilities and weaknesses and we aim to identify and address those before any negative impact occurs.\n\nAs appreciation we have a unique reward system in place, please see FAQ for more information. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1693404927,
+        "lastSubmissionAt": 1695384990,
+        "logoId": "public_bucket_3f8cf4b8-e72a-47b1-bd82-fd31a815ccac-e4c62ba7-4ee6-42ad-b136-99ded90df978",
+        "domains": [
+            {
+                "id": "0939868f-3a63-4d2b-8b06-c1665c46a8ef",
+                "type": 6,
+                "endpoint": "https://gist.github.com/RedBullSecurity/3eb88debcb01759eccf65ec2b799b340",
+                "bountyTierId": 1,
+                "description": "## Please use only this list to search for targets.\n\nDomains that are related to Red Bull and can be found on [this list](https://gist.github.com/RedBullSecurity/3eb88debcb01759eccf65ec2b799b340). \n- Submissions affecting other domains than the ones on the list will be out of scope. \n- Please stop enumerating Red Bull related domains, and work based on the list provided.\n\nAny subdomain not mentioned in this list, will be considered as out of scope."
+            },
+            {
+                "id": "241e17c8-13f9-4061-9d7b-6d5f0db310ae",
+                "type": 6,
+                "endpoint": "IOS and Android apps related to Red Bull",
+                "bountyTierId": 1,
+                "description": null
             }
         ]
     },
@@ -4102,189 +4112,6 @@
         ]
     },
     {
-        "programId": "c5a9bbd6-2139-4ec9-bdcc-8e2a5082fd7e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "arkane",
-        "companyName": "Venly",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "arkanenetwork",
-        "name": "Venly",
-        "description": "Venly wallet (previously Arkane Network) is a multi-blockchain wallet provider that builds an open network between individuals, ecosystems and dapps.\nVenly Market is the first-ever peer-to-peer NFT marketplace on Polygon, Binance Smart Chain, Avalanche and Hedera. On Venly Market, users can trade NFTs in a fully compliant environment. \nThanks to Venly Wallet, Market and NFT-tools, applications can tap into an entirely new revenue stream without having experience in blockchain engineering.",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 5000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680679710,
-        "lastSubmissionAt": 1695274074,
-        "logoId": "public_bucket_850cc899-eaf9-4a70-94eb-cfe396a18313-79784e95-0d14-4501-b370-a8269bcc938e",
-        "domains": [
-            {
-                "id": "a0b22c44-deba-4b1d-8a61-27567fe2752f",
-                "type": 1,
-                "endpoint": "events.venly.market",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "b49fcbb6-d32c-466b-a04c-3e5c867cd2fa",
-                "type": 1,
-                "endpoint": "events-staging.venly.market",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "9c5d77ce-413e-4399-be69-21bca31fcd9e",
-                "type": 1,
-                "endpoint": "api-wallet.venly.io",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "5ff698e3-3153-4971-a78e-87eeb013410d",
-                "type": 1,
-                "endpoint": "api.arkane.network",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "7e859270-4f84-48a0-ac62-9a59105a6bf9",
-                "type": 1,
-                "endpoint": "api.venly.market",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "20c163a2-634e-48a1-ac3f-3248c9ecc1e7",
-                "type": 1,
-                "endpoint": "connect.arkane.network ",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "658928f0-4fc6-4387-af22-9af3438c5587",
-                "type": 1,
-                "endpoint": "connect.venly.io",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "380b8126-4676-4f3f-b4ad-bf28bd9a6f66",
-                "type": 1,
-                "endpoint": "login.arkane.network",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "e7f3614d-1235-40bd-8dba-d02164334205",
-                "type": 1,
-                "endpoint": "venly.market",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "3ca857f0-6815-4681-baf4-79c501196170",
-                "type": 1,
-                "endpoint": "wallet.venly.io",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "41004cd5-7fd7-4472-b704-8631419df3a8",
-                "type": 1,
-                "endpoint": "api-staging.venly.market",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "bb775728-4f49-410e-b540-ac71bad27adf",
-                "type": 1,
-                "endpoint": "staging.venly.market",
-                "bountyTierId": 2,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "1cf88d51-7927-4747-af33-204f6f1c161f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "dhlgroup",
-        "companyName": "DHL Group",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "dhlvdp",
-        "name": "DHL Group Vulnerability Disclosure Program",
-        "description": "DHL Group is a global logistics company providing services in express delivery, freight transportation, supply chain management, e-commerce solutions, as well as postal and parcel services. As part of our commitment to security, we invite researchers to participate in our vulnerability disclosure program, helping us ensure protection of our systems. Join us in identifying and reporting potential vulnerabilities to maintain the highest standards of security for our customers and partners.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1690868850,
-        "lastSubmissionAt": 1695393513,
-        "logoId": "public_bucket_4a6a9c0f-8c8d-4fdc-a256-5a372aa062a7-12b659c7-a8bc-4075-a778-1c4f1ff003d2",
-        "domains": [
-            {
-                "id": "9feebc24-36fe-41e1-9115-4f41302496f4",
-                "type": 6,
-                "endpoint": "Mobile apps owned by DHL Group companies",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "c357e3ce-4e54-4180-802f-2722d851e81b",
-                "type": 1,
-                "endpoint": "*.deutschepost.de",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "0a702388-3527-401b-bbf2-34a6dcc4ecfb",
-                "type": 1,
-                "endpoint": "*.dhl",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "cb316855-a5ae-4b31-a31a-9a21bb9561f6",
-                "type": 1,
-                "endpoint": "*.dhl.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "faab290f-919e-4f48-98e9-376e4c3f54ad",
-                "type": 1,
-                "endpoint": "*.dhl.de",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "03098a9e-6a65-471c-a23a-3ba0ee544fda",
-                "type": 1,
-                "endpoint": "*.dpdhl.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "89b54ace-d887-427d-88f3-ce6a537185ee",
-                "type": 6,
-                "endpoint": "Any other domain from DHL Group companies",
-                "bountyTierId": 1,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "ed04d1ef-1aa3-49dd-92f1-06f50f9756b9",
         "status": 3,
         "confidentialityLevel": 4,
@@ -4485,62 +4312,185 @@
         ]
     },
     {
-        "programId": "67d5a491-4baa-4565-bdc9-962bcd5f5ddd",
+        "programId": "c5a9bbd6-2139-4ec9-bdcc-8e2a5082fd7e",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
+        "companyHandle": "arkane",
+        "companyName": "Venly",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "humo",
-        "name": "Humo",
-        "description": "Humo brings high-profile cover stories and revealing interviews and files. And that with a characteristic approach: reliable information, a critical attitude and a sense of humor and self-relativity. The reader is treated every week on articles about television, society, sports, culture and pop, sharp columns and quirky discussions of TV programs, books, films and music.",
+        "handle": "arkanenetwork",
+        "name": "Venly",
+        "description": "Venly wallet (previously Arkane Network) is a multi-blockchain wallet provider that builds an open network between individuals, ecosystems and dapps.\nVenly Market is the first-ever peer-to-peer NFT marketplace on Polygon, Binance Smart Chain, Avalanche and Hedera. On Venly Market, users can trade NFTs in a fully compliant environment. \nThanks to Venly Wallet, Market and NFT-tools, applications can tap into an entirely new revenue stream without having experience in blockchain engineering.",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 5000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680679710,
+        "lastSubmissionAt": 1695274074,
+        "logoId": "public_bucket_850cc899-eaf9-4a70-94eb-cfe396a18313-79784e95-0d14-4501-b370-a8269bcc938e",
+        "domains": [
+            {
+                "id": "a0b22c44-deba-4b1d-8a61-27567fe2752f",
+                "type": 1,
+                "endpoint": "events.venly.market",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "b49fcbb6-d32c-466b-a04c-3e5c867cd2fa",
+                "type": 1,
+                "endpoint": "events-staging.venly.market",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "9c5d77ce-413e-4399-be69-21bca31fcd9e",
+                "type": 1,
+                "endpoint": "api-wallet.venly.io",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "5ff698e3-3153-4971-a78e-87eeb013410d",
+                "type": 1,
+                "endpoint": "api.arkane.network",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "7e859270-4f84-48a0-ac62-9a59105a6bf9",
+                "type": 1,
+                "endpoint": "api.venly.market",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "20c163a2-634e-48a1-ac3f-3248c9ecc1e7",
+                "type": 1,
+                "endpoint": "connect.arkane.network ",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "658928f0-4fc6-4387-af22-9af3438c5587",
+                "type": 1,
+                "endpoint": "connect.venly.io",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "380b8126-4676-4f3f-b4ad-bf28bd9a6f66",
+                "type": 1,
+                "endpoint": "login.arkane.network",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "e7f3614d-1235-40bd-8dba-d02164334205",
+                "type": 1,
+                "endpoint": "venly.market",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "3ca857f0-6815-4681-baf4-79c501196170",
+                "type": 1,
+                "endpoint": "wallet.venly.io",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "41004cd5-7fd7-4472-b704-8631419df3a8",
+                "type": 1,
+                "endpoint": "api-staging.venly.market",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "bb775728-4f49-410e-b540-ac71bad27adf",
+                "type": 1,
+                "endpoint": "staging.venly.market",
+                "bountyTierId": 2,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "1cf88d51-7927-4747-af33-204f6f1c161f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "dhlgroup",
+        "companyName": "DHL Group",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "dhlvdp",
+        "name": "DHL Group Vulnerability Disclosure Program",
+        "description": "DHL Group is a global logistics company providing services in express delivery, freight transportation, supply chain management, e-commerce solutions, as well as postal and parcel services. As part of our commitment to security, we invite researchers to participate in our vulnerability disclosure program, helping us ensure protection of our systems. Join us in identifying and reporting potential vulnerabilities to maintain the highest standards of security for our customers and partners.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2000.0,
+            "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1690362189,
-        "lastSubmissionAt": 1694606713,
-        "logoId": "public_bucket_2b8e6133-a7a1-4169-ba40-05ca157067a6-a12ef89e-81fc-49ab-a0b5-06c3545f238e",
+        "lastUpdatedAt": 1690868850,
+        "lastSubmissionAt": 1695393513,
+        "logoId": "public_bucket_4a6a9c0f-8c8d-4fdc-a256-5a372aa062a7-12b659c7-a8bc-4075-a778-1c4f1ff003d2",
         "domains": [
             {
-                "id": "703bf7f9-b6d4-4905-a518-96bfa61c06ad",
-                "type": 1,
-                "endpoint": "myaccount.humo.be",
-                "bountyTierId": 3,
+                "id": "9feebc24-36fe-41e1-9115-4f41302496f4",
+                "type": 6,
+                "endpoint": "Mobile apps owned by DHL Group companies",
+                "bountyTierId": 1,
                 "description": null
             },
             {
-                "id": "ce55180d-b508-4d56-90a7-b6da2bf319b5",
+                "id": "c357e3ce-4e54-4180-802f-2722d851e81b",
                 "type": 1,
-                "endpoint": "shop.humo.be",
-                "bountyTierId": 3,
+                "endpoint": "*.deutschepost.de",
+                "bountyTierId": 1,
                 "description": null
             },
             {
-                "id": "e168371a-67e0-4b24-95a3-afb9df531fd9",
+                "id": "0a702388-3527-401b-bbf2-34a6dcc4ecfb",
                 "type": 1,
-                "endpoint": "www.humo.be",
-                "bountyTierId": 3,
-                "description": "excluding\n* humo.be/service\n* humo.be/inloggen\n* humo.be/login\n* humo.be/registreren"
-            },
-            {
-                "id": "8e35bbdf-de0c-4893-921b-1eab0e7fbec5",
-                "type": 1,
-                "endpoint": "www.humo.be/abonnementen",
-                "bountyTierId": 3,
+                "endpoint": "*.dhl",
+                "bountyTierId": 1,
                 "description": null
             },
             {
-                "id": "457492f0-73f0-416e-8a86-128e0f1d0ca6",
+                "id": "cb316855-a5ae-4b31-a31a-9a21bb9561f6",
                 "type": 1,
-                "endpoint": "*.humo.be",
-                "bountyTierId": 2,
-                "description": "excluding abonnement.humo.be"
+                "endpoint": "*.dhl.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "faab290f-919e-4f48-98e9-376e4c3f54ad",
+                "type": 1,
+                "endpoint": "*.dhl.de",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "03098a9e-6a65-471c-a23a-3ba0ee544fda",
+                "type": 1,
+                "endpoint": "*.dpdhl.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "89b54ace-d887-427d-88f3-ce6a537185ee",
+                "type": 6,
+                "endpoint": "Any other domain from DHL Group companies",
+                "bountyTierId": 1,
+                "description": null
             }
         ]
     },
@@ -4643,6 +4593,66 @@
                 "endpoint": "service-*.ibood.com",
                 "bountyTierId": 1,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "67d5a491-4baa-4565-bdc9-962bcd5f5ddd",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "humo",
+        "name": "Humo",
+        "description": "Humo brings high-profile cover stories and revealing interviews and files. And that with a characteristic approach: reliable information, a critical attitude and a sense of humor and self-relativity. The reader is treated every week on articles about television, society, sports, culture and pop, sharp columns and quirky discussions of TV programs, books, films and music.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1690362189,
+        "lastSubmissionAt": 1694606713,
+        "logoId": "public_bucket_2b8e6133-a7a1-4169-ba40-05ca157067a6-a12ef89e-81fc-49ab-a0b5-06c3545f238e",
+        "domains": [
+            {
+                "id": "703bf7f9-b6d4-4905-a518-96bfa61c06ad",
+                "type": 1,
+                "endpoint": "myaccount.humo.be",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "ce55180d-b508-4d56-90a7-b6da2bf319b5",
+                "type": 1,
+                "endpoint": "shop.humo.be",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "e168371a-67e0-4b24-95a3-afb9df531fd9",
+                "type": 1,
+                "endpoint": "www.humo.be",
+                "bountyTierId": 3,
+                "description": "excluding\n* humo.be/service\n* humo.be/inloggen\n* humo.be/login\n* humo.be/registreren"
+            },
+            {
+                "id": "8e35bbdf-de0c-4893-921b-1eab0e7fbec5",
+                "type": 1,
+                "endpoint": "www.humo.be/abonnementen",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "457492f0-73f0-416e-8a86-128e0f1d0ca6",
+                "type": 1,
+                "endpoint": "*.humo.be",
+                "bountyTierId": 2,
+                "description": "excluding abonnement.humo.be"
             }
         ]
     },
@@ -4798,6 +4808,87 @@
                 "endpoint": "www.delijn.be",
                 "bountyTierId": 1,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "92431bf9-ab3e-4e69-9619-c59f8e5193b1",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "voi",
+        "companyName": "Voi",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "voiscooters",
+        "name": "Voi Scooters",
+        "description": "Voi is europe's biggest micro-mobility operator based in Stockholm, Sweden. We manage a system of electrically powered scooters and bikes around urban centers. We provide an affordable, sustainable, and exhilarating way to commute while helping people to reduce their carbon footprint and cities to have a more sustainable transportation network. We are excited to work with and reward the community of security researchers to continuously improve our security position. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1685086647,
+        "lastSubmissionAt": 1695036116,
+        "logoId": "public_bucket_c88ca7fd-bc9b-4787-8772-6304d73a4188-28f7ba6c-3f60-4a42-9431-86843438579f",
+        "domains": [
+            {
+                "id": "005f7d15-56be-4438-b63e-199b93d6db03",
+                "type": 3,
+                "endpoint": "1395921017",
+                "bountyTierId": 4,
+                "description": "iOS Mobile Application"
+            },
+            {
+                "id": "496c0a21-2f7d-4e76-9345-ecbec91d3f44",
+                "type": 1,
+                "endpoint": "https://api.voiapp.io/",
+                "bountyTierId": 4,
+                "description": "Backend REST API"
+            },
+            {
+                "id": "e856acdc-41d5-4e50-a124-861631c1afef",
+                "type": 2,
+                "endpoint": "io.voiapp.voi",
+                "bountyTierId": 4,
+                "description": "Android Mobile Application"
+            },
+            {
+                "id": "3d214482-bcbc-4640-b83a-3885655f4520",
+                "type": 1,
+                "endpoint": "mds.voiapp.io",
+                "bountyTierId": 4,
+                "description": "Partner API as documented at https://docs.voiscooters.com/"
+            },
+            {
+                "id": "058953ad-cbd1-4d2c-9cb9-d5d3f038bcc9",
+                "type": 1,
+                "endpoint": "*.voiscooters.com",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "0d1f015a-1b5e-42db-b0fc-0594d46b1ad1",
+                "type": 1,
+                "endpoint": "report.voi.com",
+                "bountyTierId": 2,
+                "description": "Website to report badly parked scooters."
+            },
+            {
+                "id": "e5da831b-066d-41d6-8a02-95d20abf68a8",
+                "type": 1,
+                "endpoint": "voi.com",
+                "bountyTierId": 2,
+                "description": "Informational Website"
+            },
+            {
+                "id": "46b0cc7e-21b3-4226-955e-83ad3827e607",
+                "type": 1,
+                "endpoint": "www.voiscooters.com",
+                "bountyTierId": 2,
+                "description": "Informational Website"
             }
         ]
     },
@@ -5608,59 +5699,6 @@
         ]
     },
     {
-        "programId": "5c7a8f79-a23b-4367-a2c6-63a2d48586ee",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "hetlaatstenieuws",
-        "name": "Het Laatste Nieuws",
-        "description": "HLN.be is the number one news site in Flanders. 24/7 news with a focus on current events, sports and entertainment. The editors know how to keep their finger on the pulse at all times: on average every 4 minutes a new article appears on the news site. Readers consume their news more and more fragmented through their social media, so it is important for HLN to stay top of mind with its own app.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1690361673,
-        "lastSubmissionAt": 1695251012,
-        "logoId": "public_bucket_b0527ff0-8be6-4f41-b82b-e8ad4bf44465-d90dd568-154a-4345-88e4-4cd5231943d2",
-        "domains": [
-            {
-                "id": "8ce77270-e090-4a7d-88ab-be08f1b3afb1",
-                "type": 1,
-                "endpoint": "hln.be",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "1da5bea7-5746-4ce3-978e-73bc62c1bf65",
-                "type": 1,
-                "endpoint": "myaccount.hln.be",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "94a4bab9-ec67-4c3b-a8b8-c6b71808e044",
-                "type": 1,
-                "endpoint": "www.hln.be",
-                "bountyTierId": 3,
-                "description": "excluding\n* hln.be/service\n* hln.be/inloggen\n* hln.be/login\n* hln.be/registreren"
-            },
-            {
-                "id": "c85cbba1-eefe-4cf3-b5b5-f52073e1eb8f",
-                "type": 1,
-                "endpoint": "*.hln.be",
-                "bountyTierId": 2,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "4afd6f0f-40a3-4f6d-a332-56b5970d12a0",
         "status": 3,
         "confidentialityLevel": 4,
@@ -5738,6 +5776,59 @@
                 "endpoint": "194.9.120.0 - 194.9.123.255",
                 "bountyTierId": 1,
                 "description": "- This is our public IP range used for systems located in the DMZ. (Sub)domains listed above may point to IPs in this range but there are also other types of assets such as network devices.\n- For assets requiring authentication, please refer to the FAQ section"
+            }
+        ]
+    },
+    {
+        "programId": "5c7a8f79-a23b-4367-a2c6-63a2d48586ee",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "dpgm",
+        "companyName": "DPG Media",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "hetlaatstenieuws",
+        "name": "Het Laatste Nieuws",
+        "description": "HLN.be is the number one news site in Flanders. 24/7 news with a focus on current events, sports and entertainment. The editors know how to keep their finger on the pulse at all times: on average every 4 minutes a new article appears on the news site. Readers consume their news more and more fragmented through their social media, so it is important for HLN to stay top of mind with its own app.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1690361673,
+        "lastSubmissionAt": 1695251012,
+        "logoId": "public_bucket_b0527ff0-8be6-4f41-b82b-e8ad4bf44465-d90dd568-154a-4345-88e4-4cd5231943d2",
+        "domains": [
+            {
+                "id": "8ce77270-e090-4a7d-88ab-be08f1b3afb1",
+                "type": 1,
+                "endpoint": "hln.be",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "1da5bea7-5746-4ce3-978e-73bc62c1bf65",
+                "type": 1,
+                "endpoint": "myaccount.hln.be",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "94a4bab9-ec67-4c3b-a8b8-c6b71808e044",
+                "type": 1,
+                "endpoint": "www.hln.be",
+                "bountyTierId": 3,
+                "description": "excluding\n* hln.be/service\n* hln.be/inloggen\n* hln.be/login\n* hln.be/registreren"
+            },
+            {
+                "id": "c85cbba1-eefe-4cf3-b5b5-f52073e1eb8f",
+                "type": 1,
+                "endpoint": "*.hln.be",
+                "bountyTierId": 2,
+                "description": null
             }
         ]
     },
@@ -6108,66 +6199,6 @@
         ]
     },
     {
-        "programId": "82be1e9b-f9ab-45e7-82fd-9ba65be37645",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "randstad",
-        "companyName": "Randstad",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "tempo-team",
-        "name": "Tempo-Team ",
-        "description": "Tempo-Team offers daily new and varied jobs for every level and field.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1694086761,
-        "lastSubmissionAt": 1694942310,
-        "logoId": "public_bucket_0e7a65d1-e8e0-411d-b488-968279435a72-f7ace1ae-ef14-4fa4-b7fc-4e9dd427e55c",
-        "domains": [
-            {
-                "id": "7f2ab2a4-1066-4d7e-bea4-ec9d1435248a",
-                "type": 1,
-                "endpoint": "*.tempo-team.*",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "3c6f1c58-7fdc-4675-aa13-2c99beae870f",
-                "type": 1,
-                "endpoint": "Any related Tempo-Team domain",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "963c1eda-8ab5-46bb-ba48-acf736d0f2a1",
-                "type": 1,
-                "endpoint": "www.tempo-team.be",
-                "bountyTierId": 3,
-                "description": "\ud83c\uddf3\ud83c\uddf1\ud83c\uddeb\ud83c\uddf7"
-            },
-            {
-                "id": "53209b14-ef49-4205-b694-11c3e213d586",
-                "type": 1,
-                "endpoint": "www.tempo-team.com",
-                "bountyTierId": 3,
-                "description": "\ud83c\udde9\ud83c\uddea"
-            },
-            {
-                "id": "967240b5-31d8-4321-8df8-4135a5c499d4",
-                "type": 1,
-                "endpoint": "www.tempo-team.nl",
-                "bountyTierId": 3,
-                "description": "\ud83c\uddf3\ud83c\uddf1"
-            }
-        ]
-    },
-    {
         "programId": "5ae71f99-d61e-42d2-b74e-b218530bb3b5",
         "status": 3,
         "confidentialityLevel": 4,
@@ -6308,6 +6339,66 @@
                 "endpoint": "vikinglab.be",
                 "bountyTierId": 1,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "82be1e9b-f9ab-45e7-82fd-9ba65be37645",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "randstad",
+        "companyName": "Randstad",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "tempo-team",
+        "name": "Tempo-Team ",
+        "description": "Tempo-Team offers daily new and varied jobs for every level and field.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1694086761,
+        "lastSubmissionAt": 1694942310,
+        "logoId": "public_bucket_0e7a65d1-e8e0-411d-b488-968279435a72-f7ace1ae-ef14-4fa4-b7fc-4e9dd427e55c",
+        "domains": [
+            {
+                "id": "7f2ab2a4-1066-4d7e-bea4-ec9d1435248a",
+                "type": 1,
+                "endpoint": "*.tempo-team.*",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "3c6f1c58-7fdc-4675-aa13-2c99beae870f",
+                "type": 1,
+                "endpoint": "Any related Tempo-Team domain",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "963c1eda-8ab5-46bb-ba48-acf736d0f2a1",
+                "type": 1,
+                "endpoint": "www.tempo-team.be",
+                "bountyTierId": 3,
+                "description": "\ud83c\uddf3\ud83c\uddf1\ud83c\uddeb\ud83c\uddf7"
+            },
+            {
+                "id": "53209b14-ef49-4205-b694-11c3e213d586",
+                "type": 1,
+                "endpoint": "www.tempo-team.com",
+                "bountyTierId": 3,
+                "description": "\ud83c\udde9\ud83c\uddea"
+            },
+            {
+                "id": "967240b5-31d8-4321-8df8-4135a5c499d4",
+                "type": 1,
+                "endpoint": "www.tempo-team.nl",
+                "bountyTierId": 3,
+                "description": "\ud83c\uddf3\ud83c\uddf1"
             }
         ]
     },
@@ -7051,6 +7142,66 @@
         ]
     },
     {
+        "programId": "b0de5cde-9841-464a-9d6b-642824f00dc6",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "sixt",
+        "companyName": "Sixt",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "sixt",
+        "name": "Sixt",
+        "description": "With more than 6,900 employees worldwide, SIXT combines global car rental and local share solutions, ride hailing-services as well as car subscriptions in one of the world\u2019s largest mobility platforms. With just one app \u2013 the SIXT App \u2013 we offer our customers digital access to more than 200,000 vehicles and around 1.5 million connected drivers in approximately 110 countries worldwide. Besides its own range of vehicles, SIXT also integrates services from more than 1,500 mobility partners.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1686830817,
+        "lastSubmissionAt": 1692747492,
+        "logoId": "public_bucket_fc0eab06-2754-4197-9dc3-96ed81169dd0-55df5d11-2fe0-4f0a-8956-27d9f4bcee73",
+        "domains": [
+            {
+                "id": "22e505ba-f5db-42c2-a106-9e5945594c12",
+                "type": 1,
+                "endpoint": "*.sixt.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "3aa14891-1569-472d-8bf5-c5a414665596",
+                "type": 1,
+                "endpoint": "*.sixt.de",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "9b70b084-aac9-46f5-81fb-1566df35d788",
+                "type": 3,
+                "endpoint": "295079411",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "f9ae33ba-1e41-415b-9a66-4fca995df9d5",
+                "type": 1,
+                "endpoint": "Any related sixt domain",
+                "bountyTierId": 1,
+                "description": "Please find a full list of in scope domains i[n this link](https://app.intigriti.com/downloads/customers/sixt/SixtDomainsList.xlsx)"
+            },
+            {
+                "id": "f07573b2-b238-4748-9501-7b3bd865ef70",
+                "type": 2,
+                "endpoint": "com.sixt.reservation",
+                "bountyTierId": 1,
+                "description": null
+            }
+        ]
+    },
+    {
         "programId": "d5c4e966-a80a-44f5-91c9-2bb9487b8762",
         "status": 3,
         "confidentialityLevel": 4,
@@ -7171,62 +7322,16 @@
         ]
     },
     {
-        "programId": "e6386eb8-ce59-43b5-98b6-f1590cafdceb",
+        "programId": "bbc2d49d-6b11-40af-9746-aefa64756928",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "dpgm",
-        "companyName": "DPG Media",
+        "companyHandle": "randstad",
+        "companyName": "Randstad",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "tweakers",
-        "name": "Tweakers",
-        "description": "Tweakers is a Dutch technology website featuring news and information about hardware, software and the Internet. We take security very serious as many of our users use our site as a trusted source. Therefore we have decided to collaborate with ethical hackers that can inform us about potential vulnerabilities in our systems. If you happen to find a vulnerability we'd be more than happy to hear about it and, if its impact is significant enough, award you a bounty as token of appreciation.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1690362354,
-        "lastSubmissionAt": 1689668849,
-        "logoId": "public_bucket_e4ecd474-39ef-4cee-beb0-d1567c8f92c6-c97e4730-df9f-4bac-8ade-9f715372eacb",
-        "domains": [
-            {
-                "id": "64651c48-532b-414b-8e81-ba0a234bed43",
-                "type": 1,
-                "endpoint": "*.tweakblogs.net",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "cfc0d03d-cba2-4131-a9f8-72b152254fc6",
-                "type": 1,
-                "endpoint": "*.tweakers.net",
-                "bountyTierId": 3,
-                "description": "Out of scope: elect.tweakers.net"
-            },
-            {
-                "id": "5f17da1f-84f1-40ba-845a-1fe733d766a6",
-                "type": 1,
-                "endpoint": "*.tweakimg.net",
-                "bountyTierId": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "b0de5cde-9841-464a-9d6b-642824f00dc6",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "sixt",
-        "companyName": "Sixt",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "sixt",
-        "name": "Sixt",
-        "description": "With more than 6,900 employees worldwide, SIXT combines global car rental and local share solutions, ride hailing-services as well as car subscriptions in one of the world\u2019s largest mobility platforms. With just one app \u2013 the SIXT App \u2013 we offer our customers digital access to more than 200,000 vehicles and around 1.5 million connected drivers in approximately 110 countries worldwide. Besides its own range of vehicles, SIXT also integrates services from more than 1,500 mobility partners.",
+        "handle": "yacht",
+        "name": "Yacht",
+        "description": "Yacht is number one in connecting professionals.",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -7235,160 +7340,16 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1686830817,
-        "lastSubmissionAt": 1692747492,
-        "logoId": "public_bucket_fc0eab06-2754-4197-9dc3-96ed81169dd0-55df5d11-2fe0-4f0a-8956-27d9f4bcee73",
+        "lastUpdatedAt": 1694086832,
+        "lastSubmissionAt": 1694133784,
+        "logoId": "public_bucket_5cb5b133-026d-4175-b1ac-b3ef96445e27-24333ebe-846a-478a-9044-6a0d1b5a6402",
         "domains": [
             {
-                "id": "22e505ba-f5db-42c2-a106-9e5945594c12",
+                "id": "8029bcbc-ded4-4be2-85d3-93254aad13d1",
                 "type": 1,
-                "endpoint": "*.sixt.com",
-                "bountyTierId": 1,
+                "endpoint": "*.yacht.nl",
+                "bountyTierId": 3,
                 "description": null
-            },
-            {
-                "id": "3aa14891-1569-472d-8bf5-c5a414665596",
-                "type": 1,
-                "endpoint": "*.sixt.de",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "9b70b084-aac9-46f5-81fb-1566df35d788",
-                "type": 3,
-                "endpoint": "295079411",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "f9ae33ba-1e41-415b-9a66-4fca995df9d5",
-                "type": 1,
-                "endpoint": "Any related sixt domain",
-                "bountyTierId": 1,
-                "description": "Please find a full list of in scope domains i[n this link](https://app.intigriti.com/downloads/customers/sixt/SixtDomainsList.xlsx)"
-            },
-            {
-                "id": "f07573b2-b238-4748-9501-7b3bd865ef70",
-                "type": 2,
-                "endpoint": "com.sixt.reservation",
-                "bountyTierId": 1,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "1e325f65-37de-4094-9079-217e27cab00b",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "wpengine",
-        "companyName": "WP Engine",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "wpengine",
-        "name": "WP Engine",
-        "description": "WP Engine invites you to test the WP Engine and Flywheel Digital Experience Platforms. WP Engine equips its customers with a suite of agility, performance, intelligence, and integration solutions, so you can build and deploy a range of online experiences from campaign sites to content hubs to e-commerce extensions. Good luck and happy hunting!",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1688068130,
-        "lastSubmissionAt": 1695337076,
-        "logoId": "public_bucket_ca191b69-f69c-48d3-b1a9-90f13d7c01e4-665898c6-a594-4163-bf57-691a42c8f215",
-        "domains": [
-            {
-                "id": "96852456-df82-4794-92a6-35f1eff20cb4",
-                "type": 6,
-                "endpoint": "WP Engine-developed WordPress Plugins and Themes",
-                "bountyTierId": 1,
-                "description": "We accept any reports of vulnerabilities in plugins or themes managed or developed by WP Engine, with the exception of any application-level vulnerabilities in the Out of Scope section below.  These free versions closely mirror their paid counterparts, so any vulnerabilities discovered should be applicable to both the paid or free plugins.\n\nWe also accept reports for the following Delicious Brains plugins:\nhttps://wordpress.org/plugins/advanced-custom-fields\n"
-            },
-            {
-                "id": "eb01f4c7-fd39-42ba-b186-f3933a681473",
-                "type": 1,
-                "endpoint": "*. advancedcustomfields.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "2a33486a-de01-4d6a-a276-08e15df88b8e",
-                "type": 1,
-                "endpoint": "*. bettersearchreplace.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "836df627-6e13-4476-9ea6-fc2cb03cb8fc",
-                "type": 1,
-                "endpoint": "*.deliciousbrains.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "e542485d-1138-475e-856d-1e2c9e2e9e90",
-                "type": 1,
-                "endpoint": "*.studiopress.com",
-                "bountyTierId": 1,
-                "description": "The studiopress.com, www.studiopress.com, and my.studiopress.com sites are public facing marketing and WordPress theme e-commerce sites. **No credentials will be provided.** Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
-            },
-            {
-                "id": "3a14fea5-bdfb-4c5d-91b7-b8f022c62de5",
-                "type": 1,
-                "endpoint": "*.wpengine.io",
-                "bountyTierId": 1,
-                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpengine.io"
-            },
-            {
-                "id": "a45a6477-169f-4e6a-9752-df43ee4145b6",
-                "type": 1,
-                "endpoint": "*.wpesvc.net",
-                "bountyTierId": 1,
-                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpesvc.net"
-            },
-            {
-                "id": "175f2846-fa9e-4f79-a839-263adf6b5120",
-                "type": 1,
-                "endpoint": "app.getflywheel.com",
-                "bountyTierId": 1,
-                "description": "This is the primary site for researchers to register and test both the Flywheel App as well as the Flywheel Platform. We will not provide credentials or bypass verification controls (i.e, a researcher will need to either provide a valid phone number or credit card to have a live site), but a researcher may register a demo site that matches the platform's functionality without verification. **Please use your Intigriti credentials to register.** Please note that any issues regarding an individual WordPress installation on the Flywheel platform, outside of plugins owned by WP Engine/Flywheel, will be considered out of scope as we do not monitor or manage customer content. We are, however, very interested in issues that may compromise customer isolation on the platform or cause data to be leaked from either a host or an unrelated customer site."
-            },
-            {
-                "id": "f5568849-5260-4b8b-b84c-09c7ac974f14",
-                "type": 1,
-                "endpoint": "getflywheel.com",
-                "bountyTierId": 1,
-                "description": "This site is the landing page for Flywheel-branded services. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality or https://getflywheel.com/schedule-a-demo/. No testing should be done against these targets or any 3rd party services. Please do not contact Live Chat agents."
-            },
-            {
-                "id": "891e0947-7e46-4cc3-bc0a-3819ba604ea2",
-                "type": 1,
-                "endpoint": "my.wpengine.com",
-                "bountyTierId": 1,
-                "description": "The User Portal for WP Engine. Customers manage their WordPress sites, addons, and billing details through this portal. **No credentials will be provided**. Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
-            },
-            {
-                "id": "1060f173-c743-4b9a-b169-3ff4786cb122",
-                "type": 1,
-                "endpoint": "spressforumstg.wpengine.com",
-                "bountyTierId": 1,
-                "description": "the staging environment for the StudioPress community forum, built on WordPress. Researchers are welcome to register an account using their @intigriti.me email address, but should refrain from interacting with the community, making public posts, or performing automated testing which may cause disruption. Do not attempt to gain access to any user accounts not under your control."
-            },
-            {
-                "id": "19c28892-2038-4327-954d-3d02632746d5",
-                "type": 1,
-                "endpoint": "studiopress.blog",
-                "bountyTierId": 1,
-                "description": "This is a public-facing marketing site built on WordPress. Most of the content on this site consists of static blog posts."
-            },
-            {
-                "id": "cc0ac479-c294-44a3-bb27-2c6b18b1a5fb",
-                "type": 1,
-                "endpoint": "wpengine.com",
-                "bountyTierId": 1,
-                "description": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality and wpengine.com/contact/. No testing should be done against these targets or any 3rd party services."
             }
         ]
     },
@@ -7531,6 +7492,52 @@
         ]
     },
     {
+        "programId": "67f303d5-5c5b-44ec-a278-874f818fbc48",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "nestl\u00e9",
+        "companyName": "Nestl\u00e9",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "nestl\u00e9vdp",
+        "name": "Nestl\u00e9 VDP",
+        "description": "In Nestl\u00e9 we believe in the power of food to enhance quality of life for everyone, today and for generations to come.\n\nIT Security is a top priority for us, we are committed to work with security researchers across the globe to help protect our systems and our customers' data from malicious activity and to further improve cyber security across our organization.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1689860969,
+        "lastSubmissionAt": 1695392087,
+        "logoId": "public_bucket_4dd308c0-99e3-495c-9005-54145a97d07b-5d1ee689-2259-4f4b-a015-418c7d2de517",
+        "domains": [
+            {
+                "id": "bbccca15-9139-4e30-a20f-45f9450a0d95",
+                "type": 5,
+                "endpoint": "Any IoT device sold by Nestl\u00e9 Brands",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "3fa89f50-1bd8-46e1-8ba7-3019cd2d5051",
+                "type": 1,
+                "endpoint": "*.nestle.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "ab75d552-4297-4b9b-96b1-d653ddd11ddf",
+                "type": 1,
+                "endpoint": "Any domain related to Nestl\u00e9 brands",
+                "bountyTierId": 1,
+                "description": "You can find the Nestl\u00e9 brands in scope [in this link](https://www.nestle.com/brands)."
+            }
+        ]
+    },
+    {
         "programId": "cefc1013-9927-4e4a-b306-e5d57f06d34a",
         "status": 3,
         "confidentialityLevel": 4,
@@ -7593,84 +7600,6 @@
                 "type": 1,
                 "endpoint": "hubacc.vznkul.be/*",
                 "bountyTierId": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "67f303d5-5c5b-44ec-a278-874f818fbc48",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "nestl\u00e9",
-        "companyName": "Nestl\u00e9",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "nestl\u00e9vdp",
-        "name": "Nestl\u00e9 VDP",
-        "description": "In Nestl\u00e9 we believe in the power of food to enhance quality of life for everyone, today and for generations to come.\n\nIT Security is a top priority for us, we are committed to work with security researchers across the globe to help protect our systems and our customers' data from malicious activity and to further improve cyber security across our organization.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1689860969,
-        "lastSubmissionAt": 1695392087,
-        "logoId": "public_bucket_4dd308c0-99e3-495c-9005-54145a97d07b-5d1ee689-2259-4f4b-a015-418c7d2de517",
-        "domains": [
-            {
-                "id": "bbccca15-9139-4e30-a20f-45f9450a0d95",
-                "type": 5,
-                "endpoint": "Any IoT device sold by Nestl\u00e9 Brands",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "3fa89f50-1bd8-46e1-8ba7-3019cd2d5051",
-                "type": 1,
-                "endpoint": "*.nestle.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "ab75d552-4297-4b9b-96b1-d653ddd11ddf",
-                "type": 1,
-                "endpoint": "Any domain related to Nestl\u00e9 brands",
-                "bountyTierId": 1,
-                "description": "You can find the Nestl\u00e9 brands in scope [in this link](https://www.nestle.com/brands)."
-            }
-        ]
-    },
-    {
-        "programId": "540e04bb-ae56-49cd-8e05-311a08ba44f7",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "ing",
-        "companyName": "ING",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "ing-responsible-disclosure",
-        "name": "ING Responsible Disclosure",
-        "description": "Responsible Disclosure indicates ING\u2019s continued commitment to improve its security posture. As part of this process, we work closely with security researchers to identify and report vulnerabilities they find within our systems.\n\nING appreciates security researchers efforts in reporting vulnerabilities on its systems as long as the discovered vulnerability is in scope, detected without the use of intrusive testing techniques, and follows the disclosure guidelines below:",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1686831261,
-        "lastSubmissionAt": 1691183356,
-        "logoId": "public_bucket_bd19ddaf-1f29-48a0-aa34-363240b04688-370c546b-afb8-42e8-84ee-1400c21a4258",
-        "domains": [
-            {
-                "id": "98de6573-6c8d-43ad-b6e3-22537a4572b9",
-                "type": 6,
-                "endpoint": "Any ING (sub)domain",
-                "bountyTierId": 1,
                 "description": null
             }
         ]
@@ -7801,6 +7730,38 @@
                 "type": 1,
                 "endpoint": "*.tomorrowland.com",
                 "bountyTierId": 2,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "540e04bb-ae56-49cd-8e05-311a08ba44f7",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "ing",
+        "companyName": "ING",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "ing-responsible-disclosure",
+        "name": "ING Responsible Disclosure",
+        "description": "Responsible Disclosure indicates ING\u2019s continued commitment to improve its security posture. As part of this process, we work closely with security researchers to identify and report vulnerabilities they find within our systems.\n\nING appreciates security researchers efforts in reporting vulnerabilities on its systems as long as the discovered vulnerability is in scope, detected without the use of intrusive testing techniques, and follows the disclosure guidelines below:",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1686831261,
+        "lastSubmissionAt": 1691183356,
+        "logoId": "public_bucket_bd19ddaf-1f29-48a0-aa34-363240b04688-370c546b-afb8-42e8-84ee-1400c21a4258",
+        "domains": [
+            {
+                "id": "98de6573-6c8d-43ad-b6e3-22537a4572b9",
+                "type": 6,
+                "endpoint": "Any ING (sub)domain",
+                "bountyTierId": 1,
                 "description": null
             }
         ]
@@ -7979,6 +7940,59 @@
         ]
     },
     {
+        "programId": "10eb5e95-08e2-4f4e-8d22-f8c600a7acff",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intel",
+        "companyName": "Intel",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "intel",
+        "name": "Intel\u00ae",
+        "description": "Intel\u00ae Bug Bounty Program\nIntel Corporation believes that forging relationships with security researchers and fostering security research is a crucial part of our Security First Pledge. We encourage security researchers to work with us to mitigate and coordinate the disclosure of potential security vulnerabilities. By submitting your report, you agree to the terms of the Intel\u00ae Bug Bounty Program. Intel reserves the right to alter the terms and conditions of this program at its sole discretion.\n",
+        "minBounty": {
+            "value": 500.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 100000.0,
+            "currency": "USD"
+        },
+        "lastUpdatedAt": 1688138654,
+        "lastSubmissionAt": 1695387841,
+        "logoId": "public_bucket_dfb4b18d-a540-4385-82fc-29a69c3800a6-bcbf0c63-dace-406b-809e-689dd1d2023f",
+        "domains": [
+            {
+                "id": "dd6d5718-737b-44f3-a833-fa74d0462f1f",
+                "type": 6,
+                "endpoint": "Hardware",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "92208b24-3ef0-43dc-9314-f3af05929360",
+                "type": 6,
+                "endpoint": "Firmware",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "9ddd704e-ea3a-463d-878d-6b80342f685a",
+                "type": 6,
+                "endpoint": "Software",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "9898bc2c-6e8f-4d11-af00-5072e77c15f8",
+                "type": 1,
+                "endpoint": "*.intel.com",
+                "bountyTierId": 1,
+                "description": "**Intel's Web Infrastructure, i.e.`*.intel.com`**\nIntel\u2019s web infrastructure, i.e., website domains owned and/or operated by Intel, fall **Out of Scope**. These reports are not eligible for rewards of any kind. \nPlease send security vulnerability reports against intel.com and/or related web presence to external.security.research@intel.com"
+            }
+        ]
+    },
+    {
         "programId": "56339d19-36cc-49a0-8e8f-b2502e00d165",
         "status": 3,
         "confidentialityLevel": 4,
@@ -8081,59 +8095,6 @@
                 "endpoint": "Zero days that affect Intigriti or participating customers (listed below)",
                 "bountyTierId": 3,
                 "description": null
-            }
-        ]
-    },
-    {
-        "programId": "10eb5e95-08e2-4f4e-8d22-f8c600a7acff",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intel",
-        "companyName": "Intel",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "intel",
-        "name": "Intel\u00ae",
-        "description": "Intel\u00ae Bug Bounty Program\nIntel Corporation believes that forging relationships with security researchers and fostering security research is a crucial part of our Security First Pledge. We encourage security researchers to work with us to mitigate and coordinate the disclosure of potential security vulnerabilities. By submitting your report, you agree to the terms of the Intel\u00ae Bug Bounty Program. Intel reserves the right to alter the terms and conditions of this program at its sole discretion.\n",
-        "minBounty": {
-            "value": 500.0,
-            "currency": "USD"
-        },
-        "maxBounty": {
-            "value": 100000.0,
-            "currency": "USD"
-        },
-        "lastUpdatedAt": 1688138654,
-        "lastSubmissionAt": 1695387841,
-        "logoId": "public_bucket_dfb4b18d-a540-4385-82fc-29a69c3800a6-bcbf0c63-dace-406b-809e-689dd1d2023f",
-        "domains": [
-            {
-                "id": "dd6d5718-737b-44f3-a833-fa74d0462f1f",
-                "type": 6,
-                "endpoint": "Hardware",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "92208b24-3ef0-43dc-9314-f3af05929360",
-                "type": 6,
-                "endpoint": "Firmware",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "9ddd704e-ea3a-463d-878d-6b80342f685a",
-                "type": 6,
-                "endpoint": "Software",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "9898bc2c-6e8f-4d11-af00-5072e77c15f8",
-                "type": 1,
-                "endpoint": "*.intel.com",
-                "bountyTierId": 1,
-                "description": "**Intel's Web Infrastructure, i.e.`*.intel.com`**\nIntel\u2019s web infrastructure, i.e., website domains owned and/or operated by Intel, fall **Out of Scope**. These reports are not eligible for rewards of any kind. \nPlease send security vulnerability reports against intel.com and/or related web presence to external.security.research@intel.com"
             }
         ]
     },
@@ -8272,6 +8233,45 @@
                 "endpoint": "JupyterLab",
                 "bountyTierId": 3,
                 "description": "**JupyterLab**\n\nJupyterLab is a highly extensible, feature-rich notebook authoring application and editing environment.\n\n* [Documentation](https://jupyterlab.readthedocs.io/)\n* [Installation](https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html)\n* [Latest package release](https://pypi.org/project/jupyterlab/)\n* Versions in scope: >= 4.0.2"
+            }
+        ]
+    },
+    {
+        "programId": "ecf9c610-36eb-47df-8b25-bb496aff8015",
+        "status": 4,
+        "confidentialityLevel": 4,
+        "companyHandle": "uz leuven",
+        "companyName": "UZ Leuven",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "nexuzhealthwebpacs",
+        "name": "Nexuzhealth Web PACS",
+        "description": "This website is used to provide patient access to their radiology images (PACS).\n\nPatients logon with their date of birth, and a unique code provided to them by the physician.\nThis code provides access to one study.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 1000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1695429225,
+        "lastSubmissionAt": 1695429210,
+        "logoId": "public_bucket_387d8426-8bae-4abf-99f7-38e0de81fbb8-b0db85bc-afde-417e-bd60-ec0091f7a0ad",
+        "domains": [
+            {
+                "id": "3fffb516-5509-49a9-a3f1-06745dec39a0",
+                "type": 1,
+                "endpoint": " idp-contact.nexuzhealth.be",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "2e3cdd39-9b4a-40d2-928f-7cd3254eaa04",
+                "type": 1,
+                "endpoint": "media.nexuzhealth.be/patient/ ",
+                "bountyTierId": 3,
+                "description": null
             }
         ]
     }
