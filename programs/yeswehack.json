@@ -65,8 +65,8 @@
         ]
     },
     {
-        "title": "OVO Bug Bounty Program",
-        "slug": "ovo-bug-bounty-program",
+        "title": "Mon Espace Sant\u00e9 (MES)",
+        "slug": "mon-espace-sante-mes",
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
@@ -81,56 +81,236 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 89,
+        "reports_count": 75,
         "bounty_reward_min": 50,
-        "bounty_reward_max": 5000,
-        "scopes_count": 4,
+        "bounty_reward_max": 8000,
+        "scopes_count": 34,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "ec0aa051-1b0e-4159-a449-d8eadc551b4d",
-            "original_name": "ovo.jpeg",
+            "name": "72edd5b8-ed39-40a8-918f-337dd6485bc9",
+            "original_name": "mes-programthumbnail.jpg",
             "mime_type": "image/jpeg",
-            "size": 19506,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/ec0aa051-1b0e-4159-a449-d8eadc551b4d"
+            "size": 193603,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/72edd5b8-ed39-40a8-918f-337dd6485bc9"
         },
         "event": null,
         "business_unit": {
-            "name": "OVO",
-            "slug": "ovo",
-            "description": "OVO is a leading Indonesian payments, rewards and financial services platform. OVO is now available in 115 million devices with access to payments, transfers, cash-in/out, rewards, asset management and investments.",
-            "currency": "USD",
+            "name": "Caisse Nationale de l'Assurance maladie",
+            "slug": "cnam",
+            "description": "Caisse Nationale de l'Assurance maladie",
+            "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": "90678116-c313-4bef-887f-38a41a6ac844",
-                "original_name": "1519877687667.jpeg",
-                "mime_type": "image/jpeg",
-                "size": 5415,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/90678116-c313-4bef-887f-38a41a6ac844"
+                "name": "7ca44edf-062f-4275-bf57-69d0eee181d4",
+                "original_name": "am30px.png",
+                "mime_type": "image/png",
+                "size": 34281,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7ca44edf-062f-4275-bf57-69d0eee181d4"
             }
         },
         "scopes": [
             {
-                "scope": "https://play.google.com/store/apps/details?id=ovo.id",
-                "scope_type": "mobile-application-android",
+                "scope": "www.monespacesante.fr",
+                "scope_type": "web-application",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://apps.apple.com/ID/app/id1142114207",
+                "scope": "admincms.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "adminstore.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "api.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "auth.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "cms.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "editeur.api.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "editeurs.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "knowage.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "support.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "api.editeur.preprod.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "api.preprod.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "auth.preprod.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.api.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.auth.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.editeur.api.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod1.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod2.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "securite.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "editeur.am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "am.editeur.preprod.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "am.preprod.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.editeur.am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "www.preprod.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.preprod1.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.preprod2.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "www.editeur.am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "www.editeur.api.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "apps.apple.com/fr/app/mon-espace-sant%C3%A9/id1589255019 (iOS)",
                 "scope_type": "mobile-application-ios",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "*.ovo.id",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.taralite.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
+                "scope": "play.google.com/store/apps/details?id=fr.assurancemaladie.monespacesante&showAllReviews=true (Android)",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -498,6 +678,185 @@
         ]
     },
     {
+        "title": "VFS Global Bug Bounty Program",
+        "slug": "vfs-global-bug-bounty-program",
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 600,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 1500,
+        "scopes_count": 22,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "1fbbc14c-7938-48e8-b78e-dd478048dde2",
+            "original_name": "vfs-global.jpg",
+            "mime_type": "image/jpeg",
+            "size": 36470,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/1fbbc14c-7938-48e8-b78e-dd478048dde2"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "VFS GLOBAL SERVICES PVT. LTD.",
+            "slug": "vfs-global-services-pvt-ltd",
+            "description": "VFS GLOBAL SERVICES PVT. LTD.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "aca47786-81f9-4a0b-a7f1-1c23177d11d1",
+                "original_name": "0x0.png",
+                "mime_type": "image/png",
+                "size": 56676,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/aca47786-81f9-4a0b-a7f1-1c23177d11d1"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.vfsglobal.(com|co.uk|ca)",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vfsevisa.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.vfstasheel.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "agents.vfstasheel.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "onevasco.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.vascoworldwide.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.vfsvisaonline.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.dvpc.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.vfsvisaservicesrussia.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "vfstasheer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.directverify.in",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.docswallet.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "biometservices.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "agents.tasheer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/Global-Admin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://rusadminappt.vfsglobal.com/Global-Admin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://equatorialguinea-evisa.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "ZTE Products Bug Bounty Program",
         "slug": "zte-products-bug-bounty-program",
         "type": "bug-bounty",
@@ -546,191 +905,6 @@
                 "scope": "Products in Scope (see https://www.zte.com.cn/global/cybersecurity/ztepsirt/bug-bounty/products.html for more details)",
                 "scope_type": "other",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Pine Labs Bug Bounty Program",
-        "slug": "pine-labs-bug-bounty-program",
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 146,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 23,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "525979cd-cb9d-41f0-8b02-04d0a348a32b",
-            "original_name": "index.jpg",
-            "mime_type": "image/jpeg",
-            "size": 3200,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/525979cd-cb9d-41f0-8b02-04d0a348a32b"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Pine Labs Pvt Ltd",
-            "slug": "pine-labs-pvt-ltd",
-            "description": "Payment Services for Retail Merchant",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "73fb6711-2053-47d2-b586-509bf0ec44d5",
-                "original_name": "PL_tagline_Logo_Original_color.png",
-                "mime_type": "image/png",
-                "size": 16442,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/73fb6711-2053-47d2-b586-509bf0ec44d5"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://billingserver.pinelabs.com/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "dashboard.pluralonline.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://lounge.pinelabs.com/loungeui/login",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://pinepgconsole.in:9099",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://paymentoptimizerdashboard.pinepg.in/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "analytics.pinelabs.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "corporate.pineperks.in",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "www.pineperks.in",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://myplutus.pinelabs.my/",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "trm.pinepaymentsolutions.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "trm.pinelabs.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://trm.pinelabs.ae",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.pinelabs.ae/",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.letspaylater.ph/",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.letspaylater.sg/",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://developer.pluralonline.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://api-staging.pluralonline.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/in/app/pineperks/id908644471",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.pinegift",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/in/app/myplutus/id1042552445",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.fave",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/in/app/fave-cashback-for-upi/id1538911340",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.favebiz",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -1315,8 +1489,8 @@
         ]
     },
     {
-        "title": "Doctolib",
-        "slug": "doctolib-public-bug-bounty-program",
+        "title": "OVO Bug Bounty Program",
+        "slug": "ovo-bug-bounty-program",
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
@@ -1331,68 +1505,56 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 314,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 25000,
-        "scopes_count": 6,
+        "reports_count": 89,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 5000,
+        "scopes_count": 4,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "b21dce75-cced-4f9f-b1d3-1ebb83444dac",
-            "original_name": "D - white-2.jpg",
+            "name": "ec0aa051-1b0e-4159-a449-d8eadc551b4d",
+            "original_name": "ovo.jpeg",
             "mime_type": "image/jpeg",
-            "size": 70202,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/b21dce75-cced-4f9f-b1d3-1ebb83444dac"
+            "size": 19506,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/ec0aa051-1b0e-4159-a449-d8eadc551b4d"
         },
         "event": null,
         "business_unit": {
-            "name": "Doctolib",
-            "slug": "doctolib",
-            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
-            "currency": "EUR",
+            "name": "OVO",
+            "slug": "ovo",
+            "description": "OVO is a leading Indonesian payments, rewards and financial services platform. OVO is now available in 115 million devices with access to payments, transfers, cash-in/out, rewards, asset management and investments.",
+            "currency": "USD",
             "already_activate_product": true,
             "logo": {
-                "name": "7f0639078becd63ab17e57b318a6352e",
-                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
-                "mime_type": "image/png",
-                "size": 15879,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
+                "name": "90678116-c313-4bef-887f-38a41a6ac844",
+                "original_name": "1519877687667.jpeg",
+                "mime_type": "image/jpeg",
+                "size": 5415,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/90678116-c313-4bef-887f-38a41a6ac844"
             }
         },
         "scopes": [
             {
-                "scope": "www.doctolib.(fr|de|it)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "pro.doctolib.(fr|de|it) (see \"about freemium scope\")",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Special scenarios (see description)",
-                "scope_type": "web-application",
+                "scope": "https://play.google.com/store/apps/details?id=ovo.id",
+                "scope_type": "mobile-application-android",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "*.doctolib.(fr|de|it|com|net)",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                "scope": "https://apps.apple.com/ID/app/id1142114207",
                 "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
+                "scope": "*.ovo.id",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.taralite.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
                 "report_count": null
             }
         ]
@@ -1582,8 +1744,8 @@
         ]
     },
     {
-        "title": "Echobox Bug Bounty Program",
-        "slug": "echobox-bug-bounty-program",
+        "title": "Pine Labs Bug Bounty Program",
+        "slug": "pine-labs-bug-bounty-program",
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
@@ -1598,98 +1760,170 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 65,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 10000,
-        "scopes_count": 11,
+        "reports_count": 146,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 23,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "a8b4b6a2-ea99-4068-9ee9-5dfa0ab9812e",
-            "original_name": "logo-01-small.png",
-            "mime_type": "image/png",
-            "size": 87033,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/a8b4b6a2-ea99-4068-9ee9-5dfa0ab9812e"
+            "name": "525979cd-cb9d-41f0-8b02-04d0a348a32b",
+            "original_name": "index.jpg",
+            "mime_type": "image/jpeg",
+            "size": 3200,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/525979cd-cb9d-41f0-8b02-04d0a348a32b"
         },
         "event": null,
         "business_unit": {
-            "name": "Echobox",
-            "slug": "echobox",
-            "description": "The new standard in publishing automation",
-            "currency": "EUR",
+            "name": "Pine Labs Pvt Ltd",
+            "slug": "pine-labs-pvt-ltd",
+            "description": "Payment Services for Retail Merchant",
+            "currency": "USD",
             "already_activate_product": true,
             "logo": {
-                "name": "41111449-2cc3-4d09-b285-eef932315da1",
-                "original_name": "logo-01-small.png",
+                "name": "73fb6711-2053-47d2-b586-509bf0ec44d5",
+                "original_name": "PL_tagline_Logo_Original_color.png",
                 "mime_type": "image/png",
-                "size": 87033,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/41111449-2cc3-4d09-b285-eef932315da1"
+                "size": 16442,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/73fb6711-2053-47d2-b586-509bf0ec44d5"
             }
         },
         "scopes": [
             {
-                "scope": "https://login.echobox.dev/",
+                "scope": "https://billingserver.pinelabs.com/",
                 "scope_type": "web-application",
-                "asset_value": "LOW",
+                "asset_value": "HIGH",
                 "report_count": null
             },
             {
-                "scope": "http://stage.sl.echobox.dev/",
+                "scope": "dashboard.pluralonline.com",
                 "scope_type": "web-application",
-                "asset_value": "LOW",
+                "asset_value": "HIGH",
                 "report_count": null
             },
             {
-                "scope": "http://stage.nl.echobox.dev/",
+                "scope": "https://lounge.pinelabs.com/loungeui/login",
                 "scope_type": "web-application",
-                "asset_value": "LOW",
+                "asset_value": "HIGH",
                 "report_count": null
             },
             {
-                "scope": "https://socialapi-stage.service.echobox.com/v3/serviceauth",
+                "scope": "https://pinepgconsole.in:9099",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://paymentoptimizerdashboard.pinepg.in/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "analytics.pinelabs.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "corporate.pineperks.in",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "www.pineperks.in",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://myplutus.pinelabs.my/",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "trm.pinepaymentsolutions.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "trm.pinelabs.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://trm.pinelabs.ae",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.pinelabs.ae/",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.letspaylater.ph/",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.letspaylater.sg/",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://developer.pluralonline.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://api-staging.pluralonline.com",
                 "scope_type": "api",
-                "asset_value": "CRITICAL",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://campaignapi-stage.service.echobox.com/v3/serviceauth",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
+                "scope": "https://apps.apple.com/in/app/pineperks/id908644471",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://github.com/ebx/ebx-clientauth-backend-sdk",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
+                "scope": "https://play.google.com/store/apps/details?id=com.pinegift",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://github.com/ebx/ebx-serviceauth-sdk",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
+                "scope": "https://apps.apple.com/in/app/myplutus/id1042552445",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://coreapi-stage.service.echobox.com (aka https://properties.service.echobox.com)",
-                "scope_type": "api",
-                "asset_value": "LOW",
+                "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.fave",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://socialapi-stage.service.echobox.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
+                "scope": "https://apps.apple.com/in/app/fave-cashback-for-upi/id1538911340",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://campaignapi-stage.service.echobox.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://stage.emailreporting.service.echobox.com/",
-                "scope_type": "api",
-                "asset_value": "LOW",
+                "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.favebiz",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -2086,15 +2320,15 @@
         ]
     },
     {
-        "title": "VFS Global Bug Bounty Program",
-        "slug": "vfs-global-bug-bounty-program",
+        "title": "ATG Public Bug Bounty Program",
+        "slug": "atg-public-bug-bounty-program",
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
         "public": true,
         "bounty": true,
         "gift": false,
-        "hall_of_fame": false,
+        "hall_of_fame": true,
         "hacktivity": false,
         "report_collaboration_active": true,
         "pid": null,
@@ -2102,163 +2336,73 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 600,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 1500,
-        "scopes_count": 22,
+        "reports_count": 128,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 4000,
+        "scopes_count": 7,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "1fbbc14c-7938-48e8-b78e-dd478048dde2",
-            "original_name": "vfs-global.jpg",
-            "mime_type": "image/jpeg",
-            "size": 36470,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/1fbbc14c-7938-48e8-b78e-dd478048dde2"
+            "name": "635dd0a3-7641-4e12-a41f-56cdb25e3f3f",
+            "original_name": "atg-logo-ywh-4.PNG",
+            "mime_type": "image/png",
+            "size": 320447,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/635dd0a3-7641-4e12-a41f-56cdb25e3f3f"
         },
         "event": null,
         "business_unit": {
-            "name": "VFS GLOBAL SERVICES PVT. LTD.",
-            "slug": "vfs-global-services-pvt-ltd",
-            "description": "VFS GLOBAL SERVICES PVT. LTD.",
-            "currency": "USD",
+            "name": "ATG",
+            "slug": "atg",
+            "description": "ATG is the gaming company that knows horse racing. The company was founded in 1974 with the mission to safeguard the long-term development of trotting and thoroughbred racing by offering responsible gambling. ATG has provided quality excitement and entertainment to the Swedish people since the first bet was placed. The company intends to continue doing so. Our vision is to deliver the world\u2019s best gaming experiences. Our offering is: exciting gaming experiences in a fair and convenient manner.",
+            "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": "aca47786-81f9-4a0b-a7f1-1c23177d11d1",
-                "original_name": "0x0.png",
+                "name": "53ff10cc305474172ae6d66151d4da65",
+                "original_name": "vinnie.PNG",
                 "mime_type": "image/png",
-                "size": 56676,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/aca47786-81f9-4a0b-a7f1-1c23177d11d1"
+                "size": 114496,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/53ff10cc305474172ae6d66151d4da65"
             }
         },
         "scopes": [
             {
-                "scope": "*.vfsglobal.(com|co.uk|ca)",
-                "scope_type": "web-application",
+                "scope": "*.atg.se",
+                "scope_type": "other",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "*.vfsevisa.com",
+                "scope": "www.atg.se",
                 "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "api.atg.se",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "iam.atg.se",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/se/app/atg/id1434660322",
+                "scope_type": "mobile-application-ios",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "www.vfstasheel.com",
-                "scope_type": "web-application",
+                "scope": "https://apps.apple.com/se/app/atg-live/id1608156355",
+                "scope_type": "other",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "agents.vfstasheel.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "onevasco.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.vascoworldwide.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.vfsvisaonline.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.dvpc.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.vfsvisaservicesrussia.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "vfstasheer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.directverify.in",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.docswallet.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "biometservices.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "agents.tasheer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/Global-Admin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://rusadminappt.vfsglobal.com/Global-Admin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://equatorialguinea-evisa.com",
-                "scope_type": "web-application",
+                "scope": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
+                "scope_type": "mobile-application-android",
                 "asset_value": "LOW",
                 "report_count": null
             }
@@ -2667,7 +2811,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 218,
+        "reports_count": 219,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3000,
         "scopes_count": 10,
@@ -2859,8 +3003,8 @@
         ]
     },
     {
-        "title": "Mon Espace Sant\u00e9 (MES)",
-        "slug": "mon-espace-sante-mes",
+        "title": "Echobox Bug Bounty Program",
+        "slug": "echobox-bug-bounty-program",
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
@@ -2875,236 +3019,98 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 75,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 8000,
-        "scopes_count": 34,
+        "reports_count": 65,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 10000,
+        "scopes_count": 11,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "72edd5b8-ed39-40a8-918f-337dd6485bc9",
-            "original_name": "mes-programthumbnail.jpg",
-            "mime_type": "image/jpeg",
-            "size": 193603,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/72edd5b8-ed39-40a8-918f-337dd6485bc9"
+            "name": "a8b4b6a2-ea99-4068-9ee9-5dfa0ab9812e",
+            "original_name": "logo-01-small.png",
+            "mime_type": "image/png",
+            "size": 87033,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/a8b4b6a2-ea99-4068-9ee9-5dfa0ab9812e"
         },
         "event": null,
         "business_unit": {
-            "name": "Caisse Nationale de l'Assurance maladie",
-            "slug": "cnam",
-            "description": "Caisse Nationale de l'Assurance maladie",
+            "name": "Echobox",
+            "slug": "echobox",
+            "description": "The new standard in publishing automation",
             "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": "7ca44edf-062f-4275-bf57-69d0eee181d4",
-                "original_name": "am30px.png",
+                "name": "41111449-2cc3-4d09-b285-eef932315da1",
+                "original_name": "logo-01-small.png",
                 "mime_type": "image/png",
-                "size": 34281,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7ca44edf-062f-4275-bf57-69d0eee181d4"
+                "size": 87033,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/41111449-2cc3-4d09-b285-eef932315da1"
             }
         },
         "scopes": [
             {
-                "scope": "www.monespacesante.fr",
+                "scope": "https://login.echobox.dev/",
                 "scope_type": "web-application",
-                "asset_value": "CRITICAL",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "admincms.monespacesante.fr",
+                "scope": "http://stage.sl.echobox.dev/",
                 "scope_type": "web-application",
-                "asset_value": "HIGH",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "adminstore.monespacesante.fr",
+                "scope": "http://stage.nl.echobox.dev/",
                 "scope_type": "web-application",
-                "asset_value": "HIGH",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "api.monespacesante.fr",
+                "scope": "https://socialapi-stage.service.echobox.com/v3/serviceauth",
                 "scope_type": "api",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "auth.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "cms.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "editeur.api.monespacesante.fr",
+                "scope": "https://campaignapi-stage.service.echobox.com/v3/serviceauth",
                 "scope_type": "api",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "editeurs.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "knowage.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "support.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "api.editeur.preprod.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "api.preprod.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "auth.preprod.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.api.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.auth.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.editeur.api.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod1.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod2.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "securite.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "editeur.am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "am.editeur.preprod.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "am.preprod.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.editeur.am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "www.preprod.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.preprod1.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.preprod2.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "www.editeur.am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "www.editeur.api.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "apps.apple.com/fr/app/mon-espace-sant%C3%A9/id1589255019 (iOS)",
-                "scope_type": "mobile-application-ios",
+                "scope": "https://github.com/ebx/ebx-clientauth-backend-sdk",
+                "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "play.google.com/store/apps/details?id=fr.assurancemaladie.monespacesante&showAllReviews=true (Android)",
-                "scope_type": "mobile-application-android",
+                "scope": "https://github.com/ebx/ebx-serviceauth-sdk",
+                "scope_type": "other",
                 "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://coreapi-stage.service.echobox.com (aka https://properties.service.echobox.com)",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://socialapi-stage.service.echobox.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://campaignapi-stage.service.echobox.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://stage.emailreporting.service.echobox.com/",
+                "scope_type": "api",
+                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -3223,15 +3229,15 @@
         ]
     },
     {
-        "title": "DANA Bug Bounty Program",
-        "slug": "dana-bug-bounty-program",
+        "title": "Lazada",
+        "slug": "lazada",
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
         "public": true,
         "bounty": true,
         "gift": false,
-        "hall_of_fame": false,
+        "hall_of_fame": true,
         "hacktivity": false,
         "report_collaboration_active": true,
         "pid": null,
@@ -3239,74 +3245,164 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 109,
+        "reports_count": 732,
         "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 7,
+        "bounty_reward_max": 10000,
+        "scopes_count": 22,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "1f3d52f8-9425-4b68-afe3-a30b752fa13c",
-            "original_name": "dana-meta-logo.png",
+            "name": "acfe2872ab85bd5c7d55d764213c88dc",
+            "original_name": "lazada-2019-icon.png",
             "mime_type": "image/png",
-            "size": 24865,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/1f3d52f8-9425-4b68-afe3-a30b752fa13c"
+            "size": 78364,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/acfe2872ab85bd5c7d55d764213c88dc"
         },
         "event": null,
         "business_unit": {
-            "name": "DANA Indonesia",
-            "slug": "dana-indonesia",
-            "description": "DANA is an Indonesian digital wallet that is safe, trusted and reliable anytime, anywhere. With DANA, you can do non-cash and even non-card transactions for your daily needs, from offline payment transactions, to paying bills and installments online. DANA also has many features that make your transaction experience more practical and fast.  DANA as Indonesia\u2019s digital wallet is currently holding a bug bounty program with the scope and rules of the game as written below. Please read it carefully so that your report can be recognized as a valid report.",
+            "name": "Lazada",
+            "slug": "lazada",
+            "description": "Accelerating Southeast Asia progress through commerce and technology.",
             "currency": "USD",
             "already_activate_product": true,
             "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
+                "name": "27def9c437d7f0bb486a88033988fb80",
+                "original_name": "lazada-logo.jpeg",
+                "mime_type": "image/jpeg",
+                "size": 4170,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/27def9c437d7f0bb486a88033988fb80"
             }
         },
         "scopes": [
             {
-                "scope": "https://play.google.com/store/apps/details?id=id.dana&hl=en",
+                "scope": "*.lazada.(sg|vn|co.id|co.th|com|com.ph|com.my) (+++)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.lazada.(sg|vn|co.id|co.th|com|com.ph|com.my) (++)",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.lazada.(sg|vn|co.id|co.th|com|com.ph|com.my) (+)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.redmart.com (+++)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.redmart.com (++)",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.redmart.com (+)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.lel.asia (+++)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.lel.asia (++)",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.lel.asia (+)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.lex.(co.id|com.my|in.th|ph|vn) (+++)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.lex.(co.id|com.my|in.th|ph|vn) (++)",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.lex.(co.id|com.my|in.th|ph|vn) (+)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.lazada-seller.cn",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.lazada-seller.cn",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.lazada-seller.cn",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.lazada.android&hl=en_SG",
                 "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://apps.apple.com/id/app/dana/id1437123008",
+                "scope": "https://play.google.com/store/apps/details?id=com.sc.lazada&hl=en_SG",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/us/app/lazada-best-shopping-online/id785385147",
                 "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://appgallery.huawei.com/#/app/C100570215",
-                "scope_type": "other",
-                "asset_value": "LOW",
+                "scope": "https://apps.apple.com/sg/app/lazada-seller-center/id1315605408",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "mgs-gw.m.dana.id",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "api-saas.dana.id",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "sec.m.dana.id",
+                "scope": "*.lazlogistics.(co.id|in.th|sg|vn|my|ph)",
                 "scope_type": "web-application",
-                "asset_value": "LOW",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "m.dana.id",
+                "scope": "*.lazlogistics.(co.id|in.th|sg|vn|my|ph)",
                 "scope_type": "web-application",
-                "asset_value": "LOW",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.lazlogistics.(co.id|in.th|sg|vn|my|ph)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -3822,8 +3918,8 @@
         ]
     },
     {
-        "title": "Programme de prime aux bogues du Gouvernement du Qu\u00e9bec",
-        "slug": "programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
+        "title": "Doctolib",
+        "slug": "doctolib-public-bug-bounty-program",
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
@@ -3838,146 +3934,68 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 210,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 3000,
-        "scopes_count": 19,
+        "reports_count": 314,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 25000,
+        "scopes_count": 6,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "1f9e2bda-45d4-4ba7-8e33-c6ee3e9709a2",
-            "original_name": "qc.png",
-            "mime_type": "image/png",
-            "size": 23634,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/1f9e2bda-45d4-4ba7-8e33-c6ee3e9709a2"
+            "name": "b21dce75-cced-4f9f-b1d3-1ebb83444dac",
+            "original_name": "D - white-2.jpg",
+            "mime_type": "image/jpeg",
+            "size": 70202,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/b21dce75-cced-4f9f-b1d3-1ebb83444dac"
         },
         "event": null,
         "business_unit": {
-            "name": "MCN",
-            "slug": "mcn",
-            "description": "Minist\u00e8re de la Cybers\u00e9curit\u00e9 et du Num\u00e9rique",
-            "currency": "USD",
+            "name": "Doctolib",
+            "slug": "doctolib",
+            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
+            "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": "0116356e-4aab-4c4f-b4c1-6eae26592751",
-                "original_name": "6e03687c-424e-48f1-8df2-c13ba8afb8ca.png",
+                "name": "7f0639078becd63ab17e57b318a6352e",
+                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
                 "mime_type": "image/png",
-                "size": 23634,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/0116356e-4aab-4c4f-b4c1-6eae26592751"
+                "size": 15879,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
             }
         },
         "scopes": [
             {
-                "scope": "https://pbgq.deontologie-policiere.gouv.qc.ca",
+                "scope": "www.doctolib.(fr|de|it)",
                 "scope_type": "web-application",
-                "asset_value": "HIGH",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-acces-info",
+                "scope": "pro.doctolib.(fr|de|it) (see \"about freemium scope\")",
                 "scope_type": "web-application",
-                "asset_value": "HIGH",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-revision",
+                "scope": "Special scenarios (see description)",
                 "scope_type": "web-application",
-                "asset_value": "HIGH",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/plainte-commissaire",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/reponses-questions",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://reptox.cnesst.gouv.qc.ca",
+                "scope": "*.doctolib.(fr|de|it|com|net)",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://preprod.explosifs.sq.gouv.qc.ca",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://profile.pentest.clicsante.ca",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://clients3.pentest.clicsante.ca",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://portal3.pentest.clicsante.ca",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api3.pentest.clicsante.ca",
-                "scope_type": "api",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://admin3.pentest.clicsante.ca",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://poc-op-ywh.it.authentification.si.gouv.qc.ca",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://auth-ywh.it.authentification.si.gouv.qc.ca",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://preprod-habilitation.sq.gouv.qc.ca",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.cyber.gouv.qc.ca",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://pab.donneesquebec.ca",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://gap.citizenportal-test.bugbounty.akinox.dev",
-                "scope_type": "web-application",
+                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                "scope_type": "mobile-application-ios",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://test.m4sv.bugbounty.akinox.dev",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
+                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -4184,15 +4202,15 @@
         ]
     },
     {
-        "title": "ATG Public Bug Bounty Program",
-        "slug": "atg-public-bug-bounty-program",
+        "title": "DANA Bug Bounty Program",
+        "slug": "dana-bug-bounty-program",
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
         "public": true,
         "bounty": true,
         "gift": false,
-        "hall_of_fame": true,
+        "hall_of_fame": false,
         "hacktivity": false,
         "report_collaboration_active": true,
         "pid": null,
@@ -4200,81 +4218,81 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 128,
+        "reports_count": 109,
         "bounty_reward_min": 0,
-        "bounty_reward_max": 4000,
+        "bounty_reward_max": 2000,
         "scopes_count": 7,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "635dd0a3-7641-4e12-a41f-56cdb25e3f3f",
-            "original_name": "atg-logo-ywh-4.PNG",
+            "name": "1f3d52f8-9425-4b68-afe3-a30b752fa13c",
+            "original_name": "dana-meta-logo.png",
             "mime_type": "image/png",
-            "size": 320447,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/635dd0a3-7641-4e12-a41f-56cdb25e3f3f"
+            "size": 24865,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/1f3d52f8-9425-4b68-afe3-a30b752fa13c"
         },
         "event": null,
         "business_unit": {
-            "name": "ATG",
-            "slug": "atg",
-            "description": "ATG is the gaming company that knows horse racing. The company was founded in 1974 with the mission to safeguard the long-term development of trotting and thoroughbred racing by offering responsible gambling. ATG has provided quality excitement and entertainment to the Swedish people since the first bet was placed. The company intends to continue doing so. Our vision is to deliver the world\u2019s best gaming experiences. Our offering is: exciting gaming experiences in a fair and convenient manner.",
-            "currency": "EUR",
+            "name": "DANA Indonesia",
+            "slug": "dana-indonesia",
+            "description": "DANA is an Indonesian digital wallet that is safe, trusted and reliable anytime, anywhere. With DANA, you can do non-cash and even non-card transactions for your daily needs, from offline payment transactions, to paying bills and installments online. DANA also has many features that make your transaction experience more practical and fast.  DANA as Indonesia\u2019s digital wallet is currently holding a bug bounty program with the scope and rules of the game as written below. Please read it carefully so that your report can be recognized as a valid report.",
+            "currency": "USD",
             "already_activate_product": true,
             "logo": {
-                "name": "53ff10cc305474172ae6d66151d4da65",
-                "original_name": "vinnie.PNG",
-                "mime_type": "image/png",
-                "size": 114496,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/53ff10cc305474172ae6d66151d4da65"
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
             }
         },
         "scopes": [
             {
-                "scope": "*.atg.se",
-                "scope_type": "other",
+                "scope": "https://play.google.com/store/apps/details?id=id.dana&hl=en",
+                "scope_type": "mobile-application-android",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "www.atg.se",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "api.atg.se",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "iam.atg.se",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/se/app/atg/id1434660322",
+                "scope": "https://apps.apple.com/id/app/dana/id1437123008",
                 "scope_type": "mobile-application-ios",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://apps.apple.com/se/app/atg-live/id1608156355",
+                "scope": "https://appgallery.huawei.com/#/app/C100570215",
                 "scope_type": "other",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
-                "scope_type": "mobile-application-android",
+                "scope": "mgs-gw.m.dana.id",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "api-saas.dana.id",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "sec.m.dana.id",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "m.dana.id",
+                "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
             }
         ]
     },
     {
-        "title": "Ooredoo QPSC - Customer Portal Bug Bounty Program",
-        "slug": "ooredoo-qpsc-bug-bounty-program",
+        "title": "Programme de prime aux bogues du Gouvernement du Qu\u00e9bec",
+        "slug": "programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
@@ -4289,56 +4307,146 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 221,
+        "reports_count": 210,
         "bounty_reward_min": 50,
-        "bounty_reward_max": 1500,
-        "scopes_count": 4,
+        "bounty_reward_max": 3000,
+        "scopes_count": 19,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "c8b2e741-4de4-4e21-ad98-a3bd55ea1a25",
-            "original_name": "ooredoo-logo.PNG",
+            "name": "1f9e2bda-45d4-4ba7-8e33-c6ee3e9709a2",
+            "original_name": "qc.png",
             "mime_type": "image/png",
-            "size": 21769,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c8b2e741-4de4-4e21-ad98-a3bd55ea1a25"
+            "size": 23634,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/1f9e2bda-45d4-4ba7-8e33-c6ee3e9709a2"
         },
         "event": null,
         "business_unit": {
-            "name": "Ooredoo QPSC",
-            "slug": "ooredoo-qpsc",
-            "description": "Ooredoo QPSC, is Qatari multinational telecommunications company headquartered in Doha, Qatar that provides mobile, wireless, wire line, and content services in business and residential markets.",
+            "name": "MCN",
+            "slug": "mcn",
+            "description": "Minist\u00e8re de la Cybers\u00e9curit\u00e9 et du Num\u00e9rique",
             "currency": "USD",
             "already_activate_product": true,
             "logo": {
-                "name": "415e774a-f673-4af3-89c4-728720697770",
-                "original_name": "ooredoo-logo.PNG",
+                "name": "0116356e-4aab-4c4f-b4c1-6eae26592751",
+                "original_name": "6e03687c-424e-48f1-8df2-c13ba8afb8ca.png",
                 "mime_type": "image/png",
-                "size": 21769,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/415e774a-f673-4af3-89c4-728720697770"
+                "size": 23634,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/0116356e-4aab-4c4f-b4c1-6eae26592751"
             }
         },
         "scopes": [
             {
-                "scope": "https://www.ooredoo.qa",
+                "scope": "https://pbgq.deontologie-policiere.gouv.qc.ca",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-acces-info",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-revision",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/plainte-commissaire",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/reponses-questions",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://reptox.cnesst.gouv.qc.ca",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://mobile.ooredoo.qa",
-                "scope_type": "mobile-application",
+                "scope": "https://preprod.explosifs.sq.gouv.qc.ca",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://profile.pentest.clicsante.ca",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://clients3.pentest.clicsante.ca",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://portal3.pentest.clicsante.ca",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api3.pentest.clicsante.ca",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://admin3.pentest.clicsante.ca",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://poc-op-ywh.it.authentification.si.gouv.qc.ca",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://auth-ywh.it.authentification.si.gouv.qc.ca",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://preprod-habilitation.sq.gouv.qc.ca",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.cyber.gouv.qc.ca",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://pab.donneesquebec.ca",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://gap.citizenportal-test.bugbounty.akinox.dev",
+                "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://play.google.com/store/apps/details?id=qa.ooredoo.android&hl=en&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
+                "scope": "https://test.m4sv.bugbounty.akinox.dev",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
                 "report_count": null
             }
         ]
@@ -4558,8 +4666,8 @@
         ]
     },
     {
-        "title": "Lazada",
-        "slug": "lazada",
+        "title": "FranceConnect+ / AgentConnect",
+        "slug": "franceconnect-agentconnect-public",
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
@@ -4574,164 +4682,50 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 732,
+        "reports_count": 27,
         "bounty_reward_min": 0,
         "bounty_reward_max": 10000,
-        "scopes_count": 22,
+        "scopes_count": 3,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "acfe2872ab85bd5c7d55d764213c88dc",
-            "original_name": "lazada-2019-icon.png",
-            "mime_type": "image/png",
-            "size": 78364,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/acfe2872ab85bd5c7d55d764213c88dc"
+            "name": "b081db0d-3cbf-43be-a57b-4428a878bb27",
+            "original_name": "78f9fcc49559b7529dcc788cd9e15a73.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 17591,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/b081db0d-3cbf-43be-a57b-4428a878bb27"
         },
         "event": null,
         "business_unit": {
-            "name": "Lazada",
-            "slug": "lazada",
-            "description": "Accelerating Southeast Asia progress through commerce and technology.",
-            "currency": "USD",
+            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
+            "slug": "dinum",
+            "description": "Direction interminist\u00e9rielle du num\u00e9rique",
+            "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": "27def9c437d7f0bb486a88033988fb80",
-                "original_name": "lazada-logo.jpeg",
+                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
+                "original_name": "logo-marianne-dinsic-300x300.jpg",
                 "mime_type": "image/jpeg",
-                "size": 4170,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/27def9c437d7f0bb486a88033988fb80"
+                "size": 45646,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
             }
         },
         "scopes": [
             {
-                "scope": "*.lazada.(sg|vn|co.id|co.th|com|com.ph|com.my) (+++)",
+                "scope": "https://auth.integ01.dev-franceconnect.fr",
                 "scope_type": "web-application",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "*.lazada.(sg|vn|co.id|co.th|com|com.ph|com.my) (++)",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.lazada.(sg|vn|co.id|co.th|com|com.ph|com.my) (+)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.redmart.com (+++)",
+                "scope": "https://fca.integ01.dev-agentconnect.fr",
                 "scope_type": "web-application",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "*.redmart.com (++)",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.redmart.com (+)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.lel.asia (+++)",
+                "scope": "https://eidas-bridge.integ01.dev-franceconnect.fr",
                 "scope_type": "web-application",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.lel.asia (++)",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.lel.asia (+)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.lex.(co.id|com.my|in.th|ph|vn) (+++)",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.lex.(co.id|com.my|in.th|ph|vn) (++)",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.lex.(co.id|com.my|in.th|ph|vn) (+)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.lazada-seller.cn",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.lazada-seller.cn",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.lazada-seller.cn",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.lazada.android&hl=en_SG",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.sc.lazada&hl=en_SG",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/us/app/lazada-best-shopping-online/id785385147",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/sg/app/lazada-seller-center/id1315605408",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.lazlogistics.(co.id|in.th|sg|vn|my|ph)",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.lazlogistics.(co.id|in.th|sg|vn|my|ph)",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.lazlogistics.(co.id|in.th|sg|vn|my|ph)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -4797,71 +4791,6 @@
                 "scope": "www.ovh.com",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "FranceConnect+ / AgentConnect",
-        "slug": "franceconnect-agentconnect-public",
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 27,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 10000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "b081db0d-3cbf-43be-a57b-4428a878bb27",
-            "original_name": "78f9fcc49559b7529dcc788cd9e15a73.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 17591,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/b081db0d-3cbf-43be-a57b-4428a878bb27"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
-            "slug": "dinum",
-            "description": "Direction interminist\u00e9rielle du num\u00e9rique",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
-                "original_name": "logo-marianne-dinsic-300x300.jpg",
-                "mime_type": "image/jpeg",
-                "size": 45646,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://auth.integ01.dev-franceconnect.fr",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://fca.integ01.dev-agentconnect.fr",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://eidas-bridge.integ01.dev-franceconnect.fr",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
