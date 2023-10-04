@@ -1,5 +1,44 @@
 [
     {
+        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "intigriti",
+        "name": "intigriti",
+        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and we will reward you accordingly.",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 13337.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1696320350,
+        "lastSubmissionAt": 1696306685,
+        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "domains": [
+            {
+                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
+                "type": 1,
+                "endpoint": "*pwn.intigriti.rocks",
+                "bountyTierId": 3,
+                "description": "This is our test (PWN) environment that replicates production."
+            },
+            {
+                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
+                "type": 1,
+                "endpoint": "www.intigriti.com",
+                "bountyTierId": 2,
+                "description": "This is our marketing website."
+            }
+        ]
+    },
+    {
         "programId": "ff0f8e99-99b3-453a-a80c-fe9644bd1f01",
         "status": 3,
         "confidentialityLevel": 4,
@@ -56,80 +95,6 @@
                 "endpoint": "co.uk.getmondo",
                 "bountyTierId": 3,
                 "description": "The public seed of the Monzo app on Android"
-            }
-        ]
-    },
-    {
-        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "Uphold",
-        "companyName": "Uphold.com",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "upholdcom",
-        "name": "Uphold.com",
-        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680680521,
-        "lastSubmissionAt": 1695454594,
-        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
-        "domains": [
-            {
-                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
-                "type": 3,
-                "endpoint": "1101145849",
-                "bountyTierId": 4,
-                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
-                "type": 1,
-                "endpoint": "api.uphold.com",
-                "bountyTierId": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
-                "type": 2,
-                "endpoint": "com.uphold.wallet",
-                "bountyTierId": 4,
-                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
-                "type": 1,
-                "endpoint": "uphold.com/dashboard",
-                "bountyTierId": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
-            },
-            {
-                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
-                "type": 1,
-                "endpoint": "api-sandbox.uphold.com",
-                "bountyTierId": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
-                "type": 1,
-                "endpoint": "sandbox.uphold.com/dashboard",
-                "bountyTierId": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
-            },
-            {
-                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
-                "type": 1,
-                "endpoint": "*.uphold.com",
-                "bountyTierId": 2,
-                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
             }
         ]
     },
@@ -213,7 +178,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1696417082,
+        "lastSubmissionAt": 1696420050,
         "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
         "domains": [
             {
@@ -507,41 +472,76 @@
         ]
     },
     {
-        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
+        "companyHandle": "Uphold",
+        "companyName": "Uphold.com",
         "tacRequired": false,
-        "companySustainable": true,
-        "handle": "intigriti",
-        "name": "intigriti",
-        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and we will reward you accordingly.",
+        "companySustainable": false,
+        "handle": "upholdcom",
+        "name": "Uphold.com",
+        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
         "minBounty": {
-            "value": 50.0,
+            "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 13337.0,
+            "value": 4000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1696320350,
-        "lastSubmissionAt": 1696306685,
-        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "lastUpdatedAt": 1680680521,
+        "lastSubmissionAt": 1695454594,
+        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
         "domains": [
             {
-                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
-                "type": 1,
-                "endpoint": "*pwn.intigriti.rocks",
-                "bountyTierId": 3,
-                "description": "This is our test (PWN) environment that replicates production."
+                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
+                "type": 3,
+                "endpoint": "1101145849",
+                "bountyTierId": 4,
+                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
             },
             {
-                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
+                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
                 "type": 1,
-                "endpoint": "www.intigriti.com",
+                "endpoint": "api.uphold.com",
+                "bountyTierId": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
+                "type": 2,
+                "endpoint": "com.uphold.wallet",
+                "bountyTierId": 4,
+                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
+                "type": 1,
+                "endpoint": "uphold.com/dashboard",
+                "bountyTierId": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
+            },
+            {
+                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
+                "type": 1,
+                "endpoint": "api-sandbox.uphold.com",
+                "bountyTierId": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
+                "type": 1,
+                "endpoint": "sandbox.uphold.com/dashboard",
+                "bountyTierId": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
+            },
+            {
+                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
+                "type": 1,
+                "endpoint": "*.uphold.com",
                 "bountyTierId": 2,
-                "description": "This is our marketing website."
+                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
             }
         ]
     },
@@ -1808,7 +1808,7 @@
             "value": 2500.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1695310475,
+        "lastUpdatedAt": 1696420558,
         "lastSubmissionAt": 1696032865,
         "logoId": "public_bucket_0bb8da14-7c32-4918-a435-70badd7c9fe5-b857b64c-73a9-4e3a-aa5c-25eac35c8641",
         "domains": [
@@ -6226,6 +6226,80 @@
         ]
     },
     {
+        "programId": "f70ab87e-e3a5-4c33-81b3-55771420e71d",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "henchman",
+        "companyName": "Henchman",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "henchmanio",
+        "name": "henchman.io",
+        "description": "Law firms and legal departments can connect their cloud environment. Once they connect their cloud environment (Microsoft SharePoint, OneDrive Personal/Business, ...), we will start fetching all Doc/Docx/Dotx/PDF files from the Microsoft Graph API. \n\nWe start reading these files (contracts) and write the definitions and clauses we found in our PostgreSQL database.\n\nOnce all this data is in our database, the customer (this tenant) can search for these definitions and clauses in a Word add-in.",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1696420374,
+        "lastSubmissionAt": 1688667624,
+        "logoId": "public_bucket_ac114b5e-1b8f-47b3-84c3-fdc669b6c3b1-eea10bf4-583e-4c08-b55d-2b26c3123265",
+        "domains": [
+            {
+                "id": "4588b836-2c62-40b8-986d-79745520d7c4",
+                "type": 1,
+                "endpoint": "*.henchman.io",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "e79e3d44-c06d-418b-b9bd-5f0ee3c43d29",
+                "type": 1,
+                "endpoint": " https://api-dashboard.stag.henchman.io",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "02547ab2-1340-409a-8662-6a4d3bbbf9df",
+                "type": 1,
+                "endpoint": " https://api-search.stag.henchman.io",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "9ad2d75c-dc8f-4420-81e5-510f01ecd842",
+                "type": 1,
+                "endpoint": "https://add-in.stag.henchman.io",
+                "bountyTierId": 3,
+                "description": "This is our ***add-in***.\n\nYou can authenticate with:\nemail: `wouter+intigriti@henchman.io`\npassword: `7qHVPbNm_MZmdNkc-_nwXJkCTyXu*EfRsK9Pmnn3`\n\nHere you can search for the analysed data. You will see this data after your integration is finished.\n\nhttps://youtu.be/BF1bsN2JpBY"
+            },
+            {
+                "id": "f3a4d9e6-922f-4264-be54-ee8ade303a1f",
+                "type": 1,
+                "endpoint": "https://auth.stag.henchman.io",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "ee6a88c5-85cb-43a5-b4f8-e7d7ff76035b",
+                "type": 1,
+                "endpoint": "https://dashboard.stag.henchman.io",
+                "bountyTierId": 3,
+                "description": "This is our ***dashboard***.\n\nWe've created a `Intigriti - Bug Bounty Program` tenant.\n\nYou can authenticate with:\nemail: `wouter+intigriti@henchman.io`\npassword: `7qHVPbNm_MZmdNkc-_nwXJkCTyXu*EfRsK9Pmnn3`\n\nHere you can add/remove users and add an integration.\n\nhttps://youtu.be/BF1bsN2JpBY"
+            },
+            {
+                "id": "45ddcecc-a4c0-413b-88b0-5c4eba872bea",
+                "type": 1,
+                "endpoint": "https://ops-dashboard.stag.henchman.io",
+                "bountyTierId": 3,
+                "description": "This is our ***operations dashboard***.\n\nYou can authenticate with:\nemail: `wouter+intigriti@henchman.io`\npassword: `7qHVPbNm_MZmdNkc-_nwXJkCTyXu*EfRsK9Pmnn3`\n\nYou will need this to make sure the integration flow goes as smooth as possible. Integration connections that have been made by the customer/tenant on the *dashboard* will need to be approved here first. Also, this platform will give you extra information about the state of the integration. An integration can only be deleted on the *operations dashboard*.\n\nhttps://youtu.be/BF1bsN2JpBY\n\n\u26a0\ufe0f It's important that you use this ops-dashboard only for you own integration flow or to create a company for yourself. Please don't add yourself as a user to another company that you haven't created yourself. This can be in use for other researchers \u26a0\ufe0f"
+            }
+        ]
+    },
+    {
         "programId": "0083a5bf-e54f-4f79-a972-12a795272c8b",
         "status": 3,
         "confidentialityLevel": 4,
@@ -8140,6 +8214,59 @@
         ]
     },
     {
+        "programId": "10eb5e95-08e2-4f4e-8d22-f8c600a7acff",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intel",
+        "companyName": "Intel",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "intel",
+        "name": "Intel\u00ae",
+        "description": "Intel\u00ae Bug Bounty Program\nIntel Corporation believes that forging relationships with security researchers and fostering security research is a crucial part of our Security First Pledge. We encourage security researchers to work with us to mitigate and coordinate the disclosure of potential security vulnerabilities. By submitting your report, you agree to the terms of the Intel\u00ae Bug Bounty Program. Intel reserves the right to alter the terms and conditions of this program at its sole discretion.\n",
+        "minBounty": {
+            "value": 500.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 100000.0,
+            "currency": "USD"
+        },
+        "lastUpdatedAt": 1688138654,
+        "lastSubmissionAt": 1695817261,
+        "logoId": "public_bucket_dfb4b18d-a540-4385-82fc-29a69c3800a6-bcbf0c63-dace-406b-809e-689dd1d2023f",
+        "domains": [
+            {
+                "id": "dd6d5718-737b-44f3-a833-fa74d0462f1f",
+                "type": 6,
+                "endpoint": "Hardware",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "92208b24-3ef0-43dc-9314-f3af05929360",
+                "type": 6,
+                "endpoint": "Firmware",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "9ddd704e-ea3a-463d-878d-6b80342f685a",
+                "type": 6,
+                "endpoint": "Software",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "9898bc2c-6e8f-4d11-af00-5072e77c15f8",
+                "type": 1,
+                "endpoint": "*.intel.com",
+                "bountyTierId": 1,
+                "description": "**Intel's Web Infrastructure, i.e.`*.intel.com`**\nIntel\u2019s web infrastructure, i.e., website domains owned and/or operated by Intel, fall **Out of Scope**. These reports are not eligible for rewards of any kind. \nPlease send security vulnerability reports against intel.com and/or related web presence to external.security.research@intel.com"
+            }
+        ]
+    },
+    {
         "programId": "190ed8f0-4412-4b6d-9415-6114da409600",
         "status": 3,
         "confidentialityLevel": 4,
@@ -8246,87 +8373,104 @@
         ]
     },
     {
-        "programId": "10eb5e95-08e2-4f4e-8d22-f8c600a7acff",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intel",
-        "companyName": "Intel",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "intel",
-        "name": "Intel\u00ae",
-        "description": "Intel\u00ae Bug Bounty Program\nIntel Corporation believes that forging relationships with security researchers and fostering security research is a crucial part of our Security First Pledge. We encourage security researchers to work with us to mitigate and coordinate the disclosure of potential security vulnerabilities. By submitting your report, you agree to the terms of the Intel\u00ae Bug Bounty Program. Intel reserves the right to alter the terms and conditions of this program at its sole discretion.\n",
-        "minBounty": {
-            "value": 500.0,
-            "currency": "USD"
-        },
-        "maxBounty": {
-            "value": 100000.0,
-            "currency": "USD"
-        },
-        "lastUpdatedAt": 1688138654,
-        "lastSubmissionAt": 1695817261,
-        "logoId": "public_bucket_dfb4b18d-a540-4385-82fc-29a69c3800a6-bcbf0c63-dace-406b-809e-689dd1d2023f",
-        "domains": [
-            {
-                "id": "dd6d5718-737b-44f3-a833-fa74d0462f1f",
-                "type": 6,
-                "endpoint": "Hardware",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "92208b24-3ef0-43dc-9314-f3af05929360",
-                "type": 6,
-                "endpoint": "Firmware",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "9ddd704e-ea3a-463d-878d-6b80342f685a",
-                "type": 6,
-                "endpoint": "Software",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "9898bc2c-6e8f-4d11-af00-5072e77c15f8",
-                "type": 1,
-                "endpoint": "*.intel.com",
-                "bountyTierId": 1,
-                "description": "**Intel's Web Infrastructure, i.e.`*.intel.com`**\nIntel\u2019s web infrastructure, i.e., website domains owned and/or operated by Intel, fall **Out of Scope**. These reports are not eligible for rewards of any kind. \nPlease send security vulnerability reports against intel.com and/or related web presence to external.security.research@intel.com"
-            }
-        ]
-    },
-    {
-        "programId": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
+        "programId": "e1845bab-be93-43d9-b040-462f886235ef",
         "status": 4,
         "confidentialityLevel": 4,
-        "companyHandle": "ubisoft",
-        "companyName": "Ubisoft",
+        "companyHandle": "sentiance",
+        "companyName": "Sentiance",
         "tacRequired": false,
-        "companySustainable": false,
-        "handle": "ubisoftvdp",
-        "name": "Ubisoft VDP",
-        "description": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew, and Watch Dogs.\n\nWe welcome the reporting of security vulnerabilities that would help us protect our assets and players.",
+        "companySustainable": true,
+        "handle": "sentiance",
+        "name": "Sentiance",
+        "description": "At sentiance we process enormous amounts of sentive data to provide our clients with rich insights & analytics used by them to optimize their business. All our products are built with security in mind and each feature has \nbeen carefully assessed to prevent security vulnerabilities to be introduced in our services. \nHowever, no security team is perfect and therefore we would like to call in the help of the bug bounty \ncommunity to point out where we might have missed a bug. If you think you found a valid security vulnerability we would absolutely love to hear about it and award you if it's eligible per our policy.",
         "minBounty": {
-            "value": 0.0,
+            "value": 50.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 3000.0,
+            "value": 3500.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1695413880,
-        "lastSubmissionAt": 1695357768,
-        "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
+        "lastUpdatedAt": 1695892172,
+        "lastSubmissionAt": 1695892155,
+        "logoId": "public_bucket_446c3452-5a4c-4c7d-b2e8-713669542358-75fef172-ac92-4296-b66b-bd5fcb8ec8bd",
         "domains": [
             {
-                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
-                "type": 6,
-                "endpoint": "Ubisoft",
+                "id": "4a246f1f-bb50-478f-be1b-a9b237fc6117",
+                "type": 3,
+                "endpoint": "https://apps.apple.com/us/app/rac-go/id6444858115",
+                "bountyTierId": 4,
+                "description": "RAC Go Apple store link"
+            },
+            {
+                "id": "3a0e4f07-bdd6-48f6-b1ab-3f72bea6b2f4",
+                "type": 2,
+                "endpoint": "https://play.google.com/store/apps/details?id=com.sentiance.saferdriver",
+                "bountyTierId": 4,
+                "description": "RAC Go Google store link"
+            },
+            {
+                "id": "39883d26-5af4-45c8-b8d1-3160a5988147",
+                "type": 1,
+                "endpoint": "api.sentiance.com",
+                "bountyTierId": 4,
+                "description": "Main API "
+            },
+            {
+                "id": "c2161ff7-267d-4980-96dd-bebab70c3d5d",
+                "type": 2,
+                "endpoint": "com.sentiance.journeys2  ",
+                "bountyTierId": 4,
+                "description": "Insights Google Store link"
+            },
+            {
+                "id": "e2da4f6d-b03c-4ab6-bf60-9fab2ffafb01",
+                "type": 1,
+                "endpoint": "controltower.sentiance.com",
+                "bountyTierId": 4,
+                "description": "Insights dashboard"
+            },
+            {
+                "id": "1b016637-d8c9-4fac-a316-d1167349db3a",
+                "type": 3,
+                "endpoint": "insights-by-sentiance/id1608074635",
+                "bountyTierId": 4,
+                "description": "Insights Apple Store link"
+            },
+            {
+                "id": "69ba7a07-0e21-4f69-bbe7-c5baf0040b6a",
+                "type": 1,
+                "endpoint": "journeys-api.sentiance.com/v2",
+                "bountyTierId": 4,
+                "description": "Insights app base API"
+            },
+            {
+                "id": "43c499ff-9644-42e9-82c6-1287c88438e4",
+                "type": 1,
+                "endpoint": "*.sentiance.com",
                 "bountyTierId": 3,
-                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update."
+                "description": "IMPORTANT! Please read the out of scope section. Not all subdomains are in scope"
+            },
+            {
+                "id": "ec487145-91c1-4228-b144-36875172e984",
+                "type": 2,
+                "endpoint": "com.sentiance.journeys",
+                "bountyTierId": 3,
+                "description": "Journeys Google Store link"
+            },
+            {
+                "id": "13fb9555-bdf3-4ebe-8b05-8d73fa02d2df",
+                "type": 3,
+                "endpoint": "journeys-2/id984087229?mt=8",
+                "bountyTierId": 3,
+                "description": "Journeys Apple Store link"
+            },
+            {
+                "id": "969fba04-94e7-4070-b823-8e52be0a199a",
+                "type": 1,
+                "endpoint": "docs.sentiance.com",
+                "bountyTierId": 2,
+                "description": null
             }
         ]
     },
@@ -8619,108 +8763,6 @@
         ]
     },
     {
-        "programId": "e1845bab-be93-43d9-b040-462f886235ef",
-        "status": 4,
-        "confidentialityLevel": 4,
-        "companyHandle": "sentiance",
-        "companyName": "Sentiance",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "sentiance",
-        "name": "Sentiance",
-        "description": "At sentiance we process enormous amounts of sentive data to provide our clients with rich insights & analytics used by them to optimize their business. All our products are built with security in mind and each feature has \nbeen carefully assessed to prevent security vulnerabilities to be introduced in our services. \nHowever, no security team is perfect and therefore we would like to call in the help of the bug bounty \ncommunity to point out where we might have missed a bug. If you think you found a valid security vulnerability we would absolutely love to hear about it and award you if it's eligible per our policy.",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3500.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1695892172,
-        "lastSubmissionAt": 1695892155,
-        "logoId": "public_bucket_446c3452-5a4c-4c7d-b2e8-713669542358-75fef172-ac92-4296-b66b-bd5fcb8ec8bd",
-        "domains": [
-            {
-                "id": "4a246f1f-bb50-478f-be1b-a9b237fc6117",
-                "type": 3,
-                "endpoint": "https://apps.apple.com/us/app/rac-go/id6444858115",
-                "bountyTierId": 4,
-                "description": "RAC Go Apple store link"
-            },
-            {
-                "id": "3a0e4f07-bdd6-48f6-b1ab-3f72bea6b2f4",
-                "type": 2,
-                "endpoint": "https://play.google.com/store/apps/details?id=com.sentiance.saferdriver",
-                "bountyTierId": 4,
-                "description": "RAC Go Google store link"
-            },
-            {
-                "id": "39883d26-5af4-45c8-b8d1-3160a5988147",
-                "type": 1,
-                "endpoint": "api.sentiance.com",
-                "bountyTierId": 4,
-                "description": "Main API "
-            },
-            {
-                "id": "c2161ff7-267d-4980-96dd-bebab70c3d5d",
-                "type": 2,
-                "endpoint": "com.sentiance.journeys2  ",
-                "bountyTierId": 4,
-                "description": "Insights Google Store link"
-            },
-            {
-                "id": "e2da4f6d-b03c-4ab6-bf60-9fab2ffafb01",
-                "type": 1,
-                "endpoint": "controltower.sentiance.com",
-                "bountyTierId": 4,
-                "description": "Insights dashboard"
-            },
-            {
-                "id": "1b016637-d8c9-4fac-a316-d1167349db3a",
-                "type": 3,
-                "endpoint": "insights-by-sentiance/id1608074635",
-                "bountyTierId": 4,
-                "description": "Insights Apple Store link"
-            },
-            {
-                "id": "69ba7a07-0e21-4f69-bbe7-c5baf0040b6a",
-                "type": 1,
-                "endpoint": "journeys-api.sentiance.com/v2",
-                "bountyTierId": 4,
-                "description": "Insights app base API"
-            },
-            {
-                "id": "43c499ff-9644-42e9-82c6-1287c88438e4",
-                "type": 1,
-                "endpoint": "*.sentiance.com",
-                "bountyTierId": 3,
-                "description": "IMPORTANT! Please read the out of scope section. Not all subdomains are in scope"
-            },
-            {
-                "id": "ec487145-91c1-4228-b144-36875172e984",
-                "type": 2,
-                "endpoint": "com.sentiance.journeys",
-                "bountyTierId": 3,
-                "description": "Journeys Google Store link"
-            },
-            {
-                "id": "13fb9555-bdf3-4ebe-8b05-8d73fa02d2df",
-                "type": 3,
-                "endpoint": "journeys-2/id984087229?mt=8",
-                "bountyTierId": 3,
-                "description": "Journeys Apple Store link"
-            },
-            {
-                "id": "969fba04-94e7-4070-b823-8e52be0a199a",
-                "type": 1,
-                "endpoint": "docs.sentiance.com",
-                "bountyTierId": 2,
-                "description": null
-            }
-        ]
-    },
-    {
         "programId": "3305ccb2-c0a7-4988-aa27-6aafe97c11a9",
         "status": 4,
         "confidentialityLevel": 4,
@@ -8809,6 +8851,38 @@
                 "endpoint": "https://challenge-0923.intigriti.io",
                 "bountyTierId": 1,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
+        "status": 4,
+        "confidentialityLevel": 4,
+        "companyHandle": "ubisoft",
+        "companyName": "Ubisoft",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "ubisoftvdp",
+        "name": "Ubisoft VDP",
+        "description": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew, and Watch Dogs.\n\nWe welcome the reporting of security vulnerabilities that would help us protect our assets and players.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1695413880,
+        "lastSubmissionAt": 1695357768,
+        "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
+        "domains": [
+            {
+                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
+                "type": 6,
+                "endpoint": "Ubisoft",
+                "bountyTierId": 3,
+                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update."
             }
         ]
     }
