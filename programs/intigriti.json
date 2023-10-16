@@ -1204,122 +1204,6 @@
         ]
     },
     {
-        "programId": "1e325f65-37de-4094-9079-217e27cab00b",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "wpengine",
-        "companyName": "WP Engine",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "wpengine",
-        "name": "WP Engine",
-        "description": "WP Engine invites you to test the WP Engine and Flywheel Digital Experience Platforms. WP Engine equips its customers with a suite of agility, performance, intelligence, and integration solutions, so you can build and deploy a range of online experiences from campaign sites to content hubs to e-commerce extensions. Good luck and happy hunting!",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1688068130,
-        "lastSubmissionAt": 1696366052,
-        "logoId": "public_bucket_ca191b69-f69c-48d3-b1a9-90f13d7c01e4-665898c6-a594-4163-bf57-691a42c8f215",
-        "domains": [
-            {
-                "id": "96852456-df82-4794-92a6-35f1eff20cb4",
-                "type": 6,
-                "endpoint": "WP Engine-developed WordPress Plugins and Themes",
-                "bountyTierId": 1,
-                "description": "We accept any reports of vulnerabilities in plugins or themes managed or developed by WP Engine, with the exception of any application-level vulnerabilities in the Out of Scope section below.  These free versions closely mirror their paid counterparts, so any vulnerabilities discovered should be applicable to both the paid or free plugins.\n\nWe also accept reports for the following Delicious Brains plugins:\nhttps://wordpress.org/plugins/advanced-custom-fields\n"
-            },
-            {
-                "id": "eb01f4c7-fd39-42ba-b186-f3933a681473",
-                "type": 1,
-                "endpoint": "*. advancedcustomfields.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "2a33486a-de01-4d6a-a276-08e15df88b8e",
-                "type": 1,
-                "endpoint": "*. bettersearchreplace.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "836df627-6e13-4476-9ea6-fc2cb03cb8fc",
-                "type": 1,
-                "endpoint": "*.deliciousbrains.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "e542485d-1138-475e-856d-1e2c9e2e9e90",
-                "type": 1,
-                "endpoint": "*.studiopress.com",
-                "bountyTierId": 1,
-                "description": "The studiopress.com, www.studiopress.com, and my.studiopress.com sites are public facing marketing and WordPress theme e-commerce sites. **No credentials will be provided.** Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
-            },
-            {
-                "id": "3a14fea5-bdfb-4c5d-91b7-b8f022c62de5",
-                "type": 1,
-                "endpoint": "*.wpengine.io",
-                "bountyTierId": 1,
-                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpengine.io"
-            },
-            {
-                "id": "a45a6477-169f-4e6a-9752-df43ee4145b6",
-                "type": 1,
-                "endpoint": "*.wpesvc.net",
-                "bountyTierId": 1,
-                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpesvc.net"
-            },
-            {
-                "id": "175f2846-fa9e-4f79-a839-263adf6b5120",
-                "type": 1,
-                "endpoint": "app.getflywheel.com",
-                "bountyTierId": 1,
-                "description": "This is the primary site for researchers to register and test both the Flywheel App as well as the Flywheel Platform. We will not provide credentials or bypass verification controls (i.e, a researcher will need to either provide a valid phone number or credit card to have a live site), but a researcher may register a demo site that matches the platform's functionality without verification. **Please use your Intigriti credentials to register.** Please note that any issues regarding an individual WordPress installation on the Flywheel platform, outside of plugins owned by WP Engine/Flywheel, will be considered out of scope as we do not monitor or manage customer content. We are, however, very interested in issues that may compromise customer isolation on the platform or cause data to be leaked from either a host or an unrelated customer site."
-            },
-            {
-                "id": "f5568849-5260-4b8b-b84c-09c7ac974f14",
-                "type": 1,
-                "endpoint": "getflywheel.com",
-                "bountyTierId": 1,
-                "description": "This site is the landing page for Flywheel-branded services. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality or https://getflywheel.com/schedule-a-demo/. No testing should be done against these targets or any 3rd party services. Please do not contact Live Chat agents."
-            },
-            {
-                "id": "891e0947-7e46-4cc3-bc0a-3819ba604ea2",
-                "type": 1,
-                "endpoint": "my.wpengine.com",
-                "bountyTierId": 1,
-                "description": "The User Portal for WP Engine. Customers manage their WordPress sites, addons, and billing details through this portal. **No credentials will be provided**. Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
-            },
-            {
-                "id": "1060f173-c743-4b9a-b169-3ff4786cb122",
-                "type": 1,
-                "endpoint": "spressforumstg.wpengine.com",
-                "bountyTierId": 1,
-                "description": "the staging environment for the StudioPress community forum, built on WordPress. Researchers are welcome to register an account using their @intigriti.me email address, but should refrain from interacting with the community, making public posts, or performing automated testing which may cause disruption. Do not attempt to gain access to any user accounts not under your control."
-            },
-            {
-                "id": "19c28892-2038-4327-954d-3d02632746d5",
-                "type": 1,
-                "endpoint": "studiopress.blog",
-                "bountyTierId": 1,
-                "description": "This is a public-facing marketing site built on WordPress. Most of the content on this site consists of static blog posts."
-            },
-            {
-                "id": "cc0ac479-c294-44a3-bb27-2c6b18b1a5fb",
-                "type": 1,
-                "endpoint": "wpengine.com",
-                "bountyTierId": 1,
-                "description": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality and wpengine.com/contact/. No testing should be done against these targets or any 3rd party services."
-            }
-        ]
-    },
-    {
         "programId": "acb632b9-2605-47ec-9195-3ffb2f0fcae6",
         "status": 3,
         "confidentialityLevel": 4,
@@ -4867,6 +4751,91 @@
         ]
     },
     {
+        "programId": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "ubisoft",
+        "companyName": "Ubisoft",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "ubisoftvdp",
+        "name": "Ubisoft VDP",
+        "description": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew, and Watch Dogs.\n\nWe welcome the reporting of security vulnerabilities that would help us protect our assets and players.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1697416839,
+        "lastSubmissionAt": 1695357768,
+        "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
+        "domains": [
+            {
+                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
+                "type": 6,
+                "endpoint": "Ubisoft",
+                "bountyTierId": 3,
+                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update."
+            }
+        ]
+    },
+    {
+        "programId": "13cfc6fe-92b2-4a56-8577-855ff0bc2f1c",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "cybersecuritycoalition",
+        "companyName": "Cyber Security Coalition",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "cybersecuritycoalition",
+        "name": "Cyber Security Coalition",
+        "description": "The Cyber Security Coalition is a unique partnership between players from the public and private sector to join forces in the fight against cybercrime. We are bringing together the skills and expertise of members on a trust-based platform. A lot of information is publicly available on our website but there is also protected data not publicly viewable. We are a reference in security and it is obvious that our website should be secure! We are happy to have your help in finding any vulnerabilities!",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1684156375,
+        "lastSubmissionAt": 1695514434,
+        "logoId": "public_bucket_004ac588-9f3b-4414-b218-e67c51fc683d-aa1107f2-b4f3-476b-aab1-789706bc1a5b",
+        "domains": [
+            {
+                "id": "9681b8ed-97f6-4d73-af36-41cd32333348",
+                "type": 1,
+                "endpoint": "blog.cybersecuritycoalition.be",
+                "bountyTierId": 1,
+                "description": "Blog site"
+            },
+            {
+                "id": "925c19b8-eae1-45fd-ab0e-23bb3c5b27ae",
+                "type": 1,
+                "endpoint": "award.cybersecuritycoalition.be",
+                "bountyTierId": 1,
+                "description": "Awards website"
+            },
+            {
+                "id": "99e00bd1-35e0-4138-9624-5afcd0bbc3c1",
+                "type": 1,
+                "endpoint": "annualreport.cybersecuritycoalition.be",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "bc9a3068-a359-4ee3-8163-67db4849c46a",
+                "type": 1,
+                "endpoint": "www.cybersecuritycoalition.be",
+                "bountyTierId": 1,
+                "description": "Public website"
+            }
+        ]
+    },
+    {
         "programId": "1cf88d51-7927-4747-af33-204f6f1c161f",
         "status": 3,
         "confidentialityLevel": 4,
@@ -4937,59 +4906,6 @@
                 "endpoint": "Any other domain from DHL Group companies",
                 "bountyTierId": 1,
                 "description": null
-            }
-        ]
-    },
-    {
-        "programId": "13cfc6fe-92b2-4a56-8577-855ff0bc2f1c",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "cybersecuritycoalition",
-        "companyName": "Cyber Security Coalition",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "cybersecuritycoalition",
-        "name": "Cyber Security Coalition",
-        "description": "The Cyber Security Coalition is a unique partnership between players from the public and private sector to join forces in the fight against cybercrime. We are bringing together the skills and expertise of members on a trust-based platform. A lot of information is publicly available on our website but there is also protected data not publicly viewable. We are a reference in security and it is obvious that our website should be secure! We are happy to have your help in finding any vulnerabilities!",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1684156375,
-        "lastSubmissionAt": 1695514434,
-        "logoId": "public_bucket_004ac588-9f3b-4414-b218-e67c51fc683d-aa1107f2-b4f3-476b-aab1-789706bc1a5b",
-        "domains": [
-            {
-                "id": "9681b8ed-97f6-4d73-af36-41cd32333348",
-                "type": 1,
-                "endpoint": "blog.cybersecuritycoalition.be",
-                "bountyTierId": 1,
-                "description": "Blog site"
-            },
-            {
-                "id": "925c19b8-eae1-45fd-ab0e-23bb3c5b27ae",
-                "type": 1,
-                "endpoint": "award.cybersecuritycoalition.be",
-                "bountyTierId": 1,
-                "description": "Awards website"
-            },
-            {
-                "id": "99e00bd1-35e0-4138-9624-5afcd0bbc3c1",
-                "type": 1,
-                "endpoint": "annualreport.cybersecuritycoalition.be",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "bc9a3068-a359-4ee3-8163-67db4849c46a",
-                "type": 1,
-                "endpoint": "www.cybersecuritycoalition.be",
-                "bountyTierId": 1,
-                "description": "Public website"
             }
         ]
     },
@@ -5925,7 +5841,7 @@
             "currency": "EUR"
         },
         "lastUpdatedAt": 1690361475,
-        "lastSubmissionAt": 1697036517,
+        "lastSubmissionAt": 1697411925,
         "logoId": "public_bucket_556c3dc4-35e6-48e2-a7a1-be98af9a31a5-09ab75b4-96bd-4793-ab4d-cdc544214428",
         "domains": [
             {
@@ -8491,6 +8407,122 @@
         ]
     },
     {
+        "programId": "1e325f65-37de-4094-9079-217e27cab00b",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "wpengine",
+        "companyName": "WP Engine",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "wpengine",
+        "name": "WP Engine",
+        "description": "WP Engine invites you to test the WP Engine and Flywheel Digital Experience Platforms. WP Engine equips its customers with a suite of agility, performance, intelligence, and integration solutions, so you can build and deploy a range of online experiences from campaign sites to content hubs to e-commerce extensions. Good luck and happy hunting!",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1688068130,
+        "lastSubmissionAt": 1696366052,
+        "logoId": "public_bucket_ca191b69-f69c-48d3-b1a9-90f13d7c01e4-665898c6-a594-4163-bf57-691a42c8f215",
+        "domains": [
+            {
+                "id": "96852456-df82-4794-92a6-35f1eff20cb4",
+                "type": 6,
+                "endpoint": "WP Engine-developed WordPress Plugins and Themes",
+                "bountyTierId": 1,
+                "description": "We accept any reports of vulnerabilities in plugins or themes managed or developed by WP Engine, with the exception of any application-level vulnerabilities in the Out of Scope section below.  These free versions closely mirror their paid counterparts, so any vulnerabilities discovered should be applicable to both the paid or free plugins.\n\nWe also accept reports for the following Delicious Brains plugins:\nhttps://wordpress.org/plugins/advanced-custom-fields\n"
+            },
+            {
+                "id": "eb01f4c7-fd39-42ba-b186-f3933a681473",
+                "type": 1,
+                "endpoint": "*. advancedcustomfields.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "2a33486a-de01-4d6a-a276-08e15df88b8e",
+                "type": 1,
+                "endpoint": "*. bettersearchreplace.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "836df627-6e13-4476-9ea6-fc2cb03cb8fc",
+                "type": 1,
+                "endpoint": "*.deliciousbrains.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "e542485d-1138-475e-856d-1e2c9e2e9e90",
+                "type": 1,
+                "endpoint": "*.studiopress.com",
+                "bountyTierId": 1,
+                "description": "The studiopress.com, www.studiopress.com, and my.studiopress.com sites are public facing marketing and WordPress theme e-commerce sites. **No credentials will be provided.** Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
+            },
+            {
+                "id": "3a14fea5-bdfb-4c5d-91b7-b8f022c62de5",
+                "type": 1,
+                "endpoint": "*.wpengine.io",
+                "bountyTierId": 1,
+                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpengine.io"
+            },
+            {
+                "id": "a45a6477-169f-4e6a-9752-df43ee4145b6",
+                "type": 1,
+                "endpoint": "*.wpesvc.net",
+                "bountyTierId": 1,
+                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpesvc.net"
+            },
+            {
+                "id": "175f2846-fa9e-4f79-a839-263adf6b5120",
+                "type": 1,
+                "endpoint": "app.getflywheel.com",
+                "bountyTierId": 1,
+                "description": "This is the primary site for researchers to register and test both the Flywheel App as well as the Flywheel Platform. We will not provide credentials or bypass verification controls (i.e, a researcher will need to either provide a valid phone number or credit card to have a live site), but a researcher may register a demo site that matches the platform's functionality without verification. **Please use your Intigriti credentials to register.** Please note that any issues regarding an individual WordPress installation on the Flywheel platform, outside of plugins owned by WP Engine/Flywheel, will be considered out of scope as we do not monitor or manage customer content. We are, however, very interested in issues that may compromise customer isolation on the platform or cause data to be leaked from either a host or an unrelated customer site."
+            },
+            {
+                "id": "f5568849-5260-4b8b-b84c-09c7ac974f14",
+                "type": 1,
+                "endpoint": "getflywheel.com",
+                "bountyTierId": 1,
+                "description": "This site is the landing page for Flywheel-branded services. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality or https://getflywheel.com/schedule-a-demo/. No testing should be done against these targets or any 3rd party services. Please do not contact Live Chat agents."
+            },
+            {
+                "id": "891e0947-7e46-4cc3-bc0a-3819ba604ea2",
+                "type": 1,
+                "endpoint": "my.wpengine.com",
+                "bountyTierId": 1,
+                "description": "The User Portal for WP Engine. Customers manage their WordPress sites, addons, and billing details through this portal. **No credentials will be provided**. Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
+            },
+            {
+                "id": "1060f173-c743-4b9a-b169-3ff4786cb122",
+                "type": 1,
+                "endpoint": "spressforumstg.wpengine.com",
+                "bountyTierId": 1,
+                "description": "the staging environment for the StudioPress community forum, built on WordPress. Researchers are welcome to register an account using their @intigriti.me email address, but should refrain from interacting with the community, making public posts, or performing automated testing which may cause disruption. Do not attempt to gain access to any user accounts not under your control."
+            },
+            {
+                "id": "19c28892-2038-4327-954d-3d02632746d5",
+                "type": 1,
+                "endpoint": "studiopress.blog",
+                "bountyTierId": 1,
+                "description": "This is a public-facing marketing site built on WordPress. Most of the content on this site consists of static blog posts."
+            },
+            {
+                "id": "cc0ac479-c294-44a3-bb27-2c6b18b1a5fb",
+                "type": 1,
+                "endpoint": "wpengine.com",
+                "bountyTierId": 1,
+                "description": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality and wpengine.com/contact/. No testing should be done against these targets or any 3rd party services."
+            }
+        ]
+    },
+    {
         "programId": "190ed8f0-4412-4b6d-9415-6114da409600",
         "status": 3,
         "confidentialityLevel": 4,
@@ -8519,59 +8551,6 @@
                 "endpoint": "Zero days that affect Intigriti or participating customers (listed below)",
                 "bountyTierId": 3,
                 "description": null
-            }
-        ]
-    },
-    {
-        "programId": "10eb5e95-08e2-4f4e-8d22-f8c600a7acff",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intel",
-        "companyName": "Intel",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "intel",
-        "name": "Intel\u00ae",
-        "description": "Intel\u00ae Bug Bounty Program\nIntel Corporation believes that forging relationships with security researchers and fostering security research is a crucial part of our Security First Pledge. We encourage security researchers to work with us to mitigate and coordinate the disclosure of potential security vulnerabilities. By submitting your report, you agree to the terms of the Intel\u00ae Bug Bounty Program. Intel reserves the right to alter the terms and conditions of this program at its sole discretion.\n",
-        "minBounty": {
-            "value": 500.0,
-            "currency": "USD"
-        },
-        "maxBounty": {
-            "value": 100000.0,
-            "currency": "USD"
-        },
-        "lastUpdatedAt": 1688138654,
-        "lastSubmissionAt": 1697381036,
-        "logoId": "public_bucket_dfb4b18d-a540-4385-82fc-29a69c3800a6-bcbf0c63-dace-406b-809e-689dd1d2023f",
-        "domains": [
-            {
-                "id": "dd6d5718-737b-44f3-a833-fa74d0462f1f",
-                "type": 6,
-                "endpoint": "Hardware",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "92208b24-3ef0-43dc-9314-f3af05929360",
-                "type": 6,
-                "endpoint": "Firmware",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "9ddd704e-ea3a-463d-878d-6b80342f685a",
-                "type": 6,
-                "endpoint": "Software",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "9898bc2c-6e8f-4d11-af00-5072e77c15f8",
-                "type": 1,
-                "endpoint": "*.intel.com",
-                "bountyTierId": 1,
-                "description": "**Intel's Web Infrastructure, i.e.`*.intel.com`**\nIntel\u2019s web infrastructure, i.e., website domains owned and/or operated by Intel, fall **Out of Scope**. These reports are not eligible for rewards of any kind. \nPlease send security vulnerability reports against intel.com and/or related web presence to external.security.research@intel.com"
             }
         ]
     },
@@ -8650,108 +8629,55 @@
         ]
     },
     {
-        "programId": "f20cc699-5ec8-4cb8-8168-61e15c5c7bbe",
-        "status": 4,
+        "programId": "10eb5e95-08e2-4f4e-8d22-f8c600a7acff",
+        "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "ebsi",
-        "companyName": "European Commission - EBSI",
+        "companyHandle": "intel",
+        "companyName": "Intel",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "ebsi",
-        "name": "EBSI",
-        "description": "The European Blockchain Services Infrastructure (EBSI) was born in 2018 when 29 countries (all EU members states, Norway and Liechtenstein) and the EU Commission have joined forces to create the European Blockchain Partnership (EBP). EBP\u2019s vision is to leverage blockchain to create cross-border services for public administrations, businesses, citizens and their ecosystems to verify information and make services trustworthy.\n\nDiscover and understand EBSI by having a look at our website.",
+        "handle": "intel",
+        "name": "Intel\u00ae",
+        "description": "Intel\u00ae Bug Bounty Program\nIntel Corporation believes that forging relationships with security researchers and fostering security research is a crucial part of our Security First Pledge. We encourage security researchers to work with us to mitigate and coordinate the disclosure of potential security vulnerabilities. By submitting your report, you agree to the terms of the Intel\u00ae Bug Bounty Program. Intel reserves the right to alter the terms and conditions of this program at its sole discretion.\n",
         "minBounty": {
             "value": 500.0,
-            "currency": "EUR"
+            "currency": "USD"
         },
         "maxBounty": {
-            "value": 30000.0,
-            "currency": "EUR"
+            "value": 100000.0,
+            "currency": "USD"
         },
-        "lastUpdatedAt": 1697181956,
-        "lastSubmissionAt": 1697106999,
-        "logoId": "public_bucket_43f3aabc-5e94-4c68-a360-5b3dc91a688a-14bd93da-df2d-4512-a44f-9cddad3550c6",
+        "lastUpdatedAt": 1688138654,
+        "lastSubmissionAt": 1697381036,
+        "logoId": "public_bucket_dfb4b18d-a540-4385-82fc-29a69c3800a6-bcbf0c63-dace-406b-809e-689dd1d2023f",
         "domains": [
             {
-                "id": "c1e90bcb-474a-4ebe-ac57-ab5b591c0805",
+                "id": "dd6d5718-737b-44f3-a833-fa74d0462f1f",
                 "type": 6,
-                "endpoint": "Ledger API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Ledger API](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/) are considered in-scope:\n\n1. [POST Besu JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/operations/post-ledger-v3-blockchains-besu)"
+                "endpoint": "Hardware",
+                "bountyTierId": 4,
+                "description": null
             },
             {
-                "id": "bbdd5a74-c306-497a-b5b7-6c9f136739ff",
+                "id": "92208b24-3ef0-43dc-9314-f3af05929360",
                 "type": 6,
-                "endpoint": "Authorisation API",
+                "endpoint": "Firmware",
                 "bountyTierId": 3,
-                "description": "Following endpoints of the [Authorisation API](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/) are considered in-scope:\n\n1. [POST Initiate a SIOP DID Auth request](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v2-authentication-requests)\n2. [POST Create a SIOP Session](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v2-siop-sessions)\n3. [POST Create an OAuth2 Session](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v4-oauth2-sessions)\n4. [GET OpenID Provider Metadata](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v4-well-known-openid-config)\n5. [GET OpenID Provider's public keys](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-jwks)\n6. [GET Presentation definition requirements](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-presentation-definitions)\n7. [POST Token Endpoint](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-v3-token)"
+                "description": null
             },
             {
-                "id": "2159b837-2fe9-465a-aa89-8ffe274917b3",
+                "id": "9ddd704e-ea3a-463d-878d-6b80342f685a",
                 "type": 6,
-                "endpoint": "DID registry API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [DID Registry API](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/) are considered in-scope:\n\n1. [GET List identifiers](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-identifiers)\n2. [GET Get a DID document](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-identifier)\n3. [POST Perform actions in DID](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-actions)\n4. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/post-did-registry-v5-jsonrpc)\n"
+                "endpoint": "Software",
+                "bountyTierId": 2,
+                "description": null
             },
             {
-                "id": "9d95ed5d-7a4f-4a1a-97b0-34124246f050",
-                "type": 6,
-                "endpoint": "Timestamp API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Timestamp API](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/) are considered in-scope:\n\n1. [GET List hash algorithms](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-hash-algorithms)\n2. [GET Get a hash algorithm](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-hash-algorithms-hash-algorithm-id)\n3. [GET List timestamps](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-timestamps)\n4. [GET Get a timestamp](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-timestamps-timestampId)\n5. [GET List records](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records)\n6. [GET Get a record](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id)\n7. [GET List a record's versions](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id-versions)\n8. [GET Get a version](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id-versions-version-id)\n9. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/post-timestamp-v4-jsonrpc)\n"
-            },
-            {
-                "id": "9c183ca9-3c72-41af-aaac-f95bc4a77524",
-                "type": 6,
-                "endpoint": "Trusted Issuers Registry API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Trusted Issuers Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/) are considered in-scope:\n\n1. [GET List issuers](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers)\n2. [GET Get an issuer](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-issuer)\n3. [GET List attributes](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes)\n4. [GET Get an attribute](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes-attributeid)\n5. [GET List revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes-attributeid-revisions)\n6. [GET List proxies](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies)\n7. [GET Get a proxy](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies-proxyid)\n8. [GET Get StatusList2021Credential](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies-proxyid-path)\n9. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/post-ledger-v2-blockchains-besu)"
-            },
-            {
-                "id": "1c0d489e-876c-4bbb-b839-acaaeb28edb2",
-                "type": 6,
-                "endpoint": "Trusted Policies Registry API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Trusted Policies Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/) are considered in-scope:\n\n1. [GET List policies](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policies)\n2. [GET Get a policy](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policy)\n3. [GET List users](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-users)\n4. [GET Get a user](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-user)\n5. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/post-jsonrpc)"
-            },
-            {
-                "id": "aaa19da8-cbaa-4480-ab54-a9a28d9b1cca",
-                "type": 6,
-                "endpoint": "Trusted Schemas Registry API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Trusted Schemas Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/) are considered in-scope:\n\n1. [GET List schemas](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas)\n2. [GET Get a schema](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema)\n3. [GET List a schema's revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas-revisions)\n4. [GET Get a schema revision](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema-revision)\n5. [GET List revision's metadata](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas-revision-metadata-list)\n6. [GET Get metadata](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema-revision-metadata)\n7. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/post-trusted-schemas-registry-v3-jsonrpc)"
-            }
-        ]
-    },
-    {
-        "programId": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
-        "status": 4,
-        "confidentialityLevel": 4,
-        "companyHandle": "ubisoft",
-        "companyName": "Ubisoft",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "ubisoftvdp",
-        "name": "Ubisoft VDP",
-        "description": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew, and Watch Dogs.\n\nWe welcome the reporting of security vulnerabilities that would help us protect our assets and players.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1695413880,
-        "lastSubmissionAt": 1695357768,
-        "logoId": "public_bucket_b12783c4-6f57-4526-97ad-7a203b3d3678-c9708218-3849-4485-971a-1dacf48d409f",
-        "domains": [
-            {
-                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
-                "type": 6,
-                "endpoint": "Ubisoft",
-                "bountyTierId": 3,
-                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update."
+                "id": "9898bc2c-6e8f-4d11-af00-5072e77c15f8",
+                "type": 1,
+                "endpoint": "*.intel.com",
+                "bountyTierId": 1,
+                "description": "**Intel's Web Infrastructure, i.e.`*.intel.com`**\nIntel\u2019s web infrastructure, i.e., website domains owned and/or operated by Intel, fall **Out of Scope**. These reports are not eligible for rewards of any kind. \nPlease send security vulnerability reports against intel.com and/or related web presence to external.security.research@intel.com"
             }
         ]
     },
@@ -8890,6 +8816,80 @@
                 "endpoint": "https://challenge-0923.intigriti.io",
                 "bountyTierId": 1,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "f20cc699-5ec8-4cb8-8168-61e15c5c7bbe",
+        "status": 4,
+        "confidentialityLevel": 4,
+        "companyHandle": "ebsi",
+        "companyName": "European Commission - EBSI",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "ebsi",
+        "name": "EBSI",
+        "description": "The European Blockchain Services Infrastructure (EBSI) was born in 2018 when 29 countries (all EU members states, Norway and Liechtenstein) and the EU Commission have joined forces to create the European Blockchain Partnership (EBP). EBP\u2019s vision is to leverage blockchain to create cross-border services for public administrations, businesses, citizens and their ecosystems to verify information and make services trustworthy.\n\nDiscover and understand EBSI by having a look at our website.",
+        "minBounty": {
+            "value": 500.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 30000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1697181956,
+        "lastSubmissionAt": 1697106999,
+        "logoId": "public_bucket_43f3aabc-5e94-4c68-a360-5b3dc91a688a-14bd93da-df2d-4512-a44f-9cddad3550c6",
+        "domains": [
+            {
+                "id": "c1e90bcb-474a-4ebe-ac57-ab5b591c0805",
+                "type": 6,
+                "endpoint": "Ledger API",
+                "bountyTierId": 3,
+                "description": "Following endpoints of the [Ledger API](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/) are considered in-scope:\n\n1. [POST Besu JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/operations/post-ledger-v3-blockchains-besu)"
+            },
+            {
+                "id": "bbdd5a74-c306-497a-b5b7-6c9f136739ff",
+                "type": 6,
+                "endpoint": "Authorisation API",
+                "bountyTierId": 3,
+                "description": "Following endpoints of the [Authorisation API](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/) are considered in-scope:\n\n1. [POST Initiate a SIOP DID Auth request](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v2-authentication-requests)\n2. [POST Create a SIOP Session](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v2-siop-sessions)\n3. [POST Create an OAuth2 Session](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v4-oauth2-sessions)\n4. [GET OpenID Provider Metadata](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v4-well-known-openid-config)\n5. [GET OpenID Provider's public keys](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-jwks)\n6. [GET Presentation definition requirements](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-presentation-definitions)\n7. [POST Token Endpoint](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-v3-token)"
+            },
+            {
+                "id": "2159b837-2fe9-465a-aa89-8ffe274917b3",
+                "type": 6,
+                "endpoint": "DID registry API",
+                "bountyTierId": 3,
+                "description": "Following endpoints of the [DID Registry API](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/) are considered in-scope:\n\n1. [GET List identifiers](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-identifiers)\n2. [GET Get a DID document](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-identifier)\n3. [POST Perform actions in DID](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-actions)\n4. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/post-did-registry-v5-jsonrpc)\n"
+            },
+            {
+                "id": "9d95ed5d-7a4f-4a1a-97b0-34124246f050",
+                "type": 6,
+                "endpoint": "Timestamp API",
+                "bountyTierId": 3,
+                "description": "Following endpoints of the [Timestamp API](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/) are considered in-scope:\n\n1. [GET List hash algorithms](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-hash-algorithms)\n2. [GET Get a hash algorithm](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-hash-algorithms-hash-algorithm-id)\n3. [GET List timestamps](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-timestamps)\n4. [GET Get a timestamp](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-timestamps-timestampId)\n5. [GET List records](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records)\n6. [GET Get a record](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id)\n7. [GET List a record's versions](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id-versions)\n8. [GET Get a version](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id-versions-version-id)\n9. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/post-timestamp-v4-jsonrpc)\n"
+            },
+            {
+                "id": "9c183ca9-3c72-41af-aaac-f95bc4a77524",
+                "type": 6,
+                "endpoint": "Trusted Issuers Registry API",
+                "bountyTierId": 3,
+                "description": "Following endpoints of the [Trusted Issuers Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/) are considered in-scope:\n\n1. [GET List issuers](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers)\n2. [GET Get an issuer](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-issuer)\n3. [GET List attributes](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes)\n4. [GET Get an attribute](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes-attributeid)\n5. [GET List revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes-attributeid-revisions)\n6. [GET List proxies](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies)\n7. [GET Get a proxy](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies-proxyid)\n8. [GET Get StatusList2021Credential](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies-proxyid-path)\n9. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/post-ledger-v2-blockchains-besu)"
+            },
+            {
+                "id": "1c0d489e-876c-4bbb-b839-acaaeb28edb2",
+                "type": 6,
+                "endpoint": "Trusted Policies Registry API",
+                "bountyTierId": 3,
+                "description": "Following endpoints of the [Trusted Policies Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/) are considered in-scope:\n\n1. [GET List policies](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policies)\n2. [GET Get a policy](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policy)\n3. [GET List users](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-users)\n4. [GET Get a user](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-user)\n5. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/post-jsonrpc)"
+            },
+            {
+                "id": "aaa19da8-cbaa-4480-ab54-a9a28d9b1cca",
+                "type": 6,
+                "endpoint": "Trusted Schemas Registry API",
+                "bountyTierId": 3,
+                "description": "Following endpoints of the [Trusted Schemas Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/) are considered in-scope:\n\n1. [GET List schemas](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas)\n2. [GET Get a schema](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema)\n3. [GET List a schema's revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas-revisions)\n4. [GET Get a schema revision](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema-revision)\n5. [GET List revision's metadata](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas-revision-metadata-list)\n6. [GET Get metadata](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema-revision-metadata)\n7. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/post-trusted-schemas-registry-v3-jsonrpc)"
             }
         ]
     }
