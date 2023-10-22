@@ -1,15 +1,15 @@
 [
     {
-        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
+        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
+        "companyHandle": "universitatsspitalzurich",
+        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
         "tacRequired": false,
-        "companySustainable": true,
-        "handle": "VismaResponsibleDisclosure",
-        "name": "Visma Responsible Disclosure",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
+        "companySustainable": false,
+        "handle": "usz-vdp",
+        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
+        "description": "VULNERABILITY DISCLOSURE PROGRAM (VDP)\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -18,410 +18,23 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1697389619,
-        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
+        "lastUpdatedAt": 1689600663,
+        "lastSubmissionAt": 1697644071,
+        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
         "domains": [
             {
-                "id": "8922aa89-e471-4918-9785-ba22414a1975",
+                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
                 "type": 1,
-                "endpoint": "all",
+                "endpoint": "*.unispital.ch ",
                 "bountyTierId": 1,
-                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
-            }
-        ]
-    },
-    {
-        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "Uphold",
-        "companyName": "Uphold.com",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "upholdcom",
-        "name": "Uphold.com",
-        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680680521,
-        "lastSubmissionAt": 1696584763,
-        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
-        "domains": [
-            {
-                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
-                "type": 3,
-                "endpoint": "1101145849",
-                "bountyTierId": 4,
-                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+                "description": "forwarding to usz.ch"
             },
             {
-                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
+                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
                 "type": 1,
-                "endpoint": "api.uphold.com",
-                "bountyTierId": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
-                "type": 2,
-                "endpoint": "com.uphold.wallet",
-                "bountyTierId": 4,
-                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
-                "type": 1,
-                "endpoint": "uphold.com/dashboard",
-                "bountyTierId": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
-            },
-            {
-                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
-                "type": 1,
-                "endpoint": "api-sandbox.uphold.com",
-                "bountyTierId": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
-                "type": 1,
-                "endpoint": "sandbox.uphold.com/dashboard",
-                "bountyTierId": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
-            },
-            {
-                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
-                "type": 1,
-                "endpoint": "*.uphold.com",
-                "bountyTierId": 2,
-                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
-            }
-        ]
-    },
-    {
-        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "intigriti",
-        "name": "intigriti",
-        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and we will reward you accordingly.",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 13337.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1696320350,
-        "lastSubmissionAt": 1697977688,
-        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
-        "domains": [
-            {
-                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
-                "type": 1,
-                "endpoint": "*pwn.intigriti.rocks",
-                "bountyTierId": 3,
-                "description": "This is our test (PWN) environment that replicates production."
-            },
-            {
-                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
-                "type": 1,
-                "endpoint": "www.intigriti.com",
-                "bountyTierId": 2,
-                "description": "This is our marketing website."
-            }
-        ]
-    },
-    {
-        "programId": "188976b1-e8b3-4132-a6f6-e96113599474",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "oda",
-        "companyName": "Oda",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "oda",
-        "name": "Oda",
-        "description": "Oda is a company on the move. We built Norway\u2019s leading online grocery store and now we want to share what we\u2019ve created with the world! Delivering a huge range of high-quality, affordable groceries and fresh produce to millions of doorsteps is a complex process, but we believe we\u2019ve cracked the code. Using data-driven methodology, with a focus on sustainability all the way along the chain, we are building the most efficient retail system in the world. ",
-        "minBounty": {
-            "value": 75.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1693994083,
-        "lastSubmissionAt": 1697526838,
-        "logoId": "public_bucket_35fcbcdd-9b3f-415c-a599-2fa6ebd27959-2a8ad638-f6e6-4768-931f-846de5936a4b",
-        "domains": [
-            {
-                "id": "244c67c6-985f-4e98-9521-2b38dfc0eab5",
-                "type": 1,
-                "endpoint": "*.oda.com",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "197b603a-6d2b-46c2-ab41-b16c70b3561c",
-                "type": 3,
-                "endpoint": "1079537578",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "95430c8e-3876-4fa2-a7f6-b53cb513dd5c",
-                "type": 1,
-                "endpoint": "https://oda.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "4e618c42-fe4c-4f52-80b5-dc4b27096e91",
-                "type": 2,
-                "endpoint": "no.kolonial.tienda",
-                "bountyTierId": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "ee2612e7-e188-492f-9bb2-ba48651523de",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intergamma",
-        "companyName": "Intergamma",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "intergamma",
-        "name": "Intergamma",
-        "description": "Intergamma is the biggest DIY retailer of The Netherlands and Belgium with three brands: GAMMA Nederland, GAMMA Belgi\u00eb, and KARWEI. We have almost 400 DIY stores and operate three eCommerce websites.\n\nOur strategy is to be the best omnichannel retailer of the Netherlands and Belgium. This means offline and online are converging, and eCommerce is a growth market. Therefore a secure platform is paramount.\n\nFor more information on our organization please visit https://www.intergamma.nl/",
-        "minBounty": {
-            "value": 10.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679582417,
-        "lastSubmissionAt": 1697976543,
-        "logoId": "public_bucket_5316fa40-7c09-440d-a097-0063edbd14bf-0214e689-df89-483e-bace-c9a6eceaa725",
-        "domains": [
-            {
-                "id": "8c2dd3f6-51dd-4d18-81bf-922238cb21ff",
-                "type": 3,
-                "endpoint": "949829216",
-                "bountyTierId": 4,
-                "description": "iOS app of GAMMA NL"
-            },
-            {
-                "id": "2578fff5-3b90-48e3-968f-49140c6fb239",
-                "type": 3,
-                "endpoint": "950680989",
-                "bountyTierId": 4,
-                "description": "iOS app of Karwei"
-            },
-            {
-                "id": "a51f30d1-0256-476f-8547-9d361e34ab86",
-                "type": 3,
-                "endpoint": "950693949",
-                "bountyTierId": 4,
-                "description": "iOS app of GAMMA BE"
-            },
-            {
-                "id": "c752feeb-d95b-4fac-9bb2-6eae96277ca9",
-                "type": 2,
-                "endpoint": "be.gamma.app.android",
-                "bountyTierId": 4,
-                "description": "Android app of GAMMA BE"
-            },
-            {
-                "id": "2458a0c9-7639-4d45-9d08-27247bf951a9",
-                "type": 1,
-                "endpoint": "kassa.gamma.be/*",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "845153aa-bbff-403c-a7ad-6e79b6842ece",
-                "type": 1,
-                "endpoint": "kassa.gamma.nl/*",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "1816747a-c42c-4d24-858c-a6060071c3e3",
-                "type": 1,
-                "endpoint": "kassa.karwei.nl/*",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "ae25eeee-6143-47f5-8686-bbecad2dff21",
-                "type": 1,
-                "endpoint": "mijn.gamma.be/*",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "7ecffc13-5974-4206-ad0c-55cd79a13d19",
-                "type": 1,
-                "endpoint": "mijn.gamma.nl/*",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "24c571e9-ae1f-4ac7-8841-6d69d9ccd36e",
-                "type": 1,
-                "endpoint": "mijn.karwei.nl/*",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "49f019a2-a1d7-4327-9c84-b91a14e0c7b4",
-                "type": 2,
-                "endpoint": "nl.gamma.app.android",
-                "bountyTierId": 4,
-                "description": "Android app of GAMMA NL"
-            },
-            {
-                "id": "c810191e-89dc-49f4-a115-4df46a4077a3",
-                "type": 2,
-                "endpoint": "nl.karwei.app.android",
-                "bountyTierId": 4,
-                "description": "Android app of Karwei"
-            },
-            {
-                "id": "47db3b02-5b77-45d9-93ee-9c5c9e96022a",
-                "type": 1,
-                "endpoint": "www.gamma.be/*",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "65870cd2-6ef8-44c1-88c4-a3085df8adda",
-                "type": 1,
-                "endpoint": "www.gamma.nl/*",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "868c375c-f13a-4e15-a76d-20438b269502",
-                "type": 1,
-                "endpoint": "www.karwei.nl/*",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "84673259-4bb2-4500-aaba-33fbb91ddbba",
-                "type": 1,
-                "endpoint": "*.gamma.be/*",
-                "bountyTierId": 3,
-                "description": "**Out of scope: raamdecoratieconfigurator.gamma.be**\n**Out of scope: mail.gamma.be**\n\nThis covers all subdomains of gamma.be not listed in Tier 1"
-            },
-            {
-                "id": "bed0b052-93dc-4430-8cb8-aac698317559",
-                "type": 1,
-                "endpoint": "*.gamma.nl/*",
-                "bountyTierId": 3,
-                "description": "**Out of scope: mail.gamma.nl**\n**Out of scope: raamdecoratieconfigurator.gamma.nl**\n\n\nThis covers all subdomains of gamma.nl not listed in Tier 1"
-            },
-            {
-                "id": "f6694b18-83df-4080-9d20-f1db9042d60c",
-                "type": 1,
-                "endpoint": "*.intergamma.nl/*",
-                "bountyTierId": 3,
-                "description": "Corporate website"
-            },
-            {
-                "id": "8730a180-f81d-4bee-9100-0fec0b3c5b6b",
-                "type": 1,
-                "endpoint": "*.karwei.nl/*",
-                "bountyTierId": 3,
-                "description": "**Out of scope: mail.karwei.nl**\n\n**api.maakafspraak.karwei.nl and maakafspraak.karwei.nl are listed seperately**\n\nThis covers all subdomains of Karwei.nl not listed in Tier 1"
-            },
-            {
-                "id": "21dd6973-6ed4-4714-a829-cae866757272",
-                "type": 3,
-                "endpoint": "1558129454",
-                "bountyTierId": 3,
-                "description": "Our brand new iOS app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the Android version"
-            },
-            {
-                "id": "e4635121-cfd9-460e-bc3c-2eeabd7c0a0a",
-                "type": 1,
-                "endpoint": "https://zabbix.intergamma.nl/*",
-                "bountyTierId": 3,
-                "description": "Zabbix installation"
-            },
-            {
-                "id": "78adff03-3eea-4165-9867-763a22b1185d",
-                "type": 1,
-                "endpoint": "*.intergamma-test.nl",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "8f35998b-0e21-404a-b724-1b3a08d0e68d",
-                "type": 1,
-                "endpoint": "*.intergamma.cloud",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "80901414-c005-46bf-8875-bf146b9b8cbe",
-                "type": 1,
-                "endpoint": "*.restintergamma.nl",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "8517d896-60c1-4e8d-ba34-1beaa5469fae",
-                "type": 1,
-                "endpoint": "*.werkenbijgamma.be",
-                "bountyTierId": 2,
-                "description": "Recruiting website"
-            },
-            {
-                "id": "9b233015-9a5b-4a18-ae8b-608ae7910fa5",
-                "type": 1,
-                "endpoint": "*.werkenbijgamma.nl",
-                "bountyTierId": 2,
-                "description": "Recruiting website"
-            },
-            {
-                "id": "db6e207c-d2a1-4c65-bcaf-8a95dbf51368",
-                "type": 1,
-                "endpoint": "*.werkenbijkarwei.nl",
-                "bountyTierId": 2,
-                "description": "Recruiting website"
-            },
-            {
-                "id": "3fe93fe7-a253-44c3-a2d8-07bc17d2ae95",
-                "type": 2,
-                "endpoint": "nl.gamma.verf",
-                "bountyTierId": 2,
-                "description": "Our brand new Android app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the iOS version"
-            },
-            {
-                "id": "b4873469-3ab1-4e8e-b9ec-1940e4b7bd43",
-                "type": 1,
-                "endpoint": "*.karweioutletstore.nl",
+                "endpoint": "*.usz.ch ",
                 "bountyTierId": 1,
-                "description": null
+                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
             }
         ]
     },
@@ -707,16 +320,244 @@
         ]
     },
     {
-        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
+        "programId": "ee2612e7-e188-492f-9bb2-ba48651523de",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "universitatsspitalzurich",
-        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
+        "companyHandle": "intergamma",
+        "companyName": "Intergamma",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "usz-vdp",
-        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
-        "description": "VULNERABILITY DISCLOSURE PROGRAM (VDP)\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
+        "handle": "intergamma",
+        "name": "Intergamma",
+        "description": "Intergamma is the biggest DIY retailer of The Netherlands and Belgium with three brands: GAMMA Nederland, GAMMA Belgi\u00eb, and KARWEI. We have almost 400 DIY stores and operate three eCommerce websites.\n\nOur strategy is to be the best omnichannel retailer of the Netherlands and Belgium. This means offline and online are converging, and eCommerce is a growth market. Therefore a secure platform is paramount.\n\nFor more information on our organization please visit https://www.intergamma.nl/",
+        "minBounty": {
+            "value": 10.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679582417,
+        "lastSubmissionAt": 1697976543,
+        "logoId": "public_bucket_5316fa40-7c09-440d-a097-0063edbd14bf-0214e689-df89-483e-bace-c9a6eceaa725",
+        "domains": [
+            {
+                "id": "8c2dd3f6-51dd-4d18-81bf-922238cb21ff",
+                "type": 3,
+                "endpoint": "949829216",
+                "bountyTierId": 4,
+                "description": "iOS app of GAMMA NL"
+            },
+            {
+                "id": "2578fff5-3b90-48e3-968f-49140c6fb239",
+                "type": 3,
+                "endpoint": "950680989",
+                "bountyTierId": 4,
+                "description": "iOS app of Karwei"
+            },
+            {
+                "id": "a51f30d1-0256-476f-8547-9d361e34ab86",
+                "type": 3,
+                "endpoint": "950693949",
+                "bountyTierId": 4,
+                "description": "iOS app of GAMMA BE"
+            },
+            {
+                "id": "c752feeb-d95b-4fac-9bb2-6eae96277ca9",
+                "type": 2,
+                "endpoint": "be.gamma.app.android",
+                "bountyTierId": 4,
+                "description": "Android app of GAMMA BE"
+            },
+            {
+                "id": "2458a0c9-7639-4d45-9d08-27247bf951a9",
+                "type": 1,
+                "endpoint": "kassa.gamma.be/*",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "845153aa-bbff-403c-a7ad-6e79b6842ece",
+                "type": 1,
+                "endpoint": "kassa.gamma.nl/*",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "1816747a-c42c-4d24-858c-a6060071c3e3",
+                "type": 1,
+                "endpoint": "kassa.karwei.nl/*",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "ae25eeee-6143-47f5-8686-bbecad2dff21",
+                "type": 1,
+                "endpoint": "mijn.gamma.be/*",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "7ecffc13-5974-4206-ad0c-55cd79a13d19",
+                "type": 1,
+                "endpoint": "mijn.gamma.nl/*",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "24c571e9-ae1f-4ac7-8841-6d69d9ccd36e",
+                "type": 1,
+                "endpoint": "mijn.karwei.nl/*",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "49f019a2-a1d7-4327-9c84-b91a14e0c7b4",
+                "type": 2,
+                "endpoint": "nl.gamma.app.android",
+                "bountyTierId": 4,
+                "description": "Android app of GAMMA NL"
+            },
+            {
+                "id": "c810191e-89dc-49f4-a115-4df46a4077a3",
+                "type": 2,
+                "endpoint": "nl.karwei.app.android",
+                "bountyTierId": 4,
+                "description": "Android app of Karwei"
+            },
+            {
+                "id": "47db3b02-5b77-45d9-93ee-9c5c9e96022a",
+                "type": 1,
+                "endpoint": "www.gamma.be/*",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "65870cd2-6ef8-44c1-88c4-a3085df8adda",
+                "type": 1,
+                "endpoint": "www.gamma.nl/*",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "868c375c-f13a-4e15-a76d-20438b269502",
+                "type": 1,
+                "endpoint": "www.karwei.nl/*",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "84673259-4bb2-4500-aaba-33fbb91ddbba",
+                "type": 1,
+                "endpoint": "*.gamma.be/*",
+                "bountyTierId": 3,
+                "description": "**Out of scope: raamdecoratieconfigurator.gamma.be**\n**Out of scope: mail.gamma.be**\n\nThis covers all subdomains of gamma.be not listed in Tier 1"
+            },
+            {
+                "id": "bed0b052-93dc-4430-8cb8-aac698317559",
+                "type": 1,
+                "endpoint": "*.gamma.nl/*",
+                "bountyTierId": 3,
+                "description": "**Out of scope: mail.gamma.nl**\n**Out of scope: raamdecoratieconfigurator.gamma.nl**\n\n\nThis covers all subdomains of gamma.nl not listed in Tier 1"
+            },
+            {
+                "id": "f6694b18-83df-4080-9d20-f1db9042d60c",
+                "type": 1,
+                "endpoint": "*.intergamma.nl/*",
+                "bountyTierId": 3,
+                "description": "Corporate website"
+            },
+            {
+                "id": "8730a180-f81d-4bee-9100-0fec0b3c5b6b",
+                "type": 1,
+                "endpoint": "*.karwei.nl/*",
+                "bountyTierId": 3,
+                "description": "**Out of scope: mail.karwei.nl**\n\n**api.maakafspraak.karwei.nl and maakafspraak.karwei.nl are listed seperately**\n\nThis covers all subdomains of Karwei.nl not listed in Tier 1"
+            },
+            {
+                "id": "21dd6973-6ed4-4714-a829-cae866757272",
+                "type": 3,
+                "endpoint": "1558129454",
+                "bountyTierId": 3,
+                "description": "Our brand new iOS app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the Android version"
+            },
+            {
+                "id": "e4635121-cfd9-460e-bc3c-2eeabd7c0a0a",
+                "type": 1,
+                "endpoint": "https://zabbix.intergamma.nl/*",
+                "bountyTierId": 3,
+                "description": "Zabbix installation"
+            },
+            {
+                "id": "78adff03-3eea-4165-9867-763a22b1185d",
+                "type": 1,
+                "endpoint": "*.intergamma-test.nl",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "8f35998b-0e21-404a-b724-1b3a08d0e68d",
+                "type": 1,
+                "endpoint": "*.intergamma.cloud",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "80901414-c005-46bf-8875-bf146b9b8cbe",
+                "type": 1,
+                "endpoint": "*.restintergamma.nl",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "8517d896-60c1-4e8d-ba34-1beaa5469fae",
+                "type": 1,
+                "endpoint": "*.werkenbijgamma.be",
+                "bountyTierId": 2,
+                "description": "Recruiting website"
+            },
+            {
+                "id": "9b233015-9a5b-4a18-ae8b-608ae7910fa5",
+                "type": 1,
+                "endpoint": "*.werkenbijgamma.nl",
+                "bountyTierId": 2,
+                "description": "Recruiting website"
+            },
+            {
+                "id": "db6e207c-d2a1-4c65-bcaf-8a95dbf51368",
+                "type": 1,
+                "endpoint": "*.werkenbijkarwei.nl",
+                "bountyTierId": 2,
+                "description": "Recruiting website"
+            },
+            {
+                "id": "3fe93fe7-a253-44c3-a2d8-07bc17d2ae95",
+                "type": 2,
+                "endpoint": "nl.gamma.verf",
+                "bountyTierId": 2,
+                "description": "Our brand new Android app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the iOS version"
+            },
+            {
+                "id": "b4873469-3ab1-4e8e-b9ec-1940e4b7bd43",
+                "type": 1,
+                "endpoint": "*.karweioutletstore.nl",
+                "bountyTierId": 1,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "visma",
+        "companyName": "Visma",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "VismaResponsibleDisclosure",
+        "name": "Visma Responsible Disclosure",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -725,23 +566,16 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1689600663,
-        "lastSubmissionAt": 1697644071,
-        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
+        "lastUpdatedAt": 1677670936,
+        "lastSubmissionAt": 1697389619,
+        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
         "domains": [
             {
-                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
+                "id": "8922aa89-e471-4918-9785-ba22414a1975",
                 "type": 1,
-                "endpoint": "*.unispital.ch ",
+                "endpoint": "all",
                 "bountyTierId": 1,
-                "description": "forwarding to usz.ch"
-            },
-            {
-                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
-                "type": 1,
-                "endpoint": "*.usz.ch ",
-                "bountyTierId": 1,
-                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
+                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
             }
         ]
     },
@@ -893,6 +727,172 @@
                 "endpoint": "testing.maventa.com",
                 "bountyTierId": 3,
                 "description": "**AutoInvoice**\nhttps://testing.maventa.com/apis/v1.1/wsdl is a SOAP API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/soap-api/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials."
+            }
+        ]
+    },
+    {
+        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "Uphold",
+        "companyName": "Uphold.com",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "upholdcom",
+        "name": "Uphold.com",
+        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680680521,
+        "lastSubmissionAt": 1696584763,
+        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
+        "domains": [
+            {
+                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
+                "type": 3,
+                "endpoint": "1101145849",
+                "bountyTierId": 4,
+                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
+                "type": 1,
+                "endpoint": "api.uphold.com",
+                "bountyTierId": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
+                "type": 2,
+                "endpoint": "com.uphold.wallet",
+                "bountyTierId": 4,
+                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
+                "type": 1,
+                "endpoint": "uphold.com/dashboard",
+                "bountyTierId": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
+            },
+            {
+                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
+                "type": 1,
+                "endpoint": "api-sandbox.uphold.com",
+                "bountyTierId": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
+                "type": 1,
+                "endpoint": "sandbox.uphold.com/dashboard",
+                "bountyTierId": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
+            },
+            {
+                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
+                "type": 1,
+                "endpoint": "*.uphold.com",
+                "bountyTierId": 2,
+                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
+            }
+        ]
+    },
+    {
+        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "intigriti",
+        "name": "intigriti",
+        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and we will reward you accordingly.",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 13337.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1696320350,
+        "lastSubmissionAt": 1697977688,
+        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "domains": [
+            {
+                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
+                "type": 1,
+                "endpoint": "*pwn.intigriti.rocks",
+                "bountyTierId": 3,
+                "description": "This is our test (PWN) environment that replicates production."
+            },
+            {
+                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
+                "type": 1,
+                "endpoint": "www.intigriti.com",
+                "bountyTierId": 2,
+                "description": "This is our marketing website."
+            }
+        ]
+    },
+    {
+        "programId": "188976b1-e8b3-4132-a6f6-e96113599474",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "oda",
+        "companyName": "Oda",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "oda",
+        "name": "Oda",
+        "description": "Oda is a company on the move. We built Norway\u2019s leading online grocery store and now we want to share what we\u2019ve created with the world! Delivering a huge range of high-quality, affordable groceries and fresh produce to millions of doorsteps is a complex process, but we believe we\u2019ve cracked the code. Using data-driven methodology, with a focus on sustainability all the way along the chain, we are building the most efficient retail system in the world. ",
+        "minBounty": {
+            "value": 75.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1693994083,
+        "lastSubmissionAt": 1697526838,
+        "logoId": "public_bucket_35fcbcdd-9b3f-415c-a599-2fa6ebd27959-2a8ad638-f6e6-4768-931f-846de5936a4b",
+        "domains": [
+            {
+                "id": "244c67c6-985f-4e98-9521-2b38dfc0eab5",
+                "type": 1,
+                "endpoint": "*.oda.com",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "197b603a-6d2b-46c2-ab41-b16c70b3561c",
+                "type": 3,
+                "endpoint": "1079537578",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "95430c8e-3876-4fa2-a7f6-b53cb513dd5c",
+                "type": 1,
+                "endpoint": "https://oda.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "4e618c42-fe4c-4f52-80b5-dc4b27096e91",
+                "type": 2,
+                "endpoint": "no.kolonial.tienda",
+                "bountyTierId": 3,
+                "description": null
             }
         ]
     },
@@ -5885,59 +5885,6 @@
         ]
     },
     {
-        "programId": "0bcc2455-bd63-490b-b725-890a93a1c678",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "lansweeper",
-        "companyName": "Lansweeper",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "fing",
-        "name": "Fing",
-        "description": "Fing device recognition is the foundation of digital products. Just from the MAC address, Fing can recognise all wireless and wired devices in home, office or enterprise networks by type, make, model and OS (name and version). Fing device intelligence and knowledge give you full visibility of your connected environment. \n\nThe free Fing App identifies connected devices, troubleshoots network and device issues, detects network intruders and runs Wi-Fi and internet speed tests anywhere.\n",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1679580036,
-        "lastSubmissionAt": 1697870486,
-        "logoId": "public_bucket_1b7ac7e0-f74a-47ae-a6f2-cbb5fd580d42-cc3c329a-7723-44d2-ae2b-6a1dde4d7b85",
-        "domains": [
-            {
-                "id": "318f0580-d526-492d-a51f-6dd9d67d13dc",
-                "type": 1,
-                "endpoint": "service.fing.com",
-                "bountyTierId": 3,
-                "description": "Our public cloud API for Device Recognition which can be requested on our website: https://app.fing.com/internet/business/devrecog/trial."
-            },
-            {
-                "id": "d58d5b54-bdb8-447c-af1c-f68c124bd40a",
-                "type": 1,
-                "endpoint": "app.fing.com",
-                "bountyTierId": 2,
-                "description": "The Fing web application that gives you an overview of all monitored networks"
-            },
-            {
-                "id": "bf781a74-615f-4085-9d0a-79a692b995e8",
-                "type": 1,
-                "endpoint": "Fing desktop",
-                "bountyTierId": 1,
-                "description": "The free Fing App to identify connected devices, troubleshoot network and device issues, detect network intruders and run Wi-Fi and internet speed tests anywhere. It can be downloaded here: http://app.fing.com/app"
-            },
-            {
-                "id": "239d5edb-afd2-4a6d-8a96-42d207e94570",
-                "type": 1,
-                "endpoint": "www.fing.com ",
-                "bountyTierId": 1,
-                "description": "Always use \"intigriti.me\" address for any web form"
-            }
-        ]
-    },
-    {
         "programId": "d14eedce-607d-4233-995d-30dbc7de8f23",
         "status": 3,
         "confidentialityLevel": 4,
@@ -6092,6 +6039,59 @@
                 "endpoint": "www.delen.be/en ",
                 "bountyTierId": 3,
                 "description": "\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1"
+            }
+        ]
+    },
+    {
+        "programId": "0bcc2455-bd63-490b-b725-890a93a1c678",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "lansweeper",
+        "companyName": "Lansweeper",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "fing",
+        "name": "Fing",
+        "description": "Fing device recognition is the foundation of digital products. Just from the MAC address, Fing can recognise all wireless and wired devices in home, office or enterprise networks by type, make, model and OS (name and version). Fing device intelligence and knowledge give you full visibility of your connected environment. \n\nThe free Fing App identifies connected devices, troubleshoots network and device issues, detects network intruders and runs Wi-Fi and internet speed tests anywhere.\n",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679580036,
+        "lastSubmissionAt": 1697870486,
+        "logoId": "public_bucket_1b7ac7e0-f74a-47ae-a6f2-cbb5fd580d42-cc3c329a-7723-44d2-ae2b-6a1dde4d7b85",
+        "domains": [
+            {
+                "id": "318f0580-d526-492d-a51f-6dd9d67d13dc",
+                "type": 1,
+                "endpoint": "service.fing.com",
+                "bountyTierId": 3,
+                "description": "Our public cloud API for Device Recognition which can be requested on our website: https://app.fing.com/internet/business/devrecog/trial."
+            },
+            {
+                "id": "d58d5b54-bdb8-447c-af1c-f68c124bd40a",
+                "type": 1,
+                "endpoint": "app.fing.com",
+                "bountyTierId": 2,
+                "description": "The Fing web application that gives you an overview of all monitored networks"
+            },
+            {
+                "id": "bf781a74-615f-4085-9d0a-79a692b995e8",
+                "type": 1,
+                "endpoint": "Fing desktop",
+                "bountyTierId": 1,
+                "description": "The free Fing App to identify connected devices, troubleshoot network and device issues, detect network intruders and run Wi-Fi and internet speed tests anywhere. It can be downloaded here: http://app.fing.com/app"
+            },
+            {
+                "id": "239d5edb-afd2-4a6d-8a96-42d207e94570",
+                "type": 1,
+                "endpoint": "www.fing.com ",
+                "bountyTierId": 1,
+                "description": "Always use \"intigriti.me\" address for any web form"
             }
         ]
     },
@@ -7823,91 +7823,6 @@
         ]
     },
     {
-        "programId": "190ed8f0-4412-4b6d-9415-6114da409600",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "zerodays",
-        "name": "Zero-day Bug Bounty",
-        "description": "The Zero Day Bug Bounty aims to incentivize security researchers to report newly discovered or undisclosed vulnerabilities that impact us or at least one of our customers, after reporting them to the affected vendor. By participating in this program, researchers can help us provide early warning to our customers about potential security threats and earn monetary rewards for their efforts without having to wait for the cool-down submission period to expire. ",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680514743,
-        "lastSubmissionAt": 1681472671,
-        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
-        "domains": [
-            {
-                "id": "ba2be0eb-b8e9-459f-a2a9-af55d982439c",
-                "type": 6,
-                "endpoint": "Zero days that affect Intigriti or participating customers (listed below)",
-                "bountyTierId": 3,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "10eb5e95-08e2-4f4e-8d22-f8c600a7acff",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intel",
-        "companyName": "Intel",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "intel",
-        "name": "Intel\u00ae",
-        "description": "Intel\u00ae Bug Bounty Program\nIntel Corporation believes that forging relationships with security researchers and fostering security research is a crucial part of our Security First Pledge. We encourage security researchers to work with us to mitigate and coordinate the disclosure of potential security vulnerabilities. By submitting your report, you agree to the terms of the Intel\u00ae Bug Bounty Program. Intel reserves the right to alter the terms and conditions of this program at its sole discretion.\n",
-        "minBounty": {
-            "value": 500.0,
-            "currency": "USD"
-        },
-        "maxBounty": {
-            "value": 100000.0,
-            "currency": "USD"
-        },
-        "lastUpdatedAt": 1688138654,
-        "lastSubmissionAt": 1697976660,
-        "logoId": "public_bucket_dfb4b18d-a540-4385-82fc-29a69c3800a6-bcbf0c63-dace-406b-809e-689dd1d2023f",
-        "domains": [
-            {
-                "id": "dd6d5718-737b-44f3-a833-fa74d0462f1f",
-                "type": 6,
-                "endpoint": "Hardware",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "92208b24-3ef0-43dc-9314-f3af05929360",
-                "type": 6,
-                "endpoint": "Firmware",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "9ddd704e-ea3a-463d-878d-6b80342f685a",
-                "type": 6,
-                "endpoint": "Software",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "9898bc2c-6e8f-4d11-af00-5072e77c15f8",
-                "type": 1,
-                "endpoint": "*.intel.com",
-                "bountyTierId": 1,
-                "description": "**Intel's Web Infrastructure, i.e.`*.intel.com`**\nIntel\u2019s web infrastructure, i.e., website domains owned and/or operated by Intel, fall **Out of Scope**. These reports are not eligible for rewards of any kind. \nPlease send security vulnerability reports against intel.com and/or related web presence to external.security.research@intel.com"
-            }
-        ]
-    },
-    {
         "programId": "56339d19-36cc-49a0-8e8f-b2502e00d165",
         "status": 3,
         "confidentialityLevel": 4,
@@ -7977,6 +7892,91 @@
                 "type": 1,
                 "endpoint": "*.usemoralis.com",
                 "bountyTierId": 1,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "10eb5e95-08e2-4f4e-8d22-f8c600a7acff",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intel",
+        "companyName": "Intel",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "intel",
+        "name": "Intel\u00ae",
+        "description": "Intel\u00ae Bug Bounty Program\nIntel Corporation believes that forging relationships with security researchers and fostering security research is a crucial part of our Security First Pledge. We encourage security researchers to work with us to mitigate and coordinate the disclosure of potential security vulnerabilities. By submitting your report, you agree to the terms of the Intel\u00ae Bug Bounty Program. Intel reserves the right to alter the terms and conditions of this program at its sole discretion.\n",
+        "minBounty": {
+            "value": 500.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 100000.0,
+            "currency": "USD"
+        },
+        "lastUpdatedAt": 1688138654,
+        "lastSubmissionAt": 1697976660,
+        "logoId": "public_bucket_dfb4b18d-a540-4385-82fc-29a69c3800a6-bcbf0c63-dace-406b-809e-689dd1d2023f",
+        "domains": [
+            {
+                "id": "dd6d5718-737b-44f3-a833-fa74d0462f1f",
+                "type": 6,
+                "endpoint": "Hardware",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "92208b24-3ef0-43dc-9314-f3af05929360",
+                "type": 6,
+                "endpoint": "Firmware",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "9ddd704e-ea3a-463d-878d-6b80342f685a",
+                "type": 6,
+                "endpoint": "Software",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "9898bc2c-6e8f-4d11-af00-5072e77c15f8",
+                "type": 1,
+                "endpoint": "*.intel.com",
+                "bountyTierId": 1,
+                "description": "**Intel's Web Infrastructure, i.e.`*.intel.com`**\nIntel\u2019s web infrastructure, i.e., website domains owned and/or operated by Intel, fall **Out of Scope**. These reports are not eligible for rewards of any kind. \nPlease send security vulnerability reports against intel.com and/or related web presence to external.security.research@intel.com"
+            }
+        ]
+    },
+    {
+        "programId": "190ed8f0-4412-4b6d-9415-6114da409600",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "zerodays",
+        "name": "Zero-day Bug Bounty",
+        "description": "The Zero Day Bug Bounty aims to incentivize security researchers to report newly discovered or undisclosed vulnerabilities that impact us or at least one of our customers, after reporting them to the affected vendor. By participating in this program, researchers can help us provide early warning to our customers about potential security threats and earn monetary rewards for their efforts without having to wait for the cool-down submission period to expire. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680514743,
+        "lastSubmissionAt": 1681472671,
+        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "domains": [
+            {
+                "id": "ba2be0eb-b8e9-459f-a2a9-af55d982439c",
+                "type": 6,
+                "endpoint": "Zero days that affect Intigriti or participating customers (listed below)",
+                "bountyTierId": 3,
                 "description": null
             }
         ]
