@@ -1,61 +1,128 @@
 [
     {
-        "programId": "9c9b9003-6134-4962-8fe3-8ecc5ee80c5a",
+        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "voys",
-        "companyName": "Voys",
+        "companyHandle": "Uphold",
+        "companyName": "Uphold.com",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "voipgrid-voys",
-        "name": "Voys - VoIPGRID",
-        "description": "VoIPGRID develops advanced VoIP software for business telephony and offers this in wholesale and semi-wholesale form to resellers. Voys is one of the many resellers that provides the VoIPGRID platform under its own name. Customers of the products experience maximum freedom, flexibility, and control over their phone systems.",
+        "handle": "upholdcom",
+        "name": "Uphold.com",
+        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
         "minBounty": {
-            "value": 20.0,
+            "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 3000.0,
+            "value": 4000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1697988522,
-        "lastSubmissionAt": 1697891209,
-        "logoId": "public_bucket_707f8d9c-c7f2-4020-b742-46c4155cc86e-b909eb34-b3bf-4c3f-8584-547d91d8bb0a",
+        "lastUpdatedAt": 1680680521,
+        "lastSubmissionAt": 1696584763,
+        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
         "domains": [
             {
-                "id": "15b56437-4370-4f54-8fac-2da78bac6841",
-                "type": 1,
-                "endpoint": "intigriti.voipgrid.nl",
+                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
+                "type": 3,
+                "endpoint": "1101145849",
                 "bountyTierId": 4,
-                "description": "This web environment has been setup for this Bug Bounty program. \n\nThis application has the same codebase between the two brands VoIPGRID and Voys"
+                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
             },
             {
-                "id": "7684b17a-57ad-4b10-ac3a-fc2777bc7fa2",
+                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
                 "type": 1,
-                "endpoint": "*.voipgrid.nl",
+                "endpoint": "api.uphold.com",
+                "bountyTierId": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
+                "type": 2,
+                "endpoint": "com.uphold.wallet",
+                "bountyTierId": 4,
+                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+            },
+            {
+                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
+                "type": 1,
+                "endpoint": "uphold.com/dashboard",
+                "bountyTierId": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
+            },
+            {
+                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
+                "type": 1,
+                "endpoint": "api-sandbox.uphold.com",
                 "bountyTierId": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
+                "type": 1,
+                "endpoint": "sandbox.uphold.com/dashboard",
+                "bountyTierId": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
+            },
+            {
+                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
+                "type": 1,
+                "endpoint": "*.uphold.com",
+                "bountyTierId": 2,
+                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
+            }
+        ]
+    },
+    {
+        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "portofantwerp",
+        "companyName": "Port of Antwerp-Bruges",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "nxtport",
+        "name": "NxtPort",
+        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679993070,
+        "lastSubmissionAt": 1697992114,
+        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
+        "domains": [
+            {
+                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
+                "type": 1,
+                "endpoint": "console.nxtport.eu",
+                "bountyTierId": 1,
                 "description": null
             },
             {
-                "id": "5232cd5c-d467-4a99-8844-5eb8e1a9c01e",
+                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
                 "type": 1,
-                "endpoint": "*.voys.be",
-                "bountyTierId": 3,
+                "endpoint": "login.nxtport.eu",
+                "bountyTierId": 1,
                 "description": null
             },
             {
-                "id": "4dc989d7-3e11-44ef-a7e3-08ded8f63694",
+                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
                 "type": 1,
-                "endpoint": "*.voys.co",
-                "bountyTierId": 3,
+                "endpoint": "signup.nxtport.eu",
+                "bountyTierId": 1,
                 "description": null
             },
             {
-                "id": "4aa9c04a-bbe0-4750-b4d9-b830e80a0558",
+                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
                 "type": 1,
-                "endpoint": "*.voys.nl",
-                "bountyTierId": 3,
-                "description": "Excluding https://jobs.voys.nl, https://jobs.voys.co\n"
+                "endpoint": "www.nxtport.com",
+                "bountyTierId": 1,
+                "description": null
             }
         ]
     },
@@ -288,38 +355,6 @@
         ]
     },
     {
-        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "VismaResponsibleDisclosure",
-        "name": "Visma Responsible Disclosure",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1698033460,
-        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
-        "domains": [
-            {
-                "id": "8922aa89-e471-4918-9785-ba22414a1975",
-                "type": 1,
-                "endpoint": "all",
-                "bountyTierId": 1,
-                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
-            }
-        ]
-    },
-    {
         "programId": "bc3017b6-f657-4519-bf8f-00009d85bc47",
         "status": 3,
         "confidentialityLevel": 4,
@@ -541,6 +576,38 @@
         ]
     },
     {
+        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "visma",
+        "companyName": "Visma",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "VismaResponsibleDisclosure",
+        "name": "Visma Responsible Disclosure",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1677670936,
+        "lastSubmissionAt": 1698033460,
+        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
+        "domains": [
+            {
+                "id": "8922aa89-e471-4918-9785-ba22414a1975",
+                "type": 1,
+                "endpoint": "all",
+                "bountyTierId": 1,
+                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
+            }
+        ]
+    },
+    {
         "programId": "ff0f8e99-99b3-453a-a80c-fe9644bd1f01",
         "status": 3,
         "confidentialityLevel": 4,
@@ -601,55 +668,62 @@
         ]
     },
     {
-        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
+        "programId": "9c9b9003-6134-4962-8fe3-8ecc5ee80c5a",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "portofantwerp",
-        "companyName": "Port of Antwerp-Bruges",
+        "companyHandle": "voys",
+        "companyName": "Voys",
         "tacRequired": false,
-        "companySustainable": true,
-        "handle": "nxtport",
-        "name": "NxtPort",
-        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
+        "companySustainable": false,
+        "handle": "voipgrid-voys",
+        "name": "Voys - VoIPGRID",
+        "description": "VoIPGRID develops advanced VoIP software for business telephony and offers this in wholesale and semi-wholesale form to resellers. Voys is one of the many resellers that provides the VoIPGRID platform under its own name. Customers of the products experience maximum freedom, flexibility, and control over their phone systems.",
         "minBounty": {
-            "value": 0.0,
+            "value": 20.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 0.0,
+            "value": 3000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1679993070,
-        "lastSubmissionAt": 1697992114,
-        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
+        "lastUpdatedAt": 1697988522,
+        "lastSubmissionAt": 1697891209,
+        "logoId": "public_bucket_707f8d9c-c7f2-4020-b742-46c4155cc86e-b909eb34-b3bf-4c3f-8584-547d91d8bb0a",
         "domains": [
             {
-                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
+                "id": "15b56437-4370-4f54-8fac-2da78bac6841",
                 "type": 1,
-                "endpoint": "console.nxtport.eu",
-                "bountyTierId": 1,
+                "endpoint": "intigriti.voipgrid.nl",
+                "bountyTierId": 4,
+                "description": "This web environment has been setup for this Bug Bounty program. \n\nThis application has the same codebase between the two brands VoIPGRID and Voys"
+            },
+            {
+                "id": "7684b17a-57ad-4b10-ac3a-fc2777bc7fa2",
+                "type": 1,
+                "endpoint": "*.voipgrid.nl",
+                "bountyTierId": 3,
                 "description": null
             },
             {
-                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
+                "id": "5232cd5c-d467-4a99-8844-5eb8e1a9c01e",
                 "type": 1,
-                "endpoint": "login.nxtport.eu",
-                "bountyTierId": 1,
+                "endpoint": "*.voys.be",
+                "bountyTierId": 3,
                 "description": null
             },
             {
-                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
+                "id": "4dc989d7-3e11-44ef-a7e3-08ded8f63694",
                 "type": 1,
-                "endpoint": "signup.nxtport.eu",
-                "bountyTierId": 1,
+                "endpoint": "*.voys.co",
+                "bountyTierId": 3,
                 "description": null
             },
             {
-                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
+                "id": "4aa9c04a-bbe0-4750-b4d9-b830e80a0558",
                 "type": 1,
-                "endpoint": "www.nxtport.com",
-                "bountyTierId": 1,
-                "description": null
+                "endpoint": "*.voys.nl",
+                "bountyTierId": 3,
+                "description": "Excluding https://jobs.voys.nl, https://jobs.voys.co\n"
             }
         ]
     },
@@ -805,119 +879,6 @@
         ]
     },
     {
-        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "intigriti",
-        "name": "intigriti",
-        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and we will reward you accordingly.",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 13337.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1696320350,
-        "lastSubmissionAt": 1697977688,
-        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
-        "domains": [
-            {
-                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
-                "type": 1,
-                "endpoint": "*pwn.intigriti.rocks",
-                "bountyTierId": 3,
-                "description": "This is our test (PWN) environment that replicates production."
-            },
-            {
-                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
-                "type": 1,
-                "endpoint": "www.intigriti.com",
-                "bountyTierId": 2,
-                "description": "This is our marketing website."
-            }
-        ]
-    },
-    {
-        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "Uphold",
-        "companyName": "Uphold.com",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "upholdcom",
-        "name": "Uphold.com",
-        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680680521,
-        "lastSubmissionAt": 1696584763,
-        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
-        "domains": [
-            {
-                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
-                "type": 3,
-                "endpoint": "1101145849",
-                "bountyTierId": 4,
-                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
-                "type": 1,
-                "endpoint": "api.uphold.com",
-                "bountyTierId": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
-                "type": 2,
-                "endpoint": "com.uphold.wallet",
-                "bountyTierId": 4,
-                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
-                "type": 1,
-                "endpoint": "uphold.com/dashboard",
-                "bountyTierId": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
-            },
-            {
-                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
-                "type": 1,
-                "endpoint": "api-sandbox.uphold.com",
-                "bountyTierId": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
-                "type": 1,
-                "endpoint": "sandbox.uphold.com/dashboard",
-                "bountyTierId": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
-            },
-            {
-                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
-                "type": 1,
-                "endpoint": "*.uphold.com",
-                "bountyTierId": 2,
-                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
-            }
-        ]
-    },
-    {
         "programId": "188976b1-e8b3-4132-a6f6-e96113599474",
         "status": 3,
         "confidentialityLevel": 4,
@@ -967,6 +928,45 @@
                 "endpoint": "no.kolonial.tienda",
                 "bountyTierId": 3,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "intigriti",
+        "name": "intigriti",
+        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and we will reward you accordingly.",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 13337.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1696320350,
+        "lastSubmissionAt": 1697977688,
+        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "domains": [
+            {
+                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
+                "type": 1,
+                "endpoint": "*pwn.intigriti.rocks",
+                "bountyTierId": 3,
+                "description": "This is our test (PWN) environment that replicates production."
+            },
+            {
+                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
+                "type": 1,
+                "endpoint": "www.intigriti.com",
+                "bountyTierId": 2,
+                "description": "This is our marketing website."
             }
         ]
     },
@@ -2536,6 +2536,108 @@
                 "endpoint": "media.nexuzhealth.be/patient/ ",
                 "bountyTierId": 3,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "efd8bd86-a986-4b4a-9eda-c9a6a1a6b540",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "cmcom",
+        "companyName": "CM.com",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "cmcom",
+        "name": "CM.com",
+        "description": "CM.com is a listed company that provides Conversational Commerce services from its hybrid cloud platform with in-house developed software.\n\nCM.com\u2019s customer base is spread over 118 countries, generating messages to more than 220 destinations.\n\nCustomers include Tier 1 enterprises, government agencies, as well as small and medium sized enterprises.\n\nWe offer API's for most of our products. You may find the documentation here: https://developers.cm.com",
+        "minBounty": {
+            "value": 25.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1698045644,
+        "lastSubmissionAt": 1697935274,
+        "logoId": "public_bucket_57c73fab-b9d0-4eee-896e-cb2a7565a7ec-88c9e92b-4a78-41f0-9cf4-3a888a55261d",
+        "domains": [
+            {
+                "id": "aa00fe91-7017-4710-91a7-146f1160baa4",
+                "type": 1,
+                "endpoint": "cm.com/app/messagingtrial/",
+                "bountyTierId": 2,
+                "description": "An application that makes it possible for developers to do a limited test of sending messages using the CM.COM business messaging API.\n\nWhat we would like to know is:\n* Can the application be exploited to allow sending more than the allowed number of messages?\n* Can the app be exploited to send to other recipients besides the whitelisted recipients?"
+            },
+            {
+                "id": "c2ea9e52-cb22-4f74-8df9-63e0f622d546",
+                "type": 1,
+                "endpoint": "login.cm.com",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "acdf2570-a8ce-4db4-bf59-e66a6246f912",
+                "type": 1,
+                "endpoint": "*.ticketing.cm.com",
+                "bountyTierId": 3,
+                "description": "Login to your account and go to https://www.cm.com/en-gb/app/ticketing/\nFrom here you can create tickets and much more!\nMake sure to take a look at the user-side ticket store as well (https://store.ticketing.cm.com/..)"
+            },
+            {
+                "id": "541db1de-0d19-4f92-a25a-a2e32fe52f50",
+                "type": 1,
+                "endpoint": "api.cm.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "64fbeac0-eb70-44b1-a405-5c1c0ab6efb3",
+                "type": 1,
+                "endpoint": "api.cmtelecom.com",
+                "bountyTierId": 3,
+                "description": "Some of the applications that are in our scope use our old api. \nIf you find a bug on this api and it is from a product that is in scope, it is valid."
+            },
+            {
+                "id": "6c202c84-88ff-4714-a219-08347402eae2",
+                "type": 1,
+                "endpoint": "cm.com/[locale]/app/*",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "c78deacd-36c1-4064-a77f-fa78eeff4391",
+                "type": 1,
+                "endpoint": "cm.com/[locale]/register",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "e836e34b-a943-4cde-ae07-5ea264923c7d",
+                "type": 1,
+                "endpoint": "www.cm.com",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "c2247828-7a12-4629-8693-d5e9d28dc02a",
+                "type": 1,
+                "endpoint": "*.cm.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "449a4bfb-9680-4cc1-82a9-05113501d7f1",
+                "type": 1,
+                "endpoint": "*.cmtelecom.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "cc727da4-d41c-412c-a4f3-7fc6d9ff954f",
+                "type": 1,
+                "endpoint": "demo.globalticket.com/*",
+                "bountyTierId": 1,
+                "description": "GlobalTicket is one of our integrations. \nBe sure to check out `/cms` to try and work your way into it."
             }
         ]
     },
@@ -8531,104 +8633,76 @@
         ]
     },
     {
-        "programId": "efd8bd86-a986-4b4a-9eda-c9a6a1a6b540",
+        "programId": "f20cc699-5ec8-4cb8-8168-61e15c5c7bbe",
         "status": 4,
         "confidentialityLevel": 4,
-        "companyHandle": "cmcom",
-        "companyName": "CM.com",
+        "companyHandle": "ebsi",
+        "companyName": "European Commission - EBSI",
         "tacRequired": false,
         "companySustainable": false,
-        "handle": "cmcom",
-        "name": "CM.com",
-        "description": "CM.com is a listed company that provides Conversational Commerce services from its hybrid cloud platform with in-house developed software.\n\nCM.com\u2019s customer base is spread over 118 countries, generating messages to more than 220 destinations.\n\nCustomers include Tier 1 enterprises, government agencies, as well as small and medium sized enterprises.\n\nWe offer API's for most of our products. You may find the documentation here: https://developers.cm.com",
+        "handle": "ebsi",
+        "name": "EBSI",
+        "description": "The European Blockchain Services Infrastructure (EBSI) was born in 2018 when 29 countries (all EU members states, Norway and Liechtenstein) and the EU Commission have joined forces to create the European Blockchain Partnership (EBP). EBP\u2019s vision is to leverage blockchain to create cross-border services for public administrations, businesses, citizens and their ecosystems to verify information and make services trustworthy.\n\nDiscover and understand EBSI by having a look at our website.",
         "minBounty": {
-            "value": 25.0,
+            "value": 500.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 3500.0,
+            "value": 30000.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1697935290,
-        "lastSubmissionAt": 1697935274,
-        "logoId": "public_bucket_57c73fab-b9d0-4eee-896e-cb2a7565a7ec-88c9e92b-4a78-41f0-9cf4-3a888a55261d",
+        "lastUpdatedAt": 1697181956,
+        "lastSubmissionAt": 1697106999,
+        "logoId": "public_bucket_43f3aabc-5e94-4c68-a360-5b3dc91a688a-14bd93da-df2d-4512-a44f-9cddad3550c6",
         "domains": [
             {
-                "id": "aa00fe91-7017-4710-91a7-146f1160baa4",
-                "type": 1,
-                "endpoint": "cm.com/app/messagingtrial/",
-                "bountyTierId": 2,
-                "description": "An application that makes it possible for developers to do a limited test of sending messages using the CM.COM business messaging API.\n\nWhat we would like to know is:\n* Can the application be exploited to allow sending more than the allowed number of messages?\n* Can the app be exploited to send to other recipients besides the whitelisted recipients?"
-            },
-            {
-                "id": "c2ea9e52-cb22-4f74-8df9-63e0f622d546",
-                "type": 1,
-                "endpoint": "login.cm.com",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "acdf2570-a8ce-4db4-bf59-e66a6246f912",
-                "type": 1,
-                "endpoint": "*.ticketing.cm.com",
+                "id": "c1e90bcb-474a-4ebe-ac57-ab5b591c0805",
+                "type": 6,
+                "endpoint": "Ledger API",
                 "bountyTierId": 3,
-                "description": "Login to your account and go to https://www.cm.com/en-gb/app/ticketing/\nFrom here you can create tickets and much more!\nMake sure to take a look at the user-side ticket store as well (https://store.ticketing.cm.com/..)"
+                "description": "Following endpoints of the [Ledger API](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/) are considered in-scope:\n\n1. [POST Besu JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/operations/post-ledger-v3-blockchains-besu)"
             },
             {
-                "id": "541db1de-0d19-4f92-a25a-a2e32fe52f50",
-                "type": 1,
-                "endpoint": "api.cm.com",
+                "id": "bbdd5a74-c306-497a-b5b7-6c9f136739ff",
+                "type": 6,
+                "endpoint": "Authorisation API",
                 "bountyTierId": 3,
-                "description": null
+                "description": "Following endpoints of the [Authorisation API](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/) are considered in-scope:\n\n1. [POST Initiate a SIOP DID Auth request](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v2-authentication-requests)\n2. [POST Create a SIOP Session](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v2-siop-sessions)\n3. [POST Create an OAuth2 Session](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v4-oauth2-sessions)\n4. [GET OpenID Provider Metadata](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v4-well-known-openid-config)\n5. [GET OpenID Provider's public keys](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-jwks)\n6. [GET Presentation definition requirements](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-presentation-definitions)\n7. [POST Token Endpoint](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-v3-token)"
             },
             {
-                "id": "64fbeac0-eb70-44b1-a405-5c1c0ab6efb3",
-                "type": 1,
-                "endpoint": "api.cmtelecom.com",
+                "id": "2159b837-2fe9-465a-aa89-8ffe274917b3",
+                "type": 6,
+                "endpoint": "DID registry API",
                 "bountyTierId": 3,
-                "description": "Some of the applications that are in our scope use our old api. \nIf you find a bug on this api and it is from a product that is in scope, it is valid."
+                "description": "Following endpoints of the [DID Registry API](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/) are considered in-scope:\n\n1. [GET List identifiers](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-identifiers)\n2. [GET Get a DID document](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-identifier)\n3. [POST Perform actions in DID](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-actions)\n4. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/post-did-registry-v5-jsonrpc)\n"
             },
             {
-                "id": "6c202c84-88ff-4714-a219-08347402eae2",
-                "type": 1,
-                "endpoint": "cm.com/[locale]/app/*",
+                "id": "9d95ed5d-7a4f-4a1a-97b0-34124246f050",
+                "type": 6,
+                "endpoint": "Timestamp API",
                 "bountyTierId": 3,
-                "description": null
+                "description": "Following endpoints of the [Timestamp API](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/) are considered in-scope:\n\n1. [GET List hash algorithms](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-hash-algorithms)\n2. [GET Get a hash algorithm](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-hash-algorithms-hash-algorithm-id)\n3. [GET List timestamps](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-timestamps)\n4. [GET Get a timestamp](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-timestamps-timestampId)\n5. [GET List records](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records)\n6. [GET Get a record](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id)\n7. [GET List a record's versions](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id-versions)\n8. [GET Get a version](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id-versions-version-id)\n9. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/post-timestamp-v4-jsonrpc)\n"
             },
             {
-                "id": "c78deacd-36c1-4064-a77f-fa78eeff4391",
-                "type": 1,
-                "endpoint": "cm.com/[locale]/register",
+                "id": "9c183ca9-3c72-41af-aaac-f95bc4a77524",
+                "type": 6,
+                "endpoint": "Trusted Issuers Registry API",
                 "bountyTierId": 3,
-                "description": null
+                "description": "Following endpoints of the [Trusted Issuers Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/) are considered in-scope:\n\n1. [GET List issuers](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers)\n2. [GET Get an issuer](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-issuer)\n3. [GET List attributes](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes)\n4. [GET Get an attribute](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes-attributeid)\n5. [GET List revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes-attributeid-revisions)\n6. [GET List proxies](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies)\n7. [GET Get a proxy](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies-proxyid)\n8. [GET Get StatusList2021Credential](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies-proxyid-path)\n9. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/post-ledger-v2-blockchains-besu)"
             },
             {
-                "id": "e836e34b-a943-4cde-ae07-5ea264923c7d",
-                "type": 1,
-                "endpoint": "www.cm.com",
-                "bountyTierId": 2,
-                "description": null
+                "id": "1c0d489e-876c-4bbb-b839-acaaeb28edb2",
+                "type": 6,
+                "endpoint": "Trusted Policies Registry API",
+                "bountyTierId": 3,
+                "description": "Following endpoints of the [Trusted Policies Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/) are considered in-scope:\n\n1. [GET List policies](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policies)\n2. [GET Get a policy](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policy)\n3. [GET List users](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-users)\n4. [GET Get a user](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-user)\n5. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/post-jsonrpc)"
             },
             {
-                "id": "c2247828-7a12-4629-8693-d5e9d28dc02a",
-                "type": 1,
-                "endpoint": "*.cm.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "449a4bfb-9680-4cc1-82a9-05113501d7f1",
-                "type": 1,
-                "endpoint": "*.cmtelecom.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "cc727da4-d41c-412c-a4f3-7fc6d9ff954f",
-                "type": 1,
-                "endpoint": "demo.globalticket.com/*",
-                "bountyTierId": 1,
-                "description": "GlobalTicket is one of our integrations. \nBe sure to check out `/cms` to try and work your way into it."
+                "id": "aaa19da8-cbaa-4480-ab54-a9a28d9b1cca",
+                "type": 6,
+                "endpoint": "Trusted Schemas Registry API",
+                "bountyTierId": 3,
+                "description": "Following endpoints of the [Trusted Schemas Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/) are considered in-scope:\n\n1. [GET List schemas](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas)\n2. [GET Get a schema](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema)\n3. [GET List a schema's revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas-revisions)\n4. [GET Get a schema revision](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema-revision)\n5. [GET List revision's metadata](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas-revision-metadata-list)\n6. [GET Get metadata](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema-revision-metadata)\n7. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/post-trusted-schemas-registry-v3-jsonrpc)"
             }
         ]
     },
@@ -8738,80 +8812,6 @@
                 "endpoint": "*.souparea.com",
                 "bountyTierId": 1,
                 "description": "This domain will be considered out of scope unless it can be shown to allow an exploit on one of our Tier 1-3 domains.\n\n"
-            }
-        ]
-    },
-    {
-        "programId": "f20cc699-5ec8-4cb8-8168-61e15c5c7bbe",
-        "status": 4,
-        "confidentialityLevel": 4,
-        "companyHandle": "ebsi",
-        "companyName": "European Commission - EBSI",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "ebsi",
-        "name": "EBSI",
-        "description": "The European Blockchain Services Infrastructure (EBSI) was born in 2018 when 29 countries (all EU members states, Norway and Liechtenstein) and the EU Commission have joined forces to create the European Blockchain Partnership (EBP). EBP\u2019s vision is to leverage blockchain to create cross-border services for public administrations, businesses, citizens and their ecosystems to verify information and make services trustworthy.\n\nDiscover and understand EBSI by having a look at our website.",
-        "minBounty": {
-            "value": 500.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 30000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1697181956,
-        "lastSubmissionAt": 1697106999,
-        "logoId": "public_bucket_43f3aabc-5e94-4c68-a360-5b3dc91a688a-14bd93da-df2d-4512-a44f-9cddad3550c6",
-        "domains": [
-            {
-                "id": "c1e90bcb-474a-4ebe-ac57-ab5b591c0805",
-                "type": 6,
-                "endpoint": "Ledger API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Ledger API](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/) are considered in-scope:\n\n1. [POST Besu JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/ledger/latest#/operations/post-ledger-v3-blockchains-besu)"
-            },
-            {
-                "id": "bbdd5a74-c306-497a-b5b7-6c9f136739ff",
-                "type": 6,
-                "endpoint": "Authorisation API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Authorisation API](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/) are considered in-scope:\n\n1. [POST Initiate a SIOP DID Auth request](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v2-authentication-requests)\n2. [POST Create a SIOP Session](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v2-siop-sessions)\n3. [POST Create an OAuth2 Session](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-authorisation-v4-oauth2-sessions)\n4. [GET OpenID Provider Metadata](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v4-well-known-openid-config)\n5. [GET OpenID Provider's public keys](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-jwks)\n6. [GET Presentation definition requirements](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/get-v3-presentation-definitions)\n7. [POST Token Endpoint](https://api-pilot.ebsi.eu/docs/apis/authorisation/latest#/operations/post-v3-token)"
-            },
-            {
-                "id": "2159b837-2fe9-465a-aa89-8ffe274917b3",
-                "type": 6,
-                "endpoint": "DID registry API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [DID Registry API](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/) are considered in-scope:\n\n1. [GET List identifiers](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-identifiers)\n2. [GET Get a DID document](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-identifier)\n3. [POST Perform actions in DID](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/get-did-registry-v5-actions)\n4. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/did-registry/latest#/operations/post-did-registry-v5-jsonrpc)\n"
-            },
-            {
-                "id": "9d95ed5d-7a4f-4a1a-97b0-34124246f050",
-                "type": 6,
-                "endpoint": "Timestamp API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Timestamp API](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/) are considered in-scope:\n\n1. [GET List hash algorithms](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-hash-algorithms)\n2. [GET Get a hash algorithm](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-hash-algorithms-hash-algorithm-id)\n3. [GET List timestamps](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-timestamps)\n4. [GET Get a timestamp](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-timestamps-timestampId)\n5. [GET List records](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records)\n6. [GET Get a record](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id)\n7. [GET List a record's versions](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id-versions)\n8. [GET Get a version](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/get-timestamp-v4-records-record-id-versions-version-id)\n9. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/timestamp/latest#/operations/post-timestamp-v4-jsonrpc)\n"
-            },
-            {
-                "id": "9c183ca9-3c72-41af-aaac-f95bc4a77524",
-                "type": 6,
-                "endpoint": "Trusted Issuers Registry API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Trusted Issuers Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/) are considered in-scope:\n\n1. [GET List issuers](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers)\n2. [GET Get an issuer](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-issuer)\n3. [GET List attributes](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes)\n4. [GET Get an attribute](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes-attributeid)\n5. [GET List revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-attributes-attributeid-revisions)\n6. [GET List proxies](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies)\n7. [GET Get a proxy](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies-proxyid)\n8. [GET Get StatusList2021Credential](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/get-trusted-issuers-registry-v5-issuers-did-proxies-proxyid-path)\n9. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-issuers-registry/latest#/operations/post-ledger-v2-blockchains-besu)"
-            },
-            {
-                "id": "1c0d489e-876c-4bbb-b839-acaaeb28edb2",
-                "type": 6,
-                "endpoint": "Trusted Policies Registry API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Trusted Policies Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/) are considered in-scope:\n\n1. [GET List policies](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policies)\n2. [GET Get a policy](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-policy)\n3. [GET List users](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-users)\n4. [GET Get a user](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/get-user)\n5. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-policies-registry/latest#/operations/post-jsonrpc)"
-            },
-            {
-                "id": "aaa19da8-cbaa-4480-ab54-a9a28d9b1cca",
-                "type": 6,
-                "endpoint": "Trusted Schemas Registry API",
-                "bountyTierId": 3,
-                "description": "Following endpoints of the [Trusted Schemas Registry API](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/) are considered in-scope:\n\n1. [GET List schemas](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas)\n2. [GET Get a schema](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema)\n3. [GET List a schema's revisions](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas-revisions)\n4. [GET Get a schema revision](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema-revision)\n5. [GET List revision's metadata](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schemas-revision-metadata-list)\n6. [GET Get metadata](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/get-trusted-schemas-registry-v3-schema-revision-metadata)\n7. [POST JSON-RPC API](https://api-pilot.ebsi.eu/docs/apis/trusted-schemas-registry/latest#/operations/post-trusted-schemas-registry-v3-jsonrpc)"
             }
         ]
     },
