@@ -1,15 +1,75 @@
 [
     {
-        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
+        "programId": "ff0f8e99-99b3-453a-a80c-fe9644bd1f01",
         "status": 3,
         "confidentialityLevel": 4,
-        "companyHandle": "portofantwerp",
-        "companyName": "Port of Antwerp-Bruges",
+        "companyHandle": "monzobank",
+        "companyName": "Monzo Bank",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "monzo-vdp",
+        "name": "Monzo Vulnerability Disclosure Program",
+        "description": "Welcome to the Monzo vulnerability disclosure program! \ud83d\ude80\n\nAt Monzo we aim to create a banking service that makes our customers financial lives better and easier. Our mantra is \u201cmake money work for everyone\u201d and we mean it! \ud83d\udc4d\n\nWe've created some apps to provide intuitive, helpful, and enjoyable experiences across our range of products \ud83d\udc96.\n\nWe won\u2019t sacrifice security though! So if you find a security bug in one of our apps or services, this is the place to report it!\n\nHappy hunting!",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "GBP"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "GBP"
+        },
+        "lastUpdatedAt": 1695916182,
+        "lastSubmissionAt": 1697737552,
+        "logoId": "public_bucket_b9a79106-e3d4-4b15-b9f6-b05173a9469b-83a8e12e-3ac6-4fc5-918e-394a487e2d17",
+        "domains": [
+            {
+                "id": "af220279-49af-42ca-b34b-d7e5b0dd937d",
+                "type": 1,
+                "endpoint": "*.monzo.com",
+                "bountyTierId": 4,
+                "description": "The crux of Monzo where the APIs live as well as Monzo Business and the main web site"
+            },
+            {
+                "id": "50632242-5c44-402b-b4b5-3820b5d8d34a",
+                "type": 1,
+                "endpoint": "*.monzo.me",
+                "bountyTierId": 4,
+                "description": "Houses the services for the pay me / request payment feature"
+            },
+            {
+                "id": "664a04e8-6614-4889-bc4d-d7b2bbbf064e",
+                "type": 1,
+                "endpoint": "*.prod-ffs.io",
+                "bountyTierId": 4,
+                "description": "Where our internal tooling lives... hopefully it isn't exposed!"
+            },
+            {
+                "id": "16393869-2592-4d58-bb18-3f59726f4096",
+                "type": 3,
+                "endpoint": "1052238659",
+                "bountyTierId": 3,
+                "description": "The public seed of the Monzo app on iOS"
+            },
+            {
+                "id": "bd8b898b-0717-429c-8d23-f2d396debd9d",
+                "type": 2,
+                "endpoint": "co.uk.getmondo",
+                "bountyTierId": 3,
+                "description": "The public seed of the Monzo app on Android"
+            }
+        ]
+    },
+    {
+        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "visma",
+        "companyName": "Visma",
         "tacRequired": false,
         "companySustainable": true,
-        "handle": "nxtport",
-        "name": "NxtPort",
-        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
+        "handle": "VismaResponsibleDisclosure",
+        "name": "Visma Responsible Disclosure",
+        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
         "minBounty": {
             "value": 0.0,
             "currency": "EUR"
@@ -18,37 +78,90 @@
             "value": 0.0,
             "currency": "EUR"
         },
-        "lastUpdatedAt": 1679993070,
-        "lastSubmissionAt": 1697992114,
-        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
+        "lastUpdatedAt": 1677670936,
+        "lastSubmissionAt": 1698033460,
+        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
         "domains": [
             {
-                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
+                "id": "8922aa89-e471-4918-9785-ba22414a1975",
                 "type": 1,
-                "endpoint": "console.nxtport.eu",
+                "endpoint": "all",
                 "bountyTierId": 1,
-                "description": null
+                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
+            }
+        ]
+    },
+    {
+        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "Uphold",
+        "companyName": "Uphold.com",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "upholdcom",
+        "name": "Uphold.com",
+        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1680680521,
+        "lastSubmissionAt": 1696584763,
+        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
+        "domains": [
+            {
+                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
+                "type": 3,
+                "endpoint": "1101145849",
+                "bountyTierId": 4,
+                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
             },
             {
-                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
+                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
                 "type": 1,
-                "endpoint": "login.nxtport.eu",
-                "bountyTierId": 1,
-                "description": null
+                "endpoint": "api.uphold.com",
+                "bountyTierId": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
             },
             {
-                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
-                "type": 1,
-                "endpoint": "signup.nxtport.eu",
-                "bountyTierId": 1,
-                "description": null
+                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
+                "type": 2,
+                "endpoint": "com.uphold.wallet",
+                "bountyTierId": 4,
+                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
             },
             {
-                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
+                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
                 "type": 1,
-                "endpoint": "www.nxtport.com",
-                "bountyTierId": 1,
-                "description": null
+                "endpoint": "uphold.com/dashboard",
+                "bountyTierId": 4,
+                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
+            },
+            {
+                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
+                "type": 1,
+                "endpoint": "api-sandbox.uphold.com",
+                "bountyTierId": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
+            },
+            {
+                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
+                "type": 1,
+                "endpoint": "sandbox.uphold.com/dashboard",
+                "bountyTierId": 3,
+                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
+            },
+            {
+                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
+                "type": 1,
+                "endpoint": "*.uphold.com",
+                "bountyTierId": 2,
+                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
             }
         ]
     },
@@ -200,531 +313,6 @@
                 "endpoint": "testing.maventa.com",
                 "bountyTierId": 3,
                 "description": "**AutoInvoice**\nhttps://testing.maventa.com/apis/v1.1/wsdl is a SOAP API connected to Visma AutoInvoice.\n\nAPI documentation is available on https://documentation.maventa.com/soap-api/\n\nSee instructions for domain 'ai-testing.maventa.com' to get user credentials."
-            }
-        ]
-    },
-    {
-        "programId": "bc3017b6-f657-4519-bf8f-00009d85bc47",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "vidaxl",
-        "companyName": "VidaXL",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "vidaxlpublic",
-        "name": "vidaXL",
-        "description": "vidaXL is a rapidly growing international online retailer. Our success is based on our belief that things can always be better and cheaper: \u2018Expect more\u2019. Because nobody likes to pay too much for products. We are continually expanding our product range and offer the best products for the best price. We like to go the extra mile for our customers by improving popular products and making them even cheaper.\n\nhttps://corporate.vidaxl.com/about-us/",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1683625110,
-        "lastSubmissionAt": 1697633060,
-        "logoId": "public_bucket_8ec79146-481d-4d94-adfd-d3e3a24e3292-45d2b917-8c13-400e-a453-67a952302c6a",
-        "domains": [
-            {
-                "id": "778d0420-45c0-47ba-a141-f367bc3e82e0",
-                "type": 1,
-                "endpoint": "fps-extr-services.vidaxl.org",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "d967de66-5af0-40d2-a261-030645f021d4",
-                "type": 1,
-                "endpoint": "ar.vidaxl.sa.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "a2a423af-6c65-4197-9248-5e695b5c160d",
-                "type": 1,
-                "endpoint": "b2b.vidaxl.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "91df3c82-a0c6-49d2-b109-8cdde0f3b0de",
-                "type": 1,
-                "endpoint": "cms.woger-cdn.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "3aaad7a8-522f-4026-b69d-6c20a32aa9ad",
-                "type": 1,
-                "endpoint": "customer-services.vidaxl.org",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "9776b4de-c4f6-4dd5-a940-93a0b0293cdc",
-                "type": 1,
-                "endpoint": "en.vidaxl.ae",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "efc62788-170d-4a81-b3c6-44e4b5428dfe",
-                "type": 1,
-                "endpoint": "en.vidaxl.ca",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "d7647d14-0fcf-49f5-bdb6-620216cf70e0",
-                "type": 1,
-                "endpoint": "fr.vidaxl.ch",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "fe7fceb2-7093-4a72-8c5e-1dd12047ffdb",
-                "type": 1,
-                "endpoint": "is.vidaxl.is",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "330c3e9a-8a18-4f1d-aff7-48e8f1982aab",
-                "type": 1,
-                "endpoint": "nexus.vidaxl.org",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "24fd7885-0e64-492a-8495-f81c3ca34c2f",
-                "type": 1,
-                "endpoint": "nl.vidaxl.be",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "713cc0ed-c141-4ded-817d-54c387d97a3c",
-                "type": 1,
-                "endpoint": "serviceportal.vidaxl.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "deee91ed-7972-481c-9850-1009edc3f15e",
-                "type": 1,
-                "endpoint": "shops-services.vidaxl.org",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "4c3fba90-e990-431a-8844-1e963536b17b",
-                "type": 1,
-                "endpoint": "tracking.vidaxl.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "4d01a8dc-0d07-4dd4-b882-95a2239e8e27",
-                "type": 1,
-                "endpoint": "uk.vidaxl.com.ua",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "5870afa4-36a2-496f-93df-7863846e1376",
-                "type": 1,
-                "endpoint": "vidaxl.zendesk.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "6bc87259-a42a-4f11-b203-8d46d0530c0c",
-                "type": 1,
-                "endpoint": "www.dropshippingxl.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "16b6b3b4-2b9f-4285-b220-31efc30bbe82",
-                "type": 1,
-                "endpoint": "www.vidaxl.<TLD>",
-                "bountyTierId": 3,
-                "description": "Our TLDs for vidaxl are: `.at`, `.bg`, `.com.uk`, `.com`, `.com.au`, `.com.tr`, `.cz`, `.de`, `.dk`, `.ee`, `.es`, `.fi`, `.fr`, `.gr`, `.hr`, `.hu`, `.ie`, `.it`, `.jp`, `.lt`, `.lv`, `.nl`, `.no`, `.pl`, `.pt`, `.ro`, .se`, `.si`, and `.sk`."
-            },
-            {
-                "id": "2c930c06-88a5-4bc7-b3cb-476099b301de",
-                "type": 1,
-                "endpoint": "apigateway.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "d79ad46d-7424-4b57-99b8-c44c6ba6adee",
-                "type": 1,
-                "endpoint": "app.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "253d9050-4ec1-4727-831c-f6730edc0120",
-                "type": 1,
-                "endpoint": "corporate.vidaxl.com",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "b51ecb32-c578-4cc7-96b7-68f45df70718",
-                "type": 1,
-                "endpoint": "drone.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "c98c48fc-5316-4043-94eb-1ffdf81ead97",
-                "type": 1,
-                "endpoint": "qa-db.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "56de46dd-572d-4f6a-b06d-c630d812dd74",
-                "type": 1,
-                "endpoint": "qa.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "73e90318-0a5a-4938-88a4-043a337d675d",
-                "type": 1,
-                "endpoint": "qa1-apigateway.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "9f453f15-c86d-47e0-8c61-f22707ff062b",
-                "type": 1,
-                "endpoint": "staging-apigateway.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "31a9090a-4aa2-49f4-bd53-d68f898d8d0d",
-                "type": 1,
-                "endpoint": "staging-db.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "dce1ed94-d5e9-42c2-96aa-75fb20d12520",
-                "type": 1,
-                "endpoint": "staging.vidaxl.io",
-                "bountyTierId": 2,
-                "description": null
-            }
-        ]
-    },
-    {
-        "programId": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "Uphold",
-        "companyName": "Uphold.com",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "upholdcom",
-        "name": "Uphold.com",
-        "description": "At Uphold, we make it easy to buy and sell any major digital currency. You can invest, transfer or send/receive between many cryptocurrencies, traditional currencies and precious metals. Our digital money app is slick, easy, and secure.",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1680680521,
-        "lastSubmissionAt": 1696584763,
-        "logoId": "public_bucket_998b8072-dd27-464f-9690-349c58217a32-13f5ba7d-3ef5-4461-b1fb-473c9657a2ff",
-        "domains": [
-            {
-                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
-                "type": 3,
-                "endpoint": "1101145849",
-                "bountyTierId": 4,
-                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
-                "type": 1,
-                "endpoint": "api.uphold.com",
-                "bountyTierId": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
-                "type": 2,
-                "endpoint": "com.uphold.wallet",
-                "bountyTierId": 4,
-                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
-                "type": 1,
-                "endpoint": "uphold.com/dashboard",
-                "bountyTierId": 4,
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
-            },
-            {
-                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
-                "type": 1,
-                "endpoint": "api-sandbox.uphold.com",
-                "bountyTierId": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
-                "type": 1,
-                "endpoint": "sandbox.uphold.com/dashboard",
-                "bountyTierId": 3,
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
-            },
-            {
-                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
-                "type": 1,
-                "endpoint": "*.uphold.com",
-                "bountyTierId": 2,
-                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
-            }
-        ]
-    },
-    {
-        "programId": "ff0f8e99-99b3-453a-a80c-fe9644bd1f01",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "monzobank",
-        "companyName": "Monzo Bank",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "monzo-vdp",
-        "name": "Monzo Vulnerability Disclosure Program",
-        "description": "Welcome to the Monzo vulnerability disclosure program! \ud83d\ude80\n\nAt Monzo we aim to create a banking service that makes our customers financial lives better and easier. Our mantra is \u201cmake money work for everyone\u201d and we mean it! \ud83d\udc4d\n\nWe've created some apps to provide intuitive, helpful, and enjoyable experiences across our range of products \ud83d\udc96.\n\nWe won\u2019t sacrifice security though! So if you find a security bug in one of our apps or services, this is the place to report it!\n\nHappy hunting!",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "GBP"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "GBP"
-        },
-        "lastUpdatedAt": 1695916182,
-        "lastSubmissionAt": 1697737552,
-        "logoId": "public_bucket_b9a79106-e3d4-4b15-b9f6-b05173a9469b-83a8e12e-3ac6-4fc5-918e-394a487e2d17",
-        "domains": [
-            {
-                "id": "af220279-49af-42ca-b34b-d7e5b0dd937d",
-                "type": 1,
-                "endpoint": "*.monzo.com",
-                "bountyTierId": 4,
-                "description": "The crux of Monzo where the APIs live as well as Monzo Business and the main web site"
-            },
-            {
-                "id": "50632242-5c44-402b-b4b5-3820b5d8d34a",
-                "type": 1,
-                "endpoint": "*.monzo.me",
-                "bountyTierId": 4,
-                "description": "Houses the services for the pay me / request payment feature"
-            },
-            {
-                "id": "664a04e8-6614-4889-bc4d-d7b2bbbf064e",
-                "type": 1,
-                "endpoint": "*.prod-ffs.io",
-                "bountyTierId": 4,
-                "description": "Where our internal tooling lives... hopefully it isn't exposed!"
-            },
-            {
-                "id": "16393869-2592-4d58-bb18-3f59726f4096",
-                "type": 3,
-                "endpoint": "1052238659",
-                "bountyTierId": 3,
-                "description": "The public seed of the Monzo app on iOS"
-            },
-            {
-                "id": "bd8b898b-0717-429c-8d23-f2d396debd9d",
-                "type": 2,
-                "endpoint": "co.uk.getmondo",
-                "bountyTierId": 3,
-                "description": "The public seed of the Monzo app on Android"
-            }
-        ]
-    },
-    {
-        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "intigriti",
-        "companyName": "intigriti",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "intigriti",
-        "name": "intigriti",
-        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and we will reward you accordingly.",
-        "minBounty": {
-            "value": 50.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 13337.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1696320350,
-        "lastSubmissionAt": 1697977688,
-        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
-        "domains": [
-            {
-                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
-                "type": 1,
-                "endpoint": "*pwn.intigriti.rocks",
-                "bountyTierId": 3,
-                "description": "This is our test (PWN) environment that replicates production."
-            },
-            {
-                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
-                "type": 1,
-                "endpoint": "www.intigriti.com",
-                "bountyTierId": 2,
-                "description": "This is our marketing website."
-            }
-        ]
-    },
-    {
-        "programId": "9c9b9003-6134-4962-8fe3-8ecc5ee80c5a",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "voys",
-        "companyName": "Voys",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "voipgrid-voys",
-        "name": "Voys - VoIPGRID",
-        "description": "VoIPGRID develops advanced VoIP software for business telephony and offers this in wholesale and semi-wholesale form to resellers. Voys is one of the many resellers that provides the VoIPGRID platform under its own name. Customers of the products experience maximum freedom, flexibility, and control over their phone systems.",
-        "minBounty": {
-            "value": 20.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3000.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1697988522,
-        "lastSubmissionAt": 1697891209,
-        "logoId": "public_bucket_707f8d9c-c7f2-4020-b742-46c4155cc86e-b909eb34-b3bf-4c3f-8584-547d91d8bb0a",
-        "domains": [
-            {
-                "id": "15b56437-4370-4f54-8fac-2da78bac6841",
-                "type": 1,
-                "endpoint": "intigriti.voipgrid.nl",
-                "bountyTierId": 4,
-                "description": "This web environment has been setup for this Bug Bounty program. \n\nThis application has the same codebase between the two brands VoIPGRID and Voys"
-            },
-            {
-                "id": "7684b17a-57ad-4b10-ac3a-fc2777bc7fa2",
-                "type": 1,
-                "endpoint": "*.voipgrid.nl",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "5232cd5c-d467-4a99-8844-5eb8e1a9c01e",
-                "type": 1,
-                "endpoint": "*.voys.be",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "4dc989d7-3e11-44ef-a7e3-08ded8f63694",
-                "type": 1,
-                "endpoint": "*.voys.co",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "4aa9c04a-bbe0-4750-b4d9-b830e80a0558",
-                "type": 1,
-                "endpoint": "*.voys.nl",
-                "bountyTierId": 3,
-                "description": "Excluding https://jobs.voys.nl, https://jobs.voys.co\n"
-            }
-        ]
-    },
-    {
-        "programId": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "visma",
-        "companyName": "Visma",
-        "tacRequired": false,
-        "companySustainable": true,
-        "handle": "VismaResponsibleDisclosure",
-        "name": "Visma Responsible Disclosure",
-        "description": "Visma delivers software that simplifies and digitizes core business processes in the private and public sector. With presence across the entire Nordic region along with Benelux, Central and Eastern Europe, we are one of Europe\u2019s leading software companies.\nWe want to engage with responsible security researchers around the globe to further secure our services. This program is dedicated for all Visma assets (services, products, web properties).",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1677670936,
-        "lastSubmissionAt": 1698033460,
-        "logoId": "public_bucket_f5b0c10d-9739-4278-b1e9-5e8ccb32c10b-afddad57-8746-4731-a677-1d2e022b2697",
-        "domains": [
-            {
-                "id": "8922aa89-e471-4918-9785-ba22414a1975",
-                "type": 1,
-                "endpoint": "all",
-                "bountyTierId": 1,
-                "description": "This program covers all Visma services, products or web properties.\nWe do not offer money rewards for this program, but as a small token of appreciation for all researchers that submit a previously unknown vulnerability that triggers a code or configuration change, we will offer a place on our [Security Hall of Fame (HoF)](https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/hall-of-fame/).\nAlso for **all valid Medium+ reports**, we will offer **swags**.\n\nFor money rewards, the only exceptions are the specific assets listed in our Public Bug Bounty Program, see https://app.intigriti.com/programs/visma/visma/detail. Please note that we will only accept reports for the explicitly listed assets under our Public program."
-            }
-        ]
-    },
-    {
-        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "universitatsspitalzurich",
-        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "usz-vdp",
-        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
-        "description": "VULNERABILITY DISCLOSURE PROGRAM (VDP)\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1689600663,
-        "lastSubmissionAt": 1697644071,
-        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
-        "domains": [
-            {
-                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
-                "type": 1,
-                "endpoint": "*.unispital.ch ",
-                "bountyTierId": 1,
-                "description": "forwarding to usz.ch"
-            },
-            {
-                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
-                "type": 1,
-                "endpoint": "*.usz.ch ",
-                "bountyTierId": 1,
-                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
             }
         ]
     },
@@ -957,6 +545,66 @@
         ]
     },
     {
+        "programId": "9c9b9003-6134-4962-8fe3-8ecc5ee80c5a",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "voys",
+        "companyName": "Voys",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "voipgrid-voys",
+        "name": "Voys - VoIPGRID",
+        "description": "VoIPGRID develops advanced VoIP software for business telephony and offers this in wholesale and semi-wholesale form to resellers. Voys is one of the many resellers that provides the VoIPGRID platform under its own name. Customers of the products experience maximum freedom, flexibility, and control over their phone systems.",
+        "minBounty": {
+            "value": 20.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1697988522,
+        "lastSubmissionAt": 1698136128,
+        "logoId": "public_bucket_707f8d9c-c7f2-4020-b742-46c4155cc86e-b909eb34-b3bf-4c3f-8584-547d91d8bb0a",
+        "domains": [
+            {
+                "id": "15b56437-4370-4f54-8fac-2da78bac6841",
+                "type": 1,
+                "endpoint": "intigriti.voipgrid.nl",
+                "bountyTierId": 4,
+                "description": "This web environment has been setup for this Bug Bounty program. \n\nThis application has the same codebase between the two brands VoIPGRID and Voys"
+            },
+            {
+                "id": "7684b17a-57ad-4b10-ac3a-fc2777bc7fa2",
+                "type": 1,
+                "endpoint": "*.voipgrid.nl",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "5232cd5c-d467-4a99-8844-5eb8e1a9c01e",
+                "type": 1,
+                "endpoint": "*.voys.be",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "4dc989d7-3e11-44ef-a7e3-08ded8f63694",
+                "type": 1,
+                "endpoint": "*.voys.co",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "4aa9c04a-bbe0-4750-b4d9-b830e80a0558",
+                "type": 1,
+                "endpoint": "*.voys.nl",
+                "bountyTierId": 3,
+                "description": "Excluding https://jobs.voys.nl, https://jobs.voys.co\n"
+            }
+        ]
+    },
+    {
         "programId": "188976b1-e8b3-4132-a6f6-e96113599474",
         "status": 3,
         "confidentialityLevel": 4,
@@ -1005,6 +653,358 @@
                 "type": 2,
                 "endpoint": "no.kolonial.tienda",
                 "bountyTierId": 3,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "a5158346-5add-4916-bd31-d8a5fe1e805f",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "universitatsspitalzurich",
+        "companyName": "Universit\u00e4tsspital Z\u00fcrich",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "usz-vdp",
+        "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
+        "description": "VULNERABILITY DISCLOSURE PROGRAM (VDP)\nAbove all else, University Hospital Zurich is committed to the care and improvement of human life. Part of that mission is to protect our patients, people, systems, and facilities. We want encourage security researchers to feel comfortable reporting vulnerabilities they\u2019ve discovered to us in good faith. \n",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1689600663,
+        "lastSubmissionAt": 1697644071,
+        "logoId": "public_bucket_a2ddc8aa-df31-4d23-ba80-17dda27d56ee-6bfb9aa6-14e6-498c-8cfb-a1822d50acfb",
+        "domains": [
+            {
+                "id": "9dae0160-e3e3-480f-b354-a72474f4e89e",
+                "type": 1,
+                "endpoint": "*.unispital.ch ",
+                "bountyTierId": 1,
+                "description": "forwarding to usz.ch"
+            },
+            {
+                "id": "9fcd885a-5936-42cf-9201-f3fad0113c95",
+                "type": 1,
+                "endpoint": "*.usz.ch ",
+                "bountyTierId": 1,
+                "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues."
+            }
+        ]
+    },
+    {
+        "programId": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "intigriti",
+        "companyName": "intigriti",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "intigriti",
+        "name": "intigriti",
+        "description": "At intigriti, we practice what we preach. We\u2019ve built the platform with the greatest care and attention for security, but all software contains bugs and we are no exception to this rule. We encourage you to responsibly disclose any security vulnerabilities you may encounter and we will reward you accordingly.",
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 13337.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1696320350,
+        "lastSubmissionAt": 1697977688,
+        "logoId": "public_bucket_d23a1f29-c2fe-4d03-8daf-df24d1e076ea-c2449aa2-3a08-4bf5-a430-441a11020851",
+        "domains": [
+            {
+                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
+                "type": 1,
+                "endpoint": "*pwn.intigriti.rocks",
+                "bountyTierId": 3,
+                "description": "This is our test (PWN) environment that replicates production."
+            },
+            {
+                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
+                "type": 1,
+                "endpoint": "www.intigriti.com",
+                "bountyTierId": 2,
+                "description": "This is our marketing website."
+            }
+        ]
+    },
+    {
+        "programId": "3768c4c1-a0d4-4546-abdf-e8932e760189",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "portofantwerp",
+        "companyName": "Port of Antwerp-Bruges",
+        "tacRequired": false,
+        "companySustainable": true,
+        "handle": "nxtport",
+        "name": "NxtPort",
+        "description": "NxtPort's main goal is to unlock the potential of sharing existing data amongst supply chain members. The NxtPort Data Utility Platform allows faster, more cost-effective, as well as more efficient transfers of data between the different players. The platform creates more transparency\nin the whole logistics process. NxtPort aims to increase operational efficiency, safety and revenue. ",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1679993070,
+        "lastSubmissionAt": 1697992114,
+        "logoId": "public_bucket_f0b77fa8-57af-4d72-8599-4ed5e129fc8b-e26adf4f-e949-4e89-8082-647977348743",
+        "domains": [
+            {
+                "id": "02317096-537a-4744-aad3-8cebf8ab89c2",
+                "type": 1,
+                "endpoint": "console.nxtport.eu",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "ca34b607-5a36-4afa-b8ab-08dc0e814886",
+                "type": 1,
+                "endpoint": "login.nxtport.eu",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "a417f129-975e-4b77-b39a-f13ec4cb2ed6",
+                "type": 1,
+                "endpoint": "signup.nxtport.eu",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "902b5873-5bd4-4219-b9c7-d79155181b47",
+                "type": 1,
+                "endpoint": "www.nxtport.com",
+                "bountyTierId": 1,
+                "description": null
+            }
+        ]
+    },
+    {
+        "programId": "bc3017b6-f657-4519-bf8f-00009d85bc47",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "vidaxl",
+        "companyName": "VidaXL",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "vidaxlpublic",
+        "name": "vidaXL",
+        "description": "vidaXL is a rapidly growing international online retailer. Our success is based on our belief that things can always be better and cheaper: \u2018Expect more\u2019. Because nobody likes to pay too much for products. We are continually expanding our product range and offer the best products for the best price. We like to go the extra mile for our customers by improving popular products and making them even cheaper.\n\nhttps://corporate.vidaxl.com/about-us/",
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1683625110,
+        "lastSubmissionAt": 1697633060,
+        "logoId": "public_bucket_8ec79146-481d-4d94-adfd-d3e3a24e3292-45d2b917-8c13-400e-a453-67a952302c6a",
+        "domains": [
+            {
+                "id": "778d0420-45c0-47ba-a141-f367bc3e82e0",
+                "type": 1,
+                "endpoint": "fps-extr-services.vidaxl.org",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "d967de66-5af0-40d2-a261-030645f021d4",
+                "type": 1,
+                "endpoint": "ar.vidaxl.sa.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "a2a423af-6c65-4197-9248-5e695b5c160d",
+                "type": 1,
+                "endpoint": "b2b.vidaxl.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "91df3c82-a0c6-49d2-b109-8cdde0f3b0de",
+                "type": 1,
+                "endpoint": "cms.woger-cdn.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "3aaad7a8-522f-4026-b69d-6c20a32aa9ad",
+                "type": 1,
+                "endpoint": "customer-services.vidaxl.org",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "9776b4de-c4f6-4dd5-a940-93a0b0293cdc",
+                "type": 1,
+                "endpoint": "en.vidaxl.ae",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "efc62788-170d-4a81-b3c6-44e4b5428dfe",
+                "type": 1,
+                "endpoint": "en.vidaxl.ca",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "d7647d14-0fcf-49f5-bdb6-620216cf70e0",
+                "type": 1,
+                "endpoint": "fr.vidaxl.ch",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "fe7fceb2-7093-4a72-8c5e-1dd12047ffdb",
+                "type": 1,
+                "endpoint": "is.vidaxl.is",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "330c3e9a-8a18-4f1d-aff7-48e8f1982aab",
+                "type": 1,
+                "endpoint": "nexus.vidaxl.org",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "24fd7885-0e64-492a-8495-f81c3ca34c2f",
+                "type": 1,
+                "endpoint": "nl.vidaxl.be",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "713cc0ed-c141-4ded-817d-54c387d97a3c",
+                "type": 1,
+                "endpoint": "serviceportal.vidaxl.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "deee91ed-7972-481c-9850-1009edc3f15e",
+                "type": 1,
+                "endpoint": "shops-services.vidaxl.org",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "4c3fba90-e990-431a-8844-1e963536b17b",
+                "type": 1,
+                "endpoint": "tracking.vidaxl.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "4d01a8dc-0d07-4dd4-b882-95a2239e8e27",
+                "type": 1,
+                "endpoint": "uk.vidaxl.com.ua",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "5870afa4-36a2-496f-93df-7863846e1376",
+                "type": 1,
+                "endpoint": "vidaxl.zendesk.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "6bc87259-a42a-4f11-b203-8d46d0530c0c",
+                "type": 1,
+                "endpoint": "www.dropshippingxl.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "16b6b3b4-2b9f-4285-b220-31efc30bbe82",
+                "type": 1,
+                "endpoint": "www.vidaxl.<TLD>",
+                "bountyTierId": 3,
+                "description": "Our TLDs for vidaxl are: `.at`, `.bg`, `.com.uk`, `.com`, `.com.au`, `.com.tr`, `.cz`, `.de`, `.dk`, `.ee`, `.es`, `.fi`, `.fr`, `.gr`, `.hr`, `.hu`, `.ie`, `.it`, `.jp`, `.lt`, `.lv`, `.nl`, `.no`, `.pl`, `.pt`, `.ro`, .se`, `.si`, and `.sk`."
+            },
+            {
+                "id": "2c930c06-88a5-4bc7-b3cb-476099b301de",
+                "type": 1,
+                "endpoint": "apigateway.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "d79ad46d-7424-4b57-99b8-c44c6ba6adee",
+                "type": 1,
+                "endpoint": "app.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "253d9050-4ec1-4727-831c-f6730edc0120",
+                "type": 1,
+                "endpoint": "corporate.vidaxl.com",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "b51ecb32-c578-4cc7-96b7-68f45df70718",
+                "type": 1,
+                "endpoint": "drone.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "c98c48fc-5316-4043-94eb-1ffdf81ead97",
+                "type": 1,
+                "endpoint": "qa-db.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "56de46dd-572d-4f6a-b06d-c630d812dd74",
+                "type": 1,
+                "endpoint": "qa.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "73e90318-0a5a-4938-88a4-043a337d675d",
+                "type": 1,
+                "endpoint": "qa1-apigateway.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "9f453f15-c86d-47e0-8c61-f22707ff062b",
+                "type": 1,
+                "endpoint": "staging-apigateway.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "31a9090a-4aa2-49f4-bd53-d68f898d8d0d",
+                "type": 1,
+                "endpoint": "staging-db.vidaxl.io",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "dce1ed94-d5e9-42c2-96aa-75fb20d12520",
+                "type": 1,
+                "endpoint": "staging.vidaxl.io",
+                "bountyTierId": 2,
                 "description": null
             }
         ]
@@ -2540,108 +2540,6 @@
         ]
     },
     {
-        "programId": "efd8bd86-a986-4b4a-9eda-c9a6a1a6b540",
-        "status": 3,
-        "confidentialityLevel": 4,
-        "companyHandle": "cmcom",
-        "companyName": "CM.com",
-        "tacRequired": false,
-        "companySustainable": false,
-        "handle": "cmcom",
-        "name": "CM.com",
-        "description": "CM.com is a listed company that provides Conversational Commerce services from its hybrid cloud platform with in-house developed software.\n\nCM.com\u2019s customer base is spread over 118 countries, generating messages to more than 220 destinations.\n\nCustomers include Tier 1 enterprises, government agencies, as well as small and medium sized enterprises.\n\nWe offer API's for most of our products. You may find the documentation here: https://developers.cm.com",
-        "minBounty": {
-            "value": 25.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 3500.0,
-            "currency": "EUR"
-        },
-        "lastUpdatedAt": 1698045644,
-        "lastSubmissionAt": 1698062059,
-        "logoId": "public_bucket_57c73fab-b9d0-4eee-896e-cb2a7565a7ec-88c9e92b-4a78-41f0-9cf4-3a888a55261d",
-        "domains": [
-            {
-                "id": "aa00fe91-7017-4710-91a7-146f1160baa4",
-                "type": 1,
-                "endpoint": "cm.com/app/messagingtrial/",
-                "bountyTierId": 2,
-                "description": "An application that makes it possible for developers to do a limited test of sending messages using the CM.COM business messaging API.\n\nWhat we would like to know is:\n* Can the application be exploited to allow sending more than the allowed number of messages?\n* Can the app be exploited to send to other recipients besides the whitelisted recipients?"
-            },
-            {
-                "id": "c2ea9e52-cb22-4f74-8df9-63e0f622d546",
-                "type": 1,
-                "endpoint": "login.cm.com",
-                "bountyTierId": 4,
-                "description": null
-            },
-            {
-                "id": "acdf2570-a8ce-4db4-bf59-e66a6246f912",
-                "type": 1,
-                "endpoint": "*.ticketing.cm.com",
-                "bountyTierId": 3,
-                "description": "Login to your account and go to https://www.cm.com/en-gb/app/ticketing/\nFrom here you can create tickets and much more!\nMake sure to take a look at the user-side ticket store as well (https://store.ticketing.cm.com/..)"
-            },
-            {
-                "id": "541db1de-0d19-4f92-a25a-a2e32fe52f50",
-                "type": 1,
-                "endpoint": "api.cm.com",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "64fbeac0-eb70-44b1-a405-5c1c0ab6efb3",
-                "type": 1,
-                "endpoint": "api.cmtelecom.com",
-                "bountyTierId": 3,
-                "description": "Some of the applications that are in our scope use our old api. \nIf you find a bug on this api and it is from a product that is in scope, it is valid."
-            },
-            {
-                "id": "6c202c84-88ff-4714-a219-08347402eae2",
-                "type": 1,
-                "endpoint": "cm.com/[locale]/app/*",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "c78deacd-36c1-4064-a77f-fa78eeff4391",
-                "type": 1,
-                "endpoint": "cm.com/[locale]/register",
-                "bountyTierId": 3,
-                "description": null
-            },
-            {
-                "id": "e836e34b-a943-4cde-ae07-5ea264923c7d",
-                "type": 1,
-                "endpoint": "www.cm.com",
-                "bountyTierId": 2,
-                "description": null
-            },
-            {
-                "id": "c2247828-7a12-4629-8693-d5e9d28dc02a",
-                "type": 1,
-                "endpoint": "*.cm.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "449a4bfb-9680-4cc1-82a9-05113501d7f1",
-                "type": 1,
-                "endpoint": "*.cmtelecom.com",
-                "bountyTierId": 1,
-                "description": null
-            },
-            {
-                "id": "cc727da4-d41c-412c-a4f3-7fc6d9ff954f",
-                "type": 1,
-                "endpoint": "demo.globalticket.com/*",
-                "bountyTierId": 1,
-                "description": "GlobalTicket is one of our integrations. \nBe sure to check out `/cms` to try and work your way into it."
-            }
-        ]
-    },
-    {
         "programId": "a5033edb-65a5-4e9f-8e4d-af548e42e647",
         "status": 3,
         "confidentialityLevel": 4,
@@ -3364,6 +3262,108 @@
                 "endpoint": "egaming.kinepolis.es",
                 "bountyTierId": 1,
                 "description": null
+            }
+        ]
+    },
+    {
+        "programId": "efd8bd86-a986-4b4a-9eda-c9a6a1a6b540",
+        "status": 3,
+        "confidentialityLevel": 4,
+        "companyHandle": "cmcom",
+        "companyName": "CM.com",
+        "tacRequired": false,
+        "companySustainable": false,
+        "handle": "cmcom",
+        "name": "CM.com",
+        "description": "CM.com is a listed company that provides Conversational Commerce services from its hybrid cloud platform with in-house developed software.\n\nCM.com\u2019s customer base is spread over 118 countries, generating messages to more than 220 destinations.\n\nCustomers include Tier 1 enterprises, government agencies, as well as small and medium sized enterprises.\n\nWe offer API's for most of our products. You may find the documentation here: https://developers.cm.com",
+        "minBounty": {
+            "value": 25.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500.0,
+            "currency": "EUR"
+        },
+        "lastUpdatedAt": 1698136880,
+        "lastSubmissionAt": 1698062059,
+        "logoId": "public_bucket_57c73fab-b9d0-4eee-896e-cb2a7565a7ec-88c9e92b-4a78-41f0-9cf4-3a888a55261d",
+        "domains": [
+            {
+                "id": "aa00fe91-7017-4710-91a7-146f1160baa4",
+                "type": 1,
+                "endpoint": "cm.com/app/messagingtrial/",
+                "bountyTierId": 2,
+                "description": "An application that makes it possible for developers to do a limited test of sending messages using the CM.COM business messaging API.\n\nWhat we would like to know is:\n* Can the application be exploited to allow sending more than the allowed number of messages?\n* Can the app be exploited to send to other recipients besides the whitelisted recipients?"
+            },
+            {
+                "id": "c2ea9e52-cb22-4f74-8df9-63e0f622d546",
+                "type": 1,
+                "endpoint": "login.cm.com",
+                "bountyTierId": 4,
+                "description": null
+            },
+            {
+                "id": "acdf2570-a8ce-4db4-bf59-e66a6246f912",
+                "type": 1,
+                "endpoint": "*.ticketing.cm.com",
+                "bountyTierId": 3,
+                "description": "Login to your account and go to https://www.cm.com/en-gb/app/ticketing/\nFrom here you can create tickets and much more!\nMake sure to take a look at the user-side ticket store as well (https://store.ticketing.cm.com/..)"
+            },
+            {
+                "id": "541db1de-0d19-4f92-a25a-a2e32fe52f50",
+                "type": 1,
+                "endpoint": "api.cm.com",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "64fbeac0-eb70-44b1-a405-5c1c0ab6efb3",
+                "type": 1,
+                "endpoint": "api.cmtelecom.com",
+                "bountyTierId": 3,
+                "description": "Some of the applications that are in our scope use our old api. \nIf you find a bug on this api and it is from a product that is in scope, it is valid."
+            },
+            {
+                "id": "6c202c84-88ff-4714-a219-08347402eae2",
+                "type": 1,
+                "endpoint": "cm.com/[locale]/app/*",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "c78deacd-36c1-4064-a77f-fa78eeff4391",
+                "type": 1,
+                "endpoint": "cm.com/[locale]/register",
+                "bountyTierId": 3,
+                "description": null
+            },
+            {
+                "id": "e836e34b-a943-4cde-ae07-5ea264923c7d",
+                "type": 1,
+                "endpoint": "www.cm.com",
+                "bountyTierId": 2,
+                "description": null
+            },
+            {
+                "id": "c2247828-7a12-4629-8693-d5e9d28dc02a",
+                "type": 1,
+                "endpoint": "*.cm.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "449a4bfb-9680-4cc1-82a9-05113501d7f1",
+                "type": 1,
+                "endpoint": "*.cmtelecom.com",
+                "bountyTierId": 1,
+                "description": null
+            },
+            {
+                "id": "cc727da4-d41c-412c-a4f3-7fc6d9ff954f",
+                "type": 1,
+                "endpoint": "demo.globalticket.com/*",
+                "bountyTierId": 1,
+                "description": "GlobalTicket is one of our integrations. \nBe sure to check out `/cms` to try and work your way into it."
             }
         ]
     },
