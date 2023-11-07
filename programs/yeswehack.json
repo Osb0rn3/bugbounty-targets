@@ -4563,8 +4563,8 @@
         "archived": false,
         "reports_count": 27,
         "bounty_reward_min": 0,
-        "bounty_reward_max": 10000,
-        "scopes_count": 3,
+        "bounty_reward_max": 20000,
+        "scopes_count": 6,
         "pentest_campaign_status": null,
         "thumbnail": {
             "name": "b081db0d-3cbf-43be-a57b-4428a878bb27",
@@ -4590,21 +4590,39 @@
         },
         "scopes": [
             {
-                "scope": "https://auth.integ01.dev-franceconnect.fr",
-                "scope_type": "web-application",
+                "scope": "Specific scenarios (see program description)",
+                "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://fca.integ01.dev-agentconnect.fr",
+                "scope": "AgentConnect (see program description for github link)",
                 "scope_type": "web-application",
-                "asset_value": "CRITICAL",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://eidas-bridge.integ01.dev-franceconnect.fr",
+                "scope": "FranceConnect+ (see program description for github link)",
                 "scope_type": "web-application",
-                "asset_value": "CRITICAL",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "FranceConnect (see program description for github link)",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "eIDAS Bridge  (see program description for github link)",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "User Dashboard  (see program description for github link)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
