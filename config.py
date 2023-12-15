@@ -21,7 +21,7 @@ class API:
 
     @retry(
         stop=stop_after_attempt(5),
-        wait=wait_random_exponential(multiplier=1, max=60),
+        wait=wait_random_exponential(multiplier=1, max=60, min=30),
         retry=retry_if_exception_type(
             (httpx.RequestError, httpx.HTTPStatusError, json.JSONDecodeError)),
         after=after_log(logger, logging.WARNING)
@@ -42,9 +42,12 @@ class API:
             response.raise_for_status()
             await self._wait()
             return response.json()
-        except httpx.RequestError as e:
-            self.logger.error(f"Error: {e}, Endpoint: {endpoint}")
-            raise
+        except httpx.HTTPError as e:
+            if e.response.status_code == 403:
+                return e.response.json()
+            else:
+                self.logger.error(f"Error: {e}, Endpoint: {endpoint}")
+                raise
         except json.JSONDecodeError as e:
             self.logger.error(
                 f"Error decoding response JSON: {e}, Endpoint: {endpoint}")
