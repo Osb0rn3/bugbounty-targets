@@ -1,5 +1,6 @@
 from config import API
 from typing import List
+from urllib.parse import urlparse, urlencode, parse_qs, urlunparse
 
 class HackerOneAPI(API):
     def __init__(self, username: str, token: str) -> None:
@@ -25,12 +26,15 @@ class HackerOneAPI(API):
         Yields:
             dict: A dictionary representing the response JSON for each page.
         """
-        params = {}
+        params = {
+            'page[size]': 100
+        }
+
         while True:
             response_json = await self.get(endpoint, params=params)
-            yield response_json
             if 'next' in response_json['links']:
                 endpoint = response_json['links']['next']
+                yield response_json
             else:
                 break
 
@@ -44,5 +48,9 @@ class HackerOneAPI(API):
         Yields:
             dict: A dictionary representing the response JSON for scope information
         """
-        response_json = await self.get(f"{self.base_url}/v1/hackers/programs/{scope}")
-        yield response_json
+        data = []
+        async for structured_scope in self.paginate(f"{self.base_url}/v1/hackers/programs/{scope}/structured_scopes"):
+            if 'data' in structured_scope:
+                data.extend(structured_scope['data'])
+
+        yield {"relationships": {"structured_scopes": {"data" : data}}}
