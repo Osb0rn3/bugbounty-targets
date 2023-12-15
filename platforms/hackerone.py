@@ -32,9 +32,10 @@ class HackerOneAPI(API):
 
         while True:
             response_json = await self.get(endpoint, params=params)
+            yield response_json
+
             if 'next' in response_json['links']:
                 endpoint = response_json['links']['next']
-                yield response_json
             else:
                 break
 
