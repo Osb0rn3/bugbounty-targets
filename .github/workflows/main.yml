@@ -28,6 +28,7 @@ jobs:
         env:
           HACKERONE_USERNAME: ${{ secrets.HACKERONE_USERNAME }}
           HACKERONE_TOKEN: ${{ secrets.HACKERONE_TOKEN }}
+          INTIGRITI_TOKEN: ${{ secrets.INTIGRITI_TOKEN }}
         run: python main.py
 
       - name: Configure Git
