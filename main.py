@@ -142,7 +142,7 @@ class PublicPrograms:
                 self.logger.error("Error: unexpected response format.")
                 return []
 
-        self.results = [scope for scope in self.results if scope['confidentialityLevel']['id'] == 4]
+        self.results = [scope for scope in self.results if (scope['confidentialityLevel']['id'] == 4 or scope['confidentialityLevel']['id'] == 3)]
 
         for scope in self.results:
             scope_handle = scope.get('id')
