@@ -144,6 +144,9 @@ class PublicPrograms:
 
         self.results = [scope for scope in self.results if (scope['confidentialityLevel']['id'] == 4 or scope['confidentialityLevel']['id'] == 3)]
 
+        # Exclude duplicate Intigriti program used for testing purposes
+        self.results = [scope for scope in self.results if not (scope['handle'] == 'dummy' and scope['name'] == 'Test Program')]
+
         for scope in self.results:
             scope_handle = scope.get('id')
             async for response_json in self.api.program_info(scope_handle):
