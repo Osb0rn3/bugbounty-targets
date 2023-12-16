@@ -131,6 +131,488 @@
         ]
     },
     {
+        "id": "03cf1a7b-fffb-491e-9161-6d967714a284",
+        "handle": "gantner",
+        "name": "Enviso Ticketing",
+        "minBounty": {
+            "value": 10,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "domains": [
+            {
+                "id": "837bfa6d-e6f3-4221-a6a7-3e2cf62d2169",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": " https://enviso.io/ ",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "13fb90f9-0a8a-4eff-ac96-7d67b7ef2ed5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": " https://www.enviso.io/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "b62965e0-86c7-4df2-b0fa-0c30ae6066c3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/authenticationapi",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The Authentication API is used to authenticate to the Enviso platform. Integrators will need to use this to be able to access some APIs (for example the Direct Selling API).\n\n* [Documentation: Authentication API](https://enviso.io/developers/authentication-api/en/index-en.html)"
+            },
+            {
+                "id": "a22e4252-6ba7-4ad1-9bc4-affb376a09bc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/paymentcenterapi",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The Payment API Can be used to initialize web payments using the Enviso Payment Widget (part of our \"Ticketing Widget\" web components) and verify if the payment was successful. It's also used in some of our other web apps.\n* [Documentation: Payment API](https://enviso.io/developers/payment-api/en/index-en.html)"
+            },
+            {
+                "id": "9dc30d05-d0d7-4415-ab77-39bef10cb953",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/resellingapi",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The Reselling API allows you to retrieve venue information as well as reserve and sell tickets of your partner venues on your online selling interface.\n* [Documentation: Reselling API](https://enviso.io/developers/reselling-api/en/index-en.html)"
+            },
+            {
+                "id": "6b2d41a3-bc67-47fa-9e21-4afad7495b75",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/ticketwidgetapi",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The [Ticketing Widget](https://enviso.io/enviso-widget/index.html) is a collection of drop-in components that can be added to any existing webpage to start selling tickets. This makes it easy for our customers (musea / attraction parcs / etc) to sell tickets on their website.  This is the back-end api for those web components.\nSee the \"Ticketing Widget\" domain for more information how this can be configured."
+            },
+            {
+                "id": "ce9f6869-13c4-4ff2-9104-673a62084619",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Authorization Center Microservice",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/authorizationgroups/\n* PUT https://api.staging-enviso.io/eloxxapi/v1/authorizationgroups/{authorizationgroupid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/authorizationgroups/{authorizationgroupid}/lockerusers\n* PUT https://api.staging-enviso.io/eloxxapi/v1/authorizationgroups/{authorizationgroupid}/lockerusers/{lockeruserid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/authorizationgroups/{authorizationgroupid}/lockergroups\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerassignments/\n\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/authorizationgroups\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenanceauthorizationgroups\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/maintenanceauthorizationgroups/\n* PUT https://api.staging-enviso.io/eloxxapi/v1/maintenanceauthorizationgroups/{maintenanceauthorizationgroupid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/maintenanceauthorizationgroups/{maintenanceauthorizationgroupid}/lockerusers\n* PUT https://api.staging-enviso.io/eloxxapi/v1/maintenanceauthorizationgroups/{maintenanceauthorizationgroupid}/lockerusers/{lockeruserid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/maintenanceauthorizationgroups/{maintenanceauthorizationgroupid}/lockergroups\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "e70e4742-944d-45aa-80eb-0f68c8160dc1",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Device Center Microservice",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/accesstoken\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/accesstoken\n* PUT https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/subdevices/{subdeviceid}/open\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "3a713279-f205-40ac-bc49-d698246a7a8f",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Locker Center Microservice",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockergroups/\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockergroups/\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockergroups/sortorder\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockergroups/{lockergroupid}\n\n* PUT https://api.staging-enviso.io/eloxxapi/v1/locks/lockaction\n* PUT https://api.staging-enviso.io/eloxxapi/v1/locks/lockermode\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "7882a0d9-1bd0-4323-a8fe-aba4ab3a4fd8",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Locker User Center Microservice",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers/{datacarrierid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers/{maintenancedatacarrierid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers/{datacarrierid}/status\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers/{maintenancedatacarrierid}/status\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/status\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "9ec6d28f-07c5-4f44-9236-117fe560f185",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Ticketing Widget",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The [Enviso Ticketing Widget](https://enviso.io/enviso-widget/index.html) is a collection of drop-in Web Components that allows venues to sell tickets on their own website by just placing the component on their webpage. Integrators can implement the components in their webpage with limited technical and functional knowledge of Enviso.\n\nThe offers shown on the widget can be configured in the Sales App.\n\nHow to configure the ticketing widget:\n* [Components](https://widget.staging-enviso.io/demo/demo.html)\n* [Documentation: Ticketing Widget](https://enviso.io/developers/ticketing-widget/en/overview.html)\n* [Quick-start videos](https://www.youtube.com/playlist?list=PLmHxrtM6RmiJHIYPnSjJfBv1BP1G8H4QJ)\n* [Example website](https://qaenviso-ticketingwidget.gantner.be/)\n\n> **Important!**\n> * Security issues related to the hosting of the widget or a faulty implementation, and not the widget itself, are **out of scope**. If you find issues, they will be accepted but without rewards.\n> * Test payment information, card information etc can be found in [the Adyen documentation](https://docs.adyen.com/development-resources/test-cards/test-card-numbers)\n> * Payments are handled by Adyen. We are welcome to accept security issues related to our payment provider but they will not be rewarded (responsibility of the payment provider)!"
+            },
+            {
+                "id": "938e43f2-a253-4319-a8bc-dcee85bde6f1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/basketcenterapi",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Basket Center API is used by the Booking App's \"Offer Shop\" and by our other microservices (for example for the Ticketing Widget and the Direct Selling API) to manage basket information."
+            },
+            {
+                "id": "30b0bb63-2559-4088-9191-d91867f37db0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/capacitycenterapi",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Internal API that manages capacity, availability and quota for offers. Is used in some of the web applications\n* Undocumented"
+            },
+            {
+                "id": "bd3ba097-5b77-4886-b391-c003b2506af0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/directsellingapi",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Direct selling API allows you to retrieve offers that are published to a specific sales point on the direct sales channel, and sell products related to the offer. This API is mainly used by integrators for selling products through direct sales channels such as cash registers, self-service kiosks or websites.\n\n* [Documentation: Direct Selling API](https://enviso.io/developers/direct-selling-api/en/index-en.html)"
+            },
+            {
+                "id": "cf8c7264-6cfb-4c89-8828-006684516039",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/eventcenterapi",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This API is used by the Booking App to manage events and timeslots.\n\n* [Documentation: Booking App](https://enviso.io/help/en/134567-134713-enviso-booking.html)"
+            },
+            {
+                "id": "de9ed28e-d010-4b95-b3a2-d3455b992166",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/guidecenterapi",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "API for the Booking App to manage guides\n* [Documentation: Booking App](https://enviso.io/help/en/134567-134713-enviso-booking.html)"
+            },
+            {
+                "id": "ce13896e-2b35-4131-93ba-48d709851124",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/pricingcenterapi",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Pricing Center API is used by our different microservices to determine the selling price for tickes."
+            },
+            {
+                "id": "fad28504-bd4f-461d-8e22-6e96b26b3ff9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "booking.staging-enviso.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Booking App consists out of 2 parts:\n1. Enviso Booking for Venues allows you to create events and consult bookings made on your direct channel sales points.\n2. The Guide planning app allows you to manage your profile, add your availability and accept/decline guide tasks assigned by your venue partners.\n\nAfter going to the application, you can immediately choose whether you want to log in as a venue or as a guide. Depending on your choice, you will enter one of the 2 parts of the application\n\n* [Documentation: Booking App](https://enviso.io/help/en/134567-134713-enviso-booking.html)"
+            },
+            {
+                "id": "176d6409-d4c1-4e30-9755-e5076c64fdbe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cloud.staging-enviso.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Enviso Admin app (previously named Cloud App) allows you to manage users and user roles for Enviso Sales, Enviso Trade, Enviso Booking, Enviso Forms and eLoxx - based on your license for an Enviso app.\n\nDepending on whether you are a venue or a reseller user you can carry out certain functionalities from the Admin app. Some of the activities that are possible on Enviso Admin are configuring languages for data translation, managing licenses and consulting visitor list, sales points and transactions. \n\n* [Documentation: Admin App](https://enviso.io/help/en/140073-140133-admin.html)"
+            },
+            {
+                "id": "6f4b339d-892c-43c2-a3f3-df655bb822f0",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Authorization Center Microservice",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/authorizationgroups/{authorizationgroupid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/authorizationgroups/{authorizationgroupid}/lockerusers/{lockeruserid}\n\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerassignments/\n\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/maintenanceauthorizationgroups/{maintenanceauthorizationgroupid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/maintenanceauthorizationgroups/{maintenanceauthorizationgroupid}/lockerusers/{lockeruserid}\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "0b24c911-fe6e-4174-8b31-ad8363223788",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Device Center Microservice",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* PUT https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/mastercardset\n\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/mastercardsets/{mastercardsetid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/mastercardsets/{mastercardsetid}/cards\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/mastercardsets/{mastercardsetid}/cards/{orderindex}\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "408a4211-99ba-4a0c-ba5d-1aebf490794b",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Locker Center Microservice",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockergroups/{lockergroupid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockergroups/{lockergroupid}/locks\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockergroups/{lockergroupid}/automode\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/locks/\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "e85daf6f-5727-437d-bce0-a7baaf27dac6",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Locker User Center Microservice",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "\n* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/datacarriertypes/\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/datacarriertypes/\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/withdatacarriers\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers/{datacarrierid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers/{maintenancedatacarrierid}\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "1d28165e-2d91-41e5-9b4c-7e25893f8f1a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "sales.staging-enviso.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Enviso Sales is a cloud portal that allows you to manage offers, tickets and orders for your direct and indirect channels. You can also manage ticket quantity allocation for the direct and indirect sales channels.\n\nMoreover, it is possible to customise templates for tickets, email and visitor info forms. You can also manage promotional campaigns.\n\nThe Sales app also contains an Offer Shop, that allows employees to sell tickets.\n\n* [Documentation: Enviso Sales App](https://enviso.io/help/en/134879-135190-enviso-sales.html)"
+            },
+            {
+                "id": "4fe1d535-9fda-4f2b-8ed4-df2fc8400db4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/bookingapi",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Booking API allows you to retrieve data related to orders, visitors, guides and tasks that are available in the warehouse (OLAP model). This API is mainly used for fetching data to use it in a BI Tool. \n* [Documentation: Booking API](https://enviso.io/developers/booking-api/en/index-en.html)"
+            },
+            {
+                "id": "745cc070-c366-422f-a6e0-d25f31711f2a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/integrationapi",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Integration API allows integrating third-party ticketing systems with Enviso. When using the Integration API, you can manage your own events, offers, products and sales points.\n* [Documentation: Integration API](https://enviso.io/developers/integration-api/en/index-en.html)"
+            },
+            {
+                "id": "be6ccd72-93d5-4412-82e7-4bff3333a592",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/ordercenterapi",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Order Center API is used by our different Web Apps and microservice to manage Orders."
+            },
+            {
+                "id": "2d2257d4-337f-4823-ac69-3adc3eee381a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/systemcenterapi",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The System Center API is used by our different applications (primarily the Admin app) to manage Users and Roles."
+            },
+            {
+                "id": "1999ea0a-7a7d-414a-b821-9bccec69f5f0",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Authorization Center Microservice",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/authorizationgroups/\n* GET https://api.staging-enviso.io/eloxxapi/v1/authorizationgroups/{authorizationgroupid}/lockerusers\n* GET https://api.staging-enviso.io/eloxxapi/v1/authorizationgroups/{authorizationgroupid}/lockergroups\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockers/{lockid}/assignablelockerusers\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockers/{lockid}/lockerassignments\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockers/{lockid}/lockeroccupancy\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/authorizationgroups\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/lockeroccupancies\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/lockerassignments\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/assignablelockers\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenanceauthorizationgroups\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/maintenanceauthorizationgroups/\n* GET https://api.staging-enviso.io/eloxxapi/v1/maintenanceauthorizationgroups/{maintenanceauthorizationgroupid}/lockerusers\n* GET https://api.staging-enviso.io/eloxxapi/v1/maintenanceauthorizationgroups/{maintenanceauthorizationgroupid}/lockergroups\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "b24908d4-c612-4deb-bba3-9dd261894f4e",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Device Center Microservice",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "\n* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/devices/\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/firmwareversions\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/subdevices\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/mastercardset\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/mastercards/\n* POST https://api.staging-enviso.io/eloxxapi/v1/mastercards/\n* PUT https://api.staging-enviso.io/eloxxapi/v1/mastercards/{mastercardsetid}\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "76174014-3cad-4ccc-97e8-62897f887f8a",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Locker Center Microservice",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockergroups/{lockergroupid}/devices\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockergroups/{lockergroupid}/devices/{deviceid}/locks\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockergroups/{lockergroupid}/automode\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/locks/{lockid}\n* GET https://api.staging-enviso.io/eloxxapi/v1/locks/\n* GET https://api.staging-enviso.io/eloxxapi/v1/locks/search\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "4112beff-15b2-4c0d-bcf3-05459093a916",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "eLoxx: Locker User Center Microservice",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "* [Documentation: eLoxx API](https://enviso.io/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/datacarriers/\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/datacarriertypes/\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/byuid\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/image\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/image\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/search\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
+            },
+            {
+                "id": "44e5ad4f-891c-4c45-a8c9-d59951ca63fa",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "trade.staging-enviso.io",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Enviso Trade is a cloud portal to let venues and resellers connect as partners for reselling venue tickets.\n* [Documentation: Trade for Resellers App](https://enviso.io/help/en/136047-136212-trade-for-resellers.html)\n* [Documentation: Trade for Venues App](https://enviso.io/help/en/136639-136836-trade-for-venues.html)"
+            },
+            {
+                "id": "ca19d16a-78e5-4437-8291-8944d1edb733",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "enviso.io",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "75d1be01-c45f-4ffb-8002-77797712b016",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.enviso.io",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
         "id": "04aab402-3eb7-41b8-b146-b9344efc89ce",
         "handle": "captureourflag",
         "name": "Capture Our Flag",
@@ -457,6 +939,31 @@
                 "description": "Always use \"intigriti.me\" address for any web form"
             }
         ]
+    },
+    {
+        "id": "0caa10ae-b946-433c-9bdf-080a7588456d",
+        "handle": "houseofhrpublic",
+        "name": "House of HR",
+        "minBounty": {
+            "value": 25,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2500,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        }
     },
     {
         "id": "0d0034de-b53e-47b8-9a9d-41c302c49b5a",
@@ -2835,204 +3342,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "39b76f6f-51e2-4f57-9e7e-e8ef4e508c71",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://wpengine.com/contact/",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "4bedab3d-9d07-4489-b56e-60a909313f2c",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": " https://getflywheel.com/schedule-a-demo/",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "eb01f4c7-fd39-42ba-b186-f3933a681473",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*. advancedcustomfields.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "2a33486a-de01-4d6a-a276-08e15df88b8e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*. bettersearchreplace.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "836df627-6e13-4476-9ea6-fc2cb03cb8fc",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.deliciousbrains.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "e542485d-1138-475e-856d-1e2c9e2e9e90",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.studiopress.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "The studiopress.com, www.studiopress.com, and my.studiopress.com sites are public facing marketing and WordPress theme e-commerce sites. **No credentials will be provided.** Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
-            },
-            {
-                "id": "3a14fea5-bdfb-4c5d-91b7-b8f022c62de5",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.wpengine.io",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpengine.io"
-            },
-            {
-                "id": "a45a6477-169f-4e6a-9752-df43ee4145b6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.wpesvc.net",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpesvc.net"
-            },
-            {
-                "id": "175f2846-fa9e-4f79-a839-263adf6b5120",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "app.getflywheel.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "This is the primary site for researchers to register and test both the Flywheel App as well as the Flywheel Platform. We will not provide credentials or bypass verification controls (i.e, a researcher will need to either provide a valid phone number or credit card to have a live site), but a researcher may register a demo site that matches the platform's functionality without verification. **Please use your Intigriti credentials to register.** Please note that any issues regarding an individual WordPress installation on the Flywheel platform, outside of plugins owned by WP Engine/Flywheel, will be considered out of scope as we do not monitor or manage customer content. We are, however, very interested in issues that may compromise customer isolation on the platform or cause data to be leaked from either a host or an unrelated customer site."
-            },
-            {
-                "id": "f5568849-5260-4b8b-b84c-09c7ac974f14",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "getflywheel.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "This site is the landing page for Flywheel-branded services. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality or https://getflywheel.com/schedule-a-demo/. No testing should be done against these targets or any 3rd party services. Please do not contact Live Chat agents."
-            },
-            {
-                "id": "891e0947-7e46-4cc3-bc0a-3819ba604ea2",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "my.wpengine.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "The User Portal for WP Engine. Customers manage their WordPress sites, addons, and billing details through this portal. **No credentials will be provided**. Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application."
-            },
-            {
-                "id": "1060f173-c743-4b9a-b169-3ff4786cb122",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "spressforumstg.wpengine.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "the staging environment for the StudioPress community forum, built on WordPress. Researchers are welcome to register an account using their @intigriti.me email address, but should refrain from interacting with the community, making public posts, or performing automated testing which may cause disruption. Do not attempt to gain access to any user accounts not under your control."
-            },
-            {
-                "id": "19c28892-2038-4327-954d-3d02632746d5",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "studiopress.blog",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "This is a public-facing marketing site built on WordPress. Most of the content on this site consists of static blog posts."
-            },
-            {
-                "id": "96852456-df82-4794-92a6-35f1eff20cb4",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "WP Engine-developed WordPress Plugins and Themes",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "We accept any reports of vulnerabilities in plugins or themes managed or developed by WP Engine, with the exception of any application-level vulnerabilities in the Out of Scope section below.  These free versions closely mirror their paid counterparts, so any vulnerabilities discovered should be applicable to both the paid or free plugins.\n\nWe also accept reports for the following Delicious Brains plugins:\nhttps://wordpress.org/plugins/advanced-custom-fields\n"
-            },
-            {
-                "id": "cc0ac479-c294-44a3-bb27-2c6b18b1a5fb",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "wpengine.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality and wpengine.com/contact/. No testing should be done against these targets or any 3rd party services."
-            }
-        ]
+        }
     },
     {
         "id": "201f8ade-4d93-4d8b-b371-af5ed9d8b837",
@@ -3397,100 +3707,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "7095c181-e1b9-4be3-abb7-166e20577397",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1101145849",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.uphold.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "com.uphold.wallet",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
-            },
-            {
-                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "uphold.com/dashboard",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Production WebWallet Application. Do not test service degradation attacks or horizontal privilege here."
-            },
-            {
-                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api-sandbox.uphold.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production."
-            },
-            {
-                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "sandbox.uphold.com/dashboard",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
-            },
-            {
-                "id": "427d6242-1254-4741-bea7-a912bebf17b9",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.uphold.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold\n\n"
-            }
-        ]
+        }
     },
     {
         "id": "2cf03670-6a2d-4ac7-8b1e-2e0d84338204",
@@ -4886,6 +5103,228 @@
                     "value": "No Bounty"
                 },
                 "description": null
+            }
+        ]
+    },
+    {
+        "id": "36b43674-b66e-44a8-a8ea-b30a115cb2a5",
+        "handle": "coolblue",
+        "name": "Coolblue",
+        "minBounty": {
+            "value": 50,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2500,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "domains": [
+            {
+                "id": "a95e54ef-bd88-4a43-aabc-ad85894da03b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "werkenbijcoolblue.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer.\n"
+            },
+            {
+                "id": "257698b0-3e67-4da5-a51e-970877669144",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "werkenbijcoolblue.nl",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer."
+            },
+            {
+                "id": "026c7d2d-6b9b-4f26-ae2e-473015954ae9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "werkenbijcoolblue.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer."
+            },
+            {
+                "id": "e083ddbd-0dee-4cfd-89e8-2e545367d182",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "travaillerchezcoolblue.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer."
+            },
+            {
+                "id": "7b4a4ed4-168b-42f4-94b9-a69c146b481d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "careersatcoolblue.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer."
+            },
+            {
+                "id": "230cf580-f3b1-484d-b868-37d8bc17e2cc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "arbeitenbeicoolblue.de",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer."
+            },
+            {
+                "id": "aa3fc693-66c1-4e15-96e4-5363f619a338",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "1174047097",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our iOS application."
+            },
+            {
+                "id": "61b46302-a4c9-448c-8b14-16e834a17aac",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "eu.coolblue.shop",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our Android application."
+            },
+            {
+                "id": "808c72c5-119e-41fe-a9a7-f44921bcaf96",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "mobile-api.coolblue-production.eu",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The API used by our mobile applications. "
+            },
+            {
+                "id": "d1f17fbe-265e-4f41-8ce8-4a6a6f65026f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.coolblue.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain. "
+            },
+            {
+                "id": "56f14710-e82d-4873-bac0-6c1af8aa2cbe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.coolblue.de",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "\nThe scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain."
+            },
+            {
+                "id": "0850a5a0-3bcb-4001-a7fd-f9b43570cff6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.coolblue.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "\nThe scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain."
+            },
+            {
+                "id": "5c29ef69-c4b3-4808-9480-4a0a98de624d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "jaarboek.coolblue.nl",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Site designed to host our anual yearbook. Not developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer than for the primary webshop."
+            },
+            {
+                "id": "5162bf63-b74e-4c3c-9d24-0862b0171fb5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "reparatie.coolblue.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Site designed to handle repair requests. Not developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer than for the primary webshop."
+            },
+            {
+                "id": "69877026-83ac-450d-91e3-7e94d1db8e14",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "reparatie.coolblue.nl",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Site designed to handle repair requests. Not developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer than for the primary webshop."
             }
         ]
     },
@@ -6611,22 +7050,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "117e36cc-5431-4282-b10a-cafb14ca98d1",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.itprojects.talent-community.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "540e04bb-ae56-49cd-8e05-311a08ba44f7",
@@ -6663,6 +7087,332 @@
                 "tier": {
                     "id": 1,
                     "value": "No Bounty"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
+        "id": "5447fd42-afb9-4119-8ed7-65d25baee1df",
+        "handle": "embarkstudios",
+        "name": "Embark Studios",
+        "minBounty": {
+            "value": 50,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "domains": [
+            {
+                "id": "e4823e01-aed7-4041-a147-e194cde90c00",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "*.es-dis.net ",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Some assets under this wildcard is protected by Embark auth."
+            },
+            {
+                "id": "22d2dc6e-4255-47d9-a886-086c9305afc3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "auth.embark.net",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Embark auth is a critical service at Embark Studios.\n\nIt handles authentication for Embark end-users. It's a OAuth2 standard and for authentication it uses third-party login methods (steam, epic, etc). The service has both HTTP and gRPC endpoints available for the players access.\n\nAuthentication can either be done by the service triggering an oauth or similar flow for the third party login method or by handing a third party access token and swapping it for a embark access token."
+            },
+            {
+                "id": "7ecd5de5-d7b7-4f07-b7d4-e06dcaf0208b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "id.embark.games",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Pre-production frontend for authentication. Similar functionality to auth.embark.net. Critical service that uses Oauth2 and third-party login methods to authenticate users."
+            },
+            {
+                "id": "3416e5f7-60e3-457b-bdbc-0b6584205824",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "*.es-pio.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "c4c637e8-3550-4bc6-b6b9-eb128f14d9a9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "*.observability.embark.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Some assets under this wildcard is protected by [Google IAP](https://cloud.google.com/iap). "
+            },
+            {
+                "id": "43ce5d71-87d3-4ca3-918f-f2bfacddde33",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ark-release.embark.dev",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This asset is protected by [Google IAP](https://cloud.google.com/iap). "
+            },
+            {
+                "id": "0669ada6-d6e7-48a1-8750-f0ef4fec2b2a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "asset-metadata-api.embark.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This asset is protected by [Google IAP](https://cloud.google.com/iap). "
+            },
+            {
+                "id": "38e09826-cc85-464a-9114-b21ded85716e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "github.com/EmbarkStudios/presser",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Use the [Private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability) feature in Github to report your findings for [this repository](https://github.com/EmbarkStudios/presser/security/advisories). When your suggestion has been merged, copy & paste the URL of the PR in a submission in here, and we'll make sure to process it accordingly. Read more under the FAQ."
+            },
+            {
+                "id": "6472fd85-1c5c-4e26-848d-2d51d71e8458",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "grafana.embark.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This asset is protected by [Google IAP](https://cloud.google.com/iap). "
+            },
+            {
+                "id": "cf06b576-fd16-4906-a7b9-45d0e96aa154",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "has.embark.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Helix Authentication Service (used with Swarm and Perforce)"
+            },
+            {
+                "id": "636e4865-575a-4697-b719-27312517ab4a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "p4-submit-service.embark.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "5a39b71f-c7a7-4d9b-b7d1-0084ccb0750b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "perforce.embark.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "97e17460-086d-4b44-9afc-606d71b9c321",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "swarm.embark.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Helix-Swarm"
+            },
+            {
+                "id": "674e1d77-730f-4a72-9f30-51192880f546",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "user-lookup-api.embark.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This asset is protected by [Google IAP](https://cloud.google.com/iap). "
+            },
+            {
+                "id": "1cf65d1e-7137-4532-bc9d-0615feec5851",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "vpn.embark.net ",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This asset is protected by SSO."
+            },
+            {
+                "id": "a9d03509-725e-40eb-8b81-341b21c218f6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "arcraiders.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "d7765d0b-3903-4ad3-940f-7a231501c01e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ark-status.embark.dev",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "a114865b-44d4-4e58-b7e0-3a69e8ad2454",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ark.embark-studios.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "1001eee0-b381-414a-8f6b-f62901fa6027",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "embark-studios.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Note that the  **[careers](https://careers.embark-studios.com/)** page is out of scope since it's hosted by a third party."
+            },
+            {
+                "id": "cbd0085c-d75a-4d31-8d18-4a9241a4dde4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "github.com/EmbarkStudios/cargo-about",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Use the [Private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability) feature in Github to report your findings for [this repository](https://github.com/EmbarkStudios/cargo-about/security/advisories). When your suggestion has been merged, copy & paste the URL of the PR in a submission in here, and we'll make sure to process it accordingly. Read more under the FAQ."
+            },
+            {
+                "id": "97a2821e-3cd1-4377-b204-5abae24bd483",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "github.com/EmbarkStudios/cargo-deny",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Use the [Private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability) feature in Github to report your findings for [this repository](https://github.com/EmbarkStudios/cargo-deny/security/advisories). When your suggestion has been merged, copy & paste the URL of the PR in a submission in here, and we'll make sure to process it accordingly. Read more under the FAQ."
+            },
+            {
+                "id": "2cc28790-436f-4639-bcbd-6da564f756b4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "github.com/EmbarkStudios/crash-handling",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Use the [Private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability) feature in Github to report your findings for [this repository](https://github.com/EmbarkStudios/crash-handling/security/advisories). When your suggestion has been merged, copy & paste the URL of the PR in a submission in here, and we'll make sure to process it accordingly. Read more under the FAQ."
+            },
+            {
+                "id": "703403b0-f667-4ffc-b78c-a4d8eb0d4f58",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "reachthefinals.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": null
             }
@@ -7831,6 +8581,31 @@
         ]
     },
     {
+        "id": "5de2d6c2-26fa-44b2-ad27-a54beeb864ab",
+        "handle": "prato",
+        "name": "Prato",
+        "minBounty": {
+            "value": 30,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        }
+    },
+    {
         "id": "5ed6962a-7017-4d60-8805-e169b638528d",
         "handle": "sqillscorporatewebsite",
         "name": "Sqills",
@@ -8193,61 +8968,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "99f65244-9972-4278-859f-f70762c7c84a",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.napoleoncasino.be ",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "a1190d2d-f57d-4cad-98ea-78ca0a19c31e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.napoleondice.be  ",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "dea4d6b3-e48b-4f6d-abfb-7d91d48c7a53",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.napoleongames.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "bb0a964e-988c-48ad-b056-4bdb6c4518ee",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.napoleonsports.be  ",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "618bdc2f-9207-47cc-8c5c-71b734900359",
@@ -8351,6 +9072,72 @@
                     "value": "No Bounty"
                 },
                 "description": null
+            }
+        ]
+    },
+    {
+        "id": "64f80113-969e-4c55-9649-8a044487941c",
+        "handle": "pdqcomprivate",
+        "name": "PDQ.com (Private) ",
+        "minBounty": {
+            "value": 50,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "domains": [
+            {
+                "id": "ea6bb05a-43f7-4762-a98f-a11952ddfa00",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://a.simplemdm.com/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the login site for customer access to their environment/devices."
+            },
+            {
+                "id": "8f78f8ef-9dc5-489e-88d3-57583254715b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://mercury-staging.pdq.tools/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is a replica of what we use for purchasing our PDQ products."
+            },
+            {
+                "id": "62e25a3b-96b2-45b9-9672-d1c6baae8339",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://houston-staging.pdq.tools",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Software deployment service UI and API.\n\nLooking to test ability to gain unauthorized access as well as security within the beta itself. If you need access to the beta please make sure to **sign up with your intigriti.me email address** at https://mercury-staging.pdq.tools/connect/signup"
             }
         ]
     },
@@ -9440,6 +10227,31 @@
         ]
     },
     {
+        "id": "72251963-9df7-4fab-af7d-35d0305d63cc",
+        "handle": "sqills",
+        "name": "Sqills S3 Passenger",
+        "minBounty": {
+            "value": 50,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 5000,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 4,
+            "value": "Suspended"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        }
+    },
+    {
         "id": "768ad323-335b-4710-9370-6b81925c122f",
         "handle": "website",
         "name": "Kinepolis Group",
@@ -10313,6 +11125,189 @@
         ]
     },
     {
+        "id": "7999e698-363d-49e2-bd34-4ce47556d03c",
+        "handle": "water-link",
+        "name": "Water-Link",
+        "minBounty": {
+            "value": 50,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "domains": [
+            {
+                "id": "329cb378-b2ec-4d37-8b4d-4791fbdb046b",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.161.160/27",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "327d5d79-3f71-47f3-8dd3-fa53b87e58c6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://desktop.water-link.be/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our Citrix environment for remote access"
+            },
+            {
+                "id": "c3779280-43c9-4ba3-b249-57c0519b50ed",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://mail.water-link.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our Exchange mail server"
+            },
+            {
+                "id": "db15fd95-cad8-4e72-84a9-ef283075550e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://pit.water-link.be/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our intranet portal"
+            },
+            {
+                "id": "8ed5cd5f-1a2e-47df-9ff7-dc8e466d36d8",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Integration between client portal and Doccle",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "We have a portal (eloket) on which customers can consult their water usage and their invoices.\nThe portal application is **out-of-scope** because it's hosted by a 3rd party.\n\nYou can claim test credentials for the test environment for MijnWaterlink through the Claim credentials button. \n\nThe application in itself is out of scope, but this integration with Doccle is part of the scope. \n\nIn Doccle, the customers can link their water-link account to their Doccle account; by doing this, the customer will receive its invoices electronically via Doccle.\n\nThe url of the test environment is: https://registrationa3d22975c.hana.ondemand.com/aanmelden/\n\nSee the FAQ section to get credentials.\n\nWe are interested to know if these can be accessed unauthorized and /or manipulated; can someone link other accounts than his own between Doccle and Water-link? Can you gain access to accounts of other users?\n\nSee video on doccle connect from Mijn waterlink:\n[https://app.intigriti.com/downloads/waterlink/mijnwater-link-doccle-connect.mp4](https://)"
+            },
+            {
+                "id": "6d63b97c-691b-468f-ac4d-42baf3ec0c82",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "SAML request from eloket towards the smart meter platform",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "We have a portal (eloket) on which customers can consult their water usage and their invoices.\nThe portal application is **out-of-scope** because it's hosted by a 3rd party.\n\nHowever, to consult the usage registered by the digital meters, the user is redirected from within the portal to another service via a SAML-request.\n\nThe SAML-request and the consultation of the usage is **in scope** of the program.\n\nThe url of the test environment is: https://registrationa3d22975c.hana.ondemand.com/aanmelden/  **=> See the FAQ section to get credentials.**\nWe are interested to know if these can be accessed unauthorized and /or manipulated. "
+            },
+            {
+                "id": "7b0fee2a-65d6-4c5d-b399-b81025f84903",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "*.water-link.be/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "75bfc6e8-d9df-4817-a836-799345462415",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://www.water-link-jaarverslag.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Domain with the annual figures of our organisation."
+            },
+            {
+                "id": "d760a3a5-49a7-4960-b6ad-a564b6853a1e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://www.water-link-pensioenfonds.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Domain for the pensions of our employees "
+            },
+            {
+                "id": "6cf0cba0-e617-4397-b499-6767badd45bf",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://www.water-link.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "This is the general public website for our citizens."
+            },
+            {
+                "id": "6dfa0865-faa0-42a2-a073-ac951cd68370",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://www.waterstoring.be/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Here our citizens can check if their is a (un)planned interruption of the watersupply."
+            },
+            {
+                "id": "ce6b0fb3-45b8-4cf3-83c9-6d02d1b28473",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://aquawardsoperateacc.water-link.be",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "CURRENTLY NOT ELIGIBLE FOR BOUNTIES BECAUSE A NEW VERSION IS UNDER DEVELOPMENT\n\nThis is the test environment of the web application, used by the public services to find information about the location of water distribution pipes. \n\nThis information is also consulted in case of emergency interventions, that's why the live environment is out-of-scope.\n\nOther URL's: \ngisacc(*).water-link.be"
+            }
+        ]
+    },
+    {
         "id": "806f54d7-a85d-40bd-82cc-f09c1a500f28",
         "handle": "dpgmedia",
         "name": "DPG Media",
@@ -10506,35 +11501,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "c1998423-274b-4a48-b9a4-9cfc36c89f3f",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": " aweb.suivo.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "1f891d47-d3c5-4f30-8ec3-49f3877b1dc6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "asupport.suivo.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "8bf1f259-cac9-4114-9b84-3b950897b1ec",
@@ -10694,6 +11661,31 @@
         ]
     },
     {
+        "id": "8eb61c74-d34c-4503-aad3-2766ef600550",
+        "handle": "rombit",
+        "name": "Rombit",
+        "minBounty": {
+            "value": 100,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        }
+    },
+    {
         "id": "8f6c92dc-1300-4f11-8284-29b6ed743378",
         "handle": "speakapresponsibledisclosure",
         "name": "Speakap Responsible Disclosure",
@@ -10716,67 +11708,65 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
+        }
+    },
+    {
+        "id": "910b3614-bdf4-4044-a585-6e1ddcc7f034",
+        "handle": "colruytgroupidcheck",
+        "name": "Colruyt Group",
+        "minBounty": {
+            "value": 50,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3000,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        }
+    },
+    {
+        "id": "921a459d-f835-4bf2-ade6-b4a0c80472e6",
+        "handle": "dummy",
+        "name": "Test Program",
+        "minBounty": {
+            "value": 0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
         },
         "domains": [
             {
-                "id": "4a319594-1d73-4929-8765-ed18df3f9063",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "nl.speakap.speakap",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "8eab7f32-4cca-4043-8522-48a894336c6f",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "https://apps.apple.com/nl/app/speakap/id713925262",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "d0cc7c03-571b-4f62-b76f-4deaf96fe9da",
+                "id": "f1a7337f-2e73-4047-9bf7-2019e3182e99",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "*.speakap.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "944bdb62-db82-4612-9cd3-95447c138829",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.speakap.io",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "6b8291a2-a8e2-4d4a-b88f-02942e9f0e8d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "Any related Speakap domain",
+                "endpoint": "www.intigriti.com",
                 "tier": {
                     "id": 1,
                     "value": "No Bounty"
@@ -11239,139 +12229,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "986e9f13-a9ac-4b28-b749-377b0911b821",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "shop.vtm.be",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "7b3238aa-5a1a-47db-acb0-9c4286229487",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "* vtmgo.be/service",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "3b59fe1a-3196-4265-b143-4b07f6c5007c",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "* vtmgo.be/inloggen",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "6305aaa6-de07-4adf-8711-af43ef7700c8",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "* vtmgo.be/login",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "2073efab-ea35-4fe4-8369-301696c6d448",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "* vtmgo.be/registreren",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "83711adb-6213-4648-9c9a-443044d215bc",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "myaccount.vtm.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "054360bb-adcb-4f51-80e4-b210c8f4b90c",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "vtm.be/vtmgo",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "8322484c-5b31-407e-a896-11f7081508d7",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "vtmgo.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "excluding\n* vtmgo.be/service\n* vtmgo.be/inloggen\n* vtmgo.be/login\n* vtmgo.be/registreren"
-            },
-            {
-                "id": "914e3a1d-f735-4f8f-9320-98a4252b932d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.vtm.be",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Out of scope: shop.vtm.be"
-            },
-            {
-                "id": "c5b5b5a1-eafc-403f-bcad-6ad34a5745a1",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.vtmgo.be",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "9a3f850e-4387-4434-98c7-dba2827b727b",
@@ -11396,22 +12254,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "b603caec-e768-40e5-8781-b01a51089559",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "All domains of Revolut",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "9c9b9003-6134-4962-8fe3-8ecc5ee80c5a",
@@ -11612,6 +12455,163 @@
         ]
     },
     {
+        "id": "a0e7388e-1ae4-497b-8e57-5be085fc1d10",
+        "handle": "regionaledagbladenmediahuisnederland",
+        "name": "Mediahuis Nederland: Telegraaf & regionale dagbladen",
+        "minBounty": {
+            "value": 0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 1000,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "domains": [
+            {
+                "id": "ba4e14c5-7375-420e-9042-7285f5d5d297",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mijn.gooieneemlander.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "68116991-231f-4d39-88f9-f945a1dd8681",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mijn.haarlemsdagblad.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "07fbd859-aa29-4977-9599-3c7e99684b0e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mijn.leidschdagblad.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "23009a00-0d6f-4b0f-a88b-fa63731ee370",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mijn.noordhollandsdagblad.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "0b5897aa-12fe-48af-93cd-d72d5d967092",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mijn.telegraaf.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "e1a79aaa-f18f-4e91-b864-df58c081742d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.gooieneemlander.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "including the login page"
+            },
+            {
+                "id": "2bf976a1-8847-436a-8fb9-c192ea56ce3d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.haarlemsdagblad.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "including the login page"
+            },
+            {
+                "id": "11c92505-fd49-4430-9d03-675675747e02",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.leidschdagblad.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "including the login page"
+            },
+            {
+                "id": "e5a76363-de14-4b2f-9ae4-f983acca914d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.noordhollandsdagblad.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "including the login page"
+            },
+            {
+                "id": "aaf53c54-a9fb-4e27-bc51-87bcb9dd2901",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.telegraaf.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "including login page"
+            }
+        ]
+    },
+    {
         "id": "a5033edb-65a5-4e9f-8e4d-af548e42e647",
         "handle": "vrt",
         "name": "VRT responsible disclosure",
@@ -11634,464 +12634,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "fdcce71c-9d50-40ca-a2f5-1be44c22826f",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.canvas.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "2a1e0869-d811-40cb-adad-53e7cc160b9d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.dewarmsteweek.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Out of scope: shop.dewarmsteweek.be - no testing allowed"
-            },
-            {
-                "id": "235b02cf-9a2d-4fbb-8052-d80845f9a5b7",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.ketnet.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Out of scope: shop.ketnet.be - no testing allowed"
-            },
-            {
-                "id": "fe82914d-cd90-4264-baaf-8e77a2956be4",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.klara.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "d26b6445-572e-46ca-9fdd-7160173aad8a",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.mnm.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Out of scope: shop.mnm.be - no testing allowed"
-            },
-            {
-                "id": "3bec408f-7f3c-4a1e-b0ef-a363eb5cc824",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.radio1.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "cfe3cb52-eda7-4af1-9155-9a5579474302",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.radio2.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "e3fe1754-697a-4a82-82c9-0d4e8a354ea4",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.radioplus.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "06290519-4971-4919-b8ad-0b19c0d57c94",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.sporza.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "75196a6c-1c79-46a4-82ff-937eac63cab1",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.stubru.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Out of scope: shop.stubru.be - no testing allowed"
-            },
-            {
-                "id": "0abe1d08-ba7d-4820-96b0-d16e71dbc213",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.vrt.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Out of scope: shop.vrt.be - no testing allowed\nOut of scope: innovatie.vrt.be"
-            },
-            {
-                "id": "ba304833-6c67-4d5b-8ebf-1c1b1698852e",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1001982587",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Ketnet Junior"
-            },
-            {
-                "id": "8884225e-699b-4862-aa5a-b48dbc40cd38",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1001983790",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Ketnet"
-            },
-            {
-                "id": "ab60e5a5-01fc-4601-a2f8-607451adc2df",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1041369236",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Wall of Moments"
-            },
-            {
-                "id": "ffd8f377-4d53-4c34-b4ab-184b8a89f49a",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1116046348",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Radio 1"
-            },
-            {
-                "id": "0404d64a-89c8-4c82-99cb-70ba39cf1f7d",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1116049623",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Radio 2"
-            },
-            {
-                "id": "d545eeca-5209-4576-ba0a-d626554ba142",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1116054448",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "MNM"
-            },
-            {
-                "id": "b5fa53ce-bebd-4743-abe5-4e687d840311",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1116054765",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Klara"
-            },
-            {
-                "id": "4d279296-7f41-4026-8673-94f0e38301bf",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1337574835",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "VRT NU"
-            },
-            {
-                "id": "5353bfbc-dfce-4e6b-a460-91f44bf1cb45",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "388159251",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Studio Brussel"
-            },
-            {
-                "id": "cce104e6-0751-4072-9ab2-fcf0f2a21d3b",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "878339906",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Sporza"
-            },
-            {
-                "id": "5205d2da-eb43-4820-8a15-91a2bf1082ad",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "927943978",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Kaatje van Ketnet"
-            },
-            {
-                "id": "3c6e820c-ad7a-4e24-8ec5-b2e034f4a018",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "952769219",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "VRT NWS"
-            },
-            {
-                "id": "4a8a8ac2-2211-4275-986e-c1a258126003",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "959958329",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Sporza Voetbal"
-            },
-            {
-                "id": "77aadba6-a1c2-480c-9d8b-a4952ef06ecf",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.vrt.ketnet.ketnet",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Ketnet"
-            },
-            {
-                "id": "c8b57c86-50cc-4a4f-9a80-e85d13bec807",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.vrt.ketnet.ketnetjr",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Ketnet Junior"
-            },
-            {
-                "id": "20dd875d-d55b-4164-a2e2-e3031b0366f2",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.vrt.mobile.android.deredactie",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "VRT NWS"
-            },
-            {
-                "id": "79897b3e-d2f8-4761-8f3e-0f0becaca86d",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.vrt.mobile.android.sporza.voetbal",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Sporza voetbal"
-            },
-            {
-                "id": "c75bea92-c901-40d6-b554-76c2d70095d7",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.vrt.radioplus.klara",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Klara"
-            },
-            {
-                "id": "2a30c71b-3300-4a59-b419-05f4d04ac8f9",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.vrt.radioplus.mnm",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "MNM"
-            },
-            {
-                "id": "91b87e2c-3c23-47c8-8612-bb4ea1fec496",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.vrt.radioplus.radio1",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Radio 1"
-            },
-            {
-                "id": "e8116f30-ff46-49e7-96e1-e408911eb5c1",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.vrt.radioplus.radio2",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Radio 2"
-            },
-            {
-                "id": "a0a3d500-c12a-466f-b0f4-81c77ee16cfc",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.vrt.radioplus.stubru",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Studio Brussel"
-            },
-            {
-                "id": "e7f856f7-4057-45a3-881c-1c488e93b162",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.vrt.vrtnu",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "VRT NU"
-            },
-            {
-                "id": "590b2255-4a63-4c4a-8cde-10f03f6dbc33",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "com.fwc2014.vrt.and",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Sporza"
-            }
-        ]
+        }
     },
     {
         "id": "a5158346-5add-4916-bd31-d8a5fe1e805f",
@@ -12169,22 +12712,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "6b6224aa-5f9b-45b3-91ad-91130b8694a7",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://www.kuleuven.be/sapredir/huisvesting",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "!! You can create an account with [your @intigriti.me address](https://go.intigriti.com/intigritime) and name 'Intigriti Test' (as explained in the FAQ), but the **registration process** itself is **not in scope** for the bug bounty programme !!\n\nThe scope includes all assets that are reasonably related to the housing application app (except for authentication like login or registration process)."
-            }
-        ]
+        }
     },
     {
         "id": "acb142c1-ffeb-41c3-a9e7-1624054f42e4",
@@ -14080,6 +14608,31 @@
         ]
     },
     {
+        "id": "bd22f48d-633e-4b26-bf71-e4778d41b247",
+        "handle": "datacamp",
+        "name": "DataCamp",
+        "minBounty": {
+            "value": 25,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 1500,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 4,
+            "value": "Suspended"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        }
+    },
+    {
         "id": "c5a9bbd6-2139-4ec9-bdcc-8e2a5082fd7e",
         "handle": "arkanenetwork",
         "name": "Venly",
@@ -14102,178 +14655,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "00c2e4e9-781e-4c4b-a820-9bb0850ec046",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "login.venly.io",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "9c5d77ce-413e-4399-be69-21bca31fcd9e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api-wallet.venly.io",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "5ff698e3-3153-4971-a78e-87eeb013410d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.arkane.network",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "7e859270-4f84-48a0-ac62-9a59105a6bf9",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.venly.market",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "20c163a2-634e-48a1-ac3f-3248c9ecc1e7",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "connect.arkane.network ",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "658928f0-4fc6-4387-af22-9af3438c5587",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "connect.venly.io",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "a0b22c44-deba-4b1d-8a61-27567fe2752f",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "events.venly.market",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "380b8126-4676-4f3f-b4ad-bf28bd9a6f66",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "login.arkane.network",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "e7f3614d-1235-40bd-8dba-d02164334205",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "venly.market",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "3ca857f0-6815-4681-baf4-79c501196170",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "wallet.venly.io",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "41004cd5-7fd7-4472-b704-8631419df3a8",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api-staging.venly.market",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null
-            },
-            {
-                "id": "b49fcbb6-d32c-466b-a04c-3e5c867cd2fa",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "events-staging.venly.market",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null
-            },
-            {
-                "id": "bb775728-4f49-410e-b540-ac71bad27adf",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "staging.venly.market",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "cefc1013-9927-4e4a-b306-e5d57f06d34a",
@@ -14298,100 +14680,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "689115d9-7ce0-424c-9f9e-b2c2c01a3ea6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.vznkul.be",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "197acc1f-61cb-4fb5-baa6-cfb8726cc150",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hub.vznkul.be/* ",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "663bf1b7-d382-4fbb-a569-da8276497dc5",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hub.vznkul.be/services/interhub/InterHubService",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "0a45e32a-7223-4dd8-bfa5-c8d6abf95203",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hub.vznkul.be/services/intrahub/IntraHubService",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "2fbc8bc0-682b-4437-800a-a2a2092b9665",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hubacc.vznkul.be/*",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "08bb15e0-ac3a-47b9-a1fd-2db0ce1644ea",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hubacc.vznkul.be/services/acceptance/interhub/InterHubService",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "bbed15aa-d787-480e-8e16-653b58047401",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hubacc.vznkul.be/services/acceptance/intrahub/IntraHubService",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "d0ff1339-f0c4-4733-a648-1b06b79125e6",
@@ -14416,74 +14705,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "ab9e02a7-042c-4376-a5e1-556a777fe79f",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.rhinternal.net",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
-                "id": "2fbe5b42-6382-495b-a645-54472c42b044",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.robinhood.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
-                "id": "16b66a6c-4c43-4b81-843b-c5c350462670",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.robinhood.net",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "robinhood.net contains internal Robinhood services. You shouldn\u2019t be able to log into anything here."
-            },
-            {
-                "id": "e1e32120-86d5-47f0-89e6-531714b7fedd",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "938003185",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
-                "id": "02617fb4-53c2-482c-b07b-2f8f0c7952ad",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "com.robinhood.android",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "d14eedce-607d-4233-995d-30dbc7de8f23",
@@ -14900,6 +15122,345 @@
                     "value": "Tier 3"
                 },
                 "description": "YADIFA is EURid's authoritative name server software which can be downloaded from the yadifa.eu website."
+            }
+        ]
+    },
+    {
+        "id": "d74a9b6a-0356-46e7-8346-2b9de8acc90e",
+        "handle": "shopapothekesites",
+        "name": "Redcare Pharmacy Sites",
+        "minBounty": {
+            "value": 50,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 4000,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "domains": [
+            {
+                "id": "b015f634-9fb7-4778-9210-5000ead8fe63",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "*.sa-tech.de",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "b008a8ef-9873-4226-ab17-cd5a6f919df0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.shop-apotheke.at",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "e3c78f19-6bf9-4729-96d1-de9baf64d5cb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.shop-apotheke.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "1ca5b1ed-ba8b-4cae-bf5f-4a4feee403e0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "now.shop-apotheke.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "1fb5bf68-fece-418b-a8e5-6e0b3e2e6243",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "payment.shop-apotheke.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "a62b4f8b-82ff-468d-9017-f6bbc5a3736c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "services-acc22.shop-apotheke.com/subse/backoffice/index",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "8a653307-9498-4c3e-b9f6-63d41cb883d7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "services.shop-apotheke.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "45d9a15d-8716-4e35-be66-a11f96350ecb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "shared-services-prod.redteclab.de",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "22898ca9-d8f5-42a4-9d0d-0c735cb0a3c2",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "shop-apotheke/id1104967519",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "1d18da3e-7085-46a3-a7f0-297f006575fe",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "shop.shop_apotheke.com.shopapotheke ",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "a279061e-d6f4-43e7-a5cf-1233e9661d50",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "sso.shop-apotheke.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "41a9f19b-a220-419c-8a7c-18cbcb4b5fd0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "studio.shop-apotheke.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "46ce21ad-bc99-4343-ad47-a26a66bf8b2f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.shop-apotheke.at",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "ed3427e5-c4c8-46dc-a33c-2d8fd8cc1288",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.shop-apotheke.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "86e94525-d757-4583-a30a-1a3964936e2a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.redcare.it",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "a1a2f929-81e6-4f5f-84ec-bd72bc5f656f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.shop-pharmacie.fr",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "f6c362b0-5b4d-448d-8a6d-500c9362f3b8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "as.shop-apotheke.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "47a89b3f-3510-4d47-a259-14a7b287287a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cdn.shop-apotheke.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "15a63a97-2156-4dd2-9cd8-e3a67b16fe02",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "dbt.shop-apotheke.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "7288c624-000d-48d6-a3a3-7e5786b682d6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "info.shop-apotheke.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "d437593c-0a7a-4edc-8530-a414d17110d4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "info.shop-apotheke.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "6fe257c0-5549-40d8-83ff-9ca2558e2dd2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "is.shop-apotheke.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "1e6ddaa2-e6ed-468f-b0f1-d3296946b1f2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "personal.shop-apotheke.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "053cebaa-37ff-4035-91a7-91d636ee2695",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "vt.shop-apotheke.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
             }
         ]
     },
@@ -15603,100 +16164,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "fb8b3fdf-ed50-400e-82ee-dfb91b94bc06",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "crisp.ninja",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Code review tool behind IP-filter"
-            },
-            {
-                "id": "ca116291-41b3-4428-a559-5077274c7d5c",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1416625210",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "React-Native built iOS app"
-            },
-            {
-                "id": "be50d7c7-5a48-4c88-a0ab-2205c149828a",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "com.freshfoodventures.crisp",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "React-Native built Android app"
-            },
-            {
-                "id": "164b21ed-5f80-414d-b03e-ed0b544da239",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "for-hackers.crisp.kitchen",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Back-office management login page.\n(for-hackers.crisp.kitchen is a CNAME to crisp.kitchen; it allows us to classify traffic)"
-            },
-            {
-                "id": "7d56f48d-3df2-43e9-81de-603084e5c8bf",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "for-hackers.crisp.nl",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Main frontpage & landing pages.\n(for-hackers.crisp.nl is a CNAME to crisp.nl; it allows us to classify traffic)"
-            },
-            {
-                "id": "e0f067bd-08d7-41ba-b1d7-c6ff0bd3e0e2",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "for-hackers.crispapp.nl",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Backend host to which apps connect.\n(for-hackers.crispapp.nl is a CNAME to crispapp.nl; it allows us to classify traffic)"
-            },
-            {
-                "id": "1b93a2f6-45cf-4b76-a1ce-66195ef33ee8",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://for-hackers.crispapp.nl/web-rn/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Hidden web build of the app. Client-side issues that do not exist in the native apps are capped to low severity."
-            }
-        ]
+        }
     },
     {
         "id": "e1845bab-be93-43d9-b040-462f886235ef",
@@ -16088,61 +16556,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "0c3afd3d-8908-4d78-9ab7-aa87e1ef729c",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "elect.tweakers.net",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "64651c48-532b-414b-8e81-ba0a234bed43",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.tweakblogs.net",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "cfc0d03d-cba2-4131-a9f8-72b152254fc6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.tweakers.net",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Out of scope: elect.tweakers.net"
-            },
-            {
-                "id": "5f17da1f-84f1-40ba-845a-1fe733d766a6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "*.tweakimg.net",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "e6a4bd31-e2bf-402d-ad0c-7492bffc3f6c",
@@ -16677,35 +17091,7 @@
         "type": {
             "id": 1,
             "value": "Bug Bounty"
-        },
-        "domains": [
-            {
-                "id": "3fffb516-5509-49a9-a3f1-06745dec39a0",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": " idp-contact.nexuzhealth.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "2e3cdd39-9b4a-40d2-928f-7cd3254eaa04",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "media.nexuzhealth.be/patient/ ",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "ed04d1ef-1aa3-49dd-92f1-06f50f9756b9",
