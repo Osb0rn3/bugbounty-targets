@@ -2375,8 +2375,8 @@
         "archived": false,
         "reports_count": 47,
         "bounty_reward_min": 50,
-        "bounty_reward_max": 3000,
-        "scopes_count": 1,
+        "bounty_reward_max": 3600,
+        "scopes_count": 4,
         "pentest_campaign_status": null,
         "thumbnail": {
             "name": "2048c721-7498-4aa1-aca0-778d0f6b0495",
@@ -2405,6 +2405,24 @@
                 "scope": "https://*.app.spacelift.dev",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "User Management",
+                "scope_type": "application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "MFA",
+                "scope_type": "application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "Multi VCS",
+                "scope_type": "application",
+                "asset_value": "HIGH",
                 "report_count": null
             }
         ]
