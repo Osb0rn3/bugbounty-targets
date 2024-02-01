@@ -3692,7 +3692,7 @@
         "reports_count": 188,
         "bounty_reward_min": 100,
         "bounty_reward_max": 4000,
-        "scopes_count": 7,
+        "scopes_count": 9,
         "pentest_campaign_status": null,
         "thumbnail": {
             "name": "ba26dbf0-87e4-4e11-8b8d-3b1c4c40b0cc",
@@ -3718,8 +3718,26 @@
         },
         "scopes": [
             {
+                "scope": "https://www.tchap.gouv.fr",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://matrix.agent.tchap.gouv.fr",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
                 "scope": "https://matrix.agent.*.tchap.gouv.fr",
                 "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/tchapgouv",
+                "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
@@ -3736,7 +3754,7 @@
                 "report_count": null
             },
             {
-                "scope": "https://www.tchap.gouv.fr",
+                "scope": "https://www.beta.tchap.gouv.fr",
                 "scope_type": "web-application",
                 "asset_value": "CRITICAL",
                 "report_count": null
@@ -3750,12 +3768,6 @@
             {
                 "scope": "https://matrix.e.tchap.gouv.fr",
                 "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.beta.tchap.gouv.fr",
-                "scope_type": "web-application",
                 "asset_value": "CRITICAL",
                 "report_count": null
             }
