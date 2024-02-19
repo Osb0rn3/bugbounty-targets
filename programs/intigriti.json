@@ -6487,6 +6487,110 @@
         },
         "domains": [
             {
+                "id": "fd00799f-f8b7-4a27-9fc2-d044788a0cf8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "*.ada.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "All subdomains (one or multilevel) of ada.com, except the ones interacting directly in Tier 1 & 2 are considered as Tier 3."
+            },
+            {
+                "id": "5af860c1-0239-4224-86ac-63064953956e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "*.ada.health",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "All subdomains (one or multilevel) of ada.health, except the ones interacting directly in Tier 1 & 2 assets, are considered as Tier 3."
+            },
+            {
+                "id": "2a008de8-f326-4555-8240-a5065ea34aaa",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "*.adahealth.ca",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "All subdomains (one or multilevel) of adahealth.ca, except the ones interacting directly in Tier 1 & 2 assets, are considered as Tier 3."
+            },
+            {
+                "id": "afebcceb-63b0-4cd4-926a-d2b2563797c6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "*.httpproxy.data.ada.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "51e7cf6e-3027-4198-98c1-c42f75bb7219",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "monitoring.*.enterprise.ada.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "9aca7e5b-66bf-4f6f-a4dc-0abb4345c8ea",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "monitoring.*.gcp.ada.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "2224700f-8714-4d05-ad16-24904e25ac2f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "monitoring.*.enterprise.adahahealth.ca",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "311d927c-0a9f-4934-927b-0366a6b68ef2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "monitoring.*.gcp.adahealth.ca",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
                 "id": "407b1fd6-80c2-43d0-b13e-e37ac7139eb6",
                 "type": {
                     "id": 3,
@@ -6520,10 +6624,23 @@
                 },
                 "endpoint": "https://api.mobile.ada.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": "Backend for frontend API endpoint for mobile application activities. This endpoint is protected by a Web Application Firewall. "
+            },
+            {
+                "id": "c52f8e91-0a11-4b70-b7b8-9e3523bfe6ba",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://id.ada.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Ada-ID is an identity management service for end user that interacts with Ada's applications. It provides authentication and authorization. Ada-ID serves as web application and API services. Frontend is valid for password reset and account verification process. This endpoint is protected by a Web Application Firewall. "
             },
             {
                 "id": "62d68128-ac96-4563-9547-7e20a5eba5e1",
@@ -6531,10 +6648,10 @@
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://care-navigation-admin-bff.int.eu.enterprise.ada.com",
+                "endpoint": "https://care-navigation-admin-bff.eu.enterprise.ada.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Backend for frontend (bff) service for Care Navigation Admin interface. BFF is a variant of the API Gateway pattern which provides an additional layer between microservices."
             },
@@ -6544,10 +6661,10 @@
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://care-navigation-admin-fe.int.eu.enterprise.ada.com",
+                "endpoint": "https://care-navigation-admin-fe.eu.enterprise.ada.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Care Navigation Admin Frontend is a visual tool for managing Connect data including:\n- Connect Care Option mappings,\n- Connect/Assess Feedback service,\n- Connect Sign-up service,\n- Admin Users,\n- Connect Client Configurations\n\nTest credentials will not be provided. Try to find broken access controls on this endpoint. "
             },
@@ -6557,10 +6674,10 @@
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://care-navigation-bff.int.eu.enterprise.ada.com",
+                "endpoint": "https://care-navigation-bff.eu.enterprise.ada.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Backend for frontend (bff) service for Care Navigation Frontend service. BFF is a variant of the API Gateway pattern which provides an additional layer between microservices."
             },
@@ -6570,10 +6687,10 @@
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://care-navigation-fe.int.eu.enterprise.ada.com",
+                "endpoint": "https://care-navigation-fe.eu.enterprise.ada.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Care Navigation Frontend service represents Ada Partner care navigation option list available after assessment test is accomplished. Service includes:\n\n- Configurable care category list\n- Customer location search\n- Customer feedback service (can be injected between the views)\n- Detailed Event tracking\n- Configurable and location-based Partner Care service list\n- Geolocation, Feedback & Signup are linked with care-navigation-bff via an API and Service/Categories are linked with care-navigation-admin-bff via an API."
             },
@@ -6585,8 +6702,8 @@
                 },
                 "endpoint": "https://demo-prod-assessment-bff.ada-prod-eu.prod.gcp.ada.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Backend for frontend (bff) service for demo assessment web interface. BFF is a variant of the API Gateway pattern which provides an additional layer between microservices. \n\nPlease see the all endpoints in the Open API documentation (demo_assessment_bff_openapi.json) file"
             },
@@ -6598,8 +6715,8 @@
                 },
                 "endpoint": "https://demo-prod-hcp-report-bff.ada-prod-eu.prod.gcp.ada.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Handover is a solution for sharing (handing over) the results of the health assessment with the user\u2019s health care provider (HCP) or a health professional. This service has the responsibility to process the data from the hcp-report-backend for the use of handover frontend."
             },
@@ -6611,8 +6728,8 @@
                 },
                 "endpoint": "https://demo.enterprise.ada.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Our web application helps millions to manage their health. This is the frontend assessment application demo domain which represents the general flow we provide with our enterprise partners. This medical AI symptom checker is trained by real doctors. This endpoint provides both guess and authenticated flow which can be combined with our SSO service.\n\nThis UI is calling the BFF domain which is also in the scope."
             },
@@ -6624,8 +6741,8 @@
                 },
                 "endpoint": "https://demo.handover.enterprise.ada.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Handover is a solution for sharing (handing over) the results of the health assessment with the user\u2019s health care provider (HCP) or a health professional. This service has the responsibility to render the HCP report data received from the HCP report bff."
             },
@@ -6637,23 +6754,10 @@
                 },
                 "endpoint": "https://demo.sso.enterprise.ada.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Smart-auth is Ada\u2019s identification management and Single Sign On (SSO).\nThis service is based on [SMART on FHIR](https://hl7.org/fhir/smart-app-launch/index.html) implementation and provides a standard way to integrate with other EHR (Electronic Health Record) servers. It is an optional module meaning that not all flows are authentication required. "
-            },
-            {
-                "id": "c52f8e91-0a11-4b70-b7b8-9e3523bfe6ba",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://id.ada.com",
-                "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Ada-ID is an identity management service for end user that interacts with Ada's applications. It provides authentication and authorization. Ada-ID serves as web application and API services. Frontend is valid for password reset and account verification process. This endpoint is protected by a Web Application Firewall. "
+                "description": "Smart-auth is Ada\u2019s identification management and Single Sign On (SSO).\nThis service is based on [SMART on FHIR](https://hl7.org/fhir/smart-app-launch/index.html) implementation and provides a standard way to integrate with other EHR (Electronic Health Record) servers. It is an optional module meaning that not all flows are authentication required. "
             }
         ]
     },
