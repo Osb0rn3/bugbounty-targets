@@ -18,12 +18,12 @@ class BugcrowdAPI(API):
         Yields:
             dict: A dictionary representing the response JSON for each page.
         """
-        params = {'page[]': 1}
+        params = {'page': 1}
         while True:
             response_json = await self.get(endpoint, params=params)
             yield response_json
-            if response_json['meta']['totalPages'] > params['page[]'] - 1:
-                params['page[]'] += 1
+            if response_json['paginationMeta']['totalCount'] > params['page'] * 24:
+                params['page'] += 1
             else:
                 break
 

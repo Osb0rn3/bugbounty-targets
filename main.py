@@ -73,19 +73,19 @@ class PublicPrograms:
         Returns:
             List[dict]: A list of dictionaries representing public programs.
         """
-        endpoint = f'{self.api.base_url}/programs.json'
+        endpoint = f'{self.api.base_url}/engagements.json'
         async for response_json in self.api.paginate(endpoint):
-            if 'programs' in response_json:
-                self.results.extend(response_json['programs'])
+            if 'engagements' in response_json:
+                self.results.extend(response_json['engagements'])
             else:
                 self.logger.error("Error: unexpected response format.")
                 return []
 
         self.results = [
-            scope for scope in self.results if scope['invited_status'] == 'open']
+            scope for scope in self.results if scope['accessStatus'] == 'open']
 
         for scope in self.results:
-            scope_handle = scope.get('code')
+            scope_handle = scope.get('briefUrl').replace("/", "")
 
             async for response_json in self.api.program_info(scope_handle):
                 if 'target_groups' in response_json:
@@ -164,32 +164,32 @@ class PublicPrograms:
 
 async def main():
     # Retrieve API credentials from environment variables
-    hackerone_username = os.environ.get('HACKERONE_USERNAME')
-    hackerone_token = os.environ.get('HACKERONE_TOKEN')
-    intigriti_token = os.environ.get('INTIGRITI_TOKEN')
+    # hackerone_username = os.environ.get('HACKERONE_USERNAME')
+    # hackerone_token = os.environ.get('HACKERONE_TOKEN')
+    # intigriti_token = os.environ.get('INTIGRITI_TOKEN')
 
     # Validate and exit if credentials are missing
-    if not all([hackerone_username, hackerone_token, intigriti_token]):
-        raise SystemExit('Please provide the required API credentials.')
+    # if not all([hackerone_username, hackerone_token, intigriti_token]):
+    #     raise SystemExit('Please provide the required API credentials.')
 
     # Initialize API instances
-    hackerone_api = HackerOneAPI(username=hackerone_username, token=hackerone_token)
-    intigriti_api = IntigritiAPI(intigriti_token)
+    # hackerone_api = HackerOneAPI(username=hackerone_username, token=hackerone_token)
+    # intigriti_api = IntigritiAPI(intigriti_token)
     bugcrowd_api  = BugcrowdAPI()
-    yeswehack_api = YesWeHackAPI()
+    # yeswehack_api = YesWeHackAPI()
 
     # Initialize PublicPrograms instances for each platform
-    public_programs_hackerone = PublicPrograms(api=hackerone_api)
-    public_programs_intigriti = PublicPrograms(api=intigriti_api)
+    # public_programs_hackerone = PublicPrograms(api=hackerone_api)
+    # public_programs_intigriti = PublicPrograms(api=intigriti_api)
     public_programs_bugcrowd  = PublicPrograms(api=bugcrowd_api)
-    public_programs_yeswehack = PublicPrograms(api=yeswehack_api)
+    # public_programs_yeswehack = PublicPrograms(api=yeswehack_api)
 
     # Gather program information from multiple platforms concurrently
     await asyncio.gather(
-        public_programs_hackerone.get_hackerone_programs(),
-        public_programs_intigriti.get_intigriti_programs(),
+        # public_programs_hackerone.get_hackerone_programs(),
+        # public_programs_intigriti.get_intigriti_programs(),
         public_programs_bugcrowd.get_bugcrowd_programs(),
-        public_programs_yeswehack.get_yeswehack_programs()
+        # public_programs_yeswehack.get_yeswehack_programs()
     )
 
     logging.info("Programs crawled successfully.")
