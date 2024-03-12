@@ -43,7 +43,7 @@ class API:
             await self._wait()
             return response.json()
         except httpx.HTTPError as e:
-            if e.response.status_code == 403:
+            if hasattr(e, 'response') and e.response.status_code == 403:
                 return e.response.json()
             else:
                 self.logger.error(f"Error: {e}, Endpoint: {endpoint}")
