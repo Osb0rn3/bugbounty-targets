@@ -70616,730 +70616,6 @@
         ]
     },
     {
-        "name": "Cisco Meraki",
-        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
-        "briefUrl": "/ciscomeraki",
-        "backgroundColor": "#67B346",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Electronics",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ciscomeraki/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "8a7db38d-058b-4f74-8195-2ab6556154b2",
-                "name": "Tier 1 Targets - Web",
-                "description_html": "<p>By way of clarification, the following is additional information on some of the domains that are in scope, and details around how they are used:</p>\n\n<ul>\n<li>*.ikarem.io: This domain is used for Meraki internal services, and as such, falls under the higher reward range.</li>\n<li>*.meraki.com: This domain is for the Cisco Meraki Dashboard and its integrated services.</li>\n<li>*.network-auth.com: This domain hosts user-created content for Dashboard-configured splash pages.</li>\n</ul>\n\n<p>Further public documentation can be found at <a href=\"https://documentation.meraki.com\" rel=\"nofollow noreferrer\" target=\"_blank\">https://documentation.meraki.com</a>.</p>\n\n<p>Additionally, documentation for the Cisco Meraki Dashboard API can be found at <a href=\"https://create.meraki.io/api-docs/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://create.meraki.io/api-docs/</a>.</p>\n\n<p>It's further worth noting that:</p>\n\n<ul>\n<li><p>Most products run a light web server which offers the ability to locally configure the uplink of a device, as well as to see some very basic device status information. However, the Dashboard is the ultimate administrative interface for devices, as well as the primary source for device monitoring.</p></li>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 6000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/ciscomeraki/target_groups/e5e3cb8d-0a79-4a8c-b4aa-ec0ccfe3ad46/targets",
-                "targets": [
-                    {
-                        "id": "0f839982-0861-4250-b591-a846fbcf6946",
-                        "name": "*.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "5a702681-f59c-463c-b266-f9e22a1e1d8a",
-                                    "name": "Scala"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fabd324e-99b0-4dfe-a41e-674bb873e497",
-                        "name": "*.ikarem.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "dcf2b596-b5ba-480c-973a-925c14f4d47c",
-                        "name": "*.network-auth.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e3a0e001-6bce-4c42-88d8-b5312a365ca9",
-                        "name": "Cisco Meraki Systems Manager",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "041d5363-86a6-40b1-9a02-c20f6ab39c05",
-                                    "name": "Linux"
-                                },
-                                {
-                                    "id": "c5df6ad0-33b4-40ac-b6dd-8d4038997d40",
-                                    "name": "macOS"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1406abd3-9544-49a3-940b-5ea5e60ae46c",
-                        "name": "Cisco Meraki Virtual Security Appliances",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c08ed768-ff34-43aa-8908-431f3ef3f04b",
-                        "name": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "51fd4b6b-310d-41fe-9356-3257836401ad",
-                "name": "Tier 1 Targets - Hardware",
-                "description_html": "<h2>Eligibility for Meraki Hardware</h2>\n\n<p>In an effort to increase testing accessibility on Meraki's physical products, Meraki manages a merit-based program to ship devices to eligible program participants. You can find the details of this program in the <a href=\"https://bugcrowd.com/ciscomeraki/updates/0f2836c0-f0a5-48a5-90ae-fe7ac95e1179?preview=3ef7ea26f4c018c87f170bfb2a9557a4\" rel=\"nofollow noreferrer\" target=\"_blank\">Announcement</a> section of the Bounty Brief.</p>\n\n<h2>Hardware Notes</h2>\n\n<ul>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 6000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/ciscomeraki/target_groups/c9f166e7-1d83-4e86-b418-ff830789cbef/targets",
-                "targets": [
-                    {
-                        "id": "6a53e0d8-fabd-4d8e-90ae-5f8f031fffaa",
-                        "name": "Cisco Meraki MX Security Appliances",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bf53b0cc-dba7-42ac-991c-7df46e21cfde",
-                        "name": "Cisco Meraki MS Switches",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fc1ee31c-cecb-4dbc-89be-abc8d5e9e850",
-                        "name": "Cisco Meraki MR Access Points",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "30a3a3b7-4214-4212-9926-4e1c61111ff3",
-                        "name": "Cisco Meraki MV Security Cameras",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "d7febc58-1d4d-4c69-9777-5d473211ddb4",
-                                    "name": "Surveillance and Security"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "916e332e-ea87-4698-80d0-89cedae64749",
-                        "name": "Cisco Meraki Z Series (Z1,Z3(C))",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "3709afc6-19a0-48d0-ab03-ee6f8ca81a8c",
-                "name": "Tier 2 Targets",
-                "description_html": "<ul>\n<li>meraki.cisco.com: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n<li>apps.meraki.io: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 1500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 1000.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/ciscomeraki/target_groups/2248d679-594f-4831-8cf8-cdd187f19fa1/targets",
-                "targets": [
-                    {
-                        "id": "9549469c-045d-46c3-9239-310e24b384ec",
-                        "name": "meraki.cisco.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://meraki.cisco.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
-                                    "name": "Adobe Experience Manager"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fc8f00a8-75bc-4954-b112-3ef4943df478",
-                        "name": "apps.meraki.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "20f7635e-223b-4f68-b5e5-3fb68e9f9c40",
-                "name": "Out of Scope",
-                "description_html": "<p>This program is designed to review and address security issues related to Cisco Meraki's products and applications. Please note that anything that is not explicitly listed as in-scope is considered out-of-scope. If you believe you have found a vulnerability that is outside of this program scope but related to Cisco, please refer to the below resources:</p>\n\n<ul>\n<li>If you need to report a vulnerability in a Cisco product, please contact psirt@cisco.com.</li>\n<li>If you need to contact Cisco regarding a security incident, please contact incidentresponse@cisco.com.</li>\n<li>Cisco Systems Operational Infrastructure findings can be reported here: https://bugcrowd.com/ciscosecurity</li>\n<li>Further information can be found here: https://www.cisco.com/security</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 3,
-                "targets_url": "/ciscomeraki/target_groups/fb426ec7-8476-4b49-94f0-8cc671d108ad/targets",
-                "targets": [
-                    {
-                        "id": "f809ebaa-4904-49f5-90bf-8a9544645be6",
-                        "name": "*.cisco.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "472faebf-68a5-449d-aa1a-be21389e0705",
-                        "name": "meraki.cisco.com/form/contact",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b5b85e0a-150e-4cb3-a0b9-21afa4f14eaf",
-                        "name": "merakipartners.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "95cefefe-6ffd-434f-ad93-abb93b244387",
-                        "name": "smhelp.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e616cd2e-fd15-4a6e-a1d4-46f172036f97",
-                        "name": "documentation.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "36ba9c13-6f02-4d16-8189-b76a155af88d",
-                        "name": "community.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d20a1369-8359-4f5c-9fde-a7a16465518c",
-                        "name": "community-staging.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "721fe88b-657d-44ca-a571-fbe772e6b38d",
-                        "name": "developers.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c8146d4e-98b4-44b1-9fe2-caecfe7f5d14",
-                        "name": "Customer API Keys",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ccffaf8e-70c6-4d57-9f37-9a7757a2c69d",
-                        "name": "Meraki MC Phones",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Majid Al Futtaim Retail",
         "tagline": "Carrefour UAE",
         "briefUrl": "/carrefour",
@@ -72111,6 +71387,730 @@
                             "tags": []
                         },
                         "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cisco Meraki",
+        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
+        "briefUrl": "/ciscomeraki",
+        "backgroundColor": "#67B346",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Electronics",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ciscomeraki/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "8a7db38d-058b-4f74-8195-2ab6556154b2",
+                "name": "Tier 1 Targets - Web",
+                "description_html": "<p>By way of clarification, the following is additional information on some of the domains that are in scope, and details around how they are used:</p>\n\n<ul>\n<li>*.ikarem.io: This domain is used for Meraki internal services, and as such, falls under the higher reward range.</li>\n<li>*.meraki.com: This domain is for the Cisco Meraki Dashboard and its integrated services.</li>\n<li>*.network-auth.com: This domain hosts user-created content for Dashboard-configured splash pages.</li>\n</ul>\n\n<p>Further public documentation can be found at <a href=\"https://documentation.meraki.com\" rel=\"nofollow noreferrer\" target=\"_blank\">https://documentation.meraki.com</a>.</p>\n\n<p>Additionally, documentation for the Cisco Meraki Dashboard API can be found at <a href=\"https://create.meraki.io/api-docs/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://create.meraki.io/api-docs/</a>.</p>\n\n<p>It's further worth noting that:</p>\n\n<ul>\n<li><p>Most products run a light web server which offers the ability to locally configure the uplink of a device, as well as to see some very basic device status information. However, the Dashboard is the ultimate administrative interface for devices, as well as the primary source for device monitoring.</p></li>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 6000.0,
+                        "max": 10000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 6000.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/ciscomeraki/target_groups/e5e3cb8d-0a79-4a8c-b4aa-ec0ccfe3ad46/targets",
+                "targets": [
+                    {
+                        "id": "0f839982-0861-4250-b591-a846fbcf6946",
+                        "name": "*.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "5a702681-f59c-463c-b266-f9e22a1e1d8a",
+                                    "name": "Scala"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "fabd324e-99b0-4dfe-a41e-674bb873e497",
+                        "name": "*.ikarem.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "dcf2b596-b5ba-480c-973a-925c14f4d47c",
+                        "name": "*.network-auth.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e3a0e001-6bce-4c42-88d8-b5312a365ca9",
+                        "name": "Cisco Meraki Systems Manager",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "041d5363-86a6-40b1-9a02-c20f6ab39c05",
+                                    "name": "Linux"
+                                },
+                                {
+                                    "id": "c5df6ad0-33b4-40ac-b6dd-8d4038997d40",
+                                    "name": "macOS"
+                                },
+                                {
+                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
+                                    "name": "Windows"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
+                                    "name": "Desktop Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1406abd3-9544-49a3-940b-5ea5e60ae46c",
+                        "name": "Cisco Meraki Virtual Security Appliances",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c08ed768-ff34-43aa-8908-431f3ef3f04b",
+                        "name": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "51fd4b6b-310d-41fe-9356-3257836401ad",
+                "name": "Tier 1 Targets - Hardware",
+                "description_html": "<h2>Eligibility for Meraki Hardware</h2>\n\n<p>In an effort to increase testing accessibility on Meraki's physical products, Meraki manages a merit-based program to ship devices to eligible program participants. You can find the details of this program in the <a href=\"https://bugcrowd.com/ciscomeraki/updates/0f2836c0-f0a5-48a5-90ae-fe7ac95e1179?preview=3ef7ea26f4c018c87f170bfb2a9557a4\" rel=\"nofollow noreferrer\" target=\"_blank\">Announcement</a> section of the Bounty Brief.</p>\n\n<h2>Hardware Notes</h2>\n\n<ul>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 6000.0,
+                        "max": 10000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 6000.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/ciscomeraki/target_groups/c9f166e7-1d83-4e86-b418-ff830789cbef/targets",
+                "targets": [
+                    {
+                        "id": "6a53e0d8-fabd-4d8e-90ae-5f8f031fffaa",
+                        "name": "Cisco Meraki MX Security Appliances",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bf53b0cc-dba7-42ac-991c-7df46e21cfde",
+                        "name": "Cisco Meraki MS Switches",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "fc1ee31c-cecb-4dbc-89be-abc8d5e9e850",
+                        "name": "Cisco Meraki MR Access Points",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "30a3a3b7-4214-4212-9926-4e1c61111ff3",
+                        "name": "Cisco Meraki MV Security Cameras",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "d7febc58-1d4d-4c69-9777-5d473211ddb4",
+                                    "name": "Surveillance and Security"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "916e332e-ea87-4698-80d0-89cedae64749",
+                        "name": "Cisco Meraki Z Series (Z1,Z3(C))",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "3709afc6-19a0-48d0-ab03-ee6f8ca81a8c",
+                "name": "Tier 2 Targets",
+                "description_html": "<ul>\n<li>meraki.cisco.com: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n<li>apps.meraki.io: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 1500.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 1500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 1000.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 2,
+                "targets_url": "/ciscomeraki/target_groups/2248d679-594f-4831-8cf8-cdd187f19fa1/targets",
+                "targets": [
+                    {
+                        "id": "9549469c-045d-46c3-9239-310e24b384ec",
+                        "name": "meraki.cisco.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://meraki.cisco.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
+                                    "name": "Adobe Experience Manager"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "fc8f00a8-75bc-4954-b112-3ef4943df478",
+                        "name": "apps.meraki.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "20f7635e-223b-4f68-b5e5-3fb68e9f9c40",
+                "name": "Out of Scope",
+                "description_html": "<p>This program is designed to review and address security issues related to Cisco Meraki's products and applications. Please note that anything that is not explicitly listed as in-scope is considered out-of-scope. If you believe you have found a vulnerability that is outside of this program scope but related to Cisco, please refer to the below resources:</p>\n\n<ul>\n<li>If you need to report a vulnerability in a Cisco product, please contact psirt@cisco.com.</li>\n<li>If you need to contact Cisco regarding a security incident, please contact incidentresponse@cisco.com.</li>\n<li>Cisco Systems Operational Infrastructure findings can be reported here: https://bugcrowd.com/ciscosecurity</li>\n<li>Further information can be found here: https://www.cisco.com/security</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 3,
+                "targets_url": "/ciscomeraki/target_groups/fb426ec7-8476-4b49-94f0-8cc671d108ad/targets",
+                "targets": [
+                    {
+                        "id": "f809ebaa-4904-49f5-90bf-8a9544645be6",
+                        "name": "*.cisco.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "472faebf-68a5-449d-aa1a-be21389e0705",
+                        "name": "meraki.cisco.com/form/contact",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b5b85e0a-150e-4cb3-a0b9-21afa4f14eaf",
+                        "name": "merakipartners.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "95cefefe-6ffd-434f-ad93-abb93b244387",
+                        "name": "smhelp.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e616cd2e-fd15-4a6e-a1d4-46f172036f97",
+                        "name": "documentation.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "36ba9c13-6f02-4d16-8189-b76a155af88d",
+                        "name": "community.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d20a1369-8359-4f5c-9fde-a7a16465518c",
+                        "name": "community-staging.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "721fe88b-657d-44ca-a571-fbe772e6b38d",
+                        "name": "developers.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c8146d4e-98b4-44b1-9fe2-caecfe7f5d14",
+                        "name": "Customer API Keys",
+                        "description": null,
+                        "category": "api",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ccffaf8e-70c6-4d57-9f37-9a7757a2c69d",
+                        "name": "Meraki MC Phones",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 9,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -72891,6 +72891,442 @@
         ]
     },
     {
+        "name": "Etsy",
+        "tagline": "Shop for anything from creative people everywhere",
+        "briefUrl": "/etsy",
+        "backgroundColor": "#e37e40",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c678/7530/6cf61d93/9d2b440e8154a57845f9a1337f91d025_etsy_gimp.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $10,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/etsy/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2bff045a-873d-4b4b-9bf4-1eb31d4f2bff",
+                "name": "In-Scope Targets",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 5000.0,
+                        "max": 10000.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 5000.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 800.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/etsy/target_groups/6b3e07e0-166e-41b2-a9fd-397b65f2d91a/targets",
+                "targets": [
+                    {
+                        "id": "de8e97af-55fd-4ca1-af15-80a6d891e743",
+                        "name": "Any publicly facing host owned by Etsy, including the below:",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "97a2e5eb-75b5-4bfe-a941-8866f143d764",
+                        "name": "www.etsy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.etsy.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bd8673a3-7589-4d06-9b4c-5170a5270344",
+                        "name": "Etsy Mobile Application (Android)",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://www.etsy.com/mobile",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9d66b2f6-ae26-4c2d-ac64-e4f106f2acc0",
+                        "name": "Etsy Mobile Application (iPhone)",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://www.etsy.com/mobile",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "073723b0-4b1e-4e73-a68d-d4e40deac937",
+                        "name": "Etsy API (see documentation below)",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://www.etsy.com/developers/documentation/getting_started/api_basics",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "abe3b582-8b71-42cb-a2bb-81112a9d8c74",
+                        "name": "etsypayments.com",
+                        "description": null,
+                        "category": "other",
+                        "uri": "https://etsypayments.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "1227663c-38b8-47b0-b44b-7dd59ba801de",
+                "name": "In Scope ",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 150.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/etsy/target_groups/f341ae9a-ef78-4c04-8c24-652d7abeb544/targets",
+                "targets": [
+                    {
+                        "id": "033fd02d-3dba-4f3c-95b9-88e73ce40cfa",
+                        "name": "http://blog.etsy.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://blog.etsy.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f3535f58-1888-4529-991f-40a1d216679f",
+                        "name": "http://community.etsy.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://community.etsy.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f203917b-6d74-48e2-a296-eee4a69ec67f",
+                        "name": "http://careers.etsy.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://careers.etsy.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "92a18d66-d9c8-4b51-b243-7df5a9838727",
+                        "name": "help.etsy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://help.etsy.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "2cf0ea8c-7b44-4197-ab01-e3ec97d401ba",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 2,
+                "targets_url": "/etsy/target_groups/0e460b88-399d-4723-9bf4-b3ea17aec465/targets",
+                "targets": [
+                    {
+                        "id": "b9e79ae3-0ae8-47fd-a4f9-5743208bd360",
+                        "name": "icht.etsysecure.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "6a7444bc-2fc6-414c-9cd8-71858ecb03c4",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 650.0,
+                        "max": 1000.0
+                    },
+                    "2": {
+                        "min": 450.0,
+                        "max": 650.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 450.0
+                    },
+                    "4": {
+                        "min": 50.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 3,
+                "targets_url": "/etsy/target_groups/4569bf1e-d7a1-4bd0-84e8-9eb004a5ae4d/targets",
+                "targets": [
+                    {
+                        "id": "a375dfa2-c9ca-4efd-b36e-fe589a834a64",
+                        "name": "*.etsy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "LastPass",
         "tagline": "LastPass is a password manager and form filler which locally encrypts your sensitive data with a key that is not sent to LastPass",
         "briefUrl": "/lastpass",
@@ -73583,442 +74019,6 @@
                                     "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
                                     "name": "Ruby on Rails"
                                 },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Etsy",
-        "tagline": "Shop for anything from creative people everywhere",
-        "briefUrl": "/etsy",
-        "backgroundColor": "#e37e40",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c678/7530/6cf61d93/9d2b440e8154a57845f9a1337f91d025_etsy_gimp.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $10,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/etsy/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2bff045a-873d-4b4b-9bf4-1eb31d4f2bff",
-                "name": "In-Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 5000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 800.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/etsy/target_groups/6b3e07e0-166e-41b2-a9fd-397b65f2d91a/targets",
-                "targets": [
-                    {
-                        "id": "de8e97af-55fd-4ca1-af15-80a6d891e743",
-                        "name": "Any publicly facing host owned by Etsy, including the below:",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "97a2e5eb-75b5-4bfe-a941-8866f143d764",
-                        "name": "www.etsy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.etsy.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bd8673a3-7589-4d06-9b4c-5170a5270344",
-                        "name": "Etsy Mobile Application (Android)",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://www.etsy.com/mobile",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9d66b2f6-ae26-4c2d-ac64-e4f106f2acc0",
-                        "name": "Etsy Mobile Application (iPhone)",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://www.etsy.com/mobile",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "073723b0-4b1e-4e73-a68d-d4e40deac937",
-                        "name": "Etsy API (see documentation below)",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://www.etsy.com/developers/documentation/getting_started/api_basics",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "abe3b582-8b71-42cb-a2bb-81112a9d8c74",
-                        "name": "etsypayments.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://etsypayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "1227663c-38b8-47b0-b44b-7dd59ba801de",
-                "name": "In Scope ",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 150.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/etsy/target_groups/f341ae9a-ef78-4c04-8c24-652d7abeb544/targets",
-                "targets": [
-                    {
-                        "id": "033fd02d-3dba-4f3c-95b9-88e73ce40cfa",
-                        "name": "http://blog.etsy.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://blog.etsy.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f3535f58-1888-4529-991f-40a1d216679f",
-                        "name": "http://community.etsy.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://community.etsy.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f203917b-6d74-48e2-a296-eee4a69ec67f",
-                        "name": "http://careers.etsy.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://careers.etsy.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "92a18d66-d9c8-4b51-b243-7df5a9838727",
-                        "name": "help.etsy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://help.etsy.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "2cf0ea8c-7b44-4197-ab01-e3ec97d401ba",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 2,
-                "targets_url": "/etsy/target_groups/0e460b88-399d-4723-9bf4-b3ea17aec465/targets",
-                "targets": [
-                    {
-                        "id": "b9e79ae3-0ae8-47fd-a4f9-5743208bd360",
-                        "name": "icht.etsysecure.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "6a7444bc-2fc6-414c-9cd8-71858ecb03c4",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 650.0,
-                        "max": 1000.0
-                    },
-                    "2": {
-                        "min": 450.0,
-                        "max": 650.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 450.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 3,
-                "targets_url": "/etsy/target_groups/4569bf1e-d7a1-4bd0-84e8-9eb004a5ae4d/targets",
-                "targets": [
-                    {
-                        "id": "a375dfa2-c9ca-4efd-b36e-fe589a834a64",
-                        "name": "*.etsy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
                                 {
                                     "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
                                     "name": "Website Testing"
