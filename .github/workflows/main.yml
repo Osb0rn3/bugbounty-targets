@@ -40,13 +40,8 @@ jobs:
         run: |
           git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
 
-      - name: Check for changes
-        run: git status --porcelain
-        id: git_status
-
       - name: Commit and push changes
-        if: steps.git_status.outputs.stdout != ''
         run: |
           git add .
-          git commit -m "Update programs to the latest version"
+          git commit -m "Update programs to the latest version" || true
           git push
