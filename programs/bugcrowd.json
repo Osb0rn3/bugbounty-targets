@@ -72455,6 +72455,302 @@
         ]
     },
     {
+        "name": "FoxyCart",
+        "tagline": "A superior ecommerce experience",
+        "briefUrl": "/foxycart",
+        "backgroundColor": "#633f6f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
+        "rewardSummary": {
+            "summary": "$25 - $600",
+            "hint": null,
+            "minReward": "$25",
+            "maxReward": "$600",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/foxycart/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "33f74173-d2ab-4f8e-bf37-0a06e1241a81",
+                "name": "Foxy Application",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 300.0,
+                        "max": 600.0
+                    },
+                    "2": {
+                        "min": 100.0,
+                        "max": 250.0
+                    },
+                    "3": {
+                        "min": 75.0,
+                        "max": 100.0
+                    },
+                    "4": {
+                        "min": 25.0,
+                        "max": 50.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/foxycart/target_groups/3202b7e2-5dcf-4b36-a24f-3052193654e0/targets",
+                "targets": [
+                    {
+                        "id": "a153ac4a-c912-4dcd-b348-251d91ce4e37",
+                        "name": "api.foxycart.com",
+                        "description": null,
+                        "category": "other",
+                        "uri": "https://api.foxycart.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "3ff3fda3-da69-45cc-9640-b57d3228af94",
+                                    "name": "OAuth"
+                                },
+                                {
+                                    "id": "59cdb1e5-8e65-4040-b1eb-c323dfee5a53",
+                                    "name": "Authentication Systems"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6b690fc1-7720-4011-9b0f-927eb271ad32",
+                        "name": "admin.foxycart.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://admin.foxycart.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1bf3970a-395b-4456-b261-d04dab482af2",
+                                    "name": "eCommerce"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "59cdb1e5-8e65-4040-b1eb-c323dfee5a53",
+                                    "name": "Authentication Systems"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9d2263e0-b96e-427e-8f29-e550bee1f251",
+                        "name": "foxycart-demo.foxycart.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://foxycart-demo.foxycart.com/cart",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "1bf3970a-395b-4456-b261-d04dab482af2",
+                                    "name": "eCommerce"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c35d7f60-c88a-4407-ae2b-bfd4fc725eb0",
+                        "name": "*-bugcrowd.foxycart.com (read below for details)",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ed66deb9-c21d-4987-bf68-3ec00e985e96",
+                        "name": "admin.foxy.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://admin.foxy.io/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "3ff3fda3-da69-45cc-9640-b57d3228af94",
+                                    "name": "OAuth"
+                                },
+                                {
+                                    "id": "59cdb1e5-8e65-4040-b1eb-c323dfee5a53",
+                                    "name": "Authentication Systems"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6b1bdf66-f366-4c38-aaa9-6f831a310ecb",
+                        "name": "auth.foxy.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://auth.foxy.io/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "3ff3fda3-da69-45cc-9640-b57d3228af94",
+                                    "name": "OAuth"
+                                },
+                                {
+                                    "id": "59cdb1e5-8e65-4040-b1eb-c323dfee5a53",
+                                    "name": "Authentication Systems"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Skroutz Public Managed Bug Bounty",
+        "tagline": "Skroutz",
+        "briefUrl": "/skroutz",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $4,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/skroutz/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "0922b3fe-7cf5-4d1d-bb95-65658502f222",
+                "name": "Skroutz Public Application",
+                "description_html": "<p>You are testing directly on Skroutz's production environment. Behavior that compromises the stability and integrity of the site is strictly forbidden &amp; out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please cease all further testing and report it immediately.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4100.0,
+                        "max": 4500.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1750.0
+                    },
+                    "3": {
+                        "min": 600.0,
+                        "max": 850.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/skroutz/target_groups/b7b2af83-8a4d-43c0-b626-501a3c28aa85/targets",
+                "targets": [
+                    {
+                        "id": "3c05937b-57d9-4224-9336-45ee3d96c41e",
+                        "name": "https://www.skroutz.gr/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.skroutz.gr/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Etsy",
         "tagline": "Shop for anything from creative people everywhere",
         "briefUrl": "/etsy",
@@ -72876,302 +73172,6 @@
                         "ipAddress": "",
                         "target": {
                             "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "FoxyCart",
-        "tagline": "A superior ecommerce experience",
-        "briefUrl": "/foxycart",
-        "backgroundColor": "#633f6f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
-        "rewardSummary": {
-            "summary": "$25 - $600",
-            "hint": null,
-            "minReward": "$25",
-            "maxReward": "$600",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/foxycart/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "33f74173-d2ab-4f8e-bf37-0a06e1241a81",
-                "name": "Foxy Application",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 300.0,
-                        "max": 600.0
-                    },
-                    "2": {
-                        "min": 100.0,
-                        "max": 250.0
-                    },
-                    "3": {
-                        "min": 75.0,
-                        "max": 100.0
-                    },
-                    "4": {
-                        "min": 25.0,
-                        "max": 50.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/foxycart/target_groups/3202b7e2-5dcf-4b36-a24f-3052193654e0/targets",
-                "targets": [
-                    {
-                        "id": "a153ac4a-c912-4dcd-b348-251d91ce4e37",
-                        "name": "api.foxycart.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://api.foxycart.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "3ff3fda3-da69-45cc-9640-b57d3228af94",
-                                    "name": "OAuth"
-                                },
-                                {
-                                    "id": "59cdb1e5-8e65-4040-b1eb-c323dfee5a53",
-                                    "name": "Authentication Systems"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6b690fc1-7720-4011-9b0f-927eb271ad32",
-                        "name": "admin.foxycart.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://admin.foxycart.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1bf3970a-395b-4456-b261-d04dab482af2",
-                                    "name": "eCommerce"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "59cdb1e5-8e65-4040-b1eb-c323dfee5a53",
-                                    "name": "Authentication Systems"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9d2263e0-b96e-427e-8f29-e550bee1f251",
-                        "name": "foxycart-demo.foxycart.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://foxycart-demo.foxycart.com/cart",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "1bf3970a-395b-4456-b261-d04dab482af2",
-                                    "name": "eCommerce"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c35d7f60-c88a-4407-ae2b-bfd4fc725eb0",
-                        "name": "*-bugcrowd.foxycart.com (read below for details)",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ed66deb9-c21d-4987-bf68-3ec00e985e96",
-                        "name": "admin.foxy.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://admin.foxy.io/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "3ff3fda3-da69-45cc-9640-b57d3228af94",
-                                    "name": "OAuth"
-                                },
-                                {
-                                    "id": "59cdb1e5-8e65-4040-b1eb-c323dfee5a53",
-                                    "name": "Authentication Systems"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6b1bdf66-f366-4c38-aaa9-6f831a310ecb",
-                        "name": "auth.foxy.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://auth.foxy.io/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "3ff3fda3-da69-45cc-9640-b57d3228af94",
-                                    "name": "OAuth"
-                                },
-                                {
-                                    "id": "59cdb1e5-8e65-4040-b1eb-c323dfee5a53",
-                                    "name": "Authentication Systems"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Skroutz Public Managed Bug Bounty",
-        "tagline": "Skroutz",
-        "briefUrl": "/skroutz",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $4,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/skroutz/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0922b3fe-7cf5-4d1d-bb95-65658502f222",
-                "name": "Skroutz Public Application",
-                "description_html": "<p>You are testing directly on Skroutz's production environment. Behavior that compromises the stability and integrity of the site is strictly forbidden &amp; out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please cease all further testing and report it immediately.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4100.0,
-                        "max": 4500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1750.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/skroutz/target_groups/b7b2af83-8a4d-43c0-b626-501a3c28aa85/targets",
-                "targets": [
-                    {
-                        "id": "3c05937b-57d9-4224-9336-45ee3d96c41e",
-                        "name": "https://www.skroutz.gr/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.skroutz.gr/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
                                 {
                                     "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
                                     "name": "Website Testing"
