@@ -9130,6 +9130,154 @@
         }
     },
     {
+        "id": "61e0e37c-19cc-4abe-af51-108a78bee995",
+        "handle": "bmwgroup",
+        "name": "BMW Group",
+        "following": false,
+        "minBounty": {
+            "value": 150.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 6000.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/bmw/bmwgroup/detail"
+        },
+        "domains": [
+            {
+                "id": "d2361909-b539-4737-a380-22b89f044498",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.bmw-motorrad.de",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "427439ec-eff2-4f9b-a97c-ff616dc542b6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.bmw.de",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "b7b577ad-08b7-4ef6-8b14-784db0e30bc7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.mini.de",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "6017b375-e976-487f-a320-f0e399526b0b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "configure.bmw.de",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "010310cb-a624-419a-8ac6-f03cc6d5ea44",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "configure.mini.de",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "c5d68955-8ff5-4a28-b713-c55d17098e17",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "konfigurator.bmw-motorrad.de",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "3203eff7-4ab2-4c4c-84f7-897c188e9772",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Other BMW Domains",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Please select this asset to report vulnerabilities affecting BMW assets but not matching any of the assets stated above.\n\n**Important:** Note our policy regarding \"No Bounty Domains\" and a potentially deviating application of the **safe harbor clause**.\nWe may award a small bonus for these assets, but only valid high, critical and exceptional severity findings - this is however, at the discretion of the BMW Group team."
+            },
+            {
+                "id": "7dafe998-1d05-4034-b83f-f887107690c1",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Automotive Security",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Please submit valid findings regarding Automotive assets in our public [BMW Group - Automotive program](https://app.intigriti.com/programs/bmw/bmwgroup-automotive)."
+            },
+            {
+                "id": "4da26440-5eb8-48d1-9287-1fff3c998a83",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Domains from independent BMW Dealers, Resellers or Fanclubs",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "These domains belong to legally independent entities. We can only inform these entities. However, we have no influence on the mitigation process of the vulnerabilities in these assets."
+            }
+        ]
+    },
+    {
         "id": "64f80113-969e-4c55-9649-8a044487941c",
         "handle": "pdqcomprivate",
         "name": "PDQ.com (Private) ",
@@ -11319,6 +11467,89 @@
                     "value": "No Bounty"
                 },
                 "description": "CURRENTLY NOT ELIGIBLE FOR BOUNTIES BECAUSE A NEW VERSION IS UNDER DEVELOPMENT\n\nThis is the test environment of the web application, used by the public services to find information about the location of water distribution pipes. \n\nThis information is also consulted in case of emergency interventions, that's why the live environment is out-of-scope.\n\nOther URL's: \ngisacc(*).water-link.be"
+            }
+        ]
+    },
+    {
+        "id": "7ecdd3d1-a794-4ceb-9518-f9a016dc26a6",
+        "handle": "bmwgroup-automotive",
+        "name": "BMW Group Automotive",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 15000.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/bmw/bmwgroup-automotive/detail"
+        },
+        "domains": [
+            {
+                "id": "a8d010bd-7762-45de-886f-b3ccc78a377b",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "de.bmw.connected.mobile20.row",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "4e2b3361-fcfb-445a-b7b6-7f7f61c97f92",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "1519034860",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "5c72dcda-0ac4-4ee3-9f43-50a2478abf47",
+                "type": {
+                    "id": 5,
+                    "value": "Device"
+                },
+                "endpoint": "Functions dealing with vehicle access and immobilizer",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "1a81e592-c92e-4b56-bcef-8ca8eb2fff7f",
+                "type": {
+                    "id": 5,
+                    "value": "Device"
+                },
+                "endpoint": "Remaining functions",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
             }
         ]
     },
