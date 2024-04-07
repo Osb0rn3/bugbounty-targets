@@ -134,7 +134,7 @@ class PublicPrograms:
         Returns:
             List[dict]: A list of dictionaries representing public programs.
         """
-        endpoint = f'{self.api.base_url}/programs'
+        endpoint = f'{self.api.base_url}/programs?limit=500'
 
         async for response_json in self.api.paginate(endpoint):
             if 'records' in response_json:
