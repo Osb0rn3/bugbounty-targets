@@ -15094,7 +15094,7 @@
         "name": "Allegro",
         "following": false,
         "minBounty": {
-            "value": 100.0,
+            "value": 200.0,
             "currency": "EUR"
         },
         "maxBounty": {
@@ -15118,17 +15118,17 @@
         },
         "domains": [
             {
-                "id": "3e223dd9-019d-4936-b4c2-d0cbd1ecf453",
+                "id": "6eb48b86-9f83-42ca-a6f5-6f0a1cfaad65",
                 "type": {
-                    "id": 6,
-                    "value": "Other"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "Any production website owned by Allegro not listed in Domains",
+                "endpoint": "*.allegro.cz.allegrosandbox.pl",
                 "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
-                "description": null
+                "description": "This is the sandbox version that replicates the Czech version of Allegro. The main difference between .cz and .pl is the possibility to buy products using guest account."
             },
             {
                 "id": "c87765cd-eac3-4781-8fe5-36a7da090395",
@@ -15138,36 +15138,10 @@
                 },
                 "endpoint": "*.allegro.pl.allegrosandbox.pl",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "This is our sandbox environment that replicates production. For more information please visit [developer website](https://developer.allegro.pl/tutorials/basic-information-VL6YelvVKTn#test-environment)."
-            },
-            {
-                "id": "6eb48b86-9f83-42ca-a6f5-6f0a1cfaad65",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.allegro.cz.allegrosandbox.pl",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "This is the sandbox version that replicates the Czech version of Allegro. The main difference between .cz and .pl is the possibility to buy products using guest account."
-            },
-            {
-                "id": "9eda59e4-9445-4cf5-a26d-6d01492a738e",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.allegro.pl",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
             },
             {
                 "id": "22f79e36-fd49-4b71-bc85-d88ed629091b",
@@ -15183,12 +15157,38 @@
                 "description": null
             },
             {
+                "id": "9eda59e4-9445-4cf5-a26d-6d01492a738e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.allegro.pl",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
                 "id": "8f26bcc2-0e65-4ef7-89ea-f9f52ddf28c1",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
                 "endpoint": "*.allegrogroup.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "3e223dd9-019d-4936-b4c2-d0cbd1ecf453",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Any production website owned by Allegro not listed in Domains",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
