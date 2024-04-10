@@ -29,7 +29,7 @@ curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/progra
   
 ### Get all wildcard in_scope subs 
 ```bash
-curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/hackerone.json" | jq -r '.[].relationships.structured_scopes.data[].attributes | select(.eligible_for_bounty==true) | .asset_identifier' | tr "," "\n" | sed 's/http[s]*:\/\/\|www.//g' | sed 's/\s//g' | grep "^*" | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
+curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/hackerone.json" | jq -r '.[] | select(.attributes.submission_state=="open" and .attributes.offers_bounties==true) | .relationships.structured_scopes.data[].attributes | select(.eligible_for_bounty==true) | .asset_identifier' | tr "," "\n" | sed 's/http[s]*:\/\/\|www.//g' | sed 's/\s//g' | grep "^*" | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | unew -p
 ```
   
 ### Get all wildcard in_scope subs using orgname
