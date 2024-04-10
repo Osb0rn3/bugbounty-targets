@@ -24,7 +24,7 @@ curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/progra
 ### Get subs using orgname
 ![image](https://user-images.githubusercontent.com/72344025/234682490-3c9b4f9d-aad0-4dce-9277-5f7b7b87a0b5.png)
 ```bash
-curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/hackerone.json" | jq -r '.[] | select(.attributes.name=="HackerOne") | .relationships.structured_scopes.data[].attributes.asset_identifier' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
+curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/hackerone.json" | jq -r '.[] | select(.attributes.submission_state=="paused" and .attributes.name=="Algolia") | .relationships.structured_scopes.data[].attributes.asset_identifier' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | sed 's/http[s]*:\/\/\|www.//g' | unew -p
 ```
   
 ### Get all wildcard in_scope subs 
