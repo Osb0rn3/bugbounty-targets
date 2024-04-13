@@ -56,7 +56,7 @@ curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/progra
 ### Get in_scope subs using program_url
 ![image](https://user-images.githubusercontent.com/72344025/234680651-5ce28fa8-71e6-414f-81d0-7f5f03a33d15.png)
 ```bash
-curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | select(.program_url=="/dell-product") | .target_groups[] | select(.in_scope==true) | .targets[].name' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | anew
+curl -s "https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json" | jq -r '.[] | select(.briefUrl=="/ciscomeraki") | .target_groups[] | select(.in_scope==true) | .targets[] | "\(.name)\n\(.uri)"' | egrep -v "null" | tr "," "\n" | sed 's/http[s]*:\/\/\|www.//g' | grep -Eo '[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*\.[a-zA-Z]{2,}' | sed 's/\s//g' | unew -p
 ```
 
 ### Get all wildcard in_scope subs
