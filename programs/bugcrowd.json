@@ -61312,489 +61312,6 @@
         ]
     },
     {
-        "name": "Caffeine",
-        "tagline": "Caffeine is a social broadcasting platform for gaming, entertainment, and the creative arts.",
-        "briefUrl": "/engagements/caffeine",
-        "backgroundColor": "#0000ff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65d9/e1a6/2e828c1b/3cfe7f72d541d0a8bb443038b7c3a181_Caffeine1024.png",
-        "rewardSummary": {
-            "summary": "$150 - $5,000",
-            "hint": "Up to $6,000",
-            "minReward": "$150",
-            "maxReward": "$5,000",
-            "compensationSummary": "Up to $6,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Entertainment",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/caffeine/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "922ba23f-68c3-42cb-bf5b-a8f44479bca3",
-                "name": "In Scope Targets ",
-                "description_html": "<h1>Latest Features and Focus Areas</h1>\n\n<p><code>Updated 01/22</code>`</p>\n\n<h4><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/84/kw/props\" rel=\"nofollow noreferrer\" target=\"_blank\">Updates to Props and Reactions</a></h4>\n\n<ul>\n<li>This covers all reactions (Messages and Props) sent to <code>LIVE</code> broadcasts</li>\n<li>The backend for this service was completely re-written and client interactions were updated as well.</li>\n<li>Focus Area: Anything you can do to impact the account's earnings/balance, spoofed props, impersonation, Broadcast Disruption</li>\n</ul>\n\n<h5><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/91\" rel=\"nofollow noreferrer\" target=\"_blank\">Mobile Broadcasting functionality Launched </a></h5>\n\n<ul>\n<li>IOS and Android apps now have the ability to broadcast!</li>\n<li>Focus Area: Broadcaster IP Exposure, Broadcast Disruption, Geolocation through device information</li>\n</ul>\n\n<h5><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/92/%7E/as-a-broadcaster%2C-how-do-i-use-replays%3F\" rel=\"nofollow noreferrer\" target=\"_blank\">Broadcasting Replays and VOD Launched</a></h5>\n\n<ul>\n<li>Focus Area: Interactions with the API. VOD Settings and permissions, injecting/replacing VOD content</li>\n<li>Known issue: captured HLS links can still be used after hiding a VOD, not applicable for reward</li>\n</ul>\n\n<h5>Video Comments and Likes</h5>\n\n<ul>\n<li>VODs can now receive comments and Likes</li>\n<li>Focus Area: Interactions with the API, spoofing comments or impersonation, arbitrary modification of Like or View counts</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 800.0,
-                        "max": 1100.0
-                    },
-                    "3": {
-                        "min": 350.0,
-                        "max": 600.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 300.0
-                    },
-                    "program_max": 6000
-                },
-                "sort_order": 0,
-                "targets_url": "/caffeine/target_groups/e080ded1-1edf-43bf-96b7-28675f6fee3f/targets",
-                "targets": [
-                    {
-                        "id": "32316e7f-5947-4a89-bd79-0a77d5a8b421",
-                        "name": "https://www.caffeine.tv/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
-                                    "name": "Stripe"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d9fad273-9565-43ef-a49a-9dce173da3e8",
-                        "name": "https://api.caffeine.tv/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0056a63b-0950-41cd-b334-d8974be8b43f",
-                        "name": "https://payments.caffeine.tv",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://payments.caffeine.tv",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "92ea0e83-cd12-4211-a244-f6947aa7e549",
-                        "name": "https://realtime.caffeine.tv/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://realtime.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7faeae6c-1aae-4762-b135-2d197c9f822d",
-                        "name": "https://preview.caffeine.tv/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://preview.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
-                                    "name": "Stripe"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "68bc83cf-6857-4e53-a5f0-33a0537339f1",
-                        "name": "https://images.caffeine.tv/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://images.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "50c2b78f-c86b-4109-a76e-817ec762d630",
-                        "name": "https://static.caffeine.tv/",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "02987f8a-77d5-4539-9439-9e4642cac31b",
-                        "name": "https://v-cf.caffeine.tv",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1e3642be-ca6d-4e58-868a-eb9eba238d7d",
-                        "name": "https://build.caffeine.tv/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://build.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "429a08e2-19f9-43d6-94a7-3c6dd3ec564a",
-                        "name": "caffeine.exe",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ccbd24a4-f100-4cc7-ab72-467df2be26f0",
-                        "name": "caffeine-helper.x86.exe",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ede10223-35a1-41b6-84fe-711b378909fa",
-                        "name": "caffeine-helper.x64.exe",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "75a5e18d-cf75-4ff7-8f40-43190fa1a89b",
-                        "name": "Caffeine iOS Application",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/caffeine-live-streaming/id1170629931",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3c7c9e96-eace-4888-bc2c-ea9cd54ddec3",
-                        "name": "Caffeine Android Application\t",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=tv.caffeine.app&hl=en_US&gl=US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1bae787a-f451-4fc7-9a82-006c1dca5c81",
-                        "name": "*.rtcdn.caffeine.tv",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "181191c3-b0d2-4f49-b723-a0cc2988d9f0",
-                "name": "Out of Scope",
-                "description_html": "<p>While fremont-*.rtcdn.caffeine.tv   </p>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/caffeine/target_groups/b1774674-60d8-424c-9745-53695cc57962/targets",
-                "targets": [
-                    {
-                        "id": "6137f413-1958-47ad-a5b7-5d357c3f0edd",
-                        "name": "https://events.caffeine.tv/",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "63931332-91c7-44db-a639-024e65a4c5af",
-                        "name": "Any Third Party Software Applications (Zendesk, etc)",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2f86ac31-c6de-418f-bf2b-362670279d32",
-                        "name": "Caffeine.custhelp.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Elementor: Bug Bounty Program",
         "tagline": "Elementor is the best WordPress Website Builder, with over 10 million active installs.",
         "briefUrl": "/engagements/elementor",
@@ -63066,6 +62583,489 @@
                             ]
                         },
                         "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Caffeine",
+        "tagline": "Caffeine is a social broadcasting platform for gaming, entertainment, and the creative arts.",
+        "briefUrl": "/engagements/caffeine",
+        "backgroundColor": "#0000ff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65d9/e1a6/2e828c1b/3cfe7f72d541d0a8bb443038b7c3a181_Caffeine1024.png",
+        "rewardSummary": {
+            "summary": "$150 - $5,000",
+            "hint": "Up to $6,000",
+            "minReward": "$150",
+            "maxReward": "$5,000",
+            "compensationSummary": "Up to $6,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Entertainment",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/caffeine/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "922ba23f-68c3-42cb-bf5b-a8f44479bca3",
+                "name": "In Scope Targets ",
+                "description_html": "<h1>Latest Features and Focus Areas</h1>\n\n<p><code>Updated 01/22</code>`</p>\n\n<h4><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/84/kw/props\" rel=\"nofollow noreferrer\" target=\"_blank\">Updates to Props and Reactions</a></h4>\n\n<ul>\n<li>This covers all reactions (Messages and Props) sent to <code>LIVE</code> broadcasts</li>\n<li>The backend for this service was completely re-written and client interactions were updated as well.</li>\n<li>Focus Area: Anything you can do to impact the account's earnings/balance, spoofed props, impersonation, Broadcast Disruption</li>\n</ul>\n\n<h5><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/91\" rel=\"nofollow noreferrer\" target=\"_blank\">Mobile Broadcasting functionality Launched </a></h5>\n\n<ul>\n<li>IOS and Android apps now have the ability to broadcast!</li>\n<li>Focus Area: Broadcaster IP Exposure, Broadcast Disruption, Geolocation through device information</li>\n</ul>\n\n<h5><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/92/%7E/as-a-broadcaster%2C-how-do-i-use-replays%3F\" rel=\"nofollow noreferrer\" target=\"_blank\">Broadcasting Replays and VOD Launched</a></h5>\n\n<ul>\n<li>Focus Area: Interactions with the API. VOD Settings and permissions, injecting/replacing VOD content</li>\n<li>Known issue: captured HLS links can still be used after hiding a VOD, not applicable for reward</li>\n</ul>\n\n<h5>Video Comments and Likes</h5>\n\n<ul>\n<li>VODs can now receive comments and Likes</li>\n<li>Focus Area: Interactions with the API, spoofing comments or impersonation, arbitrary modification of Like or View counts</li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2000.0,
+                        "max": 5000.0
+                    },
+                    "2": {
+                        "min": 800.0,
+                        "max": 1100.0
+                    },
+                    "3": {
+                        "min": 350.0,
+                        "max": 600.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 300.0
+                    },
+                    "program_max": 6000
+                },
+                "sort_order": 0,
+                "targets_url": "/caffeine/target_groups/e080ded1-1edf-43bf-96b7-28675f6fee3f/targets",
+                "targets": [
+                    {
+                        "id": "32316e7f-5947-4a89-bd79-0a77d5a8b421",
+                        "name": "https://www.caffeine.tv/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
+                                    "name": "Stripe"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d9fad273-9565-43ef-a49a-9dce173da3e8",
+                        "name": "https://api.caffeine.tv/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0056a63b-0950-41cd-b334-d8974be8b43f",
+                        "name": "https://payments.caffeine.tv",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://payments.caffeine.tv",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "92ea0e83-cd12-4211-a244-f6947aa7e549",
+                        "name": "https://realtime.caffeine.tv/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://realtime.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7faeae6c-1aae-4762-b135-2d197c9f822d",
+                        "name": "https://preview.caffeine.tv/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://preview.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
+                                    "name": "Stripe"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "68bc83cf-6857-4e53-a5f0-33a0537339f1",
+                        "name": "https://images.caffeine.tv/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://images.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "50c2b78f-c86b-4109-a76e-817ec762d630",
+                        "name": "https://static.caffeine.tv/",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "02987f8a-77d5-4539-9439-9e4642cac31b",
+                        "name": "https://v-cf.caffeine.tv",
+                        "description": null,
+                        "category": "api",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1e3642be-ca6d-4e58-868a-eb9eba238d7d",
+                        "name": "https://build.caffeine.tv/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://build.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "429a08e2-19f9-43d6-94a7-3c6dd3ec564a",
+                        "name": "caffeine.exe",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
+                                    "name": "Desktop Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ccbd24a4-f100-4cc7-ab72-467df2be26f0",
+                        "name": "caffeine-helper.x86.exe",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
+                                    "name": "Desktop Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ede10223-35a1-41b6-84fe-711b378909fa",
+                        "name": "caffeine-helper.x64.exe",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
+                                    "name": "Desktop Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "75a5e18d-cf75-4ff7-8f40-43190fa1a89b",
+                        "name": "Caffeine iOS Application",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/us/app/caffeine-live-streaming/id1170629931",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 12,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3c7c9e96-eace-4888-bc2c-ea9cd54ddec3",
+                        "name": "Caffeine Android Application\t",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=tv.caffeine.app&hl=en_US&gl=US",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                }
+                            ]
+                        },
+                        "sort_order": 13,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1bae787a-f451-4fc7-9a82-006c1dca5c81",
+                        "name": "*.rtcdn.caffeine.tv",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 14,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "181191c3-b0d2-4f49-b723-a0cc2988d9f0",
+                "name": "Out of Scope",
+                "description_html": "<p>While fremont-*.rtcdn.caffeine.tv   </p>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/caffeine/target_groups/b1774674-60d8-424c-9745-53695cc57962/targets",
+                "targets": [
+                    {
+                        "id": "6137f413-1958-47ad-a5b7-5d357c3f0edd",
+                        "name": "https://events.caffeine.tv/",
+                        "description": null,
+                        "category": "api",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "63931332-91c7-44db-a639-024e65a4c5af",
+                        "name": "Any Third Party Software Applications (Zendesk, etc)",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2f86ac31-c6de-418f-bf2b-362670279d32",
+                        "name": "Caffeine.custhelp.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -69533,6 +69533,285 @@
         ]
     },
     {
+        "name": "Luno Bug Bounty Program",
+        "tagline": "Luno Bug Bounty Program",
+        "briefUrl": "/luno-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/90ca/b8c8/a0b610b1/957423f1634a108b88ec40b5d8b52e11_lunoicon-152x152.png",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/luno-og/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "35ce6c2b-fe22-48ad-b2fb-89ec5400e529",
+                "name": "Tier 1 Targets:",
+                "description_html": "<p>Staging mobile apps are not currently available.<br>\nWhen testing the mobile applications you are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 5000.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 550.0,
+                        "max": 700.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/luno-og/target_groups/14be0813-904a-42ff-ba60-ff56f21f5581/targets",
+                "targets": [
+                    {
+                        "id": "5638e0ce-44f0-4964-b34e-f8b1a5ec3b9e",
+                        "name": "Luno Android Application",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?hl=en&id=co.bitx.android.wallet",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0e912461-35e4-4d28-aaba-dc862a558e93",
+                        "name": "Luno iOS Application",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/app/bitx-wallet/id927362479",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3a68d326-59ff-43f7-a3bd-35393484940b",
+                        "name": "https://mobileapi.staging.luno.com/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "7b1d1c31-e8f8-4e32-9f83-b9dac0d4d583",
+                "name": "Tier 2 Targets:",
+                "description_html": "<p>Please only test the web application and API in the staging environment.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2500.0,
+                        "max": 3000.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1800.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 650.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/luno-og/target_groups/813b1fca-ac86-426c-b1cb-0eaa944aad34/targets",
+                "targets": [
+                    {
+                        "id": "4df88614-08d9-4d17-9cd0-c3b284db975f",
+                        "name": "https://staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bf1da571-cbbe-40b5-8ac4-75e30e579958",
+                        "name": "https://ajax.staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://ajax.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "00f06033-b51f-46b3-b752-6e5a26b02a8f",
+                        "name": "https://api.staging.luno.com/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "33378366-5f09-4fed-a90f-76771f686f1b",
+                        "name": "https://app.staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://app.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "LastPass",
         "tagline": "LastPass is a password manager and form filler which locally encrypts your sensitive data with a key that is not sent to LastPass",
         "briefUrl": "/lastpass",
@@ -70145,285 +70424,6 @@
                         "ipAddress": null,
                         "target": {
                             "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Luno Bug Bounty Program",
-        "tagline": "Luno Bug Bounty Program",
-        "briefUrl": "/luno-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/90ca/b8c8/a0b610b1/957423f1634a108b88ec40b5d8b52e11_lunoicon-152x152.png",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/luno-og/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "35ce6c2b-fe22-48ad-b2fb-89ec5400e529",
-                "name": "Tier 1 Targets:",
-                "description_html": "<p>Staging mobile apps are not currently available.<br>\nWhen testing the mobile applications you are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 550.0,
-                        "max": 700.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/luno-og/target_groups/14be0813-904a-42ff-ba60-ff56f21f5581/targets",
-                "targets": [
-                    {
-                        "id": "5638e0ce-44f0-4964-b34e-f8b1a5ec3b9e",
-                        "name": "Luno Android Application",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?hl=en&id=co.bitx.android.wallet",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0e912461-35e4-4d28-aaba-dc862a558e93",
-                        "name": "Luno iOS Application",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/app/bitx-wallet/id927362479",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3a68d326-59ff-43f7-a3bd-35393484940b",
-                        "name": "https://mobileapi.staging.luno.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7b1d1c31-e8f8-4e32-9f83-b9dac0d4d583",
-                "name": "Tier 2 Targets:",
-                "description_html": "<p>Please only test the web application and API in the staging environment.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2500.0,
-                        "max": 3000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1800.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 650.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/luno-og/target_groups/813b1fca-ac86-426c-b1cb-0eaa944aad34/targets",
-                "targets": [
-                    {
-                        "id": "4df88614-08d9-4d17-9cd0-c3b284db975f",
-                        "name": "https://staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bf1da571-cbbe-40b5-8ac4-75e30e579958",
-                        "name": "https://ajax.staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://ajax.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "00f06033-b51f-46b3-b752-6e5a26b02a8f",
-                        "name": "https://api.staging.luno.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "33378366-5f09-4fed-a90f-76771f686f1b",
-                        "name": "https://app.staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://app.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
                         },
                         "sort_order": 3,
                         "display_known_issues": false,
@@ -71937,134 +71937,6 @@
         ]
     },
     {
-        "name": "Statuspage",
-        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
-        "briefUrl": "/statuspage",
-        "backgroundColor": "#0052CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/statuspage/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
-                "targets": [
-                    {
-                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
-                        "name": "manage.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://manage.statuspage.io",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
-                                    "name": "Fastly"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
-                        "name": "*.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Majid Al Futtaim Entertainment",
         "tagline": "Vox Cinemas + Entertainment",
         "briefUrl": "/vox",
@@ -72299,6 +72171,134 @@
                             "tags": []
                         },
                         "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Statuspage",
+        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
+        "briefUrl": "/statuspage",
+        "backgroundColor": "#0052CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/statuspage/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1200.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
+                "targets": [
+                    {
+                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
+                        "name": "manage.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://manage.statuspage.io",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
+                                    "name": "Fastly"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
+                                    "name": "Moment.js"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
+                        "name": "*.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
+                                    "name": "Recon"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
+                                    "name": "DNS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
