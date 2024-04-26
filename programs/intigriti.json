@@ -816,17 +816,17 @@
         },
         "domains": [
             {
-                "id": "0bf0c891-f72f-4845-a1d1-3908d8e2984b",
+                "id": "5393fc17-710f-4d7f-97c6-61b78ac8360d",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 6,
+                    "value": "Other"
                 },
-                "endpoint": "https://lsagentrelay.lansweeper.com/",
+                "endpoint": " lsrunase2.0 and lsencrypt2.0 ",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
-                "description": "Our cloud relay server connection using LsAgent. If the computers you're scanning do not have a direct connection to your Lansweeper installation, scanned LsAgent data can be sent to our relay server in the cloud. \n\nOur LsAgent is a cross-platform scanning agent that can scan computers both inside and outside of your network. It automatically collects an inventory from the computer it's installed on and sends the data back to the Lansweeper installation, this can be done through our relay server in the cloud.\n\nFor this, you must enable relay access in your Lansweeper installation. \nScanned LsAgent data is sent securely over HTTPS (TLS 1.2) to the relay server in Microsoft Azure, where it is encrypted as well. Your Lansweeper scanning server can retrieve the scanned data from the relay server, after which it is deleted from the relay. In order to use the relay server, make sure outbound traffic is allowed on your Lansweeper scanning server. Specifically, the scanning server must be able to make an outbound connection to port 443 of lsagentrelay.lansweeper.com, the cloud relay server. \n\nMore information about LsAgent can be found on our website: https://community.lansweeper.com/t5/scanning-your-network/introduction-to-lsagent-for-windows-linux-and-mac/ta-p/64473\n\nThe use of the relay server must explicitly be enabled in the Lansweeper web console. It is not enabled by default!"
+                "description": null
             },
             {
                 "id": "1fa3f131-ef7d-477e-9a52-46f4da7293da",
@@ -879,6 +879,19 @@
                     "value": "Tier 2"
                 },
                 "description": "Internal backoffice portal for cloud platform\nNo authorisation will be given"
+            },
+            {
+                "id": "0bf0c891-f72f-4845-a1d1-3908d8e2984b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://lsagentrelay.lansweeper.com/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our cloud relay server connection using LsAgent. If the computers you're scanning do not have a direct connection to your Lansweeper installation, scanned LsAgent data can be sent to our relay server in the cloud. \n\nOur LsAgent is a cross-platform scanning agent that can scan computers both inside and outside of your network. It automatically collects an inventory from the computer it's installed on and sends the data back to the Lansweeper installation, this can be done through our relay server in the cloud.\n\nFor this, you must enable relay access in your Lansweeper installation. \nScanned LsAgent data is sent securely over HTTPS (TLS 1.2) to the relay server in Microsoft Azure, where it is encrypted as well. Your Lansweeper scanning server can retrieve the scanned data from the relay server, after which it is deleted from the relay. In order to use the relay server, make sure outbound traffic is allowed on your Lansweeper scanning server. Specifically, the scanning server must be able to make an outbound connection to port 443 of lsagentrelay.lansweeper.com, the cloud relay server. \n\nMore information about LsAgent can be found on our website: https://community.lansweeper.com/t5/scanning-your-network/introduction-to-lsagent-for-windows-linux-and-mac/ta-p/64473\n\nThe use of the relay server must explicitly be enabled in the Lansweeper web console. It is not enabled by default!"
             },
             {
                 "id": "8102f1e8-c3b1-4750-b4ab-95b47ab93722",
