@@ -1,5 +1,438 @@
 [
     {
+        "name": "Ibotta",
+        "tagline": "Mobile app providing cash back for users through in-app purchases, loyalty card integrations, payments, and receipt scanning.",
+        "briefUrl": "/ibotta",
+        "backgroundColor": "#5e5e5e",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9c25/03f5/d73ce457/a89b171577cbc92b68aab5bf350dcbc0_ibotta-squarelogo-1473450047681.png",
+        "rewardSummary": {
+            "summary": "$250 - $7,500",
+            "hint": null,
+            "minReward": "$250",
+            "maxReward": "$7,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ibotta/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "55bf8277-6e0a-41e0-9f81-a4b299e0430e",
+                "name": "In Scope Targets ",
+                "description_html": "<p>The web APIs are updated daily, and the mobile app is updated bi-weekly. In the event you don't find anything today, there may be something present tomorrow and as such, vulnerability reports on these targets are of the highest impact to the Ibotta team and have a higher reward range!  </p>\n\n<p>The Chrome extension was recently moved out of Beta so we are particularly interested in testing that ensures the pop-up interaction with their other product areas (such as the next item or loyalty card linking) is secure and would like to know about any sensitive data exposure. </p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 5500.0,
+                        "max": 7500.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 3500.0
+                    },
+                    "3": {
+                        "min": 750.0,
+                        "max": 1500.0
+                    },
+                    "4": {
+                        "min": 250.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/ibotta/target_groups/989a7ab8-fb8a-4c3f-97e9-a9afefb07b54/targets",
+                "targets": [
+                    {
+                        "id": "665d4ad1-811f-46c1-988c-746f8a95e858",
+                        "name": "Chrome Extension",
+                        "description": null,
+                        "category": "other",
+                        "uri": "https://chrome.google.com/webstore/detail/ibotta-browser-extension/mfaedmjlefifhnhpgipjjiiekchaimpk?hl=en-US",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "59791207-9cf4-4498-b5e1-510fee95dc40",
+                                    "name": "Browser Extension"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9a2cab15-c22d-409f-8e72-2710848d4648",
+                        "name": "http://market.android.com/details?id=com.ibotta.android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "http://market.android.com/details?id=com.ibotta.android",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d1489442-292f-4343-b921-d8f046a89a2f",
+                        "name": "http://itunes.apple.com/us/app/ibotta/id559887125",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "http://itunes.apple.com/us/app/ibotta/id559887125",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7fdc6194-90ff-4c75-bb9d-7b054e09cb53",
+                        "name": "https://content-server.ibotta.com/graphql",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://content-server.ibotta.com/graphql",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "56da030d-07be-4c8a-9dc3-b62fad7508eb",
+                        "name": "https://api.ibotta.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.ibotta.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "470295ed-5efa-4e60-b6d7-aedd741b93ca",
+                        "name": "https://api.ibops.net",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.ibops.net",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e1da4ad9-2e11-4ed5-a29d-b04fc967fd37",
+                        "name": "https://api.int.ibops.net",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.int.ibops.net",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3821af2d-3cef-49e0-b8e1-f83381b8587e",
+                        "name": "https://api.int.ibops.net/customer-loyalty-service",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.int.ibops.net/customer-loyalty-service",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "35b9247a-7536-416a-9003-d922533ea271",
+                        "name": " https://api.ibops.net/ad-management",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.ibops.net/ad-management",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "df8be0a1-69b4-47c5-9a87-060b6c3f0fa6",
+                        "name": "Ibotta App Data & Memory",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ccc02a59-16b4-4922-9299-b2cc0c4b0983",
+                        "name": "Web v2",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://app.ibotta.com/sign-in\u2029",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f984f1bf-4d79-447f-9620-f1aa55d327d5",
+                        "name": "http://ibotta.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://ibotta.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
+                                    "name": "Wordpress"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
+                                    "name": "MySQL"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                }
+                            ]
+                        },
+                        "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "09601cb3-7813-456a-bc3e-af6c1b03f653",
+                        "name": "https://backend.ibotta.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://backend.ibotta.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 12,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "920d62f8-9313-46b8-9d30-a5a2f70279c2",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/ibotta/target_groups/37aa8596-03fb-48ab-8b5e-ded16b4ccb21/targets",
+                "targets": [
+                    {
+                        "id": "39bc54eb-1673-40f9-8922-dc7ccb0da94a",
+                        "name": "http://sampling.ibotta.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a96f1127-d1b1-484b-b7ce-927afd068e12",
+                        "name": "https://backend.ibotta.com/duplicate_receipt_moderation",
+                        "description": null,
+                        "category": "api",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 12,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Auth0 by Okta",
         "tagline": "We provide a universal authentication & authorization platform for web, mobile, and legacy applications.",
         "briefUrl": "/auth0-okta",
@@ -51,10 +484,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/auth0-okta/target_groups/26963917-0789-48ee-b3b2-9ae7112334dc/targets",
+                "targets_url": "/auth0-okta/target_groups/8073063b-aa08-4afb-99ec-cf8a656a150f/targets",
                 "targets": [
                     {
-                        "id": "d26c9a4c-1168-4003-9199-e00ba2d0473e",
+                        "id": "615bdeee-d043-4ce7-a637-04ba4bbe6096",
                         "name": "config.cic-bug-bounty.auth0app.com",
                         "description": null,
                         "category": "website",
@@ -68,7 +501,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "0565c424-8697-415b-88eb-022aabfbbc6f",
+                        "id": "4038a5ac-0af5-49c0-9cee-7c5b9f796d78",
                         "name": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
                         "description": null,
                         "category": "website",
@@ -91,7 +524,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c07513d7-3c19-435c-92bf-b96e843ba0fe",
+                        "id": "385de8bd-0342-446c-b9fc-20d59459e70c",
                         "name": "Auth0 Guardian Android",
                         "description": null,
                         "category": "android",
@@ -122,7 +555,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "d0f11e29-6598-4c9a-bc7d-d6dfb8f98774",
+                        "id": "86fe3782-41c3-4029-a611-b7354a372a82",
                         "name": "Auth0 Guardian IoS",
                         "description": null,
                         "category": "ios",
@@ -157,7 +590,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "56c016e5-3f90-4172-b030-637235791d59",
+                        "id": "70f4dd4e-d206-46b0-a14e-9509afd19c0f",
                         "name": "marketplace.auth0.com (Auth0 Marketplace)",
                         "description": null,
                         "category": "website",
@@ -180,7 +613,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "5cf56fbb-033e-417d-b762-24d5bc3fd86d",
+                        "id": "8f2044a7-e16d-48e8-b5cb-1c62c4b4cf31",
                         "name": "MFA Integrations\t",
                         "description": null,
                         "category": "other",
@@ -194,7 +627,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "01e68715-3f4e-4625-a18c-db499af08b70",
+                        "id": "b978992c-db81-460e-9996-18e725d747d2",
                         "name": "https://github.com/auth0/auth0.js (Auth0 SDK for Web)",
                         "description": null,
                         "category": "other",
@@ -221,7 +654,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "5517c793-0c42-4dce-8dbc-2600cdbab48e",
+                        "id": "e103059e-a24e-41e6-a216-9802724e5ebf",
                         "name": "https://github.com/auth0/lock (Lock for Web)",
                         "description": null,
                         "category": "other",
@@ -244,7 +677,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "295aa741-f749-4d68-88b4-4d906720f192",
+                        "id": "8395e96c-a51a-4fa1-8129-16bdaa981151",
                         "name": "https://github.com/auth0/auth0-spa-js (Auth0 Single Page App SDK)",
                         "description": null,
                         "category": "other",
@@ -271,7 +704,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a71c923e-63a8-446b-a035-b13cabac16d0",
+                        "id": "a8730ab0-56d6-41df-bd2e-28ba816ce91f",
                         "name": "https://github.com/auth0/Auth0.Net (.NET SDK)",
                         "description": null,
                         "category": "other",
@@ -298,7 +731,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f6fceb09-92f4-4d2b-a26e-d5c35f735d11",
+                        "id": "84e5913c-07f5-4fda-a6b1-8e1a1998f541",
                         "name": "https://github.com/auth0/nextjs-auth0 (Next.js SDK)",
                         "description": null,
                         "category": "other",
@@ -329,7 +762,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "aade3593-2773-4af2-b704-c1e8cef2b742",
+                        "id": "6aa34eeb-7a16-44c7-aa94-430559dfb73e",
                         "name": "https://github.com/auth0/auth0-java (Java SDK)",
                         "description": null,
                         "category": "other",
@@ -356,7 +789,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "e3eb6174-1fc5-4fbc-bf09-6a3c59c21d67",
+                        "id": "f64cb3d5-61b7-4a21-a35a-fd74886a2282",
                         "name": "https://github.com/auth0/react-native-auth0 (react-native SDK)",
                         "description": null,
                         "category": "other",
@@ -383,7 +816,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "1b013b41-5347-4552-b328-464b148b5d50",
+                        "id": "d7dc8ecb-610a-4529-b786-1bbce6a501eb",
                         "name": "https://github.com/auth0/auth0-php (PHP SDK)",
                         "description": null,
                         "category": "other",
@@ -410,7 +843,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "0955d2a6-e5dd-405b-ad80-3ea1857c8653",
+                        "id": "bbaab676-3755-45e1-8a72-3b4646bb97fb",
                         "name": "https://dashboard.fga.dev/",
                         "description": null,
                         "category": "website",
@@ -445,7 +878,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c660de40-252f-4677-aa6f-e00c13dbeb66",
+                        "id": "45c69971-30af-45c2-9a71-7890c33120dc",
                         "name": "https://api.us1.fga.dev/",
                         "description": null,
                         "category": "api",
@@ -476,7 +909,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "538ee046-9d4a-4652-91cb-f49cb938fc9b",
+                        "id": "9d53a59c-df0d-44d8-91e7-bc77808bb651",
                         "name": "https://customers.us1.fga.dev/",
                         "description": null,
                         "category": "api",
@@ -511,7 +944,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "b8f2777e-0c5c-44e0-a676-50c0a1094397",
+                        "id": "4f260d0a-f327-48c7-a52a-c3599d6eb67a",
                         "name": "https://play.fga.dev/",
                         "description": null,
                         "category": "website",
@@ -571,10 +1004,10 @@
                     }
                 },
                 "sort_order": 1,
-                "targets_url": "/auth0-okta/target_groups/c6c45f8e-4653-4085-90be-d415e3e7807c/targets",
+                "targets_url": "/auth0-okta/target_groups/a3640459-2796-4394-8d98-9b9ec8b7a595/targets",
                 "targets": [
                     {
-                        "id": "6d2920f3-74b4-454f-8d8f-da231c0764b4",
+                        "id": "88e1b4a6-b58a-408c-947f-d73cbc8d47d8",
                         "name": "auth0.com\t",
                         "description": null,
                         "category": "website",
@@ -601,7 +1034,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7569c91d-03c9-405f-88b4-d5f3faa89f8b",
+                        "id": "1420735a-7f50-4c23-80c1-32eb89205a23",
                         "name": "samltool.io\t",
                         "description": null,
                         "category": "website",
@@ -632,7 +1065,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7a9cc9ee-8424-4b7c-a65f-711dc82a1de2",
+                        "id": "e1da6f4a-3760-4331-94e2-70513a44a323",
                         "name": "webauthn.me\t",
                         "description": null,
                         "category": "website",
@@ -663,7 +1096,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "80fa8195-afe6-411e-8aca-37375f5671db",
+                        "id": "f0a9efd5-04ce-4ea8-98a3-7963842fff1d",
                         "name": "openidconnect.net\t",
                         "description": null,
                         "category": "website",
@@ -694,7 +1127,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "15f4c3e7-1d39-4aa6-b1c6-a7383223afd6",
+                        "id": "88d6307d-ec58-46ab-8c5f-40a5d510f969",
                         "name": "jwt.io",
                         "description": null,
                         "category": "website",
@@ -729,7 +1162,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "2fc6b089-03e2-4989-b914-f1a2628cbfc4",
+                        "id": "ec97e28d-889b-4457-8f1d-fc640166b046",
                         "name": "auth0.net",
                         "description": null,
                         "category": "website",
@@ -756,11 +1189,11 @@
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 2,
-                "targets_url": "/auth0-okta/target_groups/1b16138f-0926-44d9-a1a6-f21bb70c8ecd/targets",
+                "targets_url": "/auth0-okta/target_groups/5c06a912-6a42-433b-80b8-7fe2f7db3346/targets",
                 "targets": [
                     {
-                        "id": "9f5f316f-15fe-4026-9bb8-8df1f7f98032",
-                        "name": "manage.auth0.com",
+                        "id": "0c47a115-74f2-4b6b-b950-f089152c7bb2",
+                        "name": "auth0.auth0.com",
                         "description": null,
                         "category": "website",
                         "uri": "",
@@ -778,8 +1211,8 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ca995daa-71fc-4e4f-91a6-af18c0ede162",
-                        "name": "webtask.io\t",
+                        "id": "b10b519b-a532-4ad4-825b-aa945b874366",
+                        "name": "manage.auth0.com",
                         "description": null,
                         "category": "website",
                         "uri": "",
@@ -797,8 +1230,8 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "4a253572-8089-4ab4-aef6-bb8250120d91",
-                        "name": "phenix.rocks\t",
+                        "id": "7e155188-43bc-4519-9ff4-c23490a9b40b",
+                        "name": "webtask.io\t",
                         "description": null,
                         "category": "website",
                         "uri": "",
@@ -816,8 +1249,8 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "239eaef5-35e7-4ee4-8bd4-ba6f4c4ec312",
-                        "name": "Auth0 Docs (including quickstarts)",
+                        "id": "398cdc9e-bdbc-472c-9a5a-23d9e506424a",
+                        "name": "phenix.rocks\t",
                         "description": null,
                         "category": "website",
                         "uri": "",
@@ -835,8 +1268,8 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "31b170ab-da61-48aa-88d9-7cef05c26b6f",
-                        "name": "sharelock.io",
+                        "id": "c77b28f8-9837-46e9-9c50-8efbf5403b16",
+                        "name": "Auth0 Docs (including quickstarts)",
                         "description": null,
                         "category": "website",
                         "uri": "",
@@ -854,8 +1287,8 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7e8e5d87-bf4d-4cde-8399-5be6fa023516",
-                        "name": "goextend.io\t",
+                        "id": "1b6c1a30-6602-4ecb-94d1-ea183b11aedd",
+                        "name": "sharelock.io",
                         "description": null,
                         "category": "website",
                         "uri": "",
@@ -869,6 +1302,25 @@
                             ]
                         },
                         "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "dd23e2d8-0542-4673-a7c9-4cf47657b4a5",
+                        "name": "goextend.io\t",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -20620,439 +21072,6 @@
                             ]
                         },
                         "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Ibotta",
-        "tagline": "Mobile app providing cash back for users through in-app purchases, loyalty card integrations, payments, and receipt scanning.",
-        "briefUrl": "/ibotta",
-        "backgroundColor": "#5e5e5e",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9c25/03f5/d73ce457/a89b171577cbc92b68aab5bf350dcbc0_ibotta-squarelogo-1473450047681.png",
-        "rewardSummary": {
-            "summary": "$250 - $7,500",
-            "hint": null,
-            "minReward": "$250",
-            "maxReward": "$7,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ibotta/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "55bf8277-6e0a-41e0-9f81-a4b299e0430e",
-                "name": "In Scope Targets ",
-                "description_html": "<p>The web APIs are updated daily, and the mobile app is updated bi-weekly. In the event you don't find anything today, there may be something present tomorrow and as such, vulnerability reports on these targets are of the highest impact to the Ibotta team and have a higher reward range!  </p>\n\n<p>The Chrome extension was recently moved out of Beta so we are particularly interested in testing that ensures the pop-up interaction with their other product areas (such as the next item or loyalty card linking) is secure and would like to know about any sensitive data exposure. </p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5500.0,
-                        "max": 7500.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 3500.0
-                    },
-                    "3": {
-                        "min": 750.0,
-                        "max": 1500.0
-                    },
-                    "4": {
-                        "min": 250.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/ibotta/target_groups/989a7ab8-fb8a-4c3f-97e9-a9afefb07b54/targets",
-                "targets": [
-                    {
-                        "id": "665d4ad1-811f-46c1-988c-746f8a95e858",
-                        "name": "Chrome Extension",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://chrome.google.com/webstore/detail/ibotta-browser-extension/mfaedmjlefifhnhpgipjjiiekchaimpk?hl=en-US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "59791207-9cf4-4498-b5e1-510fee95dc40",
-                                    "name": "Browser Extension"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9a2cab15-c22d-409f-8e72-2710848d4648",
-                        "name": "http://market.android.com/details?id=com.ibotta.android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "http://market.android.com/details?id=com.ibotta.android",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d1489442-292f-4343-b921-d8f046a89a2f",
-                        "name": "http://itunes.apple.com/us/app/ibotta/id559887125",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "http://itunes.apple.com/us/app/ibotta/id559887125",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7fdc6194-90ff-4c75-bb9d-7b054e09cb53",
-                        "name": "https://content-server.ibotta.com/graphql",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://content-server.ibotta.com/graphql",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "56da030d-07be-4c8a-9dc3-b62fad7508eb",
-                        "name": "https://api.ibotta.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.ibotta.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "470295ed-5efa-4e60-b6d7-aedd741b93ca",
-                        "name": "https://api.ibops.net",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.ibops.net",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e1da4ad9-2e11-4ed5-a29d-b04fc967fd37",
-                        "name": "https://api.int.ibops.net",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.int.ibops.net",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3821af2d-3cef-49e0-b8e1-f83381b8587e",
-                        "name": "https://api.int.ibops.net/customer-loyalty-service",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.int.ibops.net/customer-loyalty-service",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "35b9247a-7536-416a-9003-d922533ea271",
-                        "name": " https://api.ibops.net/ad-management",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.ibops.net/ad-management",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "df8be0a1-69b4-47c5-9a87-060b6c3f0fa6",
-                        "name": "Ibotta App Data & Memory",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ccc02a59-16b4-4922-9299-b2cc0c4b0983",
-                        "name": "Web v2",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://app.ibotta.com/sign-in\u2029",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f984f1bf-4d79-447f-9620-f1aa55d327d5",
-                        "name": "http://ibotta.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://ibotta.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
-                                    "name": "Wordpress"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
-                                    "name": "MySQL"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "09601cb3-7813-456a-bc3e-af6c1b03f653",
-                        "name": "https://backend.ibotta.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://backend.ibotta.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "920d62f8-9313-46b8-9d30-a5a2f70279c2",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/ibotta/target_groups/37aa8596-03fb-48ab-8b5e-ded16b4ccb21/targets",
-                "targets": [
-                    {
-                        "id": "39bc54eb-1673-40f9-8922-dc7ccb0da94a",
-                        "name": "http://sampling.ibotta.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a96f1127-d1b1-484b-b7ce-927afd068e12",
-                        "name": "https://backend.ibotta.com/duplicate_receipt_moderation",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -63927,78 +63946,6 @@
         ]
     },
     {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "FIS",
         "tagline": "Advancing the ways the world pays, banks and invests.",
         "briefUrl": "/fis",
@@ -64084,6 +64031,78 @@
                         "category": "website",
                         "uri": "https://apuat-aaa.fisglobal.com",
                         "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
                         "target": {
                             "tags": []
                         },
@@ -66543,80 +66562,6 @@
         ]
     },
     {
-        "name": "Humble Bundle",
-        "tagline": "Pay what you want and help charity",
-        "briefUrl": "/engagements/humblebundle",
-        "backgroundColor": "#c32226",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/8dcf/5be6/2c2cec76/304f52b9b7950071eab424634aac1e12_humblered.png",
-        "rewardSummary": null,
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/humblebundle/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "604d0dbb-4f26-4fb6-9424-cfdd8f92d250",
-                "name": null,
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/humblebundle/target_groups/fe267046-e723-4af7-838c-fb18efdf9775/targets",
-                "targets": [
-                    {
-                        "id": "0ed25eaf-8063-4daa-8c22-8a8e5d861387",
-                        "name": "https://www.humblebundle.com/",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://www.humblebundle.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "3d0125f6-ca7c-42bf-be0e-ad8fed63bc85",
-                                    "name": "Algolia"
-                                },
-                                {
-                                    "id": "4592d652-bb2d-4ab9-8720-08fe80de0dc4",
-                                    "name": "Backbone"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "53917c1d-52c8-41f3-86f5-166e787ece8f",
-                                    "name": "Select2"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "PlanetHoster",
         "tagline": "PlanetHoster invites you to test their web hosting platform!",
         "briefUrl": "/engagements/planethosterinc",
@@ -66827,6 +66772,80 @@
                             ]
                         },
                         "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Humble Bundle",
+        "tagline": "Pay what you want and help charity",
+        "briefUrl": "/engagements/humblebundle",
+        "backgroundColor": "#c32226",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/8dcf/5be6/2c2cec76/304f52b9b7950071eab424634aac1e12_humblered.png",
+        "rewardSummary": null,
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/humblebundle/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "604d0dbb-4f26-4fb6-9424-cfdd8f92d250",
+                "name": null,
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {},
+                "sort_order": 0,
+                "targets_url": "/humblebundle/target_groups/fe267046-e723-4af7-838c-fb18efdf9775/targets",
+                "targets": [
+                    {
+                        "id": "0ed25eaf-8063-4daa-8c22-8a8e5d861387",
+                        "name": "https://www.humblebundle.com/",
+                        "description": null,
+                        "category": "other",
+                        "uri": "https://www.humblebundle.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "3d0125f6-ca7c-42bf-be0e-ad8fed63bc85",
+                                    "name": "Algolia"
+                                },
+                                {
+                                    "id": "4592d652-bb2d-4ab9-8720-08fe80de0dc4",
+                                    "name": "Backbone"
+                                },
+                                {
+                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
+                                    "name": "Moment.js"
+                                },
+                                {
+                                    "id": "53917c1d-52c8-41f3-86f5-166e787ece8f",
+                                    "name": "Select2"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
