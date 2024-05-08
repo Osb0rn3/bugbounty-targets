@@ -61012,201 +61012,6 @@
         ]
     },
     {
-        "name": "YNAB",
-        "tagline": "YNAB's Responsible Disclosure Program",
-        "briefUrl": "/engagements/ynab",
-        "backgroundColor": "#3B5EDA",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/74db/98a2/d8d154a4/858155d20c942a7a64eb370961433813_Group_288__1_.png",
-        "rewardSummary": {
-            "summary": "$150 - $3,000",
-            "hint": null,
-            "minReward": "$150",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ynab/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "4251c86e-57e7-45cf-b9c5-b3e8a4a293b9",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 3000.0
-                    },
-                    "2": {
-                        "min": 1350.0,
-                        "max": 1350.0
-                    },
-                    "3": {
-                        "min": 800.0,
-                        "max": 800.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 150.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/ynab/target_groups/cf24fb71-a270-4b98-9d7e-52afd6ec0ed8/targets",
-                "targets": [
-                    {
-                        "id": "66da8629-3171-4eba-a85d-53543e0a7815",
-                        "name": "https://staging-app.ynab.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://staging-app.ynab.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
-                                    "name": "Ruby"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "b0471577-6c74-4b1b-89aa-82ef39c444b7",
-                                    "name": "Heroku"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "79e18300-c726-4db9-a5a6-f30c54851392",
-                        "name": "Other ynab.com domains not listed",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "10b84d28-cf0c-45ba-b390-0422b3a3ef7d",
-                "name": "Out of scope targets",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/ynab/target_groups/e06a9710-3545-475e-b58b-8ee592b41aaf/targets",
-                "targets": [
-                    {
-                        "id": "127d8ea0-ae38-4b56-9f30-4cf774001844",
-                        "name": "https://support.ynab.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c19244d8-2b8a-4a59-a543-d9f67ee11b10",
-                        "name": "https://app.ynab.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d6da2ec1-4caf-4d61-9718-165d13cab6e9",
-                        "name": "Any previous version of the desktop apps: YNAB 4, YNAB 3, YNAB Pro, YNAB Basic (Spreadsheet)",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0defae50-76e1-47d2-afce-5929286f05df",
-                        "name": "https://develop-app.ynab.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Caffeine",
         "tagline": "Caffeine is a social broadcasting platform for gaming, entertainment, and the creative arts.",
         "briefUrl": "/engagements/caffeine",
@@ -62329,103 +62134,6 @@
         ]
     },
     {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
-                "targets": [
-                    {
-                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
-                "targets": [
-                    {
-                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Bugcrowd",
         "tagline": "Outhack Them All\u2122",
         "briefUrl": "/bugcrowd",
@@ -62945,6 +62653,298 @@
                             ]
                         },
                         "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "YNAB",
+        "tagline": "YNAB's Responsible Disclosure Program",
+        "briefUrl": "/engagements/ynab",
+        "backgroundColor": "#3B5EDA",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/74db/98a2/d8d154a4/858155d20c942a7a64eb370961433813_Group_288__1_.png",
+        "rewardSummary": {
+            "summary": "$150 - $3,000",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ynab/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "4251c86e-57e7-45cf-b9c5-b3e8a4a293b9",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 3000.0
+                    },
+                    "2": {
+                        "min": 1350.0,
+                        "max": 1350.0
+                    },
+                    "3": {
+                        "min": 800.0,
+                        "max": 800.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 150.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/ynab/target_groups/cf24fb71-a270-4b98-9d7e-52afd6ec0ed8/targets",
+                "targets": [
+                    {
+                        "id": "66da8629-3171-4eba-a85d-53543e0a7815",
+                        "name": "https://staging-app.ynab.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://staging-app.ynab.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
+                                    "name": "Ruby"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "b0471577-6c74-4b1b-89aa-82ef39c444b7",
+                                    "name": "Heroku"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "79e18300-c726-4db9-a5a6-f30c54851392",
+                        "name": "Other ynab.com domains not listed",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "10b84d28-cf0c-45ba-b390-0422b3a3ef7d",
+                "name": "Out of scope targets",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/ynab/target_groups/e06a9710-3545-475e-b58b-8ee592b41aaf/targets",
+                "targets": [
+                    {
+                        "id": "127d8ea0-ae38-4b56-9f30-4cf774001844",
+                        "name": "https://support.ynab.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c19244d8-2b8a-4a59-a543-d9f67ee11b10",
+                        "name": "https://app.ynab.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d6da2ec1-4caf-4d61-9718-165d13cab6e9",
+                        "name": "Any previous version of the desktop apps: YNAB 4, YNAB 3, YNAB Pro, YNAB Basic (Spreadsheet)",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0defae50-76e1-47d2-afce-5929286f05df",
+                        "name": "https://develop-app.ynab.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
+                "targets": [
+                    {
+                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
+                        "name": "Any FIS asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
+                "name": "Out of Scope",
+                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
+                "targets": [
+                    {
+                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
+                        "name": "Reference above out of scope targets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://apuat-aaa.fisglobal.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -68028,744 +68028,6 @@
         ]
     },
     {
-        "name": "Cisco Meraki",
-        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
-        "briefUrl": "/ciscomeraki",
-        "backgroundColor": "#67B346",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Electronics",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ciscomeraki/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "8a7db38d-058b-4f74-8195-2ab6556154b2",
-                "name": "Tier 1 Targets - Web",
-                "description_html": "<p>By way of clarification, the following is additional information on some of the domains that are in scope, and details around how they are used:</p>\n\n<ul>\n<li>*.ikarem.io: This domain is used for Meraki internal services, and as such, falls under the higher reward range.</li>\n<li>*.meraki.com: This domain is for the Cisco Meraki Dashboard and its integrated services.</li>\n<li>*.network-auth.com: This domain hosts user-created content for Dashboard-configured splash pages.</li>\n</ul>\n\n<p>Further public documentation can be found at <a href=\"https://documentation.meraki.com\" rel=\"nofollow noreferrer\" target=\"_blank\">https://documentation.meraki.com</a>.</p>\n\n<p>Additionally, documentation for the Cisco Meraki Dashboard API can be found at <a href=\"https://create.meraki.io/api-docs/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://create.meraki.io/api-docs/</a>.</p>\n\n<p>It's further worth noting that:</p>\n\n<ul>\n<li><p>Most products run a light web server which offers the ability to locally configure the uplink of a device, as well as to see some very basic device status information. However, the Dashboard is the ultimate administrative interface for devices, as well as the primary source for device monitoring.</p></li>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 6000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/ciscomeraki/target_groups/f07af7b5-0827-4253-949e-c3507bca586d/targets",
-                "targets": [
-                    {
-                        "id": "83d58594-d428-4de1-af20-a90f5244e721",
-                        "name": "*.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "5a702681-f59c-463c-b266-f9e22a1e1d8a",
-                                    "name": "Scala"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "89d2b311-7959-4f98-82a8-156989ee7506",
-                        "name": "*.ikarem.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f6f33e59-a5f5-4a1d-827b-7726cf7a0e59",
-                        "name": "*.network-auth.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7dc477a9-6740-4594-9854-191e2f8b7313",
-                        "name": "Cisco Meraki Systems Manager",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "041d5363-86a6-40b1-9a02-c20f6ab39c05",
-                                    "name": "Linux"
-                                },
-                                {
-                                    "id": "c5df6ad0-33b4-40ac-b6dd-8d4038997d40",
-                                    "name": "macOS"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f1b14278-b1c2-4c26-bf3d-1d1f70e8ac00",
-                        "name": "Cisco Meraki Virtual Security Appliances",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "091477d3-b800-4c87-b05f-898c93989767",
-                        "name": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "51fd4b6b-310d-41fe-9356-3257836401ad",
-                "name": "Tier 1 Targets - Hardware",
-                "description_html": "<h2>Eligibility for Meraki Hardware</h2>\n\n<p>In an effort to increase testing accessibility on Meraki's physical products, Meraki manages a merit-based program to ship devices to eligible program participants. You can find the details of this program in the <a href=\"https://bugcrowd.com/ciscomeraki/updates/0f2836c0-f0a5-48a5-90ae-fe7ac95e1179?preview=3ef7ea26f4c018c87f170bfb2a9557a4\" rel=\"nofollow noreferrer\" target=\"_blank\">Announcement</a> section of the Bounty Brief.</p>\n\n<h2>Hardware Notes</h2>\n\n<ul>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 6000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/ciscomeraki/target_groups/2f99c6a9-8122-4c01-8418-9f036c346243/targets",
-                "targets": [
-                    {
-                        "id": "a6f305e8-dd83-4e1a-bd31-e07bdfe54ddb",
-                        "name": "Cisco Meraki MX Security Appliances",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "88d88f36-43ac-4279-b3da-577659ae9cca",
-                        "name": "Cisco Meraki MS Switches",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f640c957-2d9b-4833-aef1-4d07854e142d",
-                        "name": "Cisco Meraki MR Access Points",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6b1081ed-bf07-42a9-a7ac-4f2bd44b35a8",
-                        "name": "Cisco Meraki MV Security Cameras",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "d7febc58-1d4d-4c69-9777-5d473211ddb4",
-                                    "name": "Surveillance and Security"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "65d73a4b-f045-4566-bfe4-3b627eae639b",
-                        "name": "Cisco Meraki Z Series (Z1,Z3(C))",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "3709afc6-19a0-48d0-ab03-ee6f8ca81a8c",
-                "name": "Tier 2 Targets",
-                "description_html": "<ul>\n<li>meraki.cisco.com: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n<li>apps.meraki.io: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 1500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 1000.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/ciscomeraki/target_groups/58824ade-e32d-4963-8848-4afdf08831ea/targets",
-                "targets": [
-                    {
-                        "id": "cd0b997f-c9c8-4c5f-b8de-6209655d8fa3",
-                        "name": "meraki.cisco.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://meraki.cisco.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
-                                    "name": "Adobe Experience Manager"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "961b90d9-9714-4a86-88c9-27bd5aee71cc",
-                        "name": "apps.meraki.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "20f7635e-223b-4f68-b5e5-3fb68e9f9c40",
-                "name": "Out of Scope",
-                "description_html": "<p>This program is designed to review and address security issues related to Cisco Meraki's products and applications. Please note that anything that is not explicitly listed as in-scope is considered out-of-scope. If you believe you have found a vulnerability that is outside of this program scope but related to Cisco, please refer to the below resources:</p>\n\n<ul>\n<li>If you need to report a vulnerability in a Cisco product, please contact psirt@cisco.com.</li>\n<li>If you need to contact Cisco regarding a security incident, please contact incidentresponse@cisco.com.</li>\n<li>Cisco Systems Operational Infrastructure findings can be reported here: https://bugcrowd.com/ciscosecurity</li>\n<li>Further information can be found here: https://www.cisco.com/security</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 3,
-                "targets_url": "/ciscomeraki/target_groups/c4c1cbe9-5c58-465b-a245-4600ca8b820c/targets",
-                "targets": [
-                    {
-                        "id": "8e629824-1b51-4c35-92a1-eaf0221141a1",
-                        "name": "*.cisco.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f1cadf69-5c28-4727-9732-671ee7d8ecb2",
-                        "name": "meraki.cisco.com/form/contact",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0347c228-463a-4dc5-bb9e-4e457983dcb2",
-                        "name": "merakipartners.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0a9b0e3f-2591-44ea-b3ca-68e7b294fbab",
-                        "name": "smhelp.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b34c67c6-992d-49d2-a49c-25e9825cffcd",
-                        "name": "documentation.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a681f7ae-4df1-443c-a9a0-95571016ef05",
-                        "name": "community.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b62a70bc-2f02-4818-ad99-38d6b7f2abcb",
-                        "name": "community-staging.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "35423522-a9b3-439f-bafa-0c57028c52a0",
-                        "name": "developers.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "483ed6e7-bd4f-439e-9403-e57da03eec3e",
-                        "name": "Customer API Keys",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d7f57c67-b74c-4348-b790-027eb3a14505",
-                        "name": "Meraki MC Phones",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "81e5e787-45fd-46dd-a79e-b1de749de8fc",
-                        "name": "Insecure Direct Object References (IDORs)",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Majid Al Futtaim Retail",
         "tagline": "Carrefour UAE",
         "briefUrl": "/carrefour",
@@ -69513,356 +68775,6 @@
         ]
     },
     {
-        "name": "Council on Foreign Relations",
-        "tagline": "\u201cTo afford a continuous conference on international questions affecting the United States...\u201d",
-        "briefUrl": "/engagements/cfr",
-        "backgroundColor": "#412c26",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/df75/aa4f/9a3fb531/6c71bed621d07bd078af1cb05746e6ac_Screen_Shot_2017-09-11_at_4.36.11_PM.png",
-        "rewardSummary": {
-            "summary": "$100 - $2,100",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$2,100",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/cfr/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "69aebe18-135b-461c-887f-45da1dcaea53",
-                "name": "https://thinkglobalhealth.org",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 2100.0
-                    },
-                    "2": {
-                        "min": 800.0,
-                        "max": 1000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 150.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/cfr/target_groups/92522773-9c61-45ad-bf75-439b42465a36/targets",
-                "targets": [
-                    {
-                        "id": "4f3a816d-6c7d-4f6a-b986-9c2ea627ea49",
-                        "name": "https://www.foreignaffairs.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.foreignaffairs.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "24b60ab2-1a7b-4e05-9a7e-d0c5ceb8967c",
-                                    "name": "Incapsula"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "3a3487a7-9abf-45f0-8057-51dabed20371",
-                                    "name": "Drupal"
-                                },
-                                {
-                                    "id": "61c04bbf-9962-45df-8971-a7b55daaf458",
-                                    "name": "MariaDB"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8cbb6d20-1698-4298-a321-933f46e6164e",
-                        "name": "https://www.cfr.org/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.cfr.org/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "24b60ab2-1a7b-4e05-9a7e-d0c5ceb8967c",
-                                    "name": "Incapsula"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "4592d652-bb2d-4ab9-8720-08fe80de0dc4",
-                                    "name": "Backbone"
-                                },
-                                {
-                                    "id": "3a3487a7-9abf-45f0-8057-51dabed20371",
-                                    "name": "Drupal"
-                                },
-                                {
-                                    "id": "53917c1d-52c8-41f3-86f5-166e787ece8f",
-                                    "name": "Select2"
-                                },
-                                {
-                                    "id": "61c04bbf-9962-45df-8971-a7b55daaf458",
-                                    "name": "MariaDB"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "65c23bd9-d000-41cc-906d-eb35f39061d2",
-                        "name": "https://world101.cfr.org/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://world101.cfr.org/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "24b60ab2-1a7b-4e05-9a7e-d0c5ceb8967c",
-                                    "name": "Incapsula"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "4592d652-bb2d-4ab9-8720-08fe80de0dc4",
-                                    "name": "Backbone"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "3a3487a7-9abf-45f0-8057-51dabed20371",
-                                    "name": "Drupal"
-                                },
-                                {
-                                    "id": "61c04bbf-9962-45df-8971-a7b55daaf458",
-                                    "name": "MariaDB"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9c74bc6e-d2a4-4557-bcfb-feaa37a7def9",
-                        "name": "https://modeldiplomacy.cfr.org",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://modeldiplomacy.cfr.org",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "24b60ab2-1a7b-4e05-9a7e-d0c5ceb8967c",
-                                    "name": "Incapsula"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "3a3487a7-9abf-45f0-8057-51dabed20371",
-                                    "name": "Drupal"
-                                },
-                                {
-                                    "id": "61c04bbf-9962-45df-8971-a7b55daaf458",
-                                    "name": "MariaDB"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "31eeea3b-ed6a-4b60-9dff-819ff283ad2a",
-                        "name": "https://thinkglobalhealth.org",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://thinkglobalhealth.org",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "32656748-69ab-4ee1-a2b2-3f4cfdf0e685",
-                "name": "https://subscribe.foreignaffairs.com ",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/cfr/target_groups/066f0970-9129-40e9-aac0-de475c49f126/targets",
-                "targets": [
-                    {
-                        "id": "d763a74c-7158-4111-97b8-e8f6a06e567a",
-                        "name": "https://subs.foreignaffairs.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3b02452d-6d1c-4c58-ae6a-e6014e45cea1",
-                        "name": "https://subscribe.foreignaffairs.com ",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Comcast Xfinity Bug Bounty",
         "tagline": "Welcome to the Xfinity Bug Bounty program!",
         "briefUrl": "/comcast-mbb",
@@ -70240,16 +69152,16 @@
         ]
     },
     {
-        "name": "Directly",
-        "tagline": "CX Automation",
-        "briefUrl": "/engagements/directly",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/990a/d21c/4ae0fe65/e2cd6ece639388ac6dde4715f0abe0c2_directly-marketing-logo-square-03.png",
+        "name": "Council on Foreign Relations",
+        "tagline": "\u201cTo afford a continuous conference on international questions affecting the United States...\u201d",
+        "briefUrl": "/engagements/cfr",
+        "backgroundColor": "#412c26",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/df75/aa4f/9a3fb531/6c71bed621d07bd078af1cb05746e6ac_Screen_Shot_2017-09-11_at_4.36.11_PM.png",
         "rewardSummary": {
-            "summary": "$250 - $3,000",
+            "summary": "$100 - $2,100",
             "hint": null,
-            "minReward": "$250",
-            "maxReward": "$3,000",
+            "minReward": "$100",
+            "maxReward": "$2,100",
             "compensationSummary": null,
             "compensationHint": null
         },
@@ -70266,24 +69178,943 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/directly/engagement_subscribers",
+        "subscriptionUrl": "/cfr/engagement_subscribers",
         "target_groups": [
             {
-                "id": "75cf37f8-1dde-4b5b-82d3-e44284a1f59b",
-                "name": null,
+                "id": "69aebe18-135b-461c-887f-45da1dcaea53",
+                "name": "https://thinkglobalhealth.org",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 1500.0,
+                        "max": 2100.0
+                    },
+                    "2": {
+                        "min": 800.0,
+                        "max": 1000.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 150.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/cfr/target_groups/92522773-9c61-45ad-bf75-439b42465a36/targets",
+                "targets": [
+                    {
+                        "id": "4f3a816d-6c7d-4f6a-b986-9c2ea627ea49",
+                        "name": "https://www.foreignaffairs.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.foreignaffairs.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "24b60ab2-1a7b-4e05-9a7e-d0c5ceb8967c",
+                                    "name": "Incapsula"
+                                },
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "3a3487a7-9abf-45f0-8057-51dabed20371",
+                                    "name": "Drupal"
+                                },
+                                {
+                                    "id": "61c04bbf-9962-45df-8971-a7b55daaf458",
+                                    "name": "MariaDB"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8cbb6d20-1698-4298-a321-933f46e6164e",
+                        "name": "https://www.cfr.org/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.cfr.org/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "24b60ab2-1a7b-4e05-9a7e-d0c5ceb8967c",
+                                    "name": "Incapsula"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "4592d652-bb2d-4ab9-8720-08fe80de0dc4",
+                                    "name": "Backbone"
+                                },
+                                {
+                                    "id": "3a3487a7-9abf-45f0-8057-51dabed20371",
+                                    "name": "Drupal"
+                                },
+                                {
+                                    "id": "53917c1d-52c8-41f3-86f5-166e787ece8f",
+                                    "name": "Select2"
+                                },
+                                {
+                                    "id": "61c04bbf-9962-45df-8971-a7b55daaf458",
+                                    "name": "MariaDB"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "65c23bd9-d000-41cc-906d-eb35f39061d2",
+                        "name": "https://world101.cfr.org/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://world101.cfr.org/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "24b60ab2-1a7b-4e05-9a7e-d0c5ceb8967c",
+                                    "name": "Incapsula"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "4592d652-bb2d-4ab9-8720-08fe80de0dc4",
+                                    "name": "Backbone"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "3a3487a7-9abf-45f0-8057-51dabed20371",
+                                    "name": "Drupal"
+                                },
+                                {
+                                    "id": "61c04bbf-9962-45df-8971-a7b55daaf458",
+                                    "name": "MariaDB"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9c74bc6e-d2a4-4557-bcfb-feaa37a7def9",
+                        "name": "https://modeldiplomacy.cfr.org",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://modeldiplomacy.cfr.org",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "24b60ab2-1a7b-4e05-9a7e-d0c5ceb8967c",
+                                    "name": "Incapsula"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "3a3487a7-9abf-45f0-8057-51dabed20371",
+                                    "name": "Drupal"
+                                },
+                                {
+                                    "id": "61c04bbf-9962-45df-8971-a7b55daaf458",
+                                    "name": "MariaDB"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "31eeea3b-ed6a-4b60-9dff-819ff283ad2a",
+                        "name": "https://thinkglobalhealth.org",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://thinkglobalhealth.org",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "32656748-69ab-4ee1-a2b2-3f4cfdf0e685",
+                "name": "https://subscribe.foreignaffairs.com ",
                 "description_html": "",
                 "in_scope": false,
                 "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/directly/target_groups/473b6d35-0742-4278-9519-4c976825f7bb/targets",
+                "sort_order": 1,
+                "targets_url": "/cfr/target_groups/066f0970-9129-40e9-aac0-de475c49f126/targets",
                 "targets": [
                     {
-                        "id": "5aed3c94-e5d5-479b-9a7e-c2761e59cbfa",
-                        "name": "www.directly.com",
+                        "id": "d763a74c-7158-4111-97b8-e8f6a06e567a",
+                        "name": "https://subs.foreignaffairs.com",
                         "description": null,
                         "category": "website",
                         "uri": null,
                         "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3b02452d-6d1c-4c58-ae6a-e6014e45cea1",
+                        "name": "https://subscribe.foreignaffairs.com ",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cisco Meraki",
+        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
+        "briefUrl": "/ciscomeraki",
+        "backgroundColor": "#67B346",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Electronics",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ciscomeraki/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "8a7db38d-058b-4f74-8195-2ab6556154b2",
+                "name": "Tier 1 Targets - Web",
+                "description_html": "<p>By way of clarification, the following is additional information on some of the domains that are in scope, and details around how they are used:</p>\n\n<ul>\n<li>*.ikarem.io: This domain is used for Meraki internal services, and as such, falls under the higher reward range.</li>\n<li>*.meraki.com: This domain is for the Cisco Meraki Dashboard and its integrated services.</li>\n<li>*.network-auth.com: This domain hosts user-created content for Dashboard-configured splash pages.</li>\n</ul>\n\n<p>Further public documentation can be found at <a href=\"https://documentation.meraki.com\" rel=\"nofollow noreferrer\" target=\"_blank\">https://documentation.meraki.com</a>.</p>\n\n<p>Additionally, documentation for the Cisco Meraki Dashboard API can be found at <a href=\"https://create.meraki.io/api-docs/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://create.meraki.io/api-docs/</a>.</p>\n\n<p>It's further worth noting that:</p>\n\n<ul>\n<li><p>Most products run a light web server which offers the ability to locally configure the uplink of a device, as well as to see some very basic device status information. However, the Dashboard is the ultimate administrative interface for devices, as well as the primary source for device monitoring.</p></li>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 6000.0,
+                        "max": 10000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 6000.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/ciscomeraki/target_groups/f07af7b5-0827-4253-949e-c3507bca586d/targets",
+                "targets": [
+                    {
+                        "id": "83d58594-d428-4de1-af20-a90f5244e721",
+                        "name": "*.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "5a702681-f59c-463c-b266-f9e22a1e1d8a",
+                                    "name": "Scala"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "89d2b311-7959-4f98-82a8-156989ee7506",
+                        "name": "*.ikarem.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f6f33e59-a5f5-4a1d-827b-7726cf7a0e59",
+                        "name": "*.network-auth.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7dc477a9-6740-4594-9854-191e2f8b7313",
+                        "name": "Cisco Meraki Systems Manager",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "041d5363-86a6-40b1-9a02-c20f6ab39c05",
+                                    "name": "Linux"
+                                },
+                                {
+                                    "id": "c5df6ad0-33b4-40ac-b6dd-8d4038997d40",
+                                    "name": "macOS"
+                                },
+                                {
+                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
+                                    "name": "Windows"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
+                                    "name": "Desktop Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f1b14278-b1c2-4c26-bf3d-1d1f70e8ac00",
+                        "name": "Cisco Meraki Virtual Security Appliances",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "091477d3-b800-4c87-b05f-898c93989767",
+                        "name": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "51fd4b6b-310d-41fe-9356-3257836401ad",
+                "name": "Tier 1 Targets - Hardware",
+                "description_html": "<h2>Eligibility for Meraki Hardware</h2>\n\n<p>In an effort to increase testing accessibility on Meraki's physical products, Meraki manages a merit-based program to ship devices to eligible program participants. You can find the details of this program in the <a href=\"https://bugcrowd.com/ciscomeraki/updates/0f2836c0-f0a5-48a5-90ae-fe7ac95e1179?preview=3ef7ea26f4c018c87f170bfb2a9557a4\" rel=\"nofollow noreferrer\" target=\"_blank\">Announcement</a> section of the Bounty Brief.</p>\n\n<h2>Hardware Notes</h2>\n\n<ul>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 6000.0,
+                        "max": 10000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 6000.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/ciscomeraki/target_groups/2f99c6a9-8122-4c01-8418-9f036c346243/targets",
+                "targets": [
+                    {
+                        "id": "a6f305e8-dd83-4e1a-bd31-e07bdfe54ddb",
+                        "name": "Cisco Meraki MX Security Appliances",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "88d88f36-43ac-4279-b3da-577659ae9cca",
+                        "name": "Cisco Meraki MS Switches",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f640c957-2d9b-4833-aef1-4d07854e142d",
+                        "name": "Cisco Meraki MR Access Points",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6b1081ed-bf07-42a9-a7ac-4f2bd44b35a8",
+                        "name": "Cisco Meraki MV Security Cameras",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "d7febc58-1d4d-4c69-9777-5d473211ddb4",
+                                    "name": "Surveillance and Security"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "65d73a4b-f045-4566-bfe4-3b627eae639b",
+                        "name": "Cisco Meraki Z Series (Z1,Z3(C))",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "3709afc6-19a0-48d0-ab03-ee6f8ca81a8c",
+                "name": "Tier 2 Targets",
+                "description_html": "<ul>\n<li>meraki.cisco.com: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n<li>apps.meraki.io: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 1500.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 1500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 1000.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 2,
+                "targets_url": "/ciscomeraki/target_groups/58824ade-e32d-4963-8848-4afdf08831ea/targets",
+                "targets": [
+                    {
+                        "id": "cd0b997f-c9c8-4c5f-b8de-6209655d8fa3",
+                        "name": "meraki.cisco.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://meraki.cisco.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
+                                    "name": "Adobe Experience Manager"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "961b90d9-9714-4a86-88c9-27bd5aee71cc",
+                        "name": "apps.meraki.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "20f7635e-223b-4f68-b5e5-3fb68e9f9c40",
+                "name": "Out of Scope",
+                "description_html": "<p>This program is designed to review and address security issues related to Cisco Meraki's products and applications. Please note that anything that is not explicitly listed as in-scope is considered out-of-scope. If you believe you have found a vulnerability that is outside of this program scope but related to Cisco, please refer to the below resources:</p>\n\n<ul>\n<li>If you need to report a vulnerability in a Cisco product, please contact psirt@cisco.com.</li>\n<li>If you need to contact Cisco regarding a security incident, please contact incidentresponse@cisco.com.</li>\n<li>Cisco Systems Operational Infrastructure findings can be reported here: https://bugcrowd.com/ciscosecurity</li>\n<li>Further information can be found here: https://www.cisco.com/security</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 3,
+                "targets_url": "/ciscomeraki/target_groups/c4c1cbe9-5c58-465b-a245-4600ca8b820c/targets",
+                "targets": [
+                    {
+                        "id": "8e629824-1b51-4c35-92a1-eaf0221141a1",
+                        "name": "*.cisco.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f1cadf69-5c28-4727-9732-671ee7d8ecb2",
+                        "name": "meraki.cisco.com/form/contact",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0347c228-463a-4dc5-bb9e-4e457983dcb2",
+                        "name": "merakipartners.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0a9b0e3f-2591-44ea-b3ca-68e7b294fbab",
+                        "name": "smhelp.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b34c67c6-992d-49d2-a49c-25e9825cffcd",
+                        "name": "documentation.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
                         "target": {
                             "tags": [
                                 {
@@ -70297,8 +70128,8 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "eb6c1f75-fb88-4758-b337-eaa57bdf569d",
-                        "name": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                        "id": "a681f7ae-4df1-443c-a9a0-95571016ef05",
+                        "name": "community.meraki.com",
                         "description": null,
                         "category": "website",
                         "uri": null,
@@ -70316,8 +70147,8 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c17d92c2-50b2-4497-9d52-4acf04725915",
-                        "name": "resources.directly.com/*",
+                        "id": "b62a70bc-2f02-4818-ad99-38d6b7f2abcb",
+                        "name": "community-staging.meraki.com",
                         "description": null,
                         "category": "website",
                         "uri": null,
@@ -70333,92 +70164,10 @@
                         "sort_order": 6,
                         "display_known_issues": false,
                         "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "94d9ace4-258b-47ab-9ab7-84db2e896688",
-                "name": "In Scope Targets ",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2500.0,
-                        "max": 3000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 750.0
-                    },
-                    "4": {
-                        "min": 250.0,
-                        "max": 300.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/directly/target_groups/883bfaf9-01d5-4efe-8ffb-7ea6f036b976/targets",
-                "targets": [
-                    {
-                        "id": "5f40a619-64e5-4ce0-8e1d-c97f2ea81b04",
-                        "name": "https://sandbox.directly.com/dashboard/index",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://sandbox.directly.com/dashboard/index",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
                     },
                     {
-                        "id": "dc383aee-f24c-443a-a474-10db4c3568a1",
-                        "name": "*.sandbox.directly.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "282e4776-cb36-4934-86fd-865dcaf108f2",
-                        "name": "app.sandbox.directly.com",
+                        "id": "35423522-a9b3-439f-bafa-0c57028c52a0",
+                        "name": "developers.meraki.com",
                         "description": null,
                         "category": "website",
                         "uri": null,
@@ -70431,7 +70180,58 @@
                                 }
                             ]
                         },
-                        "sort_order": 2,
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "483ed6e7-bd4f-439e-9403-e57da03eec3e",
+                        "name": "Customer API Keys",
+                        "description": null,
+                        "category": "api",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d7f57c67-b74c-4348-b790-027eb3a14505",
+                        "name": "Meraki MC Phones",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "81e5e787-45fd-46dd-a79e-b1de749de8fc",
+                        "name": "Insecure Direct Object References (IDORs)",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 10,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -72434,6 +72234,206 @@
                             "tags": []
                         },
                         "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Directly",
+        "tagline": "CX Automation",
+        "briefUrl": "/engagements/directly",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/990a/d21c/4ae0fe65/e2cd6ece639388ac6dde4715f0abe0c2_directly-marketing-logo-square-03.png",
+        "rewardSummary": {
+            "summary": "$250 - $3,000",
+            "hint": null,
+            "minReward": "$250",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/directly/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "75cf37f8-1dde-4b5b-82d3-e44284a1f59b",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 0,
+                "targets_url": "/directly/target_groups/473b6d35-0742-4278-9519-4c976825f7bb/targets",
+                "targets": [
+                    {
+                        "id": "5aed3c94-e5d5-479b-9a7e-c2761e59cbfa",
+                        "name": "www.directly.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "eb6c1f75-fb88-4758-b337-eaa57bdf569d",
+                        "name": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c17d92c2-50b2-4497-9d52-4acf04725915",
+                        "name": "resources.directly.com/*",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "94d9ace4-258b-47ab-9ab7-84db2e896688",
+                "name": "In Scope Targets ",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2500.0,
+                        "max": 3000.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 750.0
+                    },
+                    "4": {
+                        "min": 250.0,
+                        "max": 300.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/directly/target_groups/883bfaf9-01d5-4efe-8ffb-7ea6f036b976/targets",
+                "targets": [
+                    {
+                        "id": "5f40a619-64e5-4ce0-8e1d-c97f2ea81b04",
+                        "name": "https://sandbox.directly.com/dashboard/index",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://sandbox.directly.com/dashboard/index",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "dc383aee-f24c-443a-a474-10db4c3568a1",
+                        "name": "*.sandbox.directly.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "282e4776-cb36-4934-86fd-865dcaf108f2",
+                        "name": "app.sandbox.directly.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
