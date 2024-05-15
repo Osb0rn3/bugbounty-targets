@@ -20577,85 +20577,137 @@
         },
         "domains": [
             {
-                "id": "e79e3d44-c06d-418b-b9bd-5f0ee3c43d29",
+                "id": "48784f7f-48d7-4fc2-b0ab-1f72cd240a5d",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": " https://api-dashboard.stag.henchman.io",
+                "endpoint": "add-in.eu.stag.henchman.io",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": null
+                "description": "### Regional Add-In\n**Type:** `FRONTEND`  \n\n**Description:**  \nThis is where users are directed after logging in. It serves as the regional frontend, where users primarily manage, draft, and review their contracts.\n\n**APIs Used:**  \n- https://api-auth.stag.henchman.io\n- https://api-search.stag.henchman.io"
             },
             {
-                "id": "02547ab2-1340-409a-8662-6a4d3bbbf9df",
+                "id": "c3dbeaab-faa1-43da-9d0d-eb3253b61bea",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": " https://api-search.stag.henchman.io",
+                "endpoint": "add-in.stag.henchman.io",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": null
+                "description": "### Global Add-In Authentication Portal\n**Type:** `FRONTEND`  \n\n**Description:**  \nThis portal serves as the main gateway for users of our Microsoft Word and Outlook add-ins. It hosts our global authentication frontend assets, directing users to the appropriate regional (EU / US) add-in frontend after login.\n\n**APIs Used:**  \n- https://api-auth-relay.stag.henchman.io\n\n**Credentials:**  \nAccess requires credentials obtained via the credential tool, which offers two types of credentials. For this endpoint, user credentials are required and are identical to those used for accessing the dashboard."
             },
             {
-                "id": "9ad2d75c-dc8f-4420-81e5-510f01ecd842",
+                "id": "da702bbb-091b-4a4c-86af-6bb9d29c2053",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://add-in.stag.henchman.io",
+                "endpoint": "api-auth-relay.stag.henchman.io",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is our ***add-in***.\n\n**Credentials**\nTo access the add-in, you are required to obtain credentials through the credential tool provided. This tool offers two distinct types of credentials. Specifically, for interacting with this endpoint, you will need to use the user credentials, which are identical to those utilized for the dashboard.\n\nHere you can search for the analyzed data. You will see this data after your integration is finished.\n\nhttps://youtu.be/BF1bsN2JpBY"
+                "description": "### Auth Relay API\n**Type:** `API`  \n\n**Description:**  \nOur global authentication relay API manages authentication requests and provides necessary details to redirect users to the correct regional frontends."
             },
             {
-                "id": "f3a4d9e6-922f-4264-be54-ee8ade303a1f",
+                "id": "ba661714-8104-486d-b11c-9dd936edfcef",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://auth.stag.henchman.io",
+                "endpoint": "api-auth.stag.henchman.io",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": null
+                "description": "### Auth API\n**Type:** `API`  \n\n**Description:**  \nThis API manages the validation of authentication tokens and provides user/tenant data."
             },
             {
-                "id": "ee6a88c5-85cb-43a5-b4f8-e7d7ff76035b",
+                "id": "dfd90729-12e4-4246-9396-9b73c4a35023",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://dashboard.stag.henchman.io",
+                "endpoint": "api-dashboard.stag.henchman.io",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is our ***dashboard***, which you can use to add an integration.\n\nWe've created an `Intigriti` tenant.\n\n**Credentials**\nTo access the dashboard, you are required to obtain credentials through the credential tool provided. This tool offers two distinct types of credentials. Specifically, for interacting with this endpoint, you will need to use the user credentials, which are identical to those utilized for the add-in.\n\nhttps://youtu.be/BF1bsN2JpBY"
+                "description": "### Dashboard API\n**Type:** `API`  \n\n**Description:**  \nResponsible for managing requests originating from the regional dashboard frontend."
             },
             {
-                "id": "45ddcecc-a4c0-413b-88b0-5c4eba872bea",
+                "id": "0a33b0b4-4a1e-4720-a494-01d5f746fde2",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://ops-dashboard.stag.henchman.io",
+                "endpoint": "api-ops.stag.henchman.io",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is our ***operations dashboard***, you will need this to make sure the integration flow goes as smooth as possible. Integration connections that have been made by the customer/tenant on the *dashboard* will need to be approved here first. Also, this platform will give you extra information about the state of the integration. An integration can only be deleted on the *operations dashboard*.\n\n**Credentials**\nTo access the dashboard, you are required to obtain credentials through the credential tool provided. This tool offers two distinct types of credentials. Specifically, for interacting with this endpoint, you will need to use the user credentials, which are identical to those utilized for the add-in.\n\nhttps://youtu.be/BF1bsN2JpBY\n\n\u26a0\ufe0f It's important that you use this ops-dashboard only for you own integration flow. \u26a0\ufe0f"
+                "description": "### OPS API\n**Type:** `API`  \n\n**Description:**  \nManages requests originating from the operations dashboard frontend."
             },
             {
-                "id": "4588b836-2c62-40b8-986d-79745520d7c4",
+                "id": "130c47a6-f240-48ea-96f5-962729719a7a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api-search.stag.henchman.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "### Search API\n**Type:** `API`  \n\n**Description:**  \nHandles all search queries and other search-related data requests."
+            },
+            {
+                "id": "3f2c06b9-e238-4da4-8e17-2fbf3fc5044f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "dashboard.eu.stag.henchman.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "### Regional Dashboard\n**Type:** `FRONTEND`  \n\n**Description:**  \nAfter login, users reach this regional dashboard frontend, where they set up their Document Management System (DMS) integration.\n\n**APIs Used:**  \n- https://api-auth.stag.henchman.io\n- https://api-dashboard.stag.henchman.io"
+            },
+            {
+                "id": "ad89aaa4-2780-4429-96b7-fb923660ecff",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "dashboard.stag.henchman.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "### Global Dashboard Authentication Portal\n**Type:** `FRONTEND`  \n\n**Description:**  \nActs as the main entry point for our customer dashboard, providing global dashboard authentication frontend assets. Users log in here and are redirected to the regional (EU / US) dashboard frontend.\n\n**APIs Used:**  \n- https://api-auth-relay.stag.henchman.io\n\n**Credentials:**  \nAccess requires credentials obtained via the credential tool, which offers two types of credentials. For this endpoint, user credentials are required and are identical to those used for accessing the add-in."
+            },
+            {
+                "id": "d0af2ab6-c27e-4620-945d-33dad0d2ef00",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ops-dashboard.stag.henchman.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "### OPS Dashboard\n**Type:** `FRONTEND`  \n\n**Description:**  \nThis internal operations dashboard is crucial for monitoring and managing integration flows. It requires approval of integration connections made by customers or tenants and provides detailed integration statuses. Only here can integrations be deleted.\n\n**APIs Used:**  \n- https://api-ops.stag.henchman.io\n\n**Credentials:**  \nAccess requires credentials obtained via the credential tool, which offers two types of credentials. For this endpoint, staff credentials are required."
+            },
+            {
+                "id": "66da2a7f-e5a4-4682-85c4-c22af44455f4",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
@@ -20665,7 +20717,20 @@
                     "id": 1,
                     "value": "No Bounty"
                 },
-                "description": "For the Dashboard, Auth, Add-in and API endpoints - Do NOT test these on production. Please use the staging environments listed in the above domains section. "
+                "description": null
+            },
+            {
+                "id": "93595790-62a6-45bb-87dd-8be0791d6908",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.henchman.io",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "## IMPORTANT:\nSubmissions concerning endpoints other than the staging ones specified above are considered out of scope. Any reports related to out-of-scope endpoints will not be eligible for a bounty reward."
             }
         ]
     },
