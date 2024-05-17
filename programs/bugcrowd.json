@@ -23310,10 +23310,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/hotdoc/target_groups/9c158567-3622-410b-9f51-340c95fe1f0c/targets",
+                "targets_url": "/hotdoc/target_groups/e59883d8-a916-4cb7-a1b9-bd31ccbf49e0/targets",
                 "targets": [
                     {
-                        "id": "fd8a8749-4478-444c-b312-1b79a28ad2ce",
+                        "id": "f1a337a7-435a-4ec4-b3c1-f01cfdd47599",
                         "name": "https://bugcrowd.hotdoc.com.au (Patients)",
                         "description": null,
                         "category": "website",
@@ -23336,7 +23336,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "fff0c9ed-3839-46f8-b5f9-4ae4cd40790c",
+                        "id": "a4021d3b-0568-44cf-9ba3-c225b3301635",
                         "name": "https://bugcrowd.hotdoc.com.au/dashboard (Clinic Dashboard)",
                         "description": null,
                         "category": "website",
@@ -23359,7 +23359,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "0cc86790-680f-4735-9191-bc0ffa8a9975",
+                        "id": "82785f5e-fe5e-440a-9c2d-4e057bd8f261",
                         "name": "https://bugcrowd.hotdoc.com.au/api",
                         "description": null,
                         "category": "api",
@@ -23386,14 +23386,14 @@
             {
                 "id": "faaf821c-e486-4f52-aaed-1faf33d0c937",
                 "name": "Out of Scope",
-                "description_html": "<ul>\n<li>Scanning should be limited to 2 requests per second</li>\n<li>No Denial of Service testing, including app level DOS</li>\n<li>Please do not send recurring demo or registration SMSs, testing for rate limits is out of scope for this functionality</li>\n<li><strong>Clinic User privilege escalation - we're aware of broken authorization which allows Clinic Users to interact with products they cannot see in the UI via the API directly</strong></li>\n<li>Cross-Site Scripting - we're aware of a bug in our user-input validation logic which allows for some Cross-Site Scripting attacks, both from Clinic User to Clinic User and Clinic User to Patient User</li>\n<li>Unauthenticated messages to the Zendesk API - we allow unauthenticated users to use both our Support Centre and the Zendesk widget without requiring them to log in. This is an acceptable risk to us as a business.</li>\n</ul>",
+                "description_html": "<ul>\n<li>Scanning should be limited to 2 requests per second</li>\n<li>No Denial of Service testing, including app level DOS</li>\n<li>Please do not send recurring demo or registration SMSs, testing for rate limits is out of scope for this functionality</li>\n<li><strong>Clinic User privilege escalation - we're aware of broken authorization which allows Clinic Users to interact with products they cannot see in the UI via the API directly</strong></li>\n<li>Cross-Site Scripting - we're aware of a bug in our user-input validation logic which allows for some Cross-Site Scripting attacks, both from Clinic User to Clinic User and Clinic User to Patient User</li>\n<li>Unauthenticated messages to the Zendesk API - we allow unauthenticated users to use both our Support Centre and the Zendesk widget without requiring them to log in. This is an acceptable risk to us as a business.</li>\n<li>Dumps of credentials found online containing data relating to HotDoc users will qualify for a small reward, but, without showing evidence of a security vulnerability on our platform will be marked as Informational.</li>\n</ul>",
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 1,
-                "targets_url": "/hotdoc/target_groups/08cf19e6-3d7a-4e18-917b-e9932fcbaa54/targets",
+                "targets_url": "/hotdoc/target_groups/7ca0199b-a31d-4bc5-b40e-eda3764a8ce0/targets",
                 "targets": [
                     {
-                        "id": "8dcd492f-1740-493a-ad08-4061548e6060",
+                        "id": "fc87efe9-43dc-4bd4-85f8-62e8457aaebb",
                         "name": "IoS App",
                         "description": null,
                         "category": "ios",
@@ -23428,7 +23428,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "3aee66da-704b-465c-8937-c703ea3ed2c7",
+                        "id": "b64281fc-b15e-4c33-9d22-114c70666bd3",
                         "name": "Android App",
                         "description": null,
                         "category": "android",
@@ -23459,7 +23459,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "b74b59a1-a56e-47f3-bc5d-9e5dc234ab85",
+                        "id": "4f6e6528-12c1-4b7e-9848-e6eb382da77e",
                         "name": " https://try.hotdoc.com.au/hotdoc-profiles",
                         "description": null,
                         "category": "website",
@@ -61496,6 +61496,78 @@
         ]
     },
     {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "FIS",
         "tagline": "Advancing the ways the world pays, banks and invests.",
         "briefUrl": "/fis",
@@ -61581,78 +61653,6 @@
                         "category": "website",
                         "uri": "https://apuat-aaa.fisglobal.com",
                         "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
                         "target": {
                             "tags": []
                         },
