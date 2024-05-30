@@ -65219,6 +65219,232 @@
         ]
     },
     {
+        "name": "Bitstamp",
+        "tagline": "The original global crypto exchange",
+        "briefUrl": "/engagements/bitstamp",
+        "backgroundColor": "#003b2f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d91/8079/d9dee082/857e366c43e968894a3b13a2ffe27d7a_Frame_1.png",
+        "rewardSummary": {
+            "summary": "$100 - $7,500",
+            "hint": "Up to $100,000",
+            "minReward": "$100",
+            "maxReward": "$7,500",
+            "compensationSummary": "Up to $100,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bitstamp/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "8305221e-085e-44f0-82bc-fb9619db6f0f",
+                "name": "Primary Targets",
+                "description_html": "<p>You are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 7500.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 4000.0
+                    },
+                    "3": {
+                        "min": 600.0,
+                        "max": 1500.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 600.0
+                    },
+                    "program_max": 100000
+                },
+                "sort_order": 0,
+                "targets_url": "/bitstamp/target_groups/76afee7a-7e3d-419a-8955-56683762fe8a/targets",
+                "targets": [
+                    {
+                        "id": "c1e67b7c-9644-4a88-ab17-44120c2260bd",
+                        "name": "www.bitstamp.net - Bitstamp Application & API",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.bitstamp.net/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "6bf30795-7930-4c2b-bb79-d2c4f15f7740",
+                                    "name": "Finance"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
+                                    "name": "Cryptocurrency"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "1f056d5e-252f-46b3-aae8-452cfb1e92cf",
+                "name": "Secondary Targets",
+                "description_html": "<p>Secondary targets include all *.bitstamp.net subdomains which are not in primary scope. Some subdomains may point to 3rd party services - please avoid any active tests against such domains.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 750.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 750.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 300.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/bitstamp/target_groups/3c98b180-8547-4918-8f89-51bd173660aa/targets",
+                "targets": [
+                    {
+                        "id": "f4b36d1b-4429-423e-b41e-e3d1bdc35797",
+                        "name": "*.bitstamp.net - Bitstamp Supporting Services",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "88ff9167-2ce4-43b8-a07a-0dde54acf83a",
+                "name": "Mobile Targets",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 750.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 2,
+                "targets_url": "/bitstamp/target_groups/5a667dd6-bbbc-43b9-a0b9-dda9ff1563d8/targets",
+                "targets": [
+                    {
+                        "id": "f5aa2993-40c7-429f-b8e1-377796a463ee",
+                        "name": "Bitstamp Pro Mobile Application for Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.app",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2ef74411-8fe6-49d5-917d-e4138eec3a3a",
+                        "name": "Bitstamp Mobile Application For Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.appgo",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "67a9a379-5766-4e5b-952f-c70cb7bea9da",
+                        "name": "Bitstamp Mobile Application for iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/us/app/bitstamp/id1406825640",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Comcast Xfinity Bug Bounty",
         "tagline": "Welcome to the Xfinity Bug Bounty program!",
         "briefUrl": "/comcast-mbb",
@@ -65588,232 +65814,6 @@
                             "tags": []
                         },
                         "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Bitstamp",
-        "tagline": "The original global crypto exchange",
-        "briefUrl": "/engagements/bitstamp",
-        "backgroundColor": "#003b2f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d91/8079/d9dee082/857e366c43e968894a3b13a2ffe27d7a_Frame_1.png",
-        "rewardSummary": {
-            "summary": "$100 - $7,500",
-            "hint": "Up to $100,000",
-            "minReward": "$100",
-            "maxReward": "$7,500",
-            "compensationSummary": "Up to $100,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bitstamp/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "8305221e-085e-44f0-82bc-fb9619db6f0f",
-                "name": "Primary Targets",
-                "description_html": "<p>You are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 7500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 4000.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 1500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 600.0
-                    },
-                    "program_max": 100000
-                },
-                "sort_order": 0,
-                "targets_url": "/bitstamp/target_groups/76afee7a-7e3d-419a-8955-56683762fe8a/targets",
-                "targets": [
-                    {
-                        "id": "c1e67b7c-9644-4a88-ab17-44120c2260bd",
-                        "name": "www.bitstamp.net - Bitstamp Application & API",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.bitstamp.net/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "6bf30795-7930-4c2b-bb79-d2c4f15f7740",
-                                    "name": "Finance"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
-                                    "name": "Cryptocurrency"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "1f056d5e-252f-46b3-aae8-452cfb1e92cf",
-                "name": "Secondary Targets",
-                "description_html": "<p>Secondary targets include all *.bitstamp.net subdomains which are not in primary scope. Some subdomains may point to 3rd party services - please avoid any active tests against such domains.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 750.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 750.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 300.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/bitstamp/target_groups/3c98b180-8547-4918-8f89-51bd173660aa/targets",
-                "targets": [
-                    {
-                        "id": "f4b36d1b-4429-423e-b41e-e3d1bdc35797",
-                        "name": "*.bitstamp.net - Bitstamp Supporting Services",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "88ff9167-2ce4-43b8-a07a-0dde54acf83a",
-                "name": "Mobile Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 750.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/bitstamp/target_groups/5a667dd6-bbbc-43b9-a0b9-dda9ff1563d8/targets",
-                "targets": [
-                    {
-                        "id": "f5aa2993-40c7-429f-b8e1-377796a463ee",
-                        "name": "Bitstamp Pro Mobile Application for Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.app",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2ef74411-8fe6-49d5-917d-e4138eec3a3a",
-                        "name": "Bitstamp Mobile Application For Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.appgo",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "67a9a379-5766-4e5b-952f-c70cb7bea9da",
-                        "name": "Bitstamp Mobile Application for iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/bitstamp/id1406825640",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
