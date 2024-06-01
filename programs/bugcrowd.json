@@ -63479,6 +63479,675 @@
         ]
     },
     {
+        "name": "Bitstamp",
+        "tagline": "The original global crypto exchange",
+        "briefUrl": "/engagements/bitstamp",
+        "backgroundColor": "#003b2f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d91/8079/d9dee082/857e366c43e968894a3b13a2ffe27d7a_Frame_1.png",
+        "rewardSummary": {
+            "summary": "$100 - $7,500",
+            "hint": "Up to $100,000",
+            "minReward": "$100",
+            "maxReward": "$7,500",
+            "compensationSummary": "Up to $100,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bitstamp/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "8305221e-085e-44f0-82bc-fb9619db6f0f",
+                "name": "Primary Targets",
+                "description_html": "<p>You are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 7500.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 4000.0
+                    },
+                    "3": {
+                        "min": 600.0,
+                        "max": 1500.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 600.0
+                    },
+                    "program_max": 100000
+                },
+                "sort_order": 0,
+                "targets_url": "/bitstamp/target_groups/76afee7a-7e3d-419a-8955-56683762fe8a/targets",
+                "targets": [
+                    {
+                        "id": "c1e67b7c-9644-4a88-ab17-44120c2260bd",
+                        "name": "www.bitstamp.net - Bitstamp Application & API",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.bitstamp.net/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "6bf30795-7930-4c2b-bb79-d2c4f15f7740",
+                                    "name": "Finance"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
+                                    "name": "Cryptocurrency"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "1f056d5e-252f-46b3-aae8-452cfb1e92cf",
+                "name": "Secondary Targets",
+                "description_html": "<p>Secondary targets include all *.bitstamp.net subdomains which are not in primary scope. Some subdomains may point to 3rd party services - please avoid any active tests against such domains.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 750.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 750.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 300.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/bitstamp/target_groups/3c98b180-8547-4918-8f89-51bd173660aa/targets",
+                "targets": [
+                    {
+                        "id": "f4b36d1b-4429-423e-b41e-e3d1bdc35797",
+                        "name": "*.bitstamp.net - Bitstamp Supporting Services",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "88ff9167-2ce4-43b8-a07a-0dde54acf83a",
+                "name": "Mobile Targets",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 750.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 2,
+                "targets_url": "/bitstamp/target_groups/5a667dd6-bbbc-43b9-a0b9-dda9ff1563d8/targets",
+                "targets": [
+                    {
+                        "id": "f5aa2993-40c7-429f-b8e1-377796a463ee",
+                        "name": "Bitstamp Pro Mobile Application for Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.app",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2ef74411-8fe6-49d5-917d-e4138eec3a3a",
+                        "name": "Bitstamp Mobile Application For Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.appgo",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "67a9a379-5766-4e5b-952f-c70cb7bea9da",
+                        "name": "Bitstamp Mobile Application for iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/us/app/bitstamp/id1406825640",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ClassDojo",
+        "tagline": "ClassDojo is on a mission to help every teacher create an incredible classroom",
+        "briefUrl": "/engagements/classdojo",
+        "backgroundColor": "#575b7D",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/706e/6dc4/5694fad1/1b39412dbdeccfb31985fa1cd611c522_dojo_logo.png",
+        "rewardSummary": {
+            "summary": "Points - $2,100",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$2,100",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Education",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/classdojo/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "cf2178af-6ec8-49b7-8412-976756de6ca6",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 1000.0,
+                        "max": 2100.0
+                    },
+                    "2": {
+                        "min": 500.0,
+                        "max": 1000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 450.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 150.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/classdojo/target_groups/898d2eab-8b2c-4edf-8c58-eea505cc7a09/targets",
+                "targets": [
+                    {
+                        "id": "093f30fb-c21c-4f5f-831c-9fcedbc5ac01",
+                        "name": "IoS App",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
+                                    "name": "Binary Analysis"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b3ecf1f5-5205-445a-99e4-31f7f7b856b9",
+                        "name": "Android App",
+                        "description": null,
+                        "category": "android",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
+                                    "name": "Binary Analysis"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e4f7c9f3-cdd7-4024-8c28-d5095891a5c8",
+                        "name": "https://teach.classdojo.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://teach.classdojo.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d6025cc5-d904-474d-8fb5-4df07f99235d",
+                        "name": "https://home.classdojo.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://home.classdojo.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "be6bcdd9-ce98-4032-bc24-89710fb441a3",
+                        "name": "https://student.classdojo.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://student.classdojo.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3"
+                                },
+                                {
+                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
+                                    "name": "Amazon Cloudfront"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "227c3b63-fb08-4b53-9ec2-254af43bfe41",
+                        "name": "https://www.classdojo.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.classdojo.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "21bf0b21-e645-4730-b030-be773c64efc7",
+                                    "name": "Gatsby"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3"
+                                },
+                                {
+                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
+                                    "name": "Amazon Cloudfront"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a08b210f-ca62-4458-8eb2-748a9050c0e4",
+                        "name": "https://api.classdojo.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.classdojo.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b7fb57ce-aaa8-4892-b067-94df2e2f784f",
+                        "name": "https://ticket.multiplayer.classdojo.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://ticket.multiplayer.classdojo.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3c0c087e-de81-47d9-91af-274eee98a3c7",
+                        "name": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "99ca2995-ee48-4732-bff1-30f40673e5d1",
+                        "name": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "17c0fade-7a57-421d-986d-a1b65e5ceffb",
+                        "name": "wss://ws.multiplayer.classdojo.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://ws.multiplayer.classdojo.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6c33b551-b96f-416c-94ab-83e733c6a333",
+                        "name": "https://dev.tutoring.classdojo.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://dev.tutoring.classdojo.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Cisco Meraki",
         "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
         "briefUrl": "/ciscomeraki",
@@ -64217,1052 +64886,6 @@
         ]
     },
     {
-        "name": "Bitstamp",
-        "tagline": "The original global crypto exchange",
-        "briefUrl": "/engagements/bitstamp",
-        "backgroundColor": "#003b2f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d91/8079/d9dee082/857e366c43e968894a3b13a2ffe27d7a_Frame_1.png",
-        "rewardSummary": {
-            "summary": "$100 - $7,500",
-            "hint": "Up to $100,000",
-            "minReward": "$100",
-            "maxReward": "$7,500",
-            "compensationSummary": "Up to $100,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bitstamp/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "8305221e-085e-44f0-82bc-fb9619db6f0f",
-                "name": "Primary Targets",
-                "description_html": "<p>You are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 7500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 4000.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 1500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 600.0
-                    },
-                    "program_max": 100000
-                },
-                "sort_order": 0,
-                "targets_url": "/bitstamp/target_groups/76afee7a-7e3d-419a-8955-56683762fe8a/targets",
-                "targets": [
-                    {
-                        "id": "c1e67b7c-9644-4a88-ab17-44120c2260bd",
-                        "name": "www.bitstamp.net - Bitstamp Application & API",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.bitstamp.net/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "6bf30795-7930-4c2b-bb79-d2c4f15f7740",
-                                    "name": "Finance"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
-                                    "name": "Cryptocurrency"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "1f056d5e-252f-46b3-aae8-452cfb1e92cf",
-                "name": "Secondary Targets",
-                "description_html": "<p>Secondary targets include all *.bitstamp.net subdomains which are not in primary scope. Some subdomains may point to 3rd party services - please avoid any active tests against such domains.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 750.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 750.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 300.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/bitstamp/target_groups/3c98b180-8547-4918-8f89-51bd173660aa/targets",
-                "targets": [
-                    {
-                        "id": "f4b36d1b-4429-423e-b41e-e3d1bdc35797",
-                        "name": "*.bitstamp.net - Bitstamp Supporting Services",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "88ff9167-2ce4-43b8-a07a-0dde54acf83a",
-                "name": "Mobile Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 750.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/bitstamp/target_groups/5a667dd6-bbbc-43b9-a0b9-dda9ff1563d8/targets",
-                "targets": [
-                    {
-                        "id": "f5aa2993-40c7-429f-b8e1-377796a463ee",
-                        "name": "Bitstamp Pro Mobile Application for Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.app",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2ef74411-8fe6-49d5-917d-e4138eec3a3a",
-                        "name": "Bitstamp Mobile Application For Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.appgo",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "67a9a379-5766-4e5b-952f-c70cb7bea9da",
-                        "name": "Bitstamp Mobile Application for iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/bitstamp/id1406825640",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "ClassDojo",
-        "tagline": "ClassDojo is on a mission to help every teacher create an incredible classroom",
-        "briefUrl": "/engagements/classdojo",
-        "backgroundColor": "#575b7D",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/706e/6dc4/5694fad1/1b39412dbdeccfb31985fa1cd611c522_dojo_logo.png",
-        "rewardSummary": {
-            "summary": "Points - $2,100",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,100",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Education",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/classdojo/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "cf2178af-6ec8-49b7-8412-976756de6ca6",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1000.0,
-                        "max": 2100.0
-                    },
-                    "2": {
-                        "min": 500.0,
-                        "max": 1000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 450.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 150.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/classdojo/target_groups/898d2eab-8b2c-4edf-8c58-eea505cc7a09/targets",
-                "targets": [
-                    {
-                        "id": "093f30fb-c21c-4f5f-831c-9fcedbc5ac01",
-                        "name": "IoS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
-                                    "name": "Binary Analysis"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b3ecf1f5-5205-445a-99e4-31f7f7b856b9",
-                        "name": "Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
-                                    "name": "Binary Analysis"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e4f7c9f3-cdd7-4024-8c28-d5095891a5c8",
-                        "name": "https://teach.classdojo.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://teach.classdojo.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d6025cc5-d904-474d-8fb5-4df07f99235d",
-                        "name": "https://home.classdojo.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://home.classdojo.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "be6bcdd9-ce98-4032-bc24-89710fb441a3",
-                        "name": "https://student.classdojo.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://student.classdojo.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "227c3b63-fb08-4b53-9ec2-254af43bfe41",
-                        "name": "https://www.classdojo.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.classdojo.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "21bf0b21-e645-4730-b030-be773c64efc7",
-                                    "name": "Gatsby"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a08b210f-ca62-4458-8eb2-748a9050c0e4",
-                        "name": "https://api.classdojo.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.classdojo.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b7fb57ce-aaa8-4892-b067-94df2e2f784f",
-                        "name": "https://ticket.multiplayer.classdojo.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://ticket.multiplayer.classdojo.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3c0c087e-de81-47d9-91af-274eee98a3c7",
-                        "name": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "99ca2995-ee48-4732-bff1-30f40673e5d1",
-                        "name": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "17c0fade-7a57-421d-986d-a1b65e5ceffb",
-                        "name": "wss://ws.multiplayer.classdojo.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://ws.multiplayer.classdojo.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6c33b551-b96f-416c-94ab-83e733c6a333",
-                        "name": "https://dev.tutoring.classdojo.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://dev.tutoring.classdojo.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Comcast Xfinity Bug Bounty",
-        "tagline": "Welcome to the Xfinity Bug Bounty program!",
-        "briefUrl": "/comcast-mbb",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/605d/97ab/be55d53b/3b8b67094243191dc0132258430846b4_comcast.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $3,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/comcast-mbb/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0faff854-b16e-40ba-8584-9f24d1918de8",
-                "name": "Primary Targets",
-                "description_html": "<p>Our new Xfinity Bug Bounty program aims to encompass all the technologies, products, and services that create the Xfinity consumer experience.</p>\n\n<p>All endpoints called by these services and applications are in-scope unless specifically listed in the exclusions. If you are unsure if something is owned or maintained by us, please contact us for clarification.</p>\n\n<p>Systems that contain production data and demonstrate clear operational risks to the business when vulnerable are considered primary targets. All other systems will be considered secondary targets.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1200.0,
-                        "max": 3500.0
-                    },
-                    "2": {
-                        "min": 600.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 250.0,
-                        "max": 600.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/comcast-mbb/target_groups/bb1d7bfb-1a50-4461-8ae1-14ae5d9b1a0a/targets",
-                "targets": [
-                    {
-                        "id": "1cd11b82-a8d9-4bf6-9597-10bdfb4e41a4",
-                        "name": "*.xfinity.com\t",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "11ba2fd8-bd91-407b-b0e6-9e4657fdaa64",
-                        "name": "*.comcast.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "ed01122d-d9b5-43d7-8cd6-118ab2857744",
-                "name": "Secondary Targets",
-                "description_html": "<p>We consider secondary targets to be non-production systems with low business impact or sites that don't contain real user data.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 600.0,
-                        "max": 1750.0
-                    },
-                    "2": {
-                        "min": 300.0,
-                        "max": 600.0
-                    },
-                    "3": {
-                        "min": 125.0,
-                        "max": 300.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 125.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/comcast-mbb/target_groups/416df58d-284f-421b-8d42-7d3d181c913c/targets",
-                "targets": [
-                    {
-                        "id": "88ff54a6-df0f-426b-a1f2-18170450cf5d",
-                        "name": "Staging, QA, Dev, and Test Environments",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "bce4e384-e32c-46e7-aee1-9acb319bc29f",
-                "name": "Out of Scope",
-                "description_html": "<p>Please note that submissions out of scope in this program may be in scope for their <a href=\"https://bugcrowd.com/comcastvdp\" rel=\"nofollow noreferrer\" target=\"_blank\">Comcast Xfinity Vulnerability Disclosure Program</a>. <br>\nAll findings for Xfinity Home and xFi can be submitted directly to <a href=\"https://bugcrowd.com/xfinity-home\" rel=\"nofollow noreferrer\" target=\"_blank\">that program</a></p>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 2,
-                "targets_url": "/comcast-mbb/target_groups/bec33c6f-f51f-4d6d-8208-d16c0608223d/targets",
-                "targets": [
-                    {
-                        "id": "5d4c155b-e5fd-435a-b943-af48e80b36db",
-                        "name": "*.hfc.comcastbusiness.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4a7f0b85-9e00-4db6-b9c1-48d48d9bc677",
-                        "name": "*.hsd1.*.comcast.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c5a7eacb-87d4-429c-b474-cb4906c56456",
-                        "name": "*business.comcast.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "739d79f1-46b1-4f91-bb15-b41f0123494c",
-                        "name": "10.0.0.0/8",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "026fe5b9-da41-4bed-ba5c-70182535c338",
-                        "name": "50.128.0.0/12",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c9c9de8c-fa2d-4d79-ab49-fc49ffa4a2ae",
-                        "name": "50.152.0.0/13",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6ec0e9b7-b1a4-479a-8746-0015a55b15b2",
-                        "name": "96.201.0.0/16",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9c4d8c9f-0b6c-4753-abc4-b6553d50669d",
-                        "name": "96.202.128.0/17",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1c713e97-0ba7-4bb1-b31a-c01dc2b1b787",
-                        "name": "96.203.0.0/16",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f3cd5d9b-4bad-4467-a55f-ea0caa0b7428",
-                        "name": "172.26.128.0/18",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "267591cf-d768-4bf4-adfc-a84ed5141498",
-                        "name": "184.112.0.0/13",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ea5845c9-6a0a-44f4-ad1a-ae34a6fe71b9",
-                        "name": "184.122.0.0/15",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Rarible",
         "tagline": "Help us secure the future!",
         "briefUrl": "/engagements/rarible-ogmbb",
@@ -65814,6 +65437,383 @@
                             "tags": []
                         },
                         "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Comcast Xfinity Bug Bounty",
+        "tagline": "Welcome to the Xfinity Bug Bounty program!",
+        "briefUrl": "/comcast-mbb",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/605d/97ab/be55d53b/3b8b67094243191dc0132258430846b4_comcast.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $3,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/comcast-mbb/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "0faff854-b16e-40ba-8584-9f24d1918de8",
+                "name": "Primary Targets",
+                "description_html": "<p>Our new Xfinity Bug Bounty program aims to encompass all the technologies, products, and services that create the Xfinity consumer experience.</p>\n\n<p>All endpoints called by these services and applications are in-scope unless specifically listed in the exclusions. If you are unsure if something is owned or maintained by us, please contact us for clarification.</p>\n\n<p>Systems that contain production data and demonstrate clear operational risks to the business when vulnerable are considered primary targets. All other systems will be considered secondary targets.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 1200.0,
+                        "max": 3500.0
+                    },
+                    "2": {
+                        "min": 600.0,
+                        "max": 1200.0
+                    },
+                    "3": {
+                        "min": 250.0,
+                        "max": 600.0
+                    },
+                    "4": {
+                        "min": 50.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/comcast-mbb/target_groups/bb1d7bfb-1a50-4461-8ae1-14ae5d9b1a0a/targets",
+                "targets": [
+                    {
+                        "id": "1cd11b82-a8d9-4bf6-9597-10bdfb4e41a4",
+                        "name": "*.xfinity.com\t",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
+                                    "name": "Windows"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
+                                    "name": "Microsoft IIS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "11ba2fd8-bd91-407b-b0e6-9e4657fdaa64",
+                        "name": "*.comcast.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
+                                    "name": "Windows"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
+                                    "name": "Microsoft IIS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "ed01122d-d9b5-43d7-8cd6-118ab2857744",
+                "name": "Secondary Targets",
+                "description_html": "<p>We consider secondary targets to be non-production systems with low business impact or sites that don't contain real user data.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 600.0,
+                        "max": 1750.0
+                    },
+                    "2": {
+                        "min": 300.0,
+                        "max": 600.0
+                    },
+                    "3": {
+                        "min": 125.0,
+                        "max": 300.0
+                    },
+                    "4": {
+                        "min": 50.0,
+                        "max": 125.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/comcast-mbb/target_groups/416df58d-284f-421b-8d42-7d3d181c913c/targets",
+                "targets": [
+                    {
+                        "id": "88ff54a6-df0f-426b-a1f2-18170450cf5d",
+                        "name": "Staging, QA, Dev, and Test Environments",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "bce4e384-e32c-46e7-aee1-9acb319bc29f",
+                "name": "Out of Scope",
+                "description_html": "<p>Please note that submissions out of scope in this program may be in scope for their <a href=\"https://bugcrowd.com/comcastvdp\" rel=\"nofollow noreferrer\" target=\"_blank\">Comcast Xfinity Vulnerability Disclosure Program</a>. <br>\nAll findings for Xfinity Home and xFi can be submitted directly to <a href=\"https://bugcrowd.com/xfinity-home\" rel=\"nofollow noreferrer\" target=\"_blank\">that program</a></p>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 2,
+                "targets_url": "/comcast-mbb/target_groups/bec33c6f-f51f-4d6d-8208-d16c0608223d/targets",
+                "targets": [
+                    {
+                        "id": "5d4c155b-e5fd-435a-b943-af48e80b36db",
+                        "name": "*.hfc.comcastbusiness.net",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4a7f0b85-9e00-4db6-b9c1-48d48d9bc677",
+                        "name": "*.hsd1.*.comcast.net",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c5a7eacb-87d4-429c-b474-cb4906c56456",
+                        "name": "*business.comcast.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "739d79f1-46b1-4f91-bb15-b41f0123494c",
+                        "name": "10.0.0.0/8",
+                        "description": null,
+                        "category": "network",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "026fe5b9-da41-4bed-ba5c-70182535c338",
+                        "name": "50.128.0.0/12",
+                        "description": null,
+                        "category": "network",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c9c9de8c-fa2d-4d79-ab49-fc49ffa4a2ae",
+                        "name": "50.152.0.0/13",
+                        "description": null,
+                        "category": "network",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6ec0e9b7-b1a4-479a-8746-0015a55b15b2",
+                        "name": "96.201.0.0/16",
+                        "description": null,
+                        "category": "network",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9c4d8c9f-0b6c-4753-abc4-b6553d50669d",
+                        "name": "96.202.128.0/17",
+                        "description": null,
+                        "category": "network",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1c713e97-0ba7-4bb1-b31a-c01dc2b1b787",
+                        "name": "96.203.0.0/16",
+                        "description": null,
+                        "category": "network",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f3cd5d9b-4bad-4467-a55f-ea0caa0b7428",
+                        "name": "172.26.128.0/18",
+                        "description": null,
+                        "category": "network",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "267591cf-d768-4bf4-adfc-a84ed5141498",
+                        "name": "184.112.0.0/13",
+                        "description": null,
+                        "category": "network",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ea5845c9-6a0a-44f4-ad1a-ae34a6fe71b9",
+                        "name": "184.122.0.0/15",
+                        "description": null,
+                        "category": "network",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 11,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
