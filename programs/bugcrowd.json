@@ -59147,1228 +59147,6 @@
         ]
     },
     {
-        "name": "Caffeine",
-        "tagline": "Caffeine is a social broadcasting platform for gaming, entertainment, and the creative arts.",
-        "briefUrl": "/engagements/caffeine",
-        "backgroundColor": "#0000ff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65d9/e1a6/2e828c1b/3cfe7f72d541d0a8bb443038b7c3a181_Caffeine1024.png",
-        "rewardSummary": {
-            "summary": "$150 - $5,000",
-            "hint": "Up to $6,000",
-            "minReward": "$150",
-            "maxReward": "$5,000",
-            "compensationSummary": "Up to $6,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Entertainment",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/caffeine/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "922ba23f-68c3-42cb-bf5b-a8f44479bca3",
-                "name": "In Scope Targets ",
-                "description_html": "<h1>Latest Features and Focus Areas</h1>\n\n<p><code>Updated 01/22</code>`</p>\n\n<h4><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/84/kw/props\" rel=\"nofollow noreferrer\" target=\"_blank\">Updates to Props and Reactions</a></h4>\n\n<ul>\n<li>This covers all reactions (Messages and Props) sent to <code>LIVE</code> broadcasts</li>\n<li>The backend for this service was completely re-written and client interactions were updated as well.</li>\n<li>Focus Area: Anything you can do to impact the account's earnings/balance, spoofed props, impersonation, Broadcast Disruption</li>\n</ul>\n\n<h5><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/91\" rel=\"nofollow noreferrer\" target=\"_blank\">Mobile Broadcasting functionality Launched </a></h5>\n\n<ul>\n<li>IOS and Android apps now have the ability to broadcast!</li>\n<li>Focus Area: Broadcaster IP Exposure, Broadcast Disruption, Geolocation through device information</li>\n</ul>\n\n<h5><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/92/%7E/as-a-broadcaster%2C-how-do-i-use-replays%3F\" rel=\"nofollow noreferrer\" target=\"_blank\">Broadcasting Replays and VOD Launched</a></h5>\n\n<ul>\n<li>Focus Area: Interactions with the API. VOD Settings and permissions, injecting/replacing VOD content</li>\n<li>Known issue: captured HLS links can still be used after hiding a VOD, not applicable for reward</li>\n</ul>\n\n<h5>Video Comments and Likes</h5>\n\n<ul>\n<li>VODs can now receive comments and Likes</li>\n<li>Focus Area: Interactions with the API, spoofing comments or impersonation, arbitrary modification of Like or View counts</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 800.0,
-                        "max": 1100.0
-                    },
-                    "3": {
-                        "min": 350.0,
-                        "max": 600.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 300.0
-                    },
-                    "program_max": 6000
-                },
-                "sort_order": 0,
-                "targets_url": "/caffeine/target_groups/e080ded1-1edf-43bf-96b7-28675f6fee3f/targets",
-                "targets": [
-                    {
-                        "id": "32316e7f-5947-4a89-bd79-0a77d5a8b421",
-                        "name": "https://www.caffeine.tv/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
-                                    "name": "Stripe"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d9fad273-9565-43ef-a49a-9dce173da3e8",
-                        "name": "https://api.caffeine.tv/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0056a63b-0950-41cd-b334-d8974be8b43f",
-                        "name": "https://payments.caffeine.tv",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://payments.caffeine.tv",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "92ea0e83-cd12-4211-a244-f6947aa7e549",
-                        "name": "https://realtime.caffeine.tv/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://realtime.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7faeae6c-1aae-4762-b135-2d197c9f822d",
-                        "name": "https://preview.caffeine.tv/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://preview.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
-                                    "name": "Stripe"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "68bc83cf-6857-4e53-a5f0-33a0537339f1",
-                        "name": "https://images.caffeine.tv/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://images.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "50c2b78f-c86b-4109-a76e-817ec762d630",
-                        "name": "https://static.caffeine.tv/",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "02987f8a-77d5-4539-9439-9e4642cac31b",
-                        "name": "https://v-cf.caffeine.tv",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1e3642be-ca6d-4e58-868a-eb9eba238d7d",
-                        "name": "https://build.caffeine.tv/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://build.caffeine.tv/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "429a08e2-19f9-43d6-94a7-3c6dd3ec564a",
-                        "name": "caffeine.exe",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ccbd24a4-f100-4cc7-ab72-467df2be26f0",
-                        "name": "caffeine-helper.x86.exe",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ede10223-35a1-41b6-84fe-711b378909fa",
-                        "name": "caffeine-helper.x64.exe",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "75a5e18d-cf75-4ff7-8f40-43190fa1a89b",
-                        "name": "Caffeine iOS Application",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/caffeine-live-streaming/id1170629931",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3c7c9e96-eace-4888-bc2c-ea9cd54ddec3",
-                        "name": "Caffeine Android Application\t",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=tv.caffeine.app&hl=en_US&gl=US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1bae787a-f451-4fc7-9a82-006c1dca5c81",
-                        "name": "*.rtcdn.caffeine.tv",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "181191c3-b0d2-4f49-b723-a0cc2988d9f0",
-                "name": "Out of Scope",
-                "description_html": "<p>While fremont-*.rtcdn.caffeine.tv   </p>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/caffeine/target_groups/b1774674-60d8-424c-9745-53695cc57962/targets",
-                "targets": [
-                    {
-                        "id": "6137f413-1958-47ad-a5b7-5d357c3f0edd",
-                        "name": "https://events.caffeine.tv/",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "63931332-91c7-44db-a639-024e65a4c5af",
-                        "name": "Any Third Party Software Applications (Zendesk, etc)",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2f86ac31-c6de-418f-bf2b-362670279d32",
-                        "name": "Caffeine.custhelp.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Cisco Meraki",
-        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
-        "briefUrl": "/engagements/ciscomeraki",
-        "backgroundColor": "#67B346",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Electronics",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ciscomeraki/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "8a7db38d-058b-4f74-8195-2ab6556154b2",
-                "name": "Tier 1 Targets - Web",
-                "description_html": "<p>By way of clarification, the following is additional information on some of the domains that are in scope, and details around how they are used:</p>\n\n<ul>\n<li>*.ikarem.io: This domain is used for Meraki internal services, and as such, falls under the higher reward range.</li>\n<li>*.meraki.com: This domain is for the Cisco Meraki Dashboard and its integrated services.</li>\n<li>*.network-auth.com: This domain hosts user-created content for Dashboard-configured splash pages.</li>\n</ul>\n\n<p>Further public documentation can be found at <a href=\"https://documentation.meraki.com\" rel=\"nofollow noreferrer\" target=\"_blank\">https://documentation.meraki.com</a>.</p>\n\n<p>Additionally, documentation for the Cisco Meraki Dashboard API can be found at <a href=\"https://create.meraki.io/api-docs/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://create.meraki.io/api-docs/</a>.</p>\n\n<p>It's further worth noting that:</p>\n\n<ul>\n<li><p>Most products run a light web server which offers the ability to locally configure the uplink of a device, as well as to see some very basic device status information. However, the Dashboard is the ultimate administrative interface for devices, as well as the primary source for device monitoring.</p></li>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 6000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/ciscomeraki/target_groups/f07af7b5-0827-4253-949e-c3507bca586d/targets",
-                "targets": [
-                    {
-                        "id": "83d58594-d428-4de1-af20-a90f5244e721",
-                        "name": "*.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "5a702681-f59c-463c-b266-f9e22a1e1d8a",
-                                    "name": "Scala"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "89d2b311-7959-4f98-82a8-156989ee7506",
-                        "name": "*.ikarem.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f6f33e59-a5f5-4a1d-827b-7726cf7a0e59",
-                        "name": "*.network-auth.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7dc477a9-6740-4594-9854-191e2f8b7313",
-                        "name": "Cisco Meraki Systems Manager",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "041d5363-86a6-40b1-9a02-c20f6ab39c05",
-                                    "name": "Linux"
-                                },
-                                {
-                                    "id": "c5df6ad0-33b4-40ac-b6dd-8d4038997d40",
-                                    "name": "macOS"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f1b14278-b1c2-4c26-bf3d-1d1f70e8ac00",
-                        "name": "Cisco Meraki Virtual Security Appliances",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "091477d3-b800-4c87-b05f-898c93989767",
-                        "name": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "51fd4b6b-310d-41fe-9356-3257836401ad",
-                "name": "Tier 1 Targets - Hardware",
-                "description_html": "<h2>Eligibility for Meraki Hardware</h2>\n\n<p>In an effort to increase testing accessibility on Meraki's physical products, Meraki manages a merit-based program to ship devices to eligible program participants. You can find the details of this program in the <a href=\"https://bugcrowd.com/ciscomeraki/updates/0f2836c0-f0a5-48a5-90ae-fe7ac95e1179?preview=3ef7ea26f4c018c87f170bfb2a9557a4\" rel=\"nofollow noreferrer\" target=\"_blank\">Announcement</a> section of the Bounty Brief.</p>\n\n<h2>Hardware Notes</h2>\n\n<ul>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 6000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/ciscomeraki/target_groups/2f99c6a9-8122-4c01-8418-9f036c346243/targets",
-                "targets": [
-                    {
-                        "id": "a6f305e8-dd83-4e1a-bd31-e07bdfe54ddb",
-                        "name": "Cisco Meraki MX Security Appliances",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "88d88f36-43ac-4279-b3da-577659ae9cca",
-                        "name": "Cisco Meraki MS Switches",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f640c957-2d9b-4833-aef1-4d07854e142d",
-                        "name": "Cisco Meraki MR Access Points",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6b1081ed-bf07-42a9-a7ac-4f2bd44b35a8",
-                        "name": "Cisco Meraki MV Security Cameras",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "d7febc58-1d4d-4c69-9777-5d473211ddb4",
-                                    "name": "Surveillance and Security"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "65d73a4b-f045-4566-bfe4-3b627eae639b",
-                        "name": "Cisco Meraki Z Series (Z1,Z3(C))",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "3709afc6-19a0-48d0-ab03-ee6f8ca81a8c",
-                "name": "Tier 2 Targets",
-                "description_html": "<ul>\n<li>meraki.cisco.com: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n<li>apps.meraki.io: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 1500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 1000.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/ciscomeraki/target_groups/58824ade-e32d-4963-8848-4afdf08831ea/targets",
-                "targets": [
-                    {
-                        "id": "cd0b997f-c9c8-4c5f-b8de-6209655d8fa3",
-                        "name": "meraki.cisco.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://meraki.cisco.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
-                                    "name": "Adobe Experience Manager"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "961b90d9-9714-4a86-88c9-27bd5aee71cc",
-                        "name": "apps.meraki.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "20f7635e-223b-4f68-b5e5-3fb68e9f9c40",
-                "name": "Out of Scope",
-                "description_html": "<p>This program is designed to review and address security issues related to Cisco Meraki's products and applications. Please note that anything that is not explicitly listed as in-scope is considered out-of-scope. If you believe you have found a vulnerability that is outside of this program scope but related to Cisco, please refer to the below resources:</p>\n\n<ul>\n<li>If you need to report a vulnerability in a Cisco product, please contact psirt@cisco.com.</li>\n<li>If you need to contact Cisco regarding a security incident, please contact incidentresponse@cisco.com.</li>\n<li>Cisco Systems Operational Infrastructure findings can be reported here: https://bugcrowd.com/ciscosecurity</li>\n<li>Further information can be found here: https://www.cisco.com/security</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 3,
-                "targets_url": "/ciscomeraki/target_groups/c4c1cbe9-5c58-465b-a245-4600ca8b820c/targets",
-                "targets": [
-                    {
-                        "id": "8e629824-1b51-4c35-92a1-eaf0221141a1",
-                        "name": "*.cisco.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f1cadf69-5c28-4727-9732-671ee7d8ecb2",
-                        "name": "meraki.cisco.com/form/contact",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0347c228-463a-4dc5-bb9e-4e457983dcb2",
-                        "name": "merakipartners.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0a9b0e3f-2591-44ea-b3ca-68e7b294fbab",
-                        "name": "smhelp.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b34c67c6-992d-49d2-a49c-25e9825cffcd",
-                        "name": "documentation.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a681f7ae-4df1-443c-a9a0-95571016ef05",
-                        "name": "community.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b62a70bc-2f02-4818-ad99-38d6b7f2abcb",
-                        "name": "community-staging.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "35423522-a9b3-439f-bafa-0c57028c52a0",
-                        "name": "developers.meraki.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "483ed6e7-bd4f-439e-9403-e57da03eec3e",
-                        "name": "Customer API Keys",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d7f57c67-b74c-4348-b790-027eb3a14505",
-                        "name": "Meraki MC Phones",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "81e5e787-45fd-46dd-a79e-b1de749de8fc",
-                        "name": "Insecure Direct Object References (IDORs)",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Bitdefender Box v2",
         "tagline": "Internet security solution that incorporates hardware, cloud and software designed to protect your smart home and your family.",
         "briefUrl": "/bitdefenderbox2",
@@ -62293,6 +61071,1228 @@
                             "tags": []
                         },
                         "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Caffeine",
+        "tagline": "Caffeine is a social broadcasting platform for gaming, entertainment, and the creative arts.",
+        "briefUrl": "/engagements/caffeine",
+        "backgroundColor": "#0000ff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65d9/e1a6/2e828c1b/3cfe7f72d541d0a8bb443038b7c3a181_Caffeine1024.png",
+        "rewardSummary": {
+            "summary": "$150 - $5,000",
+            "hint": "Up to $6,000",
+            "minReward": "$150",
+            "maxReward": "$5,000",
+            "compensationSummary": "Up to $6,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Entertainment",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/caffeine/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "922ba23f-68c3-42cb-bf5b-a8f44479bca3",
+                "name": "In Scope Targets ",
+                "description_html": "<h1>Latest Features and Focus Areas</h1>\n\n<p><code>Updated 01/22</code>`</p>\n\n<h4><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/84/kw/props\" rel=\"nofollow noreferrer\" target=\"_blank\">Updates to Props and Reactions</a></h4>\n\n<ul>\n<li>This covers all reactions (Messages and Props) sent to <code>LIVE</code> broadcasts</li>\n<li>The backend for this service was completely re-written and client interactions were updated as well.</li>\n<li>Focus Area: Anything you can do to impact the account's earnings/balance, spoofed props, impersonation, Broadcast Disruption</li>\n</ul>\n\n<h5><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/91\" rel=\"nofollow noreferrer\" target=\"_blank\">Mobile Broadcasting functionality Launched </a></h5>\n\n<ul>\n<li>IOS and Android apps now have the ability to broadcast!</li>\n<li>Focus Area: Broadcaster IP Exposure, Broadcast Disruption, Geolocation through device information</li>\n</ul>\n\n<h5><a href=\"https://caffeine.custhelp.com/app/answers/detail/a_id/92/%7E/as-a-broadcaster%2C-how-do-i-use-replays%3F\" rel=\"nofollow noreferrer\" target=\"_blank\">Broadcasting Replays and VOD Launched</a></h5>\n\n<ul>\n<li>Focus Area: Interactions with the API. VOD Settings and permissions, injecting/replacing VOD content</li>\n<li>Known issue: captured HLS links can still be used after hiding a VOD, not applicable for reward</li>\n</ul>\n\n<h5>Video Comments and Likes</h5>\n\n<ul>\n<li>VODs can now receive comments and Likes</li>\n<li>Focus Area: Interactions with the API, spoofing comments or impersonation, arbitrary modification of Like or View counts</li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2000.0,
+                        "max": 5000.0
+                    },
+                    "2": {
+                        "min": 800.0,
+                        "max": 1100.0
+                    },
+                    "3": {
+                        "min": 350.0,
+                        "max": 600.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 300.0
+                    },
+                    "program_max": 6000
+                },
+                "sort_order": 0,
+                "targets_url": "/caffeine/target_groups/e080ded1-1edf-43bf-96b7-28675f6fee3f/targets",
+                "targets": [
+                    {
+                        "id": "32316e7f-5947-4a89-bd79-0a77d5a8b421",
+                        "name": "https://www.caffeine.tv/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
+                                    "name": "Stripe"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d9fad273-9565-43ef-a49a-9dce173da3e8",
+                        "name": "https://api.caffeine.tv/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0056a63b-0950-41cd-b334-d8974be8b43f",
+                        "name": "https://payments.caffeine.tv",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://payments.caffeine.tv",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "92ea0e83-cd12-4211-a244-f6947aa7e549",
+                        "name": "https://realtime.caffeine.tv/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://realtime.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7faeae6c-1aae-4762-b135-2d197c9f822d",
+                        "name": "https://preview.caffeine.tv/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://preview.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
+                                    "name": "Stripe"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "68bc83cf-6857-4e53-a5f0-33a0537339f1",
+                        "name": "https://images.caffeine.tv/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://images.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "50c2b78f-c86b-4109-a76e-817ec762d630",
+                        "name": "https://static.caffeine.tv/",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "02987f8a-77d5-4539-9439-9e4642cac31b",
+                        "name": "https://v-cf.caffeine.tv",
+                        "description": null,
+                        "category": "api",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1e3642be-ca6d-4e58-868a-eb9eba238d7d",
+                        "name": "https://build.caffeine.tv/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://build.caffeine.tv/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "429a08e2-19f9-43d6-94a7-3c6dd3ec564a",
+                        "name": "caffeine.exe",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
+                                    "name": "Desktop Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ccbd24a4-f100-4cc7-ab72-467df2be26f0",
+                        "name": "caffeine-helper.x86.exe",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
+                                    "name": "Desktop Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ede10223-35a1-41b6-84fe-711b378909fa",
+                        "name": "caffeine-helper.x64.exe",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
+                                    "name": "Desktop Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "75a5e18d-cf75-4ff7-8f40-43190fa1a89b",
+                        "name": "Caffeine iOS Application",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/us/app/caffeine-live-streaming/id1170629931",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 12,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3c7c9e96-eace-4888-bc2c-ea9cd54ddec3",
+                        "name": "Caffeine Android Application\t",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=tv.caffeine.app&hl=en_US&gl=US",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                }
+                            ]
+                        },
+                        "sort_order": 13,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1bae787a-f451-4fc7-9a82-006c1dca5c81",
+                        "name": "*.rtcdn.caffeine.tv",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 14,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "181191c3-b0d2-4f49-b723-a0cc2988d9f0",
+                "name": "Out of Scope",
+                "description_html": "<p>While fremont-*.rtcdn.caffeine.tv   </p>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/caffeine/target_groups/b1774674-60d8-424c-9745-53695cc57962/targets",
+                "targets": [
+                    {
+                        "id": "6137f413-1958-47ad-a5b7-5d357c3f0edd",
+                        "name": "https://events.caffeine.tv/",
+                        "description": null,
+                        "category": "api",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "63931332-91c7-44db-a639-024e65a4c5af",
+                        "name": "Any Third Party Software Applications (Zendesk, etc)",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2f86ac31-c6de-418f-bf2b-362670279d32",
+                        "name": "Caffeine.custhelp.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cisco Meraki",
+        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
+        "briefUrl": "/engagements/ciscomeraki",
+        "backgroundColor": "#67B346",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Electronics",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ciscomeraki/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "8a7db38d-058b-4f74-8195-2ab6556154b2",
+                "name": "Tier 1 Targets - Web",
+                "description_html": "<p>By way of clarification, the following is additional information on some of the domains that are in scope, and details around how they are used:</p>\n\n<ul>\n<li>*.ikarem.io: This domain is used for Meraki internal services, and as such, falls under the higher reward range.</li>\n<li>*.meraki.com: This domain is for the Cisco Meraki Dashboard and its integrated services.</li>\n<li>*.network-auth.com: This domain hosts user-created content for Dashboard-configured splash pages.</li>\n</ul>\n\n<p>Further public documentation can be found at <a href=\"https://documentation.meraki.com\" rel=\"nofollow noreferrer\" target=\"_blank\">https://documentation.meraki.com</a>.</p>\n\n<p>Additionally, documentation for the Cisco Meraki Dashboard API can be found at <a href=\"https://create.meraki.io/api-docs/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://create.meraki.io/api-docs/</a>.</p>\n\n<p>It's further worth noting that:</p>\n\n<ul>\n<li><p>Most products run a light web server which offers the ability to locally configure the uplink of a device, as well as to see some very basic device status information. However, the Dashboard is the ultimate administrative interface for devices, as well as the primary source for device monitoring.</p></li>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 6000.0,
+                        "max": 10000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 6000.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/ciscomeraki/target_groups/f07af7b5-0827-4253-949e-c3507bca586d/targets",
+                "targets": [
+                    {
+                        "id": "83d58594-d428-4de1-af20-a90f5244e721",
+                        "name": "*.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "5a702681-f59c-463c-b266-f9e22a1e1d8a",
+                                    "name": "Scala"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "89d2b311-7959-4f98-82a8-156989ee7506",
+                        "name": "*.ikarem.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f6f33e59-a5f5-4a1d-827b-7726cf7a0e59",
+                        "name": "*.network-auth.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7dc477a9-6740-4594-9854-191e2f8b7313",
+                        "name": "Cisco Meraki Systems Manager",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "041d5363-86a6-40b1-9a02-c20f6ab39c05",
+                                    "name": "Linux"
+                                },
+                                {
+                                    "id": "c5df6ad0-33b4-40ac-b6dd-8d4038997d40",
+                                    "name": "macOS"
+                                },
+                                {
+                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
+                                    "name": "Windows"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
+                                    "name": "Desktop Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f1b14278-b1c2-4c26-bf3d-1d1f70e8ac00",
+                        "name": "Cisco Meraki Virtual Security Appliances",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "091477d3-b800-4c87-b05f-898c93989767",
+                        "name": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "51fd4b6b-310d-41fe-9356-3257836401ad",
+                "name": "Tier 1 Targets - Hardware",
+                "description_html": "<h2>Eligibility for Meraki Hardware</h2>\n\n<p>In an effort to increase testing accessibility on Meraki's physical products, Meraki manages a merit-based program to ship devices to eligible program participants. You can find the details of this program in the <a href=\"https://bugcrowd.com/ciscomeraki/updates/0f2836c0-f0a5-48a5-90ae-fe7ac95e1179?preview=3ef7ea26f4c018c87f170bfb2a9557a4\" rel=\"nofollow noreferrer\" target=\"_blank\">Announcement</a> section of the Bounty Brief.</p>\n\n<h2>Hardware Notes</h2>\n\n<ul>\n<li><p>This is touched on in the focus areas section, but any way of obtaining shell access on a Meraki device is an interesting finding to our team \u2014 as there should be no way for a user to meaningfully authenticate to a device.</p></li>\n<li><p>In regards to obtaining firmware images, users may configure, via the Dashboard, a firmware version for a device to run and the device will automatically download and install the new version. More information on that can be found in our firmware FAQ. </p></li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 6000.0,
+                        "max": 10000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 6000.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/ciscomeraki/target_groups/2f99c6a9-8122-4c01-8418-9f036c346243/targets",
+                "targets": [
+                    {
+                        "id": "a6f305e8-dd83-4e1a-bd31-e07bdfe54ddb",
+                        "name": "Cisco Meraki MX Security Appliances",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "88d88f36-43ac-4279-b3da-577659ae9cca",
+                        "name": "Cisco Meraki MS Switches",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f640c957-2d9b-4833-aef1-4d07854e142d",
+                        "name": "Cisco Meraki MR Access Points",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6b1081ed-bf07-42a9-a7ac-4f2bd44b35a8",
+                        "name": "Cisco Meraki MV Security Cameras",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "d7febc58-1d4d-4c69-9777-5d473211ddb4",
+                                    "name": "Surveillance and Security"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "65d73a4b-f045-4566-bfe4-3b627eae639b",
+                        "name": "Cisco Meraki Z Series (Z1,Z3(C))",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing"
+                                },
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                },
+                                {
+                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
+                                    "name": "Hardware Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "3709afc6-19a0-48d0-ab03-ee6f8ca81a8c",
+                "name": "Tier 2 Targets",
+                "description_html": "<ul>\n<li>meraki.cisco.com: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n<li>apps.meraki.io: This domain is our corporate website. Meraki devices do not communicate with this domain.</li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 1500.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 1500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 1000.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 2,
+                "targets_url": "/ciscomeraki/target_groups/58824ade-e32d-4963-8848-4afdf08831ea/targets",
+                "targets": [
+                    {
+                        "id": "cd0b997f-c9c8-4c5f-b8de-6209655d8fa3",
+                        "name": "meraki.cisco.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://meraki.cisco.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
+                                    "name": "Adobe Experience Manager"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "961b90d9-9714-4a86-88c9-27bd5aee71cc",
+                        "name": "apps.meraki.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "20f7635e-223b-4f68-b5e5-3fb68e9f9c40",
+                "name": "Out of Scope",
+                "description_html": "<p>This program is designed to review and address security issues related to Cisco Meraki's products and applications. Please note that anything that is not explicitly listed as in-scope is considered out-of-scope. If you believe you have found a vulnerability that is outside of this program scope but related to Cisco, please refer to the below resources:</p>\n\n<ul>\n<li>If you need to report a vulnerability in a Cisco product, please contact psirt@cisco.com.</li>\n<li>If you need to contact Cisco regarding a security incident, please contact incidentresponse@cisco.com.</li>\n<li>Cisco Systems Operational Infrastructure findings can be reported here: https://bugcrowd.com/ciscosecurity</li>\n<li>Further information can be found here: https://www.cisco.com/security</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 3,
+                "targets_url": "/ciscomeraki/target_groups/c4c1cbe9-5c58-465b-a245-4600ca8b820c/targets",
+                "targets": [
+                    {
+                        "id": "8e629824-1b51-4c35-92a1-eaf0221141a1",
+                        "name": "*.cisco.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f1cadf69-5c28-4727-9732-671ee7d8ecb2",
+                        "name": "meraki.cisco.com/form/contact",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0347c228-463a-4dc5-bb9e-4e457983dcb2",
+                        "name": "merakipartners.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0a9b0e3f-2591-44ea-b3ca-68e7b294fbab",
+                        "name": "smhelp.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b34c67c6-992d-49d2-a49c-25e9825cffcd",
+                        "name": "documentation.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a681f7ae-4df1-443c-a9a0-95571016ef05",
+                        "name": "community.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b62a70bc-2f02-4818-ad99-38d6b7f2abcb",
+                        "name": "community-staging.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "35423522-a9b3-439f-bafa-0c57028c52a0",
+                        "name": "developers.meraki.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "483ed6e7-bd4f-439e-9403-e57da03eec3e",
+                        "name": "Customer API Keys",
+                        "description": null,
+                        "category": "api",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d7f57c67-b74c-4348-b790-027eb3a14505",
+                        "name": "Meraki MC Phones",
+                        "description": null,
+                        "category": "hardware",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "81e5e787-45fd-46dd-a79e-b1de749de8fc",
+                        "name": "Insecure Direct Object References (IDORs)",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 10,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
