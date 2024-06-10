@@ -12054,25 +12054,51 @@
         },
         "domains": [
             {
-                "id": "66960412-3cba-4106-9935-f7733fb790f2",
+                "id": "35e82459-6f6f-4293-bfc1-8e8ace40e710",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "https://dealer.prod.ps.axelspringer.de/purchases/004/welt/*",
+                "endpoint": "*.bild.de",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Here is documentation to help with testing: https://dealer-docs.prod.ps.axelspringer.de/"
+                "description": null
             },
             {
-                "id": "be5d370a-9fb4-4ea1-8966-5f180bdb1a05",
+                "id": "cf707b15-9ae1-44dc-ba0c-1f137a918780",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "https://dealer.prod.ps.axelspringer.de/purchases/004/bild/*",
+                "endpoint": "*.bild.tv",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "1a35634d-fb18-45f2-8820-77449c9b2e3a",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.computerbild.de",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "482221d5-f58d-4a3b-9c4c-801ccd6966cd",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.welt.de",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
@@ -12093,12 +12119,12 @@
                 "description": null
             },
             {
-                "id": "35e82459-6f6f-4293-bfc1-8e8ace40e710",
+                "id": "be5d370a-9fb4-4ea1-8966-5f180bdb1a05",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "hey.bild.de",
+                "endpoint": "https://dealer.prod.ps.axelspringer.de/purchases/004/bild/*",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
@@ -12106,17 +12132,17 @@
                 "description": null
             },
             {
-                "id": "64ac9cf3-f07d-44c5-9acc-4e5229abe113",
+                "id": "66960412-3cba-4106-9935-f7733fb790f2",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "https://meinkonto.bild.de/",
+                "endpoint": "https://dealer.prod.ps.axelspringer.de/purchases/004/welt/*",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "Here is documentation to help with testing: https://dealer-docs.prod.ps.axelspringer.de/"
             },
             {
                 "id": "17859838-fde1-497b-a240-cf953131b41d",
@@ -12132,93 +12158,41 @@
                 "description": null
             },
             {
-                "id": "1a35634d-fb18-45f2-8820-77449c9b2e3a",
+                "id": "f909bba1-c151-4536-a9b6-1f213f498a6b",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "https://vip-club.computerbild.de/",
+                "endpoint": "*.autobild.de",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": null
             },
             {
-                "id": "9fceabbf-9cfd-415f-bfc4-e49a7f9ea287",
+                "id": "dd439db2-799f-462e-8430-a12df647ec80",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "sportbild.bild.de",
+                "endpoint": "*.bz-berlin.de",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": null
             },
             {
-                "id": "0e0347ee-6bb3-4fdd-8019-c21423ef1827",
+                "id": "74acc2d5-a9f8-4d1b-b114-ab24dab2b9c5",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "Tier 1 subdomains",
+                "endpoint": "*.spring-media.de",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "See attached document `NMT-DomainScopeBugBounty.xlsx` in \"In scope\" section"
-            },
-            {
-                "id": "564ffb3c-5977-466f-a62e-ddb0017f0fd6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.bild.de",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
-                "id": "cf707b15-9ae1-44dc-ba0c-1f137a918780",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.bild.tv",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
-                "id": "8af4f53b-e08f-4483-911b-b7eea8e360fa",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.computerbild.de",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
-                "id": "482221d5-f58d-4a3b-9c4c-801ccd6966cd",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.welt.de",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": null
             },
@@ -12236,64 +12210,12 @@
                 "description": null
             },
             {
-                "id": "615d0411-a51d-43bf-b2c8-b7f31443b87a",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "play.bild.de",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "See attached document `NMT-DomainScopeBugBounty.xlsx` in \"In scope\" section"
-            },
-            {
-                "id": "f909bba1-c151-4536-a9b6-1f213f498a6b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.autobild.de",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "dd439db2-799f-462e-8430-a12df647ec80",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.bz-berlin.de",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "4c462b59-eaa4-497d-8cc8-ee749e44a9d6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "Tier 3 subdomains",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "See attached document `NMT-DomainScopeBugBounty.xlsx` in \"In scope\" section"
-            },
-            {
                 "id": "ea1d391f-382e-4773-8b85-e98f8a407082",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "www.ein-herz-fuer-kinder.de",
+                "endpoint": "*.ein-herz-fuer-kinder.de",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
@@ -12303,10 +12225,10 @@
             {
                 "id": "23cbc0e7-f0dd-4037-a368-170de839fc5a",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "www.fitbook.de",
+                "endpoint": "*.fitbook.de",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
@@ -12316,10 +12238,10 @@
             {
                 "id": "36f4c8f5-0fb1-40c9-ad7d-1ae64168e2f9",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "www.myhomebook.de",
+                "endpoint": "*.myhomebook.de",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
@@ -12329,10 +12251,10 @@
             {
                 "id": "6cf77442-61f2-4f0a-ba5c-cd4727e07d4f",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "www.petbook.de",
+                "endpoint": "*.petbook.de",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
@@ -12342,10 +12264,10 @@
             {
                 "id": "87b72249-5b9a-41f6-9408-0befa5196b3a",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "www.stylebook.de",
+                "endpoint": "*.stylebook.de",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
@@ -12355,10 +12277,10 @@
             {
                 "id": "a27eb0c1-65f5-486b-9c43-e084ce3a1d62",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "www.techbook.de",
+                "endpoint": "*.techbook.de",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
@@ -12368,10 +12290,10 @@
             {
                 "id": "3017da6b-8641-4410-bcd5-c816ad528047",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "www.travelbook.de",
+                "endpoint": "*.travelbook.de",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
@@ -12381,10 +12303,10 @@
             {
                 "id": "b2f06954-e9b4-406a-8a87-44664b6c2917",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "www.wissen-sie-mehr.de",
+                "endpoint": "*.wissen-sie-mehr.de",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
