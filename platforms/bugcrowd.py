@@ -36,7 +36,7 @@ class BugcrowdAPI(API):
             dict: A dictionary representing the response JSON for each page.
         """
         params = {'page': 1}
-        while params['page'] == 1:
+        while True:
             response_json = await self.get(endpoint, params=params)
             yield response_json
             if response_json['paginationMeta']['totalCount'] > params['page'] * 24:
