@@ -85,8 +85,7 @@ class PublicPrograms:
             scope for scope in self.results if scope['accessStatus'] == 'open']
 
         for scope in self.results:
-            scope_handle = scope.get('briefUrl').split("/")[-1]
-            # scope_handle = scope.get('briefUrl').replace("/", "")
+            scope_handle = scope.get('briefUrl').strip("/")
 
             async for response_json in self.api.program_info(scope_handle):
                 if 'target_groups' in response_json:
