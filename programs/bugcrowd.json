@@ -25199,7 +25199,7 @@
             {
                 "id": "f7fe4c09-83d0-444f-bf3c-b70fd8aaca66",
                 "name": "Primary Targets",
-                "description_html": "<p><code>https://*.indeed.com</code> presents a large attack surface with thousands of subdomains that we cannot possibly list all here. All of these subdomains can be considered in-scope in the Primary Target grouping with the exception of those explicitly defined in-scope in the other target groupings or out-of-scope. We leave it to the researcher to discover any subdomains not listed here.</p>",
+                "description_html": "<p><code>https://*.indeed.com</code> presents a large attack surface. All subdomains can be considered in-scope in the Primary Target grouping with the exception of those explicitly defined in-scope in the other target groupings or out-of-scope. We leave it to the researcher to discover subdomains not listed here.</p>",
                 "in_scope": true,
                 "reward_range": {
                     "1": {
@@ -25220,14 +25220,14 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/indeed/target_groups/c77db1e3-85b8-4467-b9c9-c819c17c8d84/targets",
+                "targets_url": "/indeed/target_groups/d716ed4d-c471-4a5c-a76a-622df3154383/targets",
                 "targets": [
                     {
-                        "id": "b50f8e09-05c3-4648-af0f-ef3e45bac687",
+                        "id": "b46516bb-f2da-4ac2-82fc-1f0f1e35c4fb",
                         "name": "https://*.indeed.com",
                         "description": null,
                         "category": "other",
-                        "uri": "https://www.indeed.com/",
+                        "uri": "",
                         "ipAddress": null,
                         "target": {
                             "tags": [
@@ -25246,11 +25246,25 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "198b1e0b-9f0f-4352-8c03-735bab655e50",
+                        "id": "30322e37-ab2c-4c0b-be5a-a66aed4f6e99",
+                        "name": "https://*.indeedflex.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "dd813bca-64ef-44ef-86e1-25550e036b9c",
                         "name": "https://apis.indeed.com/graphql",
                         "description": null,
                         "category": "api",
-                        "uri": "https://apis.indeed.com/graphql",
+                        "uri": "",
                         "ipAddress": null,
                         "target": {
                             "tags": [
@@ -25260,12 +25274,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 1,
+                        "sort_order": 2,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "ee5d07aa-3fcb-4d07-af74-f039fb5ffe8e",
+                        "id": "dc2e888e-dd71-496a-965a-fc5db0900b48",
                         "name": "Indeed Job Search Android",
                         "description": null,
                         "category": "android",
@@ -25283,12 +25297,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 2,
+                        "sort_order": 3,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "4b582df2-3c36-4705-b405-3c39c0b5362d",
+                        "id": "30db0a33-dc5a-4b60-906b-2f848518b0c3",
                         "name": "Indeed Job Search iOS",
                         "description": null,
                         "category": "ios",
@@ -25306,12 +25320,120 @@
                                 }
                             ]
                         },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1b60a323-219b-4e2e-99b7-5b85edf920d3",
+                        "name": "Android Indeed Flex App",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.syftapp.android",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a608e6f9-0f53-4217-b1a2-dc1f1db0197f",
+                        "name": "iOS Indeed Flex App",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/gb/app/indeed-flex-job-search/id1013812731",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "634f5292-d210-4fa2-a998-be2d5f421acc",
+                "name": "Secondary Targets",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 10000.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 4000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 1000.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/indeed/target_groups/0f339ef4-e6bf-4459-b77b-f8f9a79c0228/targets",
+                "targets": [
+                    {
+                        "id": "82983b7b-44bf-4827-a41f-40d6a215abb7",
+                        "name": "https://*.indeed.tech",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4641419e-8f15-49b4-802d-fceab43d2f8b",
+                        "name": "https://*.indeed.net",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "68c652da-65ca-4846-90ca-84b361ed2256",
+                        "name": "https://resume.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://resume.com",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2a5413a4-b1b9-48b6-80a9-4938bcf55e7f",
+                        "name": "https://wowjobs.ca",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://wowjobs.ca",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
                         "sort_order": 3,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "d680ebf9-78c5-4d57-bc17-e0c367fd42b4",
+                        "id": "7ccc2a3d-05b8-4ffb-a592-413f371e984b",
                         "name": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
                         "description": null,
                         "category": "ios",
@@ -25338,7 +25460,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "0af15887-e274-402b-a151-2444522f68a1",
+                        "id": "6771665e-5894-4844-94c4-63c2302de985",
                         "name": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
                         "description": null,
                         "category": "android",
@@ -25365,7 +25487,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7f3d53af-411e-4c16-9445-95ef424349c4",
+                        "id": "53eb3972-b775-47c0-8210-5bba597a4df3",
                         "name": "Indeed Connect for Employers",
                         "description": null,
                         "category": "ios",
@@ -25388,63 +25510,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7deff5ad-27f2-4561-93bb-0a74d726357f",
-                        "name": "Android Indeed Flex App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.syftapp.android",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "372a6559-4508-4dd1-b479-358cb16cab37",
-                        "name": "iOS Indeed Flex App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/gb/app/indeed-flex-job-search/id1013812731",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e1ac9fac-0f48-49bd-b0e2-55a14a6d12f5",
-                        "name": "*.indeedflex.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "68ebc912-ac5d-4267-8c84-b386225c7d20",
-                        "name": "https://*.indeed.tech",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://indeed.tech",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3e759dbc-0be3-4630-8715-1a3e52d4850a",
+                        "id": "056fd9f9-7886-4160-b184-a94dd78a78ab",
                         "name": "Indeed Recruiter Extension (Chrome)",
                         "description": null,
                         "category": "website",
@@ -25458,83 +25524,7 @@
                                 }
                             ]
                         },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "93d5d414-5579-472d-8a6b-114d5d0aa1a5",
-                        "name": "https://wowjobs.ca",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://wowjobs.ca",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d42422dd-f605-4f5e-9ebf-bc9565fb3a4d",
-                        "name": "resume.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://resume.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a3cc7d8a-2b79-43f2-bbcb-7831996d42b8",
-                        "name": "*.indeed.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://indeed.net",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
+                        "sort_order": 7,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -25560,10 +25550,10 @@
                     }
                 },
                 "sort_order": 2,
-                "targets_url": "/indeed/target_groups/0749543d-0c44-4611-85a7-9cfc3d664a98/targets",
+                "targets_url": "/indeed/target_groups/e6017afd-d151-4f3e-8c62-2b595036031f/targets",
                 "targets": [
                     {
-                        "id": "a87070d7-628e-4fa0-a1fb-bf39cb890edf",
+                        "id": "500af508-5990-4847-bbdc-bf424f489cdb",
                         "name": "Any host/web property/mobile app verified to be owned by Indeed",
                         "description": null,
                         "category": "other",
@@ -65506,6 +65496,387 @@
         ]
     },
     {
+        "name": "Majid Al Futtaim Lifestyle",
+        "tagline": "Majid Al Futtaim Lifestyle",
+        "briefUrl": "/maffashion",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/480b/1947/689eee82/2658f638f48cd7822caf5e960feea859_logo_2.png",
+        "rewardSummary": {
+            "summary": "Points - $3,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/maffashion/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "f57582f1-2938-4547-b096-04d745d0c3dd",
+                "name": "In Scope Targets",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 3500.0
+                    },
+                    "2": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 1000.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/maffashion/target_groups/3c4a9ce9-89c0-4992-8361-03647fe5852f/targets",
+                "targets": [
+                    {
+                        "id": "ecf0c16a-c787-444b-919a-bc4ed4643baa",
+                        "name": "www.crateandbarrel.me",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.crateandbarrel.me",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
+                                    "name": "MySQL"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "63560c8d-0ed8-4b6b-9d0c-80d0767b283c",
+                        "name": "https://lego.yellowblocks.me/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://lego.yellowblocks.me/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "23449e6c-2e66-4618-8517-2ceeb8401da0",
+                        "name": "https://api-prod.thatconceptstore.com/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api-prod.thatconceptstore.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "61d44a09-f69b-4ba8-8280-ba457b3835d4",
+                        "name": "THAT Concept Store iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/app/id1503045795",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "21b9619b-a3ad-48c1-a897-fa1980ff71b6",
+                        "name": "THAT Concept Store Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.maf.thatandroid",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6d1eb87b-7ff9-433d-9984-73081d068c73",
+                        "name": "https://thatconceptstore.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://thatconceptstore.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7957d1dd-0b7c-4285-9110-9a35939e7911",
+                        "name": "https://www.cb2.ae/en",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.cb2.ae/en",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ea0ce0b8-def4-4492-b398-0a8f3ed400df",
+                        "name": "https://www.allsaints.me/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.allsaints.me/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "fda7d21a-dfef-49cf-93de-02cb7dfb33e5",
+                        "name": "www.lululemon.me",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.me",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9d7e7a87-6c25-48ab-8e67-a262af860157",
+                        "name": "lapi.yellowblocks.me",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://lapi.yellowblocks.me",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d89ed63f-4040-4f2e-b69e-a458e3677acb",
+                        "name": "https://www.shiseido.me/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.shiseido.me/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                }
+                            ]
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "e4844fd8-74f7-41d7-90ca-85e9b1750553",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/maffashion/target_groups/6291a616-fc36-4c51-94a2-71f80b3c43c6/targets",
+                "targets": [
+                    {
+                        "id": "c8e0a415-d7ec-4b31-91cb-fba512ee283b",
+                        "name": "www.americangirlmena.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Linktree",
         "tagline": "Linktree enables creators, brands, artists, publishers, agencies, and businesses of all sizes to curate a place where they can share, sell and grow. Please submit your findings to this Bug Bounty program.",
         "briefUrl": "/engagements/linktree-mbb-og",
@@ -65979,387 +66350,6 @@
                 "description": null,
                 "description_html": null,
                 "reward_range": {}
-            }
-        ]
-    },
-    {
-        "name": "Majid Al Futtaim Lifestyle",
-        "tagline": "Majid Al Futtaim Lifestyle",
-        "briefUrl": "/maffashion",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/480b/1947/689eee82/2658f638f48cd7822caf5e960feea859_logo_2.png",
-        "rewardSummary": {
-            "summary": "Points - $3,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/maffashion/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f57582f1-2938-4547-b096-04d745d0c3dd",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 3500.0
-                    },
-                    "2": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 1000.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/maffashion/target_groups/3c4a9ce9-89c0-4992-8361-03647fe5852f/targets",
-                "targets": [
-                    {
-                        "id": "ecf0c16a-c787-444b-919a-bc4ed4643baa",
-                        "name": "www.crateandbarrel.me",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.crateandbarrel.me",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
-                                    "name": "MySQL"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "63560c8d-0ed8-4b6b-9d0c-80d0767b283c",
-                        "name": "https://lego.yellowblocks.me/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://lego.yellowblocks.me/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "23449e6c-2e66-4618-8517-2ceeb8401da0",
-                        "name": "https://api-prod.thatconceptstore.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api-prod.thatconceptstore.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "61d44a09-f69b-4ba8-8280-ba457b3835d4",
-                        "name": "THAT Concept Store iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/app/id1503045795",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "21b9619b-a3ad-48c1-a897-fa1980ff71b6",
-                        "name": "THAT Concept Store Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.maf.thatandroid",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6d1eb87b-7ff9-433d-9984-73081d068c73",
-                        "name": "https://thatconceptstore.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://thatconceptstore.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7957d1dd-0b7c-4285-9110-9a35939e7911",
-                        "name": "https://www.cb2.ae/en",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.cb2.ae/en",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ea0ce0b8-def4-4492-b398-0a8f3ed400df",
-                        "name": "https://www.allsaints.me/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.allsaints.me/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fda7d21a-dfef-49cf-93de-02cb7dfb33e5",
-                        "name": "www.lululemon.me",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.lululemon.me",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9d7e7a87-6c25-48ab-8e67-a262af860157",
-                        "name": "lapi.yellowblocks.me",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://lapi.yellowblocks.me",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d89ed63f-4040-4f2e-b69e-a458e3677acb",
-                        "name": "https://www.shiseido.me/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.shiseido.me/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e4844fd8-74f7-41d7-90ca-85e9b1750553",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/maffashion/target_groups/6291a616-fc36-4c51-94a2-71f80b3c43c6/targets",
-                "targets": [
-                    {
-                        "id": "c8e0a415-d7ec-4b31-91cb-fba512ee283b",
-                        "name": "www.americangirlmena.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
             }
         ]
     },
