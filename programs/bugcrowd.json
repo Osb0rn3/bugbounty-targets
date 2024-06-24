@@ -48458,6 +48458,584 @@
         ]
     },
     {
+        "name": "lululemon",
+        "tagline": "Breathe easy, it's on us.",
+        "briefUrl": "/lululemon",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/3f29/7ac8/759f87e1/a450fe08e29d237aac331bf826616d00_76ce0a719daca3d211f0158d547c4bbb_VXqnFv33_400x400.jpg",
+        "rewardSummary": null,
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "ngpt"
+        },
+        "subscriptionUrl": "/lululemon/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "a61ea16b-5361-4038-8746-b9aa521b37a8",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2700.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 700.0
+                    },
+                    "4": {
+                        "min": 50.0,
+                        "max": 50.0
+                    },
+                    "program_max": 10000
+                },
+                "sort_order": 0,
+                "targets_url": "/lululemon/target_groups/fb2c1352-58b5-4e47-b198-47411210e049/targets",
+                "targets": [
+                    {
+                        "id": "8f01b692-2f53-418a-a3ab-3b855e825d0b",
+                        "name": "shop.lululemon.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://shop.lululemon.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "d2e9f7fd-1403-4a01-b5b8-fba5e0f49e37",
+                                    "name": "ExpressJS"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
+                                    "name": "Amazon Cloudfront"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7c3cb216-e239-4a80-9144-1ca5cb1eff9b",
+                        "name": "*.lululemon.com",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b1de93a1-7211-4793-b3c4-1893101f1338",
+                        "name": "Lululemon Mobile App - iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/us/app/lululemon/id920098546",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "09da1488-6508-4a16-a1db-fde305e27f55",
+                "name": "International e-Commerce Sites",
+                "description_html": "<p>Some websites in these countries/regions are subject to enhanced legal and regulatory obligations for protecting personal information. lululemon expects strict compliance with Bugcrowd terms and conditions relating to PII when testing these sites.</p>\n\n<p>Acknowledging that these 10 sites come from a common code base, when a researcher reports a flaw, it is assumed that the flaw may apply to all 10 sites. A discovered flaw for one of these sites will be considered as a duplicate when reported for one of the other websites within the International e-Commerce group.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2700.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 700.0
+                    },
+                    "4": {
+                        "min": 50.0,
+                        "max": 50.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/lululemon/target_groups/155d1794-782c-42dd-a917-9e30882d1c79/targets",
+                "targets": [
+                    {
+                        "id": "e9e5835b-b620-4809-ade6-31bba15f1f8d",
+                        "name": "https://www.lululemon.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.com.au/  ",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "67c13aef-66c0-4c92-8312-daacb329a7f2",
+                        "name": "https://www.lululemon.de",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.de/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b3619b22-8605-4679-b092-4ed8bbde5873",
+                        "name": "https://www.lululemon.es",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.es/ ",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "94e4e262-ff2a-4a22-b659-c92f95a3f566",
+                        "name": "https://www.eu.lululemon.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.eu.lululemon.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e9bd5d00-c46d-49f3-b1ab-ba4c72f35115",
+                        "name": "https://www.lululemon.fr",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.fr/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e37261d1-4d5f-4306-89ca-21887ba755de",
+                        "name": "https://www.lululemon.com.hk",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.com.hk/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1418983b-b4ef-40e5-972d-7eca7fe7fc42",
+                        "name": "http://www.lululemon.co.jp",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.co.jp/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "27c25e9b-813d-49ba-a2c8-50cd86b9ec4b",
+                        "name": "http://www.lululemon.co.kr",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://www.lululemon.co.kr/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "35feda4b-df9d-4479-83ac-6b2d84add102",
+                        "name": "https://www.lululemon.co.nz",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.co.nz/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "846a7af3-4efd-4910-b12e-a40bc5cb005e",
+                        "name": "https://www.lululemon.co.uk",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.co.uk/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "e2f162d2-e057-4e3e-a17b-5123e900edfa",
+                "name": "Out of Scope",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 2,
+                "targets_url": "/lululemon/target_groups/a61032c0-d6df-46d5-bd3d-a4959a3af6b7/targets",
+                "targets": [
+                    {
+                        "id": "47ea460b-bd51-403e-ada4-0f0982fdc54f",
+                        "name": "*.lululemon.cn",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4de738d5-8259-4ef5-9eb6-c8950c089c9d",
+                        "name": "https://fr.shop.lululemon.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://fr.shop.lululemon.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "fb6dcc9e-2d35-4b40-920f-df50f7f2be89",
+                        "name": "*.lululemon.me",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.me",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1883138a-002d-4244-99d4-bb777730ddd2",
+                        "name": "careers.lululemon.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://careers.lululemon.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "909aa083-f524-4385-bea2-d5c3e28a6d46",
+                "name": "AEM Systems",
+                "description_html": "<p>Exploits with severity: P3-P5</p>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 3,
+                "targets_url": "/lululemon/target_groups/bdac57cd-3615-4eb3-848a-052c603ef256/targets",
+                "targets": [
+                    {
+                        "id": "a1782114-6377-462b-ac4e-35942b67054f",
+                        "name": "https://info.lululemon.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://info.lululemon.com",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c36ed5b4-a5b7-44b9-90b4-d6622f3d4b8b",
+                        "name": "https://pnimages.lululemon.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://pnimage.lululemon.com",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "35b62f9b-ba2a-40f2-9576-e1e221bb905c",
+                        "name": "AEM - Assets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1a8043a2-4eb6-44e3-9124-864f023a5742",
+                        "name": "AEM - Sites",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "adf91af2-c020-4e10-aa0c-e6f4358012ad",
+                "name": "lululemon Studio",
+                "description_html": "<p>Exploits with severity: P3-P5</p>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 4,
+                "targets_url": "/lululemon/target_groups/f2512d68-56a6-43b8-9b18-a9f95f11b470/targets",
+                "targets": [
+                    {
+                        "id": "27163484-4110-4ab5-93ea-161fb8b86c90",
+                        "name": "https://www.mirror.co",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.mirror.co/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "HPE Aruba Networking Infrastructure Public Program",
         "tagline": "People move. Networks must follow.",
         "briefUrl": "/aruba-public",
@@ -62600,78 +63178,6 @@
         ]
     },
     {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Dropbox",
         "tagline": "Your stuff, anywhere",
         "briefUrl": "/engagements/dropbox",
@@ -64189,6 +64695,78 @@
                             ]
                         },
                         "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
