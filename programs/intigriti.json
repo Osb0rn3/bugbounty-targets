@@ -9195,8 +9195,8 @@
             "currency": "EUR"
         },
         "confidentialityLevel": {
-            "id": 3,
-            "value": "Registered"
+            "id": 4,
+            "value": "Public"
         },
         "status": {
             "id": 3,
@@ -9221,7 +9221,33 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is the login site for customer access to their environment/devices."
+                "description": "Production environment for SimpleMDM \u2014 please take care not to disrupt any services when testing"
+            },
+            {
+                "id": "d7a9959d-9cfe-421a-81c2-6a3bf8c6917a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://detect.pdq.tools/ ",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Test environment for PDQ Detect"
+            },
+            {
+                "id": "83d38347-fe64-4bd5-8b4b-c890f79a0d1c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://auth.pdq.tools/ ",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Test environment for our authentication tool"
             },
             {
                 "id": "62e25a3b-96b2-45b9-9672-d1c6baae8339",
@@ -9234,7 +9260,72 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Software deployment service UI and API.\n\nLooking to test ability to gain unauthorized access as well as security within the beta itself. If you need access to the beta please make sure to **sign up with your intigriti.me email address** at https://mercury-staging.pdq.tools/connect/signup"
+                "description": "Test environment for PDQ Connect"
+            },
+            {
+                "id": "d84e1eff-a24a-4a37-87a6-b4c3a4ade1d5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://library-staging.pdq.tools/ ",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Test environment for our Package Library"
+            },
+            {
+                "id": "542a382a-c13f-4e8b-8e29-15054d4b7626",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://portal-staging.pdq.tools/ ",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Test environment for our billing portal"
+            },
+            {
+                "id": "4193eb9d-c525-452c-8610-2e0b7edf31be",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://*.pdq.com/ ",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "4258a454-4e26-455a-8234-6e593b4bd1be",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://*.simplemdm.com/ ",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "e0221047-6bb3-4eab-ae7d-94c8d9a2ffc0",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://*.smartdeploy.com/ ",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
             }
         ]
     },
