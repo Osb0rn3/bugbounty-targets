@@ -70001,266 +70001,6 @@
         ]
     },
     {
-        "name": "Bitstamp",
-        "tagline": "The original global crypto exchange",
-        "briefUrl": "/engagements/bitstamp",
-        "backgroundColor": "#003b2f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d91/8079/d9dee082/857e366c43e968894a3b13a2ffe27d7a_Frame_1.png",
-        "rewardSummary": {
-            "summary": "$100 - $7,500",
-            "hint": "Up to $100,000",
-            "minReward": "$100",
-            "maxReward": "$7,500",
-            "compensationSummary": "Up to $100,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bitstamp/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "be928f54-d2fd-4fe9-b44d-62a3fd7b360c",
-                "name": "Primary Targets",
-                "targets": [
-                    {
-                        "id": "4c49e76a-817b-41a7-bbc1-09e23f8542ac",
-                        "uri": "https://www.bitstamp.net/",
-                        "name": "www.bitstamp.net - Bitstamp Application & API",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "b28b01b7-7d50-4b44-921c-85fd871e6d25",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "4c49e76a-817b-41a7-bbc1-09e23f8542ac"
-                                },
-                                {
-                                    "id": "6bf30795-7930-4c2b-bb79-d2c4f15f7740",
-                                    "name": "Finance",
-                                    "targetId": "4c49e76a-817b-41a7-bbc1-09e23f8542ac"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "4c49e76a-817b-41a7-bbc1-09e23f8542ac"
-                                },
-                                {
-                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
-                                    "name": "Cryptocurrency",
-                                    "targetId": "4c49e76a-817b-41a7-bbc1-09e23f8542ac"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": "<p>You are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user&#39;s data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target&#39;s ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
-                "reward_range": {
-                    "1": {
-                        "min": 4000,
-                        "max": 7500
-                    },
-                    "2": {
-                        "min": 1500,
-                        "max": 4000
-                    },
-                    "3": {
-                        "min": 600,
-                        "max": 1500
-                    },
-                    "4": {
-                        "min": 200,
-                        "max": 600
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    },
-                    "programMax": 100000
-                }
-            },
-            {
-                "id": "acc4cb9b-7f89-45a9-abaf-3f459668a6a2",
-                "name": "Secondary Targets",
-                "targets": [
-                    {
-                        "id": "dcb3dfc3-a75e-48ba-89bb-42f3403cd64c",
-                        "uri": "",
-                        "name": "*.bitstamp.net - Bitstamp Supporting Services",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "b985f72e-a2ae-4602-8a3c-cac65946fe59",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 1,
-                "description": null,
-                "description_html": "<p>Secondary targets include all *.bitstamp.net subdomains which are not in primary scope. Some subdomains may point to 3rd party services - please avoid any active tests against such domains.</p>",
-                "reward_range": {
-                    "1": {
-                        "min": 2000,
-                        "max": 4000
-                    },
-                    "2": {
-                        "min": 750,
-                        "max": 2000
-                    },
-                    "3": {
-                        "min": 300,
-                        "max": 750
-                    },
-                    "4": {
-                        "min": 100,
-                        "max": 300
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "e682e2d0-b546-4db6-8adf-d7e825fca09b",
-                "name": "Mobile Targets",
-                "targets": [
-                    {
-                        "id": "fc8835d4-a099-4a09-9868-930004a93e78",
-                        "uri": "https://apps.apple.com/us/app/bitstamp/id1406825640",
-                        "name": "Bitstamp Mobile Application for iOS",
-                        "category": "ios",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "f292cc68-1966-4eea-8a5d-2fb2e1c09627",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing",
-                                    "targetId": "fc8835d4-a099-4a09-9868-930004a93e78"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS",
-                                    "targetId": "fc8835d4-a099-4a09-9868-930004a93e78"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "eb5e2ca3-4e4f-401d-b3db-04dea0e748af",
-                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.app",
-                        "name": "Bitstamp Pro Mobile Application for Android",
-                        "category": "android",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "21919c1e-b469-4707-8d8a-60fb06ef8acd",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing",
-                                    "targetId": "eb5e2ca3-4e4f-401d-b3db-04dea0e748af"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android",
-                                    "targetId": "eb5e2ca3-4e4f-401d-b3db-04dea0e748af"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "54ae5a41-a25b-4532-b70f-641a442d303c",
-                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.appgo",
-                        "name": "Bitstamp Mobile Application For Android",
-                        "category": "android",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "7c932e8a-3944-45ce-908f-07c3dd68774f",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing",
-                                    "targetId": "54ae5a41-a25b-4532-b70f-641a442d303c"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android",
-                                    "targetId": "54ae5a41-a25b-4532-b70f-641a442d303c"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 2,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 2000,
-                        "max": 4000
-                    },
-                    "2": {
-                        "min": 750,
-                        "max": 2000
-                    },
-                    "3": {
-                        "min": 300,
-                        "max": 750
-                    },
-                    "4": {
-                        "min": null,
-                        "max": null
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            }
-        ]
-    },
-    {
         "name": "ZAP",
         "tagline": "Zed Attack Proxy - one of the world\u2019s most popular free security tools.",
         "briefUrl": "/owaspzap",
@@ -71302,528 +71042,6 @@
                 "description": null,
                 "description_html": "<h2>All wildcard (*) operators endpoint means every other endpoint that is explicitly not mentioned In-scope is considered Out-of-Scope. For example *.lime.bike is mentioned in Out-of-scope but web-production.lime.bike and admintool.lime.bike is mentioned in In-scope. So all lime.bike endpoints that are not explicitly mentioned in-scope are out-of-scope.</h2>\n\n<p>The following findings are out of scope:</p>\n\n<ol>\n<li>Cookie flags on <code>webview.lime.bike</code></li>\n<li>&quot;secret&quot; keys exposed in iOS/Android builds that we do not consider secret</li>\n<li>*.airflow.limeinternal.com [Legacy domain]</li>\n<li><code>help.li.me</code> (report to <a href=\"https://hackerone.com/zendesk\" rel=\"nofollow noreferrer\" target=\"_blank\">zendesk</a>)</li>\n<li><code>community.li.me</code> (report to <a href=\"https://help.bevylabs.com/\" rel=\"nofollow noreferrer\" target=\"_blank\">bevy</a>)</li>\n<li>Attacks that require unauthorized access to users&#39; clients (phones, browsers, etc)</li>\n<li>Zero-day vulnerabilities (CVEs being added to NVD or GHSA (Github security advisory) with a score of 9.5 or lower) that are less than 30 days old. </li>\n<li>Android debugging enabled</li>\n<li>Lime account MFA issues are out of scope at the present time</li>\n<li>WAF bypass</li>\n<li>Open redirects / Lack of security speedbump when leaving the site (no immediate credential leak)</li>\n<li>Internal IP address disclosure</li>\n<li>Accessible Non-sensitive files and directories (e.g. README.TXT, CHANGES.TXT, robots.txt, .gitignore, WSDL, pprof, etc.)</li>\n<li>Social engineering / phishing attacks</li>\n<li>Self XSS</li>\n<li>Text injection</li>\n<li>Email spoofing (including SPF, DKIM, DMARC, From: spoofing, and visually similar, and related issues)</li>\n<li>Descriptive error messages (e.g. stack traces, application or server errors, path disclosure)</li>\n<li>Fingerprinting/banner disclosure on common/public services</li>\n<li>Clickjacking and issues only exploitable through clickjacking</li>\n<li>CSRF issues that don&#39;t impact the integrity of an account (e.g. log-in or out, contact forms, and other publicly accessible forms)</li>\n<li>Lack of Secure and HTTPOnly cookie flags (critical systems may still be in scope)</li>\n<li>Lack of rate limiting</li>\n<li>Login or Forgot Password page brute force, account lockout not enforced, or insufficient password strength requirements</li>\n<li>HTTPS mixed content scripts</li>\n<li>Username/email enumeration by brute forcing/error messages (e.g. login/signup / forgotten password)</li>\n<li>Exceptional cases may still be in scope (e.g. ability to enumerate email addresses via incrementing a numeric parameter)</li>\n<li>Missing HTTP security headers</li>\n<li>TLS/SSL Issues, including BEAST BREACH, insecure renegotiation, bad cipher suite, expired certificates, etc.</li>\n<li>Denial of Service attacks</li>\n<li>Out-of-date software</li>\n<li>Use of a known-vulnerable component (exceptional cases, such as where you are able to provide proof of exploitation, may still be in scope)</li>\n<li>Physical attacks against Lime&#39;s Facilities / Property /Assets </li>\n</ol>",
                 "reward_range": {}
-            }
-        ]
-    },
-    {
-        "name": "ClassDojo",
-        "tagline": "ClassDojo is on a mission to help every teacher create an incredible classroom",
-        "briefUrl": "/engagements/classdojo",
-        "backgroundColor": "#575b7D",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/706e/6dc4/5694fad1/1b39412dbdeccfb31985fa1cd611c522_dojo_logo.png",
-        "rewardSummary": {
-            "summary": "Points - $2,100",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,100",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Education",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/classdojo/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "6b44aa17-bf27-4883-8107-e7e83db6c822",
-                "name": "In Scope",
-                "targets": [
-                    {
-                        "id": "4f52725f-099e-4046-8924-f8d020e225ca",
-                        "uri": null,
-                        "name": "IoS App",
-                        "category": "ios",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "9a46cd26-1992-4f2a-8038-75fd89345569",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C",
-                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI",
-                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift",
-                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing",
-                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
-                                },
-                                {
-                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
-                                    "name": "Binary Analysis",
-                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS",
-                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "b641c72b-741d-4679-bbce-6d733e355f0d",
-                        "uri": "https://api.classdojo.com",
-                        "name": "https://api.classdojo.com",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "b5f42327-ed9d-4fed-837d-7bedd5a26d1b",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "b641c72b-741d-4679-bbce-6d733e355f0d"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP",
-                                    "targetId": "b641c72b-741d-4679-bbce-6d733e355f0d"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "f8234fa0-92e5-42a2-bef7-bb4545e82a50",
-                        "uri": null,
-                        "name": "Android App",
-                        "category": "android",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "c3d4d77e-10da-4fbf-8378-4d9d9f53370c",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java",
-                                    "targetId": "f8234fa0-92e5-42a2-bef7-bb4545e82a50"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing",
-                                    "targetId": "f8234fa0-92e5-42a2-bef7-bb4545e82a50"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "f8234fa0-92e5-42a2-bef7-bb4545e82a50"
-                                },
-                                {
-                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
-                                    "name": "Binary Analysis",
-                                    "targetId": "f8234fa0-92e5-42a2-bef7-bb4545e82a50"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android",
-                                    "targetId": "f8234fa0-92e5-42a2-bef7-bb4545e82a50"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "41da4201-6e83-4a81-9f55-7cc251f02b46",
-                        "uri": "https://teach.classdojo.com",
-                        "name": "https://teach.classdojo.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "3911856e-2df9-4e37-ae8a-db0a3664e37f",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "41da4201-6e83-4a81-9f55-7cc251f02b46"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3",
-                                    "targetId": "41da4201-6e83-4a81-9f55-7cc251f02b46"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "41da4201-6e83-4a81-9f55-7cc251f02b46"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash",
-                                    "targetId": "41da4201-6e83-4a81-9f55-7cc251f02b46"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "41da4201-6e83-4a81-9f55-7cc251f02b46"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "59832ef1-32d2-48eb-aca9-5c62c0654102",
-                        "uri": "https://student.classdojo.com",
-                        "name": "https://student.classdojo.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "399f148f-311d-42a5-9e2a-1c6d95f284bd",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3",
-                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront",
-                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash",
-                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "59a9745f-082b-4575-90a5-f39b7de72836",
-                        "uri": "https://www.classdojo.com",
-                        "name": "https://www.classdojo.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "1780b1a3-3cf7-4fdd-a2d8-5a66744d3834",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "21bf0b21-e645-4730-b030-be773c64efc7",
-                                    "name": "Gatsby",
-                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap",
-                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3",
-                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront",
-                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "5b474c9e-0add-4317-a4bb-5765ac451091",
-                        "uri": "https://home.classdojo.com",
-                        "name": "https://home.classdojo.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "5076a36d-33fb-40bd-919d-f5f0e3bda74b",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "5b474c9e-0add-4317-a4bb-5765ac451091"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3",
-                                    "targetId": "5b474c9e-0add-4317-a4bb-5765ac451091"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "5b474c9e-0add-4317-a4bb-5765ac451091"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash",
-                                    "targetId": "5b474c9e-0add-4317-a4bb-5765ac451091"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "5b474c9e-0add-4317-a4bb-5765ac451091"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "b454f1e8-8924-4b52-9cd3-d5ba3352791d",
-                        "uri": "https://dev.tutoring.classdojo.com",
-                        "name": "https://dev.tutoring.classdojo.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "befe10e4-3aff-4381-999a-8762f093c2f2",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "b454f1e8-8924-4b52-9cd3-d5ba3352791d"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "b454f1e8-8924-4b52-9cd3-d5ba3352791d"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP",
-                                    "targetId": "b454f1e8-8924-4b52-9cd3-d5ba3352791d"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "10777a4a-d66f-4802-bad9-db2c754878f2",
-                        "uri": "https://ws.multiplayer.classdojo.com/",
-                        "name": "wss://ws.multiplayer.classdojo.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "90a1e569-5d0a-479f-8dfb-1c2540b967b7",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "10777a4a-d66f-4802-bad9-db2c754878f2"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "10777a4a-d66f-4802-bad9-db2c754878f2"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP",
-                                    "targetId": "10777a4a-d66f-4802-bad9-db2c754878f2"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "33955062-fb4d-46d9-a4ef-3057049adfdc",
-                        "uri": "https://ticket.multiplayer.classdojo.com",
-                        "name": "https://ticket.multiplayer.classdojo.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "899b7cc2-c617-41fb-9d07-bc4a7ca6fc45",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "33955062-fb4d-46d9-a4ef-3057049adfdc"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "33955062-fb4d-46d9-a4ef-3057049adfdc"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP",
-                                    "targetId": "33955062-fb4d-46d9-a4ef-3057049adfdc"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "7430f8d1-aafa-4f92-a319-44005faf3f2a",
-                        "uri": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
-                        "name": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "b75f118c-10b0-4eaa-8d1b-27b111a22317",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "7430f8d1-aafa-4f92-a319-44005faf3f2a"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "7430f8d1-aafa-4f92-a319-44005faf3f2a"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP",
-                                    "targetId": "7430f8d1-aafa-4f92-a319-44005faf3f2a"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "bdf9fc58-2786-44ce-982a-f93369af1fcc",
-                        "uri": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
-                        "name": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "97ef7e55-ac25-4112-9033-c0b9ef28909c",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "bdf9fc58-2786-44ce-982a-f93369af1fcc"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "bdf9fc58-2786-44ce-982a-f93369af1fcc"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP",
-                                    "targetId": "bdf9fc58-2786-44ce-982a-f93369af1fcc"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 1000,
-                        "max": 2100
-                    },
-                    "2": {
-                        "min": 500,
-                        "max": 1000
-                    },
-                    "3": {
-                        "min": 200,
-                        "max": 450
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 150
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
             }
         ]
     },
@@ -73473,6 +72691,788 @@
                         "known_issues": {}
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "ClassDojo",
+        "tagline": "ClassDojo is on a mission to help every teacher create an incredible classroom",
+        "briefUrl": "/engagements/classdojo",
+        "backgroundColor": "#575b7D",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/706e/6dc4/5694fad1/1b39412dbdeccfb31985fa1cd611c522_dojo_logo.png",
+        "rewardSummary": {
+            "summary": "Points - $2,100",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$2,100",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Education",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/classdojo/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "6b44aa17-bf27-4883-8107-e7e83db6c822",
+                "name": "In Scope",
+                "targets": [
+                    {
+                        "id": "4f52725f-099e-4046-8924-f8d020e225ca",
+                        "uri": null,
+                        "name": "IoS App",
+                        "category": "ios",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "9a46cd26-1992-4f2a-8038-75fd89345569",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C",
+                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI",
+                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift",
+                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing",
+                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
+                                },
+                                {
+                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
+                                    "name": "Binary Analysis",
+                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "4f52725f-099e-4046-8924-f8d020e225ca"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b641c72b-741d-4679-bbce-6d733e355f0d",
+                        "uri": "https://api.classdojo.com",
+                        "name": "https://api.classdojo.com",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b5f42327-ed9d-4fed-837d-7bedd5a26d1b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "b641c72b-741d-4679-bbce-6d733e355f0d"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP",
+                                    "targetId": "b641c72b-741d-4679-bbce-6d733e355f0d"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "f8234fa0-92e5-42a2-bef7-bb4545e82a50",
+                        "uri": null,
+                        "name": "Android App",
+                        "category": "android",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c3d4d77e-10da-4fbf-8378-4d9d9f53370c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java",
+                                    "targetId": "f8234fa0-92e5-42a2-bef7-bb4545e82a50"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing",
+                                    "targetId": "f8234fa0-92e5-42a2-bef7-bb4545e82a50"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "f8234fa0-92e5-42a2-bef7-bb4545e82a50"
+                                },
+                                {
+                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
+                                    "name": "Binary Analysis",
+                                    "targetId": "f8234fa0-92e5-42a2-bef7-bb4545e82a50"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "f8234fa0-92e5-42a2-bef7-bb4545e82a50"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "41da4201-6e83-4a81-9f55-7cc251f02b46",
+                        "uri": "https://teach.classdojo.com",
+                        "name": "https://teach.classdojo.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "3911856e-2df9-4e37-ae8a-db0a3664e37f",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "41da4201-6e83-4a81-9f55-7cc251f02b46"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3",
+                                    "targetId": "41da4201-6e83-4a81-9f55-7cc251f02b46"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "41da4201-6e83-4a81-9f55-7cc251f02b46"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash",
+                                    "targetId": "41da4201-6e83-4a81-9f55-7cc251f02b46"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "41da4201-6e83-4a81-9f55-7cc251f02b46"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "59832ef1-32d2-48eb-aca9-5c62c0654102",
+                        "uri": "https://student.classdojo.com",
+                        "name": "https://student.classdojo.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "399f148f-311d-42a5-9e2a-1c6d95f284bd",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3",
+                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
+                                },
+                                {
+                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
+                                    "name": "Amazon Cloudfront",
+                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash",
+                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "59832ef1-32d2-48eb-aca9-5c62c0654102"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "59a9745f-082b-4575-90a5-f39b7de72836",
+                        "uri": "https://www.classdojo.com",
+                        "name": "https://www.classdojo.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "1780b1a3-3cf7-4fdd-a2d8-5a66744d3834",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "21bf0b21-e645-4730-b030-be773c64efc7",
+                                    "name": "Gatsby",
+                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap",
+                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3",
+                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
+                                },
+                                {
+                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
+                                    "name": "Amazon Cloudfront",
+                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "59a9745f-082b-4575-90a5-f39b7de72836"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "5b474c9e-0add-4317-a4bb-5765ac451091",
+                        "uri": "https://home.classdojo.com",
+                        "name": "https://home.classdojo.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "5076a36d-33fb-40bd-919d-f5f0e3bda74b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "5b474c9e-0add-4317-a4bb-5765ac451091"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3",
+                                    "targetId": "5b474c9e-0add-4317-a4bb-5765ac451091"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "5b474c9e-0add-4317-a4bb-5765ac451091"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash",
+                                    "targetId": "5b474c9e-0add-4317-a4bb-5765ac451091"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "5b474c9e-0add-4317-a4bb-5765ac451091"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b454f1e8-8924-4b52-9cd3-d5ba3352791d",
+                        "uri": "https://dev.tutoring.classdojo.com",
+                        "name": "https://dev.tutoring.classdojo.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "befe10e4-3aff-4381-999a-8762f093c2f2",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "b454f1e8-8924-4b52-9cd3-d5ba3352791d"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "b454f1e8-8924-4b52-9cd3-d5ba3352791d"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP",
+                                    "targetId": "b454f1e8-8924-4b52-9cd3-d5ba3352791d"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "10777a4a-d66f-4802-bad9-db2c754878f2",
+                        "uri": "https://ws.multiplayer.classdojo.com/",
+                        "name": "wss://ws.multiplayer.classdojo.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "90a1e569-5d0a-479f-8dfb-1c2540b967b7",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "10777a4a-d66f-4802-bad9-db2c754878f2"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "10777a4a-d66f-4802-bad9-db2c754878f2"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP",
+                                    "targetId": "10777a4a-d66f-4802-bad9-db2c754878f2"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "33955062-fb4d-46d9-a4ef-3057049adfdc",
+                        "uri": "https://ticket.multiplayer.classdojo.com",
+                        "name": "https://ticket.multiplayer.classdojo.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "899b7cc2-c617-41fb-9d07-bc4a7ca6fc45",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "33955062-fb4d-46d9-a4ef-3057049adfdc"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "33955062-fb4d-46d9-a4ef-3057049adfdc"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP",
+                                    "targetId": "33955062-fb4d-46d9-a4ef-3057049adfdc"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "7430f8d1-aafa-4f92-a319-44005faf3f2a",
+                        "uri": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
+                        "name": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b75f118c-10b0-4eaa-8d1b-27b111a22317",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "7430f8d1-aafa-4f92-a319-44005faf3f2a"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "7430f8d1-aafa-4f92-a319-44005faf3f2a"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP",
+                                    "targetId": "7430f8d1-aafa-4f92-a319-44005faf3f2a"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "bdf9fc58-2786-44ce-982a-f93369af1fcc",
+                        "uri": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
+                        "name": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "97ef7e55-ac25-4112-9033-c0b9ef28909c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "bdf9fc58-2786-44ce-982a-f93369af1fcc"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "bdf9fc58-2786-44ce-982a-f93369af1fcc"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP",
+                                    "targetId": "bdf9fc58-2786-44ce-982a-f93369af1fcc"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 1000,
+                        "max": 2100
+                    },
+                    "2": {
+                        "min": 500,
+                        "max": 1000
+                    },
+                    "3": {
+                        "min": 200,
+                        "max": 450
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 150
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bitstamp",
+        "tagline": "The original global crypto exchange",
+        "briefUrl": "/engagements/bitstamp",
+        "backgroundColor": "#003b2f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d91/8079/d9dee082/857e366c43e968894a3b13a2ffe27d7a_Frame_1.png",
+        "rewardSummary": {
+            "summary": "$100 - $7,500",
+            "hint": "Up to $100,000",
+            "minReward": "$100",
+            "maxReward": "$7,500",
+            "compensationSummary": "Up to $100,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bitstamp/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "be928f54-d2fd-4fe9-b44d-62a3fd7b360c",
+                "name": "Primary Targets",
+                "targets": [
+                    {
+                        "id": "4c49e76a-817b-41a7-bbc1-09e23f8542ac",
+                        "uri": "https://www.bitstamp.net/",
+                        "name": "www.bitstamp.net - Bitstamp Application & API",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b28b01b7-7d50-4b44-921c-85fd871e6d25",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "4c49e76a-817b-41a7-bbc1-09e23f8542ac"
+                                },
+                                {
+                                    "id": "6bf30795-7930-4c2b-bb79-d2c4f15f7740",
+                                    "name": "Finance",
+                                    "targetId": "4c49e76a-817b-41a7-bbc1-09e23f8542ac"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "4c49e76a-817b-41a7-bbc1-09e23f8542ac"
+                                },
+                                {
+                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
+                                    "name": "Cryptocurrency",
+                                    "targetId": "4c49e76a-817b-41a7-bbc1-09e23f8542ac"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<p>You are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user&#39;s data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target&#39;s ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 4000,
+                        "max": 7500
+                    },
+                    "2": {
+                        "min": 1500,
+                        "max": 4000
+                    },
+                    "3": {
+                        "min": 600,
+                        "max": 1500
+                    },
+                    "4": {
+                        "min": 200,
+                        "max": 600
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    },
+                    "programMax": 100000
+                }
+            },
+            {
+                "id": "acc4cb9b-7f89-45a9-abaf-3f459668a6a2",
+                "name": "Secondary Targets",
+                "targets": [
+                    {
+                        "id": "dcb3dfc3-a75e-48ba-89bb-42f3403cd64c",
+                        "uri": "",
+                        "name": "*.bitstamp.net - Bitstamp Supporting Services",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b985f72e-a2ae-4602-8a3c-cac65946fe59",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 1,
+                "description": null,
+                "description_html": "<p>Secondary targets include all *.bitstamp.net subdomains which are not in primary scope. Some subdomains may point to 3rd party services - please avoid any active tests against such domains.</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 2000,
+                        "max": 4000
+                    },
+                    "2": {
+                        "min": 750,
+                        "max": 2000
+                    },
+                    "3": {
+                        "min": 300,
+                        "max": 750
+                    },
+                    "4": {
+                        "min": 100,
+                        "max": 300
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "e682e2d0-b546-4db6-8adf-d7e825fca09b",
+                "name": "Mobile Targets",
+                "targets": [
+                    {
+                        "id": "fc8835d4-a099-4a09-9868-930004a93e78",
+                        "uri": "https://apps.apple.com/us/app/bitstamp/id1406825640",
+                        "name": "Bitstamp Mobile Application for iOS",
+                        "category": "ios",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "f292cc68-1966-4eea-8a5d-2fb2e1c09627",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing",
+                                    "targetId": "fc8835d4-a099-4a09-9868-930004a93e78"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "fc8835d4-a099-4a09-9868-930004a93e78"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "eb5e2ca3-4e4f-401d-b3db-04dea0e748af",
+                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.app",
+                        "name": "Bitstamp Pro Mobile Application for Android",
+                        "category": "android",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "21919c1e-b469-4707-8d8a-60fb06ef8acd",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing",
+                                    "targetId": "eb5e2ca3-4e4f-401d-b3db-04dea0e748af"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "eb5e2ca3-4e4f-401d-b3db-04dea0e748af"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "54ae5a41-a25b-4532-b70f-641a442d303c",
+                        "uri": "https://play.google.com/store/apps/details?id=net.bitstamp.appgo",
+                        "name": "Bitstamp Mobile Application For Android",
+                        "category": "android",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "7c932e8a-3944-45ce-908f-07c3dd68774f",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing",
+                                    "targetId": "54ae5a41-a25b-4532-b70f-641a442d303c"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "54ae5a41-a25b-4532-b70f-641a442d303c"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 2,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 2000,
+                        "max": 4000
+                    },
+                    "2": {
+                        "min": 750,
+                        "max": 2000
+                    },
+                    "3": {
+                        "min": 300,
+                        "max": 750
+                    },
+                    "4": {
+                        "min": null,
+                        "max": null
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
             }
         ]
     }
