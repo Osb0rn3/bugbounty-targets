@@ -19484,7 +19484,7 @@
             {
                 "id": "bb48addf-a658-41ec-bf2c-f0e9b6ed890b",
                 "name": "Special Target",
-                "description_html": "<p><strong>T&amp;P Servers</strong> - Must be able to provide the contents within the flag.txt file<br>\n<strong>Internal Server</strong> - Please select this option if you can access a different internal server besides the T&amp;P Servers</p>\n\n<p>Please be advised that certain internal corporate network domains, such as <code>*.internal.t-mobile.com</code> and <code>*.unix.gsm1900.org</code> may be publicly accessible to facilitate specific business functions. The final determination of considering a submission accepted as an \"Internal Server\" will be made following a thorough internal investigation.</p>",
+                "description_html": "<p><strong>T&amp;P Servers</strong> - Must be able to provide the contents within the flag.txt file<br>\n<strong>Internal Server</strong> - Please select this option if you can access a different internal server besides the T&amp;P Servers<br>\n<strong>Cellular Network Auth Bypass via Web/Mobile App</strong> - Perform an account authentication bypass <em>over cellular network</em> targeting the following MSISDN <code>404-200-7239</code> via T-Mobile Mobile App or Web App. Submissions must be in video format showing navigation of the account profile, settings, and lines available.</p>\n\n<p>Please be advised that certain internal corporate network domains, such as <code>*.internal.t-mobile.com</code> and <code>*.unix.gsm1900.org</code> may be publicly accessible to facilitate specific business functions. The final determination of considering a submission accepted as an \"Internal Server\" will be made following a thorough internal investigation.</p>",
                 "in_scope": true,
                 "reward_range": {
                     "1": {
@@ -19493,10 +19493,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/t-mobile/target_groups/4c58fdac-7d63-4b5e-ad90-a79975b6928a/targets",
+                "targets_url": "/t-mobile/target_groups/7414cfa1-966e-4d01-ba75-db278b5a9a6f/targets",
                 "targets": [
                     {
-                        "id": "7596f86a-521c-4228-a185-02d429c17c84",
+                        "id": "3ad84361-ae45-4a7e-b133-167a10bd50ba",
                         "name": "T&P Servers",
                         "description": null,
                         "category": "network",
@@ -19510,7 +19510,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f989a124-023c-440c-9d47-f37e66aaf20f",
+                        "id": "95b877db-3f78-4df8-a6bb-056c540f69f7",
                         "name": "Internal Server",
                         "description": null,
                         "category": "network",
@@ -19520,6 +19520,29 @@
                             "tags": []
                         },
                         "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "471f5e97-6c8b-44f4-82c6-fa751e629e13",
+                        "name": "Cellular Network Auth Bypass via Web/Mobile App",
+                        "description": null,
+                        "category": "network",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -19545,10 +19568,10 @@
                     }
                 },
                 "sort_order": 1,
-                "targets_url": "/t-mobile/target_groups/780b597a-1873-452a-be28-11d6ffab9968/targets",
+                "targets_url": "/t-mobile/target_groups/ebd6ce22-0a31-45c5-9b5b-dd47fc1a1d6e/targets",
                 "targets": [
                     {
-                        "id": "2b202a57-a00c-40e5-a1ff-51cb188e658b",
+                        "id": "93e5cae2-646a-4d28-855f-145618f26300",
                         "name": "t-mobile.com",
                         "description": null,
                         "category": "website",
@@ -19575,7 +19598,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "0a403bf9-f072-49a1-9271-94a7c8340e99",
+                        "id": "996e9e2c-d1c6-4a26-ac89-56217337eb15",
                         "name": "account.t-mobile.com",
                         "description": null,
                         "category": "website",
@@ -19602,7 +19625,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "d3d62700-ae50-4f31-b859-8eb43c782b61",
+                        "id": "5aaaf8da-11f9-4e53-b6ec-7c51bcc0f80b",
                         "name": "*.api.t-mobile.com",
                         "description": null,
                         "category": "api",
@@ -19629,7 +19652,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "5297e8b8-c573-4fe1-a465-96ce61850994",
+                        "id": "7480b639-f4f1-449f-b0ff-3ecdb9484372",
                         "name": "sprint.com",
                         "description": null,
                         "category": "website",
@@ -19656,7 +19679,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "aa41bec5-db36-44a7-a5cf-f8163734f0b3",
+                        "id": "ef777a1d-ea6f-4a74-80e7-1651c2b23996",
                         "name": "metrobyt-mobile.com",
                         "description": null,
                         "category": "website",
@@ -19683,7 +19706,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "99d362b6-4cf7-491e-b76d-6e637ad01d2c",
+                        "id": "d2395085-d225-4c27-adb9-1e15d9a2c9c1",
                         "name": "devedge.t-mobile.com",
                         "description": null,
                         "category": "website",
@@ -19710,7 +19733,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "867b7be2-5915-467f-9115-1e12651fb1bb",
+                        "id": "7380fb65-7288-413b-a15f-dacbb7def845",
                         "name": "tfb.t-mobile.com",
                         "description": null,
                         "category": "website",
@@ -19758,10 +19781,10 @@
                     }
                 },
                 "sort_order": 2,
-                "targets_url": "/t-mobile/target_groups/d8b02647-a552-4839-b96b-a703e50b66cc/targets",
+                "targets_url": "/t-mobile/target_groups/33566600-148b-4499-b9ad-3fb432d2c215/targets",
                 "targets": [
                     {
-                        "id": "84be7b4c-bf3c-4da1-a419-d5569e07b64d",
+                        "id": "459fa84e-b2a4-45fd-b804-e1b8706d0f95",
                         "name": "digits.t-mobile.com",
                         "description": null,
                         "category": "website",
@@ -19796,10 +19819,10 @@
                     }
                 },
                 "sort_order": 3,
-                "targets_url": "/t-mobile/target_groups/5de86c63-6749-4474-beba-2ce40fa64e39/targets",
+                "targets_url": "/t-mobile/target_groups/2dbcb346-a82b-4569-b58d-10f940b7d4ae/targets",
                 "targets": [
                     {
-                        "id": "c576469b-7a14-485a-b63c-ea9b2c9058b6",
+                        "id": "ec340d7b-1cf1-4119-b3ee-c06404e84f57",
                         "name": "*.t-mobile.com",
                         "description": null,
                         "category": "website",
@@ -19826,7 +19849,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "94777e41-4c99-4e83-95c7-9e5a82d7ce56",
+                        "id": "75e6c6fa-d5dd-4f95-8986-a8db88094cf3",
                         "name": "*.metrobyt-mobile.com",
                         "description": null,
                         "category": "website",
@@ -19861,10 +19884,10 @@
                 "in_scope": true,
                 "reward_range": {},
                 "sort_order": 4,
-                "targets_url": "/t-mobile/target_groups/8fbab0df-6038-41fa-9f6f-dd3eb7001a87/targets",
+                "targets_url": "/t-mobile/target_groups/886f22c5-7ef6-45a4-98f3-f451dbc07255/targets",
                 "targets": [
                     {
-                        "id": "1632bd95-cc57-46e8-94d3-c030dbb5508d",
+                        "id": "e3900a9f-edba-4c76-9d9b-446dd1b07dc7",
                         "name": "Assets labeled as in-scope",
                         "description": null,
                         "category": "other",
@@ -19886,10 +19909,10 @@
                 "in_scope": true,
                 "reward_range": {},
                 "sort_order": 5,
-                "targets_url": "/t-mobile/target_groups/e7d1d172-feea-4f9c-bee2-f7ad07547c85/targets",
+                "targets_url": "/t-mobile/target_groups/7e2710ce-d3af-4514-9c39-fa9b046b0abc/targets",
                 "targets": [
                     {
-                        "id": "f7959c9f-c6b6-4152-9f44-56e6a356abc3",
+                        "id": "ec9ee340-3172-4ae7-a2d5-d337411e45cb",
                         "name": "T-Life - iOS",
                         "description": null,
                         "category": "ios",
@@ -19908,7 +19931,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "d9587ef6-f28a-41dc-b5c8-c7c07c30ce5c",
+                        "id": "89414326-2511-4401-954a-30d89907bb68",
                         "name": "T-Life - Android",
                         "description": null,
                         "category": "android",
@@ -19927,7 +19950,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "1d868ca4-714c-48d4-9993-e6b80d2395f7",
+                        "id": "1e2ef76e-6d6e-4920-bfa7-c082fc79e939",
                         "name": "T-Mobile - iOS",
                         "description": null,
                         "category": "ios",
@@ -19946,7 +19969,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "0ba623f2-c9e6-4a15-a0dd-abef0dd68e9c",
+                        "id": "c5dadc66-eba6-4c23-ac45-f47622d8e23d",
                         "name": "T-Mobile - Android",
                         "description": null,
                         "category": "android",
@@ -19965,7 +19988,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "986ab501-7765-4540-863f-3313169c30f7",
+                        "id": "4f79e361-6c68-48a6-a98c-e95c100fd37e",
                         "name": "SyncUP DRIVE - iOS",
                         "description": null,
                         "category": "ios",
@@ -19984,7 +20007,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9a27a8da-ee97-4b65-bdf0-2d26c1bf5eb8",
+                        "id": "6a98bd21-5559-45c9-b279-bd35a15d49cf",
                         "name": "SyncUP DRIVE - Android",
                         "description": null,
                         "category": "android",
@@ -20003,7 +20026,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a901e52e-3b0c-40ae-84fa-3c7559127100",
+                        "id": "034e494a-0b5b-4372-8f2a-1efd8d7b67b5",
                         "name": "SyncUP KIDS - iOS",
                         "description": null,
                         "category": "ios",
@@ -20022,7 +20045,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "0f789adc-dd35-426f-bd25-ada1582de156",
+                        "id": "33e1a2b1-ca3a-40eb-befa-5588edac8a4c",
                         "name": "SyncUP KIDS - Android",
                         "description": null,
                         "category": "android",
@@ -20041,7 +20064,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7550b38c-1b6b-4724-95ec-6e1f79a12e22",
+                        "id": "cd63a336-b20f-4dd6-b264-cdbc08c9e1b9",
                         "name": "SyncUP TRACKER - iOS",
                         "description": null,
                         "category": "ios",
@@ -20060,7 +20083,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "1622abcf-2d6a-4ecb-af4b-5fed3c7c2e99",
+                        "id": "ec7cda93-f3c5-4113-8971-5565f83b0215",
                         "name": "SyncUP TRACKER - Android",
                         "description": null,
                         "category": "android",
@@ -20079,7 +20102,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c6dbb58f-a54f-4774-b4ea-106b3bfe0885",
+                        "id": "2bfc21fd-9663-43b6-9a17-ee3a6e62624b",
                         "name": "DIGITS - Mobile & Desktop",
                         "description": null,
                         "category": "other",
@@ -20110,10 +20133,10 @@
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 6,
-                "targets_url": "/t-mobile/target_groups/be3b7877-73b7-4f57-82f5-855655b54ed7/targets",
+                "targets_url": "/t-mobile/target_groups/95c61aaa-4feb-4751-9fa7-bc7fcdc9e728/targets",
                 "targets": [
                     {
-                        "id": "b7b6e178-a681-49d5-b330-0f150b0ec650",
+                        "id": "769e042f-c134-4816-9b85-bf75b3210095",
                         "name": "*.sprint.net",
                         "description": null,
                         "category": "website",
@@ -20127,7 +20150,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "bf76646f-1353-4651-93f7-f01593af37d3",
+                        "id": "5c2dd7d7-5e8a-44f8-a8b4-8a9e0ed7c525",
                         "name": "*.sprint.com",
                         "description": null,
                         "category": "website",
@@ -20162,10 +20185,10 @@
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 7,
-                "targets_url": "/t-mobile/target_groups/fb743ca3-8aad-45d6-95ec-0860a83ca84a/targets",
+                "targets_url": "/t-mobile/target_groups/8a04e3aa-97f8-4dd9-9475-a35cbf159158/targets",
                 "targets": [
                     {
-                        "id": "d4d5704a-9b17-44c5-9dff-3b7b5cc8cc0c",
+                        "id": "ff5369b9-9274-4aac-ae84-1bdb7f6c84ab",
                         "name": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
                         "description": null,
                         "category": "other",
