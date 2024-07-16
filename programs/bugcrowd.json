@@ -67635,6 +67635,442 @@
         ]
     },
     {
+        "name": "Etsy",
+        "tagline": "Shop for anything from creative people everywhere",
+        "briefUrl": "/etsy",
+        "backgroundColor": "#e37e40",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c678/7530/6cf61d93/9d2b440e8154a57845f9a1337f91d025_etsy_gimp.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $10,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/etsy/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2bff045a-873d-4b4b-9bf4-1eb31d4f2bff",
+                "name": "In-Scope Targets",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 5000.0,
+                        "max": 10000.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 5000.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 800.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/etsy/target_groups/6b3e07e0-166e-41b2-a9fd-397b65f2d91a/targets",
+                "targets": [
+                    {
+                        "id": "de8e97af-55fd-4ca1-af15-80a6d891e743",
+                        "name": "Any publicly facing host owned by Etsy, including the below:",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "97a2e5eb-75b5-4bfe-a941-8866f143d764",
+                        "name": "www.etsy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.etsy.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bd8673a3-7589-4d06-9b4c-5170a5270344",
+                        "name": "Etsy Mobile Application (Android)",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://www.etsy.com/mobile",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9d66b2f6-ae26-4c2d-ac64-e4f106f2acc0",
+                        "name": "Etsy Mobile Application (iPhone)",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://www.etsy.com/mobile",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "073723b0-4b1e-4e73-a68d-d4e40deac937",
+                        "name": "Etsy API (see documentation below)",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://www.etsy.com/developers/documentation/getting_started/api_basics",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "abe3b582-8b71-42cb-a2bb-81112a9d8c74",
+                        "name": "etsypayments.com",
+                        "description": null,
+                        "category": "other",
+                        "uri": "https://etsypayments.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "1227663c-38b8-47b0-b44b-7dd59ba801de",
+                "name": "In Scope ",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 150.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/etsy/target_groups/f341ae9a-ef78-4c04-8c24-652d7abeb544/targets",
+                "targets": [
+                    {
+                        "id": "033fd02d-3dba-4f3c-95b9-88e73ce40cfa",
+                        "name": "http://blog.etsy.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://blog.etsy.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f3535f58-1888-4529-991f-40a1d216679f",
+                        "name": "http://community.etsy.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://community.etsy.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f203917b-6d74-48e2-a296-eee4a69ec67f",
+                        "name": "http://careers.etsy.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://careers.etsy.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "92a18d66-d9c8-4b51-b243-7df5a9838727",
+                        "name": "help.etsy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://help.etsy.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "6a7444bc-2fc6-414c-9cd8-71858ecb03c4",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 650.0,
+                        "max": 1000.0
+                    },
+                    "2": {
+                        "min": 450.0,
+                        "max": 650.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 450.0
+                    },
+                    "4": {
+                        "min": 50.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 2,
+                "targets_url": "/etsy/target_groups/4569bf1e-d7a1-4bd0-84e8-9eb004a5ae4d/targets",
+                "targets": [
+                    {
+                        "id": "a375dfa2-c9ca-4efd-b36e-fe589a834a64",
+                        "name": "*.etsy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "2cf0ea8c-7b44-4197-ab01-e3ec97d401ba",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 3,
+                "targets_url": "/etsy/target_groups/0e460b88-399d-4723-9bf4-b3ea17aec465/targets",
+                "targets": [
+                    {
+                        "id": "b9e79ae3-0ae8-47fd-a4f9-5743208bd360",
+                        "name": "icht.etsysecure.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Exoscale",
         "tagline": "European cloud provider. Simplicity, scalability and security.",
         "briefUrl": "/engagements/exoscale",
@@ -68092,442 +68528,6 @@
                 "description": null,
                 "description_html": "<h2>Out of scope</h2>\n\n<ul>\n<li>Customer infrastructure is out of scope</li>\n<li>Failure to Invalidate Session issues</li>\n<li>No Rate Limiting on Form issues unless the researcher can demonstrate a strong security impact</li>\n<li>Vulnerabilities that only results in inconsequential losses for Exoscale (under USD 500, ex: resources or coupon limit bypass)</li>\n<li>All P5 severity vulnerability as described on the Bugcrowd Vulnerability Taxonomy</li>\n<li>Activities amounting to denial of services</li>\n<li>Missing Secure or HTTPOnly Cookie Flag</li>\n<li>Email Spoofing to Inbox due to Missing or Misconfigured DMARC on Email Domain</li>\n<li>Vulnerabilities only affecting users of outdated or unpatched browsers</li>\n<li>Software version disclosure</li>\n<li>Very recent public vulnerability (patch available for less than 2 weeks)</li>\n<li>Attacks that require unlikely user interaction</li>\n</ul>",
                 "reward_range": {}
-            }
-        ]
-    },
-    {
-        "name": "Etsy",
-        "tagline": "Shop for anything from creative people everywhere",
-        "briefUrl": "/etsy",
-        "backgroundColor": "#e37e40",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c678/7530/6cf61d93/9d2b440e8154a57845f9a1337f91d025_etsy_gimp.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $10,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/etsy/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2bff045a-873d-4b4b-9bf4-1eb31d4f2bff",
-                "name": "In-Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 5000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 800.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/etsy/target_groups/6b3e07e0-166e-41b2-a9fd-397b65f2d91a/targets",
-                "targets": [
-                    {
-                        "id": "de8e97af-55fd-4ca1-af15-80a6d891e743",
-                        "name": "Any publicly facing host owned by Etsy, including the below:",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "97a2e5eb-75b5-4bfe-a941-8866f143d764",
-                        "name": "www.etsy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.etsy.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bd8673a3-7589-4d06-9b4c-5170a5270344",
-                        "name": "Etsy Mobile Application (Android)",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://www.etsy.com/mobile",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9d66b2f6-ae26-4c2d-ac64-e4f106f2acc0",
-                        "name": "Etsy Mobile Application (iPhone)",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://www.etsy.com/mobile",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "073723b0-4b1e-4e73-a68d-d4e40deac937",
-                        "name": "Etsy API (see documentation below)",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://www.etsy.com/developers/documentation/getting_started/api_basics",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "abe3b582-8b71-42cb-a2bb-81112a9d8c74",
-                        "name": "etsypayments.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://etsypayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "1227663c-38b8-47b0-b44b-7dd59ba801de",
-                "name": "In Scope ",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 150.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/etsy/target_groups/f341ae9a-ef78-4c04-8c24-652d7abeb544/targets",
-                "targets": [
-                    {
-                        "id": "033fd02d-3dba-4f3c-95b9-88e73ce40cfa",
-                        "name": "http://blog.etsy.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://blog.etsy.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f3535f58-1888-4529-991f-40a1d216679f",
-                        "name": "http://community.etsy.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://community.etsy.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f203917b-6d74-48e2-a296-eee4a69ec67f",
-                        "name": "http://careers.etsy.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://careers.etsy.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "92a18d66-d9c8-4b51-b243-7df5a9838727",
-                        "name": "help.etsy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://help.etsy.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "6a7444bc-2fc6-414c-9cd8-71858ecb03c4",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 650.0,
-                        "max": 1000.0
-                    },
-                    "2": {
-                        "min": 450.0,
-                        "max": 650.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 450.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/etsy/target_groups/4569bf1e-d7a1-4bd0-84e8-9eb004a5ae4d/targets",
-                "targets": [
-                    {
-                        "id": "a375dfa2-c9ca-4efd-b36e-fe589a834a64",
-                        "name": "*.etsy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "2cf0ea8c-7b44-4197-ab01-e3ec97d401ba",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 3,
-                "targets_url": "/etsy/target_groups/0e460b88-399d-4723-9bf4-b3ea17aec465/targets",
-                "targets": [
-                    {
-                        "id": "b9e79ae3-0ae8-47fd-a4f9-5743208bd360",
-                        "name": "icht.etsysecure.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
             }
         ]
     },
