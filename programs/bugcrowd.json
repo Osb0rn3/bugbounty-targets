@@ -19064,758 +19064,6 @@
         ]
     },
     {
-        "name": "T-Mobile",
-        "tagline": "Welcome to The Uncarrier. Are You With Us?",
-        "briefUrl": "/t-mobile",
-        "backgroundColor": "#e20074",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/536d/20c9/6661dfe6/222ce2fcbe4559e1a34d9bf812be42c6_T-Digit_Logo_Ltd-Use_RGB_W_2022-03-14.png",
-        "rewardSummary": {
-            "summary": "Points - $100,001",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$100,001",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Utilities",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/t-mobile/program_subscribers",
-        "programMigrationInProgress": true,
-        "target_groups": [
-            {
-                "id": "bb48addf-a658-41ec-bf2c-f0e9b6ed890b",
-                "name": "Special Target",
-                "description_html": "<p><strong>T&amp;P Servers</strong> - Must be able to provide the contents within the flag.txt file<br>\n<strong>Internal Server</strong> - Please select this option if you can access a different internal server besides the T&amp;P Servers<br>\n<strong>Cellular Network Auth Bypass via Web/Mobile App</strong> - Perform an account authentication bypass <em>over cellular network</em> targeting the following MSISDN <code>404-200-7239</code> via T-Mobile Mobile App or Web App. Submissions must be in video format showing navigation of the account profile, settings, and lines available.</p>\n\n<p>Please be advised that certain internal corporate network domains, such as <code>*.internal.t-mobile.com</code> and <code>*.unix.gsm1900.org</code> may be publicly accessible to facilitate specific business functions. The final determination of considering a submission accepted as an \"Internal Server\" will be made following a thorough internal investigation.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 50000.0,
-                        "max": 100001.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/t-mobile/target_groups/7414cfa1-966e-4d01-ba75-db278b5a9a6f/targets",
-                "targets": [
-                    {
-                        "id": "3ad84361-ae45-4a7e-b133-167a10bd50ba",
-                        "name": "T&P Servers",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "http://10.72.218.66/flag.txt, http://10.62.252.214/flag.txt",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "95b877db-3f78-4df8-a6bb-056c540f69f7",
-                        "name": "Internal Server via Internet Network",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "471f5e97-6c8b-44f4-82c6-fa751e629e13",
-                        "name": "Cellular Network Auth Bypass via Web/Mobile App",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "91f48cb0-780f-4192-a431-329fbf4b2952",
-                "name": "Core Assets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 40000.0,
-                        "max": 40000.0
-                    },
-                    "2": {
-                        "min": 20000.0,
-                        "max": 20000.0
-                    },
-                    "3": {
-                        "min": 6000.0,
-                        "max": 6000.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/t-mobile/target_groups/ebd6ce22-0a31-45c5-9b5b-dd47fc1a1d6e/targets",
-                "targets": [
-                    {
-                        "id": "93e5cae2-646a-4d28-855f-145618f26300",
-                        "name": "t-mobile.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://t-mobile.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "996e9e2c-d1c6-4a26-ac89-56217337eb15",
-                        "name": "account.t-mobile.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://account.t-mobile.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5aaaf8da-11f9-4e53-b6ec-7c51bcc0f80b",
-                        "name": "*.api.t-mobile.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.t-mobile.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7480b639-f4f1-449f-b0ff-3ecdb9484372",
-                        "name": "sprint.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://sprint.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ef777a1d-ea6f-4a74-80e7-1651c2b23996",
-                        "name": "metrobyt-mobile.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://metrobyt-mobile.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d2395085-d225-4c27-adb9-1e15d9a2c9c1",
-                        "name": "devedge.t-mobile.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://devedge.t-mobile.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7380fb65-7288-413b-a15f-dacbb7def845",
-                        "name": "tfb.t-mobile.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://tfb.t-mobile.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "6ff0242e-6dc3-450e-baee-af196bb2cbfb",
-                "name": "Primary Assets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 25000.0,
-                        "max": 25000.0
-                    },
-                    "2": {
-                        "min": 15000.0,
-                        "max": 15000.0
-                    },
-                    "3": {
-                        "min": 2000.0,
-                        "max": 2000.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/t-mobile/target_groups/33566600-148b-4499-b9ad-3fb432d2c215/targets",
-                "targets": [
-                    {
-                        "id": "459fa84e-b2a4-45fd-b804-e1b8706d0f95",
-                        "name": "digits.t-mobile.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://digits.t-mobile.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "591a4918-7f7e-4017-87c4-36b9f2f280b4",
-                "name": "Supplemental Assets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 5000.0,
-                        "max": 5000.0
-                    },
-                    "3": {
-                        "min": 1000.0,
-                        "max": 1000.0
-                    }
-                },
-                "sort_order": 3,
-                "targets_url": "/t-mobile/target_groups/2dbcb346-a82b-4569-b58d-10f940b7d4ae/targets",
-                "targets": [
-                    {
-                        "id": "ec340d7b-1cf1-4119-b3ee-c06404e84f57",
-                        "name": "*.t-mobile.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://t-mobile.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "75e6c6fa-d5dd-4f95-8986-a8db88094cf3",
-                        "name": "*.metrobyt-mobile.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://metrobyt-mobile.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "109696d0-b0e9-499a-b742-117b728cc70f",
-                "name": "Static Rewards",
-                "description_html": "<p>A static reward of $1,500 will be rewarded for Cross-Site Scripting, Open Redirects, Cache Poisoning, and Subdomain takeover issues. These will be classified as P3. </p>",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 4,
-                "targets_url": "/t-mobile/target_groups/886f22c5-7ef6-45a4-98f3-f451dbc07255/targets",
-                "targets": [
-                    {
-                        "id": "e3900a9f-edba-4c76-9d9b-446dd1b07dc7",
-                        "name": "Assets labeled as in-scope",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "22a2aa51-218f-43ff-9609-b32c3fdba5f7",
-                "name": "Mobile Targets",
-                "description_html": "<p>Current T-Mobile apps In-Scope. Reward payout is graded based on vulnerability location ( Core, Primary, and Supplemental )</p>",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 5,
-                "targets_url": "/t-mobile/target_groups/7e2710ce-d3af-4514-9c39-fa9b046b0abc/targets",
-                "targets": [
-                    {
-                        "id": "ec9ee340-3172-4ae7-a2d5-d337411e45cb",
-                        "name": "T-Life - iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/t-life-t-mobile-tuesdays/id1111876388",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "89414326-2511-4401-954a-30d89907bb68",
-                        "name": "T-Life - Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.tmobile.tuesdays&hl=en_US&gl=US",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1e2ef76e-6d6e-4920-bfa7-c082fc79e939",
-                        "name": "T-Mobile - iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/t-mobile/id561625752",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c5dadc66-eba6-4c23-ac45-f47622d8e23d",
-                        "name": "T-Mobile - Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.tmobile.pr.mytmobile",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4f79e361-6c68-48a6-a98c-e95c100fd37e",
-                        "name": "SyncUP DRIVE - iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/syncup-drive/id1576574297",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6a98bd21-5559-45c9-b279-bd35a15d49cf",
-                        "name": "SyncUP DRIVE - Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.tmobile.drive",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "034e494a-0b5b-4372-8f2a-1efd8d7b67b5",
-                        "name": "SyncUP KIDS - iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/syncup-kids/id1503394062",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "33e1a2b1-ca3a-40eb-befa-5588edac8a4c",
-                        "name": "SyncUP KIDS - Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.tmobile.kids",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cd63a336-b20f-4dd6-b264-cdbc08c9e1b9",
-                        "name": "SyncUP TRACKER - iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/syncup-tracker/id1526380335",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ec7cda93-f3c5-4113-8971-5565f83b0215",
-                        "name": "SyncUP TRACKER - Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.tmobile.syncuptag",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2bfc21fd-9663-43b6-9a17-ee3a6e62624b",
-                        "name": "DIGITS - Mobile & Desktop",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://digits.t-mobile.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "f6669ff4-2aa9-4408-8609-9d03069cb4de",
-                "name": "Out of Scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 6,
-                "targets_url": "/t-mobile/target_groups/95c61aaa-4feb-4751-9fa7-bc7fcdc9e728/targets",
-                "targets": [
-                    {
-                        "id": "769e042f-c134-4816-9b85-bf75b3210095",
-                        "name": "*.sprint.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://sprint.net",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5c2dd7d7-5e8a-44f8-a8b4-8a9e0ed7c525",
-                        "name": "*.sprint.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://sprint.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "b1d3aaa2-9661-44e0-8e29-710731592b07",
-                "name": "Out-of-Scope",
-                "description_html": "<h3>WEB APPLICATIONS</h3>\n\n<ul>\n<li>Clickjacking on pages with no sensitive data or actions.</li>\n<li>Unauthenticated/logout/logon Cross Site Request Forgery (CSRF).</li>\n<li>Attacks requiring Man-in-the-Middle or physical access to a user\u2019s device.</li>\n<li>Previously known vulnerable libraries without a working Proof of Concept.</li>\n<li>Use of outdated software/library version(s).</li>\n<li>Comma Separated Values (CSV) Injection without demonstrating a vulnerability.</li>\n<li>Any activity that could lead to disruption of our service (DoS, DDoS).</li>\n<li>OPTIONS / TRACE HTTP method enabled.</li>\n<li>Missing best practices in SSL/TLS configuration.</li>\n<li>Expired SSL Certificates</li>\n<li>Content spoofing and text injection issues without showing an attack vector/without being able to modify HTML/CSS.</li>\n<li>Cookies that lack HTTP Only or Secure settings for non-sensitive data.</li>\n<li>Attacks dependent upon social engineering of employees or vendors.</li>\n<li>Presence of autocomplete functionality in form fields.</li>\n<li>Lack of email address verification during account registration.</li>\n<li>Missing security headers.</li>\n<li>Mixed content issues.</li>\n<li>Tabnabbing.</li>\n<li>Reports of credentials exposed by other data breaches/known credential list.</li>\n</ul>\n\n<h3>MOBILE APPLICATIONS</h3>\n\n<ul>\n<li>Absence of certificate pinning, lack of obfuscation, jailbreak detection.</li>\n<li>Android and iOS operating systems vulnerabilities.</li>\n<li>Attacks targeting jailbroken or rooted mobile devices.</li>\n<li>Automated scanning tools are out of scope for this program. \n\n<ul>\n<li>We\u2019re not interested in the issues straight from the automated scanners \u2013 demonstrate the exploitability to qualify for the bounty/bonus.</li>\n</ul>\n</li>\n<li>Memory dumps or issues found by tools that read active or cached memory. \n\n<ul>\n<li>Attacks would require an already compromised system and a malicious actor with escalated privileges. Once such an attack can be performed on a system, there is no way in principle to protect other processes running on that system.</li>\n</ul>\n</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 7,
-                "targets_url": "/t-mobile/target_groups/8a04e3aa-97f8-4dd9-9475-a35cbf159158/targets",
-                "targets": [
-                    {
-                        "id": "ff5369b9-9274-4aac-ae84-1bdb7f6c84ab",
-                        "name": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Mastercard Public Bug Bounty ",
         "tagline": "Mastercard operates the world\u2019s fastest payments processing network, connecting consumers, financial institutions, merchants, governments and businesses in more than 210 countries and territories. ",
         "briefUrl": "/mastercard",
@@ -72511,6 +71759,887 @@
                         "known_issues": {}
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "T-Mobile",
+        "tagline": "Welcome to The Uncarrier. Are You With Us?",
+        "briefUrl": "/engagements/t-mobile",
+        "backgroundColor": "#e20074",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/536d/20c9/6661dfe6/222ce2fcbe4559e1a34d9bf812be42c6_T-Digit_Logo_Ltd-Use_RGB_W_2022-03-14.png",
+        "rewardSummary": {
+            "summary": "Points - $100,001",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$100,001",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Utilities",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/t-mobile/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "4bbed9d1-e124-4291-9800-de87c8fc57af",
+                "name": "Special Target",
+                "targets": [
+                    {
+                        "id": "ee70da4a-ef0e-450e-80c7-bbbc12b4db5f",
+                        "uri": "",
+                        "name": "T&P Servers",
+                        "category": "network",
+                        "ipAddress": "http://10.72.218.66/flag.txt, http://10.62.252.214/flag.txt",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "665ee9e2-275d-4048-8391-f88d66a13f63",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "843135c1-2a7a-4bac-ad1a-0475d4a0a289",
+                        "uri": "",
+                        "name": "Cellular Network Auth Bypass via Web/Mobile App",
+                        "category": "network",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "35de618f-4ba4-4e1d-827b-fa1f4443efd4",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing",
+                                    "targetId": "843135c1-2a7a-4bac-ad1a-0475d4a0a289"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "843135c1-2a7a-4bac-ad1a-0475d4a0a289"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b60722b9-d91e-454b-ab74-5f93095fabbf",
+                        "uri": "",
+                        "name": "Internal Server via Internet Network",
+                        "category": "network",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "702b1fab-c3b9-42e1-a457-3a3fcf039625",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<p><strong>T&amp;P Servers</strong> - Must be able to provide the contents within the flag.txt file<br>\n<strong>Internal Server</strong> - Please select this option if you can access a different internal server besides the T&amp;P Servers<br>\n<strong>Cellular Network Auth Bypass via Web/Mobile App</strong> - Perform an account authentication bypass <em>over cellular network</em> targeting the following MSISDN <code>404-200-7239</code> via T-Mobile Mobile App or Web App. Submissions must be in video format showing navigation of the account profile, settings, and lines available.</p>\n\n<p>Please be advised that certain internal corporate network domains, such as <code>*.internal.t-mobile.com</code> and <code>*.unix.gsm1900.org</code> may be publicly accessible to facilitate specific business functions. The final determination of considering a submission accepted as an &quot;Internal Server&quot; will be made following a thorough internal investigation.</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 50000,
+                        "max": 100001
+                    },
+                    "2": {
+                        "min": null,
+                        "max": null
+                    },
+                    "3": {
+                        "min": null,
+                        "max": null
+                    },
+                    "4": {
+                        "min": null,
+                        "max": null
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "8705f96c-6c63-492a-9400-5990f908ab4d",
+                "name": "Core Assets",
+                "targets": [
+                    {
+                        "id": "a6523e18-4ffa-47cc-930f-bda20204fc55",
+                        "uri": "https://account.t-mobile.com",
+                        "name": "account.t-mobile.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "0b63d459-a641-4a48-8015-4de94426338e",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "a6523e18-4ffa-47cc-930f-bda20204fc55"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "a6523e18-4ffa-47cc-930f-bda20204fc55"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure",
+                                    "targetId": "a6523e18-4ffa-47cc-930f-bda20204fc55"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "119cb570-2afb-4991-b91d-3415e3f43a7d",
+                        "uri": "https://metrobyt-mobile.com",
+                        "name": "metrobyt-mobile.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "46b4a5bb-ff96-4589-8249-ea1378fd9384",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "119cb570-2afb-4991-b91d-3415e3f43a7d"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "119cb570-2afb-4991-b91d-3415e3f43a7d"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure",
+                                    "targetId": "119cb570-2afb-4991-b91d-3415e3f43a7d"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "fed72758-866f-42b2-a1d2-1bd49467432e",
+                        "uri": "https://sprint.com",
+                        "name": "sprint.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "24d2712d-18db-4d6f-81d4-f142a51bc95b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "fed72758-866f-42b2-a1d2-1bd49467432e"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "fed72758-866f-42b2-a1d2-1bd49467432e"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure",
+                                    "targetId": "fed72758-866f-42b2-a1d2-1bd49467432e"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "37707a0e-7976-480c-9a61-50c62984ace0",
+                        "uri": "https://t-mobile.com",
+                        "name": "t-mobile.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "03a795d2-976e-47c1-b170-dbc31592e52c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "37707a0e-7976-480c-9a61-50c62984ace0"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "37707a0e-7976-480c-9a61-50c62984ace0"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure",
+                                    "targetId": "37707a0e-7976-480c-9a61-50c62984ace0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "60d3b46b-434c-4535-95ba-48999d600ed3",
+                        "uri": "https://api.t-mobile.com",
+                        "name": "*.api.t-mobile.com",
+                        "category": "api",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "414de709-8fe0-4c68-980f-c40b480da410",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "60d3b46b-434c-4535-95ba-48999d600ed3"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "60d3b46b-434c-4535-95ba-48999d600ed3"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure",
+                                    "targetId": "60d3b46b-434c-4535-95ba-48999d600ed3"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "c53e6ff9-48d9-4fe8-8a55-33dde73052e4",
+                        "uri": "https://tfb.t-mobile.com",
+                        "name": "tfb.t-mobile.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "fcff369e-e753-4fa9-a95d-f945c463fbc1",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "c53e6ff9-48d9-4fe8-8a55-33dde73052e4"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "c53e6ff9-48d9-4fe8-8a55-33dde73052e4"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure",
+                                    "targetId": "c53e6ff9-48d9-4fe8-8a55-33dde73052e4"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "0278f544-b8a5-4c42-9768-2605b192221c",
+                        "uri": "https://devedge.t-mobile.com",
+                        "name": "devedge.t-mobile.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "cc765523-12a0-4ec2-adb6-0a8178c238f5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "0278f544-b8a5-4c42-9768-2605b192221c"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "0278f544-b8a5-4c42-9768-2605b192221c"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure",
+                                    "targetId": "0278f544-b8a5-4c42-9768-2605b192221c"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 1,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 40000,
+                        "max": 40000
+                    },
+                    "2": {
+                        "min": 20000,
+                        "max": 20000
+                    },
+                    "3": {
+                        "min": 6000,
+                        "max": 6000
+                    },
+                    "4": {
+                        "min": null,
+                        "max": null
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "1c1f2846-7365-459b-9b67-26557117bd45",
+                "name": "Primary Assets",
+                "targets": [
+                    {
+                        "id": "f0ed9d93-e17b-4a05-8a39-92d07a37d959",
+                        "uri": "https://digits.t-mobile.com",
+                        "name": "digits.t-mobile.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "931b6f15-c3fb-4267-83d2-45143d9215cc",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 2,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 25000,
+                        "max": 25000
+                    },
+                    "2": {
+                        "min": 15000,
+                        "max": 15000
+                    },
+                    "3": {
+                        "min": 2000,
+                        "max": 2000
+                    },
+                    "4": {
+                        "min": null,
+                        "max": null
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "b433b80e-001b-4816-8c92-d36a1bc5f126",
+                "name": "Supplemental Assets",
+                "targets": [
+                    {
+                        "id": "172f72dd-fb60-4d5a-9b22-86f53c69e70c",
+                        "uri": "https://t-mobile.com",
+                        "name": "*.t-mobile.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "dd66bc36-9023-44f3-add8-6171a08b9caf",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "172f72dd-fb60-4d5a-9b22-86f53c69e70c"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "172f72dd-fb60-4d5a-9b22-86f53c69e70c"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure",
+                                    "targetId": "172f72dd-fb60-4d5a-9b22-86f53c69e70c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "060b4091-c43b-49d3-b84a-eba19a18f90d",
+                        "uri": "https://metrobyt-mobile.com",
+                        "name": "*.metrobyt-mobile.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "51852447-e9d2-40da-998f-23828ddc7455",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "060b4091-c43b-49d3-b84a-eba19a18f90d"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "060b4091-c43b-49d3-b84a-eba19a18f90d"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure",
+                                    "targetId": "060b4091-c43b-49d3-b84a-eba19a18f90d"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 3,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 10000,
+                        "max": 10000
+                    },
+                    "2": {
+                        "min": 5000,
+                        "max": 5000
+                    },
+                    "3": {
+                        "min": 1000,
+                        "max": 1000
+                    },
+                    "4": {
+                        "min": null,
+                        "max": null
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "6fc2a23e-10b9-490c-b62a-7988dab01b12",
+                "name": "Static Rewards",
+                "targets": [
+                    {
+                        "id": "e6f99c7f-6287-4299-8d33-283b9436531f",
+                        "uri": "",
+                        "name": "Assets labeled as in-scope",
+                        "category": "other",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "50371b5f-8f77-4d60-bad3-daff3a775d2b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 4,
+                "description": null,
+                "description_html": "<p>A static reward of $1,500 will be rewarded for Cross-Site Scripting, Open Redirects, Cache Poisoning, and Subdomain takeover issues. These will be classified as P3. </p>",
+                "reward_range": {}
+            },
+            {
+                "id": "6b59c3da-7296-4917-b202-03c11c046ae0",
+                "name": "Mobile Targets",
+                "targets": [
+                    {
+                        "id": "bf76c22a-bb5c-41f8-a279-34993881f7ca",
+                        "uri": "https://apps.apple.com/us/app/t-mobile/id561625752",
+                        "name": "T-Mobile - iOS",
+                        "category": "ios",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "643b9e52-54df-4449-a998-dbe9cd16fe0b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "bf76c22a-bb5c-41f8-a279-34993881f7ca"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "69143d66-41c8-49fa-b27d-28de36cc65c0",
+                        "uri": "https://play.google.com/store/apps/details?id=com.tmobile.pr.mytmobile",
+                        "name": "T-Mobile - Android",
+                        "category": "android",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "f5ed6c06-8ec2-49f3-b463-2eaf32b71cd5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "69143d66-41c8-49fa-b27d-28de36cc65c0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "c1159613-1a19-46c2-a51a-b277ed70b86c",
+                        "uri": "https://apps.apple.com/us/app/syncup-drive/id1576574297",
+                        "name": "SyncUP DRIVE - iOS",
+                        "category": "ios",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "57be65c1-45f9-4b83-8900-64545505164a",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "c1159613-1a19-46c2-a51a-b277ed70b86c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "f9ed41e6-2586-4e9d-bcee-058754bc359b",
+                        "uri": "https://play.google.com/store/apps/details?id=com.tmobile.drive",
+                        "name": "SyncUP DRIVE - Android",
+                        "category": "android",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "949505fb-825e-476b-9160-dfe86f698e0b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "f9ed41e6-2586-4e9d-bcee-058754bc359b"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "04af49f8-6f5e-4e7e-a852-ed25f40f92d2",
+                        "uri": "https://apps.apple.com/us/app/syncup-kids/id1503394062",
+                        "name": "SyncUP KIDS - iOS",
+                        "category": "ios",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "40f52f82-748e-4b2e-a18e-7af657619824",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "04af49f8-6f5e-4e7e-a852-ed25f40f92d2"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "e6645617-f93f-46f4-aefc-a2cbbadae988",
+                        "uri": "https://play.google.com/store/apps/details?id=com.tmobile.kids",
+                        "name": "SyncUP KIDS - Android",
+                        "category": "android",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "8983e793-0597-4031-abdf-20942da6bd8b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "e6645617-f93f-46f4-aefc-a2cbbadae988"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "38a98093-85e9-40d7-975b-e3a63a5c3b76",
+                        "uri": "https://apps.apple.com/us/app/syncup-tracker/id1526380335",
+                        "name": "SyncUP TRACKER - iOS",
+                        "category": "ios",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a6e2eb31-7ca9-488f-92cb-553dc3c1f97b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "38a98093-85e9-40d7-975b-e3a63a5c3b76"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "6ceb8af4-081e-4c3f-b65e-bf4bc5dfa29f",
+                        "uri": "https://play.google.com/store/apps/details?id=com.tmobile.syncuptag",
+                        "name": "SyncUP TRACKER - Android",
+                        "category": "android",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "98d4aab6-d57a-476e-a801-414810724377",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "6ceb8af4-081e-4c3f-b65e-bf4bc5dfa29f"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a92e5e19-f001-4bec-8bbb-025d72d1a760",
+                        "uri": "https://digits.t-mobile.com/",
+                        "name": "DIGITS - Mobile & Desktop",
+                        "category": "other",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6561d42a-9b49-4047-8471-c794d1621c19",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "a92e5e19-f001-4bec-8bbb-025d72d1a760"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "a92e5e19-f001-4bec-8bbb-025d72d1a760"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "90559ee7-50eb-4b42-896d-e1c7e12ef01d",
+                        "uri": "https://apps.apple.com/us/app/t-life-t-mobile-tuesdays/id1111876388",
+                        "name": "T-Life - iOS",
+                        "category": "ios",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "5cefa155-dd5f-401d-b821-c9cbad0cddbc",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "90559ee7-50eb-4b42-896d-e1c7e12ef01d"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "bc811890-a77b-4873-8da0-9037ef4c7e47",
+                        "uri": "https://play.google.com/store/apps/details?id=com.tmobile.tuesdays&hl=en_US&gl=US",
+                        "name": "T-Life - Android",
+                        "category": "android",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b1d76412-d8fb-4400-9fe1-9eb7979d3f8f",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "bc811890-a77b-4873-8da0-9037ef4c7e47"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 5,
+                "description": null,
+                "description_html": "<p>Current T-Mobile apps In-Scope. Reward payout is graded based on vulnerability location ( Core, Primary, and Supplemental )</p>",
+                "reward_range": {}
+            },
+            {
+                "id": "b0326696-ea56-4d08-89ae-b3c8f3669e18",
+                "name": "Out of Scope",
+                "targets": [
+                    {
+                        "id": "7a15a06b-ab88-4625-b894-6cdfae5cfabb",
+                        "uri": "https://sprint.com",
+                        "name": "*.sprint.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "43e0f57b-5a04-4e67-bdd6-3fda8b7d534f",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "7a15a06b-ab88-4625-b894-6cdfae5cfabb"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "7a15a06b-ab88-4625-b894-6cdfae5cfabb"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure",
+                                    "targetId": "7a15a06b-ab88-4625-b894-6cdfae5cfabb"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "49dc0811-37cb-4882-955e-1f910ac7cadf",
+                        "uri": "https://sprint.net",
+                        "name": "*.sprint.net",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "177d16e5-eba8-4f6d-89a5-96928a0022fa",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 6,
+                "description": null,
+                "description_html": null,
+                "reward_range": {}
+            },
+            {
+                "id": "a1b923c6-bc9d-437e-9c33-05f6d47c7ae9",
+                "name": "Out-of-Scope",
+                "targets": [
+                    {
+                        "id": "ed486426-c048-4dad-9485-aaa2a56e5d3e",
+                        "uri": "",
+                        "name": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
+                        "category": "other",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "0267ae6b-72ef-4d0a-8ee5-89163e66c475",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 7,
+                "description": null,
+                "description_html": "<h3>WEB APPLICATIONS</h3>\n\n<ul>\n<li>Clickjacking on pages with no sensitive data or actions.</li>\n<li>Unauthenticated/logout/logon Cross Site Request Forgery (CSRF).</li>\n<li>Attacks requiring Man-in-the-Middle or physical access to a user\u2019s device.</li>\n<li>Previously known vulnerable libraries without a working Proof of Concept.</li>\n<li>Use of outdated software/library version(s).</li>\n<li>Comma Separated Values (CSV) Injection without demonstrating a vulnerability.</li>\n<li>Any activity that could lead to disruption of our service (DoS, DDoS).</li>\n<li>OPTIONS / TRACE HTTP method enabled.</li>\n<li>Missing best practices in SSL/TLS configuration.</li>\n<li>Expired SSL Certificates</li>\n<li>Content spoofing and text injection issues without showing an attack vector/without being able to modify HTML/CSS.</li>\n<li>Cookies that lack HTTP Only or Secure settings for non-sensitive data.</li>\n<li>Attacks dependent upon social engineering of employees or vendors.</li>\n<li>Presence of autocomplete functionality in form fields.</li>\n<li>Lack of email address verification during account registration.</li>\n<li>Missing security headers.</li>\n<li>Mixed content issues.</li>\n<li>Tabnabbing.</li>\n<li>Reports of credentials exposed by other data breaches/known credential list.</li>\n</ul>\n\n<h3>MOBILE APPLICATIONS</h3>\n\n<ul>\n<li>Absence of certificate pinning, lack of obfuscation, jailbreak detection.</li>\n<li>Android and iOS operating systems vulnerabilities.</li>\n<li>Attacks targeting jailbroken or rooted mobile devices.</li>\n<li>Automated scanning tools are out of scope for this program. \n\n<ul>\n<li>We\u2019re not interested in the issues straight from the automated scanners \u2013 demonstrate the exploitability to qualify for the bounty/bonus.</li>\n</ul></li>\n<li>Memory dumps or issues found by tools that read active or cached memory. \n\n<ul>\n<li>Attacks would require an already compromised system and a malicious actor with escalated privileges. Once such an attack can be performed on a system, there is no way in principle to protect other processes running on that system.</li>\n</ul></li>\n</ul>",
+                "reward_range": {}
             }
         ]
     },
