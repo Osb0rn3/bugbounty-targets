@@ -20734,6 +20734,62 @@
         "programMigrationInProgress": null,
         "target_groups": [
             {
+                "id": "f97861dd-9dff-4093-a128-ff1c897d5f8a",
+                "name": "Okta Privileged Access",
+                "description_html": "<h4>Redeem Credentials</h4>\n\n<ul>\n<li>At the bottom of the program brief, click on \"Get Credentials\" to retrieve 2 sets of credentials.</li>\n</ul>\n\n<h4>DO THIS FIRST!</h4>\n\n<ul>\n<li>Change the email address associated with the provided users so that you can handle your own password resets</li>\n<li>Create at least 2 other Super Admins in each ORG for resetting locked accounts and handling account problems.</li>\n<li>Follow the steps to setup and enforce MFA on each Login under \"Required MFA Configuration\"</li>\n</ul>\n\n<h4>Accessing Okta Privileged Access</h4>\n\n<ul>\n<li>Go to the Admin Dashboard and Applications</li>\n<li>Go to Browse App Catalog and search for Okta Privileged Access. You will be asked to provide a team name which you should put your org name so <code>bugcrowd-pam-###</code>\n</li>\n<li>After creating the application, go to assignments and assign yourself to the application</li>\n<li>The Okta Privileged Access chiclet should appear on your Enduser Dashboard. Click the application and you'll be redirected</li>\n<li>For full functionality, go to Groups, create group, and assign all team roles and assign a user to the group</li>\n</ul>\n\n<h4>Documentation</h4>\n\n<ul>\n<li>Overview: <a href=\"https://help.okta.com/en-us/content/topics/privileged-access/pam-overview.htm\" rel=\"nofollow noreferrer\" target=\"_blank\">https://help.okta.com/en-us/content/topics/privileged-access/pam-overview.htm</a>\n</li>\n<li>Set up Okta Privileged Access: <a href=\"https://help.okta.com/en-us/content/topics/privileged-access/pam-overview.htm\" rel=\"nofollow noreferrer\" target=\"_blank\">https://help.okta.com/en-us/content/topics/privileged-access/pam-setup.htm\n</a>\n</li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 7000.0,
+                        "max": 35000.0
+                    },
+                    "2": {
+                        "min": 3000.0,
+                        "max": 7000.0
+                    },
+                    "3": {
+                        "min": 1000.0,
+                        "max": 3000.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 1000.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/okta/target_groups/dda7d88c-c140-4b81-9818-b05b85356242/targets",
+                "targets": [
+                    {
+                        "id": "8c0e5d75-bf80-4d59-932a-e292ce948844",
+                        "name": "bugcrowd-pam-###.oktapreview.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8692123e-25f3-488a-ad4a-2b723bba8294",
+                        "name": "bugcrowd-pam-###.pam.oktapreview.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
                 "id": "880e6ef5-c532-4b64-83c3-41d36985d13b",
                 "name": "Okta Workflows",
                 "description_html": "<h4>Redeem Credentials</h4>\n\n<p>At the bottom of the program brief, click on \"Get Credentials\" to retrieve 2 sets of credentials.</p>\n\n<h4>Access</h4>\n\n<p>To access Okta Workflows, go to the Okta Admin Dashboard -&gt; Workflow -&gt; Workflows Console</p>\n\n<h4>Focus Areas</h4>\n\n<ul>\n<li>Focus Areas for Okta Workflows</li>\n<li>Ability to perform SSRF with Flo cards</li>\n<li>Ability to provision and deprovision Workflow orgs</li>\n<li>Performing Flo actions across orgs</li>\n<li>Viewing sensitive information across orgs</li>\n</ul>\n\n<h4>Out of Scope</h4>\n\n<p>Testing for Denial of Service issues and testing with any sort of automation is STRICTLY out of scope. This will result in an immediate removal from Okta Workflows and in some cases, the Okta bug bounty program.</p>",
@@ -20756,11 +20812,11 @@
                         "max": 1000.0
                     }
                 },
-                "sort_order": 0,
-                "targets_url": "/okta/target_groups/9163444b-dfec-4530-aa62-afd276d4d1fc/targets",
+                "sort_order": 1,
+                "targets_url": "/okta/target_groups/aa8f31fa-f944-4d1b-9330-2e04990b93a5/targets",
                 "targets": [
                     {
-                        "id": "b9e6fafd-d0a8-4bec-abb1-5ea1e6a7f0a9",
+                        "id": "6dddf217-3856-4c9c-bae1-51917e67da64",
                         "name": "https://bugcrowd-oie-%username%-1.workflows.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -20783,7 +20839,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "1bdf6081-bbaa-42e3-a09e-248b0583fcbd",
+                        "id": "c3871859-7d42-4919-a8b5-a2dab9971dc1",
                         "name": "https://bugcrowd-oie-%username%-2.workflows.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -20806,7 +20862,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "480ac147-5a29-445f-8643-7c2bc121efc6",
+                        "id": "798e4eee-a2d9-4d73-9ce1-dea653a70e3a",
                         "name": "https://bugcrowd-pam-###.workflows.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -20844,11 +20900,11 @@
                         "max": 1000.0
                     }
                 },
-                "sort_order": 1,
-                "targets_url": "/okta/target_groups/57799481-521c-41c6-be18-f6dab47f8fc0/targets",
+                "sort_order": 2,
+                "targets_url": "/okta/target_groups/34e87bd4-cd2d-41c3-83b5-28059c5a55a6/targets",
                 "targets": [
                     {
-                        "id": "0c37d269-1b48-40e2-ac2a-c013cd6f62e9",
+                        "id": "ab9ec25b-8492-4887-8fda-57ce0cabb949",
                         "name": "Desktop MFA for Windows",
                         "description": null,
                         "category": "other",
@@ -20862,7 +20918,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a3847907-0a4c-4826-b193-7a9a183c188e",
+                        "id": "2721ef85-097b-46ed-8c7c-53ba4e553d2d",
                         "name": "Desktop MFA for macOS",
                         "description": null,
                         "category": "other",
@@ -20876,7 +20932,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "1fd7a44f-0684-4598-882f-184d4daf4c8f",
+                        "id": "e1ebec53-3553-433d-aac5-8b890e07e79a",
                         "name": "Password Sync for macOS",
                         "description": null,
                         "category": "other",
@@ -20914,11 +20970,11 @@
                         "max": 500.0
                     }
                 },
-                "sort_order": 2,
-                "targets_url": "/okta/target_groups/9b258021-8a23-4a92-bd3a-409339dcca14/targets",
+                "sort_order": 3,
+                "targets_url": "/okta/target_groups/c1638c03-be93-4875-86de-643f2e9007eb/targets",
                 "targets": [
                     {
-                        "id": "06991b6f-e312-4d72-98ef-7a7a7b588ebe",
+                        "id": "51e0aa15-d9ff-45ce-956a-79f970ad64f4",
                         "name": "support.okta.com",
                         "description": null,
                         "category": "website",
@@ -20956,11 +21012,11 @@
                         "max": 500.0
                     }
                 },
-                "sort_order": 3,
-                "targets_url": "/okta/target_groups/1020ffca-b11f-47a7-a82d-e8f36d3bf056/targets",
+                "sort_order": 4,
+                "targets_url": "/okta/target_groups/b6efad87-5269-48a7-8dc3-17952a949499/targets",
                 "targets": [
                     {
-                        "id": "fd1e10d9-86b8-411a-86d3-5a8d068aa087",
+                        "id": "c3262f87-565d-4776-b28c-7b6a37b91fd9",
                         "name": "bugcrowd-oie-%username%-1.at.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -20979,7 +21035,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c3f641ff-53a3-40ad-8512-25656c621432",
+                        "id": "b5a2c99c-140d-4227-a068-c4a0264176f3",
                         "name": "bugcrowd-oie-%username%-2.at.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -20998,7 +21054,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "3b2ea5f7-54c2-4351-bd69-888812114184",
+                        "id": "d6293e38-4620-48af-a1c0-aa6f2ec6564a",
                         "name": "https://bugcrowd-pam-###.at.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -21036,11 +21092,11 @@
                         "max": 1000.0
                     }
                 },
-                "sort_order": 4,
-                "targets_url": "/okta/target_groups/94d042d1-8245-4b53-acee-a18aa14e7ff7/targets",
+                "sort_order": 5,
+                "targets_url": "/okta/target_groups/1b0e6438-c4a1-4607-a5e2-573522ebf7a6/targets",
                 "targets": [
                     {
-                        "id": "410178d8-383b-4666-ab3b-8d9a872b8a00",
+                        "id": "cefd696f-3431-4463-bf29-c713c7d4729e",
                         "name": "bugcrowd-oie-%username%-1.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -21054,7 +21110,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "30a13387-9682-419b-b63f-cd62109e2b3f",
+                        "id": "34eca151-a2c7-48ce-ab72-49653be6456a",
                         "name": "bugcrowd-oie-%username%-2.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -21068,7 +21124,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "0c150443-7f1c-407c-a7ea-737fc57e7ec2",
+                        "id": "9c8191d2-bfb3-476a-8c1e-9379319e80c1",
                         "name": "https://bugcrowd-pam-###.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -21082,7 +21138,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "031d6cfd-c169-4b9d-b57a-529f39382179",
+                        "id": "2b129879-b582-4c30-bf9b-32bfa91986e3",
                         "name": "Okta Verify Fastpass",
                         "description": null,
                         "category": "other",
@@ -21103,11 +21159,11 @@
                 "description_html": "<p>As of May 15th 2024, Okta Classic is out of scope. Please refer to Okta OIE.</p>",
                 "in_scope": false,
                 "reward_range": {},
-                "sort_order": 5,
-                "targets_url": "/okta/target_groups/4170d97a-5c81-4d8a-a348-dec0ec130dd4/targets",
+                "sort_order": 6,
+                "targets_url": "/okta/target_groups/c0a38950-f9ef-4f36-af4d-40bdef7bc4fd/targets",
                 "targets": [
                     {
-                        "id": "fc8fa78d-746a-45c5-b64a-a2a709368978",
+                        "id": "5cc12ac5-530e-467d-880b-dd3105b968d4",
                         "name": "bugcrowd-%username%-1.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -21130,7 +21186,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "81316d82-6e65-4839-812e-50b420e61e81",
+                        "id": "a8b211a9-bc7b-4512-b89a-e5d95ff1cbb4",
                         "name": "bugcrowd-%username%-2.oktapreview.com",
                         "description": null,
                         "category": "website",
@@ -21177,11 +21233,11 @@
                         "max": 1000.0
                     }
                 },
-                "sort_order": 6,
-                "targets_url": "/okta/target_groups/493fae2f-153f-4dd6-81e3-cdaa7d257319/targets",
+                "sort_order": 7,
+                "targets_url": "/okta/target_groups/3a66360b-0faf-4e1c-9c63-034a05fc04be/targets",
                 "targets": [
                     {
-                        "id": "483fc647-e9dc-4e8e-9a37-7c8e070596f9",
+                        "id": "2c424970-95bb-4909-97a2-b5b67330d40f",
                         "name": "Advanced Server Access (ASA) / (ScaleFT)",
                         "description": null,
                         "category": "website",
@@ -21195,7 +21251,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "cc5bb562-ab62-4da4-b6c6-d1080f0425b2",
+                        "id": "a9f9eda6-9de6-44cb-b67b-326bb62fcb14",
                         "name": "http://app.scaleft.com/",
                         "description": null,
                         "category": "website",
@@ -21209,7 +21265,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "5df88dbb-1aa2-4ed5-96f0-45e32b793488",
+                        "id": "a8b4bb8e-e317-4f2f-8a3d-5298551ee200",
                         "name": "Advanced Server Access Client / Agents",
                         "description": null,
                         "category": "other",
@@ -21247,11 +21303,11 @@
                         "max": 1000.0
                     }
                 },
-                "sort_order": 7,
-                "targets_url": "/okta/target_groups/13fff560-f8c2-49bd-bd3a-05bd25a669aa/targets",
+                "sort_order": 8,
+                "targets_url": "/okta/target_groups/91033b93-fc4c-42ff-83bc-1f432270f524/targets",
                 "targets": [
                     {
-                        "id": "9e4cca8a-0c58-4a24-87d9-560e1254c849",
+                        "id": "8553bfb1-72b6-4dd8-a5b4-80272d783bfd",
                         "name": "Okta Verify (iOS)",
                         "description": null,
                         "category": "ios",
@@ -21286,7 +21342,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a3967d01-59c3-4d74-9402-9277e13020fc",
+                        "id": "b5f4a6d3-79ea-4b90-ae5a-3ca6a25c837d",
                         "name": "Okta Verify (Android)",
                         "description": null,
                         "category": "android",
@@ -21313,7 +21369,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "51b2a94d-7e5c-4fd7-b6df-4c0409721e2c",
+                        "id": "460d1c44-6a8c-472c-8878-a4f42d530289",
                         "name": "Okta Verify (Mac OS)",
                         "description": null,
                         "category": "other",
@@ -21340,7 +21396,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9cec2dec-d98a-44ed-8101-1faf0a9ba910",
+                        "id": "0c65d4a0-44b6-44da-89c8-009b56eadc00",
                         "name": "Okta Verify (Windows)",
                         "description": null,
                         "category": "other",
@@ -21354,7 +21410,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7523893e-12cb-4875-b4a4-8f3141d51508",
+                        "id": "37e57986-aec4-41ab-a0c5-600092ef357b",
                         "name": "Okta On-Prem Agents ( AD, LDAP, RDP, IWA )",
                         "description": null,
                         "category": "other",
@@ -21377,7 +21433,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "40cf4015-c71b-4a9c-b37e-6df0c243bc3b",
+                        "id": "fb5b6912-e6e4-42be-b0d8-ce53292649fb",
                         "name": "Okta Agent Windows",
                         "description": null,
                         "category": "other",
@@ -21396,7 +21452,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ede14d0b-4cea-4b82-8636-781922d86dbd",
+                        "id": "67dff1cd-1118-4951-a814-e28699be6238",
                         "name": "Okta Browser Plugin (IE / Firefox / Chrome)",
                         "description": null,
                         "category": "other",
@@ -21417,11 +21473,11 @@
                 "description_html": "",
                 "in_scope": false,
                 "reward_range": {},
-                "sort_order": 8,
-                "targets_url": "/okta/target_groups/fda6ea09-b32f-47f7-9bf2-73243a7d4ea2/targets",
+                "sort_order": 9,
+                "targets_url": "/okta/target_groups/eb990e02-37b7-4f86-8ac7-b53419c87451/targets",
                 "targets": [
                     {
-                        "id": "695d9311-e131-4a0b-ae55-f08f658f7105",
+                        "id": "be681e22-0655-4cb4-b300-36ff3ffeacfd",
                         "name": "*.okta.com",
                         "description": null,
                         "category": "website",
@@ -21435,7 +21491,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f9357357-b62a-413c-b03d-8e2846e0be2c",
+                        "id": "abfa4cec-d080-47b3-9f3e-ef37c7b11588",
                         "name": "*.trexcloud.com",
                         "description": null,
                         "category": "website",
@@ -21449,7 +21505,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c1330597-d8b6-4450-a19b-85a8fb709814",
+                        "id": "5d81ade0-adcd-4782-bfca-501213be358a",
                         "name": "login.okta.com",
                         "description": null,
                         "category": "website",
@@ -21463,7 +21519,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "4b12b38a-fa88-4638-b9fd-918c047ea06a",
+                        "id": "dd64b78a-e49f-4e1a-9fb7-c54e7a7a0781",
                         "name": "pages.okta.com",
                         "description": null,
                         "category": "website",
@@ -21477,7 +21533,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "bfbcc764-5540-43b9-8273-7f5d2539b4c7",
+                        "id": "074df32a-3fdf-47ac-8829-91e064519208",
                         "name": "developer.okta.com",
                         "description": null,
                         "category": "website",
@@ -21491,7 +21547,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "8006aca0-7636-4d3f-8373-897551978bea",
+                        "id": "87b87b35-f9e8-4bb5-8d55-300a3464f999",
                         "name": "trust.okta.com",
                         "description": null,
                         "category": "website",
@@ -21505,7 +21561,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "b2bc5e73-c1a1-422f-bf66-bae0953a8891",
+                        "id": "6e0a773e-5cd0-4b3f-99cd-9bb60072a0db",
                         "name": "www.okta.com (static site)",
                         "description": null,
                         "category": "website",
@@ -21519,7 +21575,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "90b891cb-a5fe-4df1-8a15-3bb1de9a4bf4",
+                        "id": "07b132a2-0b82-4fd1-994d-e7383bd37618",
                         "name": "https://scaleft.com",
                         "description": null,
                         "category": "website",
@@ -21533,7 +21589,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "881a3195-e687-4bde-9c61-e59fb73b87a8",
+                        "id": "2bf9434e-534d-48ab-bd00-692a304d818c",
                         "name": "https://app.scaleft.com/p/signup",
                         "description": null,
                         "category": "website",
@@ -21547,7 +21603,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "42958eee-c3f8-40ed-9154-17d9894a3b04",
+                        "id": "b1a43091-551e-4654-91db-d6312c4b82e1",
                         "name": "https://github.com/oktadev",
                         "description": null,
                         "category": "website",
@@ -21561,7 +21617,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "785d4fd9-59fb-45ae-b941-e8406ba54c4d",
+                        "id": "bbc6cfdc-69ab-4d95-845a-fa392386ae3c",
                         "name": "Backend Okta non-app infrastructure",
                         "description": null,
                         "category": "other",
@@ -21575,7 +21631,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "bed37e38-a01c-4d64-b2d9-80aca77eaa9f",
+                        "id": "a5f8bc84-35d2-478e-bf68-848ce7686663",
                         "name": "Network layer issues",
                         "description": null,
                         "category": "other",
@@ -21589,7 +21645,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "292ad01c-0e8a-4a38-a950-19b7fcfb0721",
+                        "id": "e131f728-9df6-478a-a34f-6c7a762dc710",
                         "name": "AtSpoke - Okta Workflows actions in access requests",
                         "description": null,
                         "category": "website",
@@ -21603,7 +21659,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "8c152c92-e73f-47eb-99ef-cd8359945c0c",
+                        "id": "6aa64f2a-4d18-40a0-bd14-f00f51985151",
                         "name": "AtSpoke - Entitlement bundles as a resource in access requests",
                         "description": null,
                         "category": "website",
@@ -21617,7 +21673,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "099a03a5-c944-4f94-ac11-4d71b4dc6a88",
+                        "id": "50d60797-0f7a-4e27-bb2c-03e91303032a",
                         "name": "Anything not explicitly called out above as in-scope",
                         "description": null,
                         "category": "other",
