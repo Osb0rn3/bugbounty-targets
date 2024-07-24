@@ -16831,9 +16831,151 @@
         "programMigrationInProgress": null,
         "target_groups": [
             {
+                "id": "5deabe3c-95c4-4519-abb2-7585e832d1b6",
+                "name": "Database services tier 1",
+                "description_html": "<p><strong>Aiven for Apache Cassandra managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/cassandra\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/cassandra</a> for details about the service.</p>\n\n<p>Aiven for Apache Cassandra\u00ae is a fully managed NoSQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Dragonfly managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/dragonfly\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/dragonfly</a> for details about the service.</p>\n\n<p>Aiven for Dragonfly is an in-memory database intended as an alternative to Redis.</p>\n\n<p><strong>Aiven for Apache Flink managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/flink\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/flink</a> for details about the service.</p>\n\n<p>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It is a perfect companion to Apache Kafka event streaming platform, to perform reliable and scalable real-time filtering, enriching, aggregating, alerting and analyzing of the events.</p>\n\n<p><strong>Aiven for Clickhouse managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/clickhouse\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/clickhouse</a> for details about the service.</p>\n\n<p>Aiven for ClickHouse is powered by ClickHouse, a highly scalable, open source database that uses a column-oriented structure. </p>\n\n<p>ClickHouse is designed for online analytical processing (OLAP) applications, and is an ideal tool for applications such as web analytics, or complex data reporting.</p>\n\n<p><strong>Aiven for Thanos Metrics managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/docs/products/metrics/concepts/metrics-overview\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/docs/products/metrics/concepts/metrics-overview</a> for details about the service.</p>\n\n<p>Aiven for Thanos Metrics is a managed service that provides a Prometheus service for storing and querying service metrics information.</p>\n\n<p><strong>Aiven for Valkey managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/valkey\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/valkey</a> for details about the service.</p>\n\n<p>Aiven for Valkey is an in-memory database using the open-source project <a href=\"https://valkey.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://valkey.io/</a>.  It is often used for queueing and caching, and is an alternative to Redis.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 12500.0,
+                        "max": 17500.0
+                    },
+                    "2": {
+                        "min": 4000.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 1250.0,
+                        "max": 3500.0
+                    },
+                    "4": {
+                        "min": 500.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/aiven-mbb-og/target_groups/a9f96314-414f-4fc9-9663-bc908d9e549b/targets",
+                "targets": [
+                    {
+                        "id": "bb4059be-3cdc-4a2d-92f2-44d479612d0e",
+                        "name": "Aiven for Apache Cassandra managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9af5639f-8ff1-4a7c-be7f-8e4872d12b3f",
+                                    "name": "Apache Cassandra"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8ecc8af6-3311-477e-9dfa-c872637498bf",
+                        "name": "Aiven for Dragonfly managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
+                                    "name": "Redis"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "797e0e42-68d5-4bc4-bac7-9fb9c1cade3a",
+                        "name": "Aiven for Apache Flink managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "020d8b6a-233b-4592-983a-9dfa3df1138a",
+                        "name": "Aiven for Clickhouse managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
+                                    "name": "Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "5e16b60f-8c15-446c-8f6c-cf53521a5207",
+                        "name": "Aiven for Thanos Metrics managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
+                                    "name": "Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2513bcaf-31f9-47d0-bf30-1b017fcc80bc",
+                        "name": "Aiven for Valkey managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
+                                    "name": "Redis"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
                 "id": "b08846ae-83cb-4b6e-b021-085308ad7cd7",
                 "name": "In Scope (Database services)",
-                "description_html": "<p>You may create instances of any of our public services to test against within your account.  You must create the account using your bugcrowdninja.com email address and should only interact with services in aivencloud.com that you created and control.</p>\n\n<p>The services can be launched via <a href=\"https://console.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://console.aiven.io/</a> or using our API at <a href=\"https://api.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/</a> (documentation at <a href=\"https://api.aiven.io/doc/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/doc/</a>).</p>\n\n<p>We provide a brief overview of our services here, but the most up to date information will be available at <a href=\"https://docs.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://docs.aiven.io/</a>.</p>\n\n<h2>Information about Billable Services</h2>\n\n<p>You may use a free tier account, or you may use trial credits; if you require additional trial credits, please reach out within the program with a description of your activity, and some can be added to your account.  <strong>Please do not use a credit card; expenses will not be reimbursed in case you are billed, and removing your card from our system will take some time</strong>.</p>\n\n<h2>Target Information:</h2>\n\n<p><strong>Aiven for Apache Kafka managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/kafka\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka</a> for details about the service. Also in scope are Aiven for Apache Kafka Connect <a href=\"https://aiven.io/kafka-connect\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka-connect</a> and Aiven for Apache Kafka MirrorMaker 2 <a href=\"https://aiven.io/mirrormaker\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mirrormaker</a></p>\n\n<p>Aiven for Apache Kafka\u00ae is a fully managed streaming platform, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for M3 managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/m3\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3</a> for details about the service. Also in scope: Aiven for M3 Aggregator: <a href=\"https://aiven.io/m3-aggregator\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3-aggregator</a></p>\n\n<p>Aiven for M3 is a fully managed distributable time series database, deployable in the cloud of your choice. Bring unlimited scalability and high-availability to your Prometheus monitoring environment and other time series applications.</p>\n\n<p><strong>Aiven for PostgreSQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/postgresql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/postgresql</a> for details about the service.</p>\n\n<p>Aiven for PostgreSQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for MySQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/mysql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mysql</a> for details about the service.</p>\n\n<p>Aiven for MySQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for OpenSearch managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/opensearch\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/opensearch</a> for details about the service.</p>\n\n<p>Aiven for OpenSearch is a fully managed search and analytics suite forked from Elasticsearch, and deployable in the cloud of your choice. </p>\n\n<p>Our maintenance-free solution helps you make the most of your data \u2013 and focus on building your business.</p>\n\n<p><strong>Aiven for Apache Cassandra managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/cassandra\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/cassandra</a> for details about the service.</p>\n\n<p>Aiven for Apache Cassandra\u00ae is a fully managed NoSQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Caching managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/caching\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/caching</a> for details about the service.</p>\n\n<p>Aiven for Caching is a fully managed in-memory NoSQL database compatible with Redis OSS, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Dragonfly managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/dragonfly\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/dragonfly</a> for details about the service.</p>\n\n<p>Aiven for Dragonfly is an in-memory database intended as an alternative to Redis.</p>\n\n<p><strong>Aiven for Grafana managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/grafana\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/grafana</a> for details about the service.</p>\n\n<p>Aiven for Grafana is a fully managed analytics and monitoring solution, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Apache Flink managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/flink\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/flink</a> for details about the service.</p>\n\n<p>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It is a perfect companion to Apache Kafka event streaming platform, to perform reliable and scalable real-time filtering, enriching, aggregating, alerting and analyzing of the events.</p>\n\n<p><strong>Aiven for Clickhouse managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/clickhouse\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/clickhouse</a> for details about the service.</p>\n\n<p>Aiven for ClickHouse is powered by ClickHouse, a highly scalable, open source database that uses a column-oriented structure. </p>\n\n<p>ClickHouse is designed for online analytical processing (OLAP) applications, and is an ideal tool for applications such as web analytics, or complex data reporting.</p>\n\n<p><strong>Aiven for Thanos Metrics managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/docs/products/metrics/concepts/metrics-overview\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/docs/products/metrics/concepts/metrics-overview</a> for details about the service.</p>\n\n<p>Aiven for Thanos Metrics is a managed service that provides a Prometheus service for storing and querying service metrics information.</p>\n\n<p><strong>Aiven for Valkey managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/valkey\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/valkey</a> for details about the service.</p>\n\n<p>Aiven for Valkey is an in-memory database using the open-source project <a href=\"https://valkey.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://valkey.io/</a>.  It is often used for queueing and caching, and is an alternative to Redis.</p>",
+                "description_html": "<p>You may create instances of any of our public services to test against within your account.  You must create the account using your bugcrowdninja.com email address and should only interact with services in aivencloud.com that you created and control.</p>\n\n<p>The services can be launched via <a href=\"https://console.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://console.aiven.io/</a> or using our API at <a href=\"https://api.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/</a> (documentation at <a href=\"https://api.aiven.io/doc/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/doc/</a>).</p>\n\n<p>We provide a brief overview of our services here, but the most up to date information will be available at <a href=\"https://docs.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://docs.aiven.io/</a>.</p>\n\n<h2>Information about Billable Services</h2>\n\n<p>You may use a free tier account, or you may use trial credits; if you require additional trial credits, please reach out within the program with a description of your activity, and some can be added to your account.  <strong>Please do not use a credit card; expenses will not be reimbursed in case you are billed, and removing your card from our system will take some time</strong>.</p>\n\n<h2>Target Information:</h2>\n\n<p><strong>Aiven for Apache Kafka managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/kafka\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka</a> for details about the service. Also in scope are Aiven for Apache Kafka Connect <a href=\"https://aiven.io/kafka-connect\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka-connect</a> and Aiven for Apache Kafka MirrorMaker 2 <a href=\"https://aiven.io/mirrormaker\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mirrormaker</a></p>\n\n<p>Aiven for Apache Kafka\u00ae is a fully managed streaming platform, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for M3 managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/m3\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3</a> for details about the service. Also in scope: Aiven for M3 Aggregator: <a href=\"https://aiven.io/m3-aggregator\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3-aggregator</a></p>\n\n<p>Aiven for M3 is a fully managed distributable time series database, deployable in the cloud of your choice. Bring unlimited scalability and high-availability to your Prometheus monitoring environment and other time series applications.</p>\n\n<p><strong>Aiven for PostgreSQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/postgresql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/postgresql</a> for details about the service.</p>\n\n<p>Aiven for PostgreSQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for MySQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/mysql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mysql</a> for details about the service.</p>\n\n<p>Aiven for MySQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for OpenSearch managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/opensearch\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/opensearch</a> for details about the service.</p>\n\n<p>Aiven for OpenSearch is a fully managed search and analytics suite forked from Elasticsearch, and deployable in the cloud of your choice. </p>\n\n<p>Our maintenance-free solution helps you make the most of your data \u2013 and focus on building your business.</p>\n\n<p><strong>Aiven for Caching managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/caching\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/caching</a> for details about the service.</p>\n\n<p>Aiven for Caching is a fully managed in-memory NoSQL database compatible with Redis OSS, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Grafana managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/grafana\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/grafana</a> for details about the service.</p>\n\n<p>Aiven for Grafana is a fully managed analytics and monitoring solution, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>",
                 "in_scope": true,
                 "reward_range": {
                     "1": {
@@ -16853,11 +16995,11 @@
                         "max": 650.0
                     }
                 },
-                "sort_order": 0,
-                "targets_url": "/aiven-mbb-og/target_groups/5d27220f-cc98-4eb0-9c94-b0bf923089e6/targets",
+                "sort_order": 1,
+                "targets_url": "/aiven-mbb-og/target_groups/90a4c008-c9dd-452c-9d76-dd9ad2cfe14f/targets",
                 "targets": [
                     {
-                        "id": "bbdbeb8c-750f-419f-9f7a-adfd55b59634",
+                        "id": "73a72622-ad69-4fee-afc7-ae970fb0779a",
                         "name": "Aiven for Apache Kafka managed and hosted service ",
                         "description": null,
                         "category": "other",
@@ -16876,7 +17018,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "15b9899b-b67d-4cbd-a4d5-68618e91bf93",
+                        "id": "83c07733-004c-4d2e-b229-94dafbc6f50d",
                         "name": "Aiven for M3 managed and hosted service ",
                         "description": null,
                         "category": "other",
@@ -16895,7 +17037,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "043729dc-aafa-44b5-a212-0b4ceb7835cf",
+                        "id": "52e9137d-b12e-4625-a499-f95b3735fa89",
                         "name": "Aiven for PostgreSQL managed and hosted service",
                         "description": null,
                         "category": "other",
@@ -16914,7 +17056,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f9e49ef3-9f2a-41c4-b94a-12ad69d09983",
+                        "id": "a2555dfd-5924-4b85-8ac6-e9e2aaa3a004",
                         "name": "Aiven for MySQL managed and hosted service",
                         "description": null,
                         "category": "other",
@@ -16933,7 +17075,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "446889b0-7b3f-473e-b82d-da58d8fcb33e",
+                        "id": "efaa449d-a48b-444d-b77d-d7e79233348a",
                         "name": "Aiven for OpenSearch managed and hosted service",
                         "description": null,
                         "category": "other",
@@ -16952,26 +17094,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "4b7d79a8-0a23-4a66-96dc-6119ab480a67",
-                        "name": "Aiven for Apache Cassandra managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9af5639f-8ff1-4a7c-be7f-8e4872d12b3f",
-                                    "name": "Apache Cassandra"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3b09bdd1-2668-47fa-8827-06155cafe7f7",
+                        "id": "58be8833-f8fa-4e42-a994-aa68a1e7c8f0",
                         "name": "Aiven for Caching managed and hosted service",
                         "description": null,
                         "category": "other",
@@ -16985,12 +17108,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 6,
+                        "sort_order": 5,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "4c3b4b25-6c97-40f6-9c09-dc711a977aa9",
+                        "id": "4e33c358-17f4-40f4-bf09-9c5fda27fa96",
                         "name": "Aiven for Grafana managed and hosted service",
                         "description": null,
                         "category": "other",
@@ -17004,102 +17127,7 @@
                                 }
                             ]
                         },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fa608a8e-4d5a-4aed-a0d6-1fe73090661a",
-                        "name": "Aiven for Apache Flink managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ba9b302b-12e8-4341-a2f1-ed39148cf156",
-                        "name": "Aiven for Clickhouse managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
-                                    "name": "Cloud"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f228d820-7bcf-4e3b-9481-8a086a37f339",
-                        "name": "Aiven for Dragonfly managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
-                                    "name": "Cloud"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a15a28ed-dc7c-4f1f-92d8-ed0ef99a1f61",
-                        "name": "Aiven for Thanos Metrics managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
-                                    "name": "Cloud"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "26f86784-0893-439e-adbc-d6806361cddc",
-                        "name": "Aiven for Valkey managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
-                                    "name": "Redis"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
+                        "sort_order": 6,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -17128,11 +17156,11 @@
                         "max": 250.0
                     }
                 },
-                "sort_order": 1,
-                "targets_url": "/aiven-mbb-og/target_groups/c47a6558-b2d3-4a41-9995-4ee784d8d9dd/targets",
+                "sort_order": 2,
+                "targets_url": "/aiven-mbb-og/target_groups/34bc9dd2-d563-4d85-8672-d8d90cc44410/targets",
                 "targets": [
                     {
-                        "id": "8797486a-f9e3-4fcb-ae2f-21bacedab499",
+                        "id": "45537662-31e0-4e9e-97f9-3b4549ae7a51",
                         "name": "aiven.io",
                         "description": null,
                         "category": "website",
@@ -17151,7 +17179,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "63b9ac8b-576a-4ae5-8ee2-021784bd1922",
+                        "id": "999475e8-0300-463a-a941-53b55b582611",
                         "name": "console.aiven.io",
                         "description": null,
                         "category": "website",
@@ -17170,7 +17198,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "d674d117-e4c2-450d-98b9-d612ad0b2d41",
+                        "id": "9bf145ea-1605-4297-82ac-458780581531",
                         "name": "api.aiven.io",
                         "description": null,
                         "category": "api",
@@ -17221,11 +17249,11 @@
                         "max": 250.0
                     }
                 },
-                "sort_order": 2,
-                "targets_url": "/aiven-mbb-og/target_groups/a5e25dbb-a96a-4406-abcb-1669120626a8/targets",
+                "sort_order": 3,
+                "targets_url": "/aiven-mbb-og/target_groups/ec202a19-3f86-4d15-bc0e-c53b80517797/targets",
                 "targets": [
                     {
-                        "id": "dc2bd8ce-199b-4e28-b4df-394c3f4644fd",
+                        "id": "0ef78924-56f3-4e01-881e-5b6422822bc1",
                         "name": "github.com/Aiven-Open",
                         "description": null,
                         "category": "other",
@@ -17239,7 +17267,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "fe694da7-f5c9-4bd5-94ea-2a9c14386240",
+                        "id": "9c251ab0-5406-4d0c-b64c-44a1b3c92372",
                         "name": "github.com/Aiven",
                         "description": null,
                         "category": "other",
@@ -17265,11 +17293,11 @@
                         "max": 20000.0
                     }
                 },
-                "sort_order": 3,
-                "targets_url": "/aiven-mbb-og/target_groups/806eb12c-e481-4341-aec4-18bc7591b1e4/targets",
+                "sort_order": 4,
+                "targets_url": "/aiven-mbb-og/target_groups/c7ecf5b4-d243-4836-871d-c04d4a4c44b3/targets",
                 "targets": [
                     {
-                        "id": "ef150c2b-b727-4d6b-bc24-31d587d7443d",
+                        "id": "56d9745e-1779-4bac-a008-db083a81c5d9",
                         "name": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
                         "description": null,
                         "category": "other",
@@ -17290,11 +17318,11 @@
                 "description_html": "<p>In general, services hosted for Aiven by third parties are out of scope.  Aiven's test environment is also out of scope.  This group provides a partial list of targets for which reports will not be accepted by our program.</p>\n\n<p>Most subdomains of Aiven that are not specifically marked in scope are hosted by a third party.  Please check who is hosting the service, if possible, before submitting your bug.</p>\n\n<p>Services created by customers are generally within the aivencloud.com domain.  If you did not create the service, and it is not specifically identified here as a challenge target, you may not perform testing against it.  We suggest creating a service within your own account to perform this testing.</p>",
                 "in_scope": false,
                 "reward_range": {},
-                "sort_order": 4,
-                "targets_url": "/aiven-mbb-og/target_groups/fad42a3e-94d4-485d-90dd-ad44de6ee0b9/targets",
+                "sort_order": 5,
+                "targets_url": "/aiven-mbb-og/target_groups/e398d5a6-b6e1-4313-9986-ea1d46aae036/targets",
                 "targets": [
                     {
-                        "id": "d13b09a4-1316-4c0c-94ba-a19023774ae9",
+                        "id": "8f62bf20-9173-4196-9af0-a57f96a8e37c",
                         "name": "aiven.io/contact",
                         "description": null,
                         "category": "website",
@@ -17313,7 +17341,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9d4e0311-dc27-493b-82c4-e67619bb979b",
+                        "id": "4f1a8e1c-f254-46ad-bc23-7e8dfd561066",
                         "name": "aiven.io/community",
                         "description": null,
                         "category": "website",
@@ -17327,7 +17355,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c7f9bc5f-d16a-4927-a959-a5547ff108d8",
+                        "id": "7e919f2e-53b5-4b9e-bdde-9b2096a52e2a",
                         "name": "aquarium.aiven.io\t",
                         "description": null,
                         "category": "website",
@@ -17341,7 +17369,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "711d28f1-3237-4b85-8bad-39f4d9761a50",
+                        "id": "87368e96-ca00-48f5-8638-baff23b1f073",
                         "name": "uptime.aiven.io\t",
                         "description": null,
                         "category": "website",
@@ -17355,7 +17383,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c2d558b9-fbe8-4457-85c7-b17c0b1724f0",
+                        "id": "5ecc68a1-152b-4457-95af-c95e3b67bada",
                         "name": "video.aiven.io\t",
                         "description": null,
                         "category": "website",
@@ -17369,7 +17397,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a55e4b6c-4b90-4a42-9f82-7dd22092b50f",
+                        "id": "2cfe99a8-7323-4b1d-b0ec-93c9a1d676f2",
                         "name": "*.aiven.fi",
                         "description": null,
                         "category": "other",
@@ -17383,7 +17411,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "94200111-f367-4836-960b-4f368aa0ac6b",
+                        "id": "8d100ef1-4e49-43b3-9cbf-b98ba9388223",
                         "name": "*.avns.net",
                         "description": null,
                         "category": "other",
@@ -17397,7 +17425,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c728eed3-a811-4b9b-9724-2f5207bc8278",
+                        "id": "a9127e92-1e85-4245-83d0-569418be598d",
                         "name": "Customer services you did not create",
                         "description": null,
                         "category": "other",
@@ -17411,7 +17439,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "2975e2bf-621f-4b59-bf16-75514a611d71",
+                        "id": "c32feb5f-e5e1-4466-bb62-aeaa7c40d07b",
                         "name": "github.com/Aiven-Labs",
                         "description": null,
                         "category": "other",
@@ -17425,7 +17453,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "12ce609c-7330-4d2b-9e5d-f2dca8974315",
+                        "id": "583850a5-98d1-49a6-8351-a320e5ae350b",
                         "name": "events.aiven.io",
                         "description": null,
                         "category": "website",
@@ -68059,387 +68087,6 @@
         ]
     },
     {
-        "name": "Majid Al Futtaim Lifestyle",
-        "tagline": "Majid Al Futtaim Lifestyle",
-        "briefUrl": "/maffashion",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/480b/1947/689eee82/2658f638f48cd7822caf5e960feea859_logo_2.png",
-        "rewardSummary": {
-            "summary": "Points - $3,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/maffashion/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f57582f1-2938-4547-b096-04d745d0c3dd",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 3500.0
-                    },
-                    "2": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 1000.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/maffashion/target_groups/3c4a9ce9-89c0-4992-8361-03647fe5852f/targets",
-                "targets": [
-                    {
-                        "id": "ecf0c16a-c787-444b-919a-bc4ed4643baa",
-                        "name": "www.crateandbarrel.me",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.crateandbarrel.me",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
-                                    "name": "MySQL"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "63560c8d-0ed8-4b6b-9d0c-80d0767b283c",
-                        "name": "https://lego.yellowblocks.me/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://lego.yellowblocks.me/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "23449e6c-2e66-4618-8517-2ceeb8401da0",
-                        "name": "https://api-prod.thatconceptstore.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api-prod.thatconceptstore.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "61d44a09-f69b-4ba8-8280-ba457b3835d4",
-                        "name": "THAT Concept Store iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/app/id1503045795",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "21b9619b-a3ad-48c1-a897-fa1980ff71b6",
-                        "name": "THAT Concept Store Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.maf.thatandroid",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6d1eb87b-7ff9-433d-9984-73081d068c73",
-                        "name": "https://thatconceptstore.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://thatconceptstore.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7957d1dd-0b7c-4285-9110-9a35939e7911",
-                        "name": "https://www.cb2.ae/en",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.cb2.ae/en",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ea0ce0b8-def4-4492-b398-0a8f3ed400df",
-                        "name": "https://www.allsaints.me/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.allsaints.me/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fda7d21a-dfef-49cf-93de-02cb7dfb33e5",
-                        "name": "www.lululemon.me",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.lululemon.me",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9d7e7a87-6c25-48ab-8e67-a262af860157",
-                        "name": "lapi.yellowblocks.me",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://lapi.yellowblocks.me",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d89ed63f-4040-4f2e-b69e-a458e3677acb",
-                        "name": "https://www.shiseido.me/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.shiseido.me/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e4844fd8-74f7-41d7-90ca-85e9b1750553",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/maffashion/target_groups/6291a616-fc36-4c51-94a2-71f80b3c43c6/targets",
-                "targets": [
-                    {
-                        "id": "c8e0a415-d7ec-4b31-91cb-fba512ee283b",
-                        "name": "www.americangirlmena.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "T-Mobile",
         "tagline": "Welcome to The Uncarrier. Are You With Us?",
         "briefUrl": "/engagements/t-mobile",
@@ -69335,72 +68982,91 @@
         ]
     },
     {
-        "name": "NETGEAR Cash Rewards",
-        "tagline": "NETGEAR Cash Rewards Program",
-        "briefUrl": "/netgear",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/fef2/9f40/584e8fec/1b8e12c8a5f7766aa219c45467eb3926_square_netgwar.jpg",
+        "name": "Majid Al Futtaim Lifestyle",
+        "tagline": "Majid Al Futtaim Lifestyle",
+        "briefUrl": "/maffashion",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/480b/1947/689eee82/2658f638f48cd7822caf5e960feea859_logo_2.png",
         "rewardSummary": {
-            "summary": "$150 - $1,200",
-            "hint": "Up to $15,000",
-            "minReward": "$150",
-            "maxReward": "$1,200",
-            "compensationSummary": "Up to $15,000",
-            "compensationHint": "max reward"
+            "summary": "Points - $3,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
         },
         "isDemo": false,
         "scopeRank": 4,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": null,
+        "industryName": "Retail",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "productEngagementType": {
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/netgear/program_subscribers",
+        "subscriptionUrl": "/maffashion/program_subscribers",
         "programMigrationInProgress": null,
         "target_groups": [
             {
-                "id": "c9b5c6a7-89ef-4f2a-8e80-6d31d8058588",
-                "name": "In scope",
+                "id": "f57582f1-2938-4547-b096-04d745d0c3dd",
+                "name": "In Scope Targets",
                 "description_html": "",
                 "in_scope": true,
                 "reward_range": {
                     "1": {
-                        "min": 1200.0,
-                        "max": 1200.0
+                        "min": 3000.0,
+                        "max": 3500.0
                     },
                     "2": {
-                        "min": 600.0,
-                        "max": 600.0
+                        "min": 2100.0,
+                        "max": 2500.0
                     },
                     "3": {
                         "min": 300.0,
-                        "max": 300.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 150.0
-                    },
-                    "program_max": 15000
+                        "max": 1000.0
+                    }
                 },
                 "sort_order": 0,
-                "targets_url": "/netgear/target_groups/5c309878-d2f7-46fa-bc94-ffdb6515b3b0/targets",
+                "targets_url": "/maffashion/target_groups/3c4a9ce9-89c0-4992-8361-03647fe5852f/targets",
                 "targets": [
                     {
-                        "id": "9be11ef3-c654-4901-8eca-9de827f6f70e",
-                        "name": "Nighthawk Pro Gaming Router",
+                        "id": "ecf0c16a-c787-444b-919a-bc4ed4643baa",
+                        "name": "www.crateandbarrel.me",
                         "description": null,
-                        "category": "iot",
-                        "uri": null,
+                        "category": "website",
+                        "uri": "https://www.crateandbarrel.me",
                         "ipAddress": null,
                         "target": {
                             "tags": [
                                 {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
+                                    "name": "MySQL"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
                                 }
                             ]
                         },
@@ -69409,17 +69075,33 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ebf36b4c-8621-4826-ac11-d9d0b397456e",
-                        "name": "Nighthawk Pro Gaming Switch",
+                        "id": "63560c8d-0ed8-4b6b-9d0c-80d0767b283c",
+                        "name": "https://lego.yellowblocks.me/",
                         "description": null,
-                        "category": "iot",
-                        "uri": null,
+                        "category": "website",
+                        "uri": "https://lego.yellowblocks.me/",
                         "ipAddress": null,
                         "target": {
                             "tags": [
                                 {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
                                 }
                             ]
                         },
@@ -69428,17 +69110,17 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "6d62a5f5-a6c4-4ee3-938b-b7bc6929c55c",
-                        "name": "Nighthawk Router",
+                        "id": "23449e6c-2e66-4618-8517-2ceeb8401da0",
+                        "name": "https://api-prod.thatconceptstore.com/",
                         "description": null,
-                        "category": "iot",
-                        "uri": null,
+                        "category": "api",
+                        "uri": "https://api-prod.thatconceptstore.com/",
                         "ipAddress": null,
                         "target": {
                             "tags": [
                                 {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
                                 }
                             ]
                         },
@@ -69447,17 +69129,21 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f6e3535a-617b-4a90-8ded-a60733076ca8",
-                        "name": "Nighthawk Switch",
+                        "id": "61d44a09-f69b-4ba8-8280-ba457b3835d4",
+                        "name": "THAT Concept Store iOS",
                         "description": null,
-                        "category": "iot",
-                        "uri": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/app/id1503045795",
                         "ipAddress": null,
                         "target": {
                             "tags": [
                                 {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
                                 }
                             ]
                         },
@@ -69466,33 +69152,21 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ca879752-5c16-45d5-aba5-07e6939bea85",
-                        "name": "Nighthawk iOS App",
+                        "id": "21b9619b-a3ad-48c1-a897-fa1980ff71b6",
+                        "name": "THAT Concept Store Android",
                         "description": null,
-                        "category": "ios",
-                        "uri": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.maf.thatandroid",
                         "ipAddress": null,
                         "target": {
                             "tags": [
                                 {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
                                 },
                                 {
                                     "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
                                     "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
                                 }
                             ]
                         },
@@ -69501,146 +69175,11 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "cdf5c406-2db7-451a-a839-ef70e4ba0ab3",
-                        "name": "Nighthawk Android App",
+                        "id": "6d1eb87b-7ff9-433d-9984-73081d068c73",
+                        "name": "https://thatconceptstore.com",
                         "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cf6bb615-9c6e-46d0-a1b4-9cae90319d0f",
-                        "name": "Orbi ",
-                        "description": null,
-                        "category": "iot",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "326b420f-9edc-4571-9251-76b9a4cc0cd3",
-                        "name": "Orbi iOS App ",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c56e2401-e5a4-43b7-b69d-b5603870ef70",
-                        "name": "Orbi Android App ",
-                        "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5f743634-4a31-4e3a-8d10-f13c338398bf",
-                        "name": "Insight Managed Smart Cloud Wireless Access Point",
-                        "description": null,
-                        "category": "iot",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "527d6129-9cf9-4240-b3eb-47ef88045fac",
-                        "name": "https://api.netgear.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
+                        "category": "website",
+                        "uri": "https://thatconceptstore.com",
                         "ipAddress": null,
                         "target": {
                             "tags": [
@@ -69649,84 +69188,160 @@
                                     "name": "API Testing"
                                 },
                                 {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7957d1dd-0b7c-4285-9110-9a35939e7911",
+                        "name": "https://www.cb2.ae/en",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.cb2.ae/en",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ea0ce0b8-def4-4492-b398-0a8f3ed400df",
+                        "name": "https://www.allsaints.me/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.allsaints.me/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "fda7d21a-dfef-49cf-93de-02cb7dfb33e5",
+                        "name": "www.lululemon.me",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.me",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9d7e7a87-6c25-48ab-8e67-a262af860157",
+                        "name": "lapi.yellowblocks.me",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://lapi.yellowblocks.me",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d89ed63f-4040-4f2e-b69e-a458e3677acb",
+                        "name": "https://www.shiseido.me/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.shiseido.me/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
                                 }
                             ]
                         },
                         "sort_order": 10,
                         "display_known_issues": false,
                         "known_issues": {}
-                    },
+                    }
+                ]
+            },
+            {
+                "id": "e4844fd8-74f7-41d7-90ca-85e9b1750553",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/maffashion/target_groups/6291a616-fc36-4c51-94a2-71f80b3c43c6/targets",
+                "targets": [
                     {
-                        "id": "2b03db9b-ea2f-4130-8c7e-0f36371f1a7b",
-                        "name": "Insight iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "dd674dc0-07bb-465b-bbd0-70046a6ff028",
-                        "name": "Insight Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "92052125-9705-4a9b-844e-aa2d0c6b2ff8",
-                        "name": "Insight Cloud Portal",
+                        "id": "c8e0a415-d7ec-4b31-91cb-fba512ee283b",
+                        "name": "www.americangirlmena.com",
                         "description": null,
                         "category": "website",
                         "uri": null,
@@ -69739,26 +69354,7 @@
                                 }
                             ]
                         },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a9515100-78a0-470e-bcbe-f65ff04f4be3",
-                        "name": "Meural",
-                        "description": null,
-                        "category": "iot",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
+                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -70240,6 +69836,438 @@
                 "description": null,
                 "description_html": null,
                 "reward_range": {}
+            }
+        ]
+    },
+    {
+        "name": "NETGEAR Cash Rewards",
+        "tagline": "NETGEAR Cash Rewards Program",
+        "briefUrl": "/netgear",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/fef2/9f40/584e8fec/1b8e12c8a5f7766aa219c45467eb3926_square_netgwar.jpg",
+        "rewardSummary": {
+            "summary": "$150 - $1,200",
+            "hint": "Up to $15,000",
+            "minReward": "$150",
+            "maxReward": "$1,200",
+            "compensationSummary": "Up to $15,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/netgear/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "c9b5c6a7-89ef-4f2a-8e80-6d31d8058588",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 1200.0,
+                        "max": 1200.0
+                    },
+                    "2": {
+                        "min": 600.0,
+                        "max": 600.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 300.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 150.0
+                    },
+                    "program_max": 15000
+                },
+                "sort_order": 0,
+                "targets_url": "/netgear/target_groups/5c309878-d2f7-46fa-bc94-ffdb6515b3b0/targets",
+                "targets": [
+                    {
+                        "id": "9be11ef3-c654-4901-8eca-9de827f6f70e",
+                        "name": "Nighthawk Pro Gaming Router",
+                        "description": null,
+                        "category": "iot",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ebf36b4c-8621-4826-ac11-d9d0b397456e",
+                        "name": "Nighthawk Pro Gaming Switch",
+                        "description": null,
+                        "category": "iot",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6d62a5f5-a6c4-4ee3-938b-b7bc6929c55c",
+                        "name": "Nighthawk Router",
+                        "description": null,
+                        "category": "iot",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f6e3535a-617b-4a90-8ded-a60733076ca8",
+                        "name": "Nighthawk Switch",
+                        "description": null,
+                        "category": "iot",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ca879752-5c16-45d5-aba5-07e6939bea85",
+                        "name": "Nighthawk iOS App",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "cdf5c406-2db7-451a-a839-ef70e4ba0ab3",
+                        "name": "Nighthawk Android App",
+                        "description": null,
+                        "category": "android",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "cf6bb615-9c6e-46d0-a1b4-9cae90319d0f",
+                        "name": "Orbi ",
+                        "description": null,
+                        "category": "iot",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "326b420f-9edc-4571-9251-76b9a4cc0cd3",
+                        "name": "Orbi iOS App ",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c56e2401-e5a4-43b7-b69d-b5603870ef70",
+                        "name": "Orbi Android App ",
+                        "description": null,
+                        "category": "android",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "5f743634-4a31-4e3a-8d10-f13c338398bf",
+                        "name": "Insight Managed Smart Cloud Wireless Access Point",
+                        "description": null,
+                        "category": "iot",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "527d6129-9cf9-4240-b3eb-47ef88045fac",
+                        "name": "https://api.netgear.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2b03db9b-ea2f-4130-8c7e-0f36371f1a7b",
+                        "name": "Insight iOS App",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "dd674dc0-07bb-465b-bbd0-70046a6ff028",
+                        "name": "Insight Android App",
+                        "description": null,
+                        "category": "android",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 12,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "92052125-9705-4a9b-844e-aa2d0c6b2ff8",
+                        "name": "Insight Cloud Portal",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 13,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a9515100-78a0-470e-bcbe-f65ff04f4be3",
+                        "name": "Meural",
+                        "description": null,
+                        "category": "iot",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                }
+                            ]
+                        },
+                        "sort_order": 14,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
             }
         ]
     },
