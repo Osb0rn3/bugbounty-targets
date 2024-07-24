@@ -5913,6 +5913,63 @@
         ]
     },
     {
+        "id": "4352dcef-dfc5-4d74-8fd8-9bef5aa16f18",
+        "handle": "skodaautoprivatebugbountyprogram",
+        "name": "Skoda Auto Bug Bounty Program",
+        "following": false,
+        "minBounty": {
+            "value": 200.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 5000.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/skodaauto/skodaautoprivatebugbountyprogram/detail"
+        },
+        "domains": [
+            {
+                "id": "7ab1da41-120c-4ab9-b6fe-ea587618de57",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "1632202810",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "b177593a-bee1-45ec-a024-a7e9716e2a48",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "cz.skodaauto.myskoda",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
         "id": "43c4b274-ccbd-4ea2-8047-d40b0b4205ac",
         "handle": "libelle",
         "name": "Libelle",
@@ -5939,7 +5996,87 @@
         },
         "webLinks": {
             "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/dpgm/libelle/detail"
-        }
+        },
+        "domains": [
+            {
+                "id": "2ea4d645-9f2e-41ba-a371-2fc20c416515",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "* libelle.nl/service",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "d25079c1-d5d4-46a9-8796-dc0272441442",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "* libelle.nl/inloggen",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "c1233baf-907a-4f6a-a7b5-b4d264182246",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "* libelle.nl/login",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "ce3aa1fd-0010-4b60-bd1e-8155aea5c425",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "* libelle.nl/registreren",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "f35a01fa-6de3-4750-af43-b36d6fffa7a7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.libelle.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "excluding\n* libelle.nl/service\n* libelle.nl/inloggen\n* libelle.nl/login\n* libelle.nl/registreren"
+            },
+            {
+                "id": "1133ce7b-4a3e-4380-812c-e0aeeb9f5f60",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.libelle.nl",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            }
+        ]
     },
     {
         "id": "43e4eb4b-f2c8-4307-80a6-7ce739469867",
