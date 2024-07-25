@@ -60947,6 +60947,787 @@
         ]
     },
     {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/fis/target_groups/992b7c8d-ded3-4d8b-b4b5-7d3b1c1352e2/targets",
+                "targets": [
+                    {
+                        "id": "5b11d547-9330-440f-8e0f-67b19678be52",
+                        "name": "Any FIS asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
+                "name": "Out of Scope",
+                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com, </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 8/20/204)</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/fis/target_groups/36470316-f5f4-4c98-bd8d-005eaf698b13/targets",
+                "targets": [
+                    {
+                        "id": "08d2158f-ac79-4541-b2f6-41f0d3ad9ebb",
+                        "name": "Reference above out of scope targets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://apuat-aaa.fisglobal.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bugcrowd",
+        "tagline": "Outhack Them All\u2122",
+        "briefUrl": "/engagements/bugcrowd",
+        "backgroundColor": "#1a1a1a",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ef74/d1fa/62a5b64c/3809e0af42850a579f02c3434743e3ca_bugcrowd__1_.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bugcrowd/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "5b06ac58-5c77-4c58-9456-68d205404f43",
+                "name": "In Scope Targets ",
+                "targets": [
+                    {
+                        "id": "4cd63f5a-895d-4aab-97d3-6a5aec5c3e73",
+                        "uri": "https://docs.bugcrowd.com/",
+                        "name": "docs.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "38042aa6-a3e2-4a4a-8c3f-e1cc789af984",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "40ac7f57-395c-4f6a-82fb-292f80ab0240",
+                                    "name": "HTML",
+                                    "targetId": "4cd63f5a-895d-4aab-97d3-6a5aec5c3e73"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "4cd63f5a-895d-4aab-97d3-6a5aec5c3e73"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "1f7a04b5-75e2-475f-910b-1e854ea84e09",
+                        "uri": "https://bugcrowd.com/programs",
+                        "name": "bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "31f66840-bc3b-4934-a60f-30d3dba15286",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "30a3c3f4-5f27-4be7-9e4f-5fe8e80828f8",
+                                    "name": "Elasticsearch",
+                                    "targetId": "1f7a04b5-75e2-475f-910b-1e854ea84e09"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails",
+                                    "targetId": "1f7a04b5-75e2-475f-910b-1e854ea84e09"
+                                },
+                                {
+                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
+                                    "name": "PostgreSQL",
+                                    "targetId": "1f7a04b5-75e2-475f-910b-1e854ea84e09"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "1f7a04b5-75e2-475f-910b-1e854ea84e09"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "1f7a04b5-75e2-475f-910b-1e854ea84e09"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "d73c1af1-76bf-4846-bec0-e051702ae540",
+                        "uri": "https://tracker.bugcrowd.com",
+                        "name": "Crowdcontrol",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "2460973a-1c37-4f99-a12a-9c8fed58bc75",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "30a3c3f4-5f27-4be7-9e4f-5fe8e80828f8",
+                                    "name": "Elasticsearch",
+                                    "targetId": "d73c1af1-76bf-4846-bec0-e051702ae540"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails",
+                                    "targetId": "d73c1af1-76bf-4846-bec0-e051702ae540"
+                                },
+                                {
+                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
+                                    "name": "PostgreSQL",
+                                    "targetId": "d73c1af1-76bf-4846-bec0-e051702ae540"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "d73c1af1-76bf-4846-bec0-e051702ae540"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "d73c1af1-76bf-4846-bec0-e051702ae540"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "04c05140-1870-43b1-85b4-1e732d176499",
+                        "uri": "https://api.bugcrowd.com",
+                        "name": "api.bugcrowd.com",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "4546514a-c078-4f4c-be87-cbd6c008cb69",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
+                                },
+                                {
+                                    "id": "30a3c3f4-5f27-4be7-9e4f-5fe8e80828f8",
+                                    "name": "Elasticsearch",
+                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails",
+                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
+                                },
+                                {
+                                    "id": "6a9fe373-cb50-48a4-8f00-f390acde8447",
+                                    "name": "JSON",
+                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
+                                },
+                                {
+                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
+                                    "name": "PostgreSQL",
+                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP",
+                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 2501,
+                        "max": 10000
+                    },
+                    "2": {
+                        "min": 901,
+                        "max": 2500
+                    },
+                    "3": {
+                        "min": 301,
+                        "max": 900
+                    },
+                    "4": {
+                        "min": 300,
+                        "max": 300
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "e4d0b3ac-c094-469e-a6f6-fa57892c0499",
+                "name": "Beta Feature Target",
+                "targets": [
+                    {
+                        "id": "a916c675-7b86-451d-8f79-ec11c25c1f7c",
+                        "uri": "https://identity.bugcrowd.com/",
+                        "name": "https://identity.bugcrowd.com/ ",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "01fac464-0c62-44a5-a4c7-0a6025192b44",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "16818e15-ac0f-4e76-999b-8b6a87db2837",
+                                    "name": "Docker",
+                                    "targetId": "a916c675-7b86-451d-8f79-ec11c25c1f7c"
+                                },
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "a916c675-7b86-451d-8f79-ec11c25c1f7c"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "a916c675-7b86-451d-8f79-ec11c25c1f7c"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "a916c675-7b86-451d-8f79-ec11c25c1f7c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "82581bfe-f689-4e05-86bf-2d7c27801ee0",
+                        "uri": "",
+                        "name": "*.bugcrowd.com/auth/*",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "672efd21-3239-4a55-999f-2278478b914a",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "16818e15-ac0f-4e76-999b-8b6a87db2837",
+                                    "name": "Docker",
+                                    "targetId": "82581bfe-f689-4e05-86bf-2d7c27801ee0"
+                                },
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "82581bfe-f689-4e05-86bf-2d7c27801ee0"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "82581bfe-f689-4e05-86bf-2d7c27801ee0"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "82581bfe-f689-4e05-86bf-2d7c27801ee0"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 1,
+                "description": null,
+                "description_html": "<p>Our engineering team is working on migrating the platform to use centralized authentication and we appreciate the help of our researchers to test this beta feature! Please note not everyone may have access to the endpoint. In addition reports  are subject to be duped to internal ones. </p>\n\n<p><strong>This feature is subject to different rewards than our main program</strong></p>",
+                "reward_range": {
+                    "1": {
+                        "min": 1500,
+                        "max": 5000
+                    },
+                    "2": {
+                        "min": 500,
+                        "max": 1500
+                    },
+                    "3": {
+                        "min": 100,
+                        "max": 500
+                    },
+                    "4": {
+                        "min": 100,
+                        "max": 100
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "eed2bc96-b290-4d7e-b1cb-93abb4bd907f",
+                "name": "Out of scope targets",
+                "targets": [
+                    {
+                        "id": "ace5f343-9bfb-41d2-8855-094c923c0da7",
+                        "uri": null,
+                        "name": "bugcrowd*.freshdesk.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "488f83a0-c644-44d8-b3e4-278319e7e1ae",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ace5f343-9bfb-41d2-8855-094c923c0da7"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "0e68901f-3634-4a28-8e9e-ddd1ee5f3979",
+                        "uri": "https://www.bugcrowd.com",
+                        "name": "www.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "2b7ce6ed-4ca9-4759-84be-7d5b53d0f417",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
+                                    "name": "Wordpress",
+                                    "targetId": "0e68901f-3634-4a28-8e9e-ddd1ee5f3979"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "0e68901f-3634-4a28-8e9e-ddd1ee5f3979"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "2e28dd94-19f8-4054-b438-e7f6de50c342",
+                        "uri": null,
+                        "name": "blog.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "93494ebc-ed94-4cb9-9b68-55ac454cbd2f",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
+                                    "name": "Wordpress",
+                                    "targetId": "2e28dd94-19f8-4054-b438-e7f6de50c342"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "2e28dd94-19f8-4054-b438-e7f6de50c342"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "63e83eb8-a032-4fcf-8ee6-726f8d2c1fd1",
+                        "uri": null,
+                        "name": "researcherdocs.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "19fd75a2-ec9a-4f1e-ae2d-0a3085363d9b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "63e83eb8-a032-4fcf-8ee6-726f8d2c1fd1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "842e0522-e802-46dc-b709-f552f0cd0e38",
+                        "uri": null,
+                        "name": "pages.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "09fa2554-b44e-4e04-a140-e12ecef40109",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "842e0522-e802-46dc-b709-f552f0cd0e38"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "87eecf78-edf4-46c7-8a10-2a61c2499759",
+                        "uri": null,
+                        "name": "forum.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "4da2edad-c6d8-45c6-b7f7-0ca64d4abcec",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "87eecf78-edf4-46c7-8a10-2a61c2499759"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "d5a318fd-0775-4826-8db8-5e78822d4a6b",
+                        "uri": null,
+                        "name": "email.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "7daf636d-4d4b-4507-b681-dd0f6df366bd",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "d5a318fd-0775-4826-8db8-5e78822d4a6b"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "f85d4fca-4fa1-4ced-bd9c-741c11254b2c",
+                        "uri": null,
+                        "name": "email.forum.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "ca654893-b3bf-41e7-83d1-98eaa615a634",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "f85d4fca-4fa1-4ced-bd9c-741c11254b2c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "29342e13-69ea-4052-a7e4-958e42c38fc8",
+                        "uri": "https://go.bugcrowd.com",
+                        "name": "go.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "52f11c87-321b-4652-9a54-bddf5739752c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "29342e13-69ea-4052-a7e4-958e42c38fc8"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "11fe0654-a401-4bbd-9d5e-ad0611df8721",
+                        "uri": null,
+                        "name": "events.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "2d5db606-7967-4ce5-af0c-616f0410a878",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "11fe0654-a401-4bbd-9d5e-ad0611df8721"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "df2ce879-43e0-4f47-a704-dd3ad3742096",
+                        "uri": "https://assetinventory.bugcrowd.com",
+                        "name": "assetinventory.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "abcc360c-0dda-4647-aa80-fc420980180f",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "df2ce879-43e0-4f47-a704-dd3ad3742096"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b007ceaa-3030-470f-8291-49418c3a8f06",
+                        "uri": "https://community.bugcrowd.com",
+                        "name": "community.bugcrowd.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "83397a24-1a8b-4d1c-bf55-b08170530687",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "b007ceaa-3030-470f-8291-49418c3a8f06"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 2,
+                "description": null,
+                "description_html": null,
+                "reward_range": {}
+            }
+        ]
+    },
+    {
         "name": "Cisco Meraki",
         "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
         "briefUrl": "/engagements/ciscomeraki",
@@ -61800,787 +62581,6 @@
                 "description": null,
                 "description_html": "<p>This program is designed to review and address security issues related to Cisco Meraki&#39;s products and applications. Please note that anything that is not explicitly listed as in-scope is considered out-of-scope. If you believe you have found a vulnerability that is outside of this program scope but related to Cisco, please refer to the below resources:</p>\n\n<ul>\n<li>If you need to report a vulnerability in a Cisco product, please contact psirt@cisco.com.</li>\n<li>If you need to contact Cisco regarding a security incident, please contact incidentresponse@cisco.com.</li>\n<li>Cisco Systems Operational Infrastructure findings can be reported here: https://bugcrowd.com/ciscosecurity</li>\n<li>Further information can be found here: https://www.cisco.com/security</li>\n</ul>",
                 "reward_range": {}
-            }
-        ]
-    },
-    {
-        "name": "Bugcrowd",
-        "tagline": "Outhack Them All\u2122",
-        "briefUrl": "/engagements/bugcrowd",
-        "backgroundColor": "#1a1a1a",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ef74/d1fa/62a5b64c/3809e0af42850a579f02c3434743e3ca_bugcrowd__1_.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bugcrowd/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "5b06ac58-5c77-4c58-9456-68d205404f43",
-                "name": "In Scope Targets ",
-                "targets": [
-                    {
-                        "id": "4cd63f5a-895d-4aab-97d3-6a5aec5c3e73",
-                        "uri": "https://docs.bugcrowd.com/",
-                        "name": "docs.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "38042aa6-a3e2-4a4a-8c3f-e1cc789af984",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "40ac7f57-395c-4f6a-82fb-292f80ab0240",
-                                    "name": "HTML",
-                                    "targetId": "4cd63f5a-895d-4aab-97d3-6a5aec5c3e73"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "4cd63f5a-895d-4aab-97d3-6a5aec5c3e73"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "1f7a04b5-75e2-475f-910b-1e854ea84e09",
-                        "uri": "https://bugcrowd.com/programs",
-                        "name": "bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "31f66840-bc3b-4934-a60f-30d3dba15286",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "30a3c3f4-5f27-4be7-9e4f-5fe8e80828f8",
-                                    "name": "Elasticsearch",
-                                    "targetId": "1f7a04b5-75e2-475f-910b-1e854ea84e09"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails",
-                                    "targetId": "1f7a04b5-75e2-475f-910b-1e854ea84e09"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL",
-                                    "targetId": "1f7a04b5-75e2-475f-910b-1e854ea84e09"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "1f7a04b5-75e2-475f-910b-1e854ea84e09"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "1f7a04b5-75e2-475f-910b-1e854ea84e09"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "d73c1af1-76bf-4846-bec0-e051702ae540",
-                        "uri": "https://tracker.bugcrowd.com",
-                        "name": "Crowdcontrol",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "2460973a-1c37-4f99-a12a-9c8fed58bc75",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "30a3c3f4-5f27-4be7-9e4f-5fe8e80828f8",
-                                    "name": "Elasticsearch",
-                                    "targetId": "d73c1af1-76bf-4846-bec0-e051702ae540"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails",
-                                    "targetId": "d73c1af1-76bf-4846-bec0-e051702ae540"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL",
-                                    "targetId": "d73c1af1-76bf-4846-bec0-e051702ae540"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "d73c1af1-76bf-4846-bec0-e051702ae540"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "d73c1af1-76bf-4846-bec0-e051702ae540"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "04c05140-1870-43b1-85b4-1e732d176499",
-                        "uri": "https://api.bugcrowd.com",
-                        "name": "api.bugcrowd.com",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "4546514a-c078-4f4c-be87-cbd6c008cb69",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
-                                },
-                                {
-                                    "id": "30a3c3f4-5f27-4be7-9e4f-5fe8e80828f8",
-                                    "name": "Elasticsearch",
-                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails",
-                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
-                                },
-                                {
-                                    "id": "6a9fe373-cb50-48a4-8f00-f390acde8447",
-                                    "name": "JSON",
-                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL",
-                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP",
-                                    "targetId": "04c05140-1870-43b1-85b4-1e732d176499"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 2501,
-                        "max": 10000
-                    },
-                    "2": {
-                        "min": 901,
-                        "max": 2500
-                    },
-                    "3": {
-                        "min": 301,
-                        "max": 900
-                    },
-                    "4": {
-                        "min": 300,
-                        "max": 300
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "e4d0b3ac-c094-469e-a6f6-fa57892c0499",
-                "name": "Beta Feature Target",
-                "targets": [
-                    {
-                        "id": "a916c675-7b86-451d-8f79-ec11c25c1f7c",
-                        "uri": "https://identity.bugcrowd.com/",
-                        "name": "https://identity.bugcrowd.com/ ",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "01fac464-0c62-44a5-a4c7-0a6025192b44",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "16818e15-ac0f-4e76-999b-8b6a87db2837",
-                                    "name": "Docker",
-                                    "targetId": "a916c675-7b86-451d-8f79-ec11c25c1f7c"
-                                },
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "a916c675-7b86-451d-8f79-ec11c25c1f7c"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "a916c675-7b86-451d-8f79-ec11c25c1f7c"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "a916c675-7b86-451d-8f79-ec11c25c1f7c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "82581bfe-f689-4e05-86bf-2d7c27801ee0",
-                        "uri": "",
-                        "name": "*.bugcrowd.com/auth/*",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "672efd21-3239-4a55-999f-2278478b914a",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "16818e15-ac0f-4e76-999b-8b6a87db2837",
-                                    "name": "Docker",
-                                    "targetId": "82581bfe-f689-4e05-86bf-2d7c27801ee0"
-                                },
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "82581bfe-f689-4e05-86bf-2d7c27801ee0"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "82581bfe-f689-4e05-86bf-2d7c27801ee0"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "82581bfe-f689-4e05-86bf-2d7c27801ee0"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 1,
-                "description": null,
-                "description_html": "<p>Our engineering team is working on migrating the platform to use centralized authentication and we appreciate the help of our researchers to test this beta feature! Please note not everyone may have access to the endpoint. In addition reports  are subject to be duped to internal ones. </p>\n\n<p><strong>This feature is subject to different rewards than our main program</strong></p>",
-                "reward_range": {
-                    "1": {
-                        "min": 1500,
-                        "max": 5000
-                    },
-                    "2": {
-                        "min": 500,
-                        "max": 1500
-                    },
-                    "3": {
-                        "min": 100,
-                        "max": 500
-                    },
-                    "4": {
-                        "min": 100,
-                        "max": 100
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "eed2bc96-b290-4d7e-b1cb-93abb4bd907f",
-                "name": "Out of scope targets",
-                "targets": [
-                    {
-                        "id": "ace5f343-9bfb-41d2-8855-094c923c0da7",
-                        "uri": null,
-                        "name": "bugcrowd*.freshdesk.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "488f83a0-c644-44d8-b3e4-278319e7e1ae",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ace5f343-9bfb-41d2-8855-094c923c0da7"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "0e68901f-3634-4a28-8e9e-ddd1ee5f3979",
-                        "uri": "https://www.bugcrowd.com",
-                        "name": "www.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "2b7ce6ed-4ca9-4759-84be-7d5b53d0f417",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
-                                    "name": "Wordpress",
-                                    "targetId": "0e68901f-3634-4a28-8e9e-ddd1ee5f3979"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "0e68901f-3634-4a28-8e9e-ddd1ee5f3979"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "2e28dd94-19f8-4054-b438-e7f6de50c342",
-                        "uri": null,
-                        "name": "blog.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "93494ebc-ed94-4cb9-9b68-55ac454cbd2f",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
-                                    "name": "Wordpress",
-                                    "targetId": "2e28dd94-19f8-4054-b438-e7f6de50c342"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "2e28dd94-19f8-4054-b438-e7f6de50c342"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "63e83eb8-a032-4fcf-8ee6-726f8d2c1fd1",
-                        "uri": null,
-                        "name": "researcherdocs.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "19fd75a2-ec9a-4f1e-ae2d-0a3085363d9b",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "63e83eb8-a032-4fcf-8ee6-726f8d2c1fd1"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "842e0522-e802-46dc-b709-f552f0cd0e38",
-                        "uri": null,
-                        "name": "pages.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "09fa2554-b44e-4e04-a140-e12ecef40109",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "842e0522-e802-46dc-b709-f552f0cd0e38"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "87eecf78-edf4-46c7-8a10-2a61c2499759",
-                        "uri": null,
-                        "name": "forum.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "4da2edad-c6d8-45c6-b7f7-0ca64d4abcec",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "87eecf78-edf4-46c7-8a10-2a61c2499759"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "d5a318fd-0775-4826-8db8-5e78822d4a6b",
-                        "uri": null,
-                        "name": "email.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "7daf636d-4d4b-4507-b681-dd0f6df366bd",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "d5a318fd-0775-4826-8db8-5e78822d4a6b"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "f85d4fca-4fa1-4ced-bd9c-741c11254b2c",
-                        "uri": null,
-                        "name": "email.forum.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "ca654893-b3bf-41e7-83d1-98eaa615a634",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "f85d4fca-4fa1-4ced-bd9c-741c11254b2c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "29342e13-69ea-4052-a7e4-958e42c38fc8",
-                        "uri": "https://go.bugcrowd.com",
-                        "name": "go.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "52f11c87-321b-4652-9a54-bddf5739752c",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "29342e13-69ea-4052-a7e4-958e42c38fc8"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "11fe0654-a401-4bbd-9d5e-ad0611df8721",
-                        "uri": null,
-                        "name": "events.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "2d5db606-7967-4ce5-af0c-616f0410a878",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "11fe0654-a401-4bbd-9d5e-ad0611df8721"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "df2ce879-43e0-4f47-a704-dd3ad3742096",
-                        "uri": "https://assetinventory.bugcrowd.com",
-                        "name": "assetinventory.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "abcc360c-0dda-4647-aa80-fc420980180f",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "df2ce879-43e0-4f47-a704-dd3ad3742096"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "b007ceaa-3030-470f-8291-49418c3a8f06",
-                        "uri": "https://community.bugcrowd.com",
-                        "name": "community.bugcrowd.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "83397a24-1a8b-4d1c-bf55-b08170530687",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "b007ceaa-3030-470f-8291-49418c3a8f06"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": false,
-                "sort_order": 2,
-                "description": null,
-                "description_html": null,
-                "reward_range": {}
-            }
-        ]
-    },
-    {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/992b7c8d-ded3-4d8b-b4b5-7d3b1c1352e2/targets",
-                "targets": [
-                    {
-                        "id": "5b11d547-9330-440f-8e0f-67b19678be52",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com, </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 8/20/204)</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/36470316-f5f4-4c98-bd8d-005eaf698b13/targets",
-                "targets": [
-                    {
-                        "id": "08d2158f-ac79-4541-b2f6-41f0d3ad9ebb",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
             }
         ]
     },
@@ -66228,197 +66228,6 @@
         ]
     },
     {
-        "name": "Tyler Technologies Data & Insights \u2013 Tyler Data Platform, powered by Socrata",
-        "tagline": "Put your skills to the test!",
-        "briefUrl": "/engagements/tyler-tech-data-insights",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/04c0/1f22/fbcee57c/5b398460220a42c28f675778b145457e_tylertech.jpeg",
-        "rewardSummary": {
-            "summary": "$150 - $3,500",
-            "hint": null,
-            "minReward": "$150",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tyler-tech-data-insights/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "e224d73a-c786-4b6f-9d6a-72ea622f436b",
-                "name": "In Scope Targets",
-                "targets": [
-                    {
-                        "id": "5cb2ec95-d356-426b-b8f2-81743cb9b0a0",
-                        "uri": "https://opendata-demo.test-socrata.com",
-                        "name": "https://opendata-demo.test-socrata.com",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "1921334e-b84a-4905-9552-78580ebda564",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails",
-                                    "targetId": "5cb2ec95-d356-426b-b8f2-81743cb9b0a0"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx",
-                                    "targetId": "5cb2ec95-d356-426b-b8f2-81743cb9b0a0"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery",
-                                    "targetId": "5cb2ec95-d356-426b-b8f2-81743cb9b0a0"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "5cb2ec95-d356-426b-b8f2-81743cb9b0a0"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "37b61fa1-4299-4662-9b77-ddd84710b1e0",
-                        "uri": "https://opendata.test-socrata.com",
-                        "name": "https://opendata.test-socrata.com",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "e126a467-1b13-476b-b798-922d4dff5c22",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails",
-                                    "targetId": "37b61fa1-4299-4662-9b77-ddd84710b1e0"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx",
-                                    "targetId": "37b61fa1-4299-4662-9b77-ddd84710b1e0"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery",
-                                    "targetId": "37b61fa1-4299-4662-9b77-ddd84710b1e0"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "37b61fa1-4299-4662-9b77-ddd84710b1e0"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 2100,
-                        "max": 2500
-                    },
-                    "2": {
-                        "min": 1000,
-                        "max": 1250
-                    },
-                    "3": {
-                        "min": 450,
-                        "max": 600
-                    },
-                    "4": {
-                        "min": 150,
-                        "max": 200
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "85afbcd5-6fa4-453e-8621-6398fabb68d9",
-                "name": "Admin Gateway",
-                "targets": [
-                    {
-                        "id": "165b6431-b41e-4f1f-9169-8f3616899ef2",
-                        "uri": "https://opendata.test-socrata.com/admin/gateway",
-                        "name": "https://opendata.test-socrata.com/admin/gateway",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "d5ca3615-9a54-4c77-a137-6ede1648a4b0",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "165b6431-b41e-4f1f-9169-8f3616899ef2"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 1,
-                "description": null,
-                "description_html": "<p>This target is reserved for certain researchers who have proven themselves to be responsible on this program (your account will not be able to access it). Socrata will notify Bugcrowd who will communicate to you if you qualify for this section of the engagement. Your account will then be able to access the endpoint accordingly.</p>\n\n<p>To gain access to the application, please sign up for an account using your @bugcrowdninja.com email address. For more info regarding @bugcrowdninja email addresses, see <a href=\"https://docs.bugcrowd.com/researchers/participating-in-program/your-bugcrowdninja-email-address/\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>. You may register for accounts <a href=\"https://opendata.test-socrata.com/signup\" rel=\"nofollow noreferrer\" target=\"_blank\">on the signup page</a>.</p>\n\n<p>More details can be found here: <a href=\"https://support.socrata.com/hc/en-us/articles/360033945833-Socrata-Gateway-for-Administrators\" rel=\"nofollow noreferrer\" target=\"_blank\">Socrata Gateway</a></p>",
-                "reward_range": {
-                    "1": {
-                        "min": 3100,
-                        "max": 3500
-                    },
-                    "2": {
-                        "min": 1500,
-                        "max": 1800
-                    },
-                    "3": {
-                        "min": 600,
-                        "max": 750
-                    },
-                    "4": {
-                        "min": 150,
-                        "max": 250
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            }
-        ]
-    },
-    {
         "name": "Statuspage",
         "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
         "briefUrl": "/statuspage",
@@ -67513,6 +67322,197 @@
                         "known_issues": {}
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Tyler Technologies Data & Insights \u2013 Tyler Data Platform, powered by Socrata",
+        "tagline": "Put your skills to the test!",
+        "briefUrl": "/engagements/tyler-tech-data-insights",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/04c0/1f22/fbcee57c/5b398460220a42c28f675778b145457e_tylertech.jpeg",
+        "rewardSummary": {
+            "summary": "$150 - $3,500",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tyler-tech-data-insights/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "e224d73a-c786-4b6f-9d6a-72ea622f436b",
+                "name": "In Scope Targets",
+                "targets": [
+                    {
+                        "id": "5cb2ec95-d356-426b-b8f2-81743cb9b0a0",
+                        "uri": "https://opendata-demo.test-socrata.com",
+                        "name": "https://opendata-demo.test-socrata.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "1921334e-b84a-4905-9552-78580ebda564",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails",
+                                    "targetId": "5cb2ec95-d356-426b-b8f2-81743cb9b0a0"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx",
+                                    "targetId": "5cb2ec95-d356-426b-b8f2-81743cb9b0a0"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery",
+                                    "targetId": "5cb2ec95-d356-426b-b8f2-81743cb9b0a0"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "5cb2ec95-d356-426b-b8f2-81743cb9b0a0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "37b61fa1-4299-4662-9b77-ddd84710b1e0",
+                        "uri": "https://opendata.test-socrata.com",
+                        "name": "https://opendata.test-socrata.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "e126a467-1b13-476b-b798-922d4dff5c22",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails",
+                                    "targetId": "37b61fa1-4299-4662-9b77-ddd84710b1e0"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx",
+                                    "targetId": "37b61fa1-4299-4662-9b77-ddd84710b1e0"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery",
+                                    "targetId": "37b61fa1-4299-4662-9b77-ddd84710b1e0"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "37b61fa1-4299-4662-9b77-ddd84710b1e0"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 2100,
+                        "max": 2500
+                    },
+                    "2": {
+                        "min": 1000,
+                        "max": 1250
+                    },
+                    "3": {
+                        "min": 450,
+                        "max": 600
+                    },
+                    "4": {
+                        "min": 150,
+                        "max": 200
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "85afbcd5-6fa4-453e-8621-6398fabb68d9",
+                "name": "Admin Gateway",
+                "targets": [
+                    {
+                        "id": "165b6431-b41e-4f1f-9169-8f3616899ef2",
+                        "uri": "https://opendata.test-socrata.com/admin/gateway",
+                        "name": "https://opendata.test-socrata.com/admin/gateway",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "d5ca3615-9a54-4c77-a137-6ede1648a4b0",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "165b6431-b41e-4f1f-9169-8f3616899ef2"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 1,
+                "description": null,
+                "description_html": "<p>This target is reserved for certain researchers who have proven themselves to be responsible on this program (your account will not be able to access it). Socrata will notify Bugcrowd who will communicate to you if you qualify for this section of the engagement. Your account will then be able to access the endpoint accordingly.</p>\n\n<p>To gain access to the application, please sign up for an account using your @bugcrowdninja.com email address. For more info regarding @bugcrowdninja email addresses, see <a href=\"https://docs.bugcrowd.com/researchers/participating-in-program/your-bugcrowdninja-email-address/\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>. You may register for accounts <a href=\"https://opendata.test-socrata.com/signup\" rel=\"nofollow noreferrer\" target=\"_blank\">on the signup page</a>.</p>\n\n<p>More details can be found here: <a href=\"https://support.socrata.com/hc/en-us/articles/360033945833-Socrata-Gateway-for-Administrators\" rel=\"nofollow noreferrer\" target=\"_blank\">Socrata Gateway</a></p>",
+                "reward_range": {
+                    "1": {
+                        "min": 3100,
+                        "max": 3500
+                    },
+                    "2": {
+                        "min": 1500,
+                        "max": 1800
+                    },
+                    "3": {
+                        "min": 600,
+                        "max": 750
+                    },
+                    "4": {
+                        "min": 150,
+                        "max": 250
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
             }
         ]
     },
