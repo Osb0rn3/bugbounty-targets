@@ -1,5 +1,673 @@
 [
     {
+        "name": "Aiven Managed Bug Bounty",
+        "tagline": "Aiven is a trusted open source data platform for everyone. Please submit your findings to this Bug Bounty program.",
+        "briefUrl": "/aiven-mbb-og",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2f7a/aeda/2c3bd592/5f27709d4d0c543665a7d1fa0bb2bc9f_1656939875704.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $20,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/aiven-mbb-og/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5deabe3c-95c4-4519-abb2-7585e832d1b6",
+                "name": "Database services tier 1",
+                "description_html": "<p><strong>Aiven for Apache Cassandra managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/cassandra\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/cassandra</a> for details about the service.</p>\n\n<p>Aiven for Apache Cassandra\u00ae is a fully managed NoSQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Dragonfly managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/dragonfly\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/dragonfly</a> for details about the service.</p>\n\n<p>Aiven for Dragonfly is an in-memory database intended as an alternative to Redis.</p>\n\n<p><strong>Aiven for Apache Flink managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/flink\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/flink</a> for details about the service.</p>\n\n<p>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It is a perfect companion to Apache Kafka event streaming platform, to perform reliable and scalable real-time filtering, enriching, aggregating, alerting and analyzing of the events.</p>\n\n<p><strong>Aiven for Clickhouse managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/clickhouse\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/clickhouse</a> for details about the service.</p>\n\n<p>Aiven for ClickHouse is powered by ClickHouse, a highly scalable, open source database that uses a column-oriented structure. </p>\n\n<p>ClickHouse is designed for online analytical processing (OLAP) applications, and is an ideal tool for applications such as web analytics, or complex data reporting.</p>\n\n<p><strong>Aiven for Thanos Metrics managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/docs/products/metrics/concepts/metrics-overview\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/docs/products/metrics/concepts/metrics-overview</a> for details about the service.</p>\n\n<p>Aiven for Thanos Metrics is a managed service that provides a Prometheus service for storing and querying service metrics information.</p>\n\n<p><strong>Aiven for Valkey managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/valkey\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/valkey</a> for details about the service.</p>\n\n<p>Aiven for Valkey is an in-memory database using the open-source project <a href=\"https://valkey.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://valkey.io/</a>.  It is often used for queueing and caching, and is an alternative to Redis.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 12500.0,
+                        "max": 17500.0
+                    },
+                    "2": {
+                        "min": 4000.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 1250.0,
+                        "max": 3500.0
+                    },
+                    "4": {
+                        "min": 500.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/aiven-mbb-og/target_groups/a9f96314-414f-4fc9-9663-bc908d9e549b/targets",
+                "targets": [
+                    {
+                        "id": "bb4059be-3cdc-4a2d-92f2-44d479612d0e",
+                        "name": "Aiven for Apache Cassandra managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9af5639f-8ff1-4a7c-be7f-8e4872d12b3f",
+                                    "name": "Apache Cassandra"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8ecc8af6-3311-477e-9dfa-c872637498bf",
+                        "name": "Aiven for Dragonfly managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
+                                    "name": "Redis"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "797e0e42-68d5-4bc4-bac7-9fb9c1cade3a",
+                        "name": "Aiven for Apache Flink managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "020d8b6a-233b-4592-983a-9dfa3df1138a",
+                        "name": "Aiven for Clickhouse managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
+                                    "name": "Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "5e16b60f-8c15-446c-8f6c-cf53521a5207",
+                        "name": "Aiven for Thanos Metrics managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
+                                    "name": "Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2513bcaf-31f9-47d0-bf30-1b017fcc80bc",
+                        "name": "Aiven for Valkey managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
+                                    "name": "Redis"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "b08846ae-83cb-4b6e-b021-085308ad7cd7",
+                "name": "In Scope (Database services)",
+                "description_html": "<p>You may create instances of any of our public services to test against within your account.  You must create the account using your bugcrowdninja.com email address and should only interact with services in aivencloud.com that you created and control.</p>\n\n<p>The services can be launched via <a href=\"https://console.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://console.aiven.io/</a> or using our API at <a href=\"https://api.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/</a> (documentation at <a href=\"https://api.aiven.io/doc/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/doc/</a>).</p>\n\n<p>We provide a brief overview of our services here, but the most up to date information will be available at <a href=\"https://docs.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://docs.aiven.io/</a>.</p>\n\n<h2>Information about Billable Services</h2>\n\n<p>You may use a free tier account, or you may use trial credits; if you require additional trial credits, please reach out within the program with a description of your activity, and some can be added to your account.  <strong>Please do not use a credit card; expenses will not be reimbursed in case you are billed, and removing your card from our system will take some time</strong>.</p>\n\n<h2>Target Information:</h2>\n\n<p><strong>Aiven for Apache Kafka managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/kafka\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka</a> for details about the service. Also in scope are Aiven for Apache Kafka Connect <a href=\"https://aiven.io/kafka-connect\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka-connect</a> and Aiven for Apache Kafka MirrorMaker 2 <a href=\"https://aiven.io/mirrormaker\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mirrormaker</a></p>\n\n<p>Aiven for Apache Kafka\u00ae is a fully managed streaming platform, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for M3 managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/m3\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3</a> for details about the service. Also in scope: Aiven for M3 Aggregator: <a href=\"https://aiven.io/m3-aggregator\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3-aggregator</a></p>\n\n<p>Aiven for M3 is a fully managed distributable time series database, deployable in the cloud of your choice. Bring unlimited scalability and high-availability to your Prometheus monitoring environment and other time series applications.</p>\n\n<p><strong>Aiven for PostgreSQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/postgresql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/postgresql</a> for details about the service.</p>\n\n<p>Aiven for PostgreSQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for MySQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/mysql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mysql</a> for details about the service.</p>\n\n<p>Aiven for MySQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for OpenSearch managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/opensearch\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/opensearch</a> for details about the service.</p>\n\n<p>Aiven for OpenSearch is a fully managed search and analytics suite forked from Elasticsearch, and deployable in the cloud of your choice. </p>\n\n<p>Our maintenance-free solution helps you make the most of your data \u2013 and focus on building your business.</p>\n\n<p><strong>Aiven for Caching managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/caching\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/caching</a> for details about the service.</p>\n\n<p>Aiven for Caching is a fully managed in-memory NoSQL database compatible with Redis OSS, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Grafana managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/grafana\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/grafana</a> for details about the service.</p>\n\n<p>Aiven for Grafana is a fully managed analytics and monitoring solution, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 15000.0
+                    },
+                    "2": {
+                        "min": 3500.0,
+                        "max": 7500.0
+                    },
+                    "3": {
+                        "min": 1000.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 400.0,
+                        "max": 650.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/aiven-mbb-og/target_groups/90a4c008-c9dd-452c-9d76-dd9ad2cfe14f/targets",
+                "targets": [
+                    {
+                        "id": "73a72622-ad69-4fee-afc7-ae970fb0779a",
+                        "name": "Aiven for Apache Kafka managed and hosted service ",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "515aada9-3b1a-4e38-a3f2-a9abd77feb0b",
+                                    "name": "Apache Kafka"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "83c07733-004c-4d2e-b229-94dafbc6f50d",
+                        "name": "Aiven for M3 managed and hosted service ",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
+                                    "name": "Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "52e9137d-b12e-4625-a499-f95b3735fa89",
+                        "name": "Aiven for PostgreSQL managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
+                                    "name": "PostgreSQL"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a2555dfd-5924-4b85-8ac6-e9e2aaa3a004",
+                        "name": "Aiven for MySQL managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
+                                    "name": "MySQL"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "efaa449d-a48b-444d-b77d-d7e79233348a",
+                        "name": "Aiven for OpenSearch managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "30a3c3f4-5f27-4be7-9e4f-5fe8e80828f8",
+                                    "name": "Elasticsearch"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "58be8833-f8fa-4e42-a994-aa68a1e7c8f0",
+                        "name": "Aiven for Caching managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
+                                    "name": "Redis"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4e33c358-17f4-40f4-bf09-9c5fda27fa96",
+                        "name": "Aiven for Grafana managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "fa769269-1314-4e5f-8e60-e5e6c63e3383",
+                "name": "In Scope (Website console)",
+                "description_html": "<h2>Target Information:</h2>\n\n<p>Please be aware of the following two key points regarding <a href=\"https://console.aiven.io\" rel=\"nofollow noreferrer\" target=\"_blank\">console.aiven.io</a>, to avoid spending your time on an informational or unreproducible submission:</p>\n\n<ul>\n<li>API operations invoked by the console are authenticated using the aivenv1 token in the <code>Authorization:</code> header, not the browser cookies; if you copy the authorization header from a request made by a user, the operation will be performed as that user and this is not a bug.</li>\n<li>The primary purpose of the Aiven console is for our customers to administer their services with us.  Users can, and nearly all users do, grant credentials and access to services that they create to principals that may not even have a user in the Aiven console.</li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4100.0,
+                        "max": 4500.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1750.0
+                    },
+                    "3": {
+                        "min": 600.0,
+                        "max": 850.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 2,
+                "targets_url": "/aiven-mbb-og/target_groups/34bc9dd2-d563-4d85-8672-d8d90cc44410/targets",
+                "targets": [
+                    {
+                        "id": "45537662-31e0-4e9e-97f9-3b4549ae7a51",
+                        "name": "aiven.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://aiven.io/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "999475e8-0300-463a-a941-53b55b582611",
+                        "name": "console.aiven.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://console.aiven.io/login",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9bf145ea-1605-4297-82ac-458780581531",
+                        "name": "api.aiven.io",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.aiven.io/login",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx"
+                                },
+                                {
+                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
+                                    "name": "Python"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "809fb193-3021-4e5a-ab5c-b21d673b0c25",
+                "name": "Aiven Open Source Repositories",
+                "description_html": "<p>Vulnerabilities in Aiven open source code.</p>\n\n<p>If a repository is forked from another repository, and the vulnerability is also present in the repository it's forked from, it is not eligible for a bounty; we recommend submitting to upstream.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 1000.0,
+                        "max": 1500.0
+                    },
+                    "2": {
+                        "min": 500.0,
+                        "max": 1000.0
+                    },
+                    "3": {
+                        "min": 250.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 50.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 3,
+                "targets_url": "/aiven-mbb-og/target_groups/ec202a19-3f86-4d15-bc0e-c53b80517797/targets",
+                "targets": [
+                    {
+                        "id": "0ef78924-56f3-4e01-881e-5b6422822bc1",
+                        "name": "github.com/Aiven-Open",
+                        "description": null,
+                        "category": "other",
+                        "uri": "https://github.com/Aiven-Open",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9c251ab0-5406-4d0c-b64c-44a1b3c92372",
+                        "name": "github.com/Aiven",
+                        "description": null,
+                        "category": "other",
+                        "uri": "https://github.com/Aiven",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "95671446-7d5d-4eb9-a95d-0ec7e56467dc",
+                "name": "Capture the Flag Challenge",
+                "description_html": "<p>Include in your report the following items:</p>\n\n<ol>\n<li>The complete contents of <code>/etc/ssh/ssh_host_ed25519_key</code>, i.e. the server's SSH host private ed25519 key, current as at the time of exploitation</li>\n<li>The current external IP address of the host</li>\n<li>An explanation of how you got the key</li>\n</ol>\n\n<p>Please do not submit the server's public key or your own machine's SSH private key.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 20000.0,
+                        "max": 20000.0
+                    }
+                },
+                "sort_order": 4,
+                "targets_url": "/aiven-mbb-og/target_groups/c7ecf5b4-d243-4836-871d-c04d4a4c44b3/targets",
+                "targets": [
+                    {
+                        "id": "56d9745e-1779-4bac-a008-db083a81c5d9",
+                        "name": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
+                        "description": null,
+                        "category": "other",
+                        "uri": "http://falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "a1bbcc2b-cbed-4e77-b0db-59e0ca1801c9",
+                "name": "Out of Scope ",
+                "description_html": "<p>In general, services hosted for Aiven by third parties are out of scope.  Aiven's test environment is also out of scope.  This group provides a partial list of targets for which reports will not be accepted by our program.</p>\n\n<p>Most subdomains of Aiven that are not specifically marked in scope are hosted by a third party.  Please check who is hosting the service, if possible, before submitting your bug.</p>\n\n<p>Services created by customers are generally within the aivencloud.com domain.  If you did not create the service, and it is not specifically identified here as a challenge target, you may not perform testing against it.  We suggest creating a service within your own account to perform this testing.</p>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 5,
+                "targets_url": "/aiven-mbb-og/target_groups/e398d5a6-b6e1-4313-9986-ea1d46aae036/targets",
+                "targets": [
+                    {
+                        "id": "8f62bf20-9173-4196-9af0-a57f96a8e37c",
+                        "name": "aiven.io/contact",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://aiven.io/contact",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4f1a8e1c-f254-46ad-bc23-7e8dfd561066",
+                        "name": "aiven.io/community",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://aiven.io/community",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7e919f2e-53b5-4b9e-bdde-9b2096a52e2a",
+                        "name": "aquarium.aiven.io\t",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "87368e96-ca00-48f5-8638-baff23b1f073",
+                        "name": "uptime.aiven.io\t",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "5ecc68a1-152b-4457-95af-c95e3b67bada",
+                        "name": "video.aiven.io\t",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2cfe99a8-7323-4b1d-b0ec-93c9a1d676f2",
+                        "name": "*.aiven.fi",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8d100ef1-4e49-43b3-9cbf-b98ba9388223",
+                        "name": "*.avns.net",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a9127e92-1e85-4245-83d0-569418be598d",
+                        "name": "Customer services you did not create",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c32feb5f-e5e1-4466-bb62-aeaa7c40d07b",
+                        "name": "github.com/Aiven-Labs",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "583850a5-98d1-49a6-8351-a320e5ae350b",
+                        "name": "events.aiven.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://events.aiven.io",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Plusgrade Loyalty Public Program",
         "tagline": "Plusgrade powers the global travel industry with ancillary offerings and loyalty expertise to create incredible travel experiences and new revenue opportunities.",
         "briefUrl": "/plusgrade-mbb-public",
@@ -15787,674 +16455,6 @@
                             "tags": []
                         },
                         "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Aiven Managed Bug Bounty",
-        "tagline": "Aiven is a trusted open source data platform for everyone. Please submit your findings to this Bug Bounty program.",
-        "briefUrl": "/aiven-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2f7a/aeda/2c3bd592/5f27709d4d0c543665a7d1fa0bb2bc9f_1656939875704.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $20,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/aiven-mbb-og/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5deabe3c-95c4-4519-abb2-7585e832d1b6",
-                "name": "Database services tier 1",
-                "description_html": "<p><strong>Aiven for Apache Cassandra managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/cassandra\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/cassandra</a> for details about the service.</p>\n\n<p>Aiven for Apache Cassandra\u00ae is a fully managed NoSQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Dragonfly managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/dragonfly\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/dragonfly</a> for details about the service.</p>\n\n<p>Aiven for Dragonfly is an in-memory database intended as an alternative to Redis.</p>\n\n<p><strong>Aiven for Apache Flink managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/flink\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/flink</a> for details about the service.</p>\n\n<p>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It is a perfect companion to Apache Kafka event streaming platform, to perform reliable and scalable real-time filtering, enriching, aggregating, alerting and analyzing of the events.</p>\n\n<p><strong>Aiven for Clickhouse managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/clickhouse\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/clickhouse</a> for details about the service.</p>\n\n<p>Aiven for ClickHouse is powered by ClickHouse, a highly scalable, open source database that uses a column-oriented structure. </p>\n\n<p>ClickHouse is designed for online analytical processing (OLAP) applications, and is an ideal tool for applications such as web analytics, or complex data reporting.</p>\n\n<p><strong>Aiven for Thanos Metrics managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/docs/products/metrics/concepts/metrics-overview\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/docs/products/metrics/concepts/metrics-overview</a> for details about the service.</p>\n\n<p>Aiven for Thanos Metrics is a managed service that provides a Prometheus service for storing and querying service metrics information.</p>\n\n<p><strong>Aiven for Valkey managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/valkey\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/valkey</a> for details about the service.</p>\n\n<p>Aiven for Valkey is an in-memory database using the open-source project <a href=\"https://valkey.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://valkey.io/</a>.  It is often used for queueing and caching, and is an alternative to Redis.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 12500.0,
-                        "max": 17500.0
-                    },
-                    "2": {
-                        "min": 4000.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 1250.0,
-                        "max": 3500.0
-                    },
-                    "4": {
-                        "min": 500.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/aiven-mbb-og/target_groups/a9f96314-414f-4fc9-9663-bc908d9e549b/targets",
-                "targets": [
-                    {
-                        "id": "bb4059be-3cdc-4a2d-92f2-44d479612d0e",
-                        "name": "Aiven for Apache Cassandra managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9af5639f-8ff1-4a7c-be7f-8e4872d12b3f",
-                                    "name": "Apache Cassandra"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8ecc8af6-3311-477e-9dfa-c872637498bf",
-                        "name": "Aiven for Dragonfly managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
-                                    "name": "Redis"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "797e0e42-68d5-4bc4-bac7-9fb9c1cade3a",
-                        "name": "Aiven for Apache Flink managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "020d8b6a-233b-4592-983a-9dfa3df1138a",
-                        "name": "Aiven for Clickhouse managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
-                                    "name": "Cloud"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5e16b60f-8c15-446c-8f6c-cf53521a5207",
-                        "name": "Aiven for Thanos Metrics managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
-                                    "name": "Cloud"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2513bcaf-31f9-47d0-bf30-1b017fcc80bc",
-                        "name": "Aiven for Valkey managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
-                                    "name": "Redis"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "b08846ae-83cb-4b6e-b021-085308ad7cd7",
-                "name": "In Scope (Database services)",
-                "description_html": "<p>You may create instances of any of our public services to test against within your account.  You must create the account using your bugcrowdninja.com email address and should only interact with services in aivencloud.com that you created and control.</p>\n\n<p>The services can be launched via <a href=\"https://console.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://console.aiven.io/</a> or using our API at <a href=\"https://api.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/</a> (documentation at <a href=\"https://api.aiven.io/doc/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/doc/</a>).</p>\n\n<p>We provide a brief overview of our services here, but the most up to date information will be available at <a href=\"https://docs.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://docs.aiven.io/</a>.</p>\n\n<h2>Information about Billable Services</h2>\n\n<p>You may use a free tier account, or you may use trial credits; if you require additional trial credits, please reach out within the program with a description of your activity, and some can be added to your account.  <strong>Please do not use a credit card; expenses will not be reimbursed in case you are billed, and removing your card from our system will take some time</strong>.</p>\n\n<h2>Target Information:</h2>\n\n<p><strong>Aiven for Apache Kafka managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/kafka\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka</a> for details about the service. Also in scope are Aiven for Apache Kafka Connect <a href=\"https://aiven.io/kafka-connect\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka-connect</a> and Aiven for Apache Kafka MirrorMaker 2 <a href=\"https://aiven.io/mirrormaker\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mirrormaker</a></p>\n\n<p>Aiven for Apache Kafka\u00ae is a fully managed streaming platform, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for M3 managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/m3\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3</a> for details about the service. Also in scope: Aiven for M3 Aggregator: <a href=\"https://aiven.io/m3-aggregator\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3-aggregator</a></p>\n\n<p>Aiven for M3 is a fully managed distributable time series database, deployable in the cloud of your choice. Bring unlimited scalability and high-availability to your Prometheus monitoring environment and other time series applications.</p>\n\n<p><strong>Aiven for PostgreSQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/postgresql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/postgresql</a> for details about the service.</p>\n\n<p>Aiven for PostgreSQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for MySQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/mysql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mysql</a> for details about the service.</p>\n\n<p>Aiven for MySQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for OpenSearch managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/opensearch\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/opensearch</a> for details about the service.</p>\n\n<p>Aiven for OpenSearch is a fully managed search and analytics suite forked from Elasticsearch, and deployable in the cloud of your choice. </p>\n\n<p>Our maintenance-free solution helps you make the most of your data \u2013 and focus on building your business.</p>\n\n<p><strong>Aiven for Caching managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/caching\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/caching</a> for details about the service.</p>\n\n<p>Aiven for Caching is a fully managed in-memory NoSQL database compatible with Redis OSS, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Grafana managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/grafana\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/grafana</a> for details about the service.</p>\n\n<p>Aiven for Grafana is a fully managed analytics and monitoring solution, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 15000.0
-                    },
-                    "2": {
-                        "min": 3500.0,
-                        "max": 7500.0
-                    },
-                    "3": {
-                        "min": 1000.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 400.0,
-                        "max": 650.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/aiven-mbb-og/target_groups/90a4c008-c9dd-452c-9d76-dd9ad2cfe14f/targets",
-                "targets": [
-                    {
-                        "id": "73a72622-ad69-4fee-afc7-ae970fb0779a",
-                        "name": "Aiven for Apache Kafka managed and hosted service ",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "515aada9-3b1a-4e38-a3f2-a9abd77feb0b",
-                                    "name": "Apache Kafka"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "83c07733-004c-4d2e-b229-94dafbc6f50d",
-                        "name": "Aiven for M3 managed and hosted service ",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
-                                    "name": "Cloud"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "52e9137d-b12e-4625-a499-f95b3735fa89",
-                        "name": "Aiven for PostgreSQL managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a2555dfd-5924-4b85-8ac6-e9e2aaa3a004",
-                        "name": "Aiven for MySQL managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
-                                    "name": "MySQL"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "efaa449d-a48b-444d-b77d-d7e79233348a",
-                        "name": "Aiven for OpenSearch managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "30a3c3f4-5f27-4be7-9e4f-5fe8e80828f8",
-                                    "name": "Elasticsearch"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "58be8833-f8fa-4e42-a994-aa68a1e7c8f0",
-                        "name": "Aiven for Caching managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
-                                    "name": "Redis"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4e33c358-17f4-40f4-bf09-9c5fda27fa96",
-                        "name": "Aiven for Grafana managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "fa769269-1314-4e5f-8e60-e5e6c63e3383",
-                "name": "In Scope (Website console)",
-                "description_html": "<h2>Target Information:</h2>\n\n<p>Please be aware of the following two key points regarding <a href=\"https://console.aiven.io\" rel=\"nofollow noreferrer\" target=\"_blank\">console.aiven.io</a>, to avoid spending your time on an informational or unreproducible submission:</p>\n\n<ul>\n<li>API operations invoked by the console are authenticated using the aivenv1 token in the <code>Authorization:</code> header, not the browser cookies; if you copy the authorization header from a request made by a user, the operation will be performed as that user and this is not a bug.</li>\n<li>The primary purpose of the Aiven console is for our customers to administer their services with us.  Users can, and nearly all users do, grant credentials and access to services that they create to principals that may not even have a user in the Aiven console.</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4100.0,
-                        "max": 4500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1750.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/aiven-mbb-og/target_groups/34bc9dd2-d563-4d85-8672-d8d90cc44410/targets",
-                "targets": [
-                    {
-                        "id": "45537662-31e0-4e9e-97f9-3b4549ae7a51",
-                        "name": "aiven.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://aiven.io/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "999475e8-0300-463a-a941-53b55b582611",
-                        "name": "console.aiven.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://console.aiven.io/login",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9bf145ea-1605-4297-82ac-458780581531",
-                        "name": "api.aiven.io",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.aiven.io/login",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "809fb193-3021-4e5a-ab5c-b21d673b0c25",
-                "name": "Aiven Open Source Repositories",
-                "description_html": "<p>Vulnerabilities in Aiven open source code.</p>\n\n<p>If a repository is forked from another repository, and the vulnerability is also present in the repository it's forked from, it is not eligible for a bounty; we recommend submitting to upstream.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1000.0,
-                        "max": 1500.0
-                    },
-                    "2": {
-                        "min": 500.0,
-                        "max": 1000.0
-                    },
-                    "3": {
-                        "min": 250.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 3,
-                "targets_url": "/aiven-mbb-og/target_groups/ec202a19-3f86-4d15-bc0e-c53b80517797/targets",
-                "targets": [
-                    {
-                        "id": "0ef78924-56f3-4e01-881e-5b6422822bc1",
-                        "name": "github.com/Aiven-Open",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://github.com/Aiven-Open",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9c251ab0-5406-4d0c-b64c-44a1b3c92372",
-                        "name": "github.com/Aiven",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://github.com/Aiven",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "95671446-7d5d-4eb9-a95d-0ec7e56467dc",
-                "name": "Capture the Flag Challenge",
-                "description_html": "<p>Include in your report the following items:</p>\n\n<ol>\n<li>The complete contents of <code>/etc/ssh/ssh_host_ed25519_key</code>, i.e. the server's SSH host private ed25519 key, current as at the time of exploitation</li>\n<li>The current external IP address of the host</li>\n<li>An explanation of how you got the key</li>\n</ol>\n\n<p>Please do not submit the server's public key or your own machine's SSH private key.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 20000.0,
-                        "max": 20000.0
-                    }
-                },
-                "sort_order": 4,
-                "targets_url": "/aiven-mbb-og/target_groups/c7ecf5b4-d243-4836-871d-c04d4a4c44b3/targets",
-                "targets": [
-                    {
-                        "id": "56d9745e-1779-4bac-a008-db083a81c5d9",
-                        "name": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "http://falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "a1bbcc2b-cbed-4e77-b0db-59e0ca1801c9",
-                "name": "Out of Scope ",
-                "description_html": "<p>In general, services hosted for Aiven by third parties are out of scope.  Aiven's test environment is also out of scope.  This group provides a partial list of targets for which reports will not be accepted by our program.</p>\n\n<p>Most subdomains of Aiven that are not specifically marked in scope are hosted by a third party.  Please check who is hosting the service, if possible, before submitting your bug.</p>\n\n<p>Services created by customers are generally within the aivencloud.com domain.  If you did not create the service, and it is not specifically identified here as a challenge target, you may not perform testing against it.  We suggest creating a service within your own account to perform this testing.</p>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 5,
-                "targets_url": "/aiven-mbb-og/target_groups/e398d5a6-b6e1-4313-9986-ea1d46aae036/targets",
-                "targets": [
-                    {
-                        "id": "8f62bf20-9173-4196-9af0-a57f96a8e37c",
-                        "name": "aiven.io/contact",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://aiven.io/contact",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4f1a8e1c-f254-46ad-bc23-7e8dfd561066",
-                        "name": "aiven.io/community",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://aiven.io/community",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7e919f2e-53b5-4b9e-bdde-9b2096a52e2a",
-                        "name": "aquarium.aiven.io\t",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "87368e96-ca00-48f5-8638-baff23b1f073",
-                        "name": "uptime.aiven.io\t",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5ecc68a1-152b-4457-95af-c95e3b67bada",
-                        "name": "video.aiven.io\t",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2cfe99a8-7323-4b1d-b0ec-93c9a1d676f2",
-                        "name": "*.aiven.fi",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8d100ef1-4e49-43b3-9cbf-b98ba9388223",
-                        "name": "*.avns.net",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a9127e92-1e85-4245-83d0-569418be598d",
-                        "name": "Customer services you did not create",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c32feb5f-e5e1-4466-bb62-aeaa7c40d07b",
-                        "name": "github.com/Aiven-Labs",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "583850a5-98d1-49a6-8351-a320e5ae350b",
-                        "name": "events.aiven.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://events.aiven.io",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -63738,649 +63738,6 @@
         ]
     },
     {
-        "name": "Rarible",
-        "tagline": "Help us secure the future!",
-        "briefUrl": "/engagements/rarible-ogmbb",
-        "backgroundColor": "#FFFFFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/e85a/04bb/04ee0669/0c22d3478e0e659fd2c8356a98dc00f5_1583001724997.png",
-        "rewardSummary": {
-            "summary": "$25 - $5,000",
-            "hint": "Up to $10,000",
-            "minReward": "$25",
-            "maxReward": "$5,000",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/rarible-ogmbb/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "962a5c48-c2bf-4e30-9c01-bad609d879ab",
-                "name": "In Scope",
-                "targets": [
-                    {
-                        "id": "816aa13e-b559-47e7-bd6b-600c57e9b60c",
-                        "uri": "",
-                        "name": "data.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "6f1c4790-cebf-4ff9-a52e-d17d06dd61a4",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "816aa13e-b559-47e7-bd6b-600c57e9b60c"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "816aa13e-b559-47e7-bd6b-600c57e9b60c"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "816aa13e-b559-47e7-bd6b-600c57e9b60c"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "816aa13e-b559-47e7-bd6b-600c57e9b60c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a46c4565-5c1a-4914-a801-78b804061f2c",
-                        "uri": "https://api.rarible.com/v0.1/doc",
-                        "name": "api.rarible.com",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "a7087227-da6a-487d-8cec-56ebc4a599e3",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "a46c4565-5c1a-4914-a801-78b804061f2c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "2e3bcd81-73fd-40e0-ac06-fc839c4a283d",
-                        "uri": "",
-                        "name": "admin.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "26aefa67-5fd9-4fdc-b282-20a480c82ed1",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "2e3bcd81-73fd-40e0-ac06-fc839c4a283d"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "2e3bcd81-73fd-40e0-ac06-fc839c4a283d"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "2e3bcd81-73fd-40e0-ac06-fc839c4a283d"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "2e3bcd81-73fd-40e0-ac06-fc839c4a283d"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "ee73e0c8-2f20-4b1a-bb7a-bf63960d9c9b",
-                        "uri": "",
-                        "name": "test.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "def34b53-ffcf-413b-9b53-e84c60fa4c99",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "ee73e0c8-2f20-4b1a-bb7a-bf63960d9c9b"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ee73e0c8-2f20-4b1a-bb7a-bf63960d9c9b"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "ee73e0c8-2f20-4b1a-bb7a-bf63960d9c9b"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "ee73e0c8-2f20-4b1a-bb7a-bf63960d9c9b"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "cb0c9892-b553-4e37-9426-4f9133784182",
-                        "uri": "",
-                        "name": "temp.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "d86f1534-8c6d-47a8-8382-e45dac8c3b7b",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "cb0c9892-b553-4e37-9426-4f9133784182"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "cb0c9892-b553-4e37-9426-4f9133784182"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "cb0c9892-b553-4e37-9426-4f9133784182"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "cb0c9892-b553-4e37-9426-4f9133784182"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "3e7e101f-4b23-498e-bd07-deaf2e420b91",
-                        "uri": "",
-                        "name": "static.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "b5d2542f-cc95-4c35-9c7b-7d4659572756",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "3e7e101f-4b23-498e-bd07-deaf2e420b91"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "3e7e101f-4b23-498e-bd07-deaf2e420b91"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "3e7e101f-4b23-498e-bd07-deaf2e420b91"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "3e7e101f-4b23-498e-bd07-deaf2e420b91"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "35dbf981-e25f-4718-8cc5-baa3ab4dd580",
-                        "uri": "",
-                        "name": "logging.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "a286f228-7825-4b88-b750-4bf2c050b019",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "35dbf981-e25f-4718-8cc5-baa3ab4dd580"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "35dbf981-e25f-4718-8cc5-baa3ab4dd580"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "35dbf981-e25f-4718-8cc5-baa3ab4dd580"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "35dbf981-e25f-4718-8cc5-baa3ab4dd580"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "cec4eb9f-ed85-4ced-8e19-c2d00d82c987",
-                        "uri": "",
-                        "name": "log.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "26bf58b3-38fb-4907-a418-64e09afc221e",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "cec4eb9f-ed85-4ced-8e19-c2d00d82c987"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "cec4eb9f-ed85-4ced-8e19-c2d00d82c987"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "cec4eb9f-ed85-4ced-8e19-c2d00d82c987"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "cec4eb9f-ed85-4ced-8e19-c2d00d82c987"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "6874fd76-9525-4c56-a83f-5ba73f284df6",
-                        "uri": "",
-                        "name": "links.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "6d160dab-2117-47ba-8dfd-6e02b8c417b5",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "6874fd76-9525-4c56-a83f-5ba73f284df6"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "6874fd76-9525-4c56-a83f-5ba73f284df6"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "6874fd76-9525-4c56-a83f-5ba73f284df6"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "6874fd76-9525-4c56-a83f-5ba73f284df6"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "1329fb09-b39b-4b6c-a3ba-84f7b4bd4f51",
-                        "uri": "",
-                        "name": "fs.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "cb873b6c-7394-47a1-89e0-b2ea0b416e53",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "1329fb09-b39b-4b6c-a3ba-84f7b4bd4f51"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "1329fb09-b39b-4b6c-a3ba-84f7b4bd4f51"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "1329fb09-b39b-4b6c-a3ba-84f7b4bd4f51"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "1329fb09-b39b-4b6c-a3ba-84f7b4bd4f51"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "824a2e0f-d692-45e5-b6b1-7a7554932174",
-                        "uri": "",
-                        "name": "beta.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "fbb91929-3e2c-439f-b235-09902168f446",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "824a2e0f-d692-45e5-b6b1-7a7554932174"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "824a2e0f-d692-45e5-b6b1-7a7554932174"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "824a2e0f-d692-45e5-b6b1-7a7554932174"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "824a2e0f-d692-45e5-b6b1-7a7554932174"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17",
-                        "uri": "https://rarible.com/",
-                        "name": "rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "b14adb56-863a-407c-a7e0-6b8af299608d",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN",
-                                    "targetId": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "6dce21ff-f5b5-4943-8f34-9f836d2c2a80",
-                        "uri": "",
-                        "name": "rari.foundation",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "adaabc2d-aac3-45d4-b641-9fbbfe901ac9",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN",
-                                    "targetId": "6dce21ff-f5b5-4943-8f34-9f836d2c2a80"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "6dce21ff-f5b5-4943-8f34-9f836d2c2a80"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "6dce21ff-f5b5-4943-8f34-9f836d2c2a80"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin",
-                                    "targetId": "6dce21ff-f5b5-4943-8f34-9f836d2c2a80"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "ed99ac93-4551-41b2-a2a2-41e0ba1b9efd",
-                        "uri": "https://mintle.x.rarible.com/",
-                        "name": "mintle.x.rarible.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "96d30d27-18e5-45c7-a287-40f5931ea7d3",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "ed99ac93-4551-41b2-a2a2-41e0ba1b9efd"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "ed99ac93-4551-41b2-a2a2-41e0ba1b9efd"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": "<p><strong>Rarible API&#39;s:</strong></p>\n\n<ul>\n<li>Marketplace API <a href=\"https://rarible.com/marketplace/api/v4/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://rarible.com/marketplace/api/v4/</a></li>\n<li>Protocol API <a href=\"https://api.rarible.com/v0.1/doc\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.rarible.com/v0.1/doc</a></li>\n<li>Foundation API <a href=\"https://rari.foundation/api/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://rari.foundation/api/</a></li>\n</ul>\n\n<p><strong>API Documentation:</strong></p>\n\n<ul>\n<li><a href=\"https://bugcrowd.com/rarible-ogmbb/attachments/6631000b-07bd-493a-8d21-e36468f16fec\" rel=\"nofollow noreferrer\" target=\"_blank\">marketplace-backend.yml</a></li>\n<li><a href=\"https://bugcrowd.com/rarible-ogmbb/attachments/136b7b1a-34f9-45b2-942f-6d3e43b438ed\" rel=\"nofollow noreferrer\" target=\"_blank\">marketplace-auth.yml</a></li>\n<li><a href=\"https://bugcrowd.com/rarible-ogmbb/attachments/946f6f27-9e90-4a4f-bb91-d1b9454a42c3\" rel=\"nofollow noreferrer\" target=\"_blank\">marketplace-search.yml</a></li>\n<li><a href=\"https://bugcrowd.com/rarible-ogmbb/attachments/b43ad844-1b9d-4aec-8778-f3bea68b55b3\" rel=\"nofollow noreferrer\" target=\"_blank\">marketplace-webvitals-exporter.yml</a></li>\n</ul>\n\n<hr>\n\n<p>Rarible DAO <a href=\"https://rari.foundation/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://rari.foundation/</a></p>\n\n<p>Additional information on this target can be found  <a href=\"https://forum.rari.foundation/t/rrc-0-introducing-the-rari-foundation-and-fully-on-chain-governance-for-rari-dao-process/554\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>.</p>\n\n<hr>\n\n<p>Rarible Smart Contracts is a combination of smart-contracts for exchanging tokens, tokens themselves, APIs for order creation, discovery, standards used in smart contracts.</p>\n\n<p>Consists of:</p>\n\n<ul>\n<li>Exchange v2: responsible for sales, auctions etc.</li>\n<li>Tokens: for storing information about NFTs</li>\n<li>Specifications for on-chain royalties supported by Rarible</li>\n</ul>\n\n<p>Smart Contracts have deployed instances across Mainnet, Testnet and Development. Contract address information can be found <a href=\"https://docs.rarible.org/reference/contract-addresses/\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a></p>\n\n<p>Additional information on Smart Contracts can be found <a href=\"https://github.com/rarible/protocol-contracts/\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a> and <a href=\"https://github.com/rarible/governance-contracts\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>.</p>\n\n<hr>",
-                "reward_range": {
-                    "1": {
-                        "min": 3000,
-                        "max": 5000
-                    },
-                    "2": {
-                        "min": 1000,
-                        "max": 2500
-                    },
-                    "3": {
-                        "min": 200,
-                        "max": 750
-                    },
-                    "4": {
-                        "min": 25,
-                        "max": 50
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    },
-                    "programMax": 10000
-                }
-            },
-            {
-                "id": "45b12b09-ae9a-4ac1-83ab-9ad3115191ab",
-                "name": "Out of Scope ",
-                "targets": [
-                    {
-                        "id": "74c3cf4b-2220-497a-a02d-2b71810fc22c",
-                        "uri": "",
-                        "name": "docs.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "63d37574-00be-4587-a790-2f69ac770919",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "0ab7c218-009e-42fe-b27a-b27f73fe1f37",
-                        "uri": "",
-                        "name": "feedback.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "a1686476-1af4-4a7c-b4bd-a6fefe415734",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "1f03880b-22e6-487e-a792-c4e91f1c2298",
-                        "uri": "",
-                        "name": "guide.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "305c151e-5589-4bf5-a62f-f278c2c9eb19",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "b955424f-0e0c-45d4-ba6d-895af87a3998",
-                        "uri": "",
-                        "name": "img.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "6f1b9598-d98b-464a-b43a-b55ff2c5703c",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "4bda4ed7-0951-4a5c-be4b-99a41da26c19",
-                        "uri": "",
-                        "name": "vote.rarible.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "fe8f08de-4045-40fc-86e2-ff9efb07555b",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    }
-                ],
-                "in_scope": false,
-                "sort_order": 1,
-                "description": null,
-                "description_html": null,
-                "reward_range": {}
-            }
-        ]
-    },
-    {
         "name": "ClassDojo",
         "tagline": "ClassDojo is on a mission to help every teacher create an incredible classroom",
         "briefUrl": "/engagements/classdojo",
@@ -66132,6 +65489,649 @@
                         "known_issues": {}
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Rarible",
+        "tagline": "Help us secure the future!",
+        "briefUrl": "/engagements/rarible-ogmbb",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/e85a/04bb/04ee0669/0c22d3478e0e659fd2c8356a98dc00f5_1583001724997.png",
+        "rewardSummary": {
+            "summary": "$25 - $5,000",
+            "hint": "Up to $10,000",
+            "minReward": "$25",
+            "maxReward": "$5,000",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/rarible-ogmbb/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "962a5c48-c2bf-4e30-9c01-bad609d879ab",
+                "name": "In Scope",
+                "targets": [
+                    {
+                        "id": "816aa13e-b559-47e7-bd6b-600c57e9b60c",
+                        "uri": "",
+                        "name": "data.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6f1c4790-cebf-4ff9-a52e-d17d06dd61a4",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "816aa13e-b559-47e7-bd6b-600c57e9b60c"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "816aa13e-b559-47e7-bd6b-600c57e9b60c"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "816aa13e-b559-47e7-bd6b-600c57e9b60c"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "816aa13e-b559-47e7-bd6b-600c57e9b60c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a46c4565-5c1a-4914-a801-78b804061f2c",
+                        "uri": "https://api.rarible.com/v0.1/doc",
+                        "name": "api.rarible.com",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a7087227-da6a-487d-8cec-56ebc4a599e3",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "a46c4565-5c1a-4914-a801-78b804061f2c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "2e3bcd81-73fd-40e0-ac06-fc839c4a283d",
+                        "uri": "",
+                        "name": "admin.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "26aefa67-5fd9-4fdc-b282-20a480c82ed1",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "2e3bcd81-73fd-40e0-ac06-fc839c4a283d"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "2e3bcd81-73fd-40e0-ac06-fc839c4a283d"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "2e3bcd81-73fd-40e0-ac06-fc839c4a283d"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "2e3bcd81-73fd-40e0-ac06-fc839c4a283d"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ee73e0c8-2f20-4b1a-bb7a-bf63960d9c9b",
+                        "uri": "",
+                        "name": "test.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "def34b53-ffcf-413b-9b53-e84c60fa4c99",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "ee73e0c8-2f20-4b1a-bb7a-bf63960d9c9b"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ee73e0c8-2f20-4b1a-bb7a-bf63960d9c9b"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "ee73e0c8-2f20-4b1a-bb7a-bf63960d9c9b"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "ee73e0c8-2f20-4b1a-bb7a-bf63960d9c9b"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "cb0c9892-b553-4e37-9426-4f9133784182",
+                        "uri": "",
+                        "name": "temp.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "d86f1534-8c6d-47a8-8382-e45dac8c3b7b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "cb0c9892-b553-4e37-9426-4f9133784182"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "cb0c9892-b553-4e37-9426-4f9133784182"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "cb0c9892-b553-4e37-9426-4f9133784182"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "cb0c9892-b553-4e37-9426-4f9133784182"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "3e7e101f-4b23-498e-bd07-deaf2e420b91",
+                        "uri": "",
+                        "name": "static.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b5d2542f-cc95-4c35-9c7b-7d4659572756",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "3e7e101f-4b23-498e-bd07-deaf2e420b91"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "3e7e101f-4b23-498e-bd07-deaf2e420b91"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "3e7e101f-4b23-498e-bd07-deaf2e420b91"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "3e7e101f-4b23-498e-bd07-deaf2e420b91"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "35dbf981-e25f-4718-8cc5-baa3ab4dd580",
+                        "uri": "",
+                        "name": "logging.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a286f228-7825-4b88-b750-4bf2c050b019",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "35dbf981-e25f-4718-8cc5-baa3ab4dd580"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "35dbf981-e25f-4718-8cc5-baa3ab4dd580"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "35dbf981-e25f-4718-8cc5-baa3ab4dd580"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "35dbf981-e25f-4718-8cc5-baa3ab4dd580"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "cec4eb9f-ed85-4ced-8e19-c2d00d82c987",
+                        "uri": "",
+                        "name": "log.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "26bf58b3-38fb-4907-a418-64e09afc221e",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "cec4eb9f-ed85-4ced-8e19-c2d00d82c987"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "cec4eb9f-ed85-4ced-8e19-c2d00d82c987"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "cec4eb9f-ed85-4ced-8e19-c2d00d82c987"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "cec4eb9f-ed85-4ced-8e19-c2d00d82c987"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "6874fd76-9525-4c56-a83f-5ba73f284df6",
+                        "uri": "",
+                        "name": "links.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6d160dab-2117-47ba-8dfd-6e02b8c417b5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "6874fd76-9525-4c56-a83f-5ba73f284df6"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "6874fd76-9525-4c56-a83f-5ba73f284df6"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "6874fd76-9525-4c56-a83f-5ba73f284df6"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "6874fd76-9525-4c56-a83f-5ba73f284df6"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "1329fb09-b39b-4b6c-a3ba-84f7b4bd4f51",
+                        "uri": "",
+                        "name": "fs.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "cb873b6c-7394-47a1-89e0-b2ea0b416e53",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "1329fb09-b39b-4b6c-a3ba-84f7b4bd4f51"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "1329fb09-b39b-4b6c-a3ba-84f7b4bd4f51"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "1329fb09-b39b-4b6c-a3ba-84f7b4bd4f51"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "1329fb09-b39b-4b6c-a3ba-84f7b4bd4f51"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "824a2e0f-d692-45e5-b6b1-7a7554932174",
+                        "uri": "",
+                        "name": "beta.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "fbb91929-3e2c-439f-b235-09902168f446",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "824a2e0f-d692-45e5-b6b1-7a7554932174"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "824a2e0f-d692-45e5-b6b1-7a7554932174"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "824a2e0f-d692-45e5-b6b1-7a7554932174"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "824a2e0f-d692-45e5-b6b1-7a7554932174"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17",
+                        "uri": "https://rarible.com/",
+                        "name": "rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b14adb56-863a-407c-a7e0-6b8af299608d",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN",
+                                    "targetId": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "e4eb0c6d-af9c-4a4f-a046-2adabb6dec17"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "6dce21ff-f5b5-4943-8f34-9f836d2c2a80",
+                        "uri": "",
+                        "name": "rari.foundation",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "adaabc2d-aac3-45d4-b641-9fbbfe901ac9",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN",
+                                    "targetId": "6dce21ff-f5b5-4943-8f34-9f836d2c2a80"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "6dce21ff-f5b5-4943-8f34-9f836d2c2a80"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "6dce21ff-f5b5-4943-8f34-9f836d2c2a80"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "6dce21ff-f5b5-4943-8f34-9f836d2c2a80"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ed99ac93-4551-41b2-a2a2-41e0ba1b9efd",
+                        "uri": "https://mintle.x.rarible.com/",
+                        "name": "mintle.x.rarible.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "96d30d27-18e5-45c7-a287-40f5931ea7d3",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "ed99ac93-4551-41b2-a2a2-41e0ba1b9efd"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "ed99ac93-4551-41b2-a2a2-41e0ba1b9efd"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<p><strong>Rarible API&#39;s:</strong></p>\n\n<ul>\n<li>Marketplace API <a href=\"https://rarible.com/marketplace/api/v4/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://rarible.com/marketplace/api/v4/</a></li>\n<li>Protocol API <a href=\"https://api.rarible.com/v0.1/doc\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.rarible.com/v0.1/doc</a></li>\n<li>Foundation API <a href=\"https://rari.foundation/api/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://rari.foundation/api/</a></li>\n</ul>\n\n<p><strong>API Documentation:</strong></p>\n\n<ul>\n<li><a href=\"https://bugcrowd.com/rarible-ogmbb/attachments/6631000b-07bd-493a-8d21-e36468f16fec\" rel=\"nofollow noreferrer\" target=\"_blank\">marketplace-backend.yml</a></li>\n<li><a href=\"https://bugcrowd.com/rarible-ogmbb/attachments/136b7b1a-34f9-45b2-942f-6d3e43b438ed\" rel=\"nofollow noreferrer\" target=\"_blank\">marketplace-auth.yml</a></li>\n<li><a href=\"https://bugcrowd.com/rarible-ogmbb/attachments/946f6f27-9e90-4a4f-bb91-d1b9454a42c3\" rel=\"nofollow noreferrer\" target=\"_blank\">marketplace-search.yml</a></li>\n<li><a href=\"https://bugcrowd.com/rarible-ogmbb/attachments/b43ad844-1b9d-4aec-8778-f3bea68b55b3\" rel=\"nofollow noreferrer\" target=\"_blank\">marketplace-webvitals-exporter.yml</a></li>\n</ul>\n\n<hr>\n\n<p>Rarible DAO <a href=\"https://rari.foundation/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://rari.foundation/</a></p>\n\n<p>Additional information on this target can be found  <a href=\"https://forum.rari.foundation/t/rrc-0-introducing-the-rari-foundation-and-fully-on-chain-governance-for-rari-dao-process/554\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>.</p>\n\n<hr>\n\n<p>Rarible Smart Contracts is a combination of smart-contracts for exchanging tokens, tokens themselves, APIs for order creation, discovery, standards used in smart contracts.</p>\n\n<p>Consists of:</p>\n\n<ul>\n<li>Exchange v2: responsible for sales, auctions etc.</li>\n<li>Tokens: for storing information about NFTs</li>\n<li>Specifications for on-chain royalties supported by Rarible</li>\n</ul>\n\n<p>Smart Contracts have deployed instances across Mainnet, Testnet and Development. Contract address information can be found <a href=\"https://docs.rarible.org/reference/contract-addresses/\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a></p>\n\n<p>Additional information on Smart Contracts can be found <a href=\"https://github.com/rarible/protocol-contracts/\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a> and <a href=\"https://github.com/rarible/governance-contracts\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>.</p>\n\n<hr>",
+                "reward_range": {
+                    "1": {
+                        "min": 3000,
+                        "max": 5000
+                    },
+                    "2": {
+                        "min": 1000,
+                        "max": 2500
+                    },
+                    "3": {
+                        "min": 200,
+                        "max": 750
+                    },
+                    "4": {
+                        "min": 25,
+                        "max": 50
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    },
+                    "programMax": 10000
+                }
+            },
+            {
+                "id": "45b12b09-ae9a-4ac1-83ab-9ad3115191ab",
+                "name": "Out of Scope ",
+                "targets": [
+                    {
+                        "id": "74c3cf4b-2220-497a-a02d-2b71810fc22c",
+                        "uri": "",
+                        "name": "docs.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "63d37574-00be-4587-a790-2f69ac770919",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "0ab7c218-009e-42fe-b27a-b27f73fe1f37",
+                        "uri": "",
+                        "name": "feedback.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a1686476-1af4-4a7c-b4bd-a6fefe415734",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "1f03880b-22e6-487e-a792-c4e91f1c2298",
+                        "uri": "",
+                        "name": "guide.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "305c151e-5589-4bf5-a62f-f278c2c9eb19",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "b955424f-0e0c-45d4-ba6d-895af87a3998",
+                        "uri": "",
+                        "name": "img.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6f1b9598-d98b-464a-b43a-b55ff2c5703c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "4bda4ed7-0951-4a5c-be4b-99a41da26c19",
+                        "uri": "",
+                        "name": "vote.rarible.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "fe8f08de-4045-40fc-86e2-ff9efb07555b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 1,
+                "description": null,
+                "description_html": null,
+                "reward_range": {}
             }
         ]
     },
