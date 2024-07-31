@@ -25388,635 +25388,6 @@
         ]
     },
     {
-        "name": "Sophos",
-        "tagline": "Responsible disclosure with rewards up to US$50.000",
-        "briefUrl": "/sophos",
-        "backgroundColor": "#0068b1",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/99ee/d126/b7eb6a5e/3a483054f9f57b3410a4c2fa82d699a0_sophos_ss.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $50,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$50,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/sophos/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "82cc76a6-accc-4d71-a6f2-500b8ba1e994",
-                "name": "Windows Intercept X Premium Target",
-                "description_html": "<p>Sophos Endpoint Protection is a multi-component system where some parts run at the highest possible privilege. One of the design goals is to protect users of the endpoint from threats on the network, therefore remote compromise of Endpoint Protection components is of particular concern to Sophos.</p>\n\n<h4>Attacks meeting <em>ALL</em> of the following conditions are eligible for consideration of a maximum bounty of $50,000:</h4>\n\n<p>\u2022 triggering execution of attacker-controlled code<br>\n\u2022 in a high privilege context (Administrator or higher for Windows)<br>\n\u2022 doing so remotely<br>\n\u2022 doing so via Endpoint Protection components<br>\n\u2022 no user interaction is necessary</p>\n\n<p>Clear instructions for how to reproduce the finding are required.</p>\n\n<p>Some examples of in and out of scope scenarios follow. These are intended to illustrate the above definition, not to limit it. Attacks that meet the definition will be in scope.</p>\n\n<p>Examples:</p>\n\n<p>In-scope examples (all must lead to the attacker able to act as Admin, with no user interaction):<br>\n\u2022 Direct exploitation via an exposed port associated with an Endpoint Protection component.<br>\n\u2022 Target machine receives an email from attacker triggering RCE due to Endpoint Protection processing / parsing.<br>\n\u2022 A browser on the endpoint visits a webpage leading to code execution due to Endpoint Protection interactions with the browser or associated network traffic.</p>\n\n<p>Out-of-scope examples:</p>\n\n<ul>\n<li>Code execution after connecting via an authorized remote route, e.g. RDP. This is not considered a remote exploit since the RDP \nconnection gives the attacker a presence local to the target.</li>\n<li>Any attack where a user needs to enter credentials. Attacks where user interaction is required are excluded from this bounty target.</li>\n<li>Any attack where code execution is obtained but not in the context of Admin.</li>\n</ul>\n\n<p>All testing can be done with free trial versions <a href=\"https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial\" rel=\"nofollow noreferrer\" target=\"_blank\">https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial</a> of the product on the Windows platform.</p>\n\n<h5>IMPORTANT. All research should be done on fresh trial versions of Intercept X and when signing up for the trial, ensure your email has bugcrowdninja in the address. For example, tom+bugcrowdninja@gmail.com or bill@bugcrowdninja.com</h5>\n\n<p>Eligible findings are reproducible on fully patched installations of Intercept X. Sophos will not reward issues that are not reproducible in the latest release. Testing should be done on 64-bit Windows only, Windows 10 22H2 (build 19045) or later Windows 11 22H2 (build 22621) or later.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 50000.0,
-                        "max": 50000.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/sophos/target_groups/15a7a4f3-e307-427e-ae68-3084373975b2/targets",
-                "targets": [
-                    {
-                        "id": "1fd2af67-67b7-44e1-a322-85aa9967490a",
-                        "name": "https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial ",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial ",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "10e2c1de-968e-4633-8534-176fd769eb30",
-                "name": "XG Firewall Premium Target",
-                "description_html": "<p>Findings eligible for the highest payout are/come with:</p>\n\n<ul>\n<li>Attack Vector: Network (WAN interface only)</li>\n<li>Attack Complexity: Low (no MitM etc.)</li>\n<li>Privileges Required: None (pre-auth only)</li>\n<li>User Interaction: None (no phishing, etc.)</li>\n<li>Impact: Code/command execution as root (CVSSv3+ C:H/I:H/A:H)</li>\n<li>Reproducible on the latest maintenance release of the latest version, as published on MySophos</li>\n<li>Detailed version information:\n\n<ul>\n<li>Login to the Device Console</li>\n<li>At the console&gt; prompt type: \u201csystem dia sh ver\u201d</li>\n<li>Add the output to the report (screenshots accepted)</li>\n</ul>\n</li>\n<li>PoC code or step by step reproduction instructions\n\n<ul>\n<li>May be in the form of a video</li>\n</ul>\n</li>\n<li>Tools used to detect the issue, if any</li>\n<li>Information on what helped discover the issue most:\n\n<ul>\n<li>Root shell access</li>\n<li>Reverse engineering (decompiled JARs)</li>\n<li>Previously published CVE (incl. CVE ID)</li>\n<li>Other (please elaborate)\n*Source code file and line of the issue, if possible</li>\n</ul>\n</li>\n</ul>\n\n<p>All testing can be done with <a href=\"https://secure2.sophos.com/en-us/products/next-gen-firewall/free-trial.aspx\" rel=\"nofollow noreferrer\" target=\"_blank\">free trial versions</a> of the product on any available platform (software/virtual/hardware).</p>\n\n<p>IMPORTANT. All research should be done on fresh trial versions and when signing up for the trial, ensure your email has <em>bugcrowdninja</em> in the address. For example, tom+bugcrowdninja@gmail.com or bill@bugcrowdninja.com</p>\n\n<p>Eligible findings are reproducible on fully patched installations of XG Firewall (see https://community.sophos.com/kb/en-us/135415 for details). Sophos will not reward issues that are not reproducible in the latest release.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 50000.0,
-                        "max": 50000.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/sophos/target_groups/b5994db6-187f-4ba7-9900-499e86bcacea/targets",
-                "targets": [
-                    {
-                        "id": "5ff6fba3-2bd6-4282-994f-73a109125441",
-                        "name": "XG Firewall - Pre-auth RCE",
-                        "description": null,
-                        "category": "iot",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "ad43847d-d5ec-4d65-a1f1-8f20ec7e9238",
-                                    "name": "Penetration Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "0e4d9d16-80c0-4aed-b106-e3e48882e73b",
-                "name": "Premium Bounty Eligible Targets",
-                "description_html": "<p>Eligible findings are/come with:</p>\n\n<ul>\n<li>Reproducible on the latest maintenance release (MR) on an actively maintained product branch that is generally available (GA) </li>\n<li>Detailed version information </li>\n</ul>\n\n<p>All testing can be done with free trial versions of the product on any available platform (software/virtual/hardware/operating system).</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 8000.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 3000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 1000.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/sophos/target_groups/dea011ba-bb6d-47ca-acc3-6a9c34843499/targets",
-                "targets": [
-                    {
-                        "id": "762016c7-f6a5-40bf-aa94-60ccf2afd458",
-                        "name": "XG Firewall",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7bb720f2-29cb-4ec9-9757-34df993d83ba",
-                        "name": "Intercept X Endpoint",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2baa6d81-7133-4c2b-9565-7d734393a684",
-                        "name": "Sophos Central",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://central.sophos.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "c8a7982b-2da0-4cee-a40e-ab3871ee2c72",
-                "name": "Bounty Eligible Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 5000.0
-                    }
-                },
-                "sort_order": 3,
-                "targets_url": "/sophos/target_groups/d3eda247-fe1a-46e3-a108-3772c1197dcc/targets",
-                "targets": [
-                    {
-                        "id": "a02bde14-61b3-466a-a186-ea6131176732",
-                        "name": "*.sophos.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "112fcd0b-e960-45ea-b660-c1998e8c6cd1",
-                        "name": "*.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "53917c1d-52c8-41f3-86f5-166e787ece8f",
-                                    "name": "Select2"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "73693260-c3a3-47ca-9275-a8d115dae3b3",
-                        "name": "*.reflexion.net",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "48090d9d-fb20-46e8-b6ef-1b1d36bb331c",
-                        "name": "*.astaro.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7d2fbf77-ec5d-4e7a-979b-9a4b224c5cab",
-                        "name": "*.cyberoam.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8784e2ec-184d-4f83-8a6b-9ef8df031556",
-                        "name": "Any Other Sophos Product or Service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "d4bf1a9e-01a3-41e3-b5c5-19085fb28cbb",
-                "name": "Out of Scope Targets",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 4,
-                "targets_url": "/sophos/target_groups/e6a05157-365d-4103-82f9-20dbd0270ce2/targets",
-                "targets": [
-                    {
-                        "id": "debba5a6-681c-4681-b0ac-4c9c3948a701",
-                        "name": "autodiscover.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "762dd9cd-c34e-4ca1-b496-58936682f28a",
-                        "name": "app.reflexion.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0054709f-d569-48ff-a93c-bfbe31d924de",
-                        "name": "community.sophos.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2afad0f2-b31e-4e5d-9495-9d9bc21735cd",
-                        "name": "*.ddns.cyberoam.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9692cf63-bc03-4719-ab9b-3836c9ea4a64",
-                        "name": "*eventreg.sophos.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bd47a25f-25e1-4e71-8e66-bbf0bb6dd9f8",
-                        "name": "events.sophos.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3e1a11da-1ecb-46cb-befb-f5d4e0ca1e86",
-                        "name": "lyncdiscover.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "13209f0b-5abd-4bb6-8c5e-ed1f6456e43f",
-                        "name": "mev.hitmanpro.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5ed7cee1-056f-4e0c-9b5f-c2cad5b6d4d4",
-                        "name": "tickets.reflexion.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "20c9ecf0-94d9-41ab-adc7-9910ce29e89f",
-                        "name": "*.releaseportal.cyberoam.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "91f01f0b-e4f3-4f17-b067-f0cf174caeb3",
-                        "name": "shop.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cb30a062-cabe-41da-966c-77b3bd1b3d35",
-                        "name": "sip.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f9186ed0-7c1d-4dcb-8266-a28690ab0973",
-                        "name": "sophos.atlassian.net (Public service desk)",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2689c14d-f895-4295-8063-8b3cb5ec3e1e",
-                        "name": "support.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "00df441c-9dab-40eb-9dd1-ba217c11f704",
-                        "name": "surveys.sophos.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2467b27a-5907-4082-9f1d-e2e46e3b16d3",
-                        "name": "SPF/DKIM/DMARC issues",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Octopus Deploy",
         "tagline": "Submit your finding to the program!",
         "briefUrl": "/octopus-deploy",
@@ -73632,6 +73003,746 @@
                         "known_issues": {}
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Sophos",
+        "tagline": "Responsible disclosure with rewards up to US$50.000",
+        "briefUrl": "/engagements/sophos",
+        "backgroundColor": "#0068b1",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/99ee/d126/b7eb6a5e/3a483054f9f57b3410a4c2fa82d699a0_sophos_ss.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $50,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$50,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/sophos/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "915e0240-2deb-4ac7-a8a9-e72d8080853b",
+                "name": "Windows Intercept X Premium Target",
+                "targets": [
+                    {
+                        "id": "688604cf-fdad-477b-bf04-1b724989ee56",
+                        "uri": "https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial ",
+                        "name": "https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial ",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c789a61e-a59e-4acf-81b2-6f36212fa582",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<p>Sophos Endpoint Protection is a multi-component system where some parts run at the highest possible privilege. One of the design goals is to protect users of the endpoint from threats on the network, therefore remote compromise of Endpoint Protection components is of particular concern to Sophos.</p>\n\n<h4>Attacks meeting <em>ALL</em> of the following conditions are eligible for consideration of a maximum bounty of $50,000:</h4>\n\n<p>\u2022 triggering execution of attacker-controlled code<br>\n\u2022 in a high privilege context (Administrator or higher for Windows)<br>\n\u2022 doing so remotely<br>\n\u2022 doing so via Endpoint Protection components<br>\n\u2022 no user interaction is necessary</p>\n\n<p>Clear instructions for how to reproduce the finding are required.</p>\n\n<p>Some examples of in and out of scope scenarios follow. These are intended to illustrate the above definition, not to limit it. Attacks that meet the definition will be in scope.</p>\n\n<p>Examples:</p>\n\n<p>In-scope examples (all must lead to the attacker able to act as Admin, with no user interaction):<br>\n\u2022 Direct exploitation via an exposed port associated with an Endpoint Protection component.<br>\n\u2022 Target machine receives an email from attacker triggering RCE due to Endpoint Protection processing / parsing.<br>\n\u2022 A browser on the endpoint visits a webpage leading to code execution due to Endpoint Protection interactions with the browser or associated network traffic.</p>\n\n<p>Out-of-scope examples:</p>\n\n<ul>\n<li>Code execution after connecting via an authorized remote route, e.g. RDP. This is not considered a remote exploit since the RDP \nconnection gives the attacker a presence local to the target.</li>\n<li>Any attack where a user needs to enter credentials. Attacks where user interaction is required are excluded from this bounty target.</li>\n<li>Any attack where code execution is obtained but not in the context of Admin.</li>\n</ul>\n\n<p>All testing can be done with free trial versions <a href=\"https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial\" rel=\"nofollow noreferrer\" target=\"_blank\">https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial</a> of the product on the Windows platform.</p>\n\n<h5>IMPORTANT. All research should be done on fresh trial versions of Intercept X and when signing up for the trial, ensure your email has bugcrowdninja in the address. For example, tom+bugcrowdninja@gmail.com or bill@bugcrowdninja.com</h5>\n\n<p>Eligible findings are reproducible on fully patched installations of Intercept X. Sophos will not reward issues that are not reproducible in the latest release. Testing should be done on 64-bit Windows only, Windows 10 22H2 (build 19045) or later Windows 11 22H2 (build 22621) or later.</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 50000,
+                        "max": 50000
+                    },
+                    "2": {
+                        "min": null,
+                        "max": null
+                    },
+                    "3": {
+                        "min": null,
+                        "max": null
+                    },
+                    "4": {
+                        "min": null,
+                        "max": null
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "e1f6b1a2-73bd-4ff6-953b-2a94ad341993",
+                "name": "XG Firewall Premium Target",
+                "targets": [
+                    {
+                        "id": "0da98da1-21c4-4264-958a-97e23be8b337",
+                        "uri": null,
+                        "name": "XG Firewall - Pre-auth RCE",
+                        "category": "iot",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "de07943b-e53e-4704-96e1-2669c986aa14",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing",
+                                    "targetId": "0da98da1-21c4-4264-958a-97e23be8b337"
+                                },
+                                {
+                                    "id": "ad43847d-d5ec-4d65-a1f1-8f20ec7e9238",
+                                    "name": "Penetration Testing",
+                                    "targetId": "0da98da1-21c4-4264-958a-97e23be8b337"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 1,
+                "description": null,
+                "description_html": "<p>Findings eligible for the highest payout are/come with:</p>\n\n<ul>\n<li>Attack Vector: Network (WAN interface only)</li>\n<li>Attack Complexity: Low (no MitM etc.)</li>\n<li>Privileges Required: None (pre-auth only)</li>\n<li>User Interaction: None (no phishing, etc.)</li>\n<li>Impact: Code/command execution as root (CVSSv3+ C:H/I:H/A:H)</li>\n<li>Reproducible on the latest maintenance release of the latest version, as published on MySophos</li>\n<li>Detailed version information:\n\n<ul>\n<li>Login to the Device Console</li>\n<li>At the console&gt; prompt type: \u201csystem dia sh ver\u201d</li>\n<li>Add the output to the report (screenshots accepted)</li>\n</ul></li>\n<li>PoC code or step by step reproduction instructions\n\n<ul>\n<li>May be in the form of a video</li>\n</ul></li>\n<li>Tools used to detect the issue, if any</li>\n<li>Information on what helped discover the issue most:\n\n<ul>\n<li>Root shell access</li>\n<li>Reverse engineering (decompiled JARs)</li>\n<li>Previously published CVE (incl. CVE ID)</li>\n<li>Other (please elaborate)\n*Source code file and line of the issue, if possible</li>\n</ul></li>\n</ul>\n\n<p>All testing can be done with <a href=\"https://secure2.sophos.com/en-us/products/next-gen-firewall/free-trial.aspx\" rel=\"nofollow noreferrer\" target=\"_blank\">free trial versions</a> of the product on any available platform (software/virtual/hardware).</p>\n\n<p>IMPORTANT. All research should be done on fresh trial versions and when signing up for the trial, ensure your email has <em>bugcrowdninja</em> in the address. For example, tom+bugcrowdninja@gmail.com or bill@bugcrowdninja.com</p>\n\n<p>Eligible findings are reproducible on fully patched installations of XG Firewall (see https://community.sophos.com/kb/en-us/135415 for details). Sophos will not reward issues that are not reproducible in the latest release.</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 50000,
+                        "max": 50000
+                    },
+                    "2": {
+                        "min": null,
+                        "max": null
+                    },
+                    "3": {
+                        "min": null,
+                        "max": null
+                    },
+                    "4": {
+                        "min": null,
+                        "max": null
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "2b8feea9-36db-4f41-a6ec-1b5e98f980b4",
+                "name": "Premium Bounty Eligible Targets",
+                "targets": [
+                    {
+                        "id": "76f793f2-5ff3-4586-8c36-85e1f7deac5f",
+                        "uri": "https://central.sophos.com",
+                        "name": "Sophos Central",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "4cac036d-f6e5-4136-b947-a9f233550235",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "b670dda7-9c80-4b5a-a299-b36849a59496",
+                        "uri": "",
+                        "name": "XG Firewall",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c36ee8df-754e-4e79-af16-27fc43e5f5b4",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "83fa6974-f851-4ea5-a55d-dfbbef33bc76",
+                        "uri": "",
+                        "name": "Intercept X Endpoint",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a868bfa6-854b-4b02-8f3a-70ed1245f1c1",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 2,
+                "description": null,
+                "description_html": "<p>Eligible findings are/come with:</p>\n\n<ul>\n<li>Reproducible on the latest maintenance release (MR) on an actively maintained product branch that is generally available (GA) </li>\n<li>Detailed version information </li>\n</ul>\n\n<p>All testing can be done with free trial versions of the product on any available platform (software/virtual/hardware/operating system).</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 3000,
+                        "max": 8000
+                    },
+                    "2": {
+                        "min": 1000,
+                        "max": 3000
+                    },
+                    "3": {
+                        "min": 300,
+                        "max": 1000
+                    },
+                    "4": {
+                        "min": 100,
+                        "max": 200
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "aea3b617-c245-44e5-85d8-7e292c70b0de",
+                "name": "Bounty Eligible Targets",
+                "targets": [
+                    {
+                        "id": "4b1b8398-3963-4434-8df7-f554ccf84755",
+                        "uri": null,
+                        "name": "*.sophos.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "e372bc95-45b8-49d8-88b6-ae51fd699e5c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN",
+                                    "targetId": "4b1b8398-3963-4434-8df7-f554ccf84755"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET",
+                                    "targetId": "4b1b8398-3963-4434-8df7-f554ccf84755"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery",
+                                    "targetId": "4b1b8398-3963-4434-8df7-f554ccf84755"
+                                },
+                                {
+                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
+                                    "name": "Microsoft IIS",
+                                    "targetId": "4b1b8398-3963-4434-8df7-f554ccf84755"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "e5383306-e465-48ee-afca-988de63515ff",
+                        "uri": null,
+                        "name": "*.cyberoam.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "832d2a88-acc6-477f-8dd2-ad0165636a24",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "e5383306-e465-48ee-afca-988de63515ff"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "15a942ec-ef92-4cca-84c1-c1fde7a87b7f",
+                        "uri": null,
+                        "name": "*.reflexion.net",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "f57861b3-9469-4035-9787-ada28aea4292",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET",
+                                    "targetId": "15a942ec-ef92-4cca-84c1-c1fde7a87b7f"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery",
+                                    "targetId": "15a942ec-ef92-4cca-84c1-c1fde7a87b7f"
+                                },
+                                {
+                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
+                                    "name": "Microsoft IIS",
+                                    "targetId": "15a942ec-ef92-4cca-84c1-c1fde7a87b7f"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "170d5a2f-4862-4e66-b19d-a79860903ac4",
+                        "uri": null,
+                        "name": "*.hitmanpro.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "76b0e2ec-2070-452a-a04e-a5af92a9d3d5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "53917c1d-52c8-41f3-86f5-166e787ece8f",
+                                    "name": "Select2",
+                                    "targetId": "170d5a2f-4862-4e66-b19d-a79860903ac4"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET",
+                                    "targetId": "170d5a2f-4862-4e66-b19d-a79860903ac4"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "170d5a2f-4862-4e66-b19d-a79860903ac4"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery",
+                                    "targetId": "170d5a2f-4862-4e66-b19d-a79860903ac4"
+                                },
+                                {
+                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
+                                    "name": "Microsoft IIS",
+                                    "targetId": "170d5a2f-4862-4e66-b19d-a79860903ac4"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b8da37af-9f55-4d58-96be-3cc213610c0e",
+                        "uri": null,
+                        "name": "*.astaro.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "7333f8ea-99de-45ce-8c1d-0fc6e8c0a2ce",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN",
+                                    "targetId": "b8da37af-9f55-4d58-96be-3cc213610c0e"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET",
+                                    "targetId": "b8da37af-9f55-4d58-96be-3cc213610c0e"
+                                },
+                                {
+                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
+                                    "name": "Windows",
+                                    "targetId": "b8da37af-9f55-4d58-96be-3cc213610c0e"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery",
+                                    "targetId": "b8da37af-9f55-4d58-96be-3cc213610c0e"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash",
+                                    "targetId": "b8da37af-9f55-4d58-96be-3cc213610c0e"
+                                },
+                                {
+                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
+                                    "name": "Microsoft IIS",
+                                    "targetId": "b8da37af-9f55-4d58-96be-3cc213610c0e"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "b8da37af-9f55-4d58-96be-3cc213610c0e"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "eb8b407c-ebc5-4b5e-9165-d5f84015c95e",
+                        "uri": "",
+                        "name": "Any Other Sophos Product or Service",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "4d326b86-94ff-4a4e-8d75-5373f359a23c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 3,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 2000,
+                        "max": 5000
+                    },
+                    "2": {
+                        "min": null,
+                        "max": null
+                    },
+                    "3": {
+                        "min": null,
+                        "max": null
+                    },
+                    "4": {
+                        "min": null,
+                        "max": null
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "f9333dd4-5eb4-4f70-906d-cb4ebdbf80a1",
+                "name": "Out of Scope Targets",
+                "targets": [
+                    {
+                        "id": "219e5026-948b-4b44-947a-5c7d2b46c391",
+                        "uri": null,
+                        "name": "*.ddns.cyberoam.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b1aebc31-edda-43c6-9e76-fe0fdb56efb5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "219e5026-948b-4b44-947a-5c7d2b46c391"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "08291416-1c9e-474a-8242-462df469e0ca",
+                        "uri": null,
+                        "name": "*.releaseportal.cyberoam.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "dc9aea6d-ce41-4e97-b83f-4fbe3fd41990",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "08291416-1c9e-474a-8242-462df469e0ca"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "01008717-b9fd-46bb-abd8-e58e0de05bdd",
+                        "uri": null,
+                        "name": "*eventreg.sophos.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "67a8a9f6-5ecb-4995-a349-6d4af332961b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "01008717-b9fd-46bb-abd8-e58e0de05bdd"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ef465d45-83dc-4cda-ada3-0109665d9c75",
+                        "uri": null,
+                        "name": "surveys.sophos.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "2246006a-9ba0-4321-a18c-79267b823816",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ef465d45-83dc-4cda-ada3-0109665d9c75"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "5aedac3d-2698-461e-b338-44faa15836f6",
+                        "uri": null,
+                        "name": "app.reflexion.net",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "e60dfe05-bbef-4782-a80f-9b6edd1511fd",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "5aedac3d-2698-461e-b338-44faa15836f6"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "1e1fdaa8-0d7f-4c57-b3be-fdcf4db414b7",
+                        "uri": null,
+                        "name": "tickets.reflexion.net",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6295ba21-c29f-4604-ae48-3b87c9f1d1b6",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "1e1fdaa8-0d7f-4c57-b3be-fdcf4db414b7"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "c3449ab6-697b-464d-addc-bac2162cd132",
+                        "uri": null,
+                        "name": "mev.hitmanpro.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "400a73d7-4c29-4fa5-b6fe-c97704f6ac8a",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "c3449ab6-697b-464d-addc-bac2162cd132"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "0ca72897-8152-4f8e-ac23-9b8d19c961b3",
+                        "uri": null,
+                        "name": "autodiscover.hitmanpro.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c845ede6-07f7-468e-ad43-2ecb34216783",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "c85abb1d-31eb-4b15-912c-a527e9aa0ac3",
+                        "uri": null,
+                        "name": "lyncdiscover.hitmanpro.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "80c299d7-d205-4eed-8e09-9b5347bf3075",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "3ed8798d-e378-4810-9aec-f8a85812c130",
+                        "uri": null,
+                        "name": "sip.hitmanpro.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "4ba6c0bf-cab2-4282-8039-90a7b6d174ee",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "4bcabedf-005a-487f-b6f5-0d1a4e8f9421",
+                        "uri": null,
+                        "name": "support.hitmanpro.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "0c610159-51a7-468e-98f7-c0b6290a868b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "f287accc-fb3b-4654-bb66-a846dbd57786",
+                        "uri": null,
+                        "name": "shop.hitmanpro.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "72cd13fc-a51f-48cd-afd4-16b1282d0654",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "68bd2498-257e-439a-8441-36c43d8d5ac2",
+                        "uri": null,
+                        "name": "events.sophos.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "793bfa5b-a585-46b5-9fe8-2329567efc1f",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "a142668c-75e0-48d6-9e2e-020f2db4f96c",
+                        "uri": null,
+                        "name": "sophos.atlassian.net (Public service desk)",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "dab5ad01-1922-40ca-800b-d6227b5ec5b3",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "b0078770-384c-48d8-981c-af1e12096641",
+                        "uri": "",
+                        "name": "community.sophos.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6b211eb3-cec4-4959-9e21-7a1596eeb5a8",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "b0078770-384c-48d8-981c-af1e12096641"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "f796eef0-c6c4-4841-9447-88855ba7a898",
+                        "uri": "",
+                        "name": "SPF/DKIM/DMARC issues",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "28f2fa28-e326-48d2-9f3d-ae532b338e38",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 4,
+                "description": null,
+                "description_html": null,
+                "reward_range": {}
             }
         ]
     }
