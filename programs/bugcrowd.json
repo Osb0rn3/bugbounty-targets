@@ -14622,363 +14622,6 @@
         ]
     },
     {
-        "name": "HubSpot",
-        "tagline": "Marketing, Sales, and Service software platform for scaling companies",
-        "briefUrl": "/hubspot",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65ef/7ade/71226f8a/b3cce4b621b52ed2f5609816412c56f1_sprocket_no_1.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/hubspot/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "6c49d864-d76b-4238-afb6-efeae1ec0870",
-                "name": "In Scope Targets",
-                "description_html": "<h2>In Scope Domains:</h2>\n\n<p>In addition to the targets below, HubSpot Marketing and CMS customers often host content on the HubSpot platform. Customer domains will be CNAME'd to a subdomain like: </p>\n\n<p><code>groupXX.sites.hscoscdnYY.net</code>, where <strong>XX</strong> and <strong>YY</strong> are the numeric identifiers for the content path. </p>\n\n<p>Vulnerabilities thought to be introduced by HubSpot's hosting platform and therefore may affect multiple HubSpot customers are in-scope for this program. Please report those here. It is possible that a customer has introduced the vulnerability (e.g., XSS, etc); we will investigate and respond to those reports. </p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1500.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 200.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 50.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/hubspot/target_groups/08f481f6-f027-49d5-be49-84d80ab94686/targets",
-                "targets": [
-                    {
-                        "id": "1ee95dca-5a64-4b69-aafa-64d04362cebf",
-                        "name": "*.hubapi.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://*.hubapi.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "27c3bb1a-6cbd-4821-b289-dd5441d3dc54",
-                        "name": "*.hubspot.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://*.hubspot.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "144d38f9-fc0a-4405-b3fd-b11179fe789d",
-                        "name": "*.hubspot.net",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ec699b8e-5358-4063-9c72-c04321dad709",
-                        "name": "*.hs-sites.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c1349074-b5aa-4559-8f0f-6d99622438b9",
-                        "name": "*.hubspotemail.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b8023346-fcfd-4f51-90a2-960eadfcdfaf",
-                        "name": "HubSpot Mobile Application: Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.hubspot.android&hl=en_US&gl=US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e63acdcf-0a47-45ef-8324-36451700b3dd",
-                        "name": "HubSpot Mobile Application: iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/hubspot/id1107711722",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "b60a6a59-8869-4d44-bf2a-580352a2058f",
-                "name": "Out of Scope Domains",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/hubspot/target_groups/ca5559ae-f276-4bad-9b2b-548e34bc7bfe/targets",
-                "targets": [
-                    {
-                        "id": "3ac5d2ea-fdd0-4d14-8842-ba8ac158c7c3",
-                        "name": "*.getsidekick.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "160d8248-3cb1-4177-bec6-b69de27cddfc",
-                        "name": "*.inbound.org",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "62b97e4d-8de4-4a16-9102-167ebf76f279",
-                        "name": "blog.hubspot.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1743ba10-b95d-4ad2-914e-55fbd4b5159e",
-                        "name": "shop.hubspot.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8af4ee39-23f3-4fde-859f-5b50510c3ee4",
-                        "name": "surveys.success.hubspot.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "72d5dcb3-efe5-410d-97a2-3556ab44c3d5",
-                        "name": "integrate.hubspot.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "548a0852-a4e4-48e0-803f-0ab296b5b3dd",
-                        "name": "ux.hubspot.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "271000c1-fb05-42c3-a04a-7be7d48a0e3b",
-                        "name": "ink1001.hubspot.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Ampol ",
         "tagline": "Proudly Australian, we have grown from humble beginnings to become the nation\u2019s outright leader in transport fuels, supplying one third of all Australia\u2019s transport fuel needs. We are also one of Australia\u2019s largest convenience retailers.",
         "briefUrl": "/ampol",
@@ -60798,103 +60441,6 @@
         ]
     },
     {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/2cbd3d4c-d930-45bb-b445-6aa99dda8fd9/targets",
-                "targets": [
-                    {
-                        "id": "2ef92f71-43f1-4188-9e29-0d8c8ad10845",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<p>Unless a return to scope date is explicitly specified, the following assets are considered indefinitely out of scope:</p>\n\n<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com (Testing can be done here instead ID-UAT1.fisglobal.com )</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com </li>\n<li>ap-uat1.fisglobal.com </li>\n<li>ap-uat2.fisglobal.com </li>\n<li>ap-uat3.fisglobal.com</li>\n<li>id-uat.fisglobal.com </li>\n<li>myloanportal.commercebank.com </li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: ID-UAT1.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments) </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 8/20/2024)</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/290b190a-0b88-4e58-9cee-391d0020008e/targets",
-                "targets": [
-                    {
-                        "id": "3708abe3-576b-4a03-b117-baf63c05915e",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Cisco Meraki",
         "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
         "briefUrl": "/engagements/ciscomeraki",
@@ -61748,6 +61294,103 @@
                 "description": null,
                 "description_html": "<p>This program is designed to review and address security issues related to Cisco Meraki&#39;s products and applications. Please note that anything that is not explicitly listed as in-scope is considered out-of-scope. If you believe you have found a vulnerability that is outside of this program scope but related to Cisco, please refer to the below resources:</p>\n\n<ul>\n<li>If you need to report a vulnerability in a Cisco product, please contact psirt@cisco.com.</li>\n<li>If you need to contact Cisco regarding a security incident, please contact incidentresponse@cisco.com.</li>\n<li>Cisco Systems Operational Infrastructure findings can be reported here: https://bugcrowd.com/ciscosecurity</li>\n<li>Further information can be found here: https://www.cisco.com/security</li>\n</ul>",
                 "reward_range": {}
+            }
+        ]
+    },
+    {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/fis/target_groups/2cbd3d4c-d930-45bb-b445-6aa99dda8fd9/targets",
+                "targets": [
+                    {
+                        "id": "2ef92f71-43f1-4188-9e29-0d8c8ad10845",
+                        "name": "Any FIS asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
+                "name": "Out of Scope",
+                "description_html": "<p>Unless a return to scope date is explicitly specified, the following assets are considered indefinitely out of scope:</p>\n\n<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com (Testing can be done here instead ID-UAT1.fisglobal.com )</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com </li>\n<li>ap-uat1.fisglobal.com </li>\n<li>ap-uat2.fisglobal.com </li>\n<li>ap-uat3.fisglobal.com</li>\n<li>id-uat.fisglobal.com </li>\n<li>myloanportal.commercebank.com </li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: ID-UAT1.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments) </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 8/20/2024)</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/fis/target_groups/290b190a-0b88-4e58-9cee-391d0020008e/targets",
+                "targets": [
+                    {
+                        "id": "3708abe3-576b-4a03-b117-baf63c05915e",
+                        "name": "Reference above out of scope targets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://apuat-aaa.fisglobal.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
             }
         ]
     },
@@ -64344,196 +63987,6 @@
         ]
     },
     {
-        "name": "Majid Al Futtaim Retail",
-        "tagline": "Carrefour UAE",
-        "briefUrl": "/carrefour",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/carrefour/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
-                "name": "MAF-Retail",
-                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/carrefour/target_groups/a7730ebd-201d-4c9b-8592-f8dc2ea3baa8/targets",
-                "targets": [
-                    {
-                        "id": "fc35e5c9-ffef-431d-adc2-8b3b0d164651",
-                        "name": "Carrefour UAE iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "956b3669-583d-4fe0-99c1-ce8e5cbf6f0e",
-                        "name": "Carrefour UAE Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "eccb5599-e0c9-4ea3-a526-f8730bac58ef",
-                        "name": "carrefouruae.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.carrefouruae.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bbbfb453-b739-4e24-983a-e5d50a7b0987",
-                        "name": "https://api-prod.retailsso.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api-prod.retailsso.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e5b7aa1a-f2b6-4f49-9612-8cec139eb87a",
-                "name": "Out of scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/carrefour/target_groups/6ba76fdd-2f06-4e52-a337-c0462a7c0ced/targets",
-                "targets": [
-                    {
-                        "id": "c92d2335-681c-48a8-abb3-216ee5274ee8",
-                        "name": "https://cwingsfe.mafrservices.com/login",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://cwingsfe.mafrservices.com/login",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Lime",
         "tagline": "Help secure Lime",
         "briefUrl": "/engagements/lime",
@@ -65502,6 +64955,588 @@
                 "sort_order": 2,
                 "description": null,
                 "description_html": "<h2>All wildcard (*) operators endpoint means every other endpoint that is explicitly not mentioned In-scope is considered Out-of-Scope. For example *.lime.bike is mentioned in Out-of-scope but web-production.lime.bike and admintool.lime.bike is mentioned in In-scope. So all lime.bike endpoints that are not explicitly mentioned in-scope are out-of-scope.</h2>\n\n<p>The following findings are out of scope:</p>\n\n<ol>\n<li>Cookie flags on <code>webview.lime.bike</code></li>\n<li>&quot;secret&quot; keys exposed in iOS/Android builds that we do not consider secret</li>\n<li>*.airflow.limeinternal.com [Legacy domain]</li>\n<li><code>help.li.me</code> (report to <a href=\"https://hackerone.com/zendesk\" rel=\"nofollow noreferrer\" target=\"_blank\">zendesk</a>)</li>\n<li><code>community.li.me</code> (report to <a href=\"https://help.bevylabs.com/\" rel=\"nofollow noreferrer\" target=\"_blank\">bevy</a>)</li>\n<li>Attacks that require unauthorized access to users&#39; clients (phones, browsers, etc)</li>\n<li>Zero-day vulnerabilities (CVEs being added to NVD or GHSA (Github security advisory) with a score of 9.5 or lower) that are less than 30 days old. </li>\n<li>Android debugging enabled</li>\n<li>Lime account MFA issues are out of scope at the present time</li>\n<li>WAF bypass</li>\n<li>Open redirects / Lack of security speedbump when leaving the site (no immediate credential leak)</li>\n<li>Internal IP address disclosure</li>\n<li>Accessible Non-sensitive files and directories (e.g. README.TXT, CHANGES.TXT, robots.txt, .gitignore, WSDL, pprof, etc.)</li>\n<li>Social engineering / phishing attacks</li>\n<li>Self XSS</li>\n<li>Text injection</li>\n<li>Email spoofing (including SPF, DKIM, DMARC, From: spoofing, and visually similar, and related issues)</li>\n<li>Descriptive error messages (e.g. stack traces, application or server errors, path disclosure)</li>\n<li>Fingerprinting/banner disclosure on common/public services</li>\n<li>Clickjacking and issues only exploitable through clickjacking</li>\n<li>CSRF issues that don&#39;t impact the integrity of an account (e.g. log-in or out, contact forms, and other publicly accessible forms)</li>\n<li>Lack of Secure and HTTPOnly cookie flags (critical systems may still be in scope)</li>\n<li>Lack of rate limiting</li>\n<li>Login or Forgot Password page brute force, account lockout not enforced, or insufficient password strength requirements</li>\n<li>HTTPS mixed content scripts</li>\n<li>Username/email enumeration by brute forcing/error messages (e.g. login/signup / forgotten password)</li>\n<li>Exceptional cases may still be in scope (e.g. ability to enumerate email addresses via incrementing a numeric parameter)</li>\n<li>Missing HTTP security headers</li>\n<li>TLS/SSL Issues, including BEAST BREACH, insecure renegotiation, bad cipher suite, expired certificates, etc.</li>\n<li>Denial of Service attacks</li>\n<li>Out-of-date software</li>\n<li>Use of a known-vulnerable component (exceptional cases, such as where you are able to provide proof of exploitation, may still be in scope)</li>\n<li>Physical attacks against Lime&#39;s Facilities / Property /Assets </li>\n</ol>",
+                "reward_range": {}
+            }
+        ]
+    },
+    {
+        "name": "Majid Al Futtaim Retail",
+        "tagline": "Carrefour UAE",
+        "briefUrl": "/carrefour",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/carrefour/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
+                "name": "MAF-Retail",
+                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 150.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/carrefour/target_groups/a7730ebd-201d-4c9b-8592-f8dc2ea3baa8/targets",
+                "targets": [
+                    {
+                        "id": "fc35e5c9-ffef-431d-adc2-8b3b0d164651",
+                        "name": "Carrefour UAE iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "956b3669-583d-4fe0-99c1-ce8e5cbf6f0e",
+                        "name": "Carrefour UAE Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "eccb5599-e0c9-4ea3-a526-f8730bac58ef",
+                        "name": "carrefouruae.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.carrefouruae.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bbbfb453-b739-4e24-983a-e5d50a7b0987",
+                        "name": "https://api-prod.retailsso.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api-prod.retailsso.com",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "e5b7aa1a-f2b6-4f49-9612-8cec139eb87a",
+                "name": "Out of scope",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/carrefour/target_groups/6ba76fdd-2f06-4e52-a337-c0462a7c0ced/targets",
+                "targets": [
+                    {
+                        "id": "c92d2335-681c-48a8-abb3-216ee5274ee8",
+                        "name": "https://cwingsfe.mafrservices.com/login",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://cwingsfe.mafrservices.com/login",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HubSpot",
+        "tagline": "Marketing, Sales, and Service software platform for scaling companies",
+        "briefUrl": "/engagements/hubspot",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65ef/7ade/71226f8a/b3cce4b621b52ed2f5609816412c56f1_sprocket_no_1.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/hubspot/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "d7e71196-cc6e-463e-a4ca-9c0123510231",
+                "name": "In Scope Targets",
+                "targets": [
+                    {
+                        "id": "228532a9-a5a1-45aa-adc0-a4ddd17550ee",
+                        "uri": null,
+                        "name": "*.hubspot.net",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b3a484ec-c2fe-47b6-9b4a-2a3006120886",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN",
+                                    "targetId": "228532a9-a5a1-45aa-adc0-a4ddd17550ee"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery",
+                                    "targetId": "228532a9-a5a1-45aa-adc0-a4ddd17550ee"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "d85bbe7f-a044-428e-868b-fdecdb274325",
+                        "uri": null,
+                        "name": "*.hs-sites.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6322ef3d-b656-472d-b5ac-c4e3d0880140",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "d85bbe7f-a044-428e-868b-fdecdb274325"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "39cf3036-1007-48fe-ba0a-a20f93d4bb1a",
+                        "uri": "https://play.google.com/store/apps/details?id=com.hubspot.android&hl=en_US&gl=US",
+                        "name": "HubSpot Mobile Application: Android",
+                        "category": "android",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "e55b7f97-9ee6-4784-8747-dd86b0997e15",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java",
+                                    "targetId": "39cf3036-1007-48fe-ba0a-a20f93d4bb1a"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing",
+                                    "targetId": "39cf3036-1007-48fe-ba0a-a20f93d4bb1a"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin",
+                                    "targetId": "39cf3036-1007-48fe-ba0a-a20f93d4bb1a"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "39cf3036-1007-48fe-ba0a-a20f93d4bb1a"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ee588ae1-d8d3-40b0-8995-15c079845181",
+                        "uri": "",
+                        "name": "*.hubspotemail.net",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "af0003b1-05a6-4869-8abb-c4ba5c0e9447",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "2854af1c-c28f-40ed-8c04-9581c49d7cd1",
+                        "uri": "https://apps.apple.com/us/app/hubspot/id1107711722",
+                        "name": "HubSpot Mobile Application: iOS",
+                        "category": "ios",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b832785f-2d5e-4e6b-8ad0-9e6cad7dcc03",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C",
+                                    "targetId": "2854af1c-c28f-40ed-8c04-9581c49d7cd1"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI",
+                                    "targetId": "2854af1c-c28f-40ed-8c04-9581c49d7cd1"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift",
+                                    "targetId": "2854af1c-c28f-40ed-8c04-9581c49d7cd1"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing",
+                                    "targetId": "2854af1c-c28f-40ed-8c04-9581c49d7cd1"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "2854af1c-c28f-40ed-8c04-9581c49d7cd1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "0afaeaec-4677-4008-8715-c844a23db3aa",
+                        "uri": "https://*.hubspot.com",
+                        "name": "*.hubspot.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "726d5d3a-6bd8-41b0-bbfa-f50a40cea6a1",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java",
+                                    "targetId": "0afaeaec-4677-4008-8715-c844a23db3aa"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN",
+                                    "targetId": "0afaeaec-4677-4008-8715-c844a23db3aa"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "0afaeaec-4677-4008-8715-c844a23db3aa"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery",
+                                    "targetId": "0afaeaec-4677-4008-8715-c844a23db3aa"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "bc70fd68-bba6-4234-99c6-49cd43d35de6",
+                        "uri": "https://*.hubapi.com",
+                        "name": "*.hubapi.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "e9afaf81-7b41-4b28-91d0-b7849ae91c12",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "bc70fd68-bba6-4234-99c6-49cd43d35de6"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN",
+                                    "targetId": "bc70fd68-bba6-4234-99c6-49cd43d35de6"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<h2>In Scope Domains:</h2>\n\n<p>In addition to the targets below, HubSpot Marketing and CMS customers often host content on the HubSpot platform. Customer domains will be CNAME&#39;d to a subdomain like: </p>\n\n<p><code>groupXX.sites.hscoscdnYY.net</code>, where <strong>XX</strong> and <strong>YY</strong> are the numeric identifiers for the content path. </p>\n\n<p>Vulnerabilities thought to be introduced by HubSpot&#39;s hosting platform and therefore may affect multiple HubSpot customers are in-scope for this program. Please report those here. It is possible that a customer has introduced the vulnerability (e.g., XSS, etc); we will investigate and respond to those reports. </p>",
+                "reward_range": {
+                    "1": {
+                        "min": 5000,
+                        "max": 5000
+                    },
+                    "2": {
+                        "min": 1500,
+                        "max": 1500
+                    },
+                    "3": {
+                        "min": 200,
+                        "max": 200
+                    },
+                    "4": {
+                        "min": 50,
+                        "max": 50
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "8cc5e766-f0a3-46bb-a894-bebb6b4a544e",
+                "name": "Out of Scope Domains",
+                "targets": [
+                    {
+                        "id": "963ef3ea-829a-4da8-b7a9-cd56af213204",
+                        "uri": null,
+                        "name": "*.getsidekick.com",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "9fac78d3-0b85-4154-ae38-6bf29df408e4",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "73e116cb-c6bf-41e1-b810-b185f22688cf",
+                        "uri": null,
+                        "name": "*.inbound.org",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "8e9d0b7e-a04d-4b15-81f8-43f0c162d083",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "51939ceb-d6fd-4b6c-afc9-8650a4a4a9e9",
+                        "uri": "",
+                        "name": "surveys.success.hubspot.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c0dc6a7f-face-44f9-b4b2-7d7d1901df70",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "34976e79-5160-4ad9-ab94-7b18c4f431be",
+                        "uri": "",
+                        "name": "shop.hubspot.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "1eea0133-e521-4089-ae3e-4e5b94f3d968",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "7e772c07-a9ad-4506-8f1d-a3583e6ad6dd",
+                        "uri": "",
+                        "name": "blog.hubspot.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "d6d96e1b-6998-4418-b1e9-c62e57c80e69",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "22a008e8-e97b-49a6-ace1-e56660ca0dde",
+                        "uri": "",
+                        "name": "integrate.hubspot.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c385d2af-3630-4a66-8ab2-8f64a91b366c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "1a014545-18bc-4431-adcc-3b5525a9fc22",
+                        "uri": "",
+                        "name": "ux.hubspot.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a1023f1d-8935-483c-b7d2-ad56e444e6e5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "d194f453-8657-4ed6-b800-912cb4139363",
+                        "uri": "",
+                        "name": "ink1001.hubspot.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "44814a22-7181-4955-b579-002e846c9bb1",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 1,
+                "description": null,
+                "description_html": null,
                 "reward_range": {}
             }
         ]
@@ -71958,285 +71993,6 @@
         ]
     },
     {
-        "name": "Luno Bug Bounty Program",
-        "tagline": "Luno Bug Bounty Program",
-        "briefUrl": "/luno-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/90ca/b8c8/a0b610b1/957423f1634a108b88ec40b5d8b52e11_lunoicon-152x152.png",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/luno-og/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "35ce6c2b-fe22-48ad-b2fb-89ec5400e529",
-                "name": "Tier 1 Targets:",
-                "description_html": "<p>Staging mobile apps are not currently available.<br>\nWhen testing the mobile applications you are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 550.0,
-                        "max": 700.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/luno-og/target_groups/14be0813-904a-42ff-ba60-ff56f21f5581/targets",
-                "targets": [
-                    {
-                        "id": "5638e0ce-44f0-4964-b34e-f8b1a5ec3b9e",
-                        "name": "Luno Android Application",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?hl=en&id=co.bitx.android.wallet",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0e912461-35e4-4d28-aaba-dc862a558e93",
-                        "name": "Luno iOS Application",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/app/bitx-wallet/id927362479",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3a68d326-59ff-43f7-a3bd-35393484940b",
-                        "name": "https://mobileapi.staging.luno.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7b1d1c31-e8f8-4e32-9f83-b9dac0d4d583",
-                "name": "Tier 2 Targets:",
-                "description_html": "<p>Please only test the web application and API in the staging environment.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2500.0,
-                        "max": 3000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1800.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 650.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/luno-og/target_groups/813b1fca-ac86-426c-b1cb-0eaa944aad34/targets",
-                "targets": [
-                    {
-                        "id": "4df88614-08d9-4d17-9cd0-c3b284db975f",
-                        "name": "https://staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bf1da571-cbbe-40b5-8ac4-75e30e579958",
-                        "name": "https://ajax.staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://ajax.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "00f06033-b51f-46b3-b752-6e5a26b02a8f",
-                        "name": "https://api.staging.luno.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "33378366-5f09-4fed-a90f-76771f686f1b",
-                        "name": "https://app.staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://app.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Skroutz Public Managed Bug Bounty",
         "tagline": "Skroutz",
         "briefUrl": "/skroutz",
@@ -73743,6 +73499,285 @@
                 "description": null,
                 "description_html": null,
                 "reward_range": {}
+            }
+        ]
+    },
+    {
+        "name": "Luno Bug Bounty Program",
+        "tagline": "Luno Bug Bounty Program",
+        "briefUrl": "/luno-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/90ca/b8c8/a0b610b1/957423f1634a108b88ec40b5d8b52e11_lunoicon-152x152.png",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/luno-og/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "35ce6c2b-fe22-48ad-b2fb-89ec5400e529",
+                "name": "Tier 1 Targets:",
+                "description_html": "<p>Staging mobile apps are not currently available.<br>\nWhen testing the mobile applications you are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 5000.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 550.0,
+                        "max": 700.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/luno-og/target_groups/14be0813-904a-42ff-ba60-ff56f21f5581/targets",
+                "targets": [
+                    {
+                        "id": "5638e0ce-44f0-4964-b34e-f8b1a5ec3b9e",
+                        "name": "Luno Android Application",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?hl=en&id=co.bitx.android.wallet",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0e912461-35e4-4d28-aaba-dc862a558e93",
+                        "name": "Luno iOS Application",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/app/bitx-wallet/id927362479",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3a68d326-59ff-43f7-a3bd-35393484940b",
+                        "name": "https://mobileapi.staging.luno.com/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "7b1d1c31-e8f8-4e32-9f83-b9dac0d4d583",
+                "name": "Tier 2 Targets:",
+                "description_html": "<p>Please only test the web application and API in the staging environment.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2500.0,
+                        "max": 3000.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1800.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 650.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/luno-og/target_groups/813b1fca-ac86-426c-b1cb-0eaa944aad34/targets",
+                "targets": [
+                    {
+                        "id": "4df88614-08d9-4d17-9cd0-c3b284db975f",
+                        "name": "https://staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bf1da571-cbbe-40b5-8ac4-75e30e579958",
+                        "name": "https://ajax.staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://ajax.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "00f06033-b51f-46b3-b752-6e5a26b02a8f",
+                        "name": "https://api.staging.luno.com/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "33378366-5f09-4fed-a90f-76771f686f1b",
+                        "name": "https://app.staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://app.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
             }
         ]
     }
