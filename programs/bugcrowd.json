@@ -50375,31 +50375,6 @@
         "programMigrationInProgress": null,
         "target_groups": [
             {
-                "id": "82ef2cf8-e7f8-4c4e-90cb-578ca0154194",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/skyscanner/target_groups/a596445a-01a4-42a1-9175-6477ae03437c/targets",
-                "targets": [
-                    {
-                        "id": "f7dda000-34d5-47e0-a15e-90fab9326daa",
-                        "name": "Corporate Email (*@skyscanner.net)",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
                 "id": "8783450e-7128-4c3e-a791-e8dae7b10027",
                 "name": "In scope targets",
                 "description_html": "",
@@ -50423,10 +50398,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/skyscanner/target_groups/92fe844f-a63d-4f7f-9093-7bf6c567295f/targets",
+                "targets_url": "/skyscanner/target_groups/2e2f9fac-6fbf-4c6f-b1ff-ea6336811214/targets",
                 "targets": [
                     {
-                        "id": "d715d7c5-0d11-44fd-b40f-102d57b69a35",
+                        "id": "75cc742d-a387-4ce7-a858-e47108b0a931",
                         "name": "*.skyscanner.net",
                         "description": null,
                         "category": "website",
@@ -50465,7 +50440,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "5a8dd08d-c158-4884-a1f6-51fe73317367",
+                        "id": "d9abfdd2-2c8a-42f1-88a3-a2992fa7b9c5",
                         "name": "skyscanner.net/*",
                         "description": null,
                         "category": "website",
@@ -50504,7 +50479,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "248b616d-7b54-4cd5-8917-7106de93f3ba",
+                        "id": "f83e6776-7194-45ca-874b-5ed31d3b0e0d",
                         "name": "gateway.skyscanner.net/*",
                         "description": null,
                         "category": "api",
@@ -50527,7 +50502,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ffc30f99-d0a4-4a90-b73b-cfda7bfb2a0a",
+                        "id": "19b6c83b-60cb-4ef3-9a56-0e37492c69af",
                         "name": "Skyscanner iOS App",
                         "description": null,
                         "category": "ios",
@@ -50562,7 +50537,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ab2965c9-cbd4-40c5-8b13-3648ee0c18a3",
+                        "id": "544a7010-602b-49a9-afc4-0ba01840a80d",
                         "name": "Skyscanner Android App",
                         "description": null,
                         "category": "android",
@@ -50593,7 +50568,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a60e85ed-498f-49e9-9719-a14efa5362f6",
+                        "id": "572a183f-89f5-4930-a198-29fdf708dd8e",
                         "name": "partnerportal.skyscanner.net/*",
                         "description": null,
                         "category": "website",
@@ -50624,7 +50599,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9fa74017-d36c-4daa-a13a-8eec1bfa48ca",
+                        "id": "6d889915-030d-4580-aca2-748ef20e7355",
                         "name": "skyscanner.net/hotels/book/*",
                         "description": null,
                         "category": "website",
@@ -50653,6 +50628,125 @@
                                     "name": "Website Testing"
                                 }
                             ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "3345b80c-5233-493b-a196-49c161339ced",
+                "name": "AI Bias Testing",
+                "description_html": "<h2>Overview</h2>\n\n<p>Our mobile application offers a unique feature for travelers to receive recommendations and destinations based on their specific queries. This functionality is powered by an instance of OpenAI, which processes user requests and provides appropriate location suggestions. The recommendations are limited to locations where we operate and are only available to users in English-speaking markets.</p>\n\n<h3>Functionality Description</h3>\n\n<ol>\n<li><p>User Query Submission:<br>\nUsers can submit queries asking for travel recommendations.<br>\nExample Query: \"I would like to make a gastronomic travel.\"</p></li>\n<li>\n<p>Response Generation:<br>\nThe OpenAI instance processes the query and responds with a list of valid destinations.<br>\nExample Output:</p>\n\n<ul>\n<li>Paris</li>\n<li>Tokyo</li>\n<li>Rome</li>\n</ul>\n</li>\n<li>\n<p>Market Limitation:</p>\n\n<ul>\n<li>This feature is only accessible in English-speaking markets.</li>\n<li>Recommendations are restricted to locations where our services are available.</li>\n</ul>\n</li>\n</ol>\n\n<h3>Scope of Testing</h3>\n\n<ul>\n<li>Verify that the functionality accurately processes user queries and returns appropriate destination recommendations.</li>\n<li>Confirm that the feature is only accessible to users in English-speaking markets.</li>\n<li>Verify that is not possible to perform attacks like prompt injection, data poisoning, etc</li>\n</ul>\n\n<h3>Exclusions</h3>\n\n<ul>\n<li>Internal information is not shared via this feature; therefore, the risk of data leakage is low.</li>\n<li>Testing should focus on the accuracy and validity of the recommendations rather than backend vulnerabilities, given the nature of the feature.</li>\n<li>Any other feature of the mobile application is out of the scope. </li>\n</ul>\n\n<p>Reporting Guidelines</p>\n\n<ul>\n<li>Clearly describe the steps to reproduce any issues found.</li>\n<li>Provide screenshots or recordings where possible to illustrate the issue.</li>\n<li>Ensure that any reported issues are within the scope of the described functionality.</li>\n</ul>\n\n<h3>Reward Criteria</h3>\n\n<ul>\n<li>Valid issues related to incorrect recommendations or access limitations will be considered for rewards.</li>\n<li>Out-of-scope issues, such as backend vulnerabilities unrelated to the described functionality, will not be eligible for rewards.</li>\n</ul>\n\n<h3>Example Query for Testing</h3>\n\n<p>Query: \"<em>I would like to explore historical sites.</em>\"<br>\nExpected Output: (Example)</p>\n\n<ul>\n<li>Athens</li>\n<li>Cairo</li>\n<li>Beijing</li>\n</ul>\n\n<p>By following these instructions, you can effectively test the travel recommendation functionality in our mobile application and contribute to improving its accuracy and reliability.</p>\n\n<p><img src=\"https://bugcrowd.com/skyscanner/attachments/c97e99fe-11ca-4b47-839b-686ce088aaa4\" alt=\"image001.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/d8a4618a-3653-4502-9734-b48295f730de\" alt=\"image002.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/4f1f30ad-1b13-4f96-99d2-d6f0da840328\" alt=\"image003.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/a55a4993-f89b-430b-982c-8f175698b838\" alt=\"image004.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/e264947f-f5ff-433c-9b83-3667533dedc4\" alt=\"image005.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/d9fe76ad-ef1f-48a7-9dca-cf6a07fa7ffb\" alt=\"image006.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/e6d71875-3a50-47ba-b142-0ebfc5c19097\" alt=\"image007.jpg\"></p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 900.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 150.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/skyscanner/target_groups/ffd3b6ea-009b-44ef-ad0a-8f8ab1efc5d2/targets",
+                "targets": [
+                    {
+                        "id": "4dbdc65a-2bdd-43b1-8367-7d595249d67a",
+                        "name": "Skyscanner iOS app",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8a9161ce-46e3-4c1c-bd1c-ba6c9be7a855",
+                        "name": "Skyscanner Android app",
+                        "description": null,
+                        "category": "android",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "82ef2cf8-e7f8-4c4e-90cb-578ca0154194",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 2,
+                "targets_url": "/skyscanner/target_groups/a16ffd67-8149-4641-89e5-1da2ffc92005/targets",
+                "targets": [
+                    {
+                        "id": "c6df31ef-4030-42fa-8b5f-b757ef9e52c3",
+                        "name": "Corporate Email (*@skyscanner.net)",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
                         },
                         "sort_order": 6,
                         "display_known_issues": false,
@@ -65911,243 +66005,6 @@
         ]
     },
     {
-        "name": "Acorns Grow, Inc.",
-        "tagline": "From acorns mighty oaks do grow",
-        "briefUrl": "/engagements/acorns",
-        "backgroundColor": "#74c947",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5269/3b42/d33c1aec/1ff80bd7f0fc20cf0fd4112371b8104e_Acorns_Square-01__1_.png",
-        "rewardSummary": {
-            "summary": "$200 - $3,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/acorns/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "f87cb44d-3bb7-49f7-91f7-2b13062c35fc",
-                "name": "Acorns Targets",
-                "targets": [
-                    {
-                        "id": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c",
-                        "uri": "https://acorns.com/",
-                        "name": "*.acorns.com/",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "c012baf1-28fe-49b7-a6c2-e905be6920b5",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript",
-                                    "targetId": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a756cf37-e6a8-4ecb-aceb-ef47452e880b",
-                        "uri": "https://apps.apple.com/us/app/acorns-invest-spare-change/id883324671",
-                        "name": "Acorns for iOS",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "ca9478c2-7208-46be-ae9d-87ffb049a8dd",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS",
-                                    "targetId": "a756cf37-e6a8-4ecb-aceb-ef47452e880b"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "b467ca53-818a-4110-9272-099a2740f4d1",
-                        "uri": "https://graphql.acorns.com",
-                        "name": "https://graphql.acorns.com",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "8ba40edb-4519-4df9-be0e-2b32e5a8ca1e",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4aeb1677-ac84-4afd-827e-054b363ca984",
-                                    "name": "GraphQL",
-                                    "targetId": "b467ca53-818a-4110-9272-099a2740f4d1"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "3c450ad5-8ef0-4576-85a1-9b9871b9a26c",
-                        "uri": "https://play.google.com/store/apps/details?id=com.acorns.android&hl=en_US&gl=US",
-                        "name": "Acorns for Android",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "50701aaf-5073-4dbf-95ac-1c3224e164c5",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android",
-                                    "targetId": "3c450ad5-8ef0-4576-85a1-9b9871b9a26c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "8fee83eb-1206-4d56-af36-9b27f9a7a6e9",
-                        "uri": "https://www.gohenry.com/",
-                        "name": "https://www.gohenry.com/",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "e9741ece-e2e4-4f63-9c9d-be57896edd06",
-                            "sort_order": 4
-                        },
-                        "sort_order": 4,
-                        "tags": null
-                    },
-                    {
-                        "id": "213d4931-967e-4a29-8a56-9b016ecb8cfb",
-                        "uri": "https://www.pixpay.fr/",
-                        "name": "https://www.pixpay.fr/",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "b90c53ad-cab3-43ba-b162-28b7b3f66f0f",
-                            "sort_order": 5
-                        },
-                        "sort_order": 5,
-                        "tags": null
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": "<ul>\n<li>All subdomains pertaining to Acorns.com </li>\n<li>All App Apis</li>\n<li>Any and all publicly exposed interfaces owned by Acorns that lead to system exploitation or sensitive information disclosure </li>\n<li>Android and IOS App testing </li>\n</ul>",
-                "reward_range": {
-                    "1": {
-                        "min": 3500,
-                        "max": 3500
-                    },
-                    "2": {
-                        "min": 1750,
-                        "max": 1750
-                    },
-                    "3": {
-                        "min": 650,
-                        "max": 650
-                    },
-                    "4": {
-                        "min": 200,
-                        "max": 200
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "59d33fe8-be7a-42d9-bdb7-3978e281a11b",
-                "name": "Out-Of-Scope",
-                "targets": [
-                    {
-                        "id": "5978250d-0fc0-45f3-a853-f9330cabf64d",
-                        "uri": "",
-                        "name": "share.acorns.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "3dacb37d-6a74-4b7e-9ea2-d48be505dc21",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "1327302b-c059-487d-80c0-4d8f92e54447",
-                        "uri": "",
-                        "name": "grow.acorns.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "6528d551-409a-4368-b6f7-9b5b8b79d073",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "3906d779-d158-4440-8ce8-c82bd5ae86bb",
-                        "uri": "",
-                        "name": "store.acorns.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "af1ff6d5-f7fd-487b-9706-e7d17b443655",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    }
-                ],
-                "in_scope": false,
-                "sort_order": 1,
-                "description": null,
-                "description_html": "<ul>\n<li>Rate limiting on endpoints</li>\n<li>Any attack that needs any type of social engineering tactic. (need access to customer email etc...)</li>\n<li>Denial of Service Attacks</li>\n</ul>",
-                "reward_range": {}
-            }
-        ]
-    },
-    {
         "name": "Luno Bug Bounty Program",
         "tagline": "Luno Bug Bounty Program",
         "briefUrl": "/engagements/luno-og",
@@ -67076,6 +66933,243 @@
                         "known_issues": {}
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Acorns Grow, Inc.",
+        "tagline": "From acorns mighty oaks do grow",
+        "briefUrl": "/engagements/acorns",
+        "backgroundColor": "#74c947",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5269/3b42/d33c1aec/1ff80bd7f0fc20cf0fd4112371b8104e_Acorns_Square-01__1_.png",
+        "rewardSummary": {
+            "summary": "$200 - $3,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/acorns/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "f87cb44d-3bb7-49f7-91f7-2b13062c35fc",
+                "name": "Acorns Targets",
+                "targets": [
+                    {
+                        "id": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c",
+                        "uri": "https://acorns.com/",
+                        "name": "*.acorns.com/",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c012baf1-28fe-49b7-a6c2-e905be6920b5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c"
+                                },
+                                {
+                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
+                                    "name": "Javascript",
+                                    "targetId": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a756cf37-e6a8-4ecb-aceb-ef47452e880b",
+                        "uri": "https://apps.apple.com/us/app/acorns-invest-spare-change/id883324671",
+                        "name": "Acorns for iOS",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "ca9478c2-7208-46be-ae9d-87ffb049a8dd",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "a756cf37-e6a8-4ecb-aceb-ef47452e880b"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b467ca53-818a-4110-9272-099a2740f4d1",
+                        "uri": "https://graphql.acorns.com",
+                        "name": "https://graphql.acorns.com",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "8ba40edb-4519-4df9-be0e-2b32e5a8ca1e",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4aeb1677-ac84-4afd-827e-054b363ca984",
+                                    "name": "GraphQL",
+                                    "targetId": "b467ca53-818a-4110-9272-099a2740f4d1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "3c450ad5-8ef0-4576-85a1-9b9871b9a26c",
+                        "uri": "https://play.google.com/store/apps/details?id=com.acorns.android&hl=en_US&gl=US",
+                        "name": "Acorns for Android",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "50701aaf-5073-4dbf-95ac-1c3224e164c5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "3c450ad5-8ef0-4576-85a1-9b9871b9a26c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "8fee83eb-1206-4d56-af36-9b27f9a7a6e9",
+                        "uri": "https://www.gohenry.com/",
+                        "name": "https://www.gohenry.com/",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "e9741ece-e2e4-4f63-9c9d-be57896edd06",
+                            "sort_order": 4
+                        },
+                        "sort_order": 4,
+                        "tags": null
+                    },
+                    {
+                        "id": "213d4931-967e-4a29-8a56-9b016ecb8cfb",
+                        "uri": "https://www.pixpay.fr/",
+                        "name": "https://www.pixpay.fr/",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b90c53ad-cab3-43ba-b162-28b7b3f66f0f",
+                            "sort_order": 5
+                        },
+                        "sort_order": 5,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<ul>\n<li>All subdomains pertaining to Acorns.com </li>\n<li>All App Apis</li>\n<li>Any and all publicly exposed interfaces owned by Acorns that lead to system exploitation or sensitive information disclosure </li>\n<li>Android and IOS App testing </li>\n</ul>",
+                "reward_range": {
+                    "1": {
+                        "min": 3500,
+                        "max": 3500
+                    },
+                    "2": {
+                        "min": 1750,
+                        "max": 1750
+                    },
+                    "3": {
+                        "min": 650,
+                        "max": 650
+                    },
+                    "4": {
+                        "min": 200,
+                        "max": 200
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "59d33fe8-be7a-42d9-bdb7-3978e281a11b",
+                "name": "Out-Of-Scope",
+                "targets": [
+                    {
+                        "id": "5978250d-0fc0-45f3-a853-f9330cabf64d",
+                        "uri": "",
+                        "name": "share.acorns.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "3dacb37d-6a74-4b7e-9ea2-d48be505dc21",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "1327302b-c059-487d-80c0-4d8f92e54447",
+                        "uri": "",
+                        "name": "grow.acorns.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6528d551-409a-4368-b6f7-9b5b8b79d073",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "3906d779-d158-4440-8ce8-c82bd5ae86bb",
+                        "uri": "",
+                        "name": "store.acorns.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "af1ff6d5-f7fd-487b-9706-e7d17b443655",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 1,
+                "description": null,
+                "description_html": "<ul>\n<li>Rate limiting on endpoints</li>\n<li>Any attack that needs any type of social engineering tactic. (need access to customer email etc...)</li>\n<li>Denial of Service Attacks</li>\n</ul>",
+                "reward_range": {}
             }
         ]
     },
@@ -72604,222 +72698,6 @@
         ]
     },
     {
-        "name": "Kaleido",
-        "tagline": "Help secure Kaleido, we are part of the Canva family! ",
-        "briefUrl": "/engagements/kaleido",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/kaleido/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "abc8122d-951d-4c96-be5d-ec574f2d76f8",
-                "name": "In Scope Targets",
-                "targets": [
-                    {
-                        "id": "6136b79b-e1ae-413e-a0be-da1c2d49c53f",
-                        "uri": "https://www.remove.bg",
-                        "name": "*.remove.bg",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "710cab38-5dea-4ff2-8b5b-58f30f284ce7",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN",
-                                    "targetId": "6136b79b-e1ae-413e-a0be-da1c2d49c53f"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud",
-                                    "targetId": "6136b79b-e1ae-413e-a0be-da1c2d49c53f"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery",
-                                    "targetId": "6136b79b-e1ae-413e-a0be-da1c2d49c53f"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "6136b79b-e1ae-413e-a0be-da1c2d49c53f"
-                                },
-                                {
-                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
-                                    "name": "Vue.js",
-                                    "targetId": "6136b79b-e1ae-413e-a0be-da1c2d49c53f"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "d425e584-f7d4-499e-a6de-7bae52a9d181",
-                        "uri": "https://www.designify.com",
-                        "name": "*.designify.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "23358dbe-126e-45a5-a39d-e2171c338e31",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN",
-                                    "targetId": "d425e584-f7d4-499e-a6de-7bae52a9d181"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud",
-                                    "targetId": "d425e584-f7d4-499e-a6de-7bae52a9d181"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS",
-                                    "targetId": "d425e584-f7d4-499e-a6de-7bae52a9d181"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "d425e584-f7d4-499e-a6de-7bae52a9d181"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "d425e584-f7d4-499e-a6de-7bae52a9d181"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "4fa98d40-2c92-458b-bb0e-66812d0d3e0d",
-                        "uri": "https://www.kaleido.ai",
-                        "name": "*.kaleido.ai",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "6e92fac1-06a3-4e1b-b5b3-dc54a28a4f86",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN",
-                                    "targetId": "4fa98d40-2c92-458b-bb0e-66812d0d3e0d"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "4fa98d40-2c92-458b-bb0e-66812d0d3e0d"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "bdfbc539-e0ad-4011-9877-d148d8e73bc8",
-                        "uri": "https://www.unscreen.com",
-                        "name": "*.unscreen.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "7c344b32-12b5-4343-b898-559fefa72922",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN",
-                                    "targetId": "bdfbc539-e0ad-4011-9877-d148d8e73bc8"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud",
-                                    "targetId": "bdfbc539-e0ad-4011-9877-d148d8e73bc8"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery",
-                                    "targetId": "bdfbc539-e0ad-4011-9877-d148d8e73bc8"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "bdfbc539-e0ad-4011-9877-d148d8e73bc8"
-                                },
-                                {
-                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
-                                    "name": "Vue.js",
-                                    "targetId": "bdfbc539-e0ad-4011-9877-d148d8e73bc8"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 6000,
-                        "max": 6000
-                    },
-                    "2": {
-                        "min": 2500,
-                        "max": 2500
-                    },
-                    "3": {
-                        "min": 850,
-                        "max": 850
-                    },
-                    "4": {
-                        "min": 100,
-                        "max": 100
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            }
-        ]
-    },
-    {
         "name": "Sophos",
         "tagline": "Responsible disclosure with rewards up to US$50,000",
         "briefUrl": "/engagements/sophos",
@@ -73992,6 +73870,222 @@
                         "known_issues": {}
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Kaleido",
+        "tagline": "Help secure Kaleido, we are part of the Canva family! ",
+        "briefUrl": "/engagements/kaleido",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/kaleido/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "abc8122d-951d-4c96-be5d-ec574f2d76f8",
+                "name": "In Scope Targets",
+                "targets": [
+                    {
+                        "id": "6136b79b-e1ae-413e-a0be-da1c2d49c53f",
+                        "uri": "https://www.remove.bg",
+                        "name": "*.remove.bg",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "710cab38-5dea-4ff2-8b5b-58f30f284ce7",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN",
+                                    "targetId": "6136b79b-e1ae-413e-a0be-da1c2d49c53f"
+                                },
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud",
+                                    "targetId": "6136b79b-e1ae-413e-a0be-da1c2d49c53f"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery",
+                                    "targetId": "6136b79b-e1ae-413e-a0be-da1c2d49c53f"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "6136b79b-e1ae-413e-a0be-da1c2d49c53f"
+                                },
+                                {
+                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
+                                    "name": "Vue.js",
+                                    "targetId": "6136b79b-e1ae-413e-a0be-da1c2d49c53f"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "d425e584-f7d4-499e-a6de-7bae52a9d181",
+                        "uri": "https://www.designify.com",
+                        "name": "*.designify.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "23358dbe-126e-45a5-a39d-e2171c338e31",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN",
+                                    "targetId": "d425e584-f7d4-499e-a6de-7bae52a9d181"
+                                },
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud",
+                                    "targetId": "d425e584-f7d4-499e-a6de-7bae52a9d181"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS",
+                                    "targetId": "d425e584-f7d4-499e-a6de-7bae52a9d181"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "d425e584-f7d4-499e-a6de-7bae52a9d181"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "d425e584-f7d4-499e-a6de-7bae52a9d181"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "4fa98d40-2c92-458b-bb0e-66812d0d3e0d",
+                        "uri": "https://www.kaleido.ai",
+                        "name": "*.kaleido.ai",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6e92fac1-06a3-4e1b-b5b3-dc54a28a4f86",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN",
+                                    "targetId": "4fa98d40-2c92-458b-bb0e-66812d0d3e0d"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "4fa98d40-2c92-458b-bb0e-66812d0d3e0d"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "bdfbc539-e0ad-4011-9877-d148d8e73bc8",
+                        "uri": "https://www.unscreen.com",
+                        "name": "*.unscreen.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "7c344b32-12b5-4343-b898-559fefa72922",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN",
+                                    "targetId": "bdfbc539-e0ad-4011-9877-d148d8e73bc8"
+                                },
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud",
+                                    "targetId": "bdfbc539-e0ad-4011-9877-d148d8e73bc8"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery",
+                                    "targetId": "bdfbc539-e0ad-4011-9877-d148d8e73bc8"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "bdfbc539-e0ad-4011-9877-d148d8e73bc8"
+                                },
+                                {
+                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
+                                    "name": "Vue.js",
+                                    "targetId": "bdfbc539-e0ad-4011-9877-d148d8e73bc8"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 6000,
+                        "max": 6000
+                    },
+                    "2": {
+                        "min": 2500,
+                        "max": 2500
+                    },
+                    "3": {
+                        "min": 850,
+                        "max": 850
+                    },
+                    "4": {
+                        "min": 100,
+                        "max": 100
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
             }
         ]
     },
