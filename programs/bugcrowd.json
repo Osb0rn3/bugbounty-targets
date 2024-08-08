@@ -44774,6 +44774,338 @@
         ]
     },
     {
+        "name": "Octopus",
+        "tagline": "Octopus Bug Bounty Program",
+        "briefUrl": "/engagements/octopus-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/35eb/fbe1/e04f925e/fd58ea5d8d6747881d2c627ecf5bb84f_octops.png",
+        "rewardSummary": {
+            "summary": "$200 - $6,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/octopus-og/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "444ddc7f-ee00-45ff-b126-79cae2234abb",
+                "name": "In Scope",
+                "targets": [
+                    {
+                        "id": "117aead5-bca8-4284-bd25-0bf0a94482e3",
+                        "uri": "",
+                        "name": "*.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "fe8fc539-7a05-4830-816d-d1d0a5896f58",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing",
+                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
+                                },
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca",
+                        "uri": "https://github.com/OctopusDeploy",
+                        "name": "Octopus Deploy Git Repo",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "bc1e0339-51cc-43de-b150-588efee5c03c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
+                                },
+                                {
+                                    "id": "d58504e3-97f9-45ef-95aa-4a413a07190c",
+                                    "name": "Static Code Analysis",
+                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
+                                },
+                                {
+                                    "id": "e6a92521-9abd-43e3-90a3-9c7b1b72f12a",
+                                    "name": "Code review",
+                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5",
+                        "uri": "https://octopus.com",
+                        "name": "octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "9e2a4a9b-54c2-4b7b-be64-662510bc5cce",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
+                                    "name": ".NET",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
+                                    "name": "Microsoft IIS",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba",
+                        "uri": "https://aiagent.octopus.com/api/form",
+                        "name": "Octopus GitHub Copilot",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "4173a63b-77b4-4816-be7e-5690b1c1dbc0",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
+                                    "name": ".NET",
+                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
+                                },
+                                {
+                                    "id": "d14cf1dd-8069-48ef-9a2b-779bf3a066f9",
+                                    "name": "Artificial Intelligence",
+                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<p>Please note that dependencies with known issues within the GitHub are not considered valid without a working proof of concept that affects the actual platform. In addition, API keys on their own are not considered valid. In order to have a valid leaked API key, the domain URL must be referencing an Octopus domain that fits *.octopus.app. Any API keys with localhost or test within their name are considered invalid.</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 6000,
+                        "max": 6000
+                    },
+                    "2": {
+                        "min": 2000,
+                        "max": 3000
+                    },
+                    "3": {
+                        "min": 500,
+                        "max": 1000
+                    },
+                    "4": {
+                        "min": 200,
+                        "max": 300
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "a7637142-53e1-48b5-9452-0289587df061",
+                "name": "Out of scope targets",
+                "targets": [
+                    {
+                        "id": "5e0fd47d-0bfe-4347-92eb-b640cd69123c",
+                        "uri": null,
+                        "name": "*.octopus.app",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "d6732000-b651-410d-b8cd-66c0b4bd29f0",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "5e0fd47d-0bfe-4347-92eb-b640cd69123c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "f319331d-982a-4202-83b9-6b1c2c93e95b",
+                        "uri": "",
+                        "name": "artifactorysample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "d54cfc22-4f98-45b0-bf55-1ce90100da36",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "70deefc9-e797-4e08-a05b-8afb451d7c0f",
+                        "uri": "",
+                        "name": "bamboosample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "9baac406-d31b-4b25-a5e2-5735194acbc5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "20844a77-0de8-4e2a-91a4-0a2248cbc1e2",
+                        "uri": "",
+                        "name": "jenkinssample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c53e0957-362d-4d18-9040-74d40244cd84",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "855fe80f-3887-4b1e-a1b5-d0a672a0221c",
+                        "uri": "",
+                        "name": "teamcitysample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "34202946-ef20-452c-a38b-c50e2eb5f028",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "68c19a59-75e6-4296-92ef-c838132110b1",
+                        "uri": "",
+                        "name": "nexussample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "7447053f-f4b5-460f-b96e-cbbc4f11d936",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "a1c034c1-6b6f-47a7-9186-ef331cafc70d",
+                        "uri": "",
+                        "name": "myget.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "7c21b8c4-a214-4f88-9871-320d45945566",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "1785ff6f-2a1d-4755-b47f-ae46faf63783",
+                        "uri": "",
+                        "name": " partners.octopus.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "dc8de3f1-a12d-4540-b8dc-d2a841d49c09",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 1,
+                "description": null,
+                "description_html": null,
+                "reward_range": {}
+            }
+        ]
+    },
+    {
         "name": "Pexels",
         "tagline": "Pexels' Vulnerability Disclosure Program",
         "briefUrl": "/engagements/pexels",
@@ -45112,338 +45444,6 @@
                 "sort_order": 1,
                 "description": null,
                 "description_html": "<ul>\n<li>Scanning should be limited to 2 requests per second</li>\n<li>No Denial of Service testing, including app level DOS</li>\n<li>Please do not send recurring demo or registration SMSs, testing for rate limits is out of scope for this functionality</li>\n<li><strong>Clinic User privilege escalation - we&#39;re aware of broken authorization which allows Clinic Users to interact with products they cannot see in the UI via the API directly</strong></li>\n<li>Cross-Site Scripting - we&#39;re aware of a bug in our user-input validation logic which allows for some Cross-Site Scripting attacks, both from Clinic User to Clinic User and Clinic User to Patient User</li>\n<li>Unauthenticated messages to the Zendesk API - we allow unauthenticated users to use both our Support Centre and the Zendesk widget without requiring them to log in. This is an acceptable risk to us as a business.</li>\n<li>Dumps of credentials found online containing data relating to HotDoc users will qualify for a small reward, but, without showing evidence of a security vulnerability on our platform will be marked as Informational.</li>\n</ul>",
-                "reward_range": {}
-            }
-        ]
-    },
-    {
-        "name": "Octopus",
-        "tagline": "Octopus Bug Bounty Program",
-        "briefUrl": "/engagements/octopus-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/35eb/fbe1/e04f925e/fd58ea5d8d6747881d2c627ecf5bb84f_octops.png",
-        "rewardSummary": {
-            "summary": "$200 - $6,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/octopus-og/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "444ddc7f-ee00-45ff-b126-79cae2234abb",
-                "name": "In Scope",
-                "targets": [
-                    {
-                        "id": "117aead5-bca8-4284-bd25-0bf0a94482e3",
-                        "uri": "",
-                        "name": "*.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "fe8fc539-7a05-4830-816d-d1d0a5896f58",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing",
-                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
-                                },
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca",
-                        "uri": "https://github.com/OctopusDeploy",
-                        "name": "Octopus Deploy Git Repo",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "bc1e0339-51cc-43de-b150-588efee5c03c",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
-                                },
-                                {
-                                    "id": "d58504e3-97f9-45ef-95aa-4a413a07190c",
-                                    "name": "Static Code Analysis",
-                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
-                                },
-                                {
-                                    "id": "e6a92521-9abd-43e3-90a3-9c7b1b72f12a",
-                                    "name": "Code review",
-                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5",
-                        "uri": "https://octopus.com",
-                        "name": "octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "9e2a4a9b-54c2-4b7b-be64-662510bc5cce",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
-                                    "name": ".NET",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba",
-                        "uri": "https://aiagent.octopus.com/api/form",
-                        "name": "Octopus GitHub Copilot",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "4173a63b-77b4-4816-be7e-5690b1c1dbc0",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
-                                    "name": ".NET",
-                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
-                                },
-                                {
-                                    "id": "d14cf1dd-8069-48ef-9a2b-779bf3a066f9",
-                                    "name": "Artificial Intelligence",
-                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": "<p>Please note that dependencies with known issues within the GitHub are not considered valid without a working proof of concept that affects the actual platform. In addition, API keys on their own are not considered valid. In order to have a valid leaked API key, the domain URL must be referencing an Octopus domain that fits *.octopus.app. Any API keys with localhost or test within their name are considered invalid.</p>",
-                "reward_range": {
-                    "1": {
-                        "min": 6000,
-                        "max": 6000
-                    },
-                    "2": {
-                        "min": 2000,
-                        "max": 3000
-                    },
-                    "3": {
-                        "min": 500,
-                        "max": 1000
-                    },
-                    "4": {
-                        "min": 200,
-                        "max": 300
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "a7637142-53e1-48b5-9452-0289587df061",
-                "name": "Out of scope targets",
-                "targets": [
-                    {
-                        "id": "5e0fd47d-0bfe-4347-92eb-b640cd69123c",
-                        "uri": null,
-                        "name": "*.octopus.app",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "d6732000-b651-410d-b8cd-66c0b4bd29f0",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "5e0fd47d-0bfe-4347-92eb-b640cd69123c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "f319331d-982a-4202-83b9-6b1c2c93e95b",
-                        "uri": "",
-                        "name": "artifactorysample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "d54cfc22-4f98-45b0-bf55-1ce90100da36",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "70deefc9-e797-4e08-a05b-8afb451d7c0f",
-                        "uri": "",
-                        "name": "bamboosample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "9baac406-d31b-4b25-a5e2-5735194acbc5",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "20844a77-0de8-4e2a-91a4-0a2248cbc1e2",
-                        "uri": "",
-                        "name": "jenkinssample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "c53e0957-362d-4d18-9040-74d40244cd84",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "855fe80f-3887-4b1e-a1b5-d0a672a0221c",
-                        "uri": "",
-                        "name": "teamcitysample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "34202946-ef20-452c-a38b-c50e2eb5f028",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "68c19a59-75e6-4296-92ef-c838132110b1",
-                        "uri": "",
-                        "name": "nexussample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "7447053f-f4b5-460f-b96e-cbbc4f11d936",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "a1c034c1-6b6f-47a7-9186-ef331cafc70d",
-                        "uri": "",
-                        "name": "myget.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "7c21b8c4-a214-4f88-9871-320d45945566",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "1785ff6f-2a1d-4755-b47f-ae46faf63783",
-                        "uri": "",
-                        "name": " partners.octopus.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "dc8de3f1-a12d-4540-b8dc-d2a841d49c09",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    }
-                ],
-                "in_scope": false,
-                "sort_order": 1,
-                "description": null,
-                "description_html": null,
                 "reward_range": {}
             }
         ]
@@ -48807,10 +48807,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/fis/target_groups/2cbd3d4c-d930-45bb-b445-6aa99dda8fd9/targets",
+                "targets_url": "/fis/target_groups/f99350f8-caf4-4e13-9a19-eb45f7fc65f0/targets",
                 "targets": [
                     {
-                        "id": "2ef92f71-43f1-4188-9e29-0d8c8ad10845",
+                        "id": "72b1e42b-f5e9-4f33-97d4-ab21acbc1adc",
                         "name": "Any FIS asset is in scope",
                         "description": null,
                         "category": "website",
@@ -48828,14 +48828,14 @@
             {
                 "id": "da7a05e6-1da5-49b9-b82d-034635946999",
                 "name": "Out of Scope",
-                "description_html": "<p>Unless a return to scope date is explicitly specified, the following assets are considered indefinitely out of scope:</p>\n\n<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com (Testing can be done here instead ID-UAT1.fisglobal.com )</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com </li>\n<li>ap-uat1.fisglobal.com </li>\n<li>ap-uat2.fisglobal.com </li>\n<li>ap-uat3.fisglobal.com</li>\n<li>id-uat.fisglobal.com </li>\n<li>myloanportal.commercebank.com </li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: ID-UAT1.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments) </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 8/20/2024)</li>\n</ul>",
+                "description_html": "<p>Unless a return to scope date is explicitly specified, the following assets are considered indefinitely out of scope:</p>\n\n<ul>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>xxxlendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>MyLoanPortal.commercebank.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>loanapps.fcbca.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>portaltest.fisglobal.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>lendinghfs.hatborofed.com</li>\n<li>loans.bankofluxemburg.com</li>\n<li>loans.collinsstatebank.com</li>\n<li>loans.fmberlin.com</li>\n<li>creditcards.first-online.com</li>\n<li>loans.hickorypointbank.com</li>\n<li>loans.pattersonstatebank.com</li>\n<li>loan.summitfgi.com</li>\n<li>lending.tristar.bank</li>\n<li>idmt1.fisglobal.com</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>apuat-bankiowa.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com</li>\n<li>apuat-fcbca.fisglobal.com</li>\n<li>apuat-fnbgranbury.fisglobal.com</li>\n<li>apuat-highlands.fisglobal.com</li>\n<li>apuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>apuat-plainscapitol.fisglobal.com</li>\n<li>apuat-primesouth.fisglobal.com</li>\n<li>xxxap-uat3.fisglobal.com</li>\n<li>ID-UAT1.fisglobal.com</li>\n<li>apuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>apuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>id-uat.fisglobal.com</li>\n<li>id-uat3.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com </li>\n<li>ap-uat3.fisglobal.com</li>\n<li>id-uat.fisglobal.com </li>\n<li>myloanportal.commercebank.com </li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankiowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat1.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>sedgwick assets</li>\n<li>sungard availability services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>results-loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>intelhub-webuat.fisglobal.com</li>\n<li>intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>testintelhub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments) </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 8/20/2024)</li>\n</ul>",
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 1,
-                "targets_url": "/fis/target_groups/290b190a-0b88-4e58-9cee-391d0020008e/targets",
+                "targets_url": "/fis/target_groups/ee250d8f-13dc-444c-8ad5-97619c6990b0/targets",
                 "targets": [
                     {
-                        "id": "3708abe3-576b-4a03-b117-baf63c05915e",
+                        "id": "92323f11-ed52-4c4d-935a-f0a9acf0fb73",
                         "name": "Reference above out of scope targets",
                         "description": null,
                         "category": "website",
@@ -76853,91 +76853,6 @@
         ]
     },
     {
-        "name": "Skroutz Public Managed Bug Bounty",
-        "tagline": "Skroutz",
-        "briefUrl": "/skroutz",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $4,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/skroutz/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0922b3fe-7cf5-4d1d-bb95-65658502f222",
-                "name": "Skroutz Public Application",
-                "description_html": "<p>You are testing directly on Skroutz's production environment. Behavior that compromises the stability and integrity of the site is strictly forbidden &amp; out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please cease all further testing and report it immediately.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4100.0,
-                        "max": 4500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1750.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/skroutz/target_groups/b7b2af83-8a4d-43c0-b626-501a3c28aa85/targets",
-                "targets": [
-                    {
-                        "id": "3c05937b-57d9-4224-9336-45ee3d96c41e",
-                        "name": "https://www.skroutz.gr/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.skroutz.gr/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Etsy",
         "tagline": "Shop for anything from creative people everywhere",
         "briefUrl": "/etsy",
@@ -77366,6 +77281,91 @@
                             ]
                         },
                         "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Skroutz Public Managed Bug Bounty",
+        "tagline": "Skroutz",
+        "briefUrl": "/skroutz",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $4,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/skroutz/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "0922b3fe-7cf5-4d1d-bb95-65658502f222",
+                "name": "Skroutz Public Application",
+                "description_html": "<p>You are testing directly on Skroutz's production environment. Behavior that compromises the stability and integrity of the site is strictly forbidden &amp; out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please cease all further testing and report it immediately.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4100.0,
+                        "max": 4500.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1750.0
+                    },
+                    "3": {
+                        "min": 600.0,
+                        "max": 850.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/skroutz/target_groups/b7b2af83-8a4d-43c0-b626-501a3c28aa85/targets",
+                "targets": [
+                    {
+                        "id": "3c05937b-57d9-4224-9336-45ee3d96c41e",
+                        "name": "https://www.skroutz.gr/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.skroutz.gr/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
