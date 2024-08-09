@@ -44463,338 +44463,6 @@
         ]
     },
     {
-        "name": "Octopus",
-        "tagline": "Octopus Bug Bounty Program",
-        "briefUrl": "/engagements/octopus-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/35eb/fbe1/e04f925e/fd58ea5d8d6747881d2c627ecf5bb84f_octops.png",
-        "rewardSummary": {
-            "summary": "$200 - $6,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/octopus-og/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "444ddc7f-ee00-45ff-b126-79cae2234abb",
-                "name": "In Scope",
-                "targets": [
-                    {
-                        "id": "117aead5-bca8-4284-bd25-0bf0a94482e3",
-                        "uri": "",
-                        "name": "*.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "fe8fc539-7a05-4830-816d-d1d0a5896f58",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing",
-                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
-                                },
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca",
-                        "uri": "https://github.com/OctopusDeploy",
-                        "name": "Octopus Deploy Git Repo",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "bc1e0339-51cc-43de-b150-588efee5c03c",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
-                                },
-                                {
-                                    "id": "d58504e3-97f9-45ef-95aa-4a413a07190c",
-                                    "name": "Static Code Analysis",
-                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
-                                },
-                                {
-                                    "id": "e6a92521-9abd-43e3-90a3-9c7b1b72f12a",
-                                    "name": "Code review",
-                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5",
-                        "uri": "https://octopus.com",
-                        "name": "octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "9e2a4a9b-54c2-4b7b-be64-662510bc5cce",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
-                                    "name": ".NET",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba",
-                        "uri": "https://aiagent.octopus.com/api/form",
-                        "name": "Octopus GitHub Copilot",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "4173a63b-77b4-4816-be7e-5690b1c1dbc0",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
-                                    "name": ".NET",
-                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
-                                },
-                                {
-                                    "id": "d14cf1dd-8069-48ef-9a2b-779bf3a066f9",
-                                    "name": "Artificial Intelligence",
-                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": "<p>Please note that dependencies with known issues within the GitHub are not considered valid without a working proof of concept that affects the actual platform. In addition, API keys on their own are not considered valid. In order to have a valid leaked API key, the domain URL must be referencing an Octopus domain that fits *.octopus.app. Any API keys with localhost or test within their name are considered invalid.</p>",
-                "reward_range": {
-                    "1": {
-                        "min": 6000,
-                        "max": 6000
-                    },
-                    "2": {
-                        "min": 2000,
-                        "max": 3000
-                    },
-                    "3": {
-                        "min": 500,
-                        "max": 1000
-                    },
-                    "4": {
-                        "min": 200,
-                        "max": 300
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "a7637142-53e1-48b5-9452-0289587df061",
-                "name": "Out of scope targets",
-                "targets": [
-                    {
-                        "id": "5e0fd47d-0bfe-4347-92eb-b640cd69123c",
-                        "uri": null,
-                        "name": "*.octopus.app",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "d6732000-b651-410d-b8cd-66c0b4bd29f0",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "5e0fd47d-0bfe-4347-92eb-b640cd69123c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "f319331d-982a-4202-83b9-6b1c2c93e95b",
-                        "uri": "",
-                        "name": "artifactorysample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "d54cfc22-4f98-45b0-bf55-1ce90100da36",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "70deefc9-e797-4e08-a05b-8afb451d7c0f",
-                        "uri": "",
-                        "name": "bamboosample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "9baac406-d31b-4b25-a5e2-5735194acbc5",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "20844a77-0de8-4e2a-91a4-0a2248cbc1e2",
-                        "uri": "",
-                        "name": "jenkinssample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "c53e0957-362d-4d18-9040-74d40244cd84",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "855fe80f-3887-4b1e-a1b5-d0a672a0221c",
-                        "uri": "",
-                        "name": "teamcitysample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "34202946-ef20-452c-a38b-c50e2eb5f028",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "68c19a59-75e6-4296-92ef-c838132110b1",
-                        "uri": "",
-                        "name": "nexussample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "7447053f-f4b5-460f-b96e-cbbc4f11d936",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "a1c034c1-6b6f-47a7-9186-ef331cafc70d",
-                        "uri": "",
-                        "name": "myget.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "7c21b8c4-a214-4f88-9871-320d45945566",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "1785ff6f-2a1d-4755-b47f-ae46faf63783",
-                        "uri": "",
-                        "name": " partners.octopus.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "dc8de3f1-a12d-4540-b8dc-d2a841d49c09",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    }
-                ],
-                "in_scope": false,
-                "sort_order": 1,
-                "description": null,
-                "description_html": null,
-                "reward_range": {}
-            }
-        ]
-    },
-    {
         "name": "Pexels",
         "tagline": "Pexels' Vulnerability Disclosure Program",
         "briefUrl": "/engagements/pexels",
@@ -45133,6 +44801,338 @@
                 "sort_order": 1,
                 "description": null,
                 "description_html": "<ul>\n<li>Scanning should be limited to 2 requests per second</li>\n<li>No Denial of Service testing, including app level DOS</li>\n<li>Please do not send recurring demo or registration SMSs, testing for rate limits is out of scope for this functionality</li>\n<li><strong>Clinic User privilege escalation - we&#39;re aware of broken authorization which allows Clinic Users to interact with products they cannot see in the UI via the API directly</strong></li>\n<li>Cross-Site Scripting - we&#39;re aware of a bug in our user-input validation logic which allows for some Cross-Site Scripting attacks, both from Clinic User to Clinic User and Clinic User to Patient User</li>\n<li>Unauthenticated messages to the Zendesk API - we allow unauthenticated users to use both our Support Centre and the Zendesk widget without requiring them to log in. This is an acceptable risk to us as a business.</li>\n<li>Dumps of credentials found online containing data relating to HotDoc users will qualify for a small reward, but, without showing evidence of a security vulnerability on our platform will be marked as Informational.</li>\n</ul>",
+                "reward_range": {}
+            }
+        ]
+    },
+    {
+        "name": "Octopus",
+        "tagline": "Octopus Bug Bounty Program",
+        "briefUrl": "/engagements/octopus-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/35eb/fbe1/e04f925e/fd58ea5d8d6747881d2c627ecf5bb84f_octops.png",
+        "rewardSummary": {
+            "summary": "$200 - $6,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/octopus-og/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "444ddc7f-ee00-45ff-b126-79cae2234abb",
+                "name": "In Scope",
+                "targets": [
+                    {
+                        "id": "117aead5-bca8-4284-bd25-0bf0a94482e3",
+                        "uri": "",
+                        "name": "*.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "fe8fc539-7a05-4830-816d-d1d0a5896f58",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing",
+                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
+                                },
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca",
+                        "uri": "https://github.com/OctopusDeploy",
+                        "name": "Octopus Deploy Git Repo",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "bc1e0339-51cc-43de-b150-588efee5c03c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
+                                },
+                                {
+                                    "id": "d58504e3-97f9-45ef-95aa-4a413a07190c",
+                                    "name": "Static Code Analysis",
+                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
+                                },
+                                {
+                                    "id": "e6a92521-9abd-43e3-90a3-9c7b1b72f12a",
+                                    "name": "Code review",
+                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5",
+                        "uri": "https://octopus.com",
+                        "name": "octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "9e2a4a9b-54c2-4b7b-be64-662510bc5cce",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
+                                    "name": ".NET",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
+                                    "name": "Microsoft IIS",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba",
+                        "uri": "https://aiagent.octopus.com/api/form",
+                        "name": "Octopus GitHub Copilot",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "4173a63b-77b4-4816-be7e-5690b1c1dbc0",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
+                                    "name": ".NET",
+                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
+                                },
+                                {
+                                    "id": "d14cf1dd-8069-48ef-9a2b-779bf3a066f9",
+                                    "name": "Artificial Intelligence",
+                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<p>Please note that dependencies with known issues within the GitHub are not considered valid without a working proof of concept that affects the actual platform. In addition, API keys on their own are not considered valid. In order to have a valid leaked API key, the domain URL must be referencing an Octopus domain that fits *.octopus.app. Any API keys with localhost or test within their name are considered invalid.</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 6000,
+                        "max": 6000
+                    },
+                    "2": {
+                        "min": 2000,
+                        "max": 3000
+                    },
+                    "3": {
+                        "min": 500,
+                        "max": 1000
+                    },
+                    "4": {
+                        "min": 200,
+                        "max": 300
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "a7637142-53e1-48b5-9452-0289587df061",
+                "name": "Out of scope targets",
+                "targets": [
+                    {
+                        "id": "5e0fd47d-0bfe-4347-92eb-b640cd69123c",
+                        "uri": null,
+                        "name": "*.octopus.app",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "d6732000-b651-410d-b8cd-66c0b4bd29f0",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "5e0fd47d-0bfe-4347-92eb-b640cd69123c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "f319331d-982a-4202-83b9-6b1c2c93e95b",
+                        "uri": "",
+                        "name": "artifactorysample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "d54cfc22-4f98-45b0-bf55-1ce90100da36",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "70deefc9-e797-4e08-a05b-8afb451d7c0f",
+                        "uri": "",
+                        "name": "bamboosample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "9baac406-d31b-4b25-a5e2-5735194acbc5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "20844a77-0de8-4e2a-91a4-0a2248cbc1e2",
+                        "uri": "",
+                        "name": "jenkinssample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c53e0957-362d-4d18-9040-74d40244cd84",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "855fe80f-3887-4b1e-a1b5-d0a672a0221c",
+                        "uri": "",
+                        "name": "teamcitysample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "34202946-ef20-452c-a38b-c50e2eb5f028",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "68c19a59-75e6-4296-92ef-c838132110b1",
+                        "uri": "",
+                        "name": "nexussample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "7447053f-f4b5-460f-b96e-cbbc4f11d936",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "a1c034c1-6b6f-47a7-9186-ef331cafc70d",
+                        "uri": "",
+                        "name": "myget.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "7c21b8c4-a214-4f88-9871-320d45945566",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "1785ff6f-2a1d-4755-b47f-ae46faf63783",
+                        "uri": "",
+                        "name": " partners.octopus.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "dc8de3f1-a12d-4540-b8dc-d2a841d49c09",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 1,
+                "description": null,
+                "description_html": null,
                 "reward_range": {}
             }
         ]
@@ -47821,317 +47821,6 @@
         ]
     },
     {
-        "name": "Cloudinary",
-        "tagline": "Cloud image & video upload, storage, management & CDN",
-        "briefUrl": "/engagements/cloudinary",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/00e9/d2ab/8e6d2e66/f41672f6159050694f2c7b3133015a50_cloudinary_cloud_glyph_blue_png.png",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": "Up to $7,000",
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": "Up to $7,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Cloud",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/cloudinary/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "d87780e7-44f3-4af5-b903-a2087acc18a3",
-                "name": "In Scope Targets",
-                "targets": [
-                    {
-                        "id": "2c5d9787-8ade-4be9-897b-01d3365bc408",
-                        "uri": "https://cloudinary.com/console",
-                        "name": "https://cloudinary.com/console",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "16522334-dd10-42bb-a3d8-93705aeb763c",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails",
-                                    "targetId": "2c5d9787-8ade-4be9-897b-01d3365bc408"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "2c5d9787-8ade-4be9-897b-01d3365bc408"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "38ed5e57-cd50-45dc-843a-e01e5df65ba5",
-                        "uri": "https://api.cloudinary.com",
-                        "name": "https://api.cloudinary.com",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "29cfc543-51b5-49a6-ae39-2a6a42972156",
-                            "sort_order": 1
-                        },
-                        "sort_order": 1,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "38ed5e57-cd50-45dc-843a-e01e5df65ba5"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails",
-                                    "targetId": "38ed5e57-cd50-45dc-843a-e01e5df65ba5"
-                                },
-                                {
-                                    "id": "6a9fe373-cb50-48a4-8f00-f390acde8447",
-                                    "name": "JSON",
-                                    "targetId": "38ed5e57-cd50-45dc-843a-e01e5df65ba5"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP",
-                                    "targetId": "38ed5e57-cd50-45dc-843a-e01e5df65ba5"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "4d10c13a-1514-4ace-9b62-4ef4bb589d6e",
-                        "uri": "https://res.cloudinary.com",
-                        "name": "https://res.cloudinary.com",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "91015433-55e0-4d25-aa13-90de898aacb6",
-                            "sort_order": 2
-                        },
-                        "sort_order": 2,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "4d10c13a-1514-4ace-9b62-4ef4bb589d6e"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails",
-                                    "targetId": "4d10c13a-1514-4ace-9b62-4ef4bb589d6e"
-                                },
-                                {
-                                    "id": "6a9fe373-cb50-48a4-8f00-f390acde8447",
-                                    "name": "JSON",
-                                    "targetId": "4d10c13a-1514-4ace-9b62-4ef4bb589d6e"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP",
-                                    "targetId": "4d10c13a-1514-4ace-9b62-4ef4bb589d6e"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 2000,
-                        "max": 4000
-                    },
-                    "2": {
-                        "min": 500,
-                        "max": 2000
-                    },
-                    "3": {
-                        "min": 0,
-                        "max": 500
-                    },
-                    "4": {
-                        "min": null,
-                        "max": null
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    },
-                    "programMax": 7000
-                }
-            },
-            {
-                "id": "f659f8b6-041e-4009-a433-8464b6a8db0a",
-                "name": "In Scope Tier II",
-                "targets": [
-                    {
-                        "id": "fe7a647e-d851-487a-9072-d1dfb181f703",
-                        "uri": "https://mediaflows.cloudinary.com/",
-                        "name": "mediaflows.cloudinary.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "274f36df-e9ee-427d-8288-835f832f23cc",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "fe7a647e-d851-487a-9072-d1dfb181f703"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "fe7a647e-d851-487a-9072-d1dfb181f703"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "fe7a647e-d851-487a-9072-d1dfb181f703"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "9327489f-d558-4923-aaef-00918bdd5164",
-                        "uri": "https://dimensions.cloudinary.com",
-                        "name": "dimensions.cloudinary.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "8ccfa046-5daa-4bc7-8b12-e64f69e6fdb0",
-                            "sort_order": 1
-                        },
-                        "sort_order": 1,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "9327489f-d558-4923-aaef-00918bdd5164"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "9327489f-d558-4923-aaef-00918bdd5164"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 1,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 500,
-                        "max": 1000
-                    },
-                    "2": {
-                        "min": 0,
-                        "max": 500
-                    },
-                    "3": {
-                        "min": null,
-                        "max": null
-                    },
-                    "4": {
-                        "min": null,
-                        "max": null
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "f4a166de-7399-4e64-9d4b-3b82c58b1f7c",
-                "name": "Out of scope",
-                "targets": [
-                    {
-                        "id": "f0464701-dba1-4864-ba4c-39fa68b3c9c1",
-                        "uri": null,
-                        "name": "https://support.cloudinary.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "2bcbcb3b-d85d-409c-bedb-b2a7c19b4f02",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "f0464701-dba1-4864-ba4c-39fa68b3c9c1"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "ffa36883-a2ef-47b2-bde8-7b1201d0ff93",
-                        "uri": null,
-                        "name": "wiki.cloudinary.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "76e43cee-9cdf-4ce5-927b-32d0a0cbc9e1",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ffa36883-a2ef-47b2-bde8-7b1201d0ff93"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": false,
-                "sort_order": 2,
-                "description": null,
-                "description_html": null,
-                "reward_range": {}
-            }
-        ]
-    },
-    {
         "name": "Tesla",
         "tagline": "Accelerating the world\u2019s transition to sustainable energy",
         "briefUrl": "/engagements/tesla",
@@ -48839,6 +48528,317 @@
                                     "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
                                     "name": "Website Testing",
                                     "targetId": "8661621b-76c9-483d-a424-8c953f5102da"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 2,
+                "description": null,
+                "description_html": null,
+                "reward_range": {}
+            }
+        ]
+    },
+    {
+        "name": "Cloudinary",
+        "tagline": "Cloud image & video upload, storage, management & CDN",
+        "briefUrl": "/engagements/cloudinary",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/00e9/d2ab/8e6d2e66/f41672f6159050694f2c7b3133015a50_cloudinary_cloud_glyph_blue_png.png",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": "Up to $7,000",
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": "Up to $7,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Cloud",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/cloudinary/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "d87780e7-44f3-4af5-b903-a2087acc18a3",
+                "name": "In Scope Targets",
+                "targets": [
+                    {
+                        "id": "2c5d9787-8ade-4be9-897b-01d3365bc408",
+                        "uri": "https://cloudinary.com/console",
+                        "name": "https://cloudinary.com/console",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "16522334-dd10-42bb-a3d8-93705aeb763c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails",
+                                    "targetId": "2c5d9787-8ade-4be9-897b-01d3365bc408"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "2c5d9787-8ade-4be9-897b-01d3365bc408"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "38ed5e57-cd50-45dc-843a-e01e5df65ba5",
+                        "uri": "https://api.cloudinary.com",
+                        "name": "https://api.cloudinary.com",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "29cfc543-51b5-49a6-ae39-2a6a42972156",
+                            "sort_order": 1
+                        },
+                        "sort_order": 1,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "38ed5e57-cd50-45dc-843a-e01e5df65ba5"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails",
+                                    "targetId": "38ed5e57-cd50-45dc-843a-e01e5df65ba5"
+                                },
+                                {
+                                    "id": "6a9fe373-cb50-48a4-8f00-f390acde8447",
+                                    "name": "JSON",
+                                    "targetId": "38ed5e57-cd50-45dc-843a-e01e5df65ba5"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP",
+                                    "targetId": "38ed5e57-cd50-45dc-843a-e01e5df65ba5"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "4d10c13a-1514-4ace-9b62-4ef4bb589d6e",
+                        "uri": "https://res.cloudinary.com",
+                        "name": "https://res.cloudinary.com",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "91015433-55e0-4d25-aa13-90de898aacb6",
+                            "sort_order": 2
+                        },
+                        "sort_order": 2,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "4d10c13a-1514-4ace-9b62-4ef4bb589d6e"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails",
+                                    "targetId": "4d10c13a-1514-4ace-9b62-4ef4bb589d6e"
+                                },
+                                {
+                                    "id": "6a9fe373-cb50-48a4-8f00-f390acde8447",
+                                    "name": "JSON",
+                                    "targetId": "4d10c13a-1514-4ace-9b62-4ef4bb589d6e"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP",
+                                    "targetId": "4d10c13a-1514-4ace-9b62-4ef4bb589d6e"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 2000,
+                        "max": 4000
+                    },
+                    "2": {
+                        "min": 500,
+                        "max": 2000
+                    },
+                    "3": {
+                        "min": 0,
+                        "max": 500
+                    },
+                    "4": {
+                        "min": null,
+                        "max": null
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    },
+                    "programMax": 7000
+                }
+            },
+            {
+                "id": "f659f8b6-041e-4009-a433-8464b6a8db0a",
+                "name": "In Scope Tier II",
+                "targets": [
+                    {
+                        "id": "fe7a647e-d851-487a-9072-d1dfb181f703",
+                        "uri": "https://mediaflows.cloudinary.com/",
+                        "name": "mediaflows.cloudinary.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "274f36df-e9ee-427d-8288-835f832f23cc",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "fe7a647e-d851-487a-9072-d1dfb181f703"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "fe7a647e-d851-487a-9072-d1dfb181f703"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "fe7a647e-d851-487a-9072-d1dfb181f703"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "9327489f-d558-4923-aaef-00918bdd5164",
+                        "uri": "https://dimensions.cloudinary.com",
+                        "name": "dimensions.cloudinary.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "8ccfa046-5daa-4bc7-8b12-e64f69e6fdb0",
+                            "sort_order": 1
+                        },
+                        "sort_order": 1,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "9327489f-d558-4923-aaef-00918bdd5164"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "9327489f-d558-4923-aaef-00918bdd5164"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 1,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 500,
+                        "max": 1000
+                    },
+                    "2": {
+                        "min": 0,
+                        "max": 500
+                    },
+                    "3": {
+                        "min": null,
+                        "max": null
+                    },
+                    "4": {
+                        "min": null,
+                        "max": null
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "f4a166de-7399-4e64-9d4b-3b82c58b1f7c",
+                "name": "Out of scope",
+                "targets": [
+                    {
+                        "id": "f0464701-dba1-4864-ba4c-39fa68b3c9c1",
+                        "uri": null,
+                        "name": "https://support.cloudinary.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "2bcbcb3b-d85d-409c-bedb-b2a7c19b4f02",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "f0464701-dba1-4864-ba4c-39fa68b3c9c1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ffa36883-a2ef-47b2-bde8-7b1201d0ff93",
+                        "uri": null,
+                        "name": "wiki.cloudinary.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "76e43cee-9cdf-4ce5-927b-32d0a0cbc9e1",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ffa36883-a2ef-47b2-bde8-7b1201d0ff93"
                                 }
                             ]
                         }
@@ -57270,6 +57270,200 @@
         ]
     },
     {
+        "name": "TrafficJunky Managed Bug Bounty Program",
+        "tagline": "TrafficJunky is a tech pioneer offering world class adult content platforms. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/aylo-trafficjunky-mbb-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4780/7fc1/49c57e09/42c75479e377c16341bdb3f3326b03b6_tjaf.png",
+        "rewardSummary": {
+            "summary": "$50 - $3,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Entertainment",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/aylo-trafficjunky-mbb-og/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "435cf5c5-319f-41e4-a462-31aa3f7ffd12",
+                "name": "Trafficjunky",
+                "targets": [
+                    {
+                        "id": "27dae231-4920-4595-92ab-74245762da7a",
+                        "uri": "https://*.trafficjunky.com",
+                        "name": "*.trafficjunky.com ",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6a892831-8766-48cf-901b-8abaf0113b03",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "27dae231-4920-4595-92ab-74245762da7a"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 1000,
+                        "max": 3000
+                    },
+                    "2": {
+                        "min": 500,
+                        "max": 1000
+                    },
+                    "3": {
+                        "min": 200,
+                        "max": 500
+                    },
+                    "4": {
+                        "min": 50,
+                        "max": 200
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "02222a00-d8ed-497b-a700-17c14e0ef4ea",
+                "name": "Adultforce",
+                "targets": [
+                    {
+                        "id": "8ad20ba9-7160-44c0-a9b7-05e4030f1c8f",
+                        "uri": "https://*.adultforce.com",
+                        "name": "*.adultforce.com ",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "13055bb6-84fd-4b0a-be9a-9ffe261b8b18",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "8ad20ba9-7160-44c0-a9b7-05e4030f1c8f"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 1,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 750,
+                        "max": 2000
+                    },
+                    "2": {
+                        "min": 300,
+                        "max": 750
+                    },
+                    "3": {
+                        "min": 100,
+                        "max": 300
+                    },
+                    "4": {
+                        "min": 50,
+                        "max": 100
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "e85a0922-53bb-4a52-aeea-4d6ad977c13c",
+                "name": "Out of Scope",
+                "targets": [
+                    {
+                        "id": "17033cdb-f8f9-4457-b5c7-5ff623f879c8",
+                        "uri": "",
+                        "name": "https://www.trafficjunky.com/blog/ ",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "334c400b-9287-4138-bbaa-035890ed0647",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "17033cdb-f8f9-4457-b5c7-5ff623f879c8"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "08f0c29b-5c0f-43d6-b503-f31e53362713",
+                        "uri": "",
+                        "name": "https://www.adultforce.com/#/blog/ ",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a4ad14bb-8063-4e64-ba02-ec24a5554f23",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "08f0c29b-5c0f-43d6-b503-f31e53362713"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 2,
+                "description": null,
+                "description_html": null,
+                "reward_range": {}
+            }
+        ]
+    },
+    {
         "name": "Comcast Xfinity Bug Bounty",
         "tagline": "Welcome to the Xfinity Bug Bounty program!",
         "briefUrl": "/comcast-mbb",
@@ -57691,200 +57885,6 @@
                         "known_issues": {}
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "TrafficJunky Managed Bug Bounty Program",
-        "tagline": "TrafficJunky is a tech pioneer offering world class adult content platforms. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/aylo-trafficjunky-mbb-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4780/7fc1/49c57e09/42c75479e377c16341bdb3f3326b03b6_tjaf.png",
-        "rewardSummary": {
-            "summary": "$50 - $3,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Entertainment",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/aylo-trafficjunky-mbb-og/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "435cf5c5-319f-41e4-a462-31aa3f7ffd12",
-                "name": "Trafficjunky",
-                "targets": [
-                    {
-                        "id": "27dae231-4920-4595-92ab-74245762da7a",
-                        "uri": "https://*.trafficjunky.com",
-                        "name": "*.trafficjunky.com ",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "6a892831-8766-48cf-901b-8abaf0113b03",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "27dae231-4920-4595-92ab-74245762da7a"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 1000,
-                        "max": 3000
-                    },
-                    "2": {
-                        "min": 500,
-                        "max": 1000
-                    },
-                    "3": {
-                        "min": 200,
-                        "max": 500
-                    },
-                    "4": {
-                        "min": 50,
-                        "max": 200
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "02222a00-d8ed-497b-a700-17c14e0ef4ea",
-                "name": "Adultforce",
-                "targets": [
-                    {
-                        "id": "8ad20ba9-7160-44c0-a9b7-05e4030f1c8f",
-                        "uri": "https://*.adultforce.com",
-                        "name": "*.adultforce.com ",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "13055bb6-84fd-4b0a-be9a-9ffe261b8b18",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "8ad20ba9-7160-44c0-a9b7-05e4030f1c8f"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 1,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 750,
-                        "max": 2000
-                    },
-                    "2": {
-                        "min": 300,
-                        "max": 750
-                    },
-                    "3": {
-                        "min": 100,
-                        "max": 300
-                    },
-                    "4": {
-                        "min": 50,
-                        "max": 100
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "e85a0922-53bb-4a52-aeea-4d6ad977c13c",
-                "name": "Out of Scope",
-                "targets": [
-                    {
-                        "id": "17033cdb-f8f9-4457-b5c7-5ff623f879c8",
-                        "uri": "",
-                        "name": "https://www.trafficjunky.com/blog/ ",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "334c400b-9287-4138-bbaa-035890ed0647",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "17033cdb-f8f9-4457-b5c7-5ff623f879c8"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "08f0c29b-5c0f-43d6-b503-f31e53362713",
-                        "uri": "",
-                        "name": "https://www.adultforce.com/#/blog/ ",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "a4ad14bb-8063-4e64-ba02-ec24a5554f23",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "08f0c29b-5c0f-43d6-b503-f31e53362713"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": false,
-                "sort_order": 2,
-                "description": null,
-                "description_html": null,
-                "reward_range": {}
             }
         ]
     },
@@ -70712,255 +70712,6 @@
         ]
     },
     {
-        "name": "SecureDrop",
-        "tagline": "The open-source whistleblower submission system managed by Freedom of the Press Foundation",
-        "briefUrl": "/engagements/freedomofpress",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9f59/4131/f9eb558d/b8030a1ada7f1ea9ef5b46f4e86e1fa4_sd-logo-cube.png",
-        "rewardSummary": {
-            "summary": "$100 - $2,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/freedomofpress/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "bad90687-94a9-4aee-a05e-aa3c3962f02d",
-                "name": "In Scope Targets",
-                "targets": [
-                    {
-                        "id": "c7c62b13-a1e2-4983-8355-9075ed97f8ef",
-                        "uri": "https://github.com/freedomofpress/securedrop",
-                        "name": "https://github.com/freedomofpress/securedrop",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "2d328169-b6d1-45c1-abc7-57a7f672a650",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "c7c62b13-a1e2-4983-8355-9075ed97f8ef"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python",
-                                    "targetId": "c7c62b13-a1e2-4983-8355-9075ed97f8ef"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "f9fddd6d-d7ea-4983-9a1a-22a694ede9e3",
-                        "uri": "https://github.com/freedomofpress/securedrop-log",
-                        "name": "https://github.com/freedomofpress/securedrop-log",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "46aae600-77ae-4759-935a-d433261d53e3",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python",
-                                    "targetId": "f9fddd6d-d7ea-4983-9a1a-22a694ede9e3"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "42d69405-9eec-47da-9f99-764ecd71327e",
-                        "uri": "https://github.com/freedomofpress/securedrop-proxy",
-                        "name": "https://github.com/freedomofpress/securedrop-proxy",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "30bd1e6e-9d52-43ba-84f3-96aaa9dacc54",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python",
-                                    "targetId": "42d69405-9eec-47da-9f99-764ecd71327e"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "7c5d43fc-4e78-402f-98e6-093969b607ff",
-                        "uri": "https://github.com/freedomofpress/securedrop-sdk",
-                        "name": "https://github.com/freedomofpress/securedrop-sdk",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "86da4807-01b2-4b2c-8e7f-4d9d6ee387c3",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python",
-                                    "targetId": "7c5d43fc-4e78-402f-98e6-093969b607ff"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "48e706b8-d643-4fa9-9b47-075b97aa3e46",
-                        "uri": "https://github.com/freedomofpress/securedrop-workstation",
-                        "name": "https://github.com/freedomofpress/securedrop-workstation",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "88db3f21-0b93-4e2a-b17f-5eda79a72954",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python",
-                                    "targetId": "48e706b8-d643-4fa9-9b47-075b97aa3e46"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "7fc510c2-f081-4e60-bdcf-7d9f89824868",
-                        "uri": "https://github.com/freedomofpress/securedrop-client",
-                        "name": "https://github.com/freedomofpress/securedrop-client",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "47c0bc01-1585-41db-ba10-dec4641245ee",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python",
-                                    "targetId": "7fc510c2-f081-4e60-bdcf-7d9f89824868"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "0577e1b0-d2c8-4299-98cf-8f2723f63c96",
-                        "uri": "https://github.com/freedomofpress/securedrop-export",
-                        "name": "https://github.com/freedomofpress/securedrop-export",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "2a909930-d753-484e-81a8-2947d114abbf",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python",
-                                    "targetId": "0577e1b0-d2c8-4299-98cf-8f2723f63c96"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "c7d6a70f-4382-4574-a83e-45c5c37290ae",
-                        "uri": "https://github.com/freedomofpress/securedrop-debian-packaging",
-                        "name": "https://github.com/freedomofpress/securedrop-debian-packaging",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "8521c0dc-034a-4d30-a6ff-659dc64c5004",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "21e9186a-4f38-4a65-9ceb-62ee006bf3df",
-                                    "name": "Shell",
-                                    "targetId": "c7d6a70f-4382-4574-a83e-45c5c37290ae"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python",
-                                    "targetId": "c7d6a70f-4382-4574-a83e-45c5c37290ae"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 2000,
-                        "max": 2500
-                    },
-                    "2": {
-                        "min": 1000,
-                        "max": 1500
-                    },
-                    "3": {
-                        "min": 500,
-                        "max": 750
-                    },
-                    "4": {
-                        "min": 100,
-                        "max": 200
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            }
-        ]
-    },
-    {
         "name": "Sophos",
         "tagline": "Responsible disclosure with rewards up to US$50,000",
         "briefUrl": "/engagements/sophos",
@@ -71913,6 +71664,403 @@
                         "max": null
                     }
                 }
+            }
+        ]
+    },
+    {
+        "name": "Moneytree KK",
+        "tagline": "Your Lifetime Financial Record",
+        "briefUrl": "/engagements/moneytreekkog",
+        "backgroundColor": "#11C048",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c891/9763/1f705e53/210983b0044133f8fc9f72107033767a_moneytree-logo.png",
+        "rewardSummary": {
+            "summary": "$300 - $5,000",
+            "hint": null,
+            "minReward": "$300",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/moneytreekkog/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "98814c5b-3303-4bee-85ce-d10f28b81fc1",
+                "name": "Staging @ moneytree.jp",
+                "targets": [
+                    {
+                        "id": "4e1419e4-2fa3-45dd-b369-b5613d5eef99",
+                        "uri": "https://apps.apple.com/vc/app/moneytree-finance-made-easy/id586847189",
+                        "name": "Moneytree iOS Mobile Application (production; see below)",
+                        "category": "ios",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "f686ec0b-1e11-4e97-8642-6b8949761467",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing",
+                                    "targetId": "4e1419e4-2fa3-45dd-b369-b5613d5eef99"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "4e1419e4-2fa3-45dd-b369-b5613d5eef99"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "0be193a1-a6d9-44c9-998f-b9017d01ab80",
+                        "uri": "https://wwws-staging.moneytree.jp/link/",
+                        "name": "https://wwws-staging.moneytree.jp/link/",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "830930cb-3ef6-4628-93cd-72a5c58cbf15",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "0be193a1-a6d9-44c9-998f-b9017d01ab80"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a321766a-6cba-4e2a-8dfe-4d56d05ae93b",
+                        "uri": "https://vault-staging.getmoneytree.com",
+                        "name": "https://vault-staging.getmoneytree.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "692ea9cf-ae3b-4375-9a7e-4a93423d0b72",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "a321766a-6cba-4e2a-8dfe-4d56d05ae93b"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "c63f9d2f-1ec3-4a65-adaf-90a49de81e09",
+                        "uri": "https://redash-staging.getmoneytree.com/",
+                        "name": "https://redash-staging.getmoneytree.com/",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "cfcb1d9a-e45b-4097-be01-68b949b50084",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "c63f9d2f-1ec3-4a65-adaf-90a49de81e09"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "61d67f44-f12b-4c8e-848d-261970605166",
+                        "uri": "https://app-staging.getmoneytree.com",
+                        "name": "https://app-staging.getmoneytree.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a04b5ea2-490a-4c27-9642-937c0a3cfd1d",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "61d67f44-f12b-4c8e-848d-261970605166"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "bef59325-7837-49b0-9004-85d25787d468",
+                        "uri": "https://wwws-staging.moneytree.jp/link/mobile/",
+                        "name": "https://wwws-staging.moneytree.jp/link/mobile/",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "48709bfe-fe9e-4916-92c5-7ef8932f0dc3",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "bef59325-7837-49b0-9004-85d25787d468"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "e64d1577-f941-4b98-b28f-fa0f2c98c26e",
+                        "uri": "https://wwws-staging.moneytree.jp/link/mobile/#/signup?client_id=38d99a6e8e9fc87c866f5aa82bdc2569c464b2323a55e0b28f658efa678e9623&redirect_uri=https://wwws-staging.moneytree.jp/link/mobile/callback&response_type=token&scope=guest_read+accounts_read+transactions_read+request_refresh",
+                        "name": "https://wwws-staging.moneytree.jp/link/mobile/#/signup?client_id=38d99a6e8e9fc87c866f5aa82bdc2569c464b2323a55e0b28f658efa678e9623&redirect_uri=https://wwws-staging.moneytree.jp/link/mobile/callback&response_type=token&scope=guest_read+accounts_read+transactions_read+request_refresh",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "8b7a5881-447e-4d0e-85dc-6ef8af5c2523",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "e64d1577-f941-4b98-b28f-fa0f2c98c26e"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "dbcbec0c-62e2-474b-9273-78c4dd6d1727",
+                        "uri": "https://myaccount-staging.getmoneytree.com",
+                        "name": "https://myaccount-staging.getmoneytree.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "3c29d1c6-c0e3-4eca-bab6-6d7d92263a13",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "dbcbec0c-62e2-474b-9273-78c4dd6d1727"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "df5abcab-2fee-409c-b22e-da0e6d31d056",
+                        "uri": "https://jp-api-staging.getmoneytree.com",
+                        "name": "https://jp-api-staging.getmoneytree.com ",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "e4814fe7-6b76-4981-871a-6f5ba344047b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "df5abcab-2fee-409c-b22e-da0e6d31d056"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails",
+                                    "targetId": "df5abcab-2fee-409c-b22e-da0e6d31d056"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ee192e6e-a405-46f0-be23-a986422a091a",
+                        "uri": "https://business-staging.getmoneytree.com/",
+                        "name": "https://business-staging.getmoneytree.com/",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "ffecb546-6950-4723-9dad-3cf908803dbf",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ee192e6e-a405-46f0-be23-a986422a091a"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "580fd2cf-ee08-457f-968f-b9a1e74faa56",
+                        "uri": "https://play.google.com/store/apps/details?id=jp.moneytree.moneytree&hl=en_AU&gl=US",
+                        "name": "Moneytree staging Android Mobile Application (see below)",
+                        "category": "android",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "1071d132-9eac-465f-b2ff-c7b852eb6ab7",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing",
+                                    "targetId": "580fd2cf-ee08-457f-968f-b9a1e74faa56"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "580fd2cf-ee08-457f-968f-b9a1e74faa56"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<p>All domains related to <strong>Moneytree K.K.</strong> on <strong>staging</strong>, including our web, android, and iOS applications.</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 4000,
+                        "max": 5000
+                    },
+                    "2": {
+                        "min": 2000,
+                        "max": 3000
+                    },
+                    "3": {
+                        "min": 750,
+                        "max": 1000
+                    },
+                    "4": {
+                        "min": 300,
+                        "max": 500
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "b23db6cc-42a0-4146-92a7-436804523f88",
+                "name": "Out of scope",
+                "targets": [
+                    {
+                        "id": "e0d6f028-dace-4f7e-810a-933141db46c9",
+                        "uri": null,
+                        "name": "moneytree.jp",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "f8128e74-fbfe-4d57-be8b-7ec765cc8955",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "e0d6f028-dace-4f7e-810a-933141db46c9"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "afc0eba6-5f59-4bc7-afe1-c2c5ae504b8c",
+                        "uri": null,
+                        "name": "Any production asset of Moneytree KK (excepting the iOS app)",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "78fbf151-5430-42ab-9c33-98f242f9ec7c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "afc0eba6-5f59-4bc7-afe1-c2c5ae504b8c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "e867d505-8a08-45db-8cfc-56bab960f207",
+                        "uri": null,
+                        "name": "getmoneytree.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b1416d14-0843-4513-85d0-af00b9f88aba",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "e867d505-8a08-45db-8cfc-56bab960f207"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 1,
+                "description": null,
+                "description_html": null,
+                "reward_range": {}
             }
         ]
     },
@@ -72938,403 +73086,6 @@
                 "sort_order": 3,
                 "description": null,
                 "description_html": "<p>Researchers should only use our staging environment. Our production environment is <strong>not</strong> to be used. </p>\n\n<p>Any domain/property of Gearset not listed in the targets section is out of scope (this includes our marketing website gearset.com). This includes any/all subdomains not listed above. If you happen to identify a security vulnerability on a target that is not in-scope, but that demonstrably belongs to Gearset, it may be reported to this program, and is appreciated - but will ultimately be marked as &#39;not applicable&#39; and will not be eligible for monetary or points-based compensation.</p>",
-                "reward_range": {}
-            }
-        ]
-    },
-    {
-        "name": "Moneytree KK",
-        "tagline": "Your Lifetime Financial Record",
-        "briefUrl": "/engagements/moneytreekkog",
-        "backgroundColor": "#11C048",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c891/9763/1f705e53/210983b0044133f8fc9f72107033767a_moneytree-logo.png",
-        "rewardSummary": {
-            "summary": "$300 - $5,000",
-            "hint": null,
-            "minReward": "$300",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/moneytreekkog/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "98814c5b-3303-4bee-85ce-d10f28b81fc1",
-                "name": "Staging @ moneytree.jp",
-                "targets": [
-                    {
-                        "id": "4e1419e4-2fa3-45dd-b369-b5613d5eef99",
-                        "uri": "https://apps.apple.com/vc/app/moneytree-finance-made-easy/id586847189",
-                        "name": "Moneytree iOS Mobile Application (production; see below)",
-                        "category": "ios",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "f686ec0b-1e11-4e97-8642-6b8949761467",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing",
-                                    "targetId": "4e1419e4-2fa3-45dd-b369-b5613d5eef99"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS",
-                                    "targetId": "4e1419e4-2fa3-45dd-b369-b5613d5eef99"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "0be193a1-a6d9-44c9-998f-b9017d01ab80",
-                        "uri": "https://wwws-staging.moneytree.jp/link/",
-                        "name": "https://wwws-staging.moneytree.jp/link/",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "830930cb-3ef6-4628-93cd-72a5c58cbf15",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "0be193a1-a6d9-44c9-998f-b9017d01ab80"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "a321766a-6cba-4e2a-8dfe-4d56d05ae93b",
-                        "uri": "https://vault-staging.getmoneytree.com",
-                        "name": "https://vault-staging.getmoneytree.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "692ea9cf-ae3b-4375-9a7e-4a93423d0b72",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "a321766a-6cba-4e2a-8dfe-4d56d05ae93b"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "c63f9d2f-1ec3-4a65-adaf-90a49de81e09",
-                        "uri": "https://redash-staging.getmoneytree.com/",
-                        "name": "https://redash-staging.getmoneytree.com/",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "cfcb1d9a-e45b-4097-be01-68b949b50084",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "c63f9d2f-1ec3-4a65-adaf-90a49de81e09"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "61d67f44-f12b-4c8e-848d-261970605166",
-                        "uri": "https://app-staging.getmoneytree.com",
-                        "name": "https://app-staging.getmoneytree.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "a04b5ea2-490a-4c27-9642-937c0a3cfd1d",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "61d67f44-f12b-4c8e-848d-261970605166"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "bef59325-7837-49b0-9004-85d25787d468",
-                        "uri": "https://wwws-staging.moneytree.jp/link/mobile/",
-                        "name": "https://wwws-staging.moneytree.jp/link/mobile/",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "48709bfe-fe9e-4916-92c5-7ef8932f0dc3",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "bef59325-7837-49b0-9004-85d25787d468"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "e64d1577-f941-4b98-b28f-fa0f2c98c26e",
-                        "uri": "https://wwws-staging.moneytree.jp/link/mobile/#/signup?client_id=38d99a6e8e9fc87c866f5aa82bdc2569c464b2323a55e0b28f658efa678e9623&redirect_uri=https://wwws-staging.moneytree.jp/link/mobile/callback&response_type=token&scope=guest_read+accounts_read+transactions_read+request_refresh",
-                        "name": "https://wwws-staging.moneytree.jp/link/mobile/#/signup?client_id=38d99a6e8e9fc87c866f5aa82bdc2569c464b2323a55e0b28f658efa678e9623&redirect_uri=https://wwws-staging.moneytree.jp/link/mobile/callback&response_type=token&scope=guest_read+accounts_read+transactions_read+request_refresh",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "8b7a5881-447e-4d0e-85dc-6ef8af5c2523",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "e64d1577-f941-4b98-b28f-fa0f2c98c26e"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "dbcbec0c-62e2-474b-9273-78c4dd6d1727",
-                        "uri": "https://myaccount-staging.getmoneytree.com",
-                        "name": "https://myaccount-staging.getmoneytree.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "3c29d1c6-c0e3-4eca-bab6-6d7d92263a13",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "dbcbec0c-62e2-474b-9273-78c4dd6d1727"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "df5abcab-2fee-409c-b22e-da0e6d31d056",
-                        "uri": "https://jp-api-staging.getmoneytree.com",
-                        "name": "https://jp-api-staging.getmoneytree.com ",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "e4814fe7-6b76-4981-871a-6f5ba344047b",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "df5abcab-2fee-409c-b22e-da0e6d31d056"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails",
-                                    "targetId": "df5abcab-2fee-409c-b22e-da0e6d31d056"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "ee192e6e-a405-46f0-be23-a986422a091a",
-                        "uri": "https://business-staging.getmoneytree.com/",
-                        "name": "https://business-staging.getmoneytree.com/",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "ffecb546-6950-4723-9dad-3cf908803dbf",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ee192e6e-a405-46f0-be23-a986422a091a"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "580fd2cf-ee08-457f-968f-b9a1e74faa56",
-                        "uri": "https://play.google.com/store/apps/details?id=jp.moneytree.moneytree&hl=en_AU&gl=US",
-                        "name": "Moneytree staging Android Mobile Application (see below)",
-                        "category": "android",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "1071d132-9eac-465f-b2ff-c7b852eb6ab7",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing",
-                                    "targetId": "580fd2cf-ee08-457f-968f-b9a1e74faa56"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android",
-                                    "targetId": "580fd2cf-ee08-457f-968f-b9a1e74faa56"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": "<p>All domains related to <strong>Moneytree K.K.</strong> on <strong>staging</strong>, including our web, android, and iOS applications.</p>",
-                "reward_range": {
-                    "1": {
-                        "min": 4000,
-                        "max": 5000
-                    },
-                    "2": {
-                        "min": 2000,
-                        "max": 3000
-                    },
-                    "3": {
-                        "min": 750,
-                        "max": 1000
-                    },
-                    "4": {
-                        "min": 300,
-                        "max": 500
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "b23db6cc-42a0-4146-92a7-436804523f88",
-                "name": "Out of scope",
-                "targets": [
-                    {
-                        "id": "e0d6f028-dace-4f7e-810a-933141db46c9",
-                        "uri": null,
-                        "name": "moneytree.jp",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "f8128e74-fbfe-4d57-be8b-7ec765cc8955",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "e0d6f028-dace-4f7e-810a-933141db46c9"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "afc0eba6-5f59-4bc7-afe1-c2c5ae504b8c",
-                        "uri": null,
-                        "name": "Any production asset of Moneytree KK (excepting the iOS app)",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "78fbf151-5430-42ab-9c33-98f242f9ec7c",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "afc0eba6-5f59-4bc7-afe1-c2c5ae504b8c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "e867d505-8a08-45db-8cfc-56bab960f207",
-                        "uri": null,
-                        "name": "getmoneytree.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "b1416d14-0843-4513-85d0-af00b9f88aba",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "e867d505-8a08-45db-8cfc-56bab960f207"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": false,
-                "sort_order": 1,
-                "description": null,
-                "description_html": null,
                 "reward_range": {}
             }
         ]
@@ -75405,158 +75156,6 @@
         ]
     },
     {
-        "name": "Ultra Mobile Managed Bug Bounty Program - (Public) ",
-        "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/ultramobile",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23a0/8c24/48c274bb/f9aabf5ec9b7f5683121244496fa0a4e_1631365748199.jpeg",
-        "rewardSummary": {
-            "summary": "$175 - $4,500",
-            "hint": null,
-            "minReward": "$175",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ultramobile/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "a8f5baa4-78dc-4126-9837-ed652a0688ae",
-                "name": "In Scope ",
-                "targets": [
-                    {
-                        "id": "ad236f85-4b22-44e2-9235-de978c01b66d",
-                        "uri": "https://mintmobile.com",
-                        "name": "https://www.mintmobile.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "3e09344f-cdd2-4dad-8e26-cbd6052d7ece",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
-                                    "name": "Wordpress",
-                                    "targetId": "ad236f85-4b22-44e2-9235-de978c01b66d"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "ad236f85-4b22-44e2-9235-de978c01b66d"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ad236f85-4b22-44e2-9235-de978c01b66d"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP",
-                                    "targetId": "ad236f85-4b22-44e2-9235-de978c01b66d"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "ad236f85-4b22-44e2-9235-de978c01b66d"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "8d7ee9b5-b1d7-465a-9a24-1534df823f44",
-                        "uri": "https://ultramobile.com",
-                        "name": "https://www.ultramobile.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "a5c74b06-73af-45eb-8a18-f3d6cc3a4ad7",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
-                                    "name": "Wordpress",
-                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS",
-                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP",
-                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS",
-                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS",
-                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": null,
-                "reward_range": {
-                    "1": {
-                        "min": 3500,
-                        "max": 4500
-                    },
-                    "2": {
-                        "min": 1500,
-                        "max": 2500
-                    },
-                    "3": {
-                        "min": 500,
-                        "max": 750
-                    },
-                    "4": {
-                        "min": 175,
-                        "max": 225
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            }
-        ]
-    },
-    {
         "name": "Zola Managed Bug Bounty ",
         "tagline": "Submit your finding to the program!",
         "briefUrl": "/engagements/zola-mbb-og",
@@ -75782,6 +75381,158 @@
                 "description": null,
                 "description_html": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
                 "reward_range": {}
+            }
+        ]
+    },
+    {
+        "name": "Ultra Mobile Managed Bug Bounty Program - (Public) ",
+        "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/ultramobile",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23a0/8c24/48c274bb/f9aabf5ec9b7f5683121244496fa0a4e_1631365748199.jpeg",
+        "rewardSummary": {
+            "summary": "$175 - $4,500",
+            "hint": null,
+            "minReward": "$175",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ultramobile/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "a8f5baa4-78dc-4126-9837-ed652a0688ae",
+                "name": "In Scope ",
+                "targets": [
+                    {
+                        "id": "ad236f85-4b22-44e2-9235-de978c01b66d",
+                        "uri": "https://mintmobile.com",
+                        "name": "https://www.mintmobile.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "3e09344f-cdd2-4dad-8e26-cbd6052d7ece",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
+                                    "name": "Wordpress",
+                                    "targetId": "ad236f85-4b22-44e2-9235-de978c01b66d"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "ad236f85-4b22-44e2-9235-de978c01b66d"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ad236f85-4b22-44e2-9235-de978c01b66d"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP",
+                                    "targetId": "ad236f85-4b22-44e2-9235-de978c01b66d"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "ad236f85-4b22-44e2-9235-de978c01b66d"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "8d7ee9b5-b1d7-465a-9a24-1534df823f44",
+                        "uri": "https://ultramobile.com",
+                        "name": "https://www.ultramobile.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a5c74b06-73af-45eb-8a18-f3d6cc3a4ad7",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
+                                    "name": "Wordpress",
+                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS",
+                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP",
+                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS",
+                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS",
+                                    "targetId": "8d7ee9b5-b1d7-465a-9a24-1534df823f44"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 3500,
+                        "max": 4500
+                    },
+                    "2": {
+                        "min": 1500,
+                        "max": 2500
+                    },
+                    "3": {
+                        "min": 500,
+                        "max": 750
+                    },
+                    "4": {
+                        "min": 175,
+                        "max": 225
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
             }
         ]
     },
@@ -77370,6 +77121,255 @@
                         "known_issues": {}
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "SecureDrop",
+        "tagline": "The open-source whistleblower submission system managed by Freedom of the Press Foundation",
+        "briefUrl": "/engagements/freedomofpress",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9f59/4131/f9eb558d/b8030a1ada7f1ea9ef5b46f4e86e1fa4_sd-logo-cube.png",
+        "rewardSummary": {
+            "summary": "$100 - $2,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/freedomofpress/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "bad90687-94a9-4aee-a05e-aa3c3962f02d",
+                "name": "In Scope Targets",
+                "targets": [
+                    {
+                        "id": "c7c62b13-a1e2-4983-8355-9075ed97f8ef",
+                        "uri": "https://github.com/freedomofpress/securedrop",
+                        "name": "https://github.com/freedomofpress/securedrop",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "2d328169-b6d1-45c1-abc7-57a7f672a650",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "c7c62b13-a1e2-4983-8355-9075ed97f8ef"
+                                },
+                                {
+                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
+                                    "name": "Python",
+                                    "targetId": "c7c62b13-a1e2-4983-8355-9075ed97f8ef"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "f9fddd6d-d7ea-4983-9a1a-22a694ede9e3",
+                        "uri": "https://github.com/freedomofpress/securedrop-log",
+                        "name": "https://github.com/freedomofpress/securedrop-log",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "46aae600-77ae-4759-935a-d433261d53e3",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
+                                    "name": "Python",
+                                    "targetId": "f9fddd6d-d7ea-4983-9a1a-22a694ede9e3"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "42d69405-9eec-47da-9f99-764ecd71327e",
+                        "uri": "https://github.com/freedomofpress/securedrop-proxy",
+                        "name": "https://github.com/freedomofpress/securedrop-proxy",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "30bd1e6e-9d52-43ba-84f3-96aaa9dacc54",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
+                                    "name": "Python",
+                                    "targetId": "42d69405-9eec-47da-9f99-764ecd71327e"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "7c5d43fc-4e78-402f-98e6-093969b607ff",
+                        "uri": "https://github.com/freedomofpress/securedrop-sdk",
+                        "name": "https://github.com/freedomofpress/securedrop-sdk",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "86da4807-01b2-4b2c-8e7f-4d9d6ee387c3",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
+                                    "name": "Python",
+                                    "targetId": "7c5d43fc-4e78-402f-98e6-093969b607ff"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "48e706b8-d643-4fa9-9b47-075b97aa3e46",
+                        "uri": "https://github.com/freedomofpress/securedrop-workstation",
+                        "name": "https://github.com/freedomofpress/securedrop-workstation",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "88db3f21-0b93-4e2a-b17f-5eda79a72954",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
+                                    "name": "Python",
+                                    "targetId": "48e706b8-d643-4fa9-9b47-075b97aa3e46"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "7fc510c2-f081-4e60-bdcf-7d9f89824868",
+                        "uri": "https://github.com/freedomofpress/securedrop-client",
+                        "name": "https://github.com/freedomofpress/securedrop-client",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "47c0bc01-1585-41db-ba10-dec4641245ee",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
+                                    "name": "Python",
+                                    "targetId": "7fc510c2-f081-4e60-bdcf-7d9f89824868"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "0577e1b0-d2c8-4299-98cf-8f2723f63c96",
+                        "uri": "https://github.com/freedomofpress/securedrop-export",
+                        "name": "https://github.com/freedomofpress/securedrop-export",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "2a909930-d753-484e-81a8-2947d114abbf",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
+                                    "name": "Python",
+                                    "targetId": "0577e1b0-d2c8-4299-98cf-8f2723f63c96"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "c7d6a70f-4382-4574-a83e-45c5c37290ae",
+                        "uri": "https://github.com/freedomofpress/securedrop-debian-packaging",
+                        "name": "https://github.com/freedomofpress/securedrop-debian-packaging",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "8521c0dc-034a-4d30-a6ff-659dc64c5004",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "21e9186a-4f38-4a65-9ceb-62ee006bf3df",
+                                    "name": "Shell",
+                                    "targetId": "c7d6a70f-4382-4574-a83e-45c5c37290ae"
+                                },
+                                {
+                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
+                                    "name": "Python",
+                                    "targetId": "c7d6a70f-4382-4574-a83e-45c5c37290ae"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": null,
+                "reward_range": {
+                    "1": {
+                        "min": 2000,
+                        "max": 2500
+                    },
+                    "2": {
+                        "min": 1000,
+                        "max": 1500
+                    },
+                    "3": {
+                        "min": 500,
+                        "max": 750
+                    },
+                    "4": {
+                        "min": 100,
+                        "max": 200
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
             }
         ]
     }
