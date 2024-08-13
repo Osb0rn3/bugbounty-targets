@@ -6308,16 +6308,16 @@
         ]
     },
     {
-        "id": "495935c2-44bf-4eb5-81b4-dac0daa38b79",
-        "handle": "telenetgroup",
-        "name": "Telenet - Base - Wyre - Tadaam",
+        "id": "48853273-690a-4555-8ac5-821a1c464312",
+        "handle": "capitalcom",
+        "name": "Capital.com",
         "following": false,
         "minBounty": {
-            "value": 50.0,
+            "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2500.0,
+            "value": 10000.0,
             "currency": "EUR"
         },
         "confidentialityLevel": {
@@ -6333,8 +6333,192 @@
             "value": "Bug Bounty"
         },
         "webLinks": {
-            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/telenet/telenetgroup/detail"
-        }
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/capitalcom/capitalcom/detail"
+        },
+        "domains": [
+            {
+                "id": "02fea9f1-075b-4901-bb98-fa71cdffa2ed",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "open-api.capital.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Capital.com API allows direct access to the latest version of our trading engine."
+            },
+            {
+                "id": "8a75d487-1c9e-4202-a8c1-fc82b87ec174",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "payment.backend-capital.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "f0d7bf0b-4c16-4d2b-9b19-f9e0bab2908f",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.backend-capital.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "437a4a9b-831e-458d-ab80-6e526062a6e1",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "capital.com/*",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "fa11e66f-1524-4ae5-a5b3-629dc6a24975",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "com.capital.trading",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "https://apps.apple.com/BY/app/id1230088754?mt=8"
+            },
+            {
+                "id": "e03bf99f-f1a2-449f-87d5-7f31ba7538b4",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "com.capital.trading",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "https://play.google.com/store/apps/details?id=com.capital.trading&hl=en"
+            },
+            {
+                "id": "0c0381c4-3ce1-4b2b-874e-2ccb599bdad4",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.capital.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "00c91321-eb5b-4e1f-a08a-591344eaf5bf",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.itcapital.io",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "c55653e0-1f09-4aca-ad91-484f11cab3e8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "aff.capital.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "19efce22-3feb-494e-9421-65e99bc1ddde",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "go.capital.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "71453b54-06df-4a6c-8788-5b2976ee6d34",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "register.capital.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "e111de43-5501-446f-99ca-fe117e92db72",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*affiliates.backend-capital.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "7619cef4-d659-46e0-9c64-df70358720b8",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*eduapp.backend-capital.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "1357c6ee-599f-40ff-8110-7563da381396",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*education.backend-capital.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            }
+        ]
     },
     {
         "id": "4981522f-5675-4f46-b7b7-e065d30c8d79",
@@ -6363,22 +6547,7 @@
         },
         "webLinks": {
             "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/bpost/crossborderfines/detail"
-        },
-        "domains": [
-            {
-                "id": "dd1d7945-6c64-4ed5-80fd-d96c4908960d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://justonweb.be/fines/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            }
-        ]
+        }
     },
     {
         "id": "4afd6f0f-40a3-4f6d-a332-56b5970d12a0",
