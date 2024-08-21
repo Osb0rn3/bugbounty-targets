@@ -41964,6 +41964,338 @@
         ]
     },
     {
+        "name": "Octopus",
+        "tagline": "Octopus Bug Bounty Program",
+        "briefUrl": "/engagements/octopus-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/35eb/fbe1/e04f925e/fd58ea5d8d6747881d2c627ecf5bb84f_octops.png",
+        "rewardSummary": {
+            "summary": "$200 - $6,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/octopus-og/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "444ddc7f-ee00-45ff-b126-79cae2234abb",
+                "name": "In Scope",
+                "targets": [
+                    {
+                        "id": "117aead5-bca8-4284-bd25-0bf0a94482e3",
+                        "uri": "",
+                        "name": "*.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "fe8fc539-7a05-4830-816d-d1d0a5896f58",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
+                                    "name": "Network Testing",
+                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
+                                },
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca",
+                        "uri": "https://github.com/OctopusDeploy",
+                        "name": "Octopus Deploy Git Repo",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "bc1e0339-51cc-43de-b150-588efee5c03c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
+                                },
+                                {
+                                    "id": "d58504e3-97f9-45ef-95aa-4a413a07190c",
+                                    "name": "Static Code Analysis",
+                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
+                                },
+                                {
+                                    "id": "e6a92521-9abd-43e3-90a3-9c7b1b72f12a",
+                                    "name": "Code review",
+                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5",
+                        "uri": "https://octopus.com",
+                        "name": "octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "9e2a4a9b-54c2-4b7b-be64-662510bc5cce",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
+                                    "name": ".NET",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
+                                    "name": "Microsoft IIS",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba",
+                        "uri": "https://aiagent.octopus.com/api/form",
+                        "name": "Octopus GitHub Copilot",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "4173a63b-77b4-4816-be7e-5690b1c1dbc0",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
+                                    "name": ".NET",
+                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
+                                },
+                                {
+                                    "id": "d14cf1dd-8069-48ef-9a2b-779bf3a066f9",
+                                    "name": "Artificial Intelligence",
+                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<p>Please note that dependencies with known issues within the GitHub are not considered valid without a working proof of concept that affects the actual platform. In addition, API keys on their own are not considered valid. In order to have a valid leaked API key, the domain URL must be referencing an Octopus domain that fits *.octopus.app. Any API keys with localhost or test within their name are considered invalid.</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 6000,
+                        "max": 6000
+                    },
+                    "2": {
+                        "min": 2000,
+                        "max": 3000
+                    },
+                    "3": {
+                        "min": 500,
+                        "max": 1000
+                    },
+                    "4": {
+                        "min": 200,
+                        "max": 300
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "a7637142-53e1-48b5-9452-0289587df061",
+                "name": "Out of scope targets",
+                "targets": [
+                    {
+                        "id": "5e0fd47d-0bfe-4347-92eb-b640cd69123c",
+                        "uri": null,
+                        "name": "*.octopus.app",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "d6732000-b651-410d-b8cd-66c0b4bd29f0",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "5e0fd47d-0bfe-4347-92eb-b640cd69123c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "f319331d-982a-4202-83b9-6b1c2c93e95b",
+                        "uri": "",
+                        "name": "artifactorysample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "d54cfc22-4f98-45b0-bf55-1ce90100da36",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "70deefc9-e797-4e08-a05b-8afb451d7c0f",
+                        "uri": "",
+                        "name": "bamboosample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "9baac406-d31b-4b25-a5e2-5735194acbc5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "20844a77-0de8-4e2a-91a4-0a2248cbc1e2",
+                        "uri": "",
+                        "name": "jenkinssample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c53e0957-362d-4d18-9040-74d40244cd84",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "855fe80f-3887-4b1e-a1b5-d0a672a0221c",
+                        "uri": "",
+                        "name": "teamcitysample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "34202946-ef20-452c-a38b-c50e2eb5f028",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "68c19a59-75e6-4296-92ef-c838132110b1",
+                        "uri": "",
+                        "name": "nexussample.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "7447053f-f4b5-460f-b96e-cbbc4f11d936",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "a1c034c1-6b6f-47a7-9186-ef331cafc70d",
+                        "uri": "",
+                        "name": "myget.octopus.com",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "7c21b8c4-a214-4f88-9871-320d45945566",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "1785ff6f-2a1d-4755-b47f-ae46faf63783",
+                        "uri": "",
+                        "name": " partners.octopus.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "dc8de3f1-a12d-4540-b8dc-d2a841d49c09",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 1,
+                "description": null,
+                "description_html": null,
+                "reward_range": {}
+            }
+        ]
+    },
+    {
         "name": "HotDoc",
         "tagline": "Easily book and manage all your appointments from one place.",
         "briefUrl": "/engagements/hotdoc",
@@ -42408,338 +42740,6 @@
                         "max": null
                     }
                 }
-            }
-        ]
-    },
-    {
-        "name": "Octopus",
-        "tagline": "Octopus Bug Bounty Program",
-        "briefUrl": "/engagements/octopus-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/35eb/fbe1/e04f925e/fd58ea5d8d6747881d2c627ecf5bb84f_octops.png",
-        "rewardSummary": {
-            "summary": "$200 - $6,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/octopus-og/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "444ddc7f-ee00-45ff-b126-79cae2234abb",
-                "name": "In Scope",
-                "targets": [
-                    {
-                        "id": "117aead5-bca8-4284-bd25-0bf0a94482e3",
-                        "uri": "",
-                        "name": "*.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "fe8fc539-7a05-4830-816d-d1d0a5896f58",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing",
-                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
-                                },
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "117aead5-bca8-4284-bd25-0bf0a94482e3"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca",
-                        "uri": "https://github.com/OctopusDeploy",
-                        "name": "Octopus Deploy Git Repo",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "bc1e0339-51cc-43de-b150-588efee5c03c",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
-                                },
-                                {
-                                    "id": "d58504e3-97f9-45ef-95aa-4a413a07190c",
-                                    "name": "Static Code Analysis",
-                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
-                                },
-                                {
-                                    "id": "e6a92521-9abd-43e3-90a3-9c7b1b72f12a",
-                                    "name": "Code review",
-                                    "targetId": "e8013f2e-02b6-41d9-b626-b74f8e7b90ca"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5",
-                        "uri": "https://octopus.com",
-                        "name": "octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "9e2a4a9b-54c2-4b7b-be64-662510bc5cce",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
-                                    "name": ".NET",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ae59e48c-9c52-4f11-95f2-027afc1e3bb5"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba",
-                        "uri": "https://aiagent.octopus.com/api/form",
-                        "name": "Octopus GitHub Copilot",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "4173a63b-77b4-4816-be7e-5690b1c1dbc0",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
-                                    "name": ".NET",
-                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
-                                },
-                                {
-                                    "id": "d14cf1dd-8069-48ef-9a2b-779bf3a066f9",
-                                    "name": "Artificial Intelligence",
-                                    "targetId": "ca991ed8-f3fe-44cb-8bf7-433e2687f9ba"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": "<p>Please note that dependencies with known issues within the GitHub are not considered valid without a working proof of concept that affects the actual platform. In addition, API keys on their own are not considered valid. In order to have a valid leaked API key, the domain URL must be referencing an Octopus domain that fits *.octopus.app. Any API keys with localhost or test within their name are considered invalid.</p>",
-                "reward_range": {
-                    "1": {
-                        "min": 6000,
-                        "max": 6000
-                    },
-                    "2": {
-                        "min": 2000,
-                        "max": 3000
-                    },
-                    "3": {
-                        "min": 500,
-                        "max": 1000
-                    },
-                    "4": {
-                        "min": 200,
-                        "max": 300
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "a7637142-53e1-48b5-9452-0289587df061",
-                "name": "Out of scope targets",
-                "targets": [
-                    {
-                        "id": "5e0fd47d-0bfe-4347-92eb-b640cd69123c",
-                        "uri": null,
-                        "name": "*.octopus.app",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "d6732000-b651-410d-b8cd-66c0b4bd29f0",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "5e0fd47d-0bfe-4347-92eb-b640cd69123c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "f319331d-982a-4202-83b9-6b1c2c93e95b",
-                        "uri": "",
-                        "name": "artifactorysample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "d54cfc22-4f98-45b0-bf55-1ce90100da36",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "70deefc9-e797-4e08-a05b-8afb451d7c0f",
-                        "uri": "",
-                        "name": "bamboosample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "9baac406-d31b-4b25-a5e2-5735194acbc5",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "20844a77-0de8-4e2a-91a4-0a2248cbc1e2",
-                        "uri": "",
-                        "name": "jenkinssample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "c53e0957-362d-4d18-9040-74d40244cd84",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "855fe80f-3887-4b1e-a1b5-d0a672a0221c",
-                        "uri": "",
-                        "name": "teamcitysample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "34202946-ef20-452c-a38b-c50e2eb5f028",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "68c19a59-75e6-4296-92ef-c838132110b1",
-                        "uri": "",
-                        "name": "nexussample.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "7447053f-f4b5-460f-b96e-cbbc4f11d936",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "a1c034c1-6b6f-47a7-9186-ef331cafc70d",
-                        "uri": "",
-                        "name": "myget.octopus.com",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "7c21b8c4-a214-4f88-9871-320d45945566",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "1785ff6f-2a1d-4755-b47f-ae46faf63783",
-                        "uri": "",
-                        "name": " partners.octopus.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "dc8de3f1-a12d-4540-b8dc-d2a841d49c09",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    }
-                ],
-                "in_scope": false,
-                "sort_order": 1,
-                "description": null,
-                "description_html": null,
-                "reward_range": {}
             }
         ]
     },
@@ -49829,6 +49829,78 @@
         ]
     },
     {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "FIS",
         "tagline": "Advancing the ways the world pays, banks and invests.",
         "briefUrl": "/fis",
@@ -49914,78 +49986,6 @@
                         "category": "website",
                         "uri": "https://apuat-aaa.fisglobal.com",
                         "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
                         "target": {
                             "tags": []
                         },
@@ -59926,6 +59926,243 @@
         ]
     },
     {
+        "name": "Acorns Grow, Inc.",
+        "tagline": "From acorns mighty oaks do grow",
+        "briefUrl": "/engagements/acorns",
+        "backgroundColor": "#74c947",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5269/3b42/d33c1aec/1ff80bd7f0fc20cf0fd4112371b8104e_Acorns_Square-01__1_.png",
+        "rewardSummary": {
+            "summary": "$200 - $3,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/acorns/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "f87cb44d-3bb7-49f7-91f7-2b13062c35fc",
+                "name": "Acorns Targets",
+                "targets": [
+                    {
+                        "id": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c",
+                        "uri": "https://acorns.com/",
+                        "name": "*.acorns.com/",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c012baf1-28fe-49b7-a6c2-e905be6920b5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c"
+                                },
+                                {
+                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
+                                    "name": "Javascript",
+                                    "targetId": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a756cf37-e6a8-4ecb-aceb-ef47452e880b",
+                        "uri": "https://apps.apple.com/us/app/acorns-invest-spare-change/id883324671",
+                        "name": "Acorns for iOS",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "ca9478c2-7208-46be-ae9d-87ffb049a8dd",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "a756cf37-e6a8-4ecb-aceb-ef47452e880b"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b467ca53-818a-4110-9272-099a2740f4d1",
+                        "uri": "https://graphql.acorns.com",
+                        "name": "https://graphql.acorns.com",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "8ba40edb-4519-4df9-be0e-2b32e5a8ca1e",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4aeb1677-ac84-4afd-827e-054b363ca984",
+                                    "name": "GraphQL",
+                                    "targetId": "b467ca53-818a-4110-9272-099a2740f4d1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "3c450ad5-8ef0-4576-85a1-9b9871b9a26c",
+                        "uri": "https://play.google.com/store/apps/details?id=com.acorns.android&hl=en_US&gl=US",
+                        "name": "Acorns for Android",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "50701aaf-5073-4dbf-95ac-1c3224e164c5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "3c450ad5-8ef0-4576-85a1-9b9871b9a26c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "8fee83eb-1206-4d56-af36-9b27f9a7a6e9",
+                        "uri": "https://www.gohenry.com/",
+                        "name": "https://www.gohenry.com/",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "e9741ece-e2e4-4f63-9c9d-be57896edd06",
+                            "sort_order": 4
+                        },
+                        "sort_order": 4,
+                        "tags": null
+                    },
+                    {
+                        "id": "213d4931-967e-4a29-8a56-9b016ecb8cfb",
+                        "uri": "https://www.pixpay.fr/",
+                        "name": "https://www.pixpay.fr/",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b90c53ad-cab3-43ba-b162-28b7b3f66f0f",
+                            "sort_order": 5
+                        },
+                        "sort_order": 5,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<ul>\n<li>All subdomains pertaining to Acorns.com </li>\n<li>All App Apis</li>\n<li>Any and all publicly exposed interfaces owned by Acorns that lead to system exploitation or sensitive information disclosure </li>\n<li>Android and IOS App testing </li>\n</ul>",
+                "reward_range": {
+                    "1": {
+                        "min": 3500,
+                        "max": 3500
+                    },
+                    "2": {
+                        "min": 1750,
+                        "max": 1750
+                    },
+                    "3": {
+                        "min": 650,
+                        "max": 650
+                    },
+                    "4": {
+                        "min": 200,
+                        "max": 200
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "59d33fe8-be7a-42d9-bdb7-3978e281a11b",
+                "name": "Out-Of-Scope",
+                "targets": [
+                    {
+                        "id": "5978250d-0fc0-45f3-a853-f9330cabf64d",
+                        "uri": "",
+                        "name": "share.acorns.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "3dacb37d-6a74-4b7e-9ea2-d48be505dc21",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "1327302b-c059-487d-80c0-4d8f92e54447",
+                        "uri": "",
+                        "name": "grow.acorns.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6528d551-409a-4368-b6f7-9b5b8b79d073",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "3906d779-d158-4440-8ce8-c82bd5ae86bb",
+                        "uri": "",
+                        "name": "store.acorns.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "af1ff6d5-f7fd-487b-9706-e7d17b443655",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 1,
+                "description": null,
+                "description_html": "<ul>\n<li>Rate limiting on endpoints</li>\n<li>Any attack that needs any type of social engineering tactic. (need access to customer email etc...)</li>\n<li>Denial of Service Attacks</li>\n</ul>",
+                "reward_range": {}
+            }
+        ]
+    },
+    {
         "name": "PlanetHoster",
         "tagline": "PlanetHoster invites you to test their web hosting platform!",
         "briefUrl": "/engagements/planethosterinc",
@@ -60821,398 +61058,6 @@
                         "min": null,
                         "max": null
                     }
-                }
-            }
-        ]
-    },
-    {
-        "name": "Entain Game Logic Flaws Bug Bounty Program",
-        "tagline": "Join the program and help us find game and business logic vulnerabilities in our Online Games and Sports Betting Games",
-        "briefUrl": "/engagements/entain-glf-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1181/bd25/698b292e/e7fad5f9d17062a848f04ae577d712f0_e7867d9bc708190c2d7ce2baba6e4262_1607589296370.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $6,500",
-            "hint": "Up to $10,000",
-            "minReward": "Points",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Entertainment",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/entain-glf-mbb-og/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "1718dfb6-6d35-4cbc-a0ff-69248030adde",
-                "name": "In Scope",
-                "targets": [
-                    {
-                        "id": "24cf612e-4939-45ba-9a2e-6b46500167ab",
-                        "uri": "https://casino.partycasino.com",
-                        "name": "https://casino.partycasino.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "22c77d94-de69-4daf-a178-fd4390ec3e0d",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "24cf612e-4939-45ba-9a2e-6b46500167ab"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "4049c46b-57a3-4b47-a7e8-78c40e4d8c44",
-                        "uri": "https://casino.bwin.com",
-                        "name": "https://casino.bwin.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "4c972a4c-a6dd-43e9-9cb9-d85ce8b84211",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "4049c46b-57a3-4b47-a7e8-78c40e4d8c44"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "2511c0cf-fd04-4e89-bb09-ae9994de13bb",
-                        "uri": "https://casino.sportingbet.com",
-                        "name": "https://casino.sportingbet.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "2ee04ce2-780e-49a5-98d2-1c584ad3acb8",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "2511c0cf-fd04-4e89-bb09-ae9994de13bb"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "13579f7b-978a-4524-a5ff-63170c1f46cc",
-                        "uri": "https://www.ladbrokes.com/en/games",
-                        "name": "https://www.ladbrokes.com/en/games",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "640c483e-a045-4833-9dba-4a4a593b9b49",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "13579f7b-978a-4524-a5ff-63170c1f46cc"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "dd1c24f5-519a-47ae-afe5-0eea1fb832e1",
-                        "uri": "https://www.coral.co.uk/en/games",
-                        "name": "https://www.coral.co.uk/en/games",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "6b16d2cb-2417-46c4-b426-4884fc1adb90",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "dd1c24f5-519a-47ae-afe5-0eea1fb832e1"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "5b3e8a87-0f73-4b1a-8208-caea72d0368b",
-                        "uri": "",
-                        "name": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "0ed70602-d174-4418-ab70-29d72f2d8a78",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "5b3e8a87-0f73-4b1a-8208-caea72d0368b"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": "<h2>Find a Game to test on our targets:</h2>\n\n<p>The process for finding and accessing a game is the same: connect to the casino section of the website, search for the game, and login to play.<br>\nOnly the games listed here: <a href=\"https://bugcrowd.com/entain-glf-mbb-og/attachments/e205533a-5a72-4814-b051-968fd417c43c\" rel=\"nofollow noreferrer\" target=\"_blank\">Entain-Casino-Games-Engine-List.pdf</a> are in scope. The websites that host the games  are <strong>NOT</strong> in scope for this bug bounty program. </p>\n\n<p>You will need to create an account in order to test the game. </p>\n\n<h3>BetMGM USA sites</h3>\n\n<p>To ensure a seamless user experience and comply with GeoIP restrictions, we kindly request that you visit our website at www.betmgm.com. <br>\nUpon accessing the site, you will be directed to the appropriate state location or provided with a default option for your convenience. <br>\nPlease note that the URL may differ based on your specific location. For instance, if you are in New Jersey it will resolve to:  <code>https://casino.nj.betmgm.com/en/games</code></p>",
-                "reward_range": {
-                    "1": {
-                        "min": 6100,
-                        "max": 6500
-                    },
-                    "2": {
-                        "min": 2100,
-                        "max": 2500
-                    },
-                    "3": {
-                        "min": 300,
-                        "max": 800
-                    },
-                    "4": {
-                        "min": null,
-                        "max": null
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    },
-                    "programMax": 10000
-                }
-            }
-        ]
-    },
-    {
-        "name": "Entain Game Logic Flaws Bug Bounty Program",
-        "tagline": "Join the program and help us find game and business logic vulnerabilities in our Online Games and Sports Betting Games",
-        "briefUrl": "/engagements/entain-glf-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1181/bd25/698b292e/e7fad5f9d17062a848f04ae577d712f0_e7867d9bc708190c2d7ce2baba6e4262_1607589296370.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $6,500",
-            "hint": "Up to $10,000",
-            "minReward": "Points",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Entertainment",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/entain-glf-mbb-og/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "1718dfb6-6d35-4cbc-a0ff-69248030adde",
-                "name": "In Scope",
-                "targets": [
-                    {
-                        "id": "24cf612e-4939-45ba-9a2e-6b46500167ab",
-                        "uri": "https://casino.partycasino.com",
-                        "name": "https://casino.partycasino.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "22c77d94-de69-4daf-a178-fd4390ec3e0d",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "24cf612e-4939-45ba-9a2e-6b46500167ab"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "4049c46b-57a3-4b47-a7e8-78c40e4d8c44",
-                        "uri": "https://casino.bwin.com",
-                        "name": "https://casino.bwin.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "4c972a4c-a6dd-43e9-9cb9-d85ce8b84211",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "4049c46b-57a3-4b47-a7e8-78c40e4d8c44"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "2511c0cf-fd04-4e89-bb09-ae9994de13bb",
-                        "uri": "https://casino.sportingbet.com",
-                        "name": "https://casino.sportingbet.com",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "2ee04ce2-780e-49a5-98d2-1c584ad3acb8",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "2511c0cf-fd04-4e89-bb09-ae9994de13bb"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "13579f7b-978a-4524-a5ff-63170c1f46cc",
-                        "uri": "https://www.ladbrokes.com/en/games",
-                        "name": "https://www.ladbrokes.com/en/games",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "640c483e-a045-4833-9dba-4a4a593b9b49",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "13579f7b-978a-4524-a5ff-63170c1f46cc"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "dd1c24f5-519a-47ae-afe5-0eea1fb832e1",
-                        "uri": "https://www.coral.co.uk/en/games",
-                        "name": "https://www.coral.co.uk/en/games",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "6b16d2cb-2417-46c4-b426-4884fc1adb90",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "dd1c24f5-519a-47ae-afe5-0eea1fb832e1"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "5b3e8a87-0f73-4b1a-8208-caea72d0368b",
-                        "uri": "",
-                        "name": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "0ed70602-d174-4418-ab70-29d72f2d8a78",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c2f2c6ac-2793-4871-a93d-2cf8c9ae10cc",
-                                    "name": "Games",
-                                    "targetId": "5b3e8a87-0f73-4b1a-8208-caea72d0368b"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": "<h2>Find a Game to test on our targets:</h2>\n\n<p>The process for finding and accessing a game is the same: connect to the casino section of the website, search for the game, and login to play.<br>\nOnly the games listed here: <a href=\"https://bugcrowd.com/entain-glf-mbb-og/attachments/e205533a-5a72-4814-b051-968fd417c43c\" rel=\"nofollow noreferrer\" target=\"_blank\">Entain-Casino-Games-Engine-List.pdf</a> are in scope. The websites that host the games  are <strong>NOT</strong> in scope for this bug bounty program. </p>\n\n<p>You will need to create an account in order to test the game. </p>\n\n<h3>BetMGM USA sites</h3>\n\n<p>To ensure a seamless user experience and comply with GeoIP restrictions, we kindly request that you visit our website at www.betmgm.com. <br>\nUpon accessing the site, you will be directed to the appropriate state location or provided with a default option for your convenience. <br>\nPlease note that the URL may differ based on your specific location. For instance, if you are in New Jersey it will resolve to:  <code>https://casino.nj.betmgm.com/en/games</code></p>",
-                "reward_range": {
-                    "1": {
-                        "min": 6100,
-                        "max": 6500
-                    },
-                    "2": {
-                        "min": 2100,
-                        "max": 2500
-                    },
-                    "3": {
-                        "min": 300,
-                        "max": 800
-                    },
-                    "4": {
-                        "min": null,
-                        "max": null
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    },
-                    "programMax": 10000
                 }
             }
         ]
@@ -62910,6 +62755,243 @@
                         "known_issues": {}
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Acorns Grow, Inc.",
+        "tagline": "From acorns mighty oaks do grow",
+        "briefUrl": "/engagements/acorns",
+        "backgroundColor": "#74c947",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5269/3b42/d33c1aec/1ff80bd7f0fc20cf0fd4112371b8104e_Acorns_Square-01__1_.png",
+        "rewardSummary": {
+            "summary": "$200 - $3,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/acorns/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "f87cb44d-3bb7-49f7-91f7-2b13062c35fc",
+                "name": "Acorns Targets",
+                "targets": [
+                    {
+                        "id": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c",
+                        "uri": "https://acorns.com/",
+                        "name": "*.acorns.com/",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "c012baf1-28fe-49b7-a6c2-e905be6920b5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c"
+                                },
+                                {
+                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
+                                    "name": "Javascript",
+                                    "targetId": "36ab7cc3-5c6a-4bd3-b1af-4832c9ad019c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "a756cf37-e6a8-4ecb-aceb-ef47452e880b",
+                        "uri": "https://apps.apple.com/us/app/acorns-invest-spare-change/id883324671",
+                        "name": "Acorns for iOS",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "ca9478c2-7208-46be-ae9d-87ffb049a8dd",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS",
+                                    "targetId": "a756cf37-e6a8-4ecb-aceb-ef47452e880b"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b467ca53-818a-4110-9272-099a2740f4d1",
+                        "uri": "https://graphql.acorns.com",
+                        "name": "https://graphql.acorns.com",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "8ba40edb-4519-4df9-be0e-2b32e5a8ca1e",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4aeb1677-ac84-4afd-827e-054b363ca984",
+                                    "name": "GraphQL",
+                                    "targetId": "b467ca53-818a-4110-9272-099a2740f4d1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "3c450ad5-8ef0-4576-85a1-9b9871b9a26c",
+                        "uri": "https://play.google.com/store/apps/details?id=com.acorns.android&hl=en_US&gl=US",
+                        "name": "Acorns for Android",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "50701aaf-5073-4dbf-95ac-1c3224e164c5",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android",
+                                    "targetId": "3c450ad5-8ef0-4576-85a1-9b9871b9a26c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "8fee83eb-1206-4d56-af36-9b27f9a7a6e9",
+                        "uri": "https://www.gohenry.com/",
+                        "name": "https://www.gohenry.com/",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "e9741ece-e2e4-4f63-9c9d-be57896edd06",
+                            "sort_order": 4
+                        },
+                        "sort_order": 4,
+                        "tags": null
+                    },
+                    {
+                        "id": "213d4931-967e-4a29-8a56-9b016ecb8cfb",
+                        "uri": "https://www.pixpay.fr/",
+                        "name": "https://www.pixpay.fr/",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b90c53ad-cab3-43ba-b162-28b7b3f66f0f",
+                            "sort_order": 5
+                        },
+                        "sort_order": 5,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<ul>\n<li>All subdomains pertaining to Acorns.com </li>\n<li>All App Apis</li>\n<li>Any and all publicly exposed interfaces owned by Acorns that lead to system exploitation or sensitive information disclosure </li>\n<li>Android and IOS App testing </li>\n</ul>",
+                "reward_range": {
+                    "1": {
+                        "min": 3500,
+                        "max": 3500
+                    },
+                    "2": {
+                        "min": 1750,
+                        "max": 1750
+                    },
+                    "3": {
+                        "min": 650,
+                        "max": 650
+                    },
+                    "4": {
+                        "min": 200,
+                        "max": 200
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "59d33fe8-be7a-42d9-bdb7-3978e281a11b",
+                "name": "Out-Of-Scope",
+                "targets": [
+                    {
+                        "id": "5978250d-0fc0-45f3-a853-f9330cabf64d",
+                        "uri": "",
+                        "name": "share.acorns.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "3dacb37d-6a74-4b7e-9ea2-d48be505dc21",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "1327302b-c059-487d-80c0-4d8f92e54447",
+                        "uri": "",
+                        "name": "grow.acorns.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "6528d551-409a-4368-b6f7-9b5b8b79d073",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "3906d779-d158-4440-8ce8-c82bd5ae86bb",
+                        "uri": "",
+                        "name": "store.acorns.com",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "af1ff6d5-f7fd-487b-9706-e7d17b443655",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 1,
+                "description": null,
+                "description_html": "<ul>\n<li>Rate limiting on endpoints</li>\n<li>Any attack that needs any type of social engineering tactic. (need access to customer email etc...)</li>\n<li>Denial of Service Attacks</li>\n</ul>",
+                "reward_range": {}
             }
         ]
     },
