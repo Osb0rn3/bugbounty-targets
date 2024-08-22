@@ -77908,467 +77908,6 @@
         ]
     },
     {
-        "name": "Exoscale",
-        "tagline": "European cloud provider. Simplicity, scalability and security.",
-        "briefUrl": "/engagements/exoscale",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4274/a10a/0bb5e8c1/973dd751bb7e4a2f4403efb9785c3e55_exoscale.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Cloud",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/exoscale/engagement_subscribers",
-        "target_groups": [
-            {
-                "id": "b36828c9-9bde-4c25-ba36-6bbf2ab06e65",
-                "name": "Advanced Scope - Virtualisation Layer",
-                "targets": [
-                    {
-                        "id": "29b95ee1-a5de-4050-9989-e5327210d889",
-                        "uri": "",
-                        "name": "Virtualisation layer",
-                        "category": "other",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "a3f77e45-751c-41a3-97ce-194c8472fdfd",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "53668c6b-c8f0-48a8-b203-77fd746e6ecc",
-                        "uri": "https://sks-ch-gva-2.exo.io",
-                        "name": "SKS Clusters",
-                        "category": "other",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "745ee196-fe7d-4083-8b8a-cf188a511001",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 0,
-                "description": null,
-                "description_html": "<p>This target group focuses on more technically challenging and critical aspect of our infrastructure, hence the higher bounty ranges. Particularly, we are interested in vulnerabilities that would concern the virtualisation layer. Example of interesting vulnerabilities would be:</p>\n\n<ul>\n<li>VM Breakouts</li>\n<li>Container Breakouts</li>\n<li>Hypervisor Level Exploitation/Access</li>\n<li>Cross-Tenant Access</li>\n<li>Speculative Execution Exploit </li>\n</ul>\n\n<p>The information regarding accesses mentioned in the first target group still applies here. </p>",
-                "reward_range": {
-                    "1": {
-                        "min": 5000,
-                        "max": 10000
-                    },
-                    "2": {
-                        "min": 2000,
-                        "max": 4000
-                    },
-                    "3": {
-                        "min": 500,
-                        "max": 2000
-                    },
-                    "4": {
-                        "min": 200,
-                        "max": 200
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "d4f8edb3-2fc6-44b7-8512-bb5da3f1b0de",
-                "name": "Main scope",
-                "targets": [
-                    {
-                        "id": "4030150f-ecc8-43d4-8df9-5b3a6d5a8ae0",
-                        "uri": "https://portal.exoscale.com/",
-                        "name": "Web Portal",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "60a3e59b-9c6e-40ab-9737-77664a60fef7",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "4030150f-ecc8-43d4-8df9-5b3a6d5a8ae0"
-                                },
-                                {
-                                    "id": "578f7631-aa18-4ca8-b7a6-9f90b2a2b964",
-                                    "name": "Clojure",
-                                    "targetId": "4030150f-ecc8-43d4-8df9-5b3a6d5a8ae0"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "4030150f-ecc8-43d4-8df9-5b3a6d5a8ae0"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python",
-                                    "targetId": "4030150f-ecc8-43d4-8df9-5b3a6d5a8ae0"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "f630af0e-8cfd-424b-81a3-64067616caea",
-                        "uri": "https://api-ch-gva-2.exoscale.com/v2",
-                        "name": "API",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "a1b83abf-cb59-4e7f-a79b-145330f6b131",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "f630af0e-8cfd-424b-81a3-64067616caea"
-                                },
-                                {
-                                    "id": "578f7631-aa18-4ca8-b7a6-9f90b2a2b964",
-                                    "name": "Clojure",
-                                    "targetId": "f630af0e-8cfd-424b-81a3-64067616caea"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "6188ab7c-8007-4438-a6aa-56b1e0fc408c",
-                        "uri": "https://sos-ch-gva-2.exo.io/",
-                        "name": "Simple Object Storage (SOS)",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "de98c5d5-ff48-4870-880b-b8f7491682f9",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "6188ab7c-8007-4438-a6aa-56b1e0fc408c"
-                                },
-                                {
-                                    "id": "578f7631-aa18-4ca8-b7a6-9f90b2a2b964",
-                                    "name": "Clojure",
-                                    "targetId": "6188ab7c-8007-4438-a6aa-56b1e0fc408c"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3",
-                                    "targetId": "6188ab7c-8007-4438-a6aa-56b1e0fc408c"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "c9c37386-6bf2-465b-9125-797be635e726",
-                        "uri": "https://internal.exoscale.ch",
-                        "name": "Internal Web services - https://*.internal.exoscale.ch",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "1e0a0764-b2f4-4fa8-801a-433bb98b1d9a",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing",
-                                    "targetId": "c9c37386-6bf2-465b-9125-797be635e726"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "b43b774a-95de-4bdb-857f-bb5602105fa9",
-                        "uri": "https://api-ch-gva-2.exoscale.com/v2",
-                        "name": "Managed Scalable Kubernetes Service (SKS)",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "87f391ef-a83b-432b-80a8-324689aab560",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "b43b774a-95de-4bdb-857f-bb5602105fa9"
-                                },
-                                {
-                                    "id": "e82bba17-848b-4f2b-a2a5-58d2a83530d4",
-                                    "name": "Kubernetes",
-                                    "targetId": "b43b774a-95de-4bdb-857f-bb5602105fa9"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "b0785f12-0cc1-4257-8311-b3785203d8a6",
-                        "uri": "https://api-ch-gva-2.exoscale.com/v2",
-                        "name": "Database as a Service (DBaaS)",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "397d0d24-b96b-44fb-ba38-4237701a6a3e",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing",
-                                    "targetId": "b0785f12-0cc1-4257-8311-b3785203d8a6"
-                                },
-                                {
-                                    "id": "515aada9-3b1a-4e38-a3f2-a9abd77feb0b",
-                                    "name": "Apache Kafka",
-                                    "targetId": "b0785f12-0cc1-4257-8311-b3785203d8a6"
-                                },
-                                {
-                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
-                                    "name": "MySQL",
-                                    "targetId": "b0785f12-0cc1-4257-8311-b3785203d8a6"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL",
-                                    "targetId": "b0785f12-0cc1-4257-8311-b3785203d8a6"
-                                },
-                                {
-                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
-                                    "name": "Redis",
-                                    "targetId": "b0785f12-0cc1-4257-8311-b3785203d8a6"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "in_scope": true,
-                "sort_order": 1,
-                "description": null,
-                "description_html": "<h2>Target information</h2>\n\n<p><a href=\"https://www.youtube.com/channel/UCIJLUrH_a1QbBUFJTJKLtdg/\" rel=\"nofollow noreferrer\" target=\"_blank\">Here</a> you can find our YouTube channel where there are talks and quickstart guides for some of our products such as the SKS Managed Kubernetes.</p>\n\n<p>All Exoscale zones are in scope of this program (some of the URLs below point to &quot;ch-gva-2&quot; as an example).</p>\n\n<h2>Access:</h2>\n\n<h3>Credentials:</h3>\n\n<p>Upon joining the program, each researcher will get a mailbox auto-assigned to them. Each researcher will receive automatically an email with a list of coupons that can be used to register multiple accounts on Exoscale.</p>\n\n<p>Each coupon can be used once to register an account using a different email addresses. You should register using the assigned Bugcrowd email alias using the + tag capabilities for multiple accounts. Ex: curious.badger+account1@bugcrowdninja.com</p>\n\n<h4>If you need more coupon codes, you can contact support@exoscale.com by providing your username and @bugcrowdninja.com email address.</h4>\n\n<h3>Treasure Map</h3>\n\n<p>A treasure map that contains a detailed description of our product and infrastructure is available to program participants when requesting credentials. A list of our internally used domains and IPs is also provided and define the scope that can be scanned for vulnerability. Any other IPs in our AS ranges would belong to customers and be out of scope.</p>\n\n<p>By joining the program, you agree not to disclose any of the provided information.</p>",
-                "reward_range": {
-                    "1": {
-                        "min": 3500,
-                        "max": 5000
-                    },
-                    "2": {
-                        "min": 1000,
-                        "max": 2000
-                    },
-                    "3": {
-                        "min": 200,
-                        "max": 1000
-                    },
-                    "4": {
-                        "min": 100,
-                        "max": 100
-                    },
-                    "5": {
-                        "min": null,
-                        "max": null
-                    }
-                }
-            },
-            {
-                "id": "7b1e9cde-fc0e-4004-85f2-4b6023eb2154",
-                "name": "Out of Scope",
-                "targets": [
-                    {
-                        "id": "9e9e9e42-e62c-48f9-816b-d8356a056165",
-                        "uri": "https://www.exoscale.com",
-                        "name": "Public Website",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "89bd8102-6379-43f4-a613-909895c4e752",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "f7edb346-e00c-4688-a7c3-e1e191dadc5f",
-                        "uri": "https://community.exoscale.com",
-                        "name": "Public Documentation Website",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "9f5b83a0-9e4c-4b99-9894-38b5bea60c3c",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "d630171b-e482-4c5c-ae79-1306212cad62",
-                        "uri": "",
-                        "name": "Marketplace products",
-                        "category": "other",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "70c2a669-004c-437f-a412-e70d8069d18b",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "2933723c-093d-41c0-86a9-046fd25f20c8",
-                        "uri": "https://academy.exoscale.com",
-                        "name": "Exoscale Academy",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "b16c9e1d-7c99-47f7-bd3b-bde22338ebc7",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "cc23ea2d-47ec-4ba1-8631-da10504cc536",
-                        "uri": "",
-                        "name": "CDN service",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "1e92cd78-24bd-43c5-b6bb-c551787d1e67",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "a9a9fd01-c90b-4c2c-a83d-cc91a1cc0c8b",
-                        "uri": "https://jobs.exoscale.com",
-                        "name": "Job Board",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "8c4437f1-db48-4e43-8f64-8de4c1796dbf",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "80dada8c-42d8-4635-b015-efc88d103b63",
-                        "uri": "https://changelog.exoscale.com",
-                        "name": "Changelog",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "a113614a-4ceb-489d-99d8-bebdbc5dd647",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "d7c1264b-0a53-4ee3-baac-f14bedb86118",
-                        "uri": "https://openapi-v2.exoscale.com/",
-                        "name": "OpenAPI V2 Documentation",
-                        "category": "website",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "f1b3d0b4-710c-4855-9b3f-a57513640b9a",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "d8b3267e-70a0-4d41-ab3d-85c44c951760",
-                        "uri": "http://zammad.internal.exoscale.ch/",
-                        "name": "Zammad",
-                        "category": "website",
-                        "ipAddress": "",
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "b0ab14f2-bcf3-46a3-adcf-626d895fbf54",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    },
-                    {
-                        "id": "dc6abea1-7788-40a9-9aed-4b70a816d4f8",
-                        "uri": "https://exoscalestatus.com/",
-                        "name": "Runstatus",
-                        "category": "api",
-                        "ipAddress": null,
-                        "description": null,
-                        "engagementBriefTargetGroupTarget": {
-                            "id": "0c1cdee1-242a-41d2-8dad-335bac8572f2",
-                            "sort_order": 0
-                        },
-                        "sort_order": 0,
-                        "tags": null
-                    }
-                ],
-                "in_scope": false,
-                "sort_order": 2,
-                "description": null,
-                "description_html": "<h2>Out of scope</h2>\n\n<ul>\n<li>Customer infrastructure is out of scope</li>\n<li>Failure to Invalidate Session issues</li>\n<li>No Rate Limiting on Form issues unless the researcher can demonstrate a strong security impact</li>\n<li>Vulnerabilities that only results in inconsequential losses for Exoscale (under USD 500, ex: resources or coupon limit bypass)</li>\n<li>All P5 severity vulnerability as described on the Bugcrowd Vulnerability Taxonomy</li>\n<li>Activities amounting to denial of services</li>\n<li>Missing Secure or HTTPOnly Cookie Flag</li>\n<li>Email Spoofing to Inbox due to Missing or Misconfigured DMARC on Email Domain</li>\n<li>Vulnerabilities only affecting users of outdated or unpatched browsers</li>\n<li>Software version disclosure</li>\n<li>Very recent public vulnerability (patch available for less than 2 weeks)</li>\n<li>Attacks that require unlikely user interaction</li>\n</ul>",
-                "reward_range": {}
-            }
-        ]
-    },
-    {
         "name": "HostGator Latam Bug Bounty",
         "tagline": "Submit your finding to the program!",
         "briefUrl": "/engagements/hostgator-latam-bb",
@@ -79082,6 +78621,467 @@
                         "known_issues": {}
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Exoscale",
+        "tagline": "European cloud provider. Simplicity, scalability and security.",
+        "briefUrl": "/engagements/exoscale",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4274/a10a/0bb5e8c1/973dd751bb7e4a2f4403efb9785c3e55_exoscale.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Cloud",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/exoscale/engagement_subscribers",
+        "target_groups": [
+            {
+                "id": "b36828c9-9bde-4c25-ba36-6bbf2ab06e65",
+                "name": "Advanced Scope - Virtualisation Layer",
+                "targets": [
+                    {
+                        "id": "29b95ee1-a5de-4050-9989-e5327210d889",
+                        "uri": "",
+                        "name": "Virtualisation layer",
+                        "category": "other",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a3f77e45-751c-41a3-97ce-194c8472fdfd",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "53668c6b-c8f0-48a8-b203-77fd746e6ecc",
+                        "uri": "https://sks-ch-gva-2.exo.io",
+                        "name": "SKS Clusters",
+                        "category": "other",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "745ee196-fe7d-4083-8b8a-cf188a511001",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 0,
+                "description": null,
+                "description_html": "<p>This target group focuses on more technically challenging and critical aspect of our infrastructure, hence the higher bounty ranges. Particularly, we are interested in vulnerabilities that would concern the virtualisation layer. Example of interesting vulnerabilities would be:</p>\n\n<ul>\n<li>VM Breakouts</li>\n<li>Container Breakouts</li>\n<li>Hypervisor Level Exploitation/Access</li>\n<li>Cross-Tenant Access</li>\n<li>Speculative Execution Exploit </li>\n</ul>\n\n<p>The information regarding accesses mentioned in the first target group still applies here. </p>",
+                "reward_range": {
+                    "1": {
+                        "min": 5000,
+                        "max": 10000
+                    },
+                    "2": {
+                        "min": 2000,
+                        "max": 4000
+                    },
+                    "3": {
+                        "min": 500,
+                        "max": 2000
+                    },
+                    "4": {
+                        "min": 200,
+                        "max": 200
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "d4f8edb3-2fc6-44b7-8512-bb5da3f1b0de",
+                "name": "Main scope",
+                "targets": [
+                    {
+                        "id": "4030150f-ecc8-43d4-8df9-5b3a6d5a8ae0",
+                        "uri": "https://portal.exoscale.com/",
+                        "name": "Web Portal",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "60a3e59b-9c6e-40ab-9737-77664a60fef7",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "4030150f-ecc8-43d4-8df9-5b3a6d5a8ae0"
+                                },
+                                {
+                                    "id": "578f7631-aa18-4ca8-b7a6-9f90b2a2b964",
+                                    "name": "Clojure",
+                                    "targetId": "4030150f-ecc8-43d4-8df9-5b3a6d5a8ae0"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "4030150f-ecc8-43d4-8df9-5b3a6d5a8ae0"
+                                },
+                                {
+                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
+                                    "name": "Python",
+                                    "targetId": "4030150f-ecc8-43d4-8df9-5b3a6d5a8ae0"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "f630af0e-8cfd-424b-81a3-64067616caea",
+                        "uri": "https://api-ch-gva-2.exoscale.com/v2",
+                        "name": "API",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a1b83abf-cb59-4e7f-a79b-145330f6b131",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "f630af0e-8cfd-424b-81a3-64067616caea"
+                                },
+                                {
+                                    "id": "578f7631-aa18-4ca8-b7a6-9f90b2a2b964",
+                                    "name": "Clojure",
+                                    "targetId": "f630af0e-8cfd-424b-81a3-64067616caea"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "6188ab7c-8007-4438-a6aa-56b1e0fc408c",
+                        "uri": "https://sos-ch-gva-2.exo.io/",
+                        "name": "Simple Object Storage (SOS)",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "de98c5d5-ff48-4870-880b-b8f7491682f9",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "6188ab7c-8007-4438-a6aa-56b1e0fc408c"
+                                },
+                                {
+                                    "id": "578f7631-aa18-4ca8-b7a6-9f90b2a2b964",
+                                    "name": "Clojure",
+                                    "targetId": "6188ab7c-8007-4438-a6aa-56b1e0fc408c"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3",
+                                    "targetId": "6188ab7c-8007-4438-a6aa-56b1e0fc408c"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "c9c37386-6bf2-465b-9125-797be635e726",
+                        "uri": "https://internal.exoscale.ch",
+                        "name": "Internal Web services - https://*.internal.exoscale.ch",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "1e0a0764-b2f4-4fa8-801a-433bb98b1d9a",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing",
+                                    "targetId": "c9c37386-6bf2-465b-9125-797be635e726"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b43b774a-95de-4bdb-857f-bb5602105fa9",
+                        "uri": "https://api-ch-gva-2.exoscale.com/v2",
+                        "name": "Managed Scalable Kubernetes Service (SKS)",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "87f391ef-a83b-432b-80a8-324689aab560",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "b43b774a-95de-4bdb-857f-bb5602105fa9"
+                                },
+                                {
+                                    "id": "e82bba17-848b-4f2b-a2a5-58d2a83530d4",
+                                    "name": "Kubernetes",
+                                    "targetId": "b43b774a-95de-4bdb-857f-bb5602105fa9"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "b0785f12-0cc1-4257-8311-b3785203d8a6",
+                        "uri": "https://api-ch-gva-2.exoscale.com/v2",
+                        "name": "Database as a Service (DBaaS)",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "397d0d24-b96b-44fb-ba38-4237701a6a3e",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing",
+                                    "targetId": "b0785f12-0cc1-4257-8311-b3785203d8a6"
+                                },
+                                {
+                                    "id": "515aada9-3b1a-4e38-a3f2-a9abd77feb0b",
+                                    "name": "Apache Kafka",
+                                    "targetId": "b0785f12-0cc1-4257-8311-b3785203d8a6"
+                                },
+                                {
+                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
+                                    "name": "MySQL",
+                                    "targetId": "b0785f12-0cc1-4257-8311-b3785203d8a6"
+                                },
+                                {
+                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
+                                    "name": "PostgreSQL",
+                                    "targetId": "b0785f12-0cc1-4257-8311-b3785203d8a6"
+                                },
+                                {
+                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
+                                    "name": "Redis",
+                                    "targetId": "b0785f12-0cc1-4257-8311-b3785203d8a6"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "in_scope": true,
+                "sort_order": 1,
+                "description": null,
+                "description_html": "<h2>Target information</h2>\n\n<p><a href=\"https://www.youtube.com/channel/UCIJLUrH_a1QbBUFJTJKLtdg/\" rel=\"nofollow noreferrer\" target=\"_blank\">Here</a> you can find our YouTube channel where there are talks and quickstart guides for some of our products such as the SKS Managed Kubernetes.</p>\n\n<p>All Exoscale zones are in scope of this program (some of the URLs below point to &quot;ch-gva-2&quot; as an example).</p>\n\n<h2>Access:</h2>\n\n<h3>Credentials:</h3>\n\n<p>Upon joining the program, each researcher will get a mailbox auto-assigned to them. Each researcher will receive automatically an email with a list of coupons that can be used to register multiple accounts on Exoscale.</p>\n\n<p>Each coupon can be used once to register an account using a different email addresses. You should register using the assigned Bugcrowd email alias using the + tag capabilities for multiple accounts. Ex: curious.badger+account1@bugcrowdninja.com</p>\n\n<h4>If you need more coupon codes, you can contact support@exoscale.com by providing your username and @bugcrowdninja.com email address.</h4>\n\n<h3>Treasure Map</h3>\n\n<p>A treasure map that contains a detailed description of our product and infrastructure is available to program participants when requesting credentials. A list of our internally used domains and IPs is also provided and define the scope that can be scanned for vulnerability. Any other IPs in our AS ranges would belong to customers and be out of scope.</p>\n\n<p>By joining the program, you agree not to disclose any of the provided information.</p>",
+                "reward_range": {
+                    "1": {
+                        "min": 3500,
+                        "max": 5000
+                    },
+                    "2": {
+                        "min": 1000,
+                        "max": 2000
+                    },
+                    "3": {
+                        "min": 200,
+                        "max": 1000
+                    },
+                    "4": {
+                        "min": 100,
+                        "max": 100
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                }
+            },
+            {
+                "id": "7b1e9cde-fc0e-4004-85f2-4b6023eb2154",
+                "name": "Out of Scope",
+                "targets": [
+                    {
+                        "id": "9e9e9e42-e62c-48f9-816b-d8356a056165",
+                        "uri": "https://www.exoscale.com",
+                        "name": "Public Website",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "89bd8102-6379-43f4-a613-909895c4e752",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "f7edb346-e00c-4688-a7c3-e1e191dadc5f",
+                        "uri": "https://community.exoscale.com",
+                        "name": "Public Documentation Website",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "9f5b83a0-9e4c-4b99-9894-38b5bea60c3c",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "d630171b-e482-4c5c-ae79-1306212cad62",
+                        "uri": "",
+                        "name": "Marketplace products",
+                        "category": "other",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "70c2a669-004c-437f-a412-e70d8069d18b",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "2933723c-093d-41c0-86a9-046fd25f20c8",
+                        "uri": "https://academy.exoscale.com",
+                        "name": "Exoscale Academy",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b16c9e1d-7c99-47f7-bd3b-bde22338ebc7",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "cc23ea2d-47ec-4ba1-8631-da10504cc536",
+                        "uri": "",
+                        "name": "CDN service",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "1e92cd78-24bd-43c5-b6bb-c551787d1e67",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "a9a9fd01-c90b-4c2c-a83d-cc91a1cc0c8b",
+                        "uri": "https://jobs.exoscale.com",
+                        "name": "Job Board",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "8c4437f1-db48-4e43-8f64-8de4c1796dbf",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "80dada8c-42d8-4635-b015-efc88d103b63",
+                        "uri": "https://changelog.exoscale.com",
+                        "name": "Changelog",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "a113614a-4ceb-489d-99d8-bebdbc5dd647",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "d7c1264b-0a53-4ee3-baac-f14bedb86118",
+                        "uri": "https://openapi-v2.exoscale.com/",
+                        "name": "OpenAPI V2 Documentation",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "f1b3d0b4-710c-4855-9b3f-a57513640b9a",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "d8b3267e-70a0-4d41-ab3d-85c44c951760",
+                        "uri": "http://zammad.internal.exoscale.ch/",
+                        "name": "Zammad",
+                        "category": "website",
+                        "ipAddress": "",
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "b0ab14f2-bcf3-46a3-adcf-626d895fbf54",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    },
+                    {
+                        "id": "dc6abea1-7788-40a9-9aed-4b70a816d4f8",
+                        "uri": "https://exoscalestatus.com/",
+                        "name": "Runstatus",
+                        "category": "api",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "0c1cdee1-242a-41d2-8dad-335bac8572f2",
+                            "sort_order": 0
+                        },
+                        "sort_order": 0,
+                        "tags": null
+                    }
+                ],
+                "in_scope": false,
+                "sort_order": 2,
+                "description": null,
+                "description_html": "<h2>Out of scope</h2>\n\n<ul>\n<li>Customer infrastructure is out of scope</li>\n<li>Failure to Invalidate Session issues</li>\n<li>No Rate Limiting on Form issues unless the researcher can demonstrate a strong security impact</li>\n<li>Vulnerabilities that only results in inconsequential losses for Exoscale (under USD 500, ex: resources or coupon limit bypass)</li>\n<li>All P5 severity vulnerability as described on the Bugcrowd Vulnerability Taxonomy</li>\n<li>Activities amounting to denial of services</li>\n<li>Missing Secure or HTTPOnly Cookie Flag</li>\n<li>Email Spoofing to Inbox due to Missing or Misconfigured DMARC on Email Domain</li>\n<li>Vulnerabilities only affecting users of outdated or unpatched browsers</li>\n<li>Software version disclosure</li>\n<li>Very recent public vulnerability (patch available for less than 2 weeks)</li>\n<li>Attacks that require unlikely user interaction</li>\n</ul>",
+                "reward_range": {}
             }
         ]
     }
