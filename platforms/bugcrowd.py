@@ -24,27 +24,28 @@ class BugcrowdAPI(API):
         else:
             return item
 
-
-    async def paginate(self, endpoint: str) -> List[dict]:
+    def paginate(self, endpoint: str) -> List[dict]:
         """
-        Generator that retrieves all paginated results from the given API endpoint.
+        Retrieve all paginated results from the given API endpoint.
 
         Args:
             endpoint (str): The API endpoint to request.
 
-        Yields:
-            dict: A dictionary representing the response JSON for each page.
+        Returns:
+            List[dict]: A list of dictionaries representing the response JSON for each page.
         """
+        results = []
         params = {'page': 1}
         while True:
-            response_json = await self.get(endpoint, params=params)
-            yield response_json
+            response_json = self.get(endpoint, params=params)
+            results.append(response_json)
             if response_json['paginationMeta']['totalCount'] > params['page'] * 24:
                 params['page'] += 1
             else:
                 break
+        return results
 
-    async def program_info(self, scope: str) -> dict:
+    def program_info(self, scope: str) -> dict:
         """
         Retrieves information about the targets in a given scope.
 
@@ -56,40 +57,24 @@ class BugcrowdAPI(API):
         """
         if scope.startswith('engagements/'):
             # Retrieve the change logs for the specified scope.
-            changelogs = await self.get(f"{self.base_url}/{scope}/changelog.json")
+            changelogs = self.get(f"{self.base_url}/{scope}/changelog.json")
             changelog_id = changelogs.get("changelogs", [])[0].get('id')
 
-            changelog_data = await self.get(f"{self.base_url}/{scope}/changelog/{changelog_id}.json")
-            scope_data = changelog_data.get('data', {}).get('scope', [])
+            changelog_data = self.get(f"{self.base_url}/{scope}/changelog/{changelog_id}.json")
 
-            structured_targets = []
-            for item in scope_data:
-                skip_keys = {'rewardRange', 'recentChangeFlags'}
-                key_mapping = {
-                    'inScope': 'in_scope',
-                    'sortOrder': 'sort_order',
-                    'rewardRangeData': 'reward_range',
-                    'descriptionHtml': 'description_html'
-                }
+            if changelog_data.get('statusLabel', '') != 'In progress paused':
+                scope_data = changelog_data.get('data', {}).get('scope', [])
 
-                new_item = self.transform_item(item, key_mapping, skip_keys)
-
-                for target in new_item.get('targets', []):
-                    if target.get('tags'):
-                        target['target'] = {'tags': target.pop('tags')}
-
-                structured_targets.append(new_item)
-
-            yield {"target_groups": structured_targets}
+                return {"target_groups": scope_data}
 
         else:
             # Retrieve the target groups for the specified scope.
-            target_groups_response = await self.get(f"{self.base_url}/{scope}/target_groups.json")
+            target_groups_response = self.get(f"{self.base_url}/{scope}/target_groups.json")
             target_groups = target_groups_response.get("groups", [])
 
             # Retrieve targets for each target group.
             for target_group in target_groups:
-                targets_response = await self.get(f"{self.base_url}{target_group['targets_url']}.json")
+                targets_response = self.get(f"{self.base_url}{target_group['targets_url']}.json")
                 target_group["targets"] = targets_response.get("targets", [])
 
-            yield {"target_groups": target_groups}
+            return {"target_groups": target_groups}

@@ -16,42 +16,45 @@ class HackerOneAPI(API):
         self.token = token
         self.session.auth = (self.username, self.token)
 
-    async def paginate(self, endpoint: str) -> List[dict]:
+    def paginate(self, endpoint: str) -> List[dict]:
         """
-        Generator that retrieves all paginated results from the given API endpoint.
+        Retrieve all paginated results from the given API endpoint.
 
         Args:
             endpoint (str): The API endpoint to request.
 
-        Yields:
-            dict: A dictionary representing the response JSON for each page.
+        Returns:
+            List[dict]: A list of dictionaries representing the response JSON for each page.
         """
+        results = []
         params = {
             'page[size]': 100
         }
 
         while True:
-            response_json = await self.get(endpoint, params=params)
-            yield response_json
+            response_json = self.get(endpoint, params=params)
+            results.append(response_json)
 
             if 'next' in response_json['links']:
                 endpoint = response_json['links']['next']
             else:
                 break
 
-    async def program_info(self, scope: str) -> dict:
+        return results
+
+    def program_info(self, scope: str) -> dict:
         """
-        Gathering information of a scope with hackerone API.
+        Gathering information of a scope with the HackerOne API.
 
         Args:
             scope (str): HackerOne program scope handle.
 
-        Yields:
-            dict: A dictionary representing the response JSON for scope information
+        Returns:
+            dict: A dictionary representing the response JSON for scope information.
         """
         data = []
-        async for structured_scope in self.paginate(f"{self.base_url}/v1/hackers/programs/{scope}/structured_scopes"):
+        for structured_scope in self.paginate(f"{self.base_url}/v1/hackers/programs/{scope}/structured_scopes"):
             if 'data' in structured_scope:
                 data.extend(structured_scope['data'])
 
-        yield {"relationships": {"structured_scopes": {"data" : data}}}
+        return {"relationships": {"structured_scopes": {"data": data}}}
