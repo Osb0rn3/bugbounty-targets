@@ -51,3 +51,24 @@ class IntigritiAPI(API):
         """
         response_json = self.get(f"{self.base_url}/programs/{scope}")
         return response_json
+
+    def brief(self, results: dict) -> dict:
+        return [
+            {
+                "handle": result.get('handle'),
+                "bounty": 1 if result.get('maxBounty').get('value') != 0.0 else 0,
+                "active": 1 if result.get('status').get('value') == 'Open' else 0,
+                "assets": {
+                    "in_scope": [
+                        {'identifier': scope.get('endpoint'), 'type': scope.get('type').get('value')}
+                        for scope in result.get('domains')
+                        if scope.get('tier').get('id') != 5
+                    ],
+                    "out_of_scope": [
+                        {'identifier': scope.get('endpoint'), 'type': scope.get('type').get('value')}
+                        for scope in result.get('domains')
+                        if scope.get('tier').get('id') == 5
+                    ],
+                }
+            } for result in results
+        ]

@@ -42,3 +42,19 @@ class YesWeHackAPI(API):
         """
         response_json = self.get(f"{self.base_url}/programs/{scope}")
         return response_json
+
+    def brief(self, results: dict) -> dict:
+        return [
+            {
+                "handle": result.get('slug'),
+                "bounty": 1 if result.get('bounty') else 0,
+                "active": 0 if result.get('disabled') else 1,
+                "assets": {
+                    "in_scope": [
+                        {'identifier': scope.get('scope'), 'type': scope.get('scope_type')}
+                        for scope in result.get('scopes')
+                    ],
+                    "out_of_scope": [],
+                }
+            } for result in results
+        ]

@@ -65,6 +65,8 @@ class PublicPrograms:
 
         self.save_results('hackerone.json')
 
+        self.results = self.api.brief(self.results)
+        self.save_results('brief/hackerone.json')
         return self.results
 
     def get_bugcrowd_programs(self) -> List[dict]:
@@ -74,19 +76,26 @@ class PublicPrograms:
         Returns:
             List[dict]: A list of dictionaries representing public programs.
         """
-        endpoint = f'{self.api.base_url}/engagements.json'
-        response_json = self.api.paginate(endpoint)
-        
-        for response in response_json:
-            if 'engagements' in response:
-                self.results.extend(response['engagements'])
-            else:
-                self.logger.error("Error: unexpected response format.")
-                continue
+        categories = {
+            'rdp': f'{self.api.base_url}/engagements.json?category=bug_bounty',
+            'vdp': f'{self.api.base_url}/engagements.json?category=vdp'
+        }
+
+        for category, endpoint in categories.items():
+            response_json = self.api.paginate(endpoint)
+            
+            for response in response_json:
+                if 'engagements' in response:
+                    for engagement in response['engagements']:
+                        engagement['category'] = category
+                        self.results.append(engagement)
+                else:
+                    self.logger.error("Error: unexpected response format.")
+                    continue
 
         self.results = [
             scope for scope in self.results if scope['accessStatus'] == 'open']
-
+        
         local_results = []
         for scope in self.results:
             scope_handle = scope.get('briefUrl').strip("/")
@@ -97,14 +106,17 @@ class PublicPrograms:
                 local_results.append(scope)
 
             elif response_json.get('status') == 'paused':
-                continue
+                scope['status'] = 'paused'
+                local_results.append(scope)
             else:
                 self.logger.error("Error: unexpected response format.")
                 continue
 
-
         self.results = local_results
         self.save_results('bugcrowd.json')
+        
+        self.results = self.api.brief(self.results)
+        self.save_results('brief/bugcrowd.json')
 
         return self.results
 
@@ -137,6 +149,9 @@ class PublicPrograms:
 
         self.save_results('yeswehack.json')
 
+        self.results = self.api.brief(self.results)
+        self.save_results('brief/yeswehack.json')
+        
         return self.results
 
     def get_intigriti_programs(self) -> List[dict]:
@@ -178,6 +193,9 @@ class PublicPrograms:
 
         self.results = local_results
         self.save_results('intigriti.json')
+        
+        self.results = self.api.brief(self.results)
+        self.save_results('brief/intigriti.json')
 
         return self.results
 

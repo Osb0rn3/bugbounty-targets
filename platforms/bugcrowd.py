@@ -67,6 +67,9 @@ class BugcrowdAPI(API):
 
                 return {"target_groups": scope_data}
 
+            else:
+                return {"status": "paused"}
+
         else:
             # Retrieve the target groups for the specified scope.
             target_groups_response = self.get(f"{self.base_url}/{scope}/target_groups.json")
@@ -78,3 +81,27 @@ class BugcrowdAPI(API):
                 target_group["targets"] = targets_response.get("targets", [])
 
             return {"target_groups": target_groups}
+    
+    def brief(self, results: dict) -> dict:
+        return [
+            {
+                "handle": result.get('briefUrl').strip("/"),
+                "bounty": 0 if result.get('category') == 'vdp' else 1,
+                "active": 0 if result.get('status') == 'paused' else 1,
+                "assets": {
+                    "in_scope": [
+                        {'identifier': target['name'], 'type': target['category']}
+                        for group in result.get('target_groups', [])
+                        if group.get('in_scope', group.get('inScope'))
+                        for target in group['targets']
+                    ],
+                    "out_of_scope": [
+                        {'identifier': target['name'], 'type': target['category']}
+                        for group in result.get('target_groups', [])
+                        if not group.get('in_scope', group.get('inScope'))
+                        for target in group['targets']
+                    ],
+                }
+            } for result in results
+        ]
+

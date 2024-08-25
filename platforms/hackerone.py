@@ -58,3 +58,24 @@ class HackerOneAPI(API):
                 data.extend(structured_scope['data'])
 
         return {"relationships": {"structured_scopes": {"data": data}}}
+
+    def brief(self, results: dict) -> dict:
+        return [
+            {
+                "handle": result.get('attributes').get('handle'),
+                "bounty": 1 if result.get('attributes').get('offers_bounties') else 0,
+                "active": 1 if result.get('attributes').get('submission_state') == 'open' else 0,
+                "assets": {
+                    "in_scope": [
+                        {'identifier': scope.get('attributes').get('asset_identifier'), 'type': scope.get('attributes').get('asset_type')}
+                        for scope in result.get('relationships').get('structured_scopes').get('data')
+                        if scope.get('attributes').get('eligible_for_submission')
+                    ],
+                    "out_of_scope": [
+                        {'identifier': scope.get('attributes').get('asset_identifier'), 'type': scope.get('attributes').get('asset_type')}
+                        for scope in result.get('relationships').get('structured_scopes').get('data')
+                        if scope.get('attributes').get('eligible_for_submission') == False
+                    ],
+                }
+            } for result in results
+        ]
