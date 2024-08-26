@@ -85,23 +85,28 @@ class BugcrowdAPI(API):
     def brief(self, results: dict) -> dict:
         return [
             {
-                "handle": result.get('briefUrl').strip("/"),
+                "handle": result.get('briefUrl', '').strip("/"),
                 "bounty": 0 if result.get('category') == 'vdp' else 1,
                 "active": 0 if result.get('status') == 'paused' else 1,
                 "assets": {
                     "in_scope": [
-                        {'identifier': target['name'], 'type': target['category']}
+                        {
+                            'identifier': target.get('name', 'unknown'), 
+                            'type': target.get('category', 'unknown')
+                        }
                         for group in result.get('target_groups', [])
-                        if group.get('in_scope', group.get('inScope'))
-                        for target in group['targets']
+                        if group.get('in_scope', group.get('inScope')) or False
+                        for target in group.get('targets', [])
                     ],
                     "out_of_scope": [
-                        {'identifier': target['name'], 'type': target['category']}
+                        {
+                            'identifier': target.get('name', 'unknown'), 
+                            'type': target.get('category', 'unknown')
+                        }
                         for group in result.get('target_groups', [])
-                        if not group.get('in_scope', group.get('inScope'))
-                        for target in group['targets']
+                        if not group.get('in_scope', group.get('inScope')) or False
+                        for target in group.get('targets', [])
                     ],
                 }
-            } for result in results
+            } for result in results if isinstance(result, dict)
         ]
-
