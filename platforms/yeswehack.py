@@ -46,15 +46,18 @@ class YesWeHackAPI(API):
     def brief(self, results: dict) -> dict:
         return [
             {
-                "handle": result.get('slug'),
-                "bounty": 1 if result.get('bounty') else 0,
-                "active": 0 if result.get('disabled') else 1,
+                "handle": result.get('slug', 'unknown'),
+                "bounty": 1 if result.get('bounty', False) else 0,
+                "active": 0 if result.get('disabled', False) else 1,
                 "assets": {
                     "in_scope": [
-                        {'identifier': scope.get('scope'), 'type': scope.get('scope_type')}
-                        for scope in result.get('scopes')
+                        {
+                            'identifier': scope.get('scope', 'unknown'),
+                            'type': scope.get('scope_type', 'unknown')
+                        }
+                        for scope in result.get('scopes', [])
                     ],
                     "out_of_scope": [],
                 }
-            } for result in results
+            } for result in results if isinstance(result, dict)
         ]
