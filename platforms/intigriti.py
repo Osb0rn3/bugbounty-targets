@@ -55,20 +55,26 @@ class IntigritiAPI(API):
     def brief(self, results: dict) -> dict:
         return [
             {
-                "handle": result.get('handle'),
-                "bounty": 1 if result.get('maxBounty').get('value') != 0.0 else 0,
-                "active": 1 if result.get('status').get('value') == 'Open' else 0,
+                "handle": result.get('handle', 'unknown'),
+                "bounty": 1 if result.get('maxBounty', {}).get('value', 0.0) != 0.0 else 0,
+                "active": 1 if result.get('status', {}).get('value') == 'Open' else 0,
                 "assets": {
                     "in_scope": [
-                        {'identifier': scope.get('endpoint'), 'type': scope.get('type').get('value')}
-                        for scope in result.get('domains')
-                        if scope.get('tier').get('id') != 5
+                        {
+                            'identifier': scope.get('endpoint', 'unknown'),
+                            'type': scope.get('type', {}).get('value', 'unknown')
+                        }
+                        for scope in result.get('domains', [])
+                        if scope.get('tier', {}).get('id', -1) != 5
                     ],
                     "out_of_scope": [
-                        {'identifier': scope.get('endpoint'), 'type': scope.get('type').get('value')}
-                        for scope in result.get('domains')
-                        if scope.get('tier').get('id') == 5
+                        {
+                            'identifier': scope.get('endpoint', 'unknown'),
+                            'type': scope.get('type', {}).get('value', 'unknown')
+                        }
+                        for scope in result.get('domains', [])
+                        if scope.get('tier', {}).get('id', -1) == 5
                     ],
                 }
-            } for result in results
+            } for result in results if isinstance(result, dict)
         ]
