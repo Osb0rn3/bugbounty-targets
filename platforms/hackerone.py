@@ -62,20 +62,26 @@ class HackerOneAPI(API):
     def brief(self, results: dict) -> dict:
         return [
             {
-                "handle": result.get('attributes').get('handle'),
-                "bounty": 1 if result.get('attributes').get('offers_bounties') else 0,
-                "active": 1 if result.get('attributes').get('submission_state') == 'open' else 0,
+                "handle": result.get('attributes', {}).get('handle', 'unknown'),
+                "bounty": 1 if result.get('attributes', {}).get('offers_bounties', False) else 0,
+                "active": 1 if result.get('attributes', {}).get('submission_state') == 'open' else 0,
                 "assets": {
                     "in_scope": [
-                        {'identifier': scope.get('attributes').get('asset_identifier'), 'type': scope.get('attributes').get('asset_type')}
-                        for scope in result.get('relationships').get('structured_scopes').get('data')
-                        if scope.get('attributes').get('eligible_for_submission')
+                        {
+                            'identifier': scope.get('attributes', {}).get('asset_identifier', 'unknown'),
+                            'type': scope.get('attributes', {}).get('asset_type', 'unknown')
+                        }
+                        for scope in result.get('relationships', {}).get('structured_scopes', {}).get('data', [])
+                        if scope.get('attributes', {}).get('eligible_for_submission', False)
                     ],
                     "out_of_scope": [
-                        {'identifier': scope.get('attributes').get('asset_identifier'), 'type': scope.get('attributes').get('asset_type')}
-                        for scope in result.get('relationships').get('structured_scopes').get('data')
-                        if scope.get('attributes').get('eligible_for_submission') == False
+                        {
+                            'identifier': scope.get('attributes', {}).get('asset_identifier', 'unknown'),
+                            'type': scope.get('attributes', {}).get('asset_type', 'unknown')
+                        }
+                        for scope in result.get('relationships', {}).get('structured_scopes', {}).get('data', [])
+                        if not scope.get('attributes', {}).get('eligible_for_submission', True)
                     ],
                 }
-            } for result in results
+            } for result in results if isinstance(result, dict)
         ]
