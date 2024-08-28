@@ -1,5 +1,6 @@
 from config import API
 from typing import List
+import json
 
 class BugcrowdAPI(API):
     def __init__(self) -> None:
@@ -7,6 +8,9 @@ class BugcrowdAPI(API):
         Initialize a new BugcrowdAPI object.
         """
         super().__init__(base_url='https://bugcrowd.com')
+        self.session.headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
+        }
 
     def transform_item(self, item, key_mapping, skip_keys):
         """
@@ -110,3 +114,10 @@ class BugcrowdAPI(API):
                 }
             } for result in results if isinstance(result, dict)
         ]
+        
+    def complement_programs(self, results: dict) -> dict:
+        with open('./programs/bugcrowd.json', 'r') as b:
+            bugcrowd = json.load(b)
+        
+        combined_responses = results + bugcrowd
+        return list({item['briefUrl']: item for item in combined_responses}.values())

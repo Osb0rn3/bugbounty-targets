@@ -7,7 +7,9 @@ class IntigritiAPI(API):
         Initialize a new IntigritiAPI object.
         """
         super().__init__(base_url='https://api.intigriti.com/external/researcher/v1')
+        self.token = token
         self.session.headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
             'Authorization': f'Bearer {token}'
         }
 

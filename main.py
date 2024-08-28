@@ -77,44 +77,35 @@ class PublicPrograms:
             List[dict]: A list of dictionaries representing public programs.
         """
         categories = {
-            'rdp': f'{self.api.base_url}/engagements.json?category=bug_bounty',
-            'vdp': f'{self.api.base_url}/engagements.json?category=vdp'
+            'vdp': 'vdp',
+            'rdp': 'bug_bounty',
         }
 
-        for category, endpoint in categories.items():
-            response_json = self.api.paginate(endpoint)
-            
-            for response in response_json:
-                if 'engagements' in response:
-                    for engagement in response['engagements']:
-                        engagement['category'] = category
-                        self.results.append(engagement)
-                else:
-                    self.logger.error("Error: unexpected response format.")
-                    continue
+        for category, category_key in categories.items():
+            endpoint = f'{self.api.base_url}/engagements.json?category={category_key}&sort_by=promoted&sort_direction=desc'
+            for response in self.api.paginate(endpoint):
+                for engagement in response.get('engagements', []):
+                    engagement['category'] = category
+                    self.results.append(engagement)
 
-        self.results = [
-            scope for scope in self.results if scope['accessStatus'] == 'open']
+        self.results = self.api.complement_programs(self.results)
+        self.results = [scope for scope in self.results if scope['accessStatus'] == 'open']
         
         local_results = []
         for scope in self.results:
-            scope_handle = scope.get('briefUrl').strip("/")
+            scope_handle = scope.get('briefUrl', '').strip("/")
             response_json = self.api.program_info(scope_handle)
-            
-            if response_json and 'target_groups' in response_json:
-                scope['target_groups'] = response_json['target_groups']
-                local_results.append(scope)
 
-            elif response_json.get('status') == 'paused':
-                scope['status'] = 'paused'
+            if response_json:
+                scope['target_groups'] = response_json.get('target_groups')
+                scope['status'] = response_json.get('status', scope.get('status'))
                 local_results.append(scope)
             else:
                 self.logger.error("Error: unexpected response format.")
-                continue
 
         self.results = local_results
         self.save_results('bugcrowd.json')
-        
+
         self.results = self.api.brief(self.results)
         self.save_results('brief/bugcrowd.json')
 
