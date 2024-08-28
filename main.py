@@ -82,7 +82,7 @@ class PublicPrograms:
         }
 
         for category, category_key in categories.items():
-            endpoint = f'{self.api.base_url}/engagements.json?category={category_key}&sort_by=promoted&sort_direction=desc'
+            endpoint = f'{self.api.base_url}/engagements.json?category={category_key}'
             for response in self.api.paginate(endpoint):
                 for engagement in response.get('engagements', []):
                     engagement['category'] = category
