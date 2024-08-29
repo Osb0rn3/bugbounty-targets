@@ -76,41 +76,38 @@ class PublicPrograms:
         Returns:
             List[dict]: A list of dictionaries representing public programs.
         """
-        try:
-            categories = {
-                'vdp': 'vdp',
-                'rdp': 'bug_bounty',
-            }
+        categories = {
+            'vdp': 'vdp',
+            'rdp': 'bug_bounty',
+        }
 
-            for category, category_key in categories.items():
-                endpoint = f'{self.api.base_url}/engagements.json?category={category_key}'
-                for response in self.api.paginate(endpoint):
-                    for engagement in response.get('engagements', []):
-                        engagement['category'] = category
-                        self.results.append(engagement)
+        for category, category_key in categories.items():
+            endpoint = f'{self.api.base_url}/engagements.json?category={category_key}'
+            for response in self.api.paginate(endpoint):
+                for engagement in response.get('engagements', []):
+                    engagement['category'] = category
+                    self.results.append(engagement)
 
-            self.results = self.api.complement_programs(self.results)
-            self.results = [scope for scope in self.results if scope['accessStatus'] == 'open']
-            
-            local_results = []
-            for scope in self.results:
-                scope_handle = scope.get('briefUrl', '').strip("/")
-                response_json = self.api.program_info(scope_handle)
+        self.results = self.api.complement_programs(self.results)
+        self.results = [scope for scope in self.results if scope['accessStatus'] == 'open']
+        
+        local_results = []
+        for scope in self.results:
+            scope_handle = scope.get('briefUrl', '').strip("/")
+            response_json = self.api.program_info(scope_handle)
 
-                if response_json:
-                    scope['target_groups'] = response_json.get('target_groups')
-                    scope['status'] = response_json.get('status', scope.get('status'))
-                    local_results.append(scope)
-                else:
-                    self.logger.error("Error: unexpected response format.")
+            if response_json:
+                scope['target_groups'] = response_json.get('target_groups')
+                scope['status'] = response_json.get('status', scope.get('status'))
+                local_results.append(scope)
+            else:
+                self.logger.error("Error: unexpected response format.")
 
-            self.results = local_results
-            self.save_results('bugcrowd.json')
+        self.results = local_results
+        self.save_results('bugcrowd.json')
 
-            self.results = self.api.brief(self.results)
-            self.save_results('brief/bugcrowd.json')
-        except Exception as e:
-            print(e)
+        self.results = self.api.brief(self.results)
+        self.save_results('brief/bugcrowd.json')
 
         return self.results
 
@@ -218,9 +215,9 @@ def main():
     # Gather program information from multiple platforms sequentially
     with concurrent.futures.ThreadPoolExecutor() as executor:
         executor.submit(public_programs_bugcrowd.get_bugcrowd_programs)
-        # executor.submit(public_programs_hackerone.get_hackerone_programs)
-        # executor.submit(public_programs_intigriti.get_intigriti_programs)
-        # executor.submit(public_programs_yeswehack.get_yeswehack_programs)
+        executor.submit(public_programs_hackerone.get_hackerone_programs)
+        executor.submit(public_programs_intigriti.get_intigriti_programs)
+        executor.submit(public_programs_yeswehack.get_yeswehack_programs)
 
     logging.info("Programs crawled successfully.")
 
