@@ -45,6 +45,8 @@ class API:
         except httpx.HTTPError as e:
             if hasattr(e, 'response') and e.response.status_code == 403:
                 return e.response.json()
+            if e.response.status_code == 404:
+                return {}
             else:
                 self.logger.error(f"Error: {e}, Endpoint: {endpoint}")
                 raise
