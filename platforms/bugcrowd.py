@@ -98,7 +98,7 @@ class BugcrowdAPI(API):
                             'identifier': target.get('name', 'unknown'), 
                             'type': target.get('category', 'unknown')
                         }
-                        for group in result.get('target_groups', [])
+                        for group in result.get('target_groups', []) or []
                         if group.get('in_scope', group.get('inScope')) or False
                         for target in group.get('targets', [])
                     ],
@@ -107,7 +107,7 @@ class BugcrowdAPI(API):
                             'identifier': target.get('name', 'unknown'), 
                             'type': target.get('category', 'unknown')
                         }
-                        for group in result.get('target_groups', [])
+                        for group in result.get('target_groups', []) or []
                         if not group.get('in_scope', group.get('inScope')) or False
                         for target in group.get('targets', [])
                     ],
