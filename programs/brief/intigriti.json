@@ -3606,7 +3606,7 @@
     {
         "handle": "website",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
@@ -4160,13 +4160,9 @@
     {
         "handle": "nmt",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
-                {
-                    "identifier": "*.petbook-magazine.com/",
-                    "type": "Wildcard"
-                },
                 {
                     "identifier": "*.bild.de",
                     "type": "Wildcard"
@@ -4228,6 +4224,10 @@
                     "type": "Wildcard"
                 },
                 {
+                    "identifier": "*.petbook-magazine.com/",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.petbook.de",
                     "type": "Wildcard"
                 },
@@ -4248,7 +4248,16 @@
                     "type": "Wildcard"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "technik.beta.autobild.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "technik.autobild.de",
+                    "type": "Url"
+                }
+            ]
         }
     },
     {
