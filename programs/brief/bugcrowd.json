@@ -5147,6 +5147,25 @@
         }
     },
     {
+        "handle": "engagements/newfold-hostgator-india-vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.hostgator.in",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any asset not explicitly listed as 'In Scope' above is explicitly out of scope",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/doi-vdp",
         "bounty": 0,
         "active": 1,
@@ -5170,25 +5189,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/newfold-hostgator-india-vdp",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.hostgator.in",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any asset not explicitly listed as 'In Scope' above is explicitly out of scope",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -15088,20 +15088,6 @@
         }
     },
     {
-        "handle": "worldpay",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any Worldpay asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/dropbox",
         "bounty": 1,
         "active": 1,
@@ -15247,6 +15233,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "worldpay",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any Worldpay asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -15838,37 +15838,6 @@
             "out_of_scope": [
                 {
                     "identifier": "https://perps-test.bitstamp.net",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "carrefour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Carrefour UAE iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Carrefour UAE Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "carrefouruae.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.retailsso.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://cwingsfe.mafrservices.com/login",
                     "type": "website"
                 }
             ]
@@ -17050,6 +17019,37 @@
                 },
                 {
                     "identifier": "Sky",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "carrefour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Carrefour UAE iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Carrefour UAE Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "carrefouruae.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.retailsso.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://cwingsfe.mafrservices.com/login",
                     "type": "website"
                 }
             ]
@@ -20224,80 +20224,6 @@
         }
     },
     {
-        "handle": "engagements/indeed",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.indeed.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.indeedflex.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apis.indeed.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Indeed Job Search Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Job Search iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android Indeed Flex App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "iOS Indeed Flex App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://*.indeed.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://resume.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wowjobs.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Connect for Employers",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Indeed Recruiter Extension (Chrome)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/entain-glf-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -20467,117 +20393,73 @@
         }
     },
     {
-        "handle": "engagements/mastercard",
+        "handle": "engagements/indeed",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Simplify Commerce - www.simplify.com/commerce/ ",
+                    "identifier": "https://*.indeed.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.indeedflex.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "MasterCard.us - www.mastercard.us/en-us.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.ch - (German) - www.mastercard.ch/de-ch.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.ch - (French) - www.mastercard.ch/fr-ch.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.com.au - www.mastercard.com.au/en-au.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.nl - www.mastercard.nl/nl-nl.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://developer.mastercard.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "donate.mastercard.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Core Priceless.com - demo.priceless.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://europe.priceless.com/shb",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://priceless.com/golf/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://pricelesssurprises.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://priceless.com/aa/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://priceless.com/aviator/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://priceless.com/citiaadvantage/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://performancemarketing.mastercard.com/portal/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://src.mastercard.com/profile/enroll",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://src.mastercard.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SRC integration on https://masterpassteststore.com/. Only the Masterpass checkout functionality is in scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": " Finicity Connect",
+                    "identifier": "https://apis.indeed.com/graphql",
                     "type": "api"
                 },
                 {
-                    "identifier": "Finicity- Data Services",
-                    "type": "api"
+                    "identifier": "Indeed Job Search Android",
+                    "type": "android"
                 },
                 {
-                    "identifier": "Finicity Decisioning",
-                    "type": "api"
+                    "identifier": "Indeed Job Search iOS",
+                    "type": "ios"
                 },
                 {
-                    "identifier": "https://www.finicity.com",
+                    "identifier": "Android Indeed Flex App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iOS Indeed Flex App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://*.indeed.tech",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://consumer.finicityreports.com",
+                    "identifier": "https://*.indeed.net",
                     "type": "website"
                 },
                 {
-                    "identifier": "Finicity- Open Banking Payment History application",
-                    "type": "api"
+                    "identifier": "https://resume.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Finicity - OBB (Open Banking Business Service) ",
-                    "type": "api"
+                    "identifier": "https://wowjobs.ca",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Public Others Target",
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Connect for Employers",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Indeed Recruiter Extension (Chrome)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
                     "type": "other"
                 }
             ],
@@ -20881,6 +20763,124 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/mastercard",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Simplify Commerce - www.simplify.com/commerce/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.us - www.mastercard.us/en-us.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.ch - (German) - www.mastercard.ch/de-ch.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.ch - (French) - www.mastercard.ch/fr-ch.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.com.au - www.mastercard.com.au/en-au.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.nl - www.mastercard.nl/nl-nl.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developer.mastercard.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "donate.mastercard.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Core Priceless.com - demo.priceless.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://europe.priceless.com/shb",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://priceless.com/golf/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://pricelesssurprises.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://priceless.com/aa/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://priceless.com/aviator/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://priceless.com/citiaadvantage/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://performancemarketing.mastercard.com/portal/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://src.mastercard.com/profile/enroll",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://src.mastercard.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SRC integration on https://masterpassteststore.com/. Only the Masterpass checkout functionality is in scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": " Finicity Connect",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity- Data Services",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity Decisioning",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.finicity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://consumer.finicityreports.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Finicity- Open Banking Payment History application",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity - OBB (Open Banking Business Service) ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Public Others Target",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
