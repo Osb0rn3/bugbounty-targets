@@ -2806,24 +2806,6 @@
         }
     },
     {
-        "handle": "engagements/fws-vdp",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.fws.gov",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.rivers.gov",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/smartthings",
         "bounty": 0,
         "active": 1,
@@ -3236,24 +3218,6 @@
         }
     },
     {
-        "handle": "engagements/dnfsb-vdp",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dnfsb.gov",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.dnfsb.gov",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/va-vdp",
         "bounty": 0,
         "active": 1,
@@ -3409,6 +3373,42 @@
                 },
                 {
                     "identifier": "PX Cloud",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/fws-vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.fws.gov",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.rivers.gov",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/dnfsb-vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dnfsb.gov",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.dnfsb.gov",
                     "type": "website"
                 }
             ],
@@ -14853,25 +14853,6 @@
         }
     },
     {
-        "handle": "fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/intercom",
         "bounty": 1,
         "active": 1,
@@ -14907,6 +14888,25 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -17562,76 +17562,6 @@
         }
     },
     {
-        "handle": "netgear",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Nighthawk Pro Gaming Router",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Nighthawk Pro Gaming Switch",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Nighthawk Router",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Nighthawk Switch",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Nighthawk iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Nighthawk Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Orbi ",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Orbi iOS App ",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Orbi Android App ",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Insight Managed Smart Cloud Wireless Access Point",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "https://api.netgear.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Insight iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Insight Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Insight Cloud Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Meural",
-                    "type": "iot"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
@@ -18583,6 +18513,76 @@
         }
     },
     {
+        "handle": "netgear",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Nighthawk Pro Gaming Router",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Nighthawk Pro Gaming Switch",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Nighthawk Router",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Nighthawk Switch",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Nighthawk iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Nighthawk Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Orbi ",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Orbi iOS App ",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Orbi Android App ",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Insight Managed Smart Cloud Wireless Access Point",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "https://api.netgear.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Insight iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Insight Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Insight Cloud Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Meural",
+                    "type": "iot"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/squareopensource",
         "bounty": 1,
         "active": 0,
@@ -19052,32 +19052,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/kaleido",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.remove.bg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.designify.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kaleido.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.unscreen.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -19838,6 +19812,32 @@
                     "type": "api"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/kaleido",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.remove.bg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.designify.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kaleido.ai",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.unscreen.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -20747,6 +20747,41 @@
         }
     },
     {
+        "handle": "engagements/vox",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Vox Cinemas iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Vox Cinemas Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://uae.voxcinemas.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.skidxb.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.magicplanetmena.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://www.theplaymania.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/indeed",
         "bounty": 1,
         "active": 1,
@@ -20818,41 +20853,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/vox",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Vox Cinemas iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Vox Cinemas Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://uae.voxcinemas.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.skidxb.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.magicplanetmena.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://www.theplaymania.com/",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
