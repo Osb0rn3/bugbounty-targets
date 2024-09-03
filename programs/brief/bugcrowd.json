@@ -2422,28 +2422,6 @@
         }
     },
     {
-        "handle": "engagements/usbr-vdp",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.usbr.gov",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lcrmscp.gov",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mitigationcommission.gov",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/natwest-vdp",
         "bounty": 0,
         "active": 1,
@@ -3257,6 +3235,28 @@
             "in_scope": [
                 {
                     "identifier": "All public facing Stryker assets ",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/usbr-vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.usbr.gov",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lcrmscp.gov",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mitigationcommission.gov",
                     "type": "website"
                 }
             ],
@@ -13306,32 +13306,6 @@
         }
     },
     {
-        "handle": "engagements/cashapp",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Cash App Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.cash.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cashstaging.app",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/lightspeed-hospitality",
         "bounty": 1,
         "active": 1,
@@ -14079,25 +14053,6 @@
         }
     },
     {
-        "handle": "fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/mettle",
         "bounty": 1,
         "active": 1,
@@ -14492,6 +14447,51 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/cashapp",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Cash App Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.cash.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cashstaging.app",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -15752,97 +15752,6 @@
         }
     },
     {
-        "handle": "engagements/bitdefender",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Bitdefender Total Security",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.bitdefender.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitdefender Antimalware Engines",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitdefender GravityZone Business Security ",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "partner-marketing.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "businessinsights.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "businessemail.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "businessresources.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "oemhub.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "oemresources.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resellerportal.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "brand.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stats.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sstats.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lsems.gravityzone.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ssems.gravityzone.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "crp.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "telcosuccess.bitdefender.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/hubspot",
         "bounty": 1,
         "active": 1,
@@ -15937,6 +15846,97 @@
                 {
                     "identifier": "Out of Scope Vulnerabilities",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bitdefender",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Bitdefender Total Security",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.bitdefender.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitdefender Antimalware Engines",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitdefender GravityZone Business Security ",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "partner-marketing.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "businessinsights.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "businessemail.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "businessresources.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "oemhub.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "oemresources.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resellerportal.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "brand.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stats.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sstats.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lsems.gravityzone.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ssems.gravityzone.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "crp.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "telcosuccess.bitdefender.com",
+                    "type": "website"
                 }
             ]
         }
@@ -18009,97 +18009,6 @@
         }
     },
     {
-        "handle": "engagements/linktree-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.linktr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree-extensions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.song.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.songlink.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.album.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.artist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pods.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.playlist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mylink.page",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Linktree iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Linktree Android app",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.filestack.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.linktr.ee",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/backblaze",
         "bounty": 1,
         "active": 1,
@@ -18484,6 +18393,97 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/linktree-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.linktr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree-extensions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.song.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.songlink.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.album.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.artist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pods.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.playlist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mylink.page",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Linktree iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Linktree Android app",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.filestack.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.linktr.ee",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -20780,80 +20780,6 @@
         }
     },
     {
-        "handle": "engagements/indeed",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.indeed.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.indeedflex.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apis.indeed.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Indeed Job Search Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Job Search iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android Indeed Flex App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "iOS Indeed Flex App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://*.indeed.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://resume.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wowjobs.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Connect for Employers",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Indeed Recruiter Extension (Chrome)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/electroneum",
         "bounty": 1,
         "active": 1,
@@ -21012,6 +20938,80 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/indeed",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.indeed.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.indeedflex.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apis.indeed.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Indeed Job Search Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Job Search iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android Indeed Flex App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iOS Indeed Flex App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://*.indeed.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://resume.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wowjobs.ca",
+                    "type": "website"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Connect for Employers",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Indeed Recruiter Extension (Chrome)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
