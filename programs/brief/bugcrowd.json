@@ -7901,20 +7901,6 @@
         }
     },
     {
-        "handle": "engagements/unilever-vdp",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "List of Unilever Sites in Scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/newfold-bluehostindia-vdp",
         "bounty": 0,
         "active": 1,
@@ -7935,6 +7921,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/unilever-vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "List of Unilever Sites in Scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -9121,8 +9121,74 @@
         "bounty": 1,
         "active": 0,
         "assets": {
-            "in_scope": [],
-            "out_of_scope": []
+            "in_scope": [
+                {
+                    "identifier": "https://one.newrelic.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "New Relic Android Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "New Relic iOS Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.nr-data.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.nr-ops.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://docs.newrelic.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://newrelic.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://newrelic.com/blog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://support.newrelic.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://forum.newrelic.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://knowledge.newrelic.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://learn.newrelic.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developer.newrelic.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://status.newrelic.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "New Relic open source software repos in github.com not in the list of agents or on docs.newrelic.com; New Relic Example Code, New Relic Experimental and Archived repos are explicitly out of scope.",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://iopipe.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -13829,20 +13895,6 @@
         }
     },
     {
-        "handle": "worldpay",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any Worldpay asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/ynab",
         "bounty": 1,
         "active": 1,
@@ -14153,29 +14205,66 @@
         }
     },
     {
-        "handle": "engagements/cashapp",
+        "handle": "engagements/octopus-og",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Cash App Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.cash.app",
+                    "identifier": "*.octopus.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.cashstaging.app",
+                    "identifier": "Octopus Deploy Git Repo",
+                    "type": "other"
+                },
+                {
+                    "identifier": "octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Octopus GitHub Copilot",
                     "type": "website"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "*.octopus.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "artifactorysample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bamboosample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jenkinssample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "teamcitysample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "nexussample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "myget.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " partners.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.octopus.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -14262,65 +14351,6 @@
         }
     },
     {
-        "handle": "engagements/octopus-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Octopus Deploy Git Repo",
-                    "type": "other"
-                },
-                {
-                    "identifier": "octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Octopus GitHub Copilot",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.octopus.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "artifactorysample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bamboosample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jenkinssample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "teamcitysample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "nexussample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "myget.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " partners.octopus.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "fis",
         "bounty": 1,
         "active": 1,
@@ -14388,6 +14418,20 @@
                 {
                     "identifier": "*.verisign-grs.com (DNS service; DNS related)",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "worldpay",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any Worldpay asset is in scope",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -20639,101 +20683,6 @@
         }
     },
     {
-        "handle": "engagements/rapyd",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.rapyd.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "dashboard.rapyd.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "verify.rapyd.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "checkout.rapyd.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.rapyd.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.neatcommerce.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.korta.is",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.neattest.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jointhemoment.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.rapyd.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.rapyd.org",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.neat.com.hk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kortathjonustan.is",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.neat.hk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.neat.wtf",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "community.rapyd.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.rapyd.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docs.rapyd.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sandbox.rapyd.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3rd party services",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ghost.rapyd.net",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/canva",
         "bounty": 1,
         "active": 1,
@@ -21010,6 +20959,127 @@
             "in_scope": [
                 {
                     "identifier": "*.pixabay.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/rapyd",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.rapyd.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "dashboard.rapyd.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "verify.rapyd.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "checkout.rapyd.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.rapyd.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.neatcommerce.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.korta.is",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.neattest.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jointhemoment.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.rapyd.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.rapyd.org",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.neat.com.hk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kortathjonustan.is",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.neat.hk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.neat.wtf",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "community.rapyd.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.rapyd.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docs.rapyd.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox.rapyd.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3rd party services",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ghost.rapyd.net",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/cashapp",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Cash App Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.cash.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cashstaging.app",
                     "type": "website"
                 }
             ],
