@@ -2450,19 +2450,6 @@
         },
         "domains": [
             {
-                "id": "80a2d608-ae68-4096-b8e6-980812dc15dc",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "aiassistant.stage.vismaonline.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "**AI Assistant**\n\nThe AI Assistant is a AI bot that answers support questions based on public product documentation for Visma Spcs products like Visma eAccounting and Visma Advisor.\n\nYou need to register an user to test this system. The sign-up up process is described in this document:\n\nhttps://vismabugbountyprod.z16.web.core.windows.net/Visma-eAccounting-getting-started.pdf\n\nThis video also shows the entire setup (only Swedish audio) https://www.youtube.com/watch?v=kVr_CXgfhi0&t=4s\n\nTLDR: Goto https://admin.stage.vismaonline.com/Customer/StudentSignup.aspx and sign up with the training code \"04h2v\"\n\n**Out of Scope**\n\n* functionalities that belong to other applications that AI Assistant is integrated with (e.g. Visma Advisor or other Visma SPCS products)."
-            },
-            {
                 "id": "d8cbda39-b3e1-45f3-8b7f-032b8a3f187e",
                 "type": {
                     "id": 3,
@@ -2513,6 +2500,19 @@
                     "value": "Tier 2"
                 },
                 "description": "**AutoInvoice**\n\nThis is the main UI for Visma AutoInvoice. AutoInvoice is Visma's automated and fully ERP integrated service for sending, receiving and handling invoices. AutoInvoice converts and exchanges electronic invoices, optionally prints invoices that can't be sent electronically, receives and interpret PDF invoices and offers services for scanning and interpretation of paper invoices. AutoInvoice handles both Business to Business (B2B) and Business to Consumer (B2C) invoices.\n\nUses partially the embeddable user interface from autointerface-embeddable-stage.maventa.com\n\nCreate a test account on https://ai-testing.maventa.com/registrations, or use one of the demo accounts in the getting started instructions below:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaAutoinvoice-getting-started.pdf\n\n**Out of scope or works as expected (accepted risk):**\n\n* adding users to your own company without consent\n* language change CSRF\n* application level DOS from /gdpr endpoint\n* duplicate BID/organization number check on registration can be circumvented by race condition (e.g. open two accounts with same BID/org number at same time)\n* IDOR to delete Invoice ID's belonging to different companies by using GDPR removal form (background job checks the right to delete invoices)\n* Hyperlink Injection via emails while adding users to your company\n* User Enumeration via Timing Discrepancy while registering new users\n* Logout CSRF\n\nNote! ai-testing.maventa.com and testing.maventa.com point to the same application but have different branding on the UI. Authentication to the user interface is handled using the Visma Connect service."
+            },
+            {
+                "id": "80a2d608-ae68-4096-b8e6-980812dc15dc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "aiassistant.stage.vismaonline.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "**AI Assistant**\n\nThe AI Assistant is a AI bot that answers support questions based on public product documentation for Visma Spcs products like Visma eAccounting and Visma Advisor.\n\nYou need to register an user to test this system. The sign-up up process is described in this document:\n\nhttps://vismabugbountyprod.z16.web.core.windows.net/Visma-eAccounting-getting-started.pdf\n\nThis video also shows the entire setup (only Swedish audio) https://www.youtube.com/watch?v=kVr_CXgfhi0&t=4s\n\nTLDR: Goto https://admin.stage.vismaonline.com/Customer/StudentSignup.aspx and sign up with the training code \"04h2v\"\n\n**Out of Scope**\n\n* HTML injection, the AI Assistant should be able to output HTML to the chat window.\n* functionalities that belong to other applications that AI Assistant is integrated with (e.g. Visma Advisor or other Visma SPCS products)."
             },
             {
                 "id": "413d39c0-3185-468c-a20e-4e9c8913ea47",
