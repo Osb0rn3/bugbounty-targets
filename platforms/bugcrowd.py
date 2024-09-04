@@ -77,6 +77,10 @@ class BugcrowdAPI(API):
         else:
             # Retrieve the target groups for the specified scope.
             target_groups_response = self.get(f"{self.base_url}/{scope}/target_groups.json")
+            
+            if target_groups_response.get('errors', [{}])[0].get('detail') == 'Not found':
+                return {"status": "deleted"}
+            
             target_groups = target_groups_response.get("groups", [])
 
             # Retrieve targets for each target group.

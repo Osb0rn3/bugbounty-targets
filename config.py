@@ -46,7 +46,7 @@ class API:
             if hasattr(e, 'response') and e.response.status_code == 403:
                 return e.response.json()
             if e.response.status_code == 404:
-                return {}
+                return e.response.json()
             else:
                 self.logger.error(f"Error: {e}, Endpoint: {endpoint}")
                 raise

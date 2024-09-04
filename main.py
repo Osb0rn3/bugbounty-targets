@@ -96,7 +96,7 @@ class PublicPrograms:
             scope_handle = scope.get('briefUrl', '').strip("/")
             response_json = self.api.program_info(scope_handle)
 
-            if response_json:
+            if response_json and response_json.get('status') != 'deleted':
                 scope['target_groups'] = response_json.get('target_groups')
                 scope['status'] = response_json.get('status', scope.get('status'))
                 local_results.append(scope)
@@ -110,7 +110,7 @@ class PublicPrograms:
         self.save_results('brief/bugcrowd.json')
 
         return self.results
-
+        
     def get_yeswehack_programs(self) -> List[dict]:
         """
         Retrieve all public programs from the YesWeHack API.
