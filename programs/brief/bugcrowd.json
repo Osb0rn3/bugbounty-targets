@@ -9750,6 +9750,10 @@
                 {
                     "identifier": "Virtual Appliance (vApp) Manager",
                     "type": "other"
+                },
+                {
+                    "identifier": "Dell ObjectScale",
+                    "type": "other"
                 }
             ]
         }
@@ -13562,60 +13566,6 @@
         }
     },
     {
-        "handle": "engagements/verisign",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "epptool-ctld.verisign-grs.com (EPP service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "a.root-servers.net (DNS service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "j.root-servers.net (DNS service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.gtld-servers.net (DNS service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.verisign.com (Website; non-DNS related)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youcouldbe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.verisign.com (Website; non-DNS related)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.namestudioforsocial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.namestudio.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.verisign.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.verisign-grs.com (DNS service; DNS related)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/ciscomeraki",
         "bounty": 1,
         "active": 1,
@@ -13720,6 +13670,60 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/verisign",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "epptool-ctld.verisign-grs.com (EPP service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "a.root-servers.net (DNS service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "j.root-servers.net (DNS service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.gtld-servers.net (DNS service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.verisign.com (Website; non-DNS related)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youcouldbe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.verisign.com (Website; non-DNS related)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.namestudioforsocial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.namestudio.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.verisign.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.verisign-grs.com (DNS service; DNS related)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -14289,25 +14293,6 @@
         }
     },
     {
-        "handle": "fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/tesla",
         "bounty": 1,
         "active": 1,
@@ -14462,6 +14447,25 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -14716,41 +14720,6 @@
                 },
                 {
                     "identifier": "telcosuccess.bitdefender.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/bitstamp",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.bitstamp.net - Bitstamp Application & API",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bitstamp.net - Bitstamp Supporting Services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitstamp Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Bitstamp Pro Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Bitstamp Mobile Application For Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://perps-test.bitstamp.net",
                     "type": "website"
                 }
             ]
@@ -16693,6 +16662,41 @@
                 {
                     "identifier": "*nat-a.nubank.com.br",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bitstamp",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.bitstamp.net - Bitstamp Application & API",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bitstamp.net - Bitstamp Supporting Services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitstamp Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Bitstamp Pro Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Bitstamp Mobile Application For Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://perps-test.bitstamp.net",
+                    "type": "website"
                 }
             ]
         }
@@ -18923,157 +18927,6 @@
         }
     },
     {
-        "handle": "engagements/epam-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.projects.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opensource.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.nl ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.group",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.fr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.at",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Subdomain takeover",
-                    "type": "other"
-                },
-                {
-                    "identifier": "open redirect at *.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Open redirect at *.projects.epam.com, *.lab.epam.com, *.opensource.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "In Scope - Points only",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "ethics.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "profile.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "carbon.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "infongen.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ebn.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solutionshub.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "telescopeai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wearecommunity.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cami.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ellie.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "apex.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investors.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ecsd00300769.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "display.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "info.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin-ui.preship.gcp.gnrg-osdu.projects.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.epam.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "customersupport.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "supportnow.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "anywhere.epam.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/monash-mbb",
         "bounty": 1,
         "active": 1,
@@ -19255,6 +19108,157 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/epam-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.projects.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opensource.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.nl ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.group",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.fr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.at",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Subdomain takeover",
+                    "type": "other"
+                },
+                {
+                    "identifier": "open redirect at *.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Open redirect at *.projects.epam.com, *.lab.epam.com, *.opensource.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "In Scope - Points only",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "ethics.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "profile.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "carbon.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "infongen.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ebn.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solutionshub.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "telescopeai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wearecommunity.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cami.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ellie.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "apex.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investors.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ecsd00300769.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "display.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "info.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin-ui.preship.gcp.gnrg-osdu.projects.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.epam.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "customersupport.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "supportnow.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "anywhere.epam.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -19930,65 +19934,6 @@
                 {
                     "identifier": "Corporate Email (*@skyscanner.net)",
                     "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/maffashion",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.crateandbarrel.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://lego.yellowblocks.me/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.thatconceptstore.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "THAT Concept Store iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "THAT Concept Store Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://thatconceptstore.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.cb2.ae/en",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.allsaints.me/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.lululemon.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lapi.yellowblocks.me",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.shiseido.me/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.americangirlmena.com",
-                    "type": "website"
                 }
             ]
         }
@@ -20837,52 +20782,6 @@
         }
     },
     {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/ifood-og",
         "bounty": 1,
         "active": 1,
@@ -21114,6 +21013,111 @@
                 },
                 {
                     "identifier": "www.whmcs.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/maffashion",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.crateandbarrel.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://lego.yellowblocks.me/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.thatconceptstore.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "THAT Concept Store iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "THAT Concept Store Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://thatconceptstore.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.cb2.ae/en",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.allsaints.me/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.lululemon.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lapi.yellowblocks.me",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.shiseido.me/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.americangirlmena.com",
                     "type": "website"
                 }
             ]
