@@ -13161,6 +13161,25 @@
         }
     },
     {
+        "handle": "fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/ciscomeraki",
         "bounty": 1,
         "active": 1,
@@ -13886,25 +13905,6 @@
         }
     },
     {
-        "handle": "fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bugcrowd",
         "bounty": 1,
         "active": 1,
@@ -13985,20 +13985,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "worldpay",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any Worldpay asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -14220,6 +14206,20 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "worldpay",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any Worldpay asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -16397,73 +16397,6 @@
         }
     },
     {
-        "handle": "engagements/square",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.square.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.squareup.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.weebly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Square Point of Sale Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Square Point of Sale Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Square Register",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Square Terminal",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.afterpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cash.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "designers.weebly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Any vulnerabilities found in Third-party software",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/hubspot",
         "bounty": 1,
         "active": 1,
@@ -16558,6 +16491,73 @@
                 {
                     "identifier": "Out of Scope Vulnerabilities",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/square",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.square.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.squareup.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.weebly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Square Point of Sale Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Square Point of Sale Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Square Register",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Square Terminal",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.afterpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cash.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "designers.weebly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Any vulnerabilities found in Third-party software",
+                    "type": "website"
                 }
             ]
         }
@@ -21095,6 +21095,56 @@
         }
     },
     {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/webdotcom",
         "bounty": 1,
         "active": 1,
@@ -21155,56 +21205,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
