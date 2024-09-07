@@ -6105,6 +6105,29 @@
         }
     },
     {
+        "handle": "engagements/newfold-bluehostindia-vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.bluehost.in",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bluehost.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Anything not explicitly listed as in scope",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/houseful-zoopla-vdp",
         "bounty": 0,
         "active": 1,
@@ -6136,29 +6159,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/newfold-bluehostindia-vdp",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.bluehost.in",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bluehost.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Anything not explicitly listed as in scope",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -13855,113 +13855,6 @@
         }
     },
     {
-        "handle": "engagements/tesla",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tesla.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tesla.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla iOS apps",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.solarcity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslainsuranceservices.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla Android apps",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tesla Energy hardware you own",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Tesla vehicle hardware that you own",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "ir.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mkto.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.eu.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "employeefeedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any domains from acquisitions, such as maxwell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.cn/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.com/docs/*",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/ynab",
         "bounty": 1,
         "active": 1,
@@ -14325,6 +14218,113 @@
                 {
                     "identifier": "pos-admin.trial.lsk.lightspeed.app",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tesla",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tesla.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tesla.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla iOS apps",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.solarcity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslainsuranceservices.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla Android apps",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tesla Energy hardware you own",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Tesla vehicle hardware that you own",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "ir.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mkto.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.eu.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "employeefeedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any domains from acquisitions, such as maxwell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.cn/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.com/docs/*",
+                    "type": "website"
                 }
             ]
         }
@@ -15790,73 +15790,6 @@
         }
     },
     {
-        "handle": "engagements/square",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.square.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.squareup.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.weebly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Square Point of Sale Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Square Point of Sale Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Square Register",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Square Terminal",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.afterpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cash.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "designers.weebly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Any vulnerabilities found in Third-party software",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/thousandeyes-og",
         "bounty": 1,
         "active": 1,
@@ -16044,105 +15977,6 @@
                 {
                     "identifier": "https://cwingsfe.mafrservices.com/login",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/hubspot",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app-eu1.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.hubspot.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.hubapi.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "chatspot.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "connect.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotemail.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hs-sites(-eu1)?.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.eu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer Portal (1)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer connected domain (2)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HubSpot Android Mobile App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "HubSpot iOS Mobile App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "HubSpot Sales Office 365 add-in",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Special Conditions",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "shop.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "thespot.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Out of Scope Vulnerabilities",
-                    "type": "other"
                 }
             ]
         }
@@ -16560,6 +16394,172 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/square",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.square.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.squareup.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.weebly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Square Point of Sale Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Square Point of Sale Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Square Register",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Square Terminal",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.afterpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cash.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "designers.weebly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Any vulnerabilities found in Third-party software",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/hubspot",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app-eu1.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.hubspot.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.hubapi.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "chatspot.ai",
+                    "type": "website"
+                },
+                {
+                    "identifier": "connect.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hubspotemail.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hs-sites(-eu1)?.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hubspotpagebuilder.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hubspotpagebuilder.eu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer Portal (1)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer connected domain (2)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HubSpot Android Mobile App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "HubSpot iOS Mobile App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "HubSpot Sales Office 365 add-in",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Special Conditions",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "shop.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "thespot.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Out of Scope Vulnerabilities",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
@@ -18664,56 +18664,6 @@
         }
     },
     {
-        "handle": "engagements/tidal-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.wimpmusic.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidalhifi.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.tidal.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*tidalhi.fi",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tdl.sh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Tidal Client for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Tidal Client for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tidal Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/comcast-mbb",
         "bounty": 1,
         "active": 1,
@@ -18821,6 +18771,56 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/tidal-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.wimpmusic.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidalhifi.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.tidal.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*tidalhi.fi",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tdl.sh",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Tidal Client for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Tidal Client for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tidal Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -20898,119 +20898,6 @@
         }
     },
     {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/webdotcom",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": " www.web.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " www.register.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.networksolutions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uk.web.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.bluehost.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.hostgator.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Anything not explicitly listed as \"In Scope\".",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.web.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.register.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.networksolutions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " https://app.gator.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bluehost.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hostgator.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/pinterest",
         "bounty": 1,
         "active": 1,
@@ -21205,6 +21092,119 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/webdotcom",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": " www.web.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " www.register.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.networksolutions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uk.web.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.bluehost.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.hostgator.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Anything not explicitly listed as \"In Scope\".",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.web.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.register.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.networksolutions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " https://app.gator.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bluehost.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hostgator.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
