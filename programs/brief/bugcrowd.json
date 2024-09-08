@@ -14228,25 +14228,6 @@
         }
     },
     {
-        "handle": "fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bitpanda-og-bb",
         "bounty": 1,
         "active": 1,
@@ -14324,6 +14305,25 @@
                 },
                 {
                     "identifier": "*.exchange.bitpanda.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
                     "type": "website"
                 }
             ]
@@ -17798,36 +17798,6 @@
         }
     },
     {
-        "handle": "engagements/planethosterinc",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "my.planethoster.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.planethoster.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": " world.planethoster.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mg.n0c.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.planethoster.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/afterpay",
         "bounty": 1,
         "active": 1,
@@ -17912,80 +17882,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/indeed",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.indeed.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.indeedflex.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apis.indeed.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Indeed Job Search Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Job Search iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android Indeed Flex App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "iOS Indeed Flex App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://*.indeed.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://resume.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wowjobs.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Connect for Employers",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Indeed Recruiter Extension (Chrome)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -18085,6 +17981,110 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/planethosterinc",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "my.planethoster.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.planethoster.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": " world.planethoster.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mg.n0c.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.planethoster.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/indeed",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.indeed.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.indeedflex.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apis.indeed.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Indeed Job Search Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Job Search iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android Indeed Flex App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iOS Indeed Flex App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://*.indeed.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://resume.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wowjobs.ca",
+                    "type": "website"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Connect for Employers",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Indeed Recruiter Extension (Chrome)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -18664,6 +18664,33 @@
         }
     },
     {
+        "handle": "engagements/codeorg",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "adhoc-bugcrowd.cdn-code.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "adhoc-bugcrowd-studio.cdn-code.org",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "hourofcode.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "advocacy.code.org",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/tidal-bugbounty",
         "bounty": 1,
         "active": 1,
@@ -18711,33 +18738,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/codeorg",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "adhoc-bugcrowd.cdn-code.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "adhoc-bugcrowd-studio.cdn-code.org",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "hourofcode.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "advocacy.code.org",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -20008,65 +20008,6 @@
         }
     },
     {
-        "handle": "engagements/maffashion",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.crateandbarrel.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://lego.yellowblocks.me/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.thatconceptstore.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "THAT Concept Store iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "THAT Concept Store Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://thatconceptstore.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.cb2.ae/en",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.allsaints.me/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.lululemon.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lapi.yellowblocks.me",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.shiseido.me/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.americangirlmena.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/stellantis",
         "bounty": 1,
         "active": 1,
@@ -21018,45 +20959,6 @@
         }
     },
     {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.slader.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "2.0 API",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -21203,6 +21105,104 @@
                 {
                     "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.slader.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "2.0 API",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/maffashion",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.crateandbarrel.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://lego.yellowblocks.me/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.thatconceptstore.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "THAT Concept Store iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "THAT Concept Store Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://thatconceptstore.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.cb2.ae/en",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.allsaints.me/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.lululemon.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lapi.yellowblocks.me",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.shiseido.me/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.americangirlmena.com",
+                    "type": "website"
                 }
             ]
         }
