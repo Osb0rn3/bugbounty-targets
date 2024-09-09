@@ -8024,6 +8024,15 @@
         }
     },
     {
+        "handle": "engagements/opm-vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/monash-esf",
         "bounty": 0,
         "active": 1,
@@ -8038,15 +8047,6 @@
                     "type": "website"
                 }
             ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/opm-vdp",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [],
             "out_of_scope": []
         }
     },
@@ -9803,41 +9803,6 @@
                 {
                     "identifier": "support.atlassian.com",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "dell-product",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Actively Supported, Bounty Eligible Dell Products",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Actively Supported, Non-Reward Eligible Dell Products",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Virtual Appliance (vApp) Manager",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dell ObjectScale",
-                    "type": "other"
                 }
             ]
         }
@@ -11716,73 +11681,6 @@
         }
     },
     {
-        "handle": "dell-com",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/* ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/administration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/invoice",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/billing",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://console.delltechnologies.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/catalog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
-                    "type": "website"
-                },
-                {
-                    "identifier": "educate.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console-test.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "salesproductivity.dell.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "kiteworks-public",
         "bounty": 1,
         "active": 1,
@@ -13640,25 +13538,6 @@
         }
     },
     {
-        "handle": "fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bitpanda-og-bb",
         "bounty": 1,
         "active": 1,
@@ -14007,6 +13886,108 @@
             "out_of_scope": [
                 {
                     "identifier": "*.joralocal.com.au\t",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/dell-product",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Actively Supported, Bounty Eligible Dell Products",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Actively Supported, Non-Reward Eligible Dell Products",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Virtual Appliance (vApp) Manager",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dell ObjectScale",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/dell-com",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/* ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://console.delltechnologies.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "type": "website"
+                },
+                {
+                    "identifier": "educate.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console-test.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "salesproductivity.dell.com",
                     "type": "website"
                 }
             ]
@@ -16246,6 +16227,25 @@
         }
     },
     {
+        "handle": "engagements/fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/worldpay",
         "bounty": 1,
         "active": 1,
@@ -17525,6 +17525,167 @@
         }
     },
     {
+        "handle": "engagements/afterpay",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Afterpay iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Afterpay Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "portal.afterpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.afterpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mobileapi.afterpay.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "portalapi.*.afterpay.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "developers.afterpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Clearpay iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Clearpay Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "clearpay.co.uk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "clearpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "portal.clearpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "portal.clearpay.co.uk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mobileapi.clearpay.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "portalapi.eu.clearpay.co.uk",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.clearpay.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "afterpaytechblog.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "genderfree.afterpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "moneybyafterpay.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/indeed",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.indeed.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.indeedflex.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apis.indeed.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Indeed Job Search Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Job Search iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android Indeed Flex App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iOS Indeed Flex App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://*.indeed.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://resume.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wowjobs.ca",
+                    "type": "website"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Connect for Employers",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Indeed Recruiter Extension (Chrome)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/lululemon",
         "bounty": 1,
         "active": 1,
@@ -17621,80 +17782,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/indeed",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.indeed.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.indeedflex.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apis.indeed.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Indeed Job Search Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Job Search iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android Indeed Flex App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "iOS Indeed Flex App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://*.indeed.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://resume.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wowjobs.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Connect for Employers",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Indeed Recruiter Extension (Chrome)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -18274,6 +18361,33 @@
         }
     },
     {
+        "handle": "engagements/codeorg",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "adhoc-bugcrowd.cdn-code.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "adhoc-bugcrowd-studio.cdn-code.org",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "hourofcode.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "advocacy.code.org",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/tidal-bugbounty",
         "bounty": 1,
         "active": 1,
@@ -18321,33 +18435,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/codeorg",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "adhoc-bugcrowd.cdn-code.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "adhoc-bugcrowd-studio.cdn-code.org",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "hourofcode.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "advocacy.code.org",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -19128,6 +19215,88 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/seek",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.seek.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://seekcdn.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "SEEK mobile app for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK mobile app for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.skinfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.outfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sol-data.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.jobapi.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.jobapi.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.seekpass.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seekpass-staging.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.aips-internal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsynonprod.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "graphql.seek.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.seek.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -20271,109 +20440,6 @@
         }
     },
     {
-        "handle": "engagements/immutable",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "guildofguardians.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.guildofguardians.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "passport.immutable.com - Passport web3 wallet",
-                    "type": "website"
-                },
-                {
-                    "identifier": "auth.immutable.com - Passport authentication backend",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Passport SDK",
-                    "type": "other"
-                },
-                {
-                    "identifier": "hub.immutable.com - Developer Hub",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.immutable.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.x.immutable.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.immutable.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.imtbl.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "testnet.immutable.com",
-                    "type": "network"
-                },
-                {
-                    "identifier": "*.testnet.immutable.com",
-                    "type": "network"
-                },
-                {
-                    "identifier": "https://link.x.immutable.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://market.immutable.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://docs.immutable.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "imx.community",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.godsunchained.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.gogbackend.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "gogbackend.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "godsunchained.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Anything that does not belong to Immutable",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any data exposure bug that are classified as Public Data such as Ethereum Wallet Address, NFT Purchase activity, or other public blockchain activity.",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.dev.x.immutable.com, *.sandbox.x.immutable.com, *.dev.x.immutable.com, *.sandbox.imtbl.com, *.dev.imtbl.com, *.ropsten.x.immutable.com, ropsten.imx.community (see brief for exceptions)",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/backblaze",
         "bounty": 1,
         "active": 1,
@@ -21039,6 +21105,230 @@
         }
     },
     {
+        "handle": "engagements/immutable",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "guildofguardians.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.guildofguardians.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "passport.immutable.com - Passport web3 wallet",
+                    "type": "website"
+                },
+                {
+                    "identifier": "auth.immutable.com - Passport authentication backend",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Passport SDK",
+                    "type": "other"
+                },
+                {
+                    "identifier": "hub.immutable.com - Developer Hub",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.immutable.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.x.immutable.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.immutable.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.imtbl.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "testnet.immutable.com",
+                    "type": "network"
+                },
+                {
+                    "identifier": "*.testnet.immutable.com",
+                    "type": "network"
+                },
+                {
+                    "identifier": "https://link.x.immutable.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://market.immutable.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://docs.immutable.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "imx.community",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.godsunchained.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.gogbackend.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "gogbackend.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "godsunchained.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Anything that does not belong to Immutable",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any data exposure bug that are classified as Public Data such as Ethereum Wallet Address, NFT Purchase activity, or other public blockchain activity.",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.dev.x.immutable.com, *.sandbox.x.immutable.com, *.dev.x.immutable.com, *.sandbox.imtbl.com, *.dev.imtbl.com, *.ropsten.x.immutable.com, ropsten.imx.community (see brief for exceptions)",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "dell-product",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Actively Supported, Bounty Eligible Dell Products",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Actively Supported, Non-Reward Eligible Dell Products",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Virtual Appliance (vApp) Manager",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dell ObjectScale",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "dell-com",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/* ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://console.delltechnologies.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "type": "website"
+                },
+                {
+                    "identifier": "educate.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console-test.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "salesproductivity.dell.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "seek",
         "bounty": 1,
         "active": 1,
@@ -21296,37 +21586,6 @@
         }
     },
     {
-        "handle": "jora",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jora.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jora.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.joralocal.com.au\t",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "underarmour",
         "bounty": 1,
         "active": 1,
@@ -21384,93 +21643,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/afterpay",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Afterpay iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Afterpay Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "portal.afterpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.afterpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mobileapi.afterpay.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "portalapi.*.afterpay.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "developers.afterpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Clearpay iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Clearpay Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "clearpay.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "clearpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "portal.clearpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "portal.clearpay.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mobileapi.clearpay.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "portalapi.eu.clearpay.co.uk",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.clearpay.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "afterpaytechblog.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "genderfree.afterpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "moneybyafterpay.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
