@@ -15297,6 +15297,41 @@
         }
     },
     {
+        "handle": "engagements/braze-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://security-testing-env-api.k8s.tools-001.d-use-1.braze.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://security-testing-env-dashboard.k8s.tools-001.d-use-1.braze.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.appboy.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.eu",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any Braze Owned Host not listed as in Scope",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "netgear",
         "bounty": 1,
         "active": 1,
@@ -15364,41 +15399,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/braze-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://security-testing-env-api.k8s.tools-001.d-use-1.braze.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://security-testing-env-dashboard.k8s.tools-001.d-use-1.braze.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.appboy.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.eu",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any Braze Owned Host not listed as in Scope",
-                    "type": "other"
-                }
-            ]
         }
     },
     {
@@ -16074,36 +16074,6 @@
         }
     },
     {
-        "handle": "engagements/planethosterinc",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "my.planethoster.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.planethoster.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": " world.planethoster.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mg.n0c.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.planethoster.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/afterpay",
         "bounty": 1,
         "active": 1,
@@ -16188,6 +16158,36 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/planethosterinc",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "my.planethoster.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.planethoster.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": " world.planethoster.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mg.n0c.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.planethoster.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
