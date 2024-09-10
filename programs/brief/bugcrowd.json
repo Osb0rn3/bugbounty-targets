@@ -2849,6 +2849,40 @@
         }
     },
     {
+        "handle": "engagements/lenovoresponsibledisclosure",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.motorola.com.br",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.motorola.com.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.motorola.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lenovo.com.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lenovo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*. lenovomm.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/geotab-vdp",
         "bounty": 0,
         "active": 1,
@@ -2949,40 +2983,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/lenovoresponsibledisclosure",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.motorola.com.br",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.motorola.com.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.motorola.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lenovo.com.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lenovo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*. lenovomm.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -12353,20 +12353,6 @@
         }
     },
     {
-        "handle": "engagements/pexels",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pexels.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/bitpanda-og-bb",
         "bounty": 1,
         "active": 1,
@@ -13487,6 +13473,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pexels",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pexels.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -14961,45 +14961,6 @@
         }
     },
     {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.slader.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "2.0 API",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 1,
@@ -15029,6 +14990,61 @@
                 },
                 {
                     "identifier": "Any Braze Owned Host not listed as in Scope",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/skyscanner",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Skyscanner iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Skyscanner Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "gateway.skyscanner.net/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "skyscanner.net/hotels/book/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "skyscanner.net/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "partnerportal.skyscanner.net/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.skyscanner.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Skyscanner Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Skyscanner iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "AWS Infrastructure",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Corporate Email (*@skyscanner.net)",
                     "type": "other"
                 }
             ]
@@ -15196,61 +15212,6 @@
         }
     },
     {
-        "handle": "engagements/skyscanner",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Skyscanner iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Skyscanner Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "gateway.skyscanner.net/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "skyscanner.net/hotels/book/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "skyscanner.net/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "partnerportal.skyscanner.net/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.skyscanner.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Skyscanner Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Skyscanner iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "AWS Infrastructure",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Corporate Email (*@skyscanner.net)",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -15397,6 +15358,45 @@
                 {
                     "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.slader.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "2.0 API",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
                 }
             ]
         }
@@ -16074,36 +16074,6 @@
         }
     },
     {
-        "handle": "engagements/planethosterinc",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "my.planethoster.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.planethoster.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": " world.planethoster.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mg.n0c.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.planethoster.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/afterpay",
         "bounty": 1,
         "active": 1,
@@ -16188,6 +16158,36 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/planethosterinc",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "my.planethoster.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.planethoster.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": " world.planethoster.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mg.n0c.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.planethoster.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -19299,6 +19299,20 @@
         }
     },
     {
+        "handle": "engagements/skroutz",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.skroutz.gr/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/square",
         "bounty": 1,
         "active": 1,
@@ -19363,20 +19377,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/skroutz",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.skroutz.gr/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -20551,65 +20551,6 @@
         }
     },
     {
-        "handle": "etsy",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any publicly facing host owned by Etsy, including the below:",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (iPhone)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Etsy API (see documentation below)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "etsypayments.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "http://blog.etsy.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://community.etsy.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://careers.etsy.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.etsy.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "icht.etsysecure.com",
-                    "type": "api"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/wyze",
         "bounty": 1,
         "active": 1,
@@ -20695,161 +20636,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/latitude-financial-service-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.test.latitudefinancial.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.28degreescard.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.buyersedge.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.carecredit.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemcreditline.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemfinance.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemvisa.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.genoapay.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.genoapay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gomastercard.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.interestfree.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudeinfinity.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudepay.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.umiloans.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "images.latitudepayapps.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "app.latitudepayapps.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": " *.test.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.dev.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.-np.*.lfscnp.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://investors.latitudefinancial.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.latitudefinancial.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://auth.*.latitudefinancial.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.latitudefs.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.my.latitudepay.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.sg.latitudepay.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sg.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://t.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://p.latitudefinancial.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -21199,6 +20985,220 @@
                 {
                     "identifier": "tabfulness.opera.com",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/latitude-financial-service-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.test.latitudefinancial.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.28degreescard.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.buyersedge.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.carecredit.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemcreditline.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemfinance.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemvisa.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.genoapay.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.genoapay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gomastercard.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.interestfree.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudeinfinity.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudepay.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.umiloans.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "images.latitudepayapps.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "app.latitudepayapps.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": " *.test.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.dev.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.-np.*.lfscnp.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://investors.latitudefinancial.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.latitudefinancial.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://auth.*.latitudefinancial.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.latitudefs.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.my.latitudepay.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.sg.latitudepay.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sg.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://t.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://p.latitudefinancial.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "etsy",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any publicly facing host owned by Etsy, including the below:",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (iPhone)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Etsy API (see documentation below)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "etsypayments.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "http://blog.etsy.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://community.etsy.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://careers.etsy.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.etsy.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "icht.etsysecure.com",
+                    "type": "api"
                 }
             ]
         }
