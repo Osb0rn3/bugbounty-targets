@@ -1,5 +1,23 @@
 [
     {
+        "handle": "govtech-vulnerability-disclosure-programme-policy",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.gov.sg",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Domains where GovTech is the registrar",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "infomaniak-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -132,6 +150,32 @@
                 {
                     "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
                     "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "spacelift-io-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.app.spacelift.dev",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Native K8S workers and operator",
+                    "type": "application"
+                },
+                {
+                    "identifier": "OIDC-based API keys",
+                    "type": "application"
+                },
+                {
+                    "identifier": "MFA",
+                    "type": "application"
                 }
             ],
             "out_of_scope": []
@@ -466,32 +510,6 @@
         }
     },
     {
-        "handle": "spacelift-io-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.app.spacelift.dev",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Native K8S workers and operator",
-                    "type": "application"
-                },
-                {
-                    "identifier": "OIDC-based API keys",
-                    "type": "application"
-                },
-                {
-                    "identifier": "MFA",
-                    "type": "application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "ooredoo-qpsc-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -583,24 +601,6 @@
                 },
                 {
                     "identifier": "Google Cloud Plateform Instances",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "govtech-vulnerability-disclosure-programme-policy",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.gov.sg",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Domains where GovTech is the registrar",
                     "type": "other"
                 }
             ],
