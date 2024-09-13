@@ -19932,19 +19932,6 @@
                 "description": null
             },
             {
-                "id": "3690c96d-1634-4f19-8237-83df95c3d667",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "Autoblog",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "## In Scope ##\n* www.autoblog.com\n\n## Out of Scope ##\n* *.spot.im (3rd party, Spot.IM)\n* Development-like environments for autoblog.com exist, but should not be tested; keep the testing in Production (www.)."
-            },
-            {
                 "id": "a440a79c-ddf3-4888-ab70-a7202fa64a62",
                 "type": {
                     "id": 1,
@@ -19969,19 +19956,6 @@
                     "value": "Tier 2"
                 },
                 "description": "## In Scope\n* [APIs](https://api.engadget.com/api)\n* *.engadget.com\n\n## Notes\n* Separate reports for the same or similar payload/issue against multiple international editions, will be marked as duplicates and paid only once for Engadget international editions.\n\n## Out of Scope\n* *.spot.im (3rd party, Spot.IM)\n* *.cn.engadget.com (Engadget International Edition)\n* *.chinese.engadget.com (Engadget International Edition)\n* *.japanese.engadget.com (Engadget International Edition)\n* jobs.engadget.com (3rd party, Jobboard.io)"
-            },
-            {
-                "id": "faee7ce8-fef0-42d7-8a9f-591c9c6ed67b",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Flurry",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "* [Flurry Android](https://play.google.com/store/apps/details?id=com.yahoo.flurry)\n* [Flurry iOS](https://itunes.apple.com/us/app/flurry-analytics/id1079687315?mt=8)\n* *.flurry.com"
             },
             {
                 "id": "d94e74f6-dc74-4de7-bddc-fd4b29cdae2c",
@@ -20450,6 +20424,19 @@
                     "value": "Tier 2"
                 },
                 "description": "yimg is a resource storage and content distribution network (CDN).\n ## Note: ##  Reports submitted that exploit bugs **only** in the context of the `yimg.com` domain are most likely to be closed as `Informative`.  Most bugs in `*.yimg.com` will require a proof-of-concept or proof-of-exploit that escalates into one of the primary brand or product domains (e.g. yahoo.com or aol.com) to be eligible for bounty. CVSS Environmental scores have been set to account for this limitation.\n\nWhat does that mean for my report?\n1. If you show escalation into a trusted domain's context (such as yahoo.com) it will be accepted at 100% bounty rate. A bonus may be applied for different instances within the trusted domain list only; not for other instances of vulnerabilities content on yimg.com.\n2. If you show execution in the context of *.yimg.com only, the vulnerability MAY be accepted by the business owner in some instances. In that case, a minimum bounty would be offered only if the content is removed. There are no \"same bug different host\" or other vulnerability grouping bonus offers for this asset."
+            },
+            {
+                "id": "faee7ce8-fef0-42d7-8a9f-591c9c6ed67b",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Flurry",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "* [Flurry Android](https://play.google.com/store/apps/details?id=com.yahoo.flurry)\n* [Flurry iOS](https://itunes.apple.com/us/app/flurry-analytics/id1079687315?mt=8)\n* *.flurry.com"
             },
             {
                 "id": "854a73fa-86ac-4cfa-9646-3d5b867dea83",
