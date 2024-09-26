@@ -1,36 +1,52 @@
 [
     {
-        "handle": "telenor-sweden-public-bug-bounty-program",
+        "handle": "ezviz-bug-bounty-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.telenor.se",
+                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
+                    "type": "other"
+                },
+                {
+                    "identifier": "i.ys7.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.bredbandsbolaget.se",
+                    "identifier": "open.ys7.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.europolitan.se",
+                    "identifier": "auth.ys7.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.ownit.se",
+                    "identifier": "api.ys7.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.vimla.se",
+                    "identifier": "api.ezvizlife.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.vimla.work",
+                    "identifier": "usauth.ezvizlife.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.vimla.io",
+                    "identifier": "ius.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": ".eziot.com",
                     "type": "web-application"
                 }
             ],
@@ -70,6 +86,102 @@
                 {
                     "identifier": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
                     "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dracoon-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/oauth",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://0-2744452194.s3.nbg01.de.dracoon.io",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/mediaserver",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/reporting/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/webdav",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/oauth",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/reporting/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/webdav",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "telenor-sweden-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.telenor.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.bredbandsbolaget.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.europolitan.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ownit.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.work",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.io",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -646,64 +758,6 @@
         }
     },
     {
-        "handle": "dracoon-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/oauth",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://0-2744452194.s3.nbg01.de.dracoon.io",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/mediaserver",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/reporting/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/webdav",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/oauth",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/reporting/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/webdav",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "swapcard",
         "bounty": 1,
         "active": 1,
@@ -756,60 +810,6 @@
                 {
                     "identifier": "t.swapcard.com",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "ezviz-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
-                    "type": "other"
-                },
-                {
-                    "identifier": "i.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "open.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "auth.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "usauth.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ius.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": ".eziot.com",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
