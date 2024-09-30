@@ -1,5 +1,27 @@
 [
     {
+        "handle": "cryptobox-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bounty.cryptobox.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.ercom.cryptobox.release&hl=fr",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/cryptobox/id972602802",
+                    "type": "mobile-application-ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "infomaniak-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -138,22 +160,96 @@
         }
     },
     {
-        "handle": "cryptobox-bug-bounty",
+        "handle": "dracoon-bug-bounty-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://bounty.cryptobox.com",
+                    "identifier": "https://bounty-cloud.dracoon.app/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/oauth",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://0-2744452194.s3.nbg01.de.dracoon.io",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/mediaserver",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/reporting/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/webdav",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://apps.apple.com/fr/app/cryptobox/id972602802",
-                    "type": "mobile-application-android"
+                    "identifier": "https://bounty-server.dracoon.app/api",
+                    "type": "api"
                 },
                 {
-                    "identifier": "https://apps.apple.com/fr/app/cryptobox/id972602802",
-                    "type": "mobile-application-ios"
+                    "identifier": "https://bounty-server.dracoon.app/oauth",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/reporting/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/webdav",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "telenor-sweden-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.telenor.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.bredbandsbolaget.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.europolitan.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ownit.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.work",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.io",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -374,44 +470,6 @@
                 {
                     "identifier": "Domains where GovTech is the registrar",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "telenor-sweden-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.telenor.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.bredbandsbolaget.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.europolitan.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.ownit.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.work",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.io",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -1031,64 +1089,6 @@
             "in_scope": [
                 {
                     "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-35",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dracoon-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/oauth",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://0-2744452194.s3.nbg01.de.dracoon.io",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/mediaserver",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/reporting/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/webdav",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/oauth",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/reporting/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/webdav",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/",
                     "type": "web-application"
                 }
             ],
