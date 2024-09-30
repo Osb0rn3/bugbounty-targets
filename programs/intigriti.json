@@ -1479,8 +1479,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -10012,7 +10012,7 @@
         "name": "Grafana Labs",
         "following": false,
         "minBounty": {
-            "value": 100.0,
+            "value": 10.0,
             "currency": "USD"
         },
         "maxBounty": {
@@ -10036,15 +10036,28 @@
         },
         "domains": [
             {
-                "id": "df93fefc-e496-4e7f-8319-9112d72f4941",
+                "id": "4786abfb-4c39-4270-abe7-cbd9e054e075",
                 "type": {
-                    "id": 7,
-                    "value": "Wildcard"
+                    "id": 6,
+                    "value": "Other"
                 },
-                "endpoint": "*.grafana.net",
+                "endpoint": "Grafana Loki",
                 "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "62eac875-1eae-48d6-b8e0-d48eebccdad7",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Mimir",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": null
             },
@@ -10056,13 +10069,52 @@
                 },
                 "endpoint": "Grafana OSS",
                 "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "60452904-89da-4d25-839e-566d6af4ed42",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Pyroscope",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "34a99085-6d42-404a-be50-6a2e4c48f9f6",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Tempo",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "1c0f875a-6561-41d9-9251-0c085ddc870f",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://github.com/grafana/*",
+                "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Latest released version of Grafana OSS: https://github.com/grafana/grafana\n"
+                "description": "Only repository misconfigurations for non-archived repositories are in scope - please read '**In scope**' section below for detailed scope."
             },
             {
-                "id": "176e6835-abd4-4cdf-b1b8-6dd2f94eac0b",
+                "id": "4ad726d7-e638-4bb3-8143-e9dcad07b8ec",
                 "type": {
                     "id": 6,
                     "value": "Other"
@@ -10075,12 +10127,25 @@
                 "description": "Grafana Labs developed [plugins](https://grafana.com/grafana/plugins/all-plugins/?signature=grafana) not installed by default are accepted, but not eligible for a bounty. "
             },
             {
-                "id": "e67728e3-68e8-48b3-ac58-d2fa5d04d14f",
+                "id": "f25edc5a-6639-4351-a1c9-005693b83d07",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "grafana.com",
+                "endpoint": "*.grafana.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "110d7c70-52cf-4430-a135-6d2a0d4c4c21",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.grafana.net",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"

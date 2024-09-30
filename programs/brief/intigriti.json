@@ -460,7 +460,7 @@
     {
         "handle": "grafanalabs",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
@@ -3131,8 +3131,28 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "Grafana Loki",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Grafana Mimir",
+                    "type": "Other"
+                },
+                {
                     "identifier": "Grafana OSS",
                     "type": "Other"
+                },
+                {
+                    "identifier": "Grafana Pyroscope",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Grafana Tempo",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "https://github.com/grafana/*",
+                    "type": "Wildcard"
                 },
                 {
                     "identifier": "Non-Core Grafana Plugins",
@@ -3141,12 +3161,12 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "*.grafana.net",
+                    "identifier": "*.grafana.com",
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "grafana.com",
-                    "type": "Url"
+                    "identifier": "*.grafana.net",
+                    "type": "Wildcard"
                 }
             ]
         }
