@@ -4462,6 +4462,128 @@
         ]
     },
     {
+        "id": "23f5d877-7948-4740-830c-393e66753fc4",
+        "handle": "monzopublicbugbountyprogram",
+        "name": "Monzo Public Bug Bounty Program",
+        "following": false,
+        "minBounty": {
+            "value": 125.0,
+            "currency": "GBP"
+        },
+        "maxBounty": {
+            "value": 12500.0,
+            "currency": "GBP"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/monzobank/monzopublicbugbountyprogram/detail"
+        },
+        "domains": [
+            {
+                "id": "fce2d8db-204f-4ecc-9c05-7f1e73eff2aa",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.monzo.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The crux of Monzo where the APIs live as well as Monzo Business and the main web site"
+            },
+            {
+                "id": "f9de0f17-6ebf-49ac-ae0c-b54598bb5d2a",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.monzo.me",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Houses the services for the pay me / request payment feature"
+            },
+            {
+                "id": "16a1ada8-be43-408d-82f2-e5483bf85c3e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.prod-ffs.io",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Where our internal tooling lives... hopefully it isn't exposed!"
+            },
+            {
+                "id": "9db869fc-1a28-47da-8e7e-320b8fccc6c2",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "1052238659",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The public seed of the Monzo app on iOS"
+            },
+            {
+                "id": "299fc6e5-0918-40a3-85a5-3a45dd025b6c",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "co.uk.getmondo",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The public seed of the Monzo app on Android"
+            },
+            {
+                "id": "3086e6b0-c47a-4d07-9373-69172187d21d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "community.monzo.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "346b168a-70f8-4774-b3cc-86b4e23ebf6a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "developers.monzo.com/env.js",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
         "id": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
         "handle": "upholdcom",
         "name": "Uphold.com",
