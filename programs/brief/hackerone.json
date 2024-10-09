@@ -68051,9 +68051,22 @@
                 {
                     "identifier": "http://www.blueapron.com/graphql",
                     "type": "URL"
+                },
+                {
+                    "identifier": "https://*.wonder.com",
+                    "type": "WILDCARD"
+                },
+                {
+                    "identifier": "https://order.wonder.com",
+                    "type": "URL"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "http://support.wonder.com",
+                    "type": "URL"
+                }
+            ]
         }
     },
     {
@@ -103810,6 +103823,10 @@
                 {
                     "identifier": "https://*.ro.co/api/members",
                     "type": "WILDCARD"
+                },
+                {
+                    "identifier": "https://login.ro.co/authorize",
+                    "type": "URL"
                 }
             ]
         }
