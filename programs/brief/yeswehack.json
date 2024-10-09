@@ -1,5 +1,113 @@
 [
     {
+        "handle": "bug-bounty-program-blablacar",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua))",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://api.blablalines.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://daily.blablacar.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://blablacardaily.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.blablalines",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
+                    "type": "mobile-application-ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dailymotion-public-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.api.dailymotion.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "developer.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.dmcdn.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
+                    "type": "api"
+                },
+                {
+                    "identifier": "AS41690",
+                    "type": "other"
+                },
+                {
+                    "identifier": "dmxleo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dm.gg",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Google Cloud Plateform Instances",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "teamviewer-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -140,60 +248,6 @@
                 {
                     "identifier": "https://login.salt.ch",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dailymotion-public-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.api.dailymotion.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "developer.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.dmcdn.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
-                    "type": "api"
-                },
-                {
-                    "identifier": "AS41690",
-                    "type": "other"
-                },
-                {
-                    "identifier": "dmxleo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dm.gg",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Google Cloud Plateform Instances",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -1612,60 +1666,6 @@
                 {
                     "identifier": "https://matrix.e.tchap.gouv.fr",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "bug-bounty-program-blablacar",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua))",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://api.blablalines.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://daily.blablacar.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://blablacardaily.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.blablalines",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
-                    "type": "mobile-application-ios"
                 }
             ],
             "out_of_scope": []
