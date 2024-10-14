@@ -1,101 +1,57 @@
 [
     {
-        "handle": "dailymotion-public-bug-bounty",
+        "handle": "swapcard",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.api.dailymotion.com",
+                    "identifier": "api.swapcard.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "developer.dailymotion.com",
+                    "identifier": "chat-api.swapcard.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "developer.swapcard.com/event-admin/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "login.swapcard.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "studio-api.swapcard.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "app.swapcard.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.dmcdn.net",
+                    "identifier": "studio.swapcard.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                    "type": "mobile-application-android"
+                    "identifier": "team.swapcard.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                    "identifier": "https://apps.apple.com/fr/app/swapcard/id879488719",
                     "type": "mobile-application-ios"
                 },
                 {
-                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
+                    "identifier": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "img.swapcard.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "AS41690",
-                    "type": "other"
-                },
-                {
-                    "identifier": "dmxleo.com",
+                    "identifier": "t.swapcard.com",
                     "type": "api"
-                },
-                {
-                    "identifier": "*.dm.gg",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Google Cloud Plateform Instances",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "govtech-vulnerability-disclosure-programme-policy",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.gov.sg",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Domains where GovTech is the registrar",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "contentsquare-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.contentsquare.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://mobile-production.content-square.net/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://m.csqtrk.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://s.contentsquare.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Contentsquare SDK (cf : Program Description)",
-                    "type": "application"
                 }
             ],
             "out_of_scope": []
@@ -218,6 +174,108 @@
                 {
                     "identifier": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
                     "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dailymotion-public-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.api.dailymotion.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "developer.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.dmcdn.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
+                    "type": "api"
+                },
+                {
+                    "identifier": "AS41690",
+                    "type": "other"
+                },
+                {
+                    "identifier": "dmxleo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dm.gg",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Google Cloud Plateform Instances",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "govtech-vulnerability-disclosure-programme-policy",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.gov.sg",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Domains where GovTech is the registrar",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "contentsquare-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.contentsquare.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://mobile-production.content-square.net/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://m.csqtrk.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://s.contentsquare.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Contentsquare SDK (cf : Program Description)",
+                    "type": "application"
                 }
             ],
             "out_of_scope": []
@@ -835,64 +893,6 @@
                 },
                 {
                     "identifier": "https://apps.yeswehack.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swapcard",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "chat-api.swapcard.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "developer.swapcard.com/event-admin/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "login.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "studio-api.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "app.swapcard.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "studio.swapcard.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "team.swapcard.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/swapcard/id879488719",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "img.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "t.swapcard.com",
                     "type": "api"
                 }
             ],
