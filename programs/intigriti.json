@@ -4491,6 +4491,19 @@
         },
         "domains": [
             {
+                "id": "9f1aac28-feec-443a-ba34-d6d743a6d87f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "login.internal.monzo.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "This is our connection to Okta for internal authentication. Third-parties are out of scope for our programs. "
+            },
+            {
                 "id": "fce2d8db-204f-4ecc-9c05-7f1e73eff2aa",
                 "type": {
                     "id": 7,
@@ -4566,20 +4579,7 @@
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": null
-            },
-            {
-                "id": "346b168a-70f8-4774-b3cc-86b4e23ebf6a",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "developers.monzo.com/env.js",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
+                "description": "We use a third-party, Discourse for our community forums. Third-parties are out of scope for our programs."
             }
         ]
     },
