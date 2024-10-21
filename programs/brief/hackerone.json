@@ -8164,7 +8164,7 @@
     {
         "handle": "wellsfargo",
         "bounty": 0,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
@@ -102136,6 +102136,10 @@
                     "type": "URL"
                 },
                 {
+                    "identifier": "*.wf.com",
+                    "type": "WILDCARD"
+                },
+                {
                     "identifier": "com.wellsfargo.ceomobile",
                     "type": "GOOGLE_PLAY_APP_ID"
                 },
@@ -102154,12 +102158,6 @@
                 {
                     "identifier": "http://wellsfargo.com",
                     "type": "URL"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.wf.com",
-                    "type": "WILDCARD"
                 },
                 {
                     "identifier": "http://wf.com",
@@ -102181,7 +102179,8 @@
                     "identifier": "*.wystar.com",
                     "type": "OTHER"
                 }
-            ]
+            ],
+            "out_of_scope": []
         }
     },
     {
