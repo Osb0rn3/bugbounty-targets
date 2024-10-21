@@ -21716,6 +21716,531 @@
         ]
     },
     {
+        "id": "ed04d1ef-1aa3-49dd-92f1-06f50f9756b9",
+        "handle": "truelayer",
+        "name": "TrueLayer",
+        "following": false,
+        "minBounty": {
+            "value": 75.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 6000.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/truelayer/truelayer/detail"
+        },
+        "domains": [
+            {
+                "id": "44fbf8ea-024f-43c3-9351-78e129a1401f",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Web SDK",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "https://www.npmjs.com/package/truelayer-web-sdk\n\nA lightweight web SDK for integrating Truelayer's payment services into your web application."
+            },
+            {
+                "id": "8084bdd1-0038-40ca-a2d7-f9870b4ebc2a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The majority of our API endpoints live here"
+            },
+            {
+                "id": "1e66fed8-785d-406f-8acf-5bb55a749f2c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "auth.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Our service for getting OAuth access tokens to access our APIs"
+            },
+            {
+                "id": "a70dd5d3-3784-46c2-b9e8-fb12974579ea",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "login-api.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "898936f0-8b3d-4ab6-9a72-a76e5e11b9ef",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "login.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Where you can connect your bank account and use Open Banking to pull data such as transactions"
+            },
+            {
+                "id": "e6059b46-ca0d-479a-9fa7-bcff892856f8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "onboarding-api.truelayer.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Used in the developer console"
+            },
+            {
+                "id": "023618d2-8342-4af1-b0b4-b0051ccef2de",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "pay-api.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "03968ede-b94d-426b-8a99-dc9893b8e05a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "pay.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Some of our older payment API endpoints live here rather than on api.truelayer.com"
+            },
+            {
+                "id": "c037271c-5fa6-473d-8563-9a2a2ddbb75e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "paydirect.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Some of our older payment API endpoints live here rather than on api.truelayer.com"
+            },
+            {
+                "id": "972686fd-54e9-4424-bc67-c201df074c48",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "payment.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Our hosted payments page for merchants that want us to manage the UI screens for making payments"
+            },
+            {
+                "id": "db944042-d87b-4600-97c6-5a95a89889a9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "payouts.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Our Payouts API"
+            },
+            {
+                "id": "1a1628d2-73a3-4853-ab25-20db8701bbfc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "users-api.truelayer.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Internal service for managing users"
+            },
+            {
+                "id": "16a1c955-37bb-4566-a52d-06c9b3931c1d",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "C# SDK",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "https://github.com/TrueLayer/truelayer-dotnet"
+            },
+            {
+                "id": "8803c160-7cad-4fd1-a6e8-48d4bf3dcd92",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "console-backend.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "e44627b5-2a8b-4c92-a43d-a5a67caf438d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "console.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our developer console where you can login, create applications, manage your OAuth client ID/secret, upload public keys for request signing, view transactions"
+            },
+            {
+                "id": "ba5af7ad-55c2-49df-b7bf-699b64f578e3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "hpp.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "29d4eb16-9f4f-464d-aa31-bcedadbdae99",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Java SDK",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "https://github.com/TrueLayer/truelayer-java"
+            },
+            {
+                "id": "7dfacbe4-920e-4a54-98c2-4882573d5ace",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "PHP SDK",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "https://github.com/TrueLayer/truelayer-php"
+            },
+            {
+                "id": "daeccb18-34be-4fbe-bed6-8bfa36b131c9",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "TrueLayer for Magento (Magento plugin)",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "https://github.com/TrueLayer/magento2"
+            },
+            {
+                "id": "60da33b2-4b67-4964-9049-0cfc41b99079",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "TrueLayer for WooCommerce (WordPress plugin)",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "https://wordpress.org/plugins/truelayer-for-woocommerce/ is our WordPress plugin allowing you to use TrueLayer as a checkout option in your WooCommerce store. The source code is also [available on GitHub](https://github.com/TrueLayer/truelayer-woocommerce)."
+            },
+            {
+                "id": "fb218f67-49cb-45ee-be21-5b0d666d3688",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "truelayer-signing",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "https://github.com/TrueLayer/truelayer-signing is our open source library for generating signed requests for calling TrueLayer APIs. Many languages are supported including Rust, C#, NodeJS, Go, Java and PHP."
+            },
+            {
+                "id": "ca738126-43be-4564-9f7b-864db78e60c6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "webhooks.truelayer[-sandbox].com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "cb4ead11-dc05-46ff-a689-6b6433a13f19",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.truelayer.cloud",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "ef1ebeb4-6b06-4695-8829-80a18703e782",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.truelayer.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "0c272f60-99b5-4ebc-8bdc-218b07eef1a2",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.truelayer.io",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "dcd46293-8280-4239-9ac0-ac4d590b84dc",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "iOS SDK",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "https://github.com/TrueLayer/TrueLayer-iOS-SDK"
+            },
+            {
+                "id": "3962ef5d-2213-4f6a-bf59-fda64d5f55ca",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "React Native SDK",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "https://github.com/TrueLayer/truelayer-react-native-sdk"
+            },
+            {
+                "id": "977bf245-0209-4d4c-a187-7f5f4f27d807",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Rust SDK",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "https://github.com/TrueLayer/truelayer-rust\n\nCurrently we are not paying bounties for this asset as it's still in alpha."
+            },
+            {
+                "id": "b629905d-26d4-4ff7-abdf-eed80d293293",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "banks.truelayer.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "8dbf3046-de77-4985-a105-a89ba28c53c9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "careers.truelayer.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "a4589848-c8b3-4456-b532-7eb3ac6d2973",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "docs.truelayer.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "33a85754-8567-427a-bdf9-50dccb2e2053",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://truelayer.com/contact/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "4b52c042-3dfc-48dd-9139-5e44943c3802",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "index.truelayer.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "c13085de-be89-4772-add7-cde48bd8a4ec",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "info.truelayer.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "40c64f4b-bf17-4d79-946c-7b5e039fb796",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "signin.truelayer.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "a085034d-f9da-434b-bccc-26a6fd9a3956",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "statuspage.truelayer.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "0d831430-7dc4-44d4-9f66-178026698e21",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "support.truelayer.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "b1964ec9-c1d1-402c-b1fe-49fc0b7f863b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "truelayer.zendesk.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
         "id": "ee2612e7-e188-492f-9bb2-ba48651523de",
         "handle": "intergamma",
         "name": "Intergamma",
