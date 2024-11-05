@@ -6168,10 +6168,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://github.com/digitalocean/go-nbd",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.digitalocean.com",
                     "type": "Wildcard"
                 },
@@ -6240,6 +6236,10 @@
                     "type": "Other"
                 },
                 {
+                    "identifier": "https://github.com/digitalocean/go-nbd",
+                    "type": "Url"
+                },
+                {
                     "identifier": "https://github.com/digitalocean/terraform-provider-digitalocean",
                     "type": "Other"
                 },
@@ -6257,6 +6257,10 @@
                 }
             ],
             "out_of_scope": [
+                {
+                    "identifier": "*.paperspace.com/",
+                    "type": "Wildcard"
+                },
                 {
                     "identifier": "*.db.ondigitalocean.com",
                     "type": "Wildcard"
