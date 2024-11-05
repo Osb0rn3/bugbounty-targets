@@ -1,35 +1,111 @@
 [
     {
-        "handle": "toom-baumarkt-gmbh-bug-bounty-program",
+        "handle": "deezer-bug-bounty-program-2019",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://toom.de",
+                    "identifier": "www.deezer.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://api.toom.de",
+                    "identifier": "connect.deezer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.deezer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.deezer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Android Deezer App",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "iOS Deezer App",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "zen.deezer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "wellbeing.deezer.com",
                     "type": "api"
+                },
+                {
+                    "identifier": "wellbeing.dzcdn.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Android Zen App",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "iOS Zen App",
+                    "type": "mobile-application-ios"
                 }
             ],
             "out_of_scope": []
         }
     },
     {
-        "handle": "dojo",
-        "bounty": 0,
+        "handle": "withings-public-program",
+        "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-36",
+                    "identifier": "https://wbsapi.withings.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://healthmate.withings.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/Halloween-Special---Spooky-Party-Invitation",
+                    "identifier": "https://account.withings.com",
                     "type": "web-application"
+                },
+                {
+                    "identifier": "https://app.withings.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://developer.withings.com/dashboard/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://scalews.withings.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Body Scan scale",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Body Comp scale",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch Light",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch 2",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch Nova",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -84,6 +160,42 @@
                 {
                     "identifier": "Google Cloud Plateform Instances",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "toom-baumarkt-gmbh-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://toom.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://api.toom.de",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dojo",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-36",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/Halloween-Special---Spooky-Party-Invitation",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -384,64 +496,6 @@
                 {
                     "identifier": "https://retail-api.otto.de",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "withings-public-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://wbsapi.withings.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://healthmate.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://account.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://app.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://developer.withings.com/dashboard/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://scalews.withings.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Body Scan scale",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Body Comp scale",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch Light",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch 2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch Nova",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -1018,60 +1072,6 @@
                 {
                     "identifier": "t.swapcard.com",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "deezer-bug-bounty-program-2019",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "connect.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Android Deezer App",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "iOS Deezer App",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "zen.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "wellbeing.deezer.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "wellbeing.dzcdn.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Android Zen App",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "iOS Zen App",
-                    "type": "mobile-application-ios"
                 }
             ],
             "out_of_scope": []
