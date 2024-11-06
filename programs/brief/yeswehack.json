@@ -1,5 +1,133 @@
 [
     {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "owncloud-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://owncloud.org/install/#install-clients",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.owncloud.android",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/app/id1359583808",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/customgroups",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/guests",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/richdocuments",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/notifications",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/core",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/gallery",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/ocis",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/user_ldap",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/oauth2",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/activity",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/updater",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/core/tree/master/apps/files",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/ios-app",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "dojo",
         "bounty": 0,
         "active": 1,
@@ -264,52 +392,6 @@
                 {
                     "identifier": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
                     "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -2268,88 +2350,6 @@
                 {
                     "identifier": "api-js.datadome.co",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "owncloud-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://owncloud.org/install/#install-clients",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.owncloud.android",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/app/id1359583808",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/customgroups",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/guests",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/richdocuments",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/notifications",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/core",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/gallery",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/ocis",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/user_ldap",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/oauth2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/activity",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/updater",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/core/tree/master/apps/files",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/ios-app",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
