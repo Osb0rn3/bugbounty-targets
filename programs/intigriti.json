@@ -3411,6 +3411,32 @@
         },
         "domains": [
             {
+                "id": "e583eaa7-3e31-4457-a279-6a1958f2e40b",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "All other Web and mobile APPs owned by SBB ",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "8edfc43e-e53f-421e-b410-d79e1794a885",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "All other SBB owned IT assets",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
                 "id": "2bf8e577-bcf6-44bf-99d7-7080269ca0da",
                 "type": {
                     "id": 6,
@@ -3421,20 +3447,20 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "**SBB Mobile** - your personal travel companion for public transport.\n\n[SBB Mobile IOS](https://apps.apple.com/us/app/sbb-mobile/id294855237)\n[SBB Mobile Android](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c&feature=search_result&hl=en)\n\n**SBB Preview** - [always be among the first to test the latest features.](https://www.sbb.ch/en/travel-information/apps/sbb-preview.html)\n[SBB Preview IOS](https://apps.apple.com/us/app/sbb-preview/id1074833098)\n[SBB Preview Android](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.preview)\n\nPlease find more details about the apps in the\n[FAQ for SBB Mobile and SBB Preview](https://www.sbb.ch/en/help-and-contact/products-services/apps/sbb-mobile-sbb-preview/sbb-mobile-app.html)"
+                "description": "**SBB Mobile** - your personal travel companion for public transport.\n[SBB Mobile IOS](https://apps.apple.com/us/app/sbb-mobile/id294855237) | [SBB Mobile Android](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c&feature=search_result&hl=en)\n\n**SBB Preview** - [always be among the first to test the latest features.](https://www.sbb.ch/en/travel-information/apps/sbb-preview.html)\n[SBB Preview IOS](https://apps.apple.com/us/app/sbb-preview/id1074833098) | [SBB Preview Android](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.preview)\n\n**Backend URLs**\n*.sbbmobile.ch\n\nPlease find more details about the apps in the\n[FAQ for SBB Mobile and SBB Preview](https://www.sbb.ch/en/help-and-contact/products-services/apps/sbb-mobile-sbb-preview/sbb-mobile-app.html)"
             },
             {
                 "id": "10842b08-4b1c-4033-b916-f952a7d12db4",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "login.swisspass.ch",
+                "endpoint": "*.swisspass.ch",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "SwissPass is the key to mobility in Switzerland.\n\nWith SwissPass customers can manage their travelcard details easily and use the partner services."
+                "description": "[Swisspass](https://www.swisspass.ch/home?lang=en) is the key to mobility in Switzerland.\n\nWith SwissPass customers can manage their travelcard details easily and use the partner services."
             },
             {
                 "id": "d9dcdcf6-df4a-4b78-bd35-a1b620eac606",
@@ -3443,19 +3469,6 @@
                     "value": "Url"
                 },
                 "endpoint": "www.sbb.ch",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
-                "id": "e4808037-bd50-4ce8-91fd-9a30d7d6bf12",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.swisspass.ch",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
@@ -3476,32 +3489,6 @@
                 "description": null
             },
             {
-                "id": "5ab7c909-445f-444e-9529-f6884bab503b",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.sbbmobile.ch",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "d03506a8-5587-49b8-bebf-d345ea4a9539",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.swisspass.ch",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
                 "id": "eb41e50f-f2ba-4d69-b9cb-efadaaa4d01c",
                 "type": {
                     "id": 6,
@@ -3512,7 +3499,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "**SBB Freesurf** - browse the web for free on the train.\n\n[SBB Freesurf IOS](https://apps.apple.com/us/app/sbb-freesurf/id1437409619)\n[SBB Freesurf Android](https://play.google.com/store/search?q=freesurf&c=apps&hl=en)\n\n**SBB GO** - as a study paricipant, you can record your customer journey with the SBB go app and evaluate SBB Touchpoints along your journey.\n[SBB GO IOS](https://apps.apple.com/ch/app/sbb-go/id1224135762)\n[SBB GO Android](https://play.google.com/store/apps/details?id=ch.sbb.kd.kom.sbbgo)\n\n**SBB Inclusive** - provides visual and digital customer information in stations and on SBB long-distance services\n[SBB Inclusive IOS](https://apps.apple.com/ch/app/sbb-inclusive/id1495023290)\n[SBB Inclusive Android](https://play.google.com/store/apps/details?id=ch.sbb.inclusive&hl=en)"
+                "description": "**SBB Freesurf** - browse the web for free on the train.\n[SBB Freesurf IOS](https://apps.apple.com/us/app/sbb-freesurf/id1437409619) |  [SBB Freesurf Android](https://play.google.com/store/search?q=freesurf&c=apps&hl=en)\n\n**SBB GO** - as a study paricipant, you can record your customer journey with the SBB go app and evaluate SBB Touchpoints along your journey.\n[SBB GO IOS](https://apps.apple.com/ch/app/sbb-go/id1224135762) | [SBB GO Android](https://play.google.com/store/apps/details?id=ch.sbb.kd.kom.sbbgo)\n\n**SBB Inclusive** - provides visual and digital customer information in stations and on SBB long-distance services\n[SBB Inclusive IOS](https://apps.apple.com/ch/app/sbb-inclusive/id1495023290) | [SBB Inclusive Android](https://play.google.com/store/apps/details?id=ch.sbb.inclusive&hl=en)\n\n**SBB P-Rail**  - [your parking space at the station](https://www.sbb.ch/en/tickets-offers/private-transport/car-parking/park-and-rail.html)\n[P+Rail IOS:](https://apps.apple.com/us/app/p-rail/id1355008152) | [P+Rail Android:](https://play.google.com/store/apps/details?id=ch.sbb.prail2&hl=en_US&gl=US&pli=1=)"
             },
             {
                 "id": "ba0f85d9-a2dc-4a24-8362-c7e9265cbb38",
@@ -10148,6 +10135,310 @@
                     "value": "Out Of Scope"
                 },
                 "description": "Test environment for PDQ Detect"
+            }
+        ]
+    },
+    {
+        "id": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "handle": "intigriti",
+        "name": "intigriti",
+        "following": false,
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 13337.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/intigriti/intigriti/detail"
+        },
+        "domains": [
+            {
+                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*pwn.intigriti.rocks",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our test (PWN) environment that replicates production."
+            },
+            {
+                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.intigriti.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "This is our marketing website."
+            },
+            {
+                "id": "298eb5f8-0c59-46d6-8529-aeea5e7ab727",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intigriti.io",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "a29fdcc7-4ade-4e1a-b9d4-7bba9b94faac",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intigriti.me",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "026d6adb-3412-477c-9692-b660960f702e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intigriti.net",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "22537fac-2bc7-4fba-b2f1-a4ac0585e4af",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "any intigriti CTF or challenge",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "e892c9e9-9d1e-4658-8ee3-4777295df1be",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.intercom.io",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "d0a506a3-58c5-4d0b-86f5-9ba6ee6d2060",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "autodiscover.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "f738ef2e-a1f4-4d3d-bdcc-3c2208b95cb0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "blog.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "a623524c-a5f2-4ef9-8bf3-44e533f0d0b2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "careers.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "4bc8b1d6-339d-4431-b4ba-956c23ecd7bd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "click.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "ce98ec7c-ac3a-41da-a8da-7f0b943716c3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "go.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "55071818-be20-4439-8832-e81aa2913931",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "kb.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "d7afb2b5-89f6-46bf-a63a-678a02acfb2e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mail.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "b4341689-1423-4952-a64c-d3f10a6ae638",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "newsletter.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "0a81612d-597e-4efd-9ca1-0f0c90321c90",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "our hubspot pages (/hs-fs/, /hubfs/, /hs/, /_hcms/, landing/, report/, webinar/, /datasheet, /customer/, /video/...)",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "0b7600f0-6e71-4858-bc29-c1162695316f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "status.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "5d600efe-5b44-421f-8da5-efa35069674c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "swag.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "515153e8-8831-42e8-a397-656bfb022254",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "t.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "cb79b1eb-d9dd-4525-99af-3147023c00ea",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "trust.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "bc55f7b1-7179-4c95-bc6f-b9d3fba43141",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "welcome.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
             }
         ]
     },

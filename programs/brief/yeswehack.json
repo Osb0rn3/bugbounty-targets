@@ -1,91 +1,53 @@
 [
     {
-        "handle": "doctolib-public-bug-bounty-program",
+        "handle": "bug-bounty-program-blablacar",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "www.doctolib.(fr|de|it)",
+                    "identifier": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua))",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                    "identifier": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "Special scenarios (see description)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.doctolib.(fr|de|it|com|net)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                    "identifier": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
                     "type": "mobile-application-android"
                 },
                 {
-                    "identifier": "*.siilo.com",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                    "identifier": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
                     "type": "mobile-application-ios"
                 },
                 {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                    "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
+                    "identifier": "https://api.blablalines.com",
+                    "type": "api"
                 },
                 {
-                    "identifier": "https://account.post.ch",
+                    "identifier": "https://daily.blablacar.fr",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://shop.post.ch/shop",
+                    "identifier": "https://blablacardaily.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "identifier": "https://play.google.com/store/apps/details?id=com.blablalines",
                     "type": "mobile-application-android"
                 },
                 {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "identifier": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
                     "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -187,6 +149,120 @@
                 },
                 {
                     "identifier": "https://emistores.pinelabs.com/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "okto-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.okto.tech",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "doctolib-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.doctolib.(fr|de|it)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Special scenarios (see description)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.doctolib.(fr|de|it|com|net)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.siilo.com",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
                     "type": "web-application"
                 }
             ],
@@ -800,60 +876,6 @@
         }
     },
     {
-        "handle": "bug-bounty-program-blablacar",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua))",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://api.blablalines.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://daily.blablacar.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://blablacardaily.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.blablalines",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
-                    "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "telenor-sweden-public-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1246,28 +1268,6 @@
                 {
                     "identifier": ".eziot.com",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "okto-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "*.okto.tech",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
