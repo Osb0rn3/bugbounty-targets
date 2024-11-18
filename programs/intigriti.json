@@ -22722,6 +22722,19 @@
         },
         "domains": [
             {
+                "id": "0844ae64-9f23-497d-97c2-a07bdd6fd2ad",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Everything related to configurators, both on primary as other domains",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Temporary catch-all exclusion because of security maintenance and fixing of known issues"
+            },
+            {
                 "id": "8c2dd3f6-51dd-4d18-81bf-922238cb21ff",
                 "type": {
                     "id": 3,
@@ -22943,6 +22956,19 @@
                 "description": "**Out of scope: mail.gamma.nl**\n\n\nThis covers all subdomains of gamma.nl not listed in Tier 1"
             },
             {
+                "id": "8f35998b-0e21-404a-b724-1b3a08d0e68d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intergamma.cloud",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
                 "id": "f6694b18-83df-4080-9d20-f1db9042d60c",
                 "type": {
                     "id": 7,
@@ -22969,6 +22995,19 @@
                 "description": "**Out of scope: mail.karwei.nl**\n\n**api.maakafspraak.karwei.nl and maakafspraak.karwei.nl are listed seperately**\n\nThis covers all subdomains of Karwei.nl not listed in Tier 1"
             },
             {
+                "id": "80901414-c005-46bf-8875-bf146b9b8cbe",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.restintergamma.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
                 "id": "21dd6973-6ed4-4714-a829-cae866757272",
                 "type": {
                     "id": 3,
@@ -22991,32 +23030,6 @@
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
-                },
-                "description": null
-            },
-            {
-                "id": "8f35998b-0e21-404a-b724-1b3a08d0e68d",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.intergamma.cloud",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "80901414-c005-46bf-8875-bf146b9b8cbe",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.restintergamma.nl",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
                 },
                 "description": null
             },
@@ -23060,6 +23073,19 @@
                 "description": "Recruiting website"
             },
             {
+                "id": "b4873469-3ab1-4e8e-b9ec-1940e4b7bd43",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.karweioutletstore.nl",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
                 "id": "3fe93fe7-a253-44c3-a2d8-07bc17d2ae95",
                 "type": {
                     "id": 2,
@@ -23073,15 +23099,15 @@
                 "description": "Our brand new Android app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the iOS version"
             },
             {
-                "id": "b4873469-3ab1-4e8e-b9ec-1940e4b7bd43",
+                "id": "66c79f1b-c08d-4534-ba55-e329afaa1c32",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.karweioutletstore.nl",
+                "endpoint": "*.configuratoren.nl/*",
                 "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null
             },
@@ -23136,6 +23162,45 @@
                     "value": "Out Of Scope"
                 },
                 "description": null
+            },
+            {
+                "id": "acca49b0-6ee6-4159-a244-431c1aa4abbb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "horrenconfigurator-fr.gamma.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Third party hosted application"
+            },
+            {
+                "id": "8e8ffa1f-e3d3-4644-8e40-9e7f23a48ca3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "horrenconfigurator-nl.gamma.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Third party hosted application"
+            },
+            {
+                "id": "10e13b35-c567-4309-9508-fb397cf6e28c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "horrenconfigurator.karwei.nl",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Third party hosted application"
             },
             {
                 "id": "d0a06828-eefb-4edd-a288-bb487c967eea",
