@@ -21043,6 +21043,245 @@
         ]
     },
     {
+        "id": "ea1c246f-7818-4703-b208-9e86e1bd8554",
+        "handle": "wolt",
+        "name": "Wolt",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/wolt/wolt/detail"
+        },
+        "domains": [
+            {
+                "id": "c8f7f362-bf9a-4aed-8b0b-83bc5dbf5491",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "authentication.wolt.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "#### Keywords: OAuth2, OIDC, JWT\n- Used by: Regular wolt.com users, Wolt employees, other services (service-to-service communication).\n- Handles the vast majority of our authN/authZ. In other words, JWTs signed by this service can grant you access to other services/APIs.\n- Your JWT as a regular wolt.com user comes from this service."
+            },
+            {
+                "id": "662c4a63-32a3-4b7b-81cb-66930c2e97b7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "wolt.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "- Used by: Everybody.\n- Our main web page.\n- Notable use-cases: Offering an in-browser JavaScript app to interact with other APIs and services. Offering HTTP endpoints to interact with this service's own APIs."
+            },
+            {
+                "id": "953bee20-3c08-412c-a3d2-5b9a3b0a5b3c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "corporate.wolt.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "#### Keywords: admin\n- Used by: Wolt employees, corporate customers.\n- Admin portal for Wolt's corporate customers.\n- Your JWT as a regular wolt.com user should grant you limited access."
+            },
+            {
+                "id": "53753c72-8d14-420d-a28f-b69df030d030",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "drive.wolt.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "#### Keywords: admin\n- Used by: Wolt employees, delivery partners.\n- Admin portal for Wolt's last-mile delivery partners.\n- Your JWT as a regular wolt.com user should grant you limited access.\n"
+            },
+            {
+                "id": "becf43e7-9abb-4278-8bbd-87c95ed1e4bd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "merchant.wolt.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "#### Keywords: admin\n- Used by: Wolt employees, store managers.\n- Portal for store managers to update menus.\n- Your JWT as a regular wolt.com user should grant you limited access."
+            },
+            {
+                "id": "af675887-0bd9-4a7c-a628-179d405cf905",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ops.wolt.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "#### Keywords: admin\n- Used by: Wolt employees.\n- This service's endpoints are only accessible by Wolt employees (if you can show otherwise, that\u2019ll be **very** interesting). However, your tainted data (e.g., purchase info, profile info) may be processed by this service."
+            },
+            {
+                "id": "6cf87f9b-f00f-4cbd-abd5-2dbfdeb1ca16",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "restaurant-api.wolt.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "- Used by: Regular wolt.com users, Wolt employees, corporate customers, delivery partners, store managers.\n- Notable use-cases: Creating and editing users, placing orders, tracking orders, setting prices.\n- Your JWT as a regular wolt.com user should grant you access to most functionality for your user type.\n"
+            },
+            {
+                "id": "56186309-bdd3-4d67-bb9b-d76bc1b0f545",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.wolt.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "- Anything else under the `.wolt.com` domain is fair game. EXCEPTIONS:\n  - `press.wolt.com`. This is a third-party SaaS and we aren't authorized to test it.\n  - `blog.wolt.com`. This is a third-party SaaS (wpengine.com).  wpengine.com owns the infrastructure, but we maintain the WordPress installation. Only WordPress-level probes are allowed.\n- Depending on the affected service and finding type, we might bump this to `Tier 1` bounties."
+            },
+            {
+                "id": "56f9c4a0-ddc5-42e0-ab11-bf16f376689a",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "1477299281",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "#### Keywords: iOS\n- Used by: Wolt couriers.\n- Notable use-cases: Receiving delivery requests, tracking orders, completing deliveries, modifying your profile info.\n- For the time being we don't provide accounts of the `courier` type.\n- It would be *very* interesting if you can interact with the courier APIs without actually having a courier account."
+            },
+            {
+                "id": "661c2bb6-b53b-40a4-99b0-76d32cda39e3",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "943905271",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "#### Keywords: iOS\n- Used by: Wolt customers.\n- Notable use-cases: Regular wolt.com account creation, placing orders, tracking your orders, modifying your profile info."
+            },
+            {
+                "id": "62f16333-7c09-43f4-a8c1-203e203f4b1a",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "com.wolt.android",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "#### Keywords: Android\n- Used by: Wolt customers.\n- Notable use-cases: Regular wolt.com account creation, placing orders, tracking your orders, modifying your profile info."
+            },
+            {
+                "id": "d56105d3-c44d-45d4-ac25-bafe63b9f3e7",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "com.wolt.courierapp",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "#### Keywords: Android\n- Used by: Wolt couriers.\n- Notable use-cases: Receiving delivery requests, tracking orders, completing deliveries, modifying your profile info.\n- For the time being we don't provide accounts of the `courier` type.\n- It would be *very* interesting if you can interact with the courier APIs without actually having a courier account."
+            },
+            {
+                "id": "3f40bc4e-dde0-4d9c-87ad-3aee927cc0b5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "blog.wolt.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "#### Keywords: Third-party SaaS, WordPress\n- Used by: Wolt employees.\n- WordPress blog hosted by wpengine.com.\n- wpengine.com owns the infrastructure, but we maintain the WordPress installation.\n- **Note:** Only WordPress-level probes are allowed."
+            },
+            {
+                "id": "9354e76b-21b0-48fc-87c2-6150a2d4f7cd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "gettest.wolt.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Low severity issues affecting gettest.wolt.com"
+            },
+            {
+                "id": "8a513881-ca26-4eeb-a85a-cf04269e1173",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "press.wolt.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "This is a third-party SaaS and we aren't authorized to test it."
+            },
+            {
+                "id": "1c59e1c5-38be-44f9-b175-4d3a82f783c8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "wolt.atlassian.net",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
         "id": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
         "handle": "ubisoftvdp",
         "name": "Ubisoft VDP",
