@@ -8321,6 +8321,63 @@
         ]
     },
     {
+        "id": "554fc6c5-4ffa-4682-a3ba-7e86696e9b17",
+        "handle": "aikido",
+        "name": "Aikido Security: Bug Bounty Program",
+        "following": false,
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2500.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/aikido/aikido/detail"
+        },
+        "domains": [
+            {
+                "id": "18e9ba43-e741-48fe-984a-fcd011ce0042",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.aikido.dev",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "9e581344-45a7-4de5-95ee-347435b8d4ad",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.aikido.dev",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our main application, which hosts the API as well as the front-end application.\n\nOur public API is also accessible via this host. Documentation is available here: https://apidocs.aikido.dev/."
+            }
+        ]
+    },
+    {
         "id": "56339d19-36cc-49a0-8e8f-b2502e00d165",
         "handle": "moralisio",
         "name": "Moralis VDP",
@@ -14905,6 +14962,115 @@
         ]
     },
     {
+        "id": "ac81c127-b11b-469e-8060-e0fbb9c9c398",
+        "handle": "aikidoruntime",
+        "name": "Aikido Security: Zen by Aikido ",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/aikido/aikidoruntime/detail"
+        },
+        "domains": [
+            {
+                "id": "7f5c7791-5258-4d6b-abbc-69d7660e2da8",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-node#Vulnerability",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Tier 1 is for vulnerabilities which we potentially introduce via our own firewall component in the user's application.\n\nSee Severity Assessment for more information."
+            },
+            {
+                "id": "ead0a79d-292e-4849-b1fa-826d5de58507",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-python#Vulnerability",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "9e925b9e-bf10-49ae-9db5-279ea5e120a5",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-node#Detection Bypass",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Tier 2 is for bypasses in the vulnerability detection of the firewall component, such as a bypass of our SQL injection detection.\n\nSee Severity Assessment for more information."
+            },
+            {
+                "id": "6984a6b6-99e5-495d-b4f0-ffeed17bbe2c",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-python#Detection Bypass",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "c95bbdf7-3a0d-4533-891a-b1d300eb7f57",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-node#False Positive",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Tier 3 is for any false positives you encounter with our vulnerability detection. For example, cases where we falsely flag a SQL injection, while the user's input is safely encapsulated in the SQL query.\n\nSeverity assessments are slightly harder for these cases, see \"Severity Assessment\" for more information."
+            },
+            {
+                "id": "33854946-b649-445f-a2f4-53995e307319",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-python#False Positive",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
         "id": "acb142c1-ffeb-41c3-a9e7-1624054f42e4",
         "handle": "veriffbugbounty",
         "name": "Veriff Bug Bounty",
@@ -16553,8 +16719,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -16974,8 +17140,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
