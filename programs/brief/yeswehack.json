@@ -1,5 +1,415 @@
 [
     {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "teamviewer-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.teamviewer.com/en/products/teamviewer/",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://web.teamviewer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://account.teamviewer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://login.teamviewer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
+                    "type": "mobile-application-ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "datadome-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://app.datadome.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://customer-api.datadome.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.datadome.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-js.datadome.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://*.captcha-delivery.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://auth.datadome.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://datadome.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://bot-tester.datadome.co/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "datadome-bot-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bounty-nodejs.datashield.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://bounty-fastly.datashield.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://bounty-nginx.datashield.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.captcha-delivery.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "js.datadome.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api-js.datadome.co",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "owncloud-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://owncloud.org/install/#install-clients",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.owncloud.android",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/app/id1359583808",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/customgroups",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/guests",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/richdocuments",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/notifications",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/core",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/gallery",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/ocis",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/user_ldap",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/oauth2",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/activity",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/updater",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/core/tree/master/apps/files",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/ios-app",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dailymotion-public-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.api.dailymotion.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "developer.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.dmcdn.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
+                    "type": "api"
+                },
+                {
+                    "identifier": "AS41690",
+                    "type": "other"
+                },
+                {
+                    "identifier": "dmxleo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dm.gg",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Google Cloud Plateform Instances",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "tchap-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.tchap.gouv.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://matrix.agent.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://matrix.agent.*.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://github.com/tchapgouv",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/tchap/id1446253779",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://www.beta.tchap.gouv.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://matrix.i.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://matrix.e.tchap.gouv.fr",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "doctolib-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.doctolib.(fr|de|it)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Special scenarios (see description)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.doctolib.(fr|de|it|com|net)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.siilo.com",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "legapass-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bounty.legapass.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "yes-we-hack",
         "bounty": 1,
         "active": 1,
@@ -90,52 +500,6 @@
         }
     },
     {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "contentsquare-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -160,74 +524,6 @@
                 {
                     "identifier": "Contentsquare SDK (cf : Program Description)",
                     "type": "application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dailymotion-public-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.api.dailymotion.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "developer.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.dmcdn.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
-                    "type": "api"
-                },
-                {
-                    "identifier": "AS41690",
-                    "type": "other"
-                },
-                {
-                    "identifier": "dmxleo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dm.gg",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Google Cloud Plateform Instances",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "legapass-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bounty.legapass.com",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -302,52 +598,6 @@
         }
     },
     {
-        "handle": "doctolib-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.doctolib.(fr|de|it)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Special scenarios (see description)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.doctolib.(fr|de|it|com|net)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "*.siilo.com",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                    "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "coindcx-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -390,52 +640,6 @@
                 {
                     "identifier": "libsoup",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "teamviewer-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.teamviewer.com/en/products/teamviewer/",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://web.teamviewer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://account.teamviewer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://login.teamviewer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
-                    "type": "mobile-application-ios"
                 }
             ],
             "out_of_scope": []
@@ -932,88 +1136,6 @@
                 {
                     "identifier": "https://vc.tasheer.com/",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "owncloud-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://owncloud.org/install/#install-clients",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.owncloud.android",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/app/id1359583808",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/customgroups",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/guests",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/richdocuments",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/notifications",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/core",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/gallery",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/ocis",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/user_ldap",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/oauth2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/activity",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/updater",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/core/tree/master/apps/files",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/ios-app",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -1624,48 +1746,6 @@
         }
     },
     {
-        "handle": "datadome-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://app.datadome.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://customer-api.datadome.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.datadome.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-js.datadome.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://*.captcha-delivery.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://auth.datadome.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://datadome.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://bot-tester.datadome.co/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "qwant",
         "bounty": 1,
         "active": 1,
@@ -1756,52 +1836,6 @@
                 {
                     "identifier": "www.ovh.com",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "tchap-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.tchap.gouv.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://matrix.agent.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://matrix.agent.*.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://github.com/tchapgouv",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/tchap/id1446253779",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://www.beta.tchap.gouv.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://matrix.i.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://matrix.e.tchap.gouv.fr",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
@@ -2060,40 +2094,6 @@
                 {
                     "identifier": "https://www.kiwai-normandie.fr/",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "datadome-bot-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bounty-nodejs.datashield.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://bounty-fastly.datashield.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://bounty-nginx.datashield.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.captcha-delivery.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "js.datadome.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api-js.datadome.co",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
