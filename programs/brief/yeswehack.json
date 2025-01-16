@@ -1,80 +1,56 @@
 [
     {
-        "handle": "swiss-post",
+        "handle": "swapcard",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
+                    "identifier": "api.swapcard.com",
+                    "type": "api"
                 },
                 {
-                    "identifier": "https://account.post.ch",
+                    "identifier": "chat-api.swapcard.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "developer.swapcard.com/event-admin/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "login.swapcard.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "studio-api.swapcard.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "app.swapcard.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://shop.post.ch/shop",
+                    "identifier": "studio.swapcard.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://service.post.ch/ekp-web/",
+                    "identifier": "team.swapcard.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "identifier": "https://apps.apple.com/fr/app/swapcard/id879488719",
                     "type": "mobile-application-ios"
                 },
                 {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dojo",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-38",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "okto-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
+                    "identifier": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
                     "type": "mobile-application-android"
                 },
                 {
-                    "identifier": "*.okto.tech",
+                    "identifier": "img.swapcard.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "t.swapcard.com",
                     "type": "api"
                 }
             ],
@@ -82,76 +58,134 @@
         }
     },
     {
-        "handle": "spacelift-io-bug-bounty-program",
+        "handle": "vfs-global-bug-bounty-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://spacelift.dev/",
+                    "identifier": "*.vfsglobal.(com|co.uk|ca)",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://*.app.spacelift.dev",
+                    "identifier": "*.vfsevisa.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "Native K8S workers and operator",
-                    "type": "application"
-                },
-                {
-                    "identifier": "OIDC-based API keys",
-                    "type": "application"
-                },
-                {
-                    "identifier": "MFA",
-                    "type": "application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "doctolib-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.doctolib.(fr|de|it)",
+                    "identifier": "*.onevasco.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                    "identifier": "*.vascoworldwide.net",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "Special scenarios (see description)",
+                    "identifier": "www.vfsvisaonline.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.doctolib.(fr|de|it|com|net)",
+                    "identifier": "www.dvpc.net",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                    "type": "mobile-application-ios"
+                    "identifier": "www.vfsvisaservicesrussia.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                    "type": "mobile-application-android"
+                    "identifier": "*.directverify.in",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "*.siilo.com",
-                    "type": "application"
+                    "identifier": "*.docswallet.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                    "type": "mobile-application-ios"
+                    "identifier": "biometservices.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                    "type": "mobile-application-android"
+                    "identifier": "agents.tasheer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/Global-Admin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://rusadminappt.vfsglobal.com/Global-Admin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://equatorialguinea-evisa.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://online.srilankaevisa.lk/lka/en/login",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://online.mustaqel.qa/qat/en/login",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vfs.mioot.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vfseu.mioot.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsvisaservice.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://indonesiavoa.vfsevisa.id/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vc.tasheer.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vfsglobal.by",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*. vfsevisa.id",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -312,6 +346,240 @@
         }
     },
     {
+        "handle": "govtech-vulnerability-disclosure-programme-policy",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.gov.sg",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Domains where GovTech is the registrar",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dojo",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-38",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "harman-international-web-applications",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.harmanaudio.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.harmankardon.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.support.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.nl",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.ru",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.uk.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.uk.harmanaudio.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.de.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.in.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jp.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.com.br",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "okto-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.okto.tech",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "spacelift-io-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://spacelift.dev/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://*.app.spacelift.dev",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Native K8S workers and operator",
+                    "type": "application"
+                },
+                {
+                    "identifier": "OIDC-based API keys",
+                    "type": "application"
+                },
+                {
+                    "identifier": "MFA",
+                    "type": "application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "doctolib-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.doctolib.(fr|de|it)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Special scenarios (see description)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.doctolib.(fr|de|it|com|net)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.siilo.com",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "coindcx-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -332,140 +600,6 @@
                 {
                     "identifier": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
                     "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "vfs-global-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.vfsglobal.(com|co.uk|ca)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vfsevisa.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.onevasco.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vascoworldwide.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.vfsvisaonline.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.dvpc.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.vfsvisaservicesrussia.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.directverify.in",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.docswallet.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "biometservices.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "agents.tasheer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/Global-Admin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://rusadminappt.vfsglobal.com/Global-Admin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://equatorialguinea-evisa.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://online.srilankaevisa.lk/lka/en/login",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://online.mustaqel.qa/qat/en/login",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vfs.mioot.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vfseu.mioot.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsvisaservice.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://indonesiavoa.vfsevisa.id/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vc.tasheer.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vfsglobal.by",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*. vfsevisa.id",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -954,64 +1088,6 @@
         }
     },
     {
-        "handle": "swapcard",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "chat-api.swapcard.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "developer.swapcard.com/event-admin/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "login.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "studio-api.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "app.swapcard.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "studio.swapcard.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "team.swapcard.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/swapcard/id879488719",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "img.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "t.swapcard.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "owncloud-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1459,82 +1535,6 @@
                 },
                 {
                     "identifier": "*.vimla.io",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "govtech-vulnerability-disclosure-programme-policy",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.gov.sg",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Domains where GovTech is the registrar",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "harman-international-web-applications",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.harmanaudio.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.harmankardon.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.support.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.nl",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.ru",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.uk.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.uk.harmanaudio.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.de.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.in.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jp.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.com.br",
                     "type": "web-application"
                 }
             ],
