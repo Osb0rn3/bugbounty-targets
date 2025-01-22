@@ -1,52 +1,186 @@
 [
     {
-        "handle": "dailymotion-public-bug-bounty",
+        "handle": "swiss-post",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.api.dailymotion.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "developer.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.dmcdn.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
-                    "type": "api"
-                },
-                {
-                    "identifier": "AS41690",
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
                     "type": "other"
                 },
                 {
-                    "identifier": "dmxleo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dm.gg",
+                    "identifier": "https://account.post.ch",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "Google Cloud Plateform Instances",
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "pine-labs-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://billingserver.pinelabs.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "dashboard.pluralonline.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://lounge.pinelabs.com/loungeui/login",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pinepgconsole.in:9099",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://paymentoptimizerdashboard.pinepg.in/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "analytics.pinelabs.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "corporate.pineperks.in",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.pineperks.in",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://myplutus.pinelabs.my/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "trm.pinepaymentsolutions.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://trm.pinelabs.ae",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.pinelabs.ae/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.letspaylater.ph/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/in/app/pineperks/id908644471",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.pinegift",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://credit.pinelabs.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.pinelabs.pinelabsone",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/in/app/pine-labs-one/id6444654068",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://one.pinelabs.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://plmcixt.pinelabs.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://emistores.pinelabs.com/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "yes-we-hack",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://yeswehack.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://api.yeswehack.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://apps.yeswehack.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.yeswehack.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "govtech-vulnerability-disclosure-programme-policy",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.gov.sg",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Domains where GovTech is the registrar",
                     "type": "other"
                 }
             ],
@@ -54,118 +188,200 @@
         }
     },
     {
-        "handle": "harman-international-public-bug-bounty",
+        "handle": "teamviewer-bounty-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Device: JBL Bar 300",
-                    "type": "other"
+                    "identifier": "https://www.teamviewer.com/en/products/teamviewer/",
+                    "type": "application"
                 },
                 {
-                    "identifier": "Device: JBL Bar 500",
-                    "type": "other"
+                    "identifier": "https://web.teamviewer.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "Device: JBL Bar 700",
-                    "type": "other"
+                    "identifier": "https://account.teamviewer.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "Device: JBL Bar 800",
-                    "type": "other"
+                    "identifier": "https://login.teamviewer.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "Device: JBL Bar 1000",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL Bar 1300",
-                    "type": "other"
-                },
-                {
-                    "identifier": "a1ttqkupgmaxeg-ats.iot.us-east-1.amazonaws.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "a1ttqkupgmaxeg-ats.iot.ap-east-1.amazonaws.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "lsaconsumerevents2.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "lsaconsumerevents3.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "lsaconsumerevents1.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "events.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ota-staging.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ota.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "apis.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "edgeapis.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "things.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "JBL Authentics 200",
-                    "type": "other"
-                },
-                {
-                    "identifier": "JBL Authentics 300",
-                    "type": "other"
-                },
-                {
-                    "identifier": "JBL Authentics 500",
-                    "type": "other"
-                },
-                {
-                    "identifier": "JBL Boombox 3 Wi-Fi",
-                    "type": "other"
-                },
-                {
-                    "identifier": "JBL Charge 5 Wi-Fi",
-                    "type": "other"
-                },
-                {
-                    "identifier": "JBL PartyBox Ultimate",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/jbl-one/id1610239857",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.jbl.oneapp&hl=fr&gl=US",
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
                     "type": "mobile-application-android"
                 },
                 {
-                    "identifier": "JBL Flip 6",
-                    "type": "other"
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
+                    "type": "mobile-application-android"
                 },
                 {
-                    "identifier": "JBL Charge 5",
-                    "type": "other"
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
+                    "type": "mobile-application-ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "infomaniak-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.kdrive.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.infomaniak.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "login.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "manager.infomaniak.com/v3/*",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "shop.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.kchat.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "calendar.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "contacts.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "etickets.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "mail.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "swiss-backup*.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "vod.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vod2.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "player-radio.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "welcome.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.swisstransfer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "chk.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ai-tools.infomaniak.com",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "kmeet.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "kpaste.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "sync.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "storage*.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ix2smbdyjt.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "5k8vrbdyje.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "fv3lfbdyjh.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "l75pvbdyjo.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "infomaniak.events",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "sms.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "developer.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "invitation.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://github.com/Infomaniak/desktop-kDrive",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
+                    "type": "mobile-application-android"
                 }
             ],
             "out_of_scope": []
@@ -306,17 +522,53 @@
         }
     },
     {
-        "handle": "govtech-vulnerability-disclosure-programme-policy",
-        "bounty": 0,
+        "handle": "dailymotion-public-bug-bounty",
+        "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.gov.sg",
+                    "identifier": "*.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.api.dailymotion.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "developer.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.dmcdn.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
+                    "type": "api"
+                },
+                {
+                    "identifier": "AS41690",
                     "type": "other"
                 },
                 {
-                    "identifier": "Domains where GovTech is the registrar",
+                    "identifier": "dmxleo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dm.gg",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Google Cloud Plateform Instances",
                     "type": "other"
                 }
             ],
@@ -404,6 +656,332 @@
                 {
                     "identifier": "www.chaire-arpenter.fr",
                     "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "systemd-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "systemd (the manager itself)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-boot",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-stub",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-udev",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-journald",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-logind",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-networkd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "libsystemd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-timesyncd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-hostnamed",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-resolved",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-cryptenroll",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-cryptsetup",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-veritysetup",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-fstab-generator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-gpt-auto-generator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-ask-password",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "telenor-sweden-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.telenor.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.bredbandsbolaget.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.europolitan.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ownit.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.work",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.io",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "doctolib-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.doctolib.(fr|de|it)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Special scenarios (see description)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.doctolib.(fr|de|it|com|net)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.siilo.com",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "maya-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.paymaya",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/am/app/maya-your-all-in-one-money-app/id991673877",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://appgallery.huawei.com/app/C101186357",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "https://api.paymaya.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://pg.paymaya.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://payoutapi.maya.ph/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://op.paymaya.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://connect.paymaya.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://paymayabiller-prod.paymaya.com/",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "harman-international-public-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Device: JBL Bar 300",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Bar 500",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Bar 700",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Bar 800",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Bar 1000",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Bar 1300",
+                    "type": "other"
+                },
+                {
+                    "identifier": "a1ttqkupgmaxeg-ats.iot.us-east-1.amazonaws.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "a1ttqkupgmaxeg-ats.iot.ap-east-1.amazonaws.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "lsaconsumerevents2.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "lsaconsumerevents3.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "lsaconsumerevents1.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "events.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ota-staging.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ota.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "apis.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "edgeapis.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "things.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "JBL Authentics 200",
+                    "type": "other"
+                },
+                {
+                    "identifier": "JBL Authentics 300",
+                    "type": "other"
+                },
+                {
+                    "identifier": "JBL Authentics 500",
+                    "type": "other"
+                },
+                {
+                    "identifier": "JBL Boombox 3 Wi-Fi",
+                    "type": "other"
+                },
+                {
+                    "identifier": "JBL Charge 5 Wi-Fi",
+                    "type": "other"
+                },
+                {
+                    "identifier": "JBL PartyBox Ultimate",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/jbl-one/id1610239857",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.jbl.oneapp&hl=fr&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "JBL Flip 6",
+                    "type": "other"
+                },
+                {
+                    "identifier": "JBL Charge 5",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -576,206 +1154,6 @@
         }
     },
     {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "infomaniak-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.kdrive.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.infomaniak.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "login.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "manager.infomaniak.com/v3/*",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "shop.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.kchat.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "calendar.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "contacts.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "etickets.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "mail.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "swiss-backup*.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "vod.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vod2.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "player-radio.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "welcome.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.swisstransfer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "chk.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ai-tools.infomaniak.com",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "kmeet.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "kpaste.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "sync.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "storage*.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ix2smbdyjt.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "5k8vrbdyje.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "fv3lfbdyjh.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "l75pvbdyjo.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "infomaniak.events",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "sms.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "developer.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "invitation.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://github.com/Infomaniak/desktop-kDrive",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
-                    "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "spacelift-io-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -826,52 +1204,6 @@
                 {
                     "identifier": "https://www.sncf-connect.com/bff",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "doctolib-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.doctolib.(fr|de|it)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Special scenarios (see description)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.doctolib.(fr|de|it|com|net)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "*.siilo.com",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                    "type": "mobile-application-android"
                 }
             ],
             "out_of_scope": []
@@ -1084,44 +1416,6 @@
         }
     },
     {
-        "handle": "telenor-sweden-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.telenor.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.bredbandsbolaget.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.europolitan.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.ownit.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.work",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.io",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "toom-baumarkt-gmbh-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1184,104 +1478,6 @@
                 {
                     "identifier": "Specific scenarios (see program description)",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "pine-labs-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://billingserver.pinelabs.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "dashboard.pluralonline.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://lounge.pinelabs.com/loungeui/login",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pinepgconsole.in:9099",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://paymentoptimizerdashboard.pinepg.in/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "analytics.pinelabs.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "corporate.pineperks.in",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.pineperks.in",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://myplutus.pinelabs.my/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "trm.pinepaymentsolutions.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://trm.pinelabs.ae",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.pinelabs.ae/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.letspaylater.ph/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/in/app/pineperks/id908644471",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.pinegift",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://credit.pinelabs.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.pinelabs.pinelabsone",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/in/app/pine-labs-one/id6444654068",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://one.pinelabs.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://plmcixt.pinelabs.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://emistores.pinelabs.com/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -1382,52 +1578,6 @@
                 {
                     "identifier": "pipe.deezer.com",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "teamviewer-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.teamviewer.com/en/products/teamviewer/",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://web.teamviewer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://account.teamviewer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://login.teamviewer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
-                    "type": "mobile-application-ios"
                 }
             ],
             "out_of_scope": []
@@ -1952,28 +2102,6 @@
         }
     },
     {
-        "handle": "yes-we-hack",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://yeswehack.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://api.yeswehack.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://apps.yeswehack.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "ezviz-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -2134,52 +2262,6 @@
                 {
                     "identifier": "qwantjunior.com",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "maya-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.paymaya",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/am/app/maya-your-all-in-one-money-app/id991673877",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://appgallery.huawei.com/app/C101186357",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "https://api.paymaya.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://pg.paymaya.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://payoutapi.maya.ph/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://op.paymaya.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://connect.paymaya.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://paymayabiller-prod.paymaya.com/",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
@@ -2899,84 +2981,6 @@
                 },
                 {
                     "identifier": "https://github.com/pendulum-project/clock-steering",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "systemd-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "systemd (the manager itself)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-boot",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-stub",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-udev",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-journald",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-logind",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-networkd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "libsystemd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-timesyncd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-hostnamed",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-resolved",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-cryptenroll",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-cryptsetup",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-veritysetup",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-fstab-generator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-gpt-auto-generator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-ask-password",
                     "type": "other"
                 }
             ],
