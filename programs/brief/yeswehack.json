@@ -1,82 +1,330 @@
 [
     {
-        "handle": "ezviz-bug-bounty-program",
+        "handle": "systemd-bug-bounty-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+                    "identifier": "systemd (the manager itself)",
                     "type": "other"
                 },
                 {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
+                    "identifier": "systemd-boot",
                     "type": "other"
                 },
                 {
-                    "identifier": "i.ys7.com",
-                    "type": "web-application"
+                    "identifier": "systemd-stub",
+                    "type": "other"
                 },
                 {
-                    "identifier": "open.ys7.com",
-                    "type": "web-application"
+                    "identifier": "systemd-udev",
+                    "type": "other"
                 },
                 {
-                    "identifier": "auth.ys7.com",
-                    "type": "web-application"
+                    "identifier": "systemd-journald",
+                    "type": "other"
                 },
                 {
-                    "identifier": "api.ys7.com",
-                    "type": "web-application"
+                    "identifier": "systemd-logind",
+                    "type": "other"
                 },
                 {
-                    "identifier": "api.ezvizlife.com",
-                    "type": "web-application"
+                    "identifier": "systemd-networkd",
+                    "type": "other"
                 },
                 {
-                    "identifier": "usauth.ezvizlife.com",
-                    "type": "web-application"
+                    "identifier": "libsystemd",
+                    "type": "other"
                 },
                 {
-                    "identifier": "ius.ezvizlife.com",
-                    "type": "web-application"
+                    "identifier": "systemd-timesyncd",
+                    "type": "other"
                 },
                 {
-                    "identifier": "*.ys7.com",
-                    "type": "web-application"
+                    "identifier": "systemd-hostnamed",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-resolved",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-cryptenroll",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-cryptsetup",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-veritysetup",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-fstab-generator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-gpt-auto-generator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-ask-password",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
         }
     },
     {
-        "handle": "franceconnect-proconnect-public",
+        "handle": "teamviewer-bounty-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Specific scenarios (see program description)",
-                    "type": "other"
+                    "identifier": "https://www.teamviewer.com/en/products/teamviewer/",
+                    "type": "application"
                 },
                 {
-                    "identifier": "ProConnect (see program description for github link)",
+                    "identifier": "https://web.teamviewer.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "FranceConnect+ (see program description for github link)",
+                    "identifier": "https://account.teamviewer.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "FranceConnect (see program description for github link)",
+                    "identifier": "https://login.teamviewer.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "eIDAS Bridge  (see program description for github link)",
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
+                    "type": "mobile-application-ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "infomaniak-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.kdrive.infomaniak.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "User Dashboard  (see program description for github link)",
+                    "identifier": "api.infomaniak.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "login.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "manager.infomaniak.com/v3/*",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "shop.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.kchat.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "calendar.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "contacts.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "etickets.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "mail.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "swiss-backup*.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "vod.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vod2.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "player-radio.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "welcome.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.swisstransfer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "chk.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ai-tools.infomaniak.com",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "kmeet.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "kpaste.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "sync.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "storage*.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ix2smbdyjt.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "5k8vrbdyje.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "fv3lfbdyjh.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "l75pvbdyjo.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "infomaniak.events",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "sms.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "developer.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "invitation.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://github.com/Infomaniak/desktop-kDrive",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "otto-de-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.otto.de/jobs",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://www.lascana.de/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://teleoptiprd.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://mmp.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://partnerprogramm.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://orbidder.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://supplier-connect.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://retail-api.otto.de",
                     "type": "web-application"
                 }
             ],
@@ -170,46 +418,106 @@
         }
     },
     {
-        "handle": "teamviewer-bounty-program",
+        "handle": "ovh",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.teamviewer.com/en/products/teamviewer/",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://web.teamviewer.com",
+                    "identifier": "api.ovh.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://account.teamviewer.com",
+                    "identifier": "www.ovh.com/manager",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://login.teamviewer.com",
+                    "identifier": "www.ovh.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "ezviz-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
+                    "type": "other"
+                },
+                {
+                    "identifier": "i.ys7.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
-                    "type": "mobile-application-android"
+                    "identifier": "open.ys7.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
-                    "type": "mobile-application-android"
+                    "identifier": "auth.ys7.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
-                    "type": "mobile-application-android"
+                    "identifier": "api.ys7.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
-                    "type": "mobile-application-ios"
+                    "identifier": "api.ezvizlife.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
-                    "type": "mobile-application-ios"
+                    "identifier": "usauth.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ius.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ys7.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "franceconnect-proconnect-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Specific scenarios (see program description)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ProConnect (see program description for github link)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "FranceConnect+ (see program description for github link)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "FranceConnect (see program description for github link)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "eIDAS Bridge  (see program description for github link)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "User Dashboard  (see program description for github link)",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -450,160 +758,6 @@
                 {
                     "identifier": "t.swapcard.com",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "infomaniak-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.kdrive.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.infomaniak.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "login.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "manager.infomaniak.com/v3/*",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "shop.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.kchat.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "calendar.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "contacts.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "etickets.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "mail.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "swiss-backup*.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "vod.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vod2.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "player-radio.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "welcome.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.swisstransfer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "chk.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ai-tools.infomaniak.com",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "kmeet.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "kpaste.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "sync.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "storage*.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ix2smbdyjt.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "5k8vrbdyje.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "fv3lfbdyjh.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "l75pvbdyjo.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "infomaniak.events",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "sms.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "developer.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "invitation.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://github.com/Infomaniak/desktop-kDrive",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
-                    "type": "mobile-application-android"
                 }
             ],
             "out_of_scope": []
@@ -972,60 +1126,6 @@
         }
     },
     {
-        "handle": "otto-de-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.otto.de/jobs",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://www.lascana.de/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://teleoptiprd.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://mmp.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://partnerprogramm.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://orbidder.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://supplier-connect.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://retail-api.otto.de",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "withings-public-program",
         "bounty": 1,
         "active": 1,
@@ -1294,28 +1394,6 @@
         }
     },
     {
-        "handle": "ovh",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.ovh.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.ovh.com/manager",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.ovh.com",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "pine-labs-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1408,84 +1486,6 @@
                 {
                     "identifier": "https://emistores.pinelabs.com/",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "systemd-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "systemd (the manager itself)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-boot",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-stub",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-udev",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-journald",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-logind",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-networkd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "libsystemd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-timesyncd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-hostnamed",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-resolved",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-cryptenroll",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-cryptsetup",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-veritysetup",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-fstab-generator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-gpt-auto-generator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-ask-password",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
