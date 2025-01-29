@@ -1,21 +1,303 @@
 [
     {
-        "handle": "komoju-public-bug-bounty-program",
+        "handle": "moneybox-bug-bounty",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://yeswehack-staging.komoju.com",
+                    "identifier": "https://api.moneyboxapp.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://admin.moneyboxapp.org/",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://multipay-staging.test.komoju.com",
+                    "identifier": "https://admin-roundups.moneyboxapp.org/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/gb/app/moneybox-save-and-invest/id1049797239",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.moneyboxapp",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://sycamore.moneyboxapp.org/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "toom-baumarkt-gmbh-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://toom.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://api.toom.de",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "coindcx-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.coindcx.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.coindcx.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
+                    "type": "mobile-application-ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "vfs-global-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.vfsglobal.(com|co.uk|ca)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vfsevisa.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.onevasco.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vascoworldwide.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.vfsvisaonline.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.dvpc.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.vfsvisaservicesrussia.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.directverify.in",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.docswallet.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "biometservices.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "agents.tasheer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/Global-Admin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://rusadminappt.vfsglobal.com/Global-Admin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://equatorialguinea-evisa.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://online.srilankaevisa.lk/lka/en/login",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://online.mustaqel.qa/qat/en/login",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vfs.mioot.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vfseu.mioot.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsvisaservice.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://indonesiavoa.vfsevisa.id/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vc.tasheer.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vfsglobal.by",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*. vfsevisa.id",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "bug-bounty-program-blablacar",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua))",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://api.blablalines.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://daily.blablacar.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://blablacardaily.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.blablalines",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
+                    "type": "mobile-application-ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dana-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=id.dana&hl=en",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/id/app/dana/id1437123008",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://appgallery.huawei.com/#/app/C100570215",
                     "type": "other"
                 },
                 {
-                    "identifier": "https://doc.komoju.com/docs/fields-overview",
-                    "type": "other"
+                    "identifier": "mgs-gw.m.dana.id",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api-saas.dana.id",
+                    "type": "api"
+                },
+                {
+                    "identifier": "sec.m.dana.id",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "m.dana.id",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -346,194 +628,6 @@
         }
     },
     {
-        "handle": "vfs-global-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.vfsglobal.(com|co.uk|ca)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vfsevisa.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.onevasco.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vascoworldwide.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.vfsvisaonline.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.dvpc.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.vfsvisaservicesrussia.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.directverify.in",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.docswallet.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "biometservices.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "agents.tasheer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/Global-Admin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://rusadminappt.vfsglobal.com/Global-Admin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://equatorialguinea-evisa.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://online.srilankaevisa.lk/lka/en/login",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://online.mustaqel.qa/qat/en/login",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vfs.mioot.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vfseu.mioot.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsvisaservice.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://indonesiavoa.vfsevisa.id/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vc.tasheer.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vfsglobal.by",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*. vfsevisa.id",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "bug-bounty-program-blablacar",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua))",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://api.blablalines.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://daily.blablacar.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://blablacardaily.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.blablalines",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
-                    "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "ovh",
         "bounty": 1,
         "active": 1,
@@ -596,32 +690,6 @@
                 {
                     "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
                     "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "coindcx-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.coindcx.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.coindcx.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
-                    "type": "mobile-application-ios"
                 }
             ],
             "out_of_scope": []
@@ -2096,24 +2164,6 @@
         }
     },
     {
-        "handle": "toom-baumarkt-gmbh-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://toom.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://api.toom.de",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "tchap-public",
         "bounty": 1,
         "active": 1,
@@ -2196,44 +2246,6 @@
                 {
                     "identifier": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
                     "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dana-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=id.dana&hl=en",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/id/app/dana/id1437123008",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://appgallery.huawei.com/#/app/C100570215",
-                    "type": "other"
-                },
-                {
-                    "identifier": "mgs-gw.m.dana.id",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api-saas.dana.id",
-                    "type": "api"
-                },
-                {
-                    "identifier": "sec.m.dana.id",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "m.dana.id",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -2776,40 +2788,6 @@
                 {
                     "identifier": "In-Scope Applications can be found here: https://mysrc.group/project_detail?id=11",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "moneybox-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.moneyboxapp.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://admin.moneyboxapp.org/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://admin-roundups.moneyboxapp.org/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/gb/app/moneybox-save-and-invest/id1049797239",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.moneyboxapp",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://sycamore.moneyboxapp.org/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
