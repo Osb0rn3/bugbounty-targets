@@ -1,5 +1,205 @@
 [
     {
+        "handle": "datadome-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://app.datadome.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://customer-api.datadome.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.datadome.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-js.datadome.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://*.captcha-delivery.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://auth.datadome.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://datadome.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://bot-tester.datadome.co/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "okto-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.okto.tech",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "vincisa-public-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "leonard.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "castor.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "survey.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.fondation-vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.lafabriquedelacite.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.lab-recherche-environnement.org",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "v\u0153ux.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.vinci-vie.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.trajeoh.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "actionnaires.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "emag.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "boost.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "vinci-groupe.profils.org",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "jobs.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "solutions-environnement.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "essentiel.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "essentials.vinci.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.chaire-arpenter.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.habileoh.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "dana-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -380,52 +580,6 @@
                 {
                     "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
                     "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -847,96 +1001,6 @@
                 },
                 {
                     "identifier": "https://emistores.pinelabs.com/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "vincisa-public-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "leonard.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "castor.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "survey.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.fondation-vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.lafabriquedelacite.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.lab-recherche-environnement.org",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "v\u0153ux.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.vinci-vie.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.trajeoh.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "actionnaires.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "emag.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "boost.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "vinci-groupe.profils.org",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "jobs.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "solutions-environnement.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "essentiel.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "essentials.vinci.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.chaire-arpenter.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.habileoh.com",
                     "type": "web-application"
                 }
             ],
@@ -1920,28 +1984,6 @@
         }
     },
     {
-        "handle": "okto-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "*.okto.tech",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "swiss-post-evoting",
         "bounty": 1,
         "active": 1,
@@ -2365,48 +2407,6 @@
                 },
                 {
                     "identifier": "https://api3.pentest.clicsante.ca",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "datadome-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://app.datadome.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://customer-api.datadome.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.datadome.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-js.datadome.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://*.captcha-delivery.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://auth.datadome.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://datadome.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://bot-tester.datadome.co/",
                     "type": "web-application"
                 }
             ],
