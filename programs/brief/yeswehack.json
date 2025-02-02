@@ -1,5 +1,105 @@
 [
     {
+        "handle": "gnome-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "GLib",
+                    "type": "other"
+                },
+                {
+                    "identifier": "glib-networking",
+                    "type": "other"
+                },
+                {
+                    "identifier": "libsoup",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "systemd-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "systemd (the manager itself)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-boot",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-stub",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-udev",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-journald",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-logind",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-networkd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "libsystemd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-timesyncd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-hostnamed",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-resolved",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-cryptenroll",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-cryptsetup",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-veritysetup",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-fstab-generator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-gpt-auto-generator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-ask-password",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "dojo",
         "bounty": 0,
         "active": 1,
@@ -7,6 +107,140 @@
             "in_scope": [
                 {
                     "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-39",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "vfs-global-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.vfsglobal.(com|co.uk|ca)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vfsevisa.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.onevasco.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vascoworldwide.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.vfsvisaonline.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.dvpc.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.vfsvisaservicesrussia.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.directverify.in",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.docswallet.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "biometservices.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "agents.tasheer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/Global-Admin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://rusadminappt.vfsglobal.com/Global-Admin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://equatorialguinea-evisa.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://online.srilankaevisa.lk/lka/en/login",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://online.mustaqel.qa/qat/en/login",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vfs.mioot.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vfseu.mioot.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsvisaservice.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://indonesiavoa.vfsevisa.id/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vc.tasheer.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vfsglobal.by",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*. vfsevisa.id",
                     "type": "web-application"
                 }
             ],
@@ -54,6 +288,152 @@
                 {
                     "identifier": "https://service.post.ch/ele-klp/ele/",
                     "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "mon-espace-sante-mes",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "admincms.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "adminstore.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.monespacesante.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "cms.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "editeur.api.monespacesante.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "editeurs.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "knowage.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "support.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.editeur.preprod.monespacesante.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.preprod.monespacesante.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.preprod.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "preprod.api.monespacesante.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "preprod.auth.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "preprod.editeur.api.monespacesante.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "preprod.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "preprod1.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "preprod2.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "securite.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "am.monespacesante.fr",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "editeur.am.monespacesante.fr",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "am.editeur.preprod.monespacesante.fr",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "am.preprod.monespacesante.fr",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "preprod.am.monespacesante.fr",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "preprod.editeur.am.monespacesante.fr",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "www.preprod.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.preprod1.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.preprod2.monespacesante.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.am.monespacesante.fr",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "www.editeur.am.monespacesante.fr",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "www.editeur.api.monespacesante.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "apps.apple.com/fr/app/mon-espace-sant%C3%A9/id1589255019 (iOS)",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "play.google.com/store/apps/details?id=fr.assurancemaladie.monespacesante&showAllReviews=true (Android)",
+                    "type": "mobile-application-android"
                 }
             ],
             "out_of_scope": []
@@ -304,140 +684,6 @@
                 {
                     "identifier": "https://apps.apple.com/fr/app/cryptobox/id972602802",
                     "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "vfs-global-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.vfsglobal.(com|co.uk|ca)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vfsevisa.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.onevasco.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vascoworldwide.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.vfsvisaonline.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.dvpc.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.vfsvisaservicesrussia.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.directverify.in",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.docswallet.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "biometservices.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "agents.tasheer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/Global-Admin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://rusadminappt.vfsglobal.com/Global-Admin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://equatorialguinea-evisa.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://online.srilankaevisa.lk/lka/en/login",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://online.mustaqel.qa/qat/en/login",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vfs.mioot.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vfseu.mioot.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsvisaservice.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://indonesiavoa.vfsevisa.id/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vc.tasheer.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vfsglobal.by",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*. vfsevisa.id",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -827,28 +1073,6 @@
                 },
                 {
                     "identifier": "Scanwatch",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "gnome-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "GLib",
-                    "type": "other"
-                },
-                {
-                    "identifier": "glib-networking",
-                    "type": "other"
-                },
-                {
-                    "identifier": "libsoup",
                     "type": "other"
                 }
             ],
@@ -1578,230 +1802,6 @@
                 {
                     "identifier": "https://emistores.pinelabs.com/",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "mon-espace-sante-mes",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "admincms.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "adminstore.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.monespacesante.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "auth.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "cms.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "editeur.api.monespacesante.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "editeurs.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "knowage.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "support.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.editeur.preprod.monespacesante.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.preprod.monespacesante.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "auth.preprod.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "preprod.api.monespacesante.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "preprod.auth.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "preprod.editeur.api.monespacesante.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "preprod.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "preprod1.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "preprod2.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "securite.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "am.monespacesante.fr",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "editeur.am.monespacesante.fr",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "am.editeur.preprod.monespacesante.fr",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "am.preprod.monespacesante.fr",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "preprod.am.monespacesante.fr",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "preprod.editeur.am.monespacesante.fr",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "www.preprod.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.preprod1.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.preprod2.monespacesante.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.am.monespacesante.fr",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "www.editeur.am.monespacesante.fr",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "www.editeur.api.monespacesante.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "apps.apple.com/fr/app/mon-espace-sant%C3%A9/id1589255019 (iOS)",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "play.google.com/store/apps/details?id=fr.assurancemaladie.monespacesante&showAllReviews=true (Android)",
-                    "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "systemd-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "systemd (the manager itself)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-boot",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-stub",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-udev",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-journald",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-logind",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-networkd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "libsystemd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-timesyncd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-hostnamed",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-resolved",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-cryptenroll",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-cryptsetup",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-veritysetup",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-fstab-generator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-gpt-auto-generator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-ask-password",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
