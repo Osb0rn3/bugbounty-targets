@@ -1,5 +1,855 @@
 [
     {
+        "title": "Infomaniak Bug Bounty program",
+        "slug": "infomaniak-bug-bounty-program",
+        "country": "CH",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 842,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 5000,
+        "scopes_count": 36,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "a8ed0d8c-1e61-434d-997f-e25e3c45f1e8",
+            "original_name": "logo-k-_1_.jpg",
+            "mime_type": "image/jpeg",
+            "size": 38164,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/a8ed0d8c-1e61-434d-997f-e25e3c45f1e8"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Infomaniak",
+            "slug": "infomaniak",
+            "description": "Infomaniak is Switzerland's largest web-hosting company, also offering live-streaming and video on demand services.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7cf25280-a177-4aca-ad3e-9e11ddb2633f",
+                "original_name": "Capture d\u2019e\u0301cran 2023-06-16 a\u0300 16.50.25.png",
+                "mime_type": "image/png",
+                "size": 9091,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7cf25280-a177-4aca-ad3e-9e11ddb2633f"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "*.kdrive.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "api.infomaniak.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "login.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "manager.infomaniak.com/v3/*",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "shop.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.kchat.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "calendar.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "contacts.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "etickets.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "mail.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "swiss-backup*.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "vod.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.vod2.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "player-radio.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "welcome.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "www.swisstransfer.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "www.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "chk.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ai-tools.infomaniak.com",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "kmeet.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "kpaste.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "sync.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "storage*.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ix2smbdyjt.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "5k8vrbdyje.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "fv3lfbdyjh.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "l75pvbdyjo.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "infomaniak.events",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sms.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "developer.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "invitation.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
+                "scope_type": "mobile-application-android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/Infomaniak/desktop-kDrive",
+                "scope_type": "application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "DINUM - FranceConnect / FranceConnect+ / ProConnect - Public Program",
+        "slug": "franceconnect-proconnect-public",
+        "country": "FR",
+        "activity_area": "Government",
+        "average_first_response_time": 4,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 52,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 30000,
+        "scopes_count": 6,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "b081db0d-3cbf-43be-a57b-4428a878bb27",
+            "original_name": "78f9fcc49559b7529dcc788cd9e15a73.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 17591,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/b081db0d-3cbf-43be-a57b-4428a878bb27"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
+            "slug": "dinum",
+            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
+                "original_name": "logo-marianne-dinsic-300x300.jpg",
+                "mime_type": "image/jpeg",
+                "size": 45646,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "Specific scenarios (see program description)",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "ProConnect (see program description for github link)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "FranceConnect+ (see program description for github link)",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "FranceConnect (see program description for github link)",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "eIDAS Bridge  (see program description for github link)",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "User Dashboard  (see program description for github link)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "systemd Bug Bounty Program",
+        "slug": "systemd-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 8,
+        "bounty_reward_min": 250,
+        "bounty_reward_max": 10000,
+        "scopes_count": 17,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "ddad5d7e-9330-46e5-83bb-08abb8cd59dc",
+            "original_name": "systemd-logomark.png",
+            "mime_type": "image/png",
+            "size": 4171,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/ddad5d7e-9330-46e5-83bb-08abb8cd59dc"
+        },
+        "event": {
+            "name": "Open the code, source the bounty",
+            "slug": "open-the-code-source-the-bounty",
+            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a></p>",
+            "start_date": "2024-10-01T01:00:00+02:00",
+            "end_date": null,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            },
+            "banner": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "business_unit": {
+            "name": "Sovereign Tech Fund",
+            "slug": "sovereign-tech-fund",
+            "description": "Securing Open Source Ecosystem",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "1d259189-2c16-46e6-bfd8-ec45a89f9e90",
+                "original_name": "stf-avatar-1-short copy.png",
+                "mime_type": "image/png",
+                "size": 12477,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/1d259189-2c16-46e6-bfd8-ec45a89f9e90"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "systemd (the manager itself)",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-boot",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-stub",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-udev",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-journald",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-logind",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-networkd",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "libsystemd",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-timesyncd",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-hostnamed",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-resolved",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-cryptenroll",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-cryptsetup",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-veritysetup",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-fstab-generator",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-gpt-auto-generator",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "systemd-ask-password",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "GovTech - Vulnerability Disclosure Programme",
+        "slug": "govtech-vulnerability-disclosure-programme-policy",
+        "country": "SG",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": false,
+        "gift": true,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": false,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 424,
+        "bounty_reward_min": null,
+        "bounty_reward_max": null,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
+            "original_name": "govtech_logo1.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 88875,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Government Technology Agency of Singapore",
+            "slug": "government-technology-agency-of-singapore",
+            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
+                "original_name": "GovTech300x300.png",
+                "mime_type": "image/png",
+                "size": 61833,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "*.gov.sg",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "Domains where GovTech is the registrar",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Mon Espace Sant\u00e9 (MES)",
+        "slug": "mon-espace-sante-mes",
+        "country": "FR",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 138,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 8000,
+        "scopes_count": 34,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "72edd5b8-ed39-40a8-918f-337dd6485bc9",
+            "original_name": "mes-programthumbnail.jpg",
+            "mime_type": "image/jpeg",
+            "size": 193603,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/72edd5b8-ed39-40a8-918f-337dd6485bc9"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Caisse Nationale de l'Assurance maladie",
+            "slug": "cnam",
+            "description": "Caisse Nationale de l'Assurance maladie",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7ca44edf-062f-4275-bf57-69d0eee181d4",
+                "original_name": "am30px.png",
+                "mime_type": "image/png",
+                "size": 34281,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7ca44edf-062f-4275-bf57-69d0eee181d4"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "www.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "admincms.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "adminstore.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "api.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "auth.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "cms.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "editeur.api.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "editeurs.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "knowage.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "support.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "api.editeur.preprod.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "api.preprod.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "auth.preprod.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.api.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.auth.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.editeur.api.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod1.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "preprod2.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "securite.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "editeur.am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "am.editeur.preprod.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "am.preprod.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "preprod.editeur.am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "www.preprod.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.preprod1.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.preprod2.monespacesante.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "www.editeur.am.monespacesante.fr",
+                "scope_type": "mobile-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "www.editeur.api.monespacesante.fr",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "apps.apple.com/fr/app/mon-espace-sant%C3%A9/id1589255019 (iOS)",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "play.google.com/store/apps/details?id=fr.assurancemaladie.monespacesante&showAllReviews=true (Android)",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Doctolib",
         "slug": "doctolib-public-bug-bounty-program",
         "country": "FR",
@@ -207,70 +1057,6 @@
                 "scope": "https://service.post.ch/ele-klp/ele/",
                 "scope_type": "web-application",
                 "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "GovTech - Vulnerability Disclosure Programme",
-        "slug": "govtech-vulnerability-disclosure-programme-policy",
-        "country": "SG",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": false,
-        "gift": true,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": false,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 423,
-        "bounty_reward_min": null,
-        "bounty_reward_max": null,
-        "scopes_count": 2,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
-            "original_name": "govtech_logo1.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 88875,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Government Technology Agency of Singapore",
-            "slug": "government-technology-agency-of-singapore",
-            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
-                "original_name": "GovTech300x300.png",
-                "mime_type": "image/png",
-                "size": 61833,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "*.gov.sg",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Domains where GovTech is the registrar",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -1597,274 +2383,6 @@
                 "scope": "www.habileoh.com",
                 "scope_type": "web-application",
                 "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Infomaniak Bug Bounty program",
-        "slug": "infomaniak-bug-bounty-program",
-        "country": "CH",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 840,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 5000,
-        "scopes_count": 36,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "a8ed0d8c-1e61-434d-997f-e25e3c45f1e8",
-            "original_name": "logo-k-_1_.jpg",
-            "mime_type": "image/jpeg",
-            "size": 38164,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/a8ed0d8c-1e61-434d-997f-e25e3c45f1e8"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Infomaniak",
-            "slug": "infomaniak",
-            "description": "Infomaniak is Switzerland's largest web-hosting company, also offering live-streaming and video on demand services.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7cf25280-a177-4aca-ad3e-9e11ddb2633f",
-                "original_name": "Capture d\u2019e\u0301cran 2023-06-16 a\u0300 16.50.25.png",
-                "mime_type": "image/png",
-                "size": 9091,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7cf25280-a177-4aca-ad3e-9e11ddb2633f"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "*.kdrive.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "api.infomaniak.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "login.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "manager.infomaniak.com/v3/*",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "shop.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.kchat.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "calendar.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "contacts.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "etickets.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "mail.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "swiss-backup*.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "vod.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.vod2.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "player-radio.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "welcome.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "www.swisstransfer.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "www.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "chk.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ai-tools.infomaniak.com",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "kmeet.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "kpaste.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "sync.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "storage*.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ix2smbdyjt.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "5k8vrbdyje.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "fv3lfbdyjh.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "l75pvbdyjo.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "infomaniak.events",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sms.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "developer.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "invitation.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/Infomaniak/desktop-kDrive",
-                "scope_type": "application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
                 "report_count": null
             }
         ]
@@ -3494,262 +4012,6 @@
         ]
     },
     {
-        "title": "Mon Espace Sant\u00e9 (MES)",
-        "slug": "mon-espace-sante-mes",
-        "country": "FR",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 137,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 8000,
-        "scopes_count": 34,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "72edd5b8-ed39-40a8-918f-337dd6485bc9",
-            "original_name": "mes-programthumbnail.jpg",
-            "mime_type": "image/jpeg",
-            "size": 193603,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/72edd5b8-ed39-40a8-918f-337dd6485bc9"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Caisse Nationale de l'Assurance maladie",
-            "slug": "cnam",
-            "description": "Caisse Nationale de l'Assurance maladie",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7ca44edf-062f-4275-bf57-69d0eee181d4",
-                "original_name": "am30px.png",
-                "mime_type": "image/png",
-                "size": 34281,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7ca44edf-062f-4275-bf57-69d0eee181d4"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "www.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "admincms.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "adminstore.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "api.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "auth.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "cms.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "editeur.api.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "editeurs.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "knowage.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "support.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "api.editeur.preprod.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "api.preprod.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "auth.preprod.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.api.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.auth.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.editeur.api.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod1.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "preprod2.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "securite.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "editeur.am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "am.editeur.preprod.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "am.preprod.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "preprod.editeur.am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "www.preprod.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.preprod1.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.preprod2.monespacesante.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "www.editeur.am.monespacesante.fr",
-                "scope_type": "mobile-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "www.editeur.api.monespacesante.fr",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "apps.apple.com/fr/app/mon-espace-sant%C3%A9/id1589255019 (iOS)",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "play.google.com/store/apps/details?id=fr.assurancemaladie.monespacesante&showAllReviews=true (Android)",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "3DS OUTSCALE",
         "slug": "outscale",
         "country": "FR",
@@ -4379,94 +4641,6 @@
                 "scope": "https://www.kiwai-normandie.fr/",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "DINUM - FranceConnect / FranceConnect+ / ProConnect - Public Program",
-        "slug": "franceconnect-proconnect-public",
-        "country": "FR",
-        "activity_area": "Government",
-        "average_first_response_time": 5,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 51,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 30000,
-        "scopes_count": 6,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "b081db0d-3cbf-43be-a57b-4428a878bb27",
-            "original_name": "78f9fcc49559b7529dcc788cd9e15a73.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 17591,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/b081db0d-3cbf-43be-a57b-4428a878bb27"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
-            "slug": "dinum",
-            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
-                "original_name": "logo-marianne-dinsic-300x300.jpg",
-                "mime_type": "image/jpeg",
-                "size": 45646,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "Specific scenarios (see program description)",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "ProConnect (see program description for github link)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "FranceConnect+ (see program description for github link)",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "FranceConnect (see program description for github link)",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "eIDAS Bridge  (see program description for github link)",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "User Dashboard  (see program description for github link)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -5986,180 +6160,6 @@
             {
                 "scope": "*.ys7.com",
                 "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "systemd Bug Bounty Program",
-        "slug": "systemd-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 7,
-        "bounty_reward_min": 250,
-        "bounty_reward_max": 10000,
-        "scopes_count": 17,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "ddad5d7e-9330-46e5-83bb-08abb8cd59dc",
-            "original_name": "systemd-logomark.png",
-            "mime_type": "image/png",
-            "size": 4171,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/ddad5d7e-9330-46e5-83bb-08abb8cd59dc"
-        },
-        "event": {
-            "name": "Open the code, source the bounty",
-            "slug": "open-the-code-source-the-bounty",
-            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a></p>",
-            "start_date": "2024-10-01T01:00:00+02:00",
-            "end_date": null,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            },
-            "banner": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "business_unit": {
-            "name": "Sovereign Tech Fund",
-            "slug": "sovereign-tech-fund",
-            "description": "Securing Open Source Ecosystem",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "1d259189-2c16-46e6-bfd8-ec45a89f9e90",
-                "original_name": "stf-avatar-1-short copy.png",
-                "mime_type": "image/png",
-                "size": 12477,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/1d259189-2c16-46e6-bfd8-ec45a89f9e90"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "systemd (the manager itself)",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-boot",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-stub",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-udev",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-journald",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-logind",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-networkd",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "libsystemd",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-timesyncd",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-hostnamed",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-resolved",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-cryptenroll",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-cryptsetup",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-veritysetup",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-fstab-generator",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-gpt-auto-generator",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "systemd-ask-password",
-                "scope_type": "other",
                 "asset_value": "MEDIUM",
                 "report_count": null
             }
