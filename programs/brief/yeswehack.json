@@ -1,5 +1,123 @@
 [
     {
+        "handle": "komoju-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://yeswehack.staging.komoju.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://multipay-staging.test.komoju.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://doc.komoju.com/docs/fields-overview",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "doctolib-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.doctolib.(fr|de|it)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Special scenarios (see description)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.doctolib.(fr|de|it|com|net)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.siilo.com",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "ezviz-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
+                    "type": "other"
+                },
+                {
+                    "identifier": "i.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "open.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "auth.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "usauth.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ius.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ys7.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "bug-bounty-program-blablacar",
         "bounty": 1,
         "active": 1,
@@ -54,89 +172,125 @@
         }
     },
     {
-        "handle": "demarches-simplifiees-public",
+        "handle": "harman-international-web-applications",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.demarches-simplifiees.fr",
+                    "identifier": "*.jbl.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://www.demarches-simplifiees.fr/graphql",
-                    "type": "api"
+                    "identifier": "*.harmanaudio.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "https://www.demarches-simplifiees.fr/api/v2/graphql",
-                    "type": "api"
+                    "identifier": "*.harmankardon.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "https://static.demarches-simplifiees.fr",
-                    "type": "api"
+                    "identifier": "*.support.jbl.com",
+                    "type": "web-application"
                 },
                 {
-                    "identifier": "DS proxy (see https://github.com/demarches-simplifiees/ds_proxy)",
-                    "type": "other"
+                    "identifier": "*.jbl.nl",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.ru",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.uk.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.uk.harmanaudio.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.de.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.in.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jp.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.com.br",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
         }
     },
     {
-        "handle": "komoju-public-bug-bounty-program",
-        "bounty": 1,
+        "handle": "dojo",
+        "bounty": 0,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://yeswehack.staging.komoju.com",
+                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-39",
                     "type": "web-application"
-                },
-                {
-                    "identifier": "https://multipay-staging.test.komoju.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://doc.komoju.com/docs/fields-overview",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
         }
     },
     {
-        "handle": "telenor-sweden-public-bug-bounty-program",
+        "handle": "otto-de-bug-bounty",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.telenor.se",
+                    "identifier": "https://www.otto.de",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.bredbandsbolaget.se",
+                    "identifier": "https://www.otto.de/jobs",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.europolitan.se",
+                    "identifier": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://www.lascana.de/",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.ownit.se",
+                    "identifier": "https://teleoptiprd.otto.de",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.vimla.se",
+                    "identifier": "https://mmp.otto.de",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.vimla.work",
+                    "identifier": "https://partnerprogramm.otto.de",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "*.vimla.io",
+                    "identifier": "https://orbidder.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://supplier-connect.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://retail-api.otto.de",
                     "type": "web-application"
                 }
             ],
@@ -298,6 +452,366 @@
         }
     },
     {
+        "handle": "dailymotion-public-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.api.dailymotion.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "developer.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.dmcdn.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
+                    "type": "api"
+                },
+                {
+                    "identifier": "AS41690",
+                    "type": "other"
+                },
+                {
+                    "identifier": "dmxleo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dm.gg",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Google Cloud Plateform Instances",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "gnome-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "GLib",
+                    "type": "other"
+                },
+                {
+                    "identifier": "glib-networking",
+                    "type": "other"
+                },
+                {
+                    "identifier": "libsoup",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "demarches-simplifiees-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.demarches-simplifiees.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.demarches-simplifiees.fr/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.demarches-simplifiees.fr/api/v2/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://static.demarches-simplifiees.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "DS proxy (see https://github.com/demarches-simplifiees/ds_proxy)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "govtech-vulnerability-disclosure-programme-policy",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.gov.sg",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Domains where GovTech is the registrar",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "owncloud-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://owncloud.org/install/#install-clients",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.owncloud.android",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/app/id1359583808",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/customgroups",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/guests",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/richdocuments",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/notifications",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/core",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/gallery",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/ocis",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/web",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/web-extensions",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/user_ldap",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/oauth2",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/openidconnect",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/activity",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/impersonate",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/updater",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/core/tree/master/apps/files",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/owncloud/ios-app",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "tchap-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.tchap.gouv.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://matrix.agent.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://matrix.agent.*.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://github.com/tchapgouv",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/tchap/id1446253779",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://www.beta.tchap.gouv.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://matrix.i.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://matrix.e.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Specific scenarios (see program description)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dovecot",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Dovecot IMAP Server and Pigeonhole SIEVE (see \"Software packages\" and \"Source code\")",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "powerdns",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "PowerDNS authoritative server, recursor and DNSdist (see \"Software packages\" and \"Source-code\")",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "app-suite",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://sandbox.open-xchange.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://sandbox.open-xchange.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "GitLab and GitHub repos listed on this page",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "telenor-sweden-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.telenor.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.bredbandsbolaget.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.europolitan.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ownit.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.work",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.io",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "franceconnect-proconnect-public",
         "bounty": 1,
         "active": 1,
@@ -403,24 +917,6 @@
                 },
                 {
                     "identifier": "systemd-ask-password",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "govtech-vulnerability-disclosure-programme-policy",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.gov.sg",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Domains where GovTech is the registrar",
                     "type": "other"
                 }
             ],
@@ -574,52 +1070,6 @@
         }
     },
     {
-        "handle": "doctolib-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.doctolib.(fr|de|it)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Special scenarios (see description)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.doctolib.(fr|de|it|com|net)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "*.siilo.com",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                    "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "swiss-post",
         "bounty": 1,
         "active": 1,
@@ -666,60 +1116,6 @@
         }
     },
     {
-        "handle": "dailymotion-public-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.api.dailymotion.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "developer.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.dmcdn.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
-                    "type": "api"
-                },
-                {
-                    "identifier": "AS41690",
-                    "type": "other"
-                },
-                {
-                    "identifier": "dmxleo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dm.gg",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Google Cloud Plateform Instances",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "spacelift-io-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -744,78 +1140,6 @@
                 {
                     "identifier": "MFA",
                     "type": "application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dojo",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-39",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "harman-international-web-applications",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.harmanaudio.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.harmankardon.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.support.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.nl",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.ru",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.uk.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.uk.harmanaudio.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.de.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.in.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jp.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.com.br",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -978,104 +1302,6 @@
         }
     },
     {
-        "handle": "owncloud-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://owncloud.org/install/#install-clients",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.owncloud.android",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/app/id1359583808",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/customgroups",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/guests",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/richdocuments",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/notifications",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/core",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/gallery",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/ocis",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/web",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/web-extensions",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/user_ldap",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/oauth2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/openidconnect",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/activity",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/impersonate",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/updater",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/core/tree/master/apps/files",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/owncloud/ios-app",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "cyclonedx-rust-cargo-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1223,60 +1449,6 @@
                 },
                 {
                     "identifier": "www.habileoh.com",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "otto-de-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.otto.de/jobs",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://www.lascana.de/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://teleoptiprd.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://mmp.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://partnerprogramm.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://orbidder.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://supplier-connect.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://retail-api.otto.de",
                     "type": "web-application"
                 }
             ],
@@ -1444,56 +1616,6 @@
         }
     },
     {
-        "handle": "tchap-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.tchap.gouv.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://matrix.agent.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://matrix.agent.*.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://github.com/tchapgouv",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/tchap/id1446253779",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://www.beta.tchap.gouv.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://matrix.i.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://matrix.e.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Specific scenarios (see program description)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "ooredoo-qpsc-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1638,28 +1760,6 @@
                 {
                     "identifier": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
                     "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "gnome-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "GLib",
-                    "type": "other"
-                },
-                {
-                    "identifier": "glib-networking",
-                    "type": "other"
-                },
-                {
-                    "identifier": "libsoup",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -2512,92 +2612,6 @@
         }
     },
     {
-        "handle": "dovecot",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Dovecot IMAP Server and Pigeonhole SIEVE (see \"Software packages\" and \"Source code\")",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "app-suite",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://sandbox.open-xchange.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://sandbox.open-xchange.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "GitLab and GitHub repos listed on this page",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "ezviz-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
-                    "type": "other"
-                },
-                {
-                    "identifier": "i.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "open.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "auth.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "usauth.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ius.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.ys7.com",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "okto-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -2896,20 +2910,6 @@
                 {
                     "identifier": "https://hackme.matrixreq.com",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "powerdns",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "PowerDNS authoritative server, recursor and DNSdist (see \"Software packages\" and \"Source-code\")",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
