@@ -1,5 +1,667 @@
 [
     {
+        "handle": "datadome-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://app.datadome.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://customer-api.datadome.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.datadome.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-js.datadome.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://*.captcha-delivery.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://auth.datadome.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://datadome.co",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://bot-tester.datadome.co/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "govtech-vulnerability-disclosure-programme-policy",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.gov.sg",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Domains where GovTech is the registrar",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "vfs-global-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.vfsglobal.(com|co.uk|ca)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vfsevisa.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.onevasco.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vascoworldwide.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.vfsvisaonline.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.dvpc.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.vfsvisaservicesrussia.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.directverify.in",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.docswallet.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "biometservices.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "agents.tasheer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/Global-Admin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://rusadminappt.vfsglobal.com/Global-Admin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://equatorialguinea-evisa.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://online.srilankaevisa.lk/lka/en/login",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://online.mustaqel.qa/qat/en/login",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vfs.mioot.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vfseu.mioot.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsvisaservice.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://indonesiavoa.vfsevisa.id/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://vc.tasheer.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vfsglobal.by",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*. vfsevisa.id",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "ooredoo-qpsc-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.ooredoo.qa",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://mobile.ooredoo.qa",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "https://selfcare.ooredoo.qa",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=qa.ooredoo.android&hl=en&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
+                    "type": "mobile-application-ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "ovh",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.ovh.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.ovh.com/manager",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.ovh.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dojo",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-39",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "doctolib-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.doctolib.(fr|de|it)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Special scenarios (see description)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.doctolib.(fr|de|it|com|net)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.siilo.com",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "infomaniak-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.kdrive.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.infomaniak.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "login.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "manager.infomaniak.com/v3/*",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "shop.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.kchat.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "calendar.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "contacts.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "etickets.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "mail.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "swiss-backup*.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "vod.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vod2.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "player-radio.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "welcome.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.swisstransfer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "chk.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ai-tools.infomaniak.com",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "kmeet.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "kpaste.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "sync.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "storage*.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ix2smbdyjt.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "5k8vrbdyje.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "fv3lfbdyjh.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "l75pvbdyjo.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "infomaniak.events",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "sms.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "developer.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "invitation.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://github.com/Infomaniak/desktop-kDrive",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "harman-international-web-applications",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.harmanaudio.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.harmankardon.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.support.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.nl",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.ru",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.uk.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.uk.harmanaudio.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.de.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.in.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jp.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.com.br",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "harman-international-public-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Device: JBL Bar 300",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Bar 500",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Bar 700",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Bar 800",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Bar 1000",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Bar 1300",
+                    "type": "other"
+                },
+                {
+                    "identifier": "events.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ota.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "apis.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "edgeapis.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Device: JBL Authentics 200",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Authentics 300",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Authentics 500",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Boombox 3 Wi-Fi",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL Charge 5 Wi-Fi",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Device: JBL PartyBox Ultimate",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/jbl-one/id1610239857",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.jbl.oneapp&hl=fr&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "JBL Flip 6",
+                    "type": "other"
+                },
+                {
+                    "identifier": "JBL Charge 5",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://tms.onecloud.harman.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://quantum-events.onecloud.harman.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "matrixalm",
         "bounty": 1,
         "active": 1,
@@ -34,24 +696,6 @@
                 {
                     "identifier": "*.okto.tech",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "govtech-vulnerability-disclosure-programme-policy",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.gov.sg",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Domains where GovTech is the registrar",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -476,252 +1120,6 @@
         }
     },
     {
-        "handle": "infomaniak-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.kdrive.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.infomaniak.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "login.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "manager.infomaniak.com/v3/*",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "shop.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.kchat.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "calendar.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "contacts.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "etickets.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "mail.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "swiss-backup*.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "vod.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vod2.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "player-radio.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "welcome.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.swisstransfer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "chk.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ai-tools.infomaniak.com",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "kmeet.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "kpaste.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "sync.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "storage*.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ix2smbdyjt.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "5k8vrbdyje.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "fv3lfbdyjh.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "l75pvbdyjo.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "infomaniak.events",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "sms.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "developer.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "invitation.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://github.com/Infomaniak/desktop-kDrive",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
-                    "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "doctolib-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.doctolib.(fr|de|it)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Special scenarios (see description)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.doctolib.(fr|de|it|com|net)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "*.siilo.com",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                    "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "komoju-public-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -796,140 +1194,6 @@
                 {
                     "identifier": "Scanwatch",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "vfs-global-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.vfsglobal.(com|co.uk|ca)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vfsevisa.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.onevasco.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vascoworldwide.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.vfsvisaonline.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.dvpc.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.vfsvisaservicesrussia.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.directverify.in",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.docswallet.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "biometservices.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "agents.tasheer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/Global-Admin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://rusadminappt.vfsglobal.com/Global-Admin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://equatorialguinea-evisa.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://online.srilankaevisa.lk/lka/en/login",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://online.mustaqel.qa/qat/en/login",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vfs.mioot.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vfseu.mioot.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsvisaservice.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://indonesiavoa.vfsevisa.id/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://vc.tasheer.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vfsglobal.by",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*. vfsevisa.id",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -1068,64 +1332,6 @@
         }
     },
     {
-        "handle": "harman-international-web-applications",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.harmanaudio.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.harmankardon.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.support.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.nl",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.ru",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.uk.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.uk.harmanaudio.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.de.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.in.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jp.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.com.br",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "legapass-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1160,54 +1366,6 @@
                 {
                     "identifier": "*.alasco.rocks",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "ovh",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.ovh.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.ovh.com/manager",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.ovh.com",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "ooredoo-qpsc-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.ooredoo.qa",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://mobile.ooredoo.qa",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=qa.ooredoo.android&hl=en&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
-                    "type": "mobile-application-ios"
                 }
             ],
             "out_of_scope": []
@@ -1392,20 +1550,6 @@
                 {
                     "identifier": "https://api.toom.de",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dojo",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-39",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -2624,48 +2768,6 @@
         }
     },
     {
-        "handle": "datadome-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://app.datadome.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://customer-api.datadome.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.datadome.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-js.datadome.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://*.captcha-delivery.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://auth.datadome.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://datadome.co",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://bot-tester.datadome.co/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "moneybox-bug-bounty",
         "bounty": 1,
         "active": 1,
@@ -2749,104 +2851,6 @@
                 },
                 {
                     "identifier": "api-js.datadome.co",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "harman-international-public-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Device: JBL Bar 300",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL Bar 500",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL Bar 700",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL Bar 800",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL Bar 1000",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL Bar 1300",
-                    "type": "other"
-                },
-                {
-                    "identifier": "events.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ota.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "apis.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "edgeapis.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Device: JBL Authentics 200",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL Authentics 300",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL Authentics 500",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL Boombox 3 Wi-Fi",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL Charge 5 Wi-Fi",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Device: JBL PartyBox Ultimate",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/jbl-one/id1610239857",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.jbl.oneapp&hl=fr&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "JBL Flip 6",
-                    "type": "other"
-                },
-                {
-                    "identifier": "JBL Charge 5",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://tms.onecloud.harman.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://quantum-events.onecloud.harman.com",
                     "type": "api"
                 }
             ],
