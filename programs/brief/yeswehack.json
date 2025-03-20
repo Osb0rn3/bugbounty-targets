@@ -1,5 +1,51 @@
 [
     {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "govtech-vulnerability-disclosure-programme-policy",
         "bounty": 0,
         "active": 1,
@@ -662,52 +708,6 @@
                 {
                     "identifier": "https://springboard.pinelabs.com",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
