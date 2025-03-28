@@ -1,5 +1,175 @@
 [
     {
+        "handle": "blackbox-bforbank-mobile",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.bforbank.android",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/us/app/bforbank-banque-en-ligne/id1607839793",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://gtw-b2capps.bforbank.com/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://gtw-b2capps.bforbank.com/customer-acquisition/access-management/users*",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "bookbeat",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.bookbeat.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dojo",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-40",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "harman-international-web-applications",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.harmanaudio.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.harmankardon.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.support.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.nl",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.ru",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.uk.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.uk.harmanaudio.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.de.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.in.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jp.jbl.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.jbl.com.br",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dracoon-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/oauth",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://0-2744452194.s3.nbg01.de.dracoon.io",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/mediaserver",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/reporting/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/webdav",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/oauth",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/reporting/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/webdav",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "otto-de-bug-bounty",
         "bounty": 1,
         "active": 1,
@@ -180,20 +350,6 @@
         }
     },
     {
-        "handle": "bookbeat",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.bookbeat.com",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "dailymotion-public-bug-bounty",
         "bounty": 1,
         "active": 1,
@@ -306,64 +462,6 @@
                 {
                     "identifier": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
                     "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "harman-international-web-applications",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.harmanaudio.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.harmankardon.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.support.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.nl",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.ru",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.uk.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.uk.harmanaudio.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.de.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.in.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jp.jbl.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.jbl.com.br",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -779,20 +877,6 @@
                 },
                 {
                     "identifier": "*. vfsevisa.id",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dojo",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-40",
                     "type": "web-application"
                 }
             ],
@@ -1628,64 +1712,6 @@
         }
     },
     {
-        "handle": "dracoon-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/oauth",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://0-2744452194.s3.nbg01.de.dracoon.io",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/mediaserver",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/reporting/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/webdav",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/oauth",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/reporting/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/webdav",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "contentsquare-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1732,32 +1758,6 @@
                 {
                     "identifier": "Interoperability Issue in OpenPGP.js",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "blackbox-bforbank-mobile",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.bforbank.android",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/bforbank-banque-en-ligne/id1607839793",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://gtw-b2capps.bforbank.com/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://gtw-b2capps.bforbank.com/customer-acquisition/access-management/users*",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
