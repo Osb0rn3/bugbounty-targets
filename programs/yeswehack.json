@@ -1,9 +1,73 @@
 [
     {
-        "title": "OTTO.DE Bug Bounty",
-        "slug": "otto-de-bug-bounty",
-        "country": "DE",
-        "activity_area": "Retail",
+        "title": "GovTech - Vulnerability Disclosure Programme",
+        "slug": "govtech-vulnerability-disclosure-programme-policy",
+        "country": "SG",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "vdp-in-app",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": false,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": false,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": true,
+        "archived": false,
+        "reports_count": 490,
+        "bounty_reward_min": null,
+        "bounty_reward_max": null,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
+            "original_name": "govtech_logo1.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 88875,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Government Technology Agency of Singapore",
+            "slug": "government-technology-agency-of-singapore",
+            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
+                "original_name": "GovTech300x300.png",
+                "mime_type": "image/png",
+                "size": 61833,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
+            }
+        },
+        "kyc_required": false,
+        "scopes_enabled": true,
+        "scopes": [
+            {
+                "scope": "*.gov.sg",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "Domains where GovTech is the registrar",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Coindcx - Bug Bounty Program",
+        "slug": "coindcx-bug-bounty-program",
+        "country": "IN",
+        "activity_area": "Finance/Assurance",
         "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
@@ -19,100 +83,596 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 345,
+        "reports_count": 167,
         "bounty_reward_min": 50,
-        "bounty_reward_max": 2500,
-        "scopes_count": 11,
+        "bounty_reward_max": 2000,
+        "scopes_count": 4,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "c2eb0a8e-ef1f-4638-b25d-f44222a1823a",
-            "original_name": "logo(1).png",
+            "name": "7a463f4d-61ce-4bdf-8a7e-62b7ca14df72",
+            "original_name": "coindcx.png",
             "mime_type": "image/png",
-            "size": 9348,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c2eb0a8e-ef1f-4638-b25d-f44222a1823a"
+            "size": 3849,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7a463f4d-61ce-4bdf-8a7e-62b7ca14df72"
         },
         "event": null,
         "business_unit": {
-            "name": "OTTO (GmbH & Co. KG)",
-            "slug": "otto-gmbh-co-kg",
-            "description": "Online Shop",
-            "currency": "EUR",
+            "name": "Coindcx",
+            "slug": "coindcx",
+            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
+            "currency": "USD",
             "already_activate_product": true,
             "logo": {
-                "name": "744a6e63-dc3e-49ef-9e1e-06f1558d21b8",
-                "original_name": "otto-logo-2015.png",
-                "mime_type": "image/png",
-                "size": 22019,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/744a6e63-dc3e-49ef-9e1e-06f1558d21b8"
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
             }
         },
         "kyc_required": null,
         "scopes_enabled": null,
         "scopes": [
             {
-                "scope": "https://www.otto.de",
+                "scope": "*.coindcx.com",
                 "scope_type": "web-application",
-                "asset_value": "MEDIUM",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://www.otto.de/jobs",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
+                "scope": "api.coindcx.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
                 "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+                "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
                 "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "FDJ United (Online Betting and Gaming) - Bug Bounty program",
+        "slug": "fdj-united-online-betting-gambling-bug-bounty-program",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 114,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 7000,
+        "scopes_count": 33,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "2c7792a5-972a-4843-a94c-1c57d9304a47",
+            "original_name": "LOGOFDJUNITEDIconeBleuClairRVB.png",
+            "mime_type": "image/png",
+            "size": 11827,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/2c7792a5-972a-4843-a94c-1c57d9304a47"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "FDJ UNITED (Online Betting and Gaming)",
+            "slug": "kindred-group",
+            "description": "FDJ UNITED (Online Betting and Gaming) is an online gambling operator offering products like online casino, poker, bingo, and sports betting through different brands, like Unibet, Maria Casino, Vlad Cazino, and 32Red.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "d3d9d45b-ae76-4a4c-9d95-d0422fcace37",
+                "original_name": "LOGOFDJUNITEDIconeBleuClairRVB.png",
+                "mime_type": "image/png",
+                "size": 15368,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/d3d9d45b-ae76-4a4c-9d95-d0422fcace37"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "www.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "fi.unibet.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.mariacasino.(com|se|ee|dk)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "fi.mariacasino.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.mariacasino.(com|se|ee|dk)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "int.32red.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.bingo.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "(se|fi|uk).bingo.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.bingo.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.ottokasino.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "en.ottokasino.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.ottokasino.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.ottocasino.se",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.ottocasino.se",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.kolikkopelit.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "en.kolikkopelit.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.kolikkopelit.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.storspiller.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.storspiller.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.storspelare.se",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.storspelare.se",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.casinohuone.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "en.casinohuone.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.casinohuone.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.vladcazino.ro",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.vladcazino.ro",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://pci.kindredgroup.com",
+                "scope_type": "mobile-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.32red.com/",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "/blog/ endpoints on our sites",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://itunes.apple.com/gb/app/unibet-live-sports-betting/id463335337",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://itunes.apple.com/gb/app/unibet-casino-slots-games/id905382680",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "HARMAN International - Web Applications",
+        "slug": "harman-international-web-applications",
+        "country": "US",
+        "activity_area": "Manufacturing",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 736,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 4000,
+        "scopes_count": 12,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "893e330d-95e9-48d1-bb81-0ad52b2d2cdc",
+            "original_name": "download-1.png",
+            "mime_type": "image/png",
+            "size": 5457,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/893e330d-95e9-48d1-bb81-0ad52b2d2cdc"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Harman International",
+            "slug": "harman-international",
+            "description": "HARMAN designs and engineers c\u200bonnected products and solutions for automakers, consumers, and enterprises worldwide, including connected car systems, audio and visual products, enterprise automat\u200bion solutions; and connected services. Our talented workforce and innovation strength create value for our stakeholders by enabli\u200bng rich experiences through the connected car, connected enterprise and connected lifestyle.  Audi\u200b\u200bophiles from every generation call on HARMAN to deliver the best in sound in the studio and on the stage, at home and on the go. HARMAN\u2019s portfolio of legendary audio brands includes AKG\u00ae, Harman Kardon\u00ae, Infinity\u00ae, JBL\u00ae, Lexicon\u00ae, Mark Levinson\u00aeand Revel\u00ae. More than 50 million vehicles on the road today enjoy an enhanced driving experience, thanks to HARMAN audio and infotainment. We extend the same spirit of innovation to the world\u2019s leading performance and sporting venues, providing everyone with the best seats in the house.  Seizing the rich opportunities of today\u2019s global markets requires more than legendary sound. HARMAN has reshaped our organization and cost structure to make the Company more agile in a changing world and addressed the rising importance of highly integrated, software-rich products and services. Most importantly, our track record of innovation, which has distinguished HARMAN and its premium audio and infotainment brands for more than 60 years, continues.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "9b1ebb29-0de1-4e52-952d-15b4acc0c111",
+                "original_name": "harman-logo.PNG",
+                "mime_type": "image/png",
+                "size": 39950,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/9b1ebb29-0de1-4e52-952d-15b4acc0c111"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "*.jbl.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.harmanaudio.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.harmankardon.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.support.jbl.com",
+                "scope_type": "web-application",
                 "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://www.lascana.de/",
+                "scope": "*.jbl.nl",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://teleoptiprd.otto.de",
+                "scope": "*.jbl.ru",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://mmp.otto.de",
+                "scope": "*.uk.jbl.com",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://partnerprogramm.otto.de",
+                "scope": "*.uk.harmanaudio.com",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://orbidder.otto.de",
+                "scope": "*.de.jbl.com",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://supplier-connect.otto.de",
+                "scope": "*.in.jbl.com",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://retail-api.otto.de",
+                "scope": "*.jp.jbl.com",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.jbl.com.br",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Telenor Sweden Public Bug Bounty Program",
+        "slug": "telenor-sweden-public-bug-bounty-program",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 877,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 5000,
+        "scopes_count": 7,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "9e00fffbba8e89ef7e93a4d734bf0182",
+            "original_name": "medium-082660b0-1ade-4467-ab86b8388fff5928.jpg",
+            "mime_type": "image/jpeg",
+            "size": 17150,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/9e00fffbba8e89ef7e93a4d734bf0182"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Telenor Sweden",
+            "slug": "telenor-sweden",
+            "description": "Telecommunication",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "d5cf78e6-ddba-494a-9f8d-1a2c98151ac0",
+                "original_name": "telenor.png",
+                "mime_type": "image/png",
+                "size": 5381,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/d5cf78e6-ddba-494a-9f8d-1a2c98151ac0"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "*.telenor.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.bredbandsbolaget.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.europolitan.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.ownit.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vimla.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vimla.work",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vimla.io",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Th\u00fcringer Aufbaubank Bug Bounty Program",
+        "slug": "thuringer-aufbaubank-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 37,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 5000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "7eaaffd6-77dd-4083-be55-7e304a3e9a33",
+            "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
+            "mime_type": "image/jpeg",
+            "size": 3259,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7eaaffd6-77dd-4083-be55-7e304a3e9a33"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Th\u00fcringer Aufbaubank",
+            "slug": "thuringer-aufbaubank",
+            "description": "Anstalt \u00f6ffentlichen Rechts",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "4ad2516f-6e14-4a14-bc6c-7b16cb00af8e",
+                "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
+                "mime_type": "image/jpeg",
+                "size": 3259,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/4ad2516f-6e14-4a14-bc6c-7b16cb00af8e"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "https://thueringer-foerderportal.eu",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://ecohesion.aufbaubank.de",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://login.aufbaubank.de",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -137,7 +697,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 428,
+        "reports_count": 432,
         "bounty_reward_min": 100,
         "bounty_reward_max": 10000,
         "scopes_count": 9,
@@ -243,7 +803,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1904,
+        "reports_count": 1905,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -277,6 +837,490 @@
                 "scope": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-40",
                 "scope_type": "web-application",
                 "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Pine Labs Bug Bounty Program",
+        "slug": "pine-labs-bug-bounty-program",
+        "country": "IN",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 352,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 1000,
+        "scopes_count": 23,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "525979cd-cb9d-41f0-8b02-04d0a348a32b",
+            "original_name": "index.jpg",
+            "mime_type": "image/jpeg",
+            "size": 3200,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/525979cd-cb9d-41f0-8b02-04d0a348a32b"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Pine Labs Pvt Ltd",
+            "slug": "pine-labs-pvt-ltd",
+            "description": "Payment Services for Retail Merchant",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "73fb6711-2053-47d2-b586-509bf0ec44d5",
+                "original_name": "PL_tagline_Logo_Original_color.png",
+                "mime_type": "image/png",
+                "size": 16442,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/73fb6711-2053-47d2-b586-509bf0ec44d5"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "https://billingserver.pinelabs.com/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "dashboard.pluralonline.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://lounge.pinelabs.com/loungeui/login",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://pinepgconsole.in:9099",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://paymentoptimizerdashboard.pinepg.in/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "analytics.pinelabs.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "corporate.pineperks.in",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "www.pineperks.in",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://myplutus.pinelabs.my/",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "trm.pinepaymentsolutions.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://trm.pinelabs.ae",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.pinelabs.ae/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.letspaylater.ph/",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/in/app/pineperks/id908644471",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.pinegift",
+                "scope_type": "mobile-application-android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://credit.pinelabs.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.pinelabsone",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/in/app/pine-labs-one/id6444654068",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://one.pinelabs.com/",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://plmcixt.pinelabs.com/",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://emistores.pinelabs.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://springboard.pinelabs.com",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "OTTO.DE Bug Bounty",
+        "slug": "otto-de-bug-bounty",
+        "country": "DE",
+        "activity_area": "Retail",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 346,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2500,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c2eb0a8e-ef1f-4638-b25d-f44222a1823a",
+            "original_name": "logo(1).png",
+            "mime_type": "image/png",
+            "size": 9348,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c2eb0a8e-ef1f-4638-b25d-f44222a1823a"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "OTTO (GmbH & Co. KG)",
+            "slug": "otto-gmbh-co-kg",
+            "description": "Online Shop",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "744a6e63-dc3e-49ef-9e1e-06f1558d21b8",
+                "original_name": "otto-logo-2015.png",
+                "mime_type": "image/png",
+                "size": 22019,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/744a6e63-dc3e-49ef-9e1e-06f1558d21b8"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "https://www.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.otto.de/jobs",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.lascana.de/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://teleoptiprd.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://mmp.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://partnerprogramm.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://orbidder.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://supplier-connect.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://retail-api.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Dailymotion public bug bounty",
+        "slug": "dailymotion-public-bug-bounty",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 1336,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 3000,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "f6218677-806e-40e7-88ee-8ccb707cd87c",
+            "original_name": "dailymotion-logo-ogtag-new.png",
+            "mime_type": "image/png",
+            "size": 84668,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/f6218677-806e-40e7-88ee-8ccb707cd87c"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Dailymotion",
+            "slug": "dailymotion",
+            "description": "Dailymotion.com is a video broadcasting and advertising platform than has 3 billion video views a month over web, mobile and smart TVs apps.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "34d87a778f698f059187586302527e70",
+                "original_name": "c63c63f5cdb0c05b810b88b4c9d59c13.png",
+                "mime_type": "image/png",
+                "size": 6885,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/34d87a778f698f059187586302527e70"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "*.dailymotion.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.api.dailymotion.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "developer.dailymotion.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.dmcdn.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "ifttt-adaptor.pub.kube.dm.gg",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "AS41690",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "dmxleo.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.dm.gg",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Google Cloud Plateform Instances",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "BookBeat",
+        "slug": "bookbeat",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 196,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "306f6c1e-b790-4baf-abad-5bcd11246d3f",
+            "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
+            "mime_type": "image/png",
+            "size": 7732,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/306f6c1e-b790-4baf-abad-5bcd11246d3f"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "BookBeat",
+            "slug": "bookbeat",
+            "description": "BookBeat",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "5a6d55c8-01d1-4130-a98b-1a6f64cef6d9",
+                "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
+                "mime_type": "image/png",
+                "size": 7732,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/5a6d55c8-01d1-4130-a98b-1a6f64cef6d9"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "https://www.bookbeat.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -459,188 +1503,6 @@
                 "scope": "https://gtw-b2capps.bforbank.com/customer-acquisition/access-management/users*",
                 "scope_type": "api",
                 "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "BookBeat",
-        "slug": "bookbeat",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 195,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "306f6c1e-b790-4baf-abad-5bcd11246d3f",
-            "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
-            "mime_type": "image/png",
-            "size": 7732,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/306f6c1e-b790-4baf-abad-5bcd11246d3f"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "BookBeat",
-            "slug": "bookbeat",
-            "description": "BookBeat",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "5a6d55c8-01d1-4130-a98b-1a6f64cef6d9",
-                "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
-                "mime_type": "image/png",
-                "size": 7732,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/5a6d55c8-01d1-4130-a98b-1a6f64cef6d9"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "https://www.bookbeat.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "HARMAN International - Web Applications",
-        "slug": "harman-international-web-applications",
-        "country": "US",
-        "activity_area": "Manufacturing",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 734,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 4000,
-        "scopes_count": 12,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "893e330d-95e9-48d1-bb81-0ad52b2d2cdc",
-            "original_name": "download-1.png",
-            "mime_type": "image/png",
-            "size": 5457,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/893e330d-95e9-48d1-bb81-0ad52b2d2cdc"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Harman International",
-            "slug": "harman-international",
-            "description": "HARMAN designs and engineers c\u200bonnected products and solutions for automakers, consumers, and enterprises worldwide, including connected car systems, audio and visual products, enterprise automat\u200bion solutions; and connected services. Our talented workforce and innovation strength create value for our stakeholders by enabli\u200bng rich experiences through the connected car, connected enterprise and connected lifestyle.  Audi\u200b\u200bophiles from every generation call on HARMAN to deliver the best in sound in the studio and on the stage, at home and on the go. HARMAN\u2019s portfolio of legendary audio brands includes AKG\u00ae, Harman Kardon\u00ae, Infinity\u00ae, JBL\u00ae, Lexicon\u00ae, Mark Levinson\u00aeand Revel\u00ae. More than 50 million vehicles on the road today enjoy an enhanced driving experience, thanks to HARMAN audio and infotainment. We extend the same spirit of innovation to the world\u2019s leading performance and sporting venues, providing everyone with the best seats in the house.  Seizing the rich opportunities of today\u2019s global markets requires more than legendary sound. HARMAN has reshaped our organization and cost structure to make the Company more agile in a changing world and addressed the rising importance of highly integrated, software-rich products and services. Most importantly, our track record of innovation, which has distinguished HARMAN and its premium audio and infotainment brands for more than 60 years, continues.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "9b1ebb29-0de1-4e52-952d-15b4acc0c111",
-                "original_name": "harman-logo.PNG",
-                "mime_type": "image/png",
-                "size": 39950,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/9b1ebb29-0de1-4e52-952d-15b4acc0c111"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "*.jbl.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.harmanaudio.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.harmankardon.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.support.jbl.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.jbl.nl",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.jbl.ru",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.uk.jbl.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.uk.harmanaudio.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.de.jbl.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.in.jbl.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.jp.jbl.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.jbl.com.br",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -964,200 +1826,6 @@
         ]
     },
     {
-        "title": "Dailymotion public bug bounty",
-        "slug": "dailymotion-public-bug-bounty",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 1335,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 3000,
-        "scopes_count": 11,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "f6218677-806e-40e7-88ee-8ccb707cd87c",
-            "original_name": "dailymotion-logo-ogtag-new.png",
-            "mime_type": "image/png",
-            "size": 84668,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/f6218677-806e-40e7-88ee-8ccb707cd87c"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Dailymotion",
-            "slug": "dailymotion",
-            "description": "Dailymotion.com is a video broadcasting and advertising platform than has 3 billion video views a month over web, mobile and smart TVs apps.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "34d87a778f698f059187586302527e70",
-                "original_name": "c63c63f5cdb0c05b810b88b4c9d59c13.png",
-                "mime_type": "image/png",
-                "size": 6885,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/34d87a778f698f059187586302527e70"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "*.dailymotion.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.api.dailymotion.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "developer.dailymotion.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.dmcdn.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "ifttt-adaptor.pub.kube.dm.gg",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "AS41690",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "dmxleo.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.dm.gg",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Google Cloud Plateform Instances",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Coindcx - Bug Bounty Program",
-        "slug": "coindcx-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 164,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "7a463f4d-61ce-4bdf-8a7e-62b7ca14df72",
-            "original_name": "coindcx.png",
-            "mime_type": "image/png",
-            "size": 3849,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7a463f4d-61ce-4bdf-8a7e-62b7ca14df72"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Coindcx",
-            "slug": "coindcx",
-            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "*.coindcx.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "api.coindcx.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "ATG Public Bug Bounty Program",
         "slug": "atg-public-bug-bounty-program",
         "country": "SE",
@@ -1405,256 +2073,6 @@
                 "scope": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
                 "scope_type": "mobile-application-ios",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "FDJ United (Online Betting and Gaming) - Bug Bounty program",
-        "slug": "fdj-united-online-betting-gambling-bug-bounty-program",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 111,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 7000,
-        "scopes_count": 33,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "2c7792a5-972a-4843-a94c-1c57d9304a47",
-            "original_name": "LOGOFDJUNITEDIconeBleuClairRVB.png",
-            "mime_type": "image/png",
-            "size": 11827,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/2c7792a5-972a-4843-a94c-1c57d9304a47"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "FDJ UNITED (Online Betting and Gaming)",
-            "slug": "kindred-group",
-            "description": "FDJ UNITED (Online Betting and Gaming) is an online gambling operator offering products like online casino, poker, bingo, and sports betting through different brands, like Unibet, Maria Casino, Vlad Cazino, and 32Red.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "d3d9d45b-ae76-4a4c-9d95-d0422fcace37",
-                "original_name": "LOGOFDJUNITEDIconeBleuClairRVB.png",
-                "mime_type": "image/png",
-                "size": 15368,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/d3d9d45b-ae76-4a4c-9d95-d0422fcace37"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "www.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au)",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "fi.unibet.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au)",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.mariacasino.(com|se|ee|dk)",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "fi.mariacasino.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.mariacasino.(com|se|ee|dk)",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "int.32red.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.bingo.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "(se|fi|uk).bingo.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.bingo.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.ottokasino.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "en.ottokasino.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.ottokasino.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.ottocasino.se",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.ottocasino.se",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.kolikkopelit.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "en.kolikkopelit.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.kolikkopelit.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.storspiller.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.storspiller.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.storspelare.se",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.storspelare.se",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.casinohuone.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "en.casinohuone.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.casinohuone.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.vladcazino.ro",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.vladcazino.ro",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://pci.kindredgroup.com",
-                "scope_type": "mobile-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.32red.com/",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "/blog/ endpoints on our sites",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://itunes.apple.com/gb/app/unibet-live-sports-betting/id463335337",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://itunes.apple.com/gb/app/unibet-casino-slots-games/id905382680",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -2444,70 +2862,6 @@
         ]
     },
     {
-        "title": "GovTech - Vulnerability Disclosure Programme",
-        "slug": "govtech-vulnerability-disclosure-programme-policy",
-        "country": "SG",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "vdp-in-app",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": false,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": false,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": true,
-        "archived": false,
-        "reports_count": 488,
-        "bounty_reward_min": null,
-        "bounty_reward_max": null,
-        "scopes_count": 2,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
-            "original_name": "govtech_logo1.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 88875,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Government Technology Agency of Singapore",
-            "slug": "government-technology-agency-of-singapore",
-            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
-                "original_name": "GovTech300x300.png",
-                "mime_type": "image/png",
-                "size": 61833,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
-            }
-        },
-        "kyc_required": false,
-        "scopes_enabled": true,
-        "scopes": [
-            {
-                "scope": "*.gov.sg",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Domains where GovTech is the registrar",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Cybermalveillance.gouv.fr  - sensibilization, prevention and support in terms of cybersecurity",
         "slug": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
         "country": "FR",
@@ -2667,100 +3021,6 @@
                 "scope": "https://paymayabiller-prod.paymaya.com/",
                 "scope_type": "api",
                 "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Telenor Sweden Public Bug Bounty Program",
-        "slug": "telenor-sweden-public-bug-bounty-program",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 872,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 5000,
-        "scopes_count": 7,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "9e00fffbba8e89ef7e93a4d734bf0182",
-            "original_name": "medium-082660b0-1ade-4467-ab86b8388fff5928.jpg",
-            "mime_type": "image/jpeg",
-            "size": 17150,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/9e00fffbba8e89ef7e93a4d734bf0182"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Telenor Sweden",
-            "slug": "telenor-sweden",
-            "description": "Telecommunication",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "d5cf78e6-ddba-494a-9f8d-1a2c98151ac0",
-                "original_name": "telenor.png",
-                "mime_type": "image/png",
-                "size": 5381,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/d5cf78e6-ddba-494a-9f8d-1a2c98151ac0"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "*.telenor.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.bredbandsbolaget.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.europolitan.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.ownit.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.work",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.io",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -3312,196 +3572,6 @@
             {
                 "scope": "https://bot-tester.datadome.co/",
                 "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Pine Labs Bug Bounty Program",
-        "slug": "pine-labs-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 350,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 1000,
-        "scopes_count": 23,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "525979cd-cb9d-41f0-8b02-04d0a348a32b",
-            "original_name": "index.jpg",
-            "mime_type": "image/jpeg",
-            "size": 3200,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/525979cd-cb9d-41f0-8b02-04d0a348a32b"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Pine Labs Pvt Ltd",
-            "slug": "pine-labs-pvt-ltd",
-            "description": "Payment Services for Retail Merchant",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "73fb6711-2053-47d2-b586-509bf0ec44d5",
-                "original_name": "PL_tagline_Logo_Original_color.png",
-                "mime_type": "image/png",
-                "size": 16442,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/73fb6711-2053-47d2-b586-509bf0ec44d5"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "https://billingserver.pinelabs.com/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "dashboard.pluralonline.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://lounge.pinelabs.com/loungeui/login",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://pinepgconsole.in:9099",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://paymentoptimizerdashboard.pinepg.in/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "analytics.pinelabs.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "corporate.pineperks.in",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "www.pineperks.in",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://myplutus.pinelabs.my/",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "trm.pinepaymentsolutions.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://trm.pinelabs.ae",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.pinelabs.ae/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.letspaylater.ph/",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/in/app/pineperks/id908644471",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.pinegift",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://credit.pinelabs.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.pinelabsone",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/in/app/pine-labs-one/id6444654068",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://one.pinelabs.com/",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://plmcixt.pinelabs.com/",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://emistores.pinelabs.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://springboard.pinelabs.com",
-                "scope_type": "api",
                 "asset_value": "HIGH",
                 "report_count": null
             }
@@ -5202,76 +5272,6 @@
             {
                 "scope": "*.okto.tech",
                 "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Th\u00fcringer Aufbaubank Bug Bounty Program",
-        "slug": "thuringer-aufbaubank-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 36,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 5000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "7eaaffd6-77dd-4083-be55-7e304a3e9a33",
-            "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
-            "mime_type": "image/jpeg",
-            "size": 3259,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7eaaffd6-77dd-4083-be55-7e304a3e9a33"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Th\u00fcringer Aufbaubank",
-            "slug": "thuringer-aufbaubank",
-            "description": "Anstalt \u00f6ffentlichen Rechts",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "4ad2516f-6e14-4a14-bc6c-7b16cb00af8e",
-                "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
-                "mime_type": "image/jpeg",
-                "size": 3259,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/4ad2516f-6e14-4a14-bc6c-7b16cb00af8e"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "https://thueringer-foerderportal.eu",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://ecohesion.aufbaubank.de",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://login.aufbaubank.de",
-                "scope_type": "web-application",
                 "asset_value": "CRITICAL",
                 "report_count": null
             }
