@@ -1,5 +1,161 @@
 [
     {
+        "handle": "otto-de-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.otto.de/jobs",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://www.lascana.de/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://teleoptiprd.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://mmp.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://partnerprogramm.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://orbidder.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://supplier-connect.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://retail-api.otto.de",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "atg-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.atg.se",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.atg.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.atg.se",
+                    "type": "api"
+                },
+                {
+                    "identifier": "iam.atg.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/se/app/atg/id1434660322",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://apps.apple.com/se/app/atg-live/id1608156355",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "govtech-vulnerability-disclosure-programme-policy",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.gov.sg",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Domains where GovTech is the registrar",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "dojo",
         "bounty": 0,
         "active": 1,
@@ -202,90 +358,6 @@
         }
     },
     {
-        "handle": "atg-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.atg.se",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.atg.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.atg.se",
-                    "type": "api"
-                },
-                {
-                    "identifier": "iam.atg.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/se/app/atg/id1434660322",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://apps.apple.com/se/app/atg-live/id1608156355",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
-                    "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "harman-international-web-applications",
         "bounty": 1,
         "active": 1,
@@ -333,60 +405,6 @@
                 },
                 {
                     "identifier": "*.jbl.com.br",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "otto-de-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.otto.de/jobs",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://www.lascana.de/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://teleoptiprd.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://mmp.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://partnerprogramm.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://orbidder.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://supplier-connect.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://retail-api.otto.de",
                     "type": "web-application"
                 }
             ],
@@ -720,24 +738,6 @@
                 {
                     "identifier": "*.ys7.com",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "govtech-vulnerability-disclosure-programme-policy",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.gov.sg",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Domains where GovTech is the registrar",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
