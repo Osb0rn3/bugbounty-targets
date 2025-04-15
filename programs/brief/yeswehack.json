@@ -1,141 +1,75 @@
 [
     {
-        "handle": "fdj-united-online-betting-gaming-bug-bounty-program",
+        "handle": "swiss-post",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "www.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au)",
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "fi.unibet.com",
+                    "identifier": "https://shop.post.ch/shop",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "payment.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au)",
+                    "identifier": "https://service.post.ch/ekp-web/",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "www.mariacasino.(com|se|ee|dk)",
+                    "identifier": "https://service.post.ch/zopa/app/",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "fi.mariacasino.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.mariacasino.(com|se|ee|dk)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "int.32red.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.bingo.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "(se|fi|uk).bingo.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.bingo.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.ottokasino.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "en.ottokasino.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.ottokasino.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.ottocasino.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.ottocasino.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.kolikkopelit.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "en.kolikkopelit.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.kolikkopelit.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.storspiller.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.storspiller.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.storspelare.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.storspelare.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.casinohuone.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "en.casinohuone.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.casinohuone.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.vladcazino.ro",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.vladcazino.ro",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pci.kindredgroup.com",
-                    "type": "mobile-application"
-                },
-                {
-                    "identifier": "https://www.32red.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "/blog/ endpoints on our sites",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://itunes.apple.com/gb/app/unibet-live-sports-betting/id463335337",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://itunes.apple.com/gb/app/unibet-casino-slots-games/id905382680",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
                     "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "spacelift-io-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://spacelift.dev/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://*.app.spacelift.dev",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Native K8S workers and operator",
+                    "type": "application"
+                },
+                {
+                    "identifier": "OIDC-based API keys",
+                    "type": "application"
+                },
+                {
+                    "identifier": "MFA",
+                    "type": "application"
                 }
             ],
             "out_of_scope": []
@@ -274,6 +208,148 @@
                 {
                     "identifier": "*.vfsai.com",
                     "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "fdj-united-online-betting-gaming-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "fi.unibet.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.mariacasino.(com|se|ee|dk)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "fi.mariacasino.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.mariacasino.(com|se|ee|dk)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "int.32red.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.bingo.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "(se|fi|uk).bingo.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.bingo.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.ottokasino.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "en.ottokasino.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.ottokasino.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.ottocasino.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.ottocasino.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.kolikkopelit.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "en.kolikkopelit.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.kolikkopelit.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.storspiller.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.storspiller.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.storspelare.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.storspelare.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.casinohuone.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "en.casinohuone.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.casinohuone.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.vladcazino.ro",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.vladcazino.ro",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pci.kindredgroup.com",
+                    "type": "mobile-application"
+                },
+                {
+                    "identifier": "https://www.32red.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "/blog/ endpoints on our sites",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://itunes.apple.com/gb/app/unibet-live-sports-betting/id463335337",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://itunes.apple.com/gb/app/unibet-casino-slots-games/id905382680",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
+                    "type": "mobile-application-android"
                 }
             ],
             "out_of_scope": []
@@ -886,52 +962,6 @@
         }
     },
     {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "bug-bounty-sncf-connect-1",
         "bounty": 1,
         "active": 1,
@@ -1514,36 +1544,6 @@
                 {
                     "identifier": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
                     "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "spacelift-io-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://spacelift.dev/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://*.app.spacelift.dev",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Native K8S workers and operator",
-                    "type": "application"
-                },
-                {
-                    "identifier": "OIDC-based API keys",
-                    "type": "application"
-                },
-                {
-                    "identifier": "MFA",
-                    "type": "application"
                 }
             ],
             "out_of_scope": []
