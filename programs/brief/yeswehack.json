@@ -1,5 +1,153 @@
 [
     {
+        "handle": "ezviz-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
+                    "type": "other"
+                },
+                {
+                    "identifier": "i.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "open.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "auth.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "usauth.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ius.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ys7.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dojo",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-40",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "atg-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.atg.se",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.atg.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.atg.se",
+                    "type": "api"
+                },
+                {
+                    "identifier": "iam.atg.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/se/app/atg/id1434660322",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://apps.apple.com/se/app/atg-live/id1608156355",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "owncloud-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -92,44 +240,6 @@
                 {
                     "identifier": "https://github.com/owncloud/ios-app",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "atg-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.atg.se",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.atg.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.atg.se",
-                    "type": "api"
-                },
-                {
-                    "identifier": "iam.atg.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/se/app/atg/id1434660322",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://apps.apple.com/se/app/atg-live/id1608156355",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
-                    "type": "mobile-application-android"
                 }
             ],
             "out_of_scope": []
@@ -416,52 +526,6 @@
         }
     },
     {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "vfs-global-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -594,20 +658,6 @@
                 {
                     "identifier": "*.vfsai.com",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dojo",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-40",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -1346,56 +1396,6 @@
                 {
                     "identifier": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
                     "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "ezviz-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
-                    "type": "other"
-                },
-                {
-                    "identifier": "i.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "open.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "auth.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "usauth.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ius.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.ys7.com",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
