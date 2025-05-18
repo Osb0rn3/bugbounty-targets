@@ -30,12 +30,9 @@ class HackerOneAPI(API):
             List[dict]: A list of dictionaries representing the response JSON for each page.
         """
         results = []
-        params = {
-            'page[size]': 100
-        }
 
         while True:
-            response_json = self.get(endpoint, params=params)
+            response_json = self.get(endpoint)
             results.append(response_json)
 
             if 'next' in response_json['links']:

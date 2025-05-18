@@ -43,7 +43,7 @@ class PublicPrograms:
         Returns:
             List[dict]: A list of dictionaries representing public programs.
         """
-        endpoint = f'{self.api.base_url}/v1/hackers/programs'
+        endpoint = f'{self.api.base_url}/v1/hackers/programs?page[size]=100'
         response_json = self.api.paginate(endpoint)
 
         for response in response_json:
